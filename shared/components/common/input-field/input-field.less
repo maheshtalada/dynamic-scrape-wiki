@@ -1,0 +1,72 @@
+/*https://codepen.io/sevilayha/pen/IdGKH*/
+.mdl-input-group {
+	position:relative;
+	margin:20px 0;
+	width: 300px;
+	input {
+		font-size: 1.6rem;
+		padding:4px 0;
+		display:block;
+		width:100%;
+		border:none;
+		border-bottom:1px solid rgba(0,0,0,0.4);
+		&:focus {
+			outline: none;
+		}
+	}
+	/* LABEL ======================================= */
+	label 				 {
+		color:rgba(0,0,0,0.26);
+		font-size:1.6rem;
+		font-weight:normal;
+		position:absolute;
+		pointer-events:none;
+		left:5px;
+		top:6px;
+		transition:0.2s ease all;
+		-moz-transition:0.2s ease all;
+		-webkit-transition:0.2s ease all;
+	}
+	/* active state */
+	input:focus ~ label, input:valid ~ label {
+		top:-15px;
+		font-size:1.2rem;
+		left: 0;
+		color:@color-base-primary-green;
+	}
+	/* BOTTOM BARS ================================= */
+	.bar {
+		position:relative;
+		display:block;
+		width:100%;
+	}
+	.bar:before, .bar:after 	{
+		content:'';
+		height:2px;
+		width:0;
+		bottom:1px;
+		position:absolute;
+		background:@color-base-primary-green;
+		transition:0.2s ease all;
+		-moz-transition:0.2s ease all;
+		-webkit-transition:0.2s ease all;
+	}
+	.bar:before {
+		left:50%;
+	}
+	.bar:after {
+		right:50%;
+	}
+
+	/* active state */
+	input:focus ~ .bar:before, input:focus ~ .bar:after {
+		width:50%;
+	}
+
+	.password-show-toogle-btn {
+		position: absolute;
+		right: 0;
+		top: 8px;
+		font-size: 1.3rem;
+	}
+}

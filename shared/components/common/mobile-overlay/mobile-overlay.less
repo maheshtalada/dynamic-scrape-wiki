@@ -1,0 +1,130 @@
+.mobile-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    animation: fadeInUp 0.5s;
+    z-index: 15;
+    padding: 10px 10px 60px 10px;
+    background-color: @color-base-white;
+    left: 0;
+    &.search-widget-overlay {
+        animation: none;
+    }
+    &.no-close {
+        padding: 10px;
+    }
+    &__close-wrap {
+        position: fixed;
+        width: 100%;
+        padding: 10px 0;
+        border-top: 1px solid @grey-500;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-color: @color-base-white;
+    }
+    // &__close {
+    //     padding: 0;
+    //     position: absolute;
+    //     top: 5px;
+    //     right: 5px;
+    //     i {
+    //         font-size: 2rem;
+    //         color: @color-base-primary-green;
+    //     }
+    // }
+    &.sort-options-overlay {
+        .dropdown-content {
+            position: relative;
+            top: 0;
+            left: 0;
+            box-shadow: none;
+			width: auto;
+			white-space: nowrap;
+        }
+    }
+    .save-search__save-name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        input {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 15px;
+            font-size: 1.5rem;
+            border: 1px solid @grey-400;
+        }
+    }
+    .analyze-returns-popup {
+        &__close-btn {
+            display: none;
+        }
+        position: relative;
+        top: 0;
+        box-shadow: none;
+    }
+    .lead-realtors {
+        max-height: none;
+	    overflow: unset;
+    }
+    .search-by-category {
+        .select-wrapper {
+            width: 100%;
+            margin-bottom: 13px;
+            &__select-btn {
+                &__value {
+                    max-width: unset;
+                }
+            }
+        }
+    }
+
+	.metros-served {
+		&__container {
+			justify-content : flex-start;
+			.map-img-wrap {
+				width: inherit;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: baseline;
+
+				a {
+					display: flex;
+					width: 100%;
+					.bp-xsmall({
+					 padding: 2px;
+					});
+
+					.bp-small({
+						padding: 6px;
+					})
+
+				}
+				.metro-wrap, .metro-wrap__name {
+					top: unset !important;
+					bottom: unset !important;
+					right: unset !important;
+					left: unset !important;
+					position: relative;
+					width: inherit ;
+					display: flex;
+					font-size: 1.6rem;
+				}
+
+			}
+
+
+		}
+	}
+
+
+}
+
+.react-redux-modal .rrm-body .mobile-overlay {
+	top : 45px;
+}

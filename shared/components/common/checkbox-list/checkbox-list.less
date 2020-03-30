@@ -1,0 +1,58 @@
+.checkbox-list-wrapper {
+
+	&__items {
+		font-size: 1.4rem;
+		line-height: 24px;
+		li {
+			list-style: none;
+			//margin-right: 10px;
+		}
+		.item {
+			&__sub-list {
+				padding-left: 24px;
+			}
+			.mdl-checkbox {
+				height: auto;
+			}
+		}
+		&__actions {
+			display: flex;
+			//justify-content: flex-end;
+			//padding: 5px 0;
+			button {
+				margin-right: 10px;
+				border-radius: 0;
+				text-decoration: underline;
+				font-size: 1.4rem;
+				padding: 0;
+				line-height: normal;
+				font-weight: 600;
+				color: @color-base-primary-green;
+				&:hover {
+					color: @color-fore-apple-green-accesibility;
+				}
+				&.separate {
+					border-right: 1px solid @grey-500;
+					padding-right: 11px;
+				}
+			}
+		}
+	}
+	.show-more {
+		font-size: 1.4rem;
+		font-weight: 600;
+		line-height: normal;
+		padding: 0;
+		border: 0;
+		width: 100%;
+		span {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+		i {
+			margin-right: 10px;
+			font-size: 1.7rem;
+		}
+	}
+}

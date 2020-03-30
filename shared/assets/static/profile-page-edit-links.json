@@ -1,0 +1,30 @@
+{
+    "profilePageLinks" : [
+      {
+        "name": "changepassword",
+        "label": "CHANGEPASSWORD",
+        "route": "/profile/changepassword",
+        "icon": "pe-7s-lock",
+        "activeSections": ["changepassword"],
+        "userRoles": [100,200,300,400,500]
+      },
+      {
+        "name": "preferences",
+        "label": "MYPREFERENCES",
+        "route": "/profile/preferences",
+        "icon": "pe-7s-config",
+        "activeSections": ["preferences"],
+        "userRoles": [100,200,300,400,500]
+      },
+      {
+        "name": "paypalconnect",
+        "label": "CONNECTPAYPAL",
+        "route": "/profile/connect-paypal",
+        "icon": "pe-7s-coin-icon",
+        "hidden" : true,
+        "activeSections": ["connect-paypal"],
+        "userRoles": [100,200,300,400,500]
+      }
+    ]
+  }
+  

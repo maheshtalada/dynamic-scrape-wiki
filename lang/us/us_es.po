@@ -1,0 +1,4180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-10 12:37+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+msgid "CAPTION7"
+msgstr "Analyze markets and properties at a deeper level"
+
+msgid "CAPTION8"
+msgstr "View rent and cap rate potential"
+
+msgid "MOBILEACCESSINFOTIP"
+msgstr "Our site is not yet optimized for mobile devices. Please use our desktop site."
+
+msgid "DONE"
+msgstr "Done"
+
+msgid "HIGHESTRENTPOTENTIAL"
+msgstr "Rent Potential (High to Low)"
+
+msgid "CAPRATESEARCHTAB"
+msgstr "4+ Cap Rate"
+
+msgid "ADVERTISEWITHUS"
+msgstr "Advertise with us"
+
+msgid "IRRYEARTEN"
+msgstr "IRR (Year 10)"
+
+msgid "CAPRATEYEARONE"
+msgstr "Cap Rate Potential (Year 1)"
+
+msgid "IRRTOOLTIP"
+msgstr "Internal Rate of Return. Includes 6% sale closing cost."
+
+msgid "IRRGRAPHNOTE"
+msgstr "Includes 6% sale closing cost"
+
+msgid "CAPRATELEGENDSNOTE"
+msgstr "Median cap rate potential"
+
+msgid "MEDIANPRICELEGENDSNOTE"
+msgstr "Median prices of active listings"
+
+msgid "RENTALUNITLEGENDSNOTE"
+msgstr "Rented vs self-occupied units"
+
+msgid "INCOMELEGENDSNOTE"
+msgstr "Median income"
+
+msgid "UNEMPLOYMENTLEGENDSNOTE"
+msgstr "Unemployment rate"
+
+msgid "POPULATIONLEGENDSNOTE"
+msgstr "Annual population growth"
+
+msgid "PROPERTYCRIMELEGENDSNOTE"
+msgstr "Crimes per 100K population"
+
+msgid "VIOLENTCRIMELEGENDSNOTE"
+msgstr "Crimes per 100K population"
+
+msgid "COMMUTETIMELEGENDSNOTE"
+msgstr "Median commute time to work"
+
+msgid "RECOMMENDATIONLEGENDSNOTE"
+msgstr "Investment market index"
+
+msgid "FIXERUPPERLEGENDNOTE"
+msgstr "Count of fixer properties"
+
+msgid "TURNKEYLEGENDNOTE"
+msgstr "Count of turn key properties"
+
+msgid "TURNKEYTOOLTIP"
+msgstr "A turn key property comes with a tenant and a PropsHub preferred property manager. Typically, this means rent is collected from the first day of ownership. Pay attention to the lease terms."
+
+msgid "FIXERUPPERTOOLTIP"
+msgstr "A fixer is a property that needs repairs to bring the property up to rentable condition. Typically, these properties are priced lower to account for the repair expenses. Compare prices to make sure that the list price reflects this expense. A PropsHub preferred realtor can help you with the rehab management."
+
+msgid "CAPRATESEARCHTOOLTIP"
+msgstr "Cap rate 4+ are properties that have the potential to offer a cap rate of 4 and above. Use the analyze returns feature to understand the return potential and verify the return potential with a PropsHub preferred realtor."
+
+msgid "POPULARSEEARCHES"
+msgstr "Popular Searches"
+
+msgid "POPULARSEARCHTABTOOLTIP"
+msgstr "View of popular searches like turn key, fixer & listing price by zip code."
+
+msgid "TURNKEYTABTOOLTIP"
+msgstr "View of turn key property counts by each zip code. A turn key property comes with a tenant and a PropsHub preferred property manager. Typically, this means rent is collected from the first day of ownership. Pay attention to the lease terms."
+
+msgid "FIXERUPPERTABTOOLTIP"
+msgstr "View of fixer property counts by each zip code. A fixer is a property that needs repairs to bring the property up to rentable condition. Typically, these properties are priced lower to account for the repair expenses. Compare prices to make sure that the list price reflects this expense. A PropsHub preferred realtor can help you with the rehab management."
+
+msgid "IRR"
+msgstr "IRR"
+
+msgid "DEMOGRAPHICSTABTOOLTIP"
+msgstr "View of demographics by zip code. Data sourced from United States Census Bureau and Federal Bureau of Investigation."
+
+msgid "GROSSRENTREVENUETOOLTIP"
+msgstr "Monthly rent times 12."
+
+msgid "MORTGAGEBROKER"
+msgstr "Mortgage Broker"
+
+msgid "REPORTANISSUE"
+msgstr "Report an issue"
+
+msgid "SUBJECT"
+msgstr "Subject"
+
+msgid "REAL_ESTATE_INVESTOR"
+msgstr "Real Estate Investor"
+
+msgid "USERREGISTRATIONTYPE"
+msgstr "I am a"
+
+msgid "NEEDLEGALADVICE"
+msgstr "Need legal advice"
+
+msgid "NEEDINSURANCE"
+msgstr "Need insurance"
+
+msgid "NEEDLOAN"
+msgstr "Need loan"
+
+msgid "NEEDINVESTMENTADVICE"
+msgstr "Need investment advice"
+
+msgid "NEEDBUYINGASSISTANCE"
+msgstr "Need buying assistance"
+
+msgid "PROVIDEFEEDBACK"
+msgstr "Send site feedback"
+
+msgid "REPORTINACCURACYESTIMATIONS"
+msgstr "Report inaccuracy"
+
+msgid "REPORTANISSUE"
+msgstr "Report an issue"
+
+msgid "PROVIDESUBJECT"
+msgstr "Provide subject"
+
+msgid "USERREGISTRATIONTYPETOOLTIP"
+msgstr "Your profession or specialty"
+
+msgid "REALESTATEPROFESSIONALS"
+msgstr "PropsHub preferred vendors"
+
+msgid "INCORPORATION_ATTORNEY"
+msgstr "Incorporation Attorney"
+
+msgid "INSURANCE_AGENT"
+msgstr "Insurance Agent"
+
+msgid "LOAN_OFFICER"
+msgstr "Loan Officer"
+
+msgid "FROM"
+msgstr "From"
+
+msgid "LISTEDTODAY"
+msgstr "Listed Today"
+
+msgid "EMAILINVALIDERROR"
+msgstr "The email entered is invalid. Please enter a valid email."
+
+msgid "ROOMGREATEROREQUALBEDROOM "
+msgstr "The total number of rooms should be greater than or equal to the number of bedrooms."
+
+msgid "VIEWTYPESTOOLTIP"
+msgstr "Provide views seen from your property such as mountain view, pool view, park view etc."
+
+msgid "ADDVIEWTYPES"
+msgstr "Add View Type"
+
+msgid "SEARCHORCLICKTEXT"
+msgstr "Search above or click below"
+
+msgid "PROPSHUBINDEX1"
+msgstr "1 (least favorable)"
+
+msgid "PROPSHUBINDEX5"
+msgstr "5 (most favorable)"
+
+msgid "MAPDRAWSELECTIONINFO"
+msgstr "Click to search for properties"
+
+msgid "DAYSONMARKET"
+msgstr "Days on Market"
+
+msgid "NEWEST"
+msgstr "Newest"
+
+msgid "OLDEST"
+msgstr "Oldest"
+
+msgid "RENTALUNITRATIO"
+msgstr "Rental Unit Ratio"
+
+msgid "SHAREVIAEMAIL"
+msgstr "Share via Email"
+
+msgid "INVESTMENTSPECIALIST"
+msgstr "Investment Specialist"
+
+msgid "LEASED"
+msgstr "Leased"
+
+msgid "MARKETPRICESTOOLTIP"
+msgstr "This graph is developed using the best available comparable properties within the geographical vicinity of the listed property. "
+
+msgid "AREASSERVEDNOTE"
+msgstr "We are serving only Dallas Fort Worth Metro at this time. We plan to add on more metros later. "
+
+msgid "MEDIANSALEPRICECAVEAT"
+msgstr "Verify the accuracy of the numbers presented here with a qualified real estate professional."
+
+msgid "SYSTEMGENERATEDVALUENOTE"
+msgstr "All data presented via PropsHub products are purely for educational purposes only and are estimates based on data from various sources. PropsHub does not guarantee the accuracy or reliability of data presented via its products. Do not make any purchase decision based on data presented via PropsHub products. We highly recommend, that you verify every piece of data with a qualified professional and do your own due diligence prior to making any investment decision."
+
+msgid "NETOPERATINGINCOMETOOLTIP"
+msgstr "The Net operating income (NOI) is the annual income generated by a property after including all income collected from operations, and deducting all expenses incurred from operations"
+
+msgid "CAPRATETOOLTIP"
+msgstr "Ratio of Net Operating Income to Asking Price."
+
+msgid "CASHONCASHRETURNPERCENTAGETOOLTIP"
+msgstr "Ratio of Cash Flow to Initial Investment."
+
+msgid "VACANCYLOSSESTOOLTIP"
+msgstr "Losses that stems from vacancy.  Assumed at 15 days. "
+
+msgid "MANAGEMENTFEESTOOLTIP"
+msgstr "Fees paid for property management. Assumed at 8%. "
+
+msgid "LEASINGFEESTOOLTIP"
+msgstr "Fees paid for new tenant acquisition. Assumed at half month rent."
+
+msgid "PROPERTYINSURANCETOOLTIP"
+msgstr "Fire and hazard insurance premium."
+
+msgid "PROPERTYTAXESTOOLTIP"
+msgstr "Estimated Annual Property Tax."
+
+msgid "PROPERTYMAINTENANCETOOLTIP"
+msgstr "Expenses related to repairs, upgrades and maintenance. "
+
+msgid "MONTHLYRENTREVENUETOOLTIP"
+msgstr "Monthly rent potential."
+
+msgid "OWNERASSOCIATIONFEETOOLTIP"
+msgstr "Home owners association dues. "
+
+msgid "HOMECAPTION"
+msgstr "Buy and sell investment properties"
+
+msgid "SITECAPTION"
+msgstr "Find your next deal"
+
+msgid "CAPTION1"
+msgstr "Investment decisions made simple"
+
+msgid "CAPTION2"
+msgstr "Analyze returns in just a few clicks"
+
+msgid "CAPTION3"
+msgstr "Compare prices, trends and potential"
+
+msgid "CAPTION4"
+msgstr "View comprehensive neighborhood demographic data"
+
+msgid "CAPTION5"
+msgstr "Generate flyers and reports for free"
+
+msgid "CAPTION6"
+msgstr "Chat online with real estate professionals"
+
+msgid "RECOMMENDATIONTABTOOLTIP"
+msgstr "View of the proprietary index we compute for each zip code by looking at a variety of factors like cap rate potential, list price, median income, population growth, unemployment rate, rental units ratio, property crime, violent crime. A higher index rating usually means that the zip code ranked favorably on most key factors."
+
+msgid "CAPRATETABTOOLTIP"
+msgstr "View of median cap rate potential by zip code. Cap Rate is the ratio of Net Operating Income to Asking Price."
+
+msgid "MEDIANSALEPRICETABTOOLTIP"
+msgstr "View of median listing prices by zip code."
+
+msgid "INCOMETABTOOLTIP"
+msgstr "View of median income by zip code. Data sourced from United States Census Bureau."
+
+msgid "WIDGETPOPULATIONGROWTHTABTOOLTIP"
+msgstr "View of population growth by zip code. Data sourced from United States Census Bureau."
+
+msgid "UNEMPLOYMENTGROWTHTABTOOLTIP"
+msgstr "View of unemployment rate by zip code. Data sourced from United States Census Bureau."
+
+msgid "RENTEDUNITTABTOOLTIP"
+msgstr "View of ratio of rental units to owner occupied units by each zip code. Data sourced from United States Census Bureau."
+
+msgid "PROPERTYCRIMETABTOOLTIP"
+msgstr "View of property crime rate by zip code. Data sourced from Federal Bureau of Investigation."
+
+msgid "VIOLENTCRIMETABTOOLTIP"
+msgstr "View of violent crime rate by zip code. Data sourced from Federal Bureau of Investigation."
+
+msgid "COMMUTETIMETABTOOLTIP"
+msgstr "View of commute time to work by zip code. Data sourced from United States Census Bureau."
+
+msgid "MAPSEARCHUSAGEINFO"
+msgstr "To view properties, click on a zip code, OR, draw a circle/rectangle to select a custom area on the map and click on the selected area. "
+
+msgid "HIGHCASHFLOWTABTOOLTIP"
+msgstr "This map compares the count of the cash flow positive properties for sale in each zip code. Neighborhoods with higher number of cash flow positive properties are ideal for investment."
+
+msgid "MAKEANOFFER"
+msgstr "Ready to Invest?"
+
+msgid "MAKEANOFFERTITLE"
+msgstr "Would you like a PropsHub preferred realtor to contact you to discuss this property?"
+
+msgid "MAKEANOFFERDEFAULTMESSAGE"
+msgstr "Type your message here?"
+
+msgid "MAKEANOFFERCONFIRMATION"
+msgstr "Thank you.?A PropsHub preferred realtor will get in touch with you shortly."
+
+msgid "CONTACTLISTINGAGENT"
+msgstr "Listing Agent"
+
+msgid "RENTEDUNITS"
+msgstr "Rental Units"
+
+msgid "IDEALFORINVESTMENT"
+msgstr "Good"
+
+msgid "INVESTWITHCAUTION"
+msgstr "Fair"
+
+msgid "RECOMMENDATIONTAB"
+msgstr "PropsHub Index"
+
+msgid "ADDTOCONTACTS"
+msgstr "Add to My Contacts"
+
+msgid "RENTPOTENTIALONFIXUP"
+msgstr "Rent Potential on Fixup"
+
+msgid "SHOWRENTALPROPERTY"
+msgstr "Rental Unit ?"
+
+msgid "RENTALPROPERTY"
+msgstr "Rental Unit"
+
+msgid "TWOBHKAPARTMENTPRICE"
+msgstr "Two Bedroom"
+
+msgid "PROPERTYTAXES"
+msgstr "Property Taxes"
+
+msgid "APARTMENTDETAILSCOLLAPSIBLE"
+msgstr "Building Features"
+
+msgid "NUMBEROFPARKINGLOTS"
+msgstr "Parking Spaces"
+
+msgid "NUMBEROFSTORIES"
+msgstr "Levels"
+
+msgid "VIEWINSLIDESHOW "
+msgstr "View in slide show"
+
+msgid "CONTACTOURLEADREALTOR"
+msgstr "Connect with our Investment Specialist"
+
+msgid "MONTHLYRENTREVENUE"
+msgstr "Monthly Rent"
+
+msgid "CASHFLOWPOSITIVETAB"
+msgstr "Cash Flow Positive Density"
+
+msgid "CASHFLOWPOTENTIAL"
+msgstr "Cash Flow Potential"
+
+msgid "MEDIANSALEPRICETAB"
+msgstr "Listing Price"
+
+msgid "MEDIANLISTINGPRICE"
+msgstr "Median Listing Price"
+
+msgid "PROPERTIESFORSALECOUNT"
+msgstr "Properties for Sale"
+
+msgid "ANALYZERETURNSREQUIREDINFOTITLE"
+msgstr "Please provide the following information to proceed"
+
+msgid "ANALYZE"
+msgstr "Analyze"
+
+msgid "COMMUTETIME"
+msgstr "Commute Time"
+
+msgid "PROPERTYCRIMETAB"
+msgstr "Property Crime"
+
+msgid "VIOLENTCRIMETAB"
+msgstr "Violent Crime"
+
+msgid "STREETVIEWNOTAVAILABLE"
+msgstr "Street View not available"
+
+msgid "CHOOSEFROMEXISTINGCONTACTS"
+msgstr "Choose Contact"
+
+msgid "ADDNEWCONTACT"
+msgstr "Add New Contact"
+
+msgid "SENDINGTO"
+msgstr "Sending To"
+
+msgid "CONTACTADDEDSUCCESS"
+msgstr "Contact added successfully."
+
+msgid "LEGENDS"
+msgstr "Legends"
+
+msgid "SUBDIVISION"
+msgstr "Sub Division"
+
+msgid "PHARMACY"
+msgstr "Pharmacy"
+
+msgid "PARK"
+msgstr "Park"
+
+msgid "PHOTOSLIDESHOW"
+msgstr "Slide Show"
+
+msgid "PLAY"
+msgstr "Play"
+
+msgid "PAUSE"
+msgstr "Pause"
+
+msgid "IRRGROUP"
+msgstr "Annual Appreciation"
+
+msgid "PROPERTYANNUALAPPRECIATIONPERCENTAGE"
+msgstr "Property Price"
+
+msgid "RENTINCREMENTPERCENTAGE"
+msgstr "Rent"
+
+msgid "DOWNPAYMENTCOST"
+msgstr "Down Payment"
+
+msgid "MOTIVATEDSELLER"
+msgstr "Motivated Seller"
+
+msgid "APPLIEDFILTERS"
+msgstr "Applied Filters"
+
+msgid "VIEWTYPES"
+msgstr "View Types"
+
+msgid "MEDIANLEASEPRICEANALYSIS"
+msgstr "Estimated Monthly Rent"
+
+msgid "STREETVIEW"
+msgstr "Street View"
+
+msgid "HIGHCASHFLOW"
+msgstr "Cash Flow Positive"
+
+msgid "TERMSCONDITIONS"
+msgstr "Terms of Use"
+
+msgid "SAVED"
+msgstr "Your Search Criteria has been Saved. You will receive Email notifications if matches are found."
+
+msgid "PHOTOSGALLERY"
+msgstr "Photos"
+
+msgid "MEDIANMARKETPRICE"
+msgstr "Median"
+
+msgid "VALUEADDED"
+msgstr "Fixer"
+
+msgid "OWNERASSOCIATIONFEE"
+msgstr "HOA Fee"
+
+msgid "MEANTRAVELTIME"
+msgstr "Mean Commute Time"
+
+msgid "INCOMEEXPENSEGROUP"
+msgstr "Income & Leasing Expenses"
+
+msgid "INVESTMENTEXPENSEGROUP"
+msgstr "Investment & Property Expenses"
+
+msgid "CASHONCASHGROWTH"
+msgstr "Cash on Cash Return Growth"
+
+msgid "CAPRATEGROWTH"
+msgstr "Cap Rate Growth"
+
+msgid "MINUTES"
+msgstr "Mins"
+
+msgid "UNEMPLOYMENTGROWTHYAXIS"
+msgstr "Unemployment Rate"
+
+msgid "UNEMPLOYMENTGROWTH"
+msgstr "Unemployment"
+
+msgid "WIDGETUNEMPLOYMENT"
+msgstr "Unemployment Rates"
+
+msgid "OVERVIEW"
+msgstr "Overview"
+
+msgid "ROIGROUP"
+msgstr "Return on Investment"
+
+msgid "LOCATEONMAP"
+msgstr "Locate on Map"
+
+msgid "ANY"
+msgstr "Any"
+
+msgid "LEVERAGEDPURCHASE"
+msgstr "Leveraged Purchase"
+
+msgid "CASHPURCHASE"
+msgstr "Cash Purchase"
+
+msgid "RENTALUNIT"
+msgstr "Turn Key"
+
+msgid "FURNISHEDRENTAL"
+msgstr "Furnished Unit"
+
+msgid "MOSTPROPERTIES"
+msgstr "Popular Range"
+
+msgid "BESTBUY"
+msgstr "Below Market Price"
+
+msgid "SUBTYPEAREABEDROOM"
+msgstr "With similar area & bedrooms"
+
+msgid "MORESEARCHOPTIONS"
+msgstr "Map Search"
+
+msgid "SUBTYPEAREA"
+msgstr "With similar Area"
+
+msgid "NOPROPERTIESTOCOMPARE"
+msgstr "No Similar Properties for Comparison"
+
+msgid "EXTERNALLINKSTABTITLE"
+msgstr "Provide the URL of your Related Links"
+
+msgid "EXTERNALLINKPLACEHOLDER"
+msgstr "Type your Related Link Title"
+
+msgid "EXTERNALLINKURLPLACEHOLDER"
+msgstr "Type or Paste your Related Link URL"
+
+msgid "EXTERNAlLINKTITLE"
+msgstr "Related Link Title"
+
+msgid "EXTERNALLINKURL"
+msgstr "Related Link"
+
+msgid "EXTERNALLINKS"
+msgstr "External Links"
+
+msgid "LUXURYRENTAL"
+msgstr "Luxury Rental"
+
+msgid "MOREPROPERTIES"
+msgstr "Market Prices"
+
+msgid "RENTALCATEGORY"
+msgstr "Rental Category"
+
+msgid "DOWNPAYMENTPERCENTAGE"
+msgstr "Down Payment"
+
+msgid "LOANINTERESTRATE"
+msgstr "Interest Rate"
+
+msgid "INITIALIMPROVEMENTCOST"
+msgstr "Fixup + Closing Cost"
+
+msgid "MANAGEMENTFEES"
+msgstr "Management Fee"
+
+msgid "LEASINGFEES"
+msgstr "Leasing Fee"
+
+msgid "PROPERTYINSURANCE"
+msgstr "Insurance"
+
+msgid "PROPERTYMAINTENANCE"
+msgstr "Maintenance"
+
+msgid "CUMANNUALRENT"
+msgstr "Annual Rent"
+
+msgid "TOTALGAINCHART"
+msgstr "Cumulative Gains"
+
+msgid "RENTCASHFLOWCHART"
+msgstr "Income Growth"
+
+msgid "ANNUALFREECASHFLOW"
+msgstr "Cash Flow"
+
+msgid "DEBTSERVICES"
+msgstr "Debt Service"
+
+msgid "PERCENTAGEOFGRR"
+msgstr "% of Gross Rental Income"
+
+msgid "CHOOSELOCATIONTOSEARCH"
+msgstr "Please enter a valid Metro / City / Zip Code / Neighborhood to begin your Search"
+
+msgid "RENTPOTENTIAL"
+msgstr "Rent Potential"
+
+msgid "UPTO"
+msgstr "Up to"
+
+msgid "MEDIANSALEPRICEANALYSIS"
+msgstr "Asking Price Comparison"
+
+msgid "MEDIANLEASEPRICE"
+msgstr "Median Rental"
+
+msgid "SUBTYPEBEDROOM"
+msgstr "With same bedrooms"
+
+msgid "NON_REFUNDABLE_PET_FEE"
+msgstr "Non Refundable Pet Fee"
+
+msgid "CUMPRINCIPALPAID"
+msgstr "Cumulative Principal Paid"
+
+msgid "CUMAPPRECIATION"
+msgstr "Cumulative Appreciation"
+
+msgid "CUMCASHFLOW"
+msgstr "Cumulative Cash Flow"
+
+msgid "MEDIANPRICESTATS"
+msgstr "Price Analysis"
+
+msgid "MEDIANCURRENTPRICE"
+msgstr "This property"
+
+msgid "MEDIANLOWPRICE"
+msgstr "Low"
+
+msgid "MEDIANHIGHPRICE"
+msgstr "High"
+
+msgid "BACK"
+msgstr "Back"
+
+msgid "ACREAGE"
+msgstr "Acreage"
+
+msgid "SQUAREFOOTAGE"
+msgstr "Square Footage"
+
+msgid "YEAR"
+msgstr "Year"
+
+msgid "RATEOFRETURN"
+msgstr "Rate of Return"
+
+msgid "INTERNALRATEOFRETURNWITHMORTGAGE"
+msgstr "Leveraged Internal Rate of Return"
+
+msgid "INTERNALRATEOFRETURN"
+msgstr "Internal Rate of Return"
+
+msgid "SALECLOSINGCOST"
+msgstr "Sale Closing Cost"
+
+msgid "CALCULATERETURN"
+msgstr "Analyze Returns"
+
+msgid "INVESTMENTGROUP"
+msgstr "Investment"
+
+msgid "MORTGAGEGROUP"
+msgstr "Mortgage"
+
+msgid "INCOMEGROUP"
+msgstr "Income"
+
+msgid "EXPENSEGROUP"
+msgstr "Total Annual Expenses"
+
+msgid "RETURNGROUPWITHOUTMORTGAGE"
+msgstr "Estimated Returns"
+
+msgid "RETURNGROUPWITHMORTGAGE"
+msgstr "Estimated Leveraged Returns"
+
+msgid "ASKINGPRICE"
+msgstr "Asking Price"
+
+msgid "CLOSINGCOST"
+msgstr "Closing Cost"
+
+msgid "EMICOST"
+msgstr "Monthly Mortgage"
+
+msgid "LOANDURATION"
+msgstr "Tenure"
+
+msgid "DEPRECIATIONPERCENTAGE"
+msgstr "Depreciation"
+
+msgid "INITIALINVESTMENTWITHMORTGAGE"
+msgstr "Initial Investment"
+
+msgid "INITIALINVESTMENTWITHOUTMORTGAGE"
+msgstr "Initial Investment"
+
+msgid "TOTALINVESTMENTCOST"
+msgstr "Cost Basis"
+
+msgid "COSTBASIS"
+msgstr "Total Cost Basis"
+
+msgid "ANNUALTAXABLEINCOMEWITHMORTGAGE"
+msgstr "Taxable Cash Flow"
+
+msgid "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE"
+msgstr "Taxable Cash Flow"
+
+msgid "TOTALINVESTMENTCOSTWITHMORTGAGE"
+msgstr "Total Initial Investment"
+
+msgid "CASHONCASHRETURNPERCENTAGE"
+msgstr "Cash on Cash Return Potential"
+
+msgid "APPROXCALCVALUENOTE"
+msgstr "Actual values may vary"
+
+msgid "ALLPROPERTIES"
+msgstr "All Properties"
+
+msgid "CURRENTPROPERTY"
+msgstr "This Property"
+
+msgid "MEDIANSALEPRICEXAXIS"
+msgstr "Median Sale Price (USD)"
+
+msgid "MEDIANSALEPRICEYAXIS"
+msgstr "Category"
+
+msgid "MEDIANLEASEPRICEXAXIS"
+msgstr "Median Rent (USD)"
+
+msgid "MEDIANLEASEPRICEYAXIS"
+msgstr "Category"
+
+msgid "MEDIANLEASEPRICESTATS"
+msgstr "Median Price"
+
+msgid "MEDIANSALEPRICESTATS"
+msgstr "Median Price"
+
+msgid "DAILY"
+msgstr "Per Day"
+
+msgid "WEEK"
+msgstr "Per Week"
+
+msgid "MONTH"
+msgstr "Per Month"
+
+msgid "ANNUALLY"
+msgstr "Per Annum"
+
+msgid "SCHOOLDISTRICT"
+msgstr "School District"
+
+msgid "RELIGIOUS_FACILITY"
+msgstr "Religious Facility"
+
+msgid "GENERATEREPORT"
+msgstr "Generate Full Flyer"
+
+msgid "GENERATEFLYER"
+msgstr "Generate Short Flyer"
+
+msgid "DEPOSITS"
+msgstr "Deposits"
+
+msgid "ADDDEPOSITS"
+msgstr "Add Deposits"
+
+msgid "DEPOSITTYPE"
+msgstr "Deposit Type"
+
+msgid "SECURITY_DEPOSIT"
+msgstr "Security Deposit"
+
+msgid "PET_DEPOSIT"
+msgstr "Pet Deposit"
+
+msgid "KEY_DEPOSIT"
+msgstr "Key Deposit"
+
+msgid "CLEANING_DEPOSIT"
+msgstr "Cleaning Deposit"
+
+msgid "MATCHINGADDRESSES"
+msgstr "Matching Addresses"
+
+msgid "MATCHINGPROPERTIES"
+msgstr "Matching Properties"
+
+msgid "MONDAY"
+msgstr "Monday"
+
+msgid "TUESDAY"
+msgstr "Tuesday"
+
+msgid "WEDNESDAY"
+msgstr "Wednesday"
+
+msgid "THURSDAY"
+msgstr "Thursday"
+
+msgid "FRIDAY"
+msgstr "Friday"
+
+msgid "SATURDAY"
+msgstr "Saturday"
+
+msgid "SUNDAY"
+msgstr "Sunday"
+
+msgid "TOMORROW"
+msgstr "Tomorrow"
+
+msgid "TODAY"
+msgstr "Today"
+
+msgid "COMING"
+msgstr "Coming"
+
+msgid "BUYING"
+msgstr "Buying "
+
+msgid "SELLING"
+msgstr "Selling "
+
+msgid "REALTORS"
+msgstr "Realtors / Brokers"
+
+msgid "PROPERTY_MANAGEMENT"
+msgstr "Property Management"
+
+msgid "FORECLOSURE"
+msgstr "Foreclosure"
+
+msgid "LOTAREAUOM"
+msgstr "Unit"
+
+msgid "LAUNDRYROOM"
+msgstr "Laundry Room"
+
+msgid "LIBRARY"
+msgstr "Library"
+
+msgid "MEDIAROOM"
+msgstr "Media Room"
+
+msgid "MOTHERINLAW"
+msgstr "Mother In Law"
+
+msgid "RECREATIONALROOM"
+msgstr "Recreational Room"
+
+msgid "SITTINGROOM"
+msgstr "Sitting Room"
+
+msgid "STORAGE"
+msgstr "Storage"
+
+msgid "UTILITY"
+msgstr "Utility"
+
+msgid "WALKINCLOSET"
+msgstr "Walkin Closet"
+
+msgid "WETBAR"
+msgstr "Wet Bar"
+
+msgid "ATRIUM"
+msgstr "Atrium"
+
+msgid "ATTIC"
+msgstr "Attic"
+
+msgid "DEN"
+msgstr "Den"
+
+msgid "FAMILYROOM"
+msgstr "Family Room"
+
+msgid "FIREPLACE"
+msgstr "Fire Place"
+
+msgid "FOYER"
+msgstr "Foyer"
+
+msgid "GREENHOUSE"
+msgstr "Green House"
+
+msgid "GUESTROOM"
+msgstr "Guest Room"
+
+msgid "NORTH"
+msgstr "North"
+
+msgid "SOUTH"
+msgstr "South"
+
+msgid "EAST"
+msgstr "East"
+
+msgid "WEST"
+msgstr "West"
+
+msgid "NORTHEAST"
+msgstr "North East"
+
+msgid "NORTHWEST"
+msgstr "North West"
+
+msgid "SOUTHEAST"
+msgstr "South East"
+
+msgid "SOUTHWEST"
+msgstr "South West"
+
+msgid "PARKINGTYPES"
+msgstr "Parking Types"
+
+msgid "ADDPARKINGTYPES"
+msgstr "Add Parking Types"
+
+msgid "LEASEPRICEUOM"
+msgstr "Unit"
+
+msgid "CHARACTERS"
+msgstr "Characters"
+
+msgid "FLOORNUMBER"
+msgstr "Floor Number"
+
+msgid "FACINGDIRECTION"
+msgstr "Facing Direction"
+
+msgid "LESS"
+msgstr "Less"
+
+msgid "MORE"
+msgstr "More"
+
+msgid "TIME_SHARE"
+msgstr "Time Share"
+
+msgid "CABIN"
+msgstr "Cabin"
+
+msgid "MLSNUMBER"
+msgstr "MLS Number"
+
+msgid "MLSID"
+msgstr "MLS"
+
+msgid "MLSLISTINGURL"
+msgstr "Listing Source Link"
+
+msgid "MLSPROPERTYTYPE"
+msgstr "Category (from Source)"
+
+msgid "MLSPROPERTYSUBTYPE"
+msgstr "Property Type (from Source)"
+
+msgid "MLSINFORMATION"
+msgstr "MLS Information"
+
+msgid "LISTINGAREAUOM"
+msgstr "Unit"
+
+msgid "YOURADHERE"
+msgstr "Your Advertisement Here"
+
+msgid "LOCATIONDIRECTION"
+msgstr "Directions"
+
+msgid "ACRE"
+msgstr "Acres"
+
+msgid "MAXIMIZE"
+msgstr "Maximize"
+
+msgid "INCOME"
+msgstr "Income"
+
+msgid "SELECTALL"
+msgstr "Select All"
+
+msgid "NAMEUNDISCLOSED"
+msgstr "Undisclosed Property Name"
+
+msgid "ADDRESSUNDISCLOSED"
+msgstr "Undisclosed Address"
+
+msgid "PRICEUNDISCLOSED"
+msgstr "Undisclosed Price"
+
+msgid "LIKES"
+msgstr "Likes"
+
+msgid "FLOORPLAN"
+msgstr "Floor Plans and Surveys"
+
+msgid "COMMERCIAL_PROPERTIES"
+msgstr "Commercial Properties"
+
+msgid "RESIDENTIAL_INVESTMENTS"
+msgstr "Residential Investments"
+
+msgid "ROOM"
+msgstr "Room Information"
+
+msgid "ROLE"
+msgstr "Role"
+
+msgid "LEGALDESCRIPTION"
+msgstr "Description"
+
+msgid "DISCLAIMER"
+msgstr "Disclaimer"
+
+msgid "LIVINGAREA"
+msgstr "Living Area"
+
+msgid "LIVINGROOM"
+msgstr "Living Room"
+
+msgid "STUDY"
+msgstr "Study"
+
+msgid "KITCHEN"
+msgstr "Kitchen"
+
+msgid "DININGROOM"
+msgstr "Dining Room"
+
+msgid "PATIO"
+msgstr "Patio"
+
+msgid "PORCH"
+msgstr "Porch"
+
+msgid "DECK"
+msgstr "Deck"
+
+msgid "GARAGE"
+msgstr "Garage"
+
+msgid "WORKSHOP"
+msgstr "Workshop"
+
+msgid "BASEMENT"
+msgstr "Basement"
+
+msgid "BEDROOM"
+msgstr "Bedroom"
+
+msgid "BATHROOM"
+msgstr "Bathroom"
+
+msgid "FULLBATHROOM"
+msgstr "Full Bathroom"
+
+msgid "HALFBATHROOM"
+msgstr "Half Bathroom"
+
+msgid "QUARTERBATHROOM"
+msgstr "Quarter Bathroom"
+
+msgid "THREEQUARTERBATHROOM"
+msgstr "Three Quarter Bathroom"
+
+msgid "BARBEQUEAREA"
+msgstr "Barbeque Area"
+
+msgid "DISABLEDACCESS"
+msgstr "Disabled Access"
+
+msgid "LAWNAREA"
+msgstr "Lawn Area"
+
+msgid "WIREDFORAUTOMATION"
+msgstr "Wired for Automation"
+
+msgid "DRAFT"
+msgstr "Draft"
+
+msgid "PENDING_APPROVAL"
+msgstr "Pending Content Moderation"
+
+msgid "PENDING_CONTENT_APPROVAL"
+msgstr "Pending Content Approval"
+
+msgid "ACTIVE"
+msgstr "Active"
+
+msgid "REJECTED"
+msgstr "Rejected"
+
+msgid "EXPIRED"
+msgstr "Expired"
+
+msgid "CLOSED"
+msgstr "Off Market"
+
+msgid "CLICKTOVIEWPROFILE"
+msgstr "Click Here to View Profile"
+
+msgid "CHOOSEONMAP"
+msgstr "Choose on Map"
+
+msgid "CLOSEMAP"
+msgstr "Close Map"
+
+msgid "HOMEFORSALESEARCHHEADER"
+msgstr "Find Residential Investments for Sale"
+
+msgid "FORLEASESEARCHHEADER"
+msgstr "Find Properties for Lease"
+
+msgid "PROFESSIONALSEARCHHEADER"
+msgstr "Find Service Providers or Professionals"
+
+msgid "REALTORSEARCHHEADER"
+msgstr "Find Preferred Realtors / Brokers"
+
+msgid "HIGHESTCAPRATE"
+msgstr "Cap Rate Potential (High to Low)"
+
+msgid "LOWESTCAPRATE"
+msgstr "Cap Rate Potential (Low to High)"
+
+msgid "CAPRATERANGE"
+msgstr "Cap Rate Potential (%)"
+
+msgid "INVESTEMENTCATEGORIES"
+msgstr "Investment Categories"
+
+msgid "PREFERREDLOCATION"
+msgstr "Preferred Location"
+
+msgid "PREFERREDLOCATIONS"
+msgstr "Preferred Location(s)"
+
+msgid "MINIMUM"
+msgstr "Minimum"
+
+msgid "MAXIMUM"
+msgstr "Maximum"
+
+msgid "CORE"
+msgstr "Core"
+
+msgid "COREPLUS"
+msgstr "Core Plus"
+
+msgid "DEVELOPMENTOPPORTUNITY"
+msgstr "Development Opportunity"
+
+msgid "CAPITALCONSTRAINTS"
+msgstr "Capital Constraints"
+
+msgid "ENVIRONMENTPROBLEMS"
+msgstr "Environment Problems"
+
+msgid "MANAGEMENTPROBLEMS"
+msgstr "Management Problems"
+
+msgid "NEEDSSTRUCTURIALIMPROVEMENTS"
+msgstr "Needs Structural Improvements"
+
+msgid "NEEDSINETRIORIMPROVEMENTS"
+msgstr "Needs Interior Improvements"
+
+msgid "OPERATIONALPROBLEMS"
+msgstr "Operational Problems"
+
+msgid "OTHERVALUEADDED"
+msgstr "Other Value Add"
+
+msgid "RISKRETURNCATEGORY"
+msgstr "Investment Category"
+
+msgid "VALUEADDEDREASON"
+msgstr "Reason"
+
+msgid "ALLBILLSPAID"
+msgstr "All Bills Paid"
+
+msgid "METEREDUNITS"
+msgstr "Separately Metered Units"
+
+msgid "SOMEBILLSPAID"
+msgstr "Some Bills Paid"
+
+msgid "MULTIFAMILYHOUSINGTYPE"
+msgstr "Utility Bills"
+
+msgid "PAIDUTILITIES"
+msgstr "Paid Utilities"
+
+msgid "CURRENTRENT"
+msgstr "Current Rent"
+
+msgid "SECURITYDEPOSIT"
+msgstr "Security Deposit"
+
+msgid "NUMBEROFUNITS"
+msgstr "Number of Units"
+
+msgid "ADD"
+msgstr "Add"
+
+msgid "DEMOGRAPHICS"
+msgstr "Demographics"
+
+msgid "WIDGETFMRDATA"
+msgstr "Fair Market Rents"
+
+msgid "WIDGETHOUSING"
+msgstr "Housing Occupancy Rates"
+
+msgid "WIDGETMEDIANINCOME"
+msgstr "Income Growth"
+
+msgid "WIDGETOCCUPATION"
+msgstr "Population by Occupation"
+
+msgid "WIDGETINCOMESLAB"
+msgstr "Current Income Slabs"
+
+msgid "WIDGETTRANSPORTATION"
+msgstr "Commute to Work"
+
+msgid "WIDGETVIOLENTCRIME"
+msgstr "Violent Crime Rates"
+
+msgid "WIDGETPROPERTYCRIME"
+msgstr "Property Crime Rates"
+
+msgid "WIDGETEMPLOYMENTGROWTH"
+msgstr "Employment Rates"
+
+msgid "WIDGETETHNICITY"
+msgstr "Population by Ethnicity"
+
+msgid "WIDGETPOPULATIONGROWTH"
+msgstr "Population Growth"
+
+msgid "WIDGETPROPERTYTAX"
+msgstr "Property Taxes Paid"
+
+msgid "WIDGETSCHOOL"
+msgstr "Nearby Schools"
+
+msgid "WIDGETDISASTERDATA"
+msgstr "Recent Federal Emergencies"
+
+msgid "SOURCE"
+msgstr "Source"
+
+msgid "WIDGETFMRFOOTER"
+msgstr "US Department of Housing and Urban Development"
+
+msgid "WIDGETCENSUSFOOTER"
+msgstr "US Census Bureau"
+
+msgid "WIDGETSCHOOLFOOTER"
+msgstr "US Department of Education"
+
+msgid "WIDGETCRIMEFOOTER"
+msgstr "Federal Bureau of Investigation"
+
+msgid "WIDGETDISASTERDATAFOOTER"
+msgstr "Federal Emergency Management Agency"
+
+msgid "TOTALPOPULATION"
+msgstr "Total Population"
+
+msgid "MEDIANAGE"
+msgstr "Median Age"
+
+msgid "WHITE"
+msgstr "White"
+
+msgid "BLACK"
+msgstr "Black"
+
+msgid "ASIAN"
+msgstr "Asian"
+
+msgid "AMERICAN"
+msgstr "American Indian"
+
+msgid "HISPANICPERCENTAGE"
+msgstr "Hispanic Population"
+
+msgid "EMPTY"
+msgstr "Other"
+
+msgid "OTHER"
+msgstr "Other"
+
+msgid "MALEFEMALERATIO"
+msgstr "Male / Female Ratio"
+
+msgid "FAIRMARKETRENT"
+msgstr "Fair Market Rent"
+
+msgid "FMRDATAXAXIS"
+msgstr "Year"
+
+msgid "FMRDATAYAXIS"
+msgstr "Market Rent"
+
+msgid "EFFICIENTAPARTMENTPRICE"
+msgstr "Efficiency"
+
+msgid "ONEBHKAPARTMENTPRICE"
+msgstr "Single Bedroom"
+
+msgid "THREEBHKAPARTMENTPRICE"
+msgstr "Three Bedroom"
+
+msgid "FOURBHKAPARTMENTPRICE"
+msgstr "Four Bedroom"
+
+msgid "UNKNOWN"
+msgstr "Unknown"
+
+msgid "TOTALUNITS"
+msgstr "Total Number of Units"
+
+msgid "OCCUPIEDUNIT"
+msgstr "Occupied Units"
+
+msgid "RENTEDUNIT"
+msgstr "Rental Unit"
+
+msgid "OCCUPIEDRENTEDUNITXAXIS"
+msgstr "Year"
+
+msgid "OCCUPIEDRENTEDUNITYAXIS"
+msgstr "Percentage of Units"
+
+msgid "POPULATIONGROWTHYAXIS"
+msgstr "Population"
+
+msgid "POPULATIONGROWTH"
+msgstr "Total Population"
+
+msgid "POPULATIONGROWTHXAXIS"
+msgstr "Year"
+
+msgid "EMPLOYEMENTGROWTHYAXIS"
+msgstr "Employed Population Percentage"
+
+msgid "EMPLOYEMENTGROWTH"
+msgstr "Employed Population"
+
+msgid "EMPLOYEMENTGROWTHXAXIS"
+msgstr "Year"
+
+msgid "OTHEROCCUPATION"
+msgstr "Other Occupation"
+
+msgid "EMPLOYEDPERCENTAGE"
+msgstr "Employed Population"
+
+msgid "MEDIANPROPERTYTAX"
+msgstr "Median Property Tax"
+
+msgid "MEDIANPROPERTYTAXYAXIS"
+msgstr "Year"
+
+msgid "MEDIANPROPERTYTAXXAXIS"
+msgstr "Property Taxes Paid"
+
+msgid "MEDIANINCOME"
+msgstr "Median Income"
+
+msgid "MEDIANINCOMEXAXIS"
+msgstr "Year"
+
+msgid "MEDIANINCOMEYAXIS"
+msgstr "Income"
+
+msgid "MANAGEMENTOCCUPATION"
+msgstr "Management"
+
+msgid "SERVICEOCCUPATION"
+msgstr "Service"
+
+msgid "SALESOCCUPATION"
+msgstr "Sales"
+
+msgid "CONSTRUCTIONOCCUPATION"
+msgstr "Construction"
+
+msgid "PRODUCTIONOCCUPATION"
+msgstr "Production"
+
+msgid "INCOMESLAB"
+msgstr "Total Population"
+
+msgid "INCOMESLABXAXIS"
+msgstr "Income Slab"
+
+msgid "INCOMESLABYAXIS"
+msgstr "Population Percentage"
+
+msgid "BELOWFIFTEENTHOUSANDINCOME"
+msgstr "< 15K"
+
+msgid "FIFTEENTOTHIRTYTHOUSANDINCOME"
+msgstr "15K - 30K"
+
+msgid "THIRTYTOFIFTYTHOUSANDINCOME"
+msgstr "30K - 50K"
+
+msgid "FIFTYTOSEVENTYFIVEHOUSANDINCOME"
+msgstr "50K - 75K"
+
+msgid "SEVENTYFIVETOHUNDREDTHOUSANDINCOME"
+msgstr "75K - 100K"
+
+msgid "HUNDREDTOONEFIFTYTHOUSANDINCOME"
+msgstr "100K - 150K"
+
+msgid "ONEFIFTYABOVETHOUSANDINCOME"
+msgstr "> 150K"
+
+msgid "TRANSPORTATIONMEANS"
+msgstr "Means of Transportation"
+
+msgid "TRANSPORTATIONMEANSXAXIS"
+msgstr "Percentage of Population"
+
+msgid "TRANSPORTATIONMEANSYAXIS"
+msgstr "Transportation Option"
+
+msgid "PEOPLEDROVEALONE"
+msgstr "Drove Alone"
+
+msgid "PEOPLECARPOOLED"
+msgstr "Car Pooled"
+
+msgid "PEOPLEUSEDPUBLICTRANSPORTATION"
+msgstr "Public Transportation"
+
+msgid "PEOPLEUSEDBICYCLEORWALKED"
+msgstr "Bicycled or Walked"
+
+msgid "PEOPLEUSEDOTHERTRANSPORTATION"
+msgstr "Other Transportation"
+
+msgid "PEOPLEWORKEDATHOME"
+msgstr "Worked at Home"
+
+msgid "SCHOOLNAME"
+msgstr "School Name"
+
+msgid "LOWESTGRADE"
+msgstr "Lowest Grade"
+
+msgid "HIGHESTGRADE"
+msgstr "Highest Grade"
+
+msgid "SCHOOLTYPE"
+msgstr "School Type"
+
+msgid "VIOLENTCRIMEDATA"
+msgstr "Violent Crime Rate"
+
+msgid "VIOLENTCRIMEDATAXAXIS"
+msgstr "Year"
+
+msgid "VIOLENTCRIMEDATAYAXIS"
+msgstr "Crime Rate (per 100000 population)"
+
+msgid "PROPERTYCRIMEDATA"
+msgstr "Property Crime Rate"
+
+msgid "PROPERTYCRIMEDATAXAXIS"
+msgstr "Year"
+
+msgid "PROPERTYCRIMEDATAYAXIS"
+msgstr "Crime Rate (per 100,000 population)"
+
+msgid "INCIDENTTITLE"
+msgstr "Incident"
+
+msgid "INCIDENTTYPE"
+msgstr "Incident Type"
+
+msgid "IHPROGRAMDECLARED"
+msgstr "Interim Housing"
+
+msgid "IAPROGRAMDECLARED"
+msgstr "Individual Assistance"
+
+msgid "PAPROGRAMDECLARED"
+msgstr "Public Assistance"
+
+msgid "HMPROGRAMDECLARED"
+msgstr "Hazard Mitigation"
+
+msgid "INCIDENTBEGINDATE"
+msgstr "Incident Date"
+
+msgid "TAGNAME"
+msgstr "Photo Label"
+
+msgid "RENAMEFILE"
+msgstr "Rename your Document"
+
+msgid "FILENAME"
+msgstr "Document Name"
+
+msgid "VIDEOTITLE"
+msgstr "Video Title"
+
+msgid "VIDEOURL"
+msgstr "Video URL"
+
+msgid "CLOSE"
+msgstr "Close"
+
+msgid "MINIMIZE"
+msgstr "Minimize"
+
+msgid "COMMENTS"
+msgstr "Comments"
+
+msgid "FEEDBACKCONTENTMESSAGE"
+msgstr "Type your message here?"
+
+msgid "SITEFEEDBACKHEADER"
+msgstr "Send Site Feedback"
+
+msgid "SENDSITEFEEDBACK"
+msgstr "Contact Us"
+
+msgid "READMORE"
+msgstr "Read More?"
+
+msgid "SEARCHBYPROPERTY"
+msgstr "Find Property"
+
+msgid "SEARCHBYREALTOR"
+msgstr "Find Realtor / Broker"
+
+msgid "QUESTION"
+msgstr "Q & A"
+
+msgid "OFFLINE"
+msgstr "Offline"
+
+msgid "SAVING"
+msgstr "Saving?"
+
+msgid "YEARS"
+msgstr "Years"
+
+msgid "MONTHS"
+msgstr "Months"
+
+msgid "WEEKS"
+msgstr "Weeks"
+
+msgid "DAYS"
+msgstr "Days"
+
+msgid "INVESTMENTCATEGORIES"
+msgstr "Investment Categories"
+
+msgid "DEPOSITSDETAILS"
+msgstr "Deposits"
+
+msgid "SHOWVACATIONRENTALS"
+msgstr "Show Short-term Rentals ?"
+
+msgid "CLOSINGCOST"
+msgstr "Closing Cost"
+
+msgid "LEASECATEGORY"
+msgstr "Lease Category"
+
+msgid "SUBLETALLOWED"
+msgstr "Sub Let Allowed ?"
+
+msgid "ADDEXPENSESBYTENANT"
+msgstr "Add an Expense paid by Tenant"
+
+msgid "EXPENSESBYLANDLORD"
+msgstr "Expenses paid by Landlord"
+
+msgid "EXPENSESBYTENANT"
+msgstr "Expenses paid by Tenant"
+
+msgid "ADDEXPENSESBYLANDLORD"
+msgstr "Add an Expense paid by Landlord"
+
+msgid "LEASECATEGORY"
+msgstr "Lease Category"
+
+msgid "MASTERLEASE"
+msgstr "Master Lease"
+
+msgid "SUBLEASE"
+msgstr "Sub Lease"
+
+msgid "TYPING"
+msgstr "%s is typing?"
+
+msgid "NEWMESSAGES"
+msgstr "new message(s)"
+
+msgid "DEFAULTCHATMESSAGE"
+msgstr "Type your message here?"
+
+msgid "MOREACTIONS"
+msgstr "More Actions"
+
+msgid "ACTIONS"
+msgstr "Actions"
+
+msgid "THUMBNAIL"
+msgstr "Photo"
+
+msgid "LEFT"
+msgstr "Left"
+
+msgid "RIGHT"
+msgstr "Right"
+
+msgid "ROTATE"
+msgstr "Rotate"
+
+msgid "ZOOM"
+msgstr "Zoom"
+
+msgid "RSVP"
+msgstr "RSVP"
+
+msgid "SEEALL"
+msgstr "See All"
+
+msgid "EXISTING"
+msgstr "Existing"
+
+msgid "NEW"
+msgstr "New"
+
+msgid "NEWLYRENOVATED"
+msgstr "Newly Renovated"
+
+msgid "UNDERCONSTRUCTION"
+msgstr "Under Construction"
+
+msgid "PROPOSED"
+msgstr "Proposed"
+
+msgid "ARCHITECT"
+msgstr "Architect"
+
+msgid "HOMETELEPHONE"
+msgstr "Home Telephone"
+
+msgid "OFFICETELEPHONE"
+msgstr "Office Telephone"
+
+msgid "MOBILE"
+msgstr "Mobile"
+
+msgid "AUCTION"
+msgstr "Auction"
+
+msgid "BANKOWNED"
+msgstr "Bank Owned"
+
+msgid "ELECTRICITYBACKUP"
+msgstr "Electricity Backup"
+
+msgid "BYBUILDER"
+msgstr "By Builder"
+
+msgid "BYOWNER"
+msgstr "By Owner"
+
+msgid "BYAGENT"
+msgstr "By Agent"
+
+msgid "BYBANK"
+msgstr "By Bank"
+
+msgid "NEWCONSTRUCTION"
+msgstr "New Construction"
+
+msgid "FORSALE"
+msgstr "For Sale"
+
+msgid "FORLEASE"
+msgstr "For Lease"
+
+msgid "FORAUCTION"
+msgstr "For Auction"
+
+msgid "LAND"
+msgstr "Land"
+
+msgid "RESIDENTIAL"
+msgstr "All residential"
+
+msgid "TWIN_HOME"
+msgstr "Twin Home"
+
+msgid "LOFT_STYLE"
+msgstr "Loft Styled Apartment"
+
+msgid "GARDEN_HOME_SINGLE_UNIT"
+msgstr "Garden Home"
+
+msgid "GARDEN_HOME_1_4_UNITS"
+msgstr "Garden Home 1 to 4 Units"
+
+msgid "CONDO_SINGLE_UNIT"
+msgstr "Condo"
+
+msgid "CONDO_1_4_UNITS"
+msgstr "Condo 1 to 4 Units"
+
+msgid "TOWNHOME_1_4_UNITS"
+msgstr "Town Home 1 to 4 Units"
+
+msgid "OTHER_RESIDENTIAL"
+msgstr "Other Residential"
+
+msgid "TRIPLEX"
+msgstr "Triplex"
+
+msgid "QUADRUPLEX"
+msgstr "Quadruplex"
+
+msgid "MOBILE_HOME"
+msgstr "Mobile Home"
+
+msgid "DUPLEX"
+msgstr "Duplex"
+
+msgid "DUPLEX_SINGLE_UNIT"
+msgstr "Duplex"
+
+msgid "TOWNHOME_SINGLE_UNIT"
+msgstr "Townhome"
+
+msgid "DUPLEX_2_UNITS"
+msgstr "Duplex 2 Units"
+
+msgid "SINGLE_FAMILY_HOME_PORTFOLIO"
+msgstr "Single Family Home - Portfolio"
+
+msgid "TOWNHOME"
+msgstr "Town Home"
+
+msgid "GARDEN_HOME"
+msgstr "Garden Home"
+
+msgid "CONGREGATE_HOUSING"
+msgstr "Congregate Housing"
+
+msgid "ASSISTEDLIVING"
+msgstr "Assisted Living"
+
+msgid "SINGLE_FAMILY_HOME"
+msgstr "Single Family Home"
+
+msgid "TOWN_HOUSE"
+msgstr "Town House"
+
+msgid "GARDEN_LOW_RISE"
+msgstr "Garden Low Rise"
+
+msgid "INDEPENDENT_HOUSE"
+msgstr "Single Family Home"
+
+msgid "MULTI_FAMILY_APARTMENT"
+msgstr "Multi-Family Apartments"
+
+msgid "RESIDENTIAL_APARTMENT"
+msgstr "Residential Apartment"
+
+msgid "APARTMENT"
+msgstr "Apartments"
+
+msgid "ROW_HOUSE"
+msgstr "Town House"
+
+msgid "PG_ACCOMMODATION"
+msgstr "Limited Service Hotel"
+
+msgid "HOTEL_AND_LODGING"
+msgstr "Hotel"
+
+msgid "SERVICED_APARTMENT"
+msgstr "Residential Suites"
+
+msgid "CONDO"
+msgstr "Condominium"
+
+msgid "RESTAURANT"
+msgstr "Restaurant"
+
+msgid "PETROL_BUNK"
+msgstr "Gas Station"
+
+msgid "ENTERTAINMENT"
+msgstr "Entertainment"
+
+msgid "THEATRE"
+msgstr "Theatre"
+
+msgid "CAFE"
+msgstr "Cafe"
+
+msgid "BAR"
+msgstr "Bar"
+
+msgid "ELECTRICITY"
+msgstr "Electricity"
+
+msgid "TELEPHONE"
+msgstr "Telephone"
+
+msgid "WATER"
+msgstr "City Water"
+
+msgid "GAS"
+msgstr "Gas"
+
+msgid "CABLE"
+msgstr "Cable"
+
+msgid "INTERNET"
+msgstr "Internet"
+
+msgid "WIFI"
+msgstr "Wifi"
+
+msgid "POWERBACKUP"
+msgstr "Power Backup"
+
+msgid "CLIMATECONTROL"
+msgstr "Climate Control"
+
+msgid "AIRCONDITION"
+msgstr "Air Condition"
+
+msgid "ELEVATORS"
+msgstr "Elevators"
+
+msgid "WASTEDISPOSAL"
+msgstr "Waste Disposal"
+
+msgid "VIDEOSURVEILLANCE"
+msgstr "Video Surveillance"
+
+msgid "CAFETERIA"
+msgstr "Cafeteria"
+
+msgid "SECURITY"
+msgstr "Security"
+
+msgid "GYM"
+msgstr "Gym"
+
+msgid "CLUBHOUSE"
+msgstr "Club House"
+
+msgid "CHILDCARE"
+msgstr "Child Care"
+
+msgid "RECREATIONAREA"
+msgstr "Recreation Area"
+
+msgid "CONFERENCEROOM"
+msgstr "Conference Room"
+
+msgid "MAINTENANCESTAFF"
+msgstr "Maintenance Staff"
+
+msgid "SMOKINGZONE"
+msgstr "Smoking Zone"
+
+msgid "QUICKSEARCH"
+msgstr "Quick Search"
+
+msgid "NAME"
+msgstr "Name"
+
+msgid "OTP"
+msgstr "Security Code"
+
+msgid "SENDOTP"
+msgstr "Send"
+
+msgid "RESENDOTP"
+msgstr "Re Send"
+
+msgid "HOME"
+msgstr "Home"
+
+msgid "SUMMARY"
+msgstr "Summary"
+
+msgid "MYSEARCHES"
+msgstr "My Searches"
+
+msgid "FILTERS"
+msgstr "Filters"
+
+msgid "SHOW"
+msgstr "Show"
+
+msgid "SAVEASDRAFT"
+msgstr "Save as Draft"
+
+msgid "MAP"
+msgstr "Map"
+
+msgid "SAVE"
+msgstr "Save"
+
+msgid "SUBMIT"
+msgstr "Submit"
+
+msgid "FIND"
+msgstr "Find"
+
+msgid "CLEAR"
+msgstr "Clear"
+
+msgid "HIDE"
+msgstr "Hide"
+
+msgid "RADIUS"
+msgstr "Radius"
+
+msgid "CLEARALL"
+msgstr "Clear All"
+
+msgid "SORT"
+msgstr "Sort"
+
+msgid "VIEWONMAP"
+msgstr "View on Map"
+
+msgid "ADDRESS"
+msgstr "Address"
+
+msgid "PROPERTYNAME"
+msgstr "Property Name"
+
+msgid "PROPERTYTYPE"
+msgstr "Category"
+
+msgid "PROPERTYSUBTYPE"
+msgstr "Property Type"
+
+msgid "AREA"
+msgstr "Area"
+
+msgid "LOTAREA"
+msgstr "Lot Area"
+
+msgid "PROPERTYDESCRIPTION"
+msgstr "Property Description"
+
+msgid "HIGHLIGHTS"
+msgstr "Highlights"
+
+msgid "CANCEL"
+msgstr "Cancel"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "PHOTOS"
+msgstr "Photos"
+
+msgid "ADDITIONALDOCUMENTS"
+msgstr "Documents"
+
+msgid "ADDVIDEOLINKS"
+msgstr "Videos"
+
+msgid "PROPERTYLISTINGTYPE"
+msgstr "Listing Type"
+
+msgid "ADDITIONALDETAILS"
+msgstr "Additional Information"
+
+msgid "FINANCIALINFORMATION"
+msgstr "Overview"
+
+msgid "FINANCIALS"
+msgstr "Financials"
+
+msgid "PRICERANGE"
+msgstr "Price"
+
+msgid "AREARANGE"
+msgstr "Area (Sq Ft)"
+
+msgid "MYPROFILE"
+msgstr "My Profile"
+
+msgid "MOBILENUMBER"
+msgstr "Mobile Number"
+
+msgid "MYCOMPANY"
+msgstr "My Company"
+
+msgid "MYLISTINGS"
+msgstr "My Listings"
+
+msgid "ABOUTUS"
+msgstr "About Us"
+
+msgid "CONTACTUS"
+msgstr "Contact Us"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "TITLE"
+msgstr "Listing Title"
+
+msgid "PROPERTYLISTINGSALETYPE"
+msgstr "Posted By"
+
+msgid "ENDDATE"
+msgstr "Listing Expiry Date"
+
+msgid "STATUS"
+msgstr "Status"
+
+msgid "DISTRESSED"
+msgstr "Distressed ?"
+
+msgid "DISTRESSEDSTATUS"
+msgstr "Distressed Status"
+
+msgid "SALEPRICE"
+msgstr "Financial Information"
+
+msgid "LEASEPRICE"
+msgstr "Lease Information"
+
+msgid "BIDPRICE"
+msgstr "Bid Price"
+
+msgid "BIDSTARTPRICE"
+msgstr "Bid Start Price"
+
+msgid "DEPOSITAMOUNT"
+msgstr "Security Deposit"
+
+msgid "DAYSFORFULLPAYMENT"
+msgstr "Days For Full Payment"
+
+msgid "BIDSTARTDATE"
+msgstr "Bid Start Date"
+
+msgid "BIDENDDATE"
+msgstr "Bid End Date"
+
+msgid "COMMISSIONSPLIT"
+msgstr "Buyer Agent Commission"
+
+msgid "COMMISSIONPERCENTAGE"
+msgstr "Commission Percentage"
+
+msgid "COMMISSIONAMOUNT"
+msgstr "Commission Charges"
+
+msgid "PERSQUAREFEET"
+msgstr "Per Sq Ft"
+
+msgid "BASERATEPERSQUAREFEET"
+msgstr "Base Rate Per Sq Ft"
+
+msgid "RATEPERSQUAREFEET"
+msgstr "Rate Per Sq Ft"
+
+msgid "DISCLOSEADDRESS"
+msgstr "Disclose Address?"
+
+msgid "DISCLOSEPRICE"
+msgstr "Disclose Price?"
+
+msgid "PRICE"
+msgstr "Price"
+
+msgid "DESPOSITAMOUNT"
+msgstr "Deposit"
+
+msgid "LEASEPERIOD"
+msgstr "Lease Period in Years"
+
+msgid "LEASETERM"
+msgstr "Lease Term"
+
+msgid "LEASETERMUOM"
+msgstr "Unit"
+
+msgid "SALETYPE"
+msgstr "Posted By"
+
+msgid "CAPRATEKNOWN"
+msgstr "Calculate Cap Rate Potential?"
+
+msgid "CAPRATETYPE"
+msgstr "Financial Type"
+
+msgid "ACTUAL"
+msgstr "Actual"
+
+msgid "PROFORMA"
+msgstr "Pro-Forma"
+
+msgid "GROSSRENTREVENUE"
+msgstr "Gross Rental Income"
+
+msgid "VACANCYLOSSES"
+msgstr "Vacancy Losses"
+
+msgid "OTHEREXPENSES"
+msgstr "Other Expenses"
+
+msgid "CALCULATEANDAPPLY"
+msgstr "Apply"
+
+msgid "CALCULATENETOPERATINGINCOME"
+msgstr "Calculate"
+
+msgid "NETOPERATINGINCOME"
+msgstr "Net Operating Income"
+
+msgid "CALCULATEDCAPRATE"
+msgstr "Cap Rate Potential"
+
+msgid "CAPRATE"
+msgstr "Cap Rate Potential"
+
+msgid "DELETE"
+msgstr "Remove"
+
+msgid "IMAGEURLS"
+msgstr "Photos"
+
+msgid "PRIMARYIDENTIFIER"
+msgstr "APN or Parcel ID"
+
+msgid "TOTALAREA"
+msgstr "Total Area"
+
+msgid "DESCRIPTION"
+msgstr "Description"
+
+msgid "AMENITIES"
+msgstr "Amenities"
+
+msgid "UTILITIES"
+msgstr "Utilities Available at Site"
+
+msgid "CONDITIONS"
+msgstr "Conditions"
+
+msgid "LINEONE"
+msgstr "Street Address"
+
+msgid "LINETWO"
+msgstr "Unit Number / Block Number / Lot Number"
+
+msgid "REGION"
+msgstr "County"
+
+msgid "LOCALITY"
+msgstr "Neighborhood"
+
+msgid "CITY"
+msgstr "City"
+
+msgid "STATE"
+msgstr "State"
+
+msgid "ZIPCODE"
+msgstr "Zip Code"
+
+msgid "COUNTRY"
+msgstr "Country"
+
+msgid "CURRENCY"
+msgstr "Currency"
+
+msgid "COMPANYNAME"
+msgstr "Company Name"
+
+msgid "CONTACTNUMBERS"
+msgstr "Contact Numbers"
+
+msgid "WEBSITE"
+msgstr "Website"
+
+msgid "WEBSITES"
+msgstr "Websites"
+
+msgid "COMPANYTYPE"
+msgstr "Company Type"
+
+msgid "SAVEDSEARCHPREFERENCES"
+msgstr "Match Notification Preferences"
+
+msgid "CONTACTPREFERENCES"
+msgstr "Contact Preferences"
+
+msgid "CONTENTPREFERENCES"
+msgstr "New Content Notification Preferences"
+
+msgid "AREASSERVED"
+msgstr "Areas Served"
+
+msgid "SPECIALTIES"
+msgstr "Specialties"
+
+msgid "ABOUT"
+msgstr "About"
+
+msgid "YEAROFINCEPTION"
+msgstr "Year Of Inception"
+
+msgid "MINDIVISIBLEAREA"
+msgstr "Minimum Divisible Interior Area"
+
+msgid "MAXDIVISIBLEAREA"
+msgstr "Maximum Divisible Interior Area"
+
+msgid "MAXCONTIGUOUSAREA"
+msgstr "Maximum Contiguous Interior Area"
+
+msgid "YEARBUILT"
+msgstr "Year Built"
+
+msgid "NUMBEROFROOMS"
+msgstr "Number Of Rooms"
+
+msgid "CONSTRUCTIONSTATUS"
+msgstr "Construction Status"
+
+msgid "LEASEAMOUNT"
+msgstr "Lease Amount"
+
+msgid "EXPENSEAMOUNT"
+msgstr "Expense"
+
+msgid "EXPENSETYPE"
+msgstr "Expense Type"
+
+msgid "LEASEENDDATE"
+msgstr "Lease End Date"
+
+msgid "ROOMTYPE"
+msgstr "Room Type"
+
+msgid "NUMBEROFWASHROOMS"
+msgstr "Number Of Bathrooms"
+
+msgid "FURNISHEDSTATUS"
+msgstr "Furnished ?"
+
+msgid "UNFURNISHED"
+msgstr "Not Furnished"
+
+msgid "SEMI_FURNISHED"
+msgstr "Semi Furnished"
+
+msgid "FURNISHED"
+msgstr "Furnished"
+
+msgid "DISTANCE"
+msgstr "Search Radius"
+
+msgid "BUILDINGAGE"
+msgstr "Building Age (Years)"
+
+msgid "POSTEDBY"
+msgstr "Posted By"
+
+msgid "PROPERTIESFOUND"
+msgstr "Properties Found"
+
+msgid "BYRELAVANCE"
+msgstr "By Relevance"
+
+msgid "HIGHESTAREA"
+msgstr "Area (High to Low)"
+
+msgid "LOWESTAREA"
+msgstr "Area (Low to High)"
+
+msgid "HIGHESTPRICE"
+msgstr "Price (High to Low)"
+
+msgid "LOWESTPRICE"
+msgstr "Price (Low to High)"
+
+msgid "GRID"
+msgstr "Grid"
+
+msgid "CHAT"
+msgstr "Chat"
+
+msgid "EMAIL"
+msgstr "Email"
+
+msgid "SHARE"
+msgstr "Share"
+
+msgid "LOGIN"
+msgstr "Login"
+
+msgid "FEATUREDREALTORS"
+msgstr "Featured Realtors"
+
+msgid "FEATUREDPROPERTIES"
+msgstr "Featured Properties"
+
+msgid "LOCATION"
+msgstr "Location"
+
+msgid "INTERACTIVEMAP"
+msgstr "Interactive Map"
+
+msgid "MOREDETAILS"
+msgstr "More Details"
+
+msgid "RESIDENTIAL_LAND"
+msgstr "Residential Land"
+
+msgid "VILLA"
+msgstr "Condominium"
+
+msgid "STORE"
+msgstr "Store"
+
+msgid "LAUNDRY"
+msgstr "Laundry"
+
+msgid "SCHOOL"
+msgstr "School"
+
+msgid "SPA"
+msgstr "Spa"
+
+msgid "CATEGORIES"
+msgstr "Categories"
+
+msgid "CATEGORY"
+msgstr "Category"
+
+msgid "FIXTURES"
+msgstr "Fixtures"
+
+msgid "CLICKTOSEE"
+msgstr "Click to See Nearby Places"
+
+msgid "INTERCOM"
+msgstr "Intercom"
+
+msgid "VIDEOCONFERENCE"
+msgstr "Video Conference"
+
+msgid "LAN"
+msgstr "Local Area Network"
+
+msgid "ENTRYSECURITY"
+msgstr "Entry Security"
+
+msgid "BIOMETRICACCESS"
+msgstr "Biometric Access"
+
+msgid "CHILDRENPLAYAREA"
+msgstr "Children Play Area"
+
+msgid "GARDENAREA"
+msgstr "Garden Area"
+
+msgid "SWIMMINGPOOL"
+msgstr "Swimming Pool"
+
+msgid "JOGGINGTRACK"
+msgstr "Jogging Track"
+
+msgid "INDOORSPORTS"
+msgstr "Indoor Sports"
+
+msgid "OUTDOORSPORTS"
+msgstr "Outdoor Sports"
+
+msgid "DEPARTMENTSTORE"
+msgstr "Department Store"
+
+msgid "DETAILS"
+msgstr "Details"
+
+msgid "FEATURES"
+msgstr "Amenities"
+
+msgid "SPECIFICATIONS"
+msgstr "Features"
+
+msgid "FORLEASEDETAILS"
+msgstr "Lease Information"
+
+msgid "FORSALEDETAILS"
+msgstr "Sale Information"
+
+msgid "PRICEDETAILS"
+msgstr "Price Details"
+
+msgid "BUILDINGROOMDETAILS"
+msgstr "Room Details"
+
+msgid "ROOMS"
+msgstr "Rooms"
+
+msgid "AIRPORT"
+msgstr "Airport"
+
+msgid "HOSPITAL"
+msgstr "Hospital"
+
+msgid "BUSSTATION"
+msgstr "Bus Station"
+
+msgid "POLICE"
+msgstr "Police Station"
+
+msgid "POSTOFFICE"
+msgstr "Post Office"
+
+msgid "SUBWAYSTATION"
+msgstr "Subway Station"
+
+msgid "TRAINSTATION"
+msgstr "Train Station"
+
+msgid "SHOPPINGMALL"
+msgstr "Shopping Mall"
+
+msgid "PARKING"
+msgstr "Parking"
+
+msgid "ATM"
+msgstr "ATM"
+
+msgid "LODGING"
+msgstr "Lodging"
+
+msgid "REALESTATEAGENCY"
+msgstr "Real Estate Agency"
+
+msgid "BANK"
+msgstr "Bank"
+
+msgid "CREATELISTING"
+msgstr "List a Property"
+
+msgid "PHOTOSVIDEOS"
+msgstr "Photos and Documents"
+
+msgid "FINISH"
+msgstr "Finish"
+
+msgid "SELECTEDBUILDINGUNITCOLLAPSIBLE"
+msgstr "Unit Information"
+
+msgid "PROPERTYCOLLAPSIBLE"
+msgstr "Property Information"
+
+msgid "SELECTEDLOTDETAILSCOLLAPSIBLE"
+msgstr "Lot Information"
+
+msgid "SELECTEDBUILDINGCOLLAPSIBLE"
+msgstr "Building Information"
+
+msgid "BUILDINGDETAILSCOLLAPSIBLE"
+msgstr "Building Information"
+
+msgid "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE"
+msgstr "Additional Details"
+
+msgid "ROOMSCOLLAPSIBLE"
+msgstr "Room Information"
+
+msgid "SECURITYSTAFF"
+msgstr "Security Staff"
+
+msgid "MAINTENANCECHARGES"
+msgstr "Monthly Maintenance Charges"
+
+msgid "RENTALAMOUNT"
+msgstr "Lease Amount"
+
+msgid "COVEREDPARKING"
+msgstr "Covered Parking"
+
+msgid "YES"
+msgstr "Yes"
+
+msgid "NO"
+msgstr "No"
+
+msgid "UNITTYPE"
+msgstr "Unit Type"
+
+msgid "CONFIRM"
+msgstr "Confirm"
+
+msgid "AVAILABLEDATE"
+msgstr "Date Available"
+
+msgid "WELCOMETO"
+msgstr "Welcome To"
+
+msgid "ADDNEW"
+msgstr "Add New"
+
+msgid "LOCATEME"
+msgstr "Use My Location"
+
+msgid "ENTERPREFEREDLOCATION"
+msgstr "City, Neighborhood, Address"
+
+msgid "REGISTER"
+msgstr "Sign Up"
+
+msgid "ACTIVELISTINGS"
+msgstr "Recent Listings"
+
+msgid "CLEARSEARCH"
+msgstr "Clear"
+
+msgid "SEARCHBYPROPERTYNAME"
+msgstr "Property Name / Street Address"
+
+msgid "SEARCHBYREALTORNAME"
+msgstr "Realtor / Broker Name"
+
+msgid "SEARCHBYPROFESSIONALNAME"
+msgstr "Service Provider Name"
+
+msgid "SEARCH"
+msgstr "Search"
+
+msgid "DOCUMENTSGALLERY"
+msgstr "Uploaded Documents"
+
+msgid "PROPERTY"
+msgstr "Property"
+
+msgid "UNIT"
+msgstr "Unit"
+
+msgid "PROPSHUBREGISTRATION"
+msgstr "2018 Propshub All rights reserved"
+
+msgid "CALLUS"
+msgstr "Call Us"
+
+msgid "EMAILUS"
+msgstr "Email Us"
+
+msgid "SIGNIN"
+msgstr "Login"
+
+msgid "SETTINGS"
+msgstr "Settings"
+
+msgid "BACKTO"
+msgstr "Back to"
+
+msgid "POSTEDON"
+msgstr "Posted On"
+
+msgid "LIST"
+msgstr "List"
+
+msgid "SAVESEARCH"
+msgstr "Save Search"
+
+msgid "NEWLYLISTED"
+msgstr "Most Recently Posted"
+
+msgid "NEXT"
+msgstr "Next"
+
+msgid "ALL"
+msgstr "All"
+
+msgid "IMAGES"
+msgstr "Photos"
+
+msgid "BACKTOMAP"
+msgstr "Previous Step"
+
+msgid "PREVIOUS"
+msgstr "Previous"
+
+msgid "LOADINGDATA"
+msgstr "Working?"
+
+msgid "GAS_STATION"
+msgstr "Gas Station"
+
+msgid "GASSTATION"
+msgstr "Gas Station"
+
+msgid "CITYLOCATION"
+msgstr "City or Location"
+
+msgid "TONS"
+msgstr "Tons"
+
+msgid "YRS"
+msgstr "Yrs"
+
+msgid "MI"
+msgstr "Mi"
+
+msgid "KM"
+msgstr "Kilometers"
+
+msgid "PERCENTAGE"
+msgstr "%"
+
+msgid "FT"
+msgstr "Ft"
+
+msgid "AMOUNT"
+msgstr "Amount"
+
+msgid "SQFT"
+msgstr "Sq Ft"
+
+msgid "AGENT"
+msgstr "Agent"
+
+msgid "HELP"
+msgstr "Ask a Question"
+
+msgid "TYPE"
+msgstr "Type"
+
+msgid "PROPERTYFORSALE"
+msgstr "Properties for Sale"
+
+msgid "PROPERTYFORLEASE"
+msgstr "Rent"
+
+msgid "REALTORSANDBROKERS"
+msgstr "Realtors"
+
+msgid "VACATIONRENTAL"
+msgstr "Short-term Rental"
+
+msgid "REALTOR"
+msgstr "Realtor"
+
+msgid "PROFESSIONAL"
+msgstr "Service Providers"
+
+msgid "PHONE"
+msgstr "Phone"
+
+msgid "OWNER"
+msgstr "Posted By"
+
+msgid "CONTACTACTIONS"
+msgstr "Contact Preferences"
+
+msgid "STARTTIME"
+msgstr "Visiting Hour Start Time"
+
+msgid "ENDTIME"
+msgstr "Visiting Hour End Time"
+
+msgid "ADDOPENHOUSETIME"
+msgstr "Add Another Date"
+
+msgid "HOURS"
+msgstr "Choose Time"
+
+msgid "OPENHOUSEDATE"
+msgstr "Open House Date"
+
+msgid "SCHEDULEOPENHOUSE"
+msgstr "Schedule Open House"
+
+msgid "OPENHOUSETIMES"
+msgstr "Schedule Open House"
+
+msgid "INDIVIDUAL"
+msgstr "Individual"
+
+msgid "COMPANY"
+msgstr "Company"
+
+msgid "BROKERAGEFIRM"
+msgstr "Brokerage Firm"
+
+msgid "SIMILARLISTINGS"
+msgstr "Similar Properties"
+
+msgid "SIGNUPAS"
+msgstr "Sign Up as"
+
+msgid "LOADMORE"
+msgstr "Load More"
+
+msgid "SEND"
+msgstr "Send"
+
+msgid "SENDEMAIL"
+msgstr "Send Email"
+
+msgid "IN"
+msgstr "India"
+
+msgid "US"
+msgstr "USA"
+
+msgid "CA"
+msgstr "Canada"
+
+msgid "AR"
+msgstr "Argentina"
+
+msgid "CO"
+msgstr "Colombia"
+
+msgid "BR"
+msgstr "Brazil"
+
+msgid "MX"
+msgstr "Mexico"
+
+msgid "USD"
+msgstr "$"
+
+msgid "CAD"
+msgstr "Canadian Dollar"
+
+msgid "MXN"
+msgstr "Mexican Peso"
+
+msgid "BRL"
+msgstr "Brazilian Real"
+
+msgid "ARS"
+msgstr "Argentine Peso"
+
+msgid "COP"
+msgstr "Colombian Peso"
+
+msgid "INR"
+msgstr "Indian Rupees"
+
+msgid "CAPTION"
+msgstr "Search for?"
+
+msgid "PROPERTYNULLRESULTSTITLE"
+msgstr "No Properties Found. Please Try Again."
+
+msgid "REALTORNULLRESULTSTITLE"
+msgstr "No Realtors / Brokers Found. Please Try Again."
+
+msgid "PROFESSIONALNULLRESULTSTITLE"
+msgstr "No Service Providers Found. Please Try Again."
+
+msgid "REALTORNULLRESULTSMESSAGE"
+msgstr "Looks like there are no realtors / brokers available for your search criteria. Please broaden your search criteria or check back later."
+
+msgid "PROFESSIONALNULLRESULTSMESSAGE"
+msgstr "Looks like there are no service providers available for your search criteria. Please broaden your search criteria or check back later."
+
+msgid "PROPERTYNULLRESULTSMESSAGE"
+msgstr "Looks like there are no properties available for your search criteria. Please broaden your search criteria or check back later."
+
+msgid "PROPERTYTOOMANYRESULTS"
+msgstr "We found too many properties matching your search criteria. Please narrow your search criteria and try again."
+
+msgid "PROFESSIONALTOOMANYRESULTS"
+msgstr "We found too many service providers matching your search criteria. Please narrow your search criteria and try again."
+
+msgid "BROKERAGEFIRMINFOCOLLAPSIBLE"
+msgstr "Professional Summary"
+
+msgid "COMPANYINFOCOLLAPSIBLE"
+msgstr "Professional Summary"
+
+msgid "PROFESSIONALSCOLLAPSIBLE"
+msgstr "Associated Service Providers"
+
+msgid "REALTORSCOLLAPSIBLE"
+msgstr "Associated Realtors / Brokers"
+
+msgid "ADDPROFESSIONAL"
+msgstr "Add a Service Provider"
+
+msgid "ADDREALTOR"
+msgstr "Add a Realtor / Broker"
+
+msgid "AUTHORIZEDPERSONNEL"
+msgstr "I am authorized to update this Company Information"
+
+msgid "TERMSCONDITIONSTITLE"
+msgstr "I have read and agree to the "
+
+msgid "LISTINGCLOSEDTITLE"
+msgstr "Your Property is Off Market"
+
+msgid "LISTINGREJECTEDTITLE"
+msgstr "Your Listing is Rejected"
+
+msgid "LISTINGCLOSEDDESCRIPTION"
+msgstr "You can Enrich your Listing at any time. Click on the Edit button below to modify your Listing"
+
+msgid "LISTINGREJECTEDDESCRIPTION"
+msgstr "You will need to edit your Listing to remove any objectionable content. Click on the Edit button below to modify your Listing"
+
+msgid "LISTINGPENDINGTITLE"
+msgstr "Your Listing is Pending Approval"
+
+msgid "LISTINGACTIVETITLE"
+msgstr "Your Listing is Active"
+
+msgid "LISTINGPENDINGDESCRIPTION"
+msgstr "Thank you for Listing your Property. Your request is awaiting content moderation before it is published online. Please check your registered Email regarding the status of your listing."
+
+msgid "LISTINGACTIVEDESCRIPTION"
+msgstr "You can Enrich your Listing at any time. Click on the Edit button below to modify your Listing"
+
+msgid "LISTINGCONFIRMATIONDESCRIPTION"
+msgstr "Please preview you listing before your confirm. Once you confirm, it will take a few minutes for your listing to get published online."
+
+msgid "MANDATORYMESSAGE"
+msgstr "Please ensure that you enter values for all the required fields highlighted below"
+
+msgid "LISTINGDRAFTMODE"
+msgstr "This page is for your Preview only. It will not be visible to other users yet"
+
+msgid "PROPERTYEMAILMESSAGE"
+msgstr "Type your message here?"
+
+msgid "PERSONEMAILMESSAGE"
+msgstr "Type your message here?"
+
+msgid "RSVPEMAILMESSAGE"
+msgstr "I would visit the property during Open House on %s"
+
+msgid "ENTERRSVPMESSAGE"
+msgstr "Send an RSVP to %s"
+
+msgid "ENTEREMAILMESSAGE"
+msgstr "Compose message to %s"
+
+msgid "RESIDENTIALSUBTYPEINVALID"
+msgstr "Invalid Residential Property Sub Type"
+
+msgid "PROFESSIONINVALID"
+msgstr "Profession is invalid"
+
+msgid "UPLOADING"
+msgstr "Uploading?"
+
+msgid "UPLOADSUCCESS"
+msgstr "Uploaded successfully?"
+
+msgid "MYPREFERENCES"
+msgstr "My Preferences"
+
+msgid "MYCONTACTS"
+msgstr "My Contacts"
+
+msgid "NOTIFICATIONS"
+msgstr "My Notifications"
+
+msgid "REMOVE"
+msgstr "Take Property Off Market"
+
+msgid "EDIT"
+msgstr "Edit"
+
+msgid "VIEW"
+msgstr "View"
+
+msgid "ENTERLOCATION"
+msgstr "Enter Address / Neighborhood / City / Zip Code"
+
+msgid "PUBLISH"
+msgstr "Publish"
+
+msgid "NUMBEROFBEDROOMS"
+msgstr "Number Of Bedrooms"
+
+msgid "OFFLINEMESSAGE"
+msgstr "%s is offline. Click here to send an Email"
+
+msgid "PROVIDESEARCHNAME"
+msgstr "Provide a Name for your Search"
+
+msgid "PERCENTAGEOFCOMPLETION"
+msgstr "Completion Status"
+
+msgid "FINANCIALCOMPLETIONGROUP"
+msgstr "Financials"
+
+msgid "LISTINGCOMPLETIONGROUP"
+msgstr "Listing Information"
+
+msgid "PROPERTYCOMPLETIONGROUP"
+msgstr "Property Details"
+
+msgid "ADDITIONALCOMPLETIONGROUP"
+msgstr "Additional Information"
+
+msgid "MISSINGFIELDS"
+msgstr "Missing Fields"
+
+msgid "VIDEOSTABTITLE"
+msgstr "Provide the URL for your Videos"
+
+msgid "TAGFILE"
+msgstr "Label your Photo"
+
+msgid "SAVEEXIT"
+msgstr "Save Draft & Exit"
+
+msgid "SENDINGEMAIL"
+msgstr "Sending Email?"
+
+msgid "EMAILSENT"
+msgstr "Email Sent"
+
+msgid "PRIVACYPOLICY"
+msgstr "Privacy Policy"
+
+msgid "PROFILECOMPLETION"
+msgstr "Enrich your profile"
+
+msgid "USERCOMPLETIONGROUP"
+msgstr "Profile Details"
+
+msgid "REALTORSANDBROKERSSEARCHOPTIONINFO"
+msgstr "Search for Realtors / Brokers"
+
+msgid "INCOME_SPECIALIST"
+msgstr "Income Specialist"
+
+msgid "WELCOME"
+msgstr "Welcome"
+
+msgid "LOGOUT"
+msgstr "Logout"
+
+msgid "LEGAL"
+msgstr "Legal"
+
+msgid "LOGINHEADING"
+msgstr "Login / Sign Up"
+
+msgid "RESIDENTIAL_LENDING"
+msgstr "Residential Lending"
+
+msgid "COMMERCIAL_LENDING"
+msgstr "Commercial Lending"
+
+msgid "URBAN_PLANNING"
+msgstr "Urban Planning / Civil Engineering"
+
+msgid "BACK_OFFICE_SPECIALIST"
+msgstr "Back Office Specialist"
+
+msgid "OTHER_SPECIALTY"
+msgstr "Other"
+
+msgid "COMMERCIAL_APPRAISER"
+msgstr "Commercial Appraiser"
+
+msgid "GENERAL_APPRAISER"
+msgstr "General Appraiser"
+
+msgid "RESIDENTIAL_APPRAISER"
+msgstr "Residential Appraiser"
+
+msgid "PROPERTY_INSPECTOR"
+msgstr "Property Inspector"
+
+msgid "PROPERTY_MANAGER"
+msgstr "Property Manager"
+
+msgid "LICENSE"
+msgstr "License"
+
+msgid "LICENSENUMBER"
+msgstr "License Number"
+
+msgid "LICENSEJURISDICTION"
+msgstr "License Jurisdiction"
+
+msgid "LICENSEISSUINGAUTHORITY"
+msgstr "License Issuing Authority"
+
+msgid "APPRENTICEINSPECTOR"
+msgstr "Apprentice Inspector"
+
+msgid "AUCTIONEER"
+msgstr "Auctioneer"
+
+msgid "CERTIFIEDGENERALAPPRAISER"
+msgstr "Certified General Appraiser"
+
+msgid "CERTIFIEDRESIDENTIALAPPRAISER"
+msgstr "Certified Residential Appraiser"
+
+msgid "LEASING_AGENT"
+msgstr "Leasing Agent"
+
+msgid "LICENSEDAPPRAISER"
+msgstr "Licensed Appraiser"
+
+msgid "LICENSEDINSPECTOR"
+msgstr "Licensed Inspector"
+
+msgid "MORTGAGE_BROKER"
+msgstr "Mortgage Broker"
+
+msgid "REALESTATEBROKER"
+msgstr "Real Estate Broker"
+
+msgid "REGISTEREDAPPRAISER"
+msgstr "Registered Appraiser"
+
+msgid "REGISTEREDINSPECTOR"
+msgstr "Registered Inspector"
+
+msgid "PROPERTYMANAGEMENT"
+msgstr "Property Management"
+
+msgid "RENTALPROPERTYMANAGEMENT"
+msgstr "Rental Property Management"
+
+msgid "SALESPERSON"
+msgstr "Salesperson"
+
+msgid "APPRAISAL"
+msgstr "Appraisal"
+
+msgid "INDUSTRIAL"
+msgstr "Industrial"
+
+msgid "FARM_AND_LAND"
+msgstr "Farm and Land"
+
+msgid "LAND_DEVELOPMENT"
+msgstr "Land Development"
+
+msgid "SECURITIESANDSYNDICATION"
+msgstr "Securities and Syndication"
+
+msgid "COUNSELING"
+msgstr "Counseling"
+
+msgid "RESEARCH"
+msgstr "Research"
+
+msgid "SITEURL"
+msgstr "Site URL"
+
+msgid "TWITTERHANDLE"
+msgstr "Twitter Handle"
+
+msgid "FACEBOOK"
+msgstr "Facebook URL"
+
+msgid "BLOG"
+msgstr "Blog URL"
+
+msgid "LINKEDIN"
+msgstr "LinkedIn URL"
+
+msgid "EMAILID"
+msgstr "Email"
+
+msgid "PASSWORD"
+msgstr "Password"
+
+msgid "FORGOTPASSWORD"
+msgstr "Forgot Password ?"
+
+msgid "SIGNUP"
+msgstr "Sign Up"
+
+msgid "REMEMBERME"
+msgstr "Remember Me"
+
+msgid "PROPERTYIMAGEMISSING"
+msgstr "No Photos"
+
+msgid "PROFESSIONINFOCOLLAPSIBLE"
+msgstr "Professional Information"
+
+msgid "CONTACTCOLLAPSIBLE"
+msgstr "Contact Information"
+
+msgid "EXPERTISE"
+msgstr "Areas of Expertise"
+
+msgid "OTHERCONTACTNUMBERS"
+msgstr "Other Contact Numbers"
+
+msgid "CONTACTNUMBERTYPE"
+msgstr "Contact Number Type"
+
+msgid "CONTACTNUMBER"
+msgstr "Contact Number"
+
+msgid "WEBSITETYPE"
+msgstr "Web Site Type"
+
+msgid "PROFESSIONALSINCE"
+msgstr "Professional Since"
+
+msgid "AREAS"
+msgstr "Localities Served"
+
+msgid "YEARSOFEXPERIENCE"
+msgstr "Years of Experience"
+
+msgid "CHOOSELOCATIONONMAP"
+msgstr "Click here to specify your Preferred Location on Map "
+
+msgid "FEEDBACKSENTFAIL"
+msgstr "There was some problem sending your Email. Please try again?"
+
+msgid "FEEDBACKSENTSUCCESS"
+msgstr "Thank you for your Email. We will respond to you as soon as possible"
+
+msgid "COULDNOTFETCHLOCATION"
+msgstr "We could not fetch your location"
+
+msgid "WIDGETMEDIANPRICE"
+msgstr "Median Prices are based on the asking prices of all properties listed "
+
+msgid "RENTINCREMENTPERCENTAGETOOLTIP"
+msgstr "Provide the estimated annual increase in rent considering historic and prevailing market conditions"
+
+msgid "COSTBASISTOOLTIP"
+msgstr "This is the cost basis of the investment which takes into consideration the asking price and initial improvement costs.
+Cost Basis = Asking Price + Initial Improvement Cost"
+
+msgid "TOTALINVESTMENTCOSTTOOLTIP"
+msgstr "This is the cost basis of the investment which takes into consideration the asking price, closing cost and initial improvement costs."
+
+msgid "ANNUALTAXABLEINCOMETOOLTIP"
+msgstr "This is the annual taxable income after taking into consideration all the expenses incurred on maintaining the property"
+
+msgid "DEPRECIATIONPERCENTAGETOOLTIP"
+msgstr "Provide the estimated annual depreciation of the property value considering normal wear and tear and standard depreciation rates"
+
+msgid "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP"
+msgstr "Provide the estimated annual appreciation in the property value considering historic and prevailing market conditions"
+
+msgid "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP"
+msgstr "Asking price plus any fixup & closing cost."
+
+msgid "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP"
+msgstr "This is the Annual taxable income after taking into consideration all the expenses incurred on maintaining the property.
+Annual Taxable Income Without Mortgage = Net Operating Income- Depreciation Value
+"
+
+msgid "INITIALINVESTMENTWITHMORTGAGETOOLTIP"
+msgstr "Down payment plus any fixup & closing cost."
+
+msgid "COSTBASISWITHMORTGAGETOOLTIP"
+msgstr "This is the Free Cash Flow after taking into consideration the debt service
+Free Cash Flow = Net Operating Income - Debt Service"
+
+msgid "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP"
+msgstr "This is the Annual Taxable Income after taking into consideration all the expenses incurred on maintaining the property 
+Taxable Cash Flow = Annual Free Cash Flow-Depreciation Value
+"
+
+msgid "SALECLOSINGCOSTTOOLTIP"
+msgstr "Provide the estimated sale closing considering commissions, county fees, etc."
+
+msgid "CLOSINGCOSTTOOLTIP"
+msgstr "Provide the estimated purchase closing cost considering commissions, county fees, etc."
+
+msgid "INITIALIMPROVEMENTCOSTTOOLTIP"
+msgstr "Closing cost plus estimated cost for repairs and/or improvements to be made after purchase and prior to renting to first tenant."
+
+msgid "EMICOSTTOOLTIP"
+msgstr "This is the estimated monthly mortgage amount considering  standard interest rates. The actual mortgage amount would vary based on the interest rate charged by the bank and the credit score"
+
+msgid "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP"
+msgstr "This is the total initial investment considering closing costs, down payment, etc."
+
+msgid "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP"
+msgstr "This is the rate of return that calculates the cash income earned on the cash invested in a property in relation to the total initial investment only."
+
+msgid "CAPRATETOOLTIP"
+msgstr "Ratio of Net Operating Income to Asking Price"
+
+msgid "OTHEREXPENSESTOOLTIP"
+msgstr "Provide the Total Annual Amount for all other Expenses"
+
+msgid "HOMEFORSALESEARCHOPTIONINFO"
+msgstr "Search for Residential Investments for Sale"
+
+msgid "PROPERTYFORLEASESEARCHOPTIONINFO"
+msgstr "Search for Properties for Lease"
+
+msgid "PROFESSIONALSEARCHOPTIONINFO"
+msgstr "Search for Service Providers or Professionals Serving Real Estate like Bankers, Insurance Agents, Loan Agents, Property Managers, etc."
+
+msgid "LOCATIONPREFUSAGEINFO"
+msgstr "Enter one or more preferred locations and search radius to define the bounds"
+
+msgid "CAPRATERANGETOOLTIP"
+msgstr "Provide the upper and lower range values for cap rate potential in case you are looking for properties already generating rental income"
+
+msgid "INVESTMENTCATEGORIESTOOLTIP"
+msgstr "Provide the Investment Category for your search
+Core: This is an unleveraged, low-risk/low-potential return investment with predictable cash flows.
+Core Plus: This is a moderate-risk/moderate-return investment which may or may not require enhancements.
+Value Added: This is a medium-to-high-risk/medium-to-high-return investment which requires enhancements or capital inflow or other changes.
+Development Opportunity: This is a high-risk/high-return investment which require a high degree of enhancement or other risks."
+
+msgid "NUMBERONLY"
+msgstr "Please enter a valid number"
+
+msgid "MAXVALUE"
+msgstr "Please enter a valid value less than "
+
+msgid "MAXLENGTH"
+msgstr "The maximum number of characters allowed is "
+
+msgid "MINLENGTH"
+msgstr "The minimum number of characters required is "
+
+msgid "EMAILIDREQUIRED"
+msgstr "Email is required"
+
+msgid "EMAILPATTERNERROR"
+msgstr "Please enter a valid email address "
+
+msgid "URLPATTERN"
+msgstr "Please enter a valid website address "
+
+msgid "DATE_EXCEPTION"
+msgstr "Invalid date specified"
+
+msgid "DECIMALUPTO4DIGIT"
+msgstr "Please provide a valid number with a maximum of 4 decimal places"
+
+msgid "MEDIANLEASEPRICECAVEAT"
+msgstr "Median Rents are indicative. Review Listing details carefully."
+
+msgid "GROSSRENTREVENUEREQUIRED"
+msgstr "Gross Rental Income is required"
+
+msgid "ISVACATIONRENTAL"
+msgstr "Is this Unit a Short-term Rental ?"
+
+msgid "ISVACATIONRENTALTOOLTIP"
+msgstr "Indicate whether this property is being rented out as a short-term, seasonal, executive or vacation rental."
+
+msgid "PREVIEWSELECTEDFLOORPLANDOCS"
+msgstr "Selected Floor Plans and Surveys"
+
+msgid "FLOORPLANSGALLERY"
+msgstr "Uploaded Floor Plans and Surveys"
+
+msgid "BASICINFORMATION"
+msgstr "Location"
+
+msgid "PROPERTYDETAILS"
+msgstr "Details"
+
+msgid "LOCATEPROPERTYTIP"
+msgstr "Choose from the Properties below"
+
+msgid "PROPERTYFOUND"
+msgstr "Matching Properties at your Location"
+
+msgid "PROPERTYNOTFOUND"
+msgstr "Did not find your Property ?"
+
+msgid "SELFOWNED"
+msgstr "Do you own this Listing?"
+
+msgid "OWNEREMAILID"
+msgstr "Listing Owner Email Id"
+
+msgid "OWNERMOBILENUMBER"
+msgstr "Listing Owner Mobile Number"
+
+msgid "OWNERNAME"
+msgstr "Listing Owner Name"
+
+msgid "LISTINGCONFIRMATIONTITLE"
+msgstr "Preview and confirm your Listing"
+
+msgid "MARKERDRAGPINMESSAGE"
+msgstr "In case you are unable to find your address, enter the nearest landmark or neighborhood and then drag the pin to your property location"
+
+msgid "BASICINFOSCHEMATITLE"
+msgstr "Locate your Property"
+
+msgid "DROPIMAGETITLE"
+msgstr "Drag and Drop your Files here. You can upload up to 10 files each time."
+
+msgid "MEDIATITLE"
+msgstr "Upload Photos for your Property"
+
+msgid "OVERVIEWINFOSCHEMATITLE"
+msgstr "Provide basic information about your Listing"
+
+msgid "FINANCIALINFOSCHEMATITLE"
+msgstr "Provide financial information"
+
+msgid "ADDITIONALINFOSCHEMATITLE"
+msgstr "Provide additional information"
+
+msgid "PROPERTYINFOSCHEMATITLE"
+msgstr "Enrich your Property Details"
+
+msgid "VALUEADDEDREASONTOOLTIP"
+msgstr "Provide the primary reason or factor which makes the Investment Category of this property a Value Add"
+
+msgid "RISKRETURNCATEGORYTOOLTIP"
+msgstr "Provide the Investment Category of the Property which helps Investors in decision making. 
+Core: This is an unleveraged, low-risk/low-potential return investment with predictable cash flows.
+Core Plus: This is a moderate-risk/moderate-return investment which may or may not require enhancements.
+Value Added: This is a medium-to-high-risk/medium-to-high-return investment which requires enhancements or capital inflow or other changes.
+Development Opportunity: This is a high-risk/high-return investment which require a high degree of enhancement or other risks."
+
+msgid "DISTRESSEDTOOLTIP"
+msgstr "Indicate whether this property is distressed and the appropriate status"
+
+msgid "PROPERTYNAMETOOLTIP"
+msgstr "Provide a unique name for the property so that, others can easily identify it"
+
+msgid "AREATOOLTIP"
+msgstr "Provide the area of the property. If you are listing a lot or a building unit, then, this should be the area of the lot or unit listed"
+
+msgid "LOTAREATOOLTIP"
+msgstr "Provide the total lot area of the property"
+
+msgid "ENDDATETOOLTIP"
+msgstr "Provide the date until which your Listing should be active"
+
+msgid "CONTACTACTIONSTOOLTIP"
+msgstr "Provide your preferred mode of contact. Enabling all possible contact options will facilitate others to reach you easily"
+
+msgid "SELFOWNEDTOOLTIP"
+msgstr "Provide the ownership details for this Listing. If this listing is not owned by you, then, provide the owner information"
+
+msgid "AVAILABLEDATETOOLTIP"
+msgstr "Provide the date by which the property will be available for occupancy"
+
+msgid "DISCLOSEADDRESSTOOLTIP"
+msgstr "Indicate whether you would like to Disclose or Hide the Address for this Property"
+
+msgid "DISCLOSEPRICETOOLTIP"
+msgstr "Indicate whether you would like to Disclose or Hide the Price for this Listing"
+
+msgid "CAPRATEKNOWNTOOLTIP"
+msgstr "If you know the Cap Rate Potential of the Property or Unit being listed, then, you may directly enter it. If not, we can help you calculate the Cap Rate Potential."
+
+msgid "CAPRATETYPETOOLTIP"
+msgstr "Indicate whether the Cap Rate Potential is based on actual or projected revenues"
+
+msgid "COMMISSIONSPLITTOOLTIP"
+msgstr "Provide the buyer agent commission percentage"
+
+msgid "COMMISSIONPERCENTAGETOOLTIP"
+msgstr "Provide the commission percentage that the buyer would have to pay"
+
+msgid "COMMISSIONAMOUNTTOOLTIP"
+msgstr "Provide the commission amount that the buyer would have to pay"
+
+msgid "SPECIFICATIONSTOOLTIP"
+msgstr "Provide property features including details about the foundation, building materials used, finish, fixtures and furnishings"
+
+msgid "PRIMARYIDENTIFIERTOOLTIP"
+msgstr "Provide the APN or Parcel ID. This will be vital for evaluating the property for purchasing decisions."
+
+msgid "HIGHLIGHTSTOOLTIP"
+msgstr "Provide key highlights of your property like facing direction, ventilation, etc."
+
+msgid "MINDIVISIBLEAREATOOLTIP"
+msgstr "Provide the smallest area allowed in the division of this Lot"
+
+msgid "MAXDIVISIBLEAREATOOLTIP"
+msgstr "Provide the largest area allowed in the division of this Lot"
+
+msgid "MAXCONTIGUOUSAREATOOLTIP"
+msgstr "Provide the largest?contiguous?area allowed in the division of?this Lot"
+
+msgid "FIXTURESTOOLTIP"
+msgstr "Provide the details of each fixture or appliance available in your unit"
+
+msgid "PROPERTYNAMEREQUIRED"
+msgstr "Property Name is required"
+
+msgid "PROPERTYSUBTYPEREQUIRED"
+msgstr "Property Type is required"
+
+msgid "PROPERTYTYPEREQUIRED"
+msgstr "Category is required"
+
+msgid "LINEONEREQUIRED"
+msgstr "Street Address is required"
+
+msgid "CITYREQUIRED"
+msgstr "City is required"
+
+msgid "ZIPCODEREQUIRED"
+msgstr "Zip Code is required"
+
+msgid "LOCALITYREQUIRED"
+msgstr "Locality is required"
+
+msgid "TITLEREQUIRED"
+msgstr "Listing Title is required"
+
+msgid "LISTINGAREAREAMISSING"
+msgstr "Area is required"
+
+msgid "PROPERTYLISTINGTYPEREQUIRED"
+msgstr "Listing Type is required"
+
+msgid "STARTTIMEMISSING"
+msgstr "Start Time is required"
+
+msgid "ENDTIMEMISSING"
+msgstr "End Time is required"
+
+msgid "ENDTIMEINVALID"
+msgstr "End Time cannot be lesser than or equal to Start Time"
+
+msgid "OPENHOUSEENDDATEMINVALUE"
+msgstr "Open House Date cannot be earlier than  "
+
+msgid "ENDDATEMINVALUE"
+msgstr "Listing Expiry Date cannot be earlier than  "
+
+msgid "ENDDATEMAXVALUE"
+msgstr "Listing Expiry Date cannot be greater than  "
+
+msgid "ENDDATEREQUIRED"
+msgstr "Listing Expiry Date is required"
+
+msgid "DISCLOSEADDRESSREQUIRED"
+msgstr "Disclose Address is required"
+
+msgid "DISCLOSEPRICEREQUIRED"
+msgstr "Disclose Price is required"
+
+msgid "SALEPRICEREQUIRED"
+msgstr "Sale Price is required"
+
+msgid "LEASEPRICEREQUIRED"
+msgstr "Lease Amount is required"
+
+msgid "PROPERTYLISTINGMISSING"
+msgstr "Property Listing is required"
+
+msgid "PROPERTYMISSING"
+msgstr "Property is required"
+
+msgid "SALEPRICEMISSING"
+msgstr "Sale Price is required"
+
+msgid "SALEPRICEINVALID"
+msgstr "Sale Price is invalid"
+
+msgid "COMMISSIONSPLITINVALID"
+msgstr "Buyer Agent Commission is invalid"
+
+msgid "SALECOMMISSIONINVALID"
+msgstr "Commission Percentage is invalid"
+
+msgid "LEASEPRICEMISSING"
+msgstr "Lease Price is required"
+
+msgid "LEASEPRICEINVALID"
+msgstr "Lease Price is invalid"
+
+msgid "LEASEDEPOSITINVALID"
+msgstr "Deposit Amount is invalid"
+
+msgid "LEASETERMINVALID"
+msgstr "Lease Term is invalid"
+
+msgid "LEASEMAINTENANCECHARGESINVALID"
+msgstr "Monthly Maintenance Charges is invalid"
+
+msgid "LEASECOMMISSIONINVALID"
+msgstr "Commission Amount is invalid"
+
+msgid "NUMBEROFBEDSREQUIRED"
+msgstr "Number of Beds is required"
+
+msgid "NUMBEROFSEATSREQUIRED"
+msgstr "Number of Seats is required"
+
+msgid "NUMBEROFBEDROOMSREQUIRED"
+msgstr "Number of Bedrooms is required"
+
+msgid "LISITNGAREAREQUIRED"
+msgstr "Area is required"
+
+msgid "ENDDATEMISSING"
+msgstr "Expiry Date is required"
+
+msgid "OTHERSUBTYPEINVALID"
+msgstr "Invalid Other Property Sub Type"
+
+msgid "SUBTYPEMISSING"
+msgstr "Property Type is required"
+
+msgid "LISTINGTITLEMISSING"
+msgstr "Listing Title is required"
+
+msgid "LISTINGSALETYPEMISSING"
+msgstr "Posted By is required"
+
+msgid "LISTINGTYPEMISSING"
+msgstr "Listing Type is required"
+
+msgid "TYPEMISSING"
+msgstr "Category is required"
+
+msgid "LEASETERMREQUIRED"
+msgstr "Lease Term is required"
+
+msgid "LEASETYPEREQUIRED"
+msgstr "Lease Type is required"
+
+msgid "LEASEAMOUNTREQUIRED"
+msgstr "Lease Amount is required"
+
+msgid "DISTRESSEDSTATUSREQUIRED"
+msgstr "Distressed Status is required"
+
+msgid "CREATEPROPERTY"
+msgstr "Provide Property Information"
+
+msgid "CONFIRMADDRESS"
+msgstr "Confirm the Address of your Property"
+
+msgid "MOVEMAP"
+msgstr "Move or drag map to find properties"
+
+msgid "BACKTOPROPERTY"
+msgstr "Previous Step"
+
+msgid "NOIMAGESUPLOADED"
+msgstr "No files uploaded for"
+
+msgid "PREVIEWSELECTEDDOCUMENTS"
+msgstr "Selected Documents"
+
+msgid "PREVIEWSELECTEDIMAGES"
+msgstr "Preview Selected Photos"
+
+msgid "CURRENTDEFAULT"
+msgstr "Default Photo"
+
+msgid "SETASDEFAULT"
+msgstr "Set as Default"
+
+msgid "CONFIRMPROPERTY"
+msgstr "Select this Location"
+
+msgid "NEXTTOFINANCIAL"
+msgstr "Next Step"
+
+msgid "NEXTTOADDITIONAL"
+msgstr "Next Step"
+
+msgid "BACKTOADDITIONAL"
+msgstr "Previous Step"
+
+msgid "NEXTTOCREATEPROPERTY"
+msgstr "Next Step"
+
+msgid "BACKTOADDRESS"
+msgstr "Previous Step"
+
+msgid "ADDLEASERENEWALOPTIONS"
+msgstr "Add a Lease Renewal Option"
+
+msgid "ADDHIGHLIGHTS"
+msgstr "Add another Highlight"
+
+msgid "POSTONLINE"
+msgstr "Post Listing Online"
+
+msgid "NEXTTOPROPERTY"
+msgstr "Next Step"
+
+msgid "NEXTTOPHOTOS"
+msgstr "Next Step"
+
+msgid "BACKTOFINANCIAL"
+msgstr "Previous Step"
+
+msgid "SELECTEDBUILDINGUNIT"
+msgstr "Describe your Unit"
+
+msgid "PROPERTYBUILDINGDETAILS"
+msgstr "Describe your Building"
+
+msgid "APARTMENTDETAILS"
+msgstr "Describe your Residential Community"
+
+msgid "PROPERTYLOTDETAILS"
+msgstr "Describe your Lot"
+
+msgid "ENTERHIGHLIGHTS"
+msgstr "Enter Property Highlights"
+
+msgid "ADDFIXTURES"
+msgstr "Add a Fixture"
+
+msgid "ENTERFIXTURES"
+msgstr "Enter Fixture Details"
+
+msgid "ADDSPECIFICATIONS"
+msgstr "Add a Feature"
+
+msgid "ENTERSPECIFICATIONS"
+msgstr "Enter Features"
+
+msgid "ADDROOMS"
+msgstr "Add a Room"
+
+msgid "HOTELROOMDETAILS"
+msgstr "Describe your Room"
+
+msgid "LOTDETAILSCOLLAPSIBLE"
+msgstr "Lot Information (I am listing a specific Lot)"
+
+msgid "SELECTEDLOT"
+msgstr "Describe your Lot"
+
+msgid "MAXNOOFFILES"
+msgstr "You can Upload up to 10 Files"
+
+msgid "UPLOADNOW"
+msgstr "Upload Now"
+
+msgid "SELECTFILESTOUPLOAD"
+msgstr "Browse Files"
+
+msgid "MINIMUM4IMAGESREQUIRED"
+msgstr "Add at least 4 Photos"
+
+msgid "LISTINGUPDATED"
+msgstr "Listing updated?"
+
+msgid "LISTINGUPDATEFAILED"
+msgstr "Listing could not be updated. Please try again later."
+
+msgid "VIDEOTITLEPLACEHOLDER"
+msgstr "Type your Video Title"
+
+msgid "VIDEOURLPLACEHOLDER"
+msgstr "Type or Paste your Video URL"
+
+msgid "ASKINGPRICEPRICEREQUIRED"
+msgstr "Enter the Asking Price"
+
+msgid "ISRENTALPROPERTYTOOLTIP"
+msgstr "Indicate whether this property unit is rented out and the appropriate financial information"
+
+msgid "ISRENTALPROPERTY"
+msgstr "Is this unit rented out ?"
+
+msgid "RENTALAMOUNTREQUIRED"
+msgstr "Lease Amount is required"
+
+msgid "CONSTRUCTIONSTATUSYEARBUILTINVALID "
+msgstr "Construction Status and Year combination is invalid."
+
+msgid "ISREALTOR"
+msgstr "I am a Real Estate Professional"
+
+msgid "PROFILEPICTURE"
+msgstr "Profile Photo"
+
+msgid "ADDPROFILEPIC"
+msgstr "Add Profile Photo"
+
+msgid "UPDATEPROFILEPIC"
+msgstr "Change Profile Photo"
+
+msgid "YOUHAVENOCOMPANIESTITLE"
+msgstr "You are currently not associated with a Company"
+
+msgid "YOUHAVENOCOMPANIESMESSAGE"
+msgstr "Click on the button to register a new company"
+
+msgid "YOUHAVENOLISTINGSTITLE"
+msgstr "You have not Listed any Properties"
+
+msgid "YOUHAVENOLISTINGSMESSAGE"
+msgstr "Click on the button to List a Property"
+
+msgid "CONFIRMPASSWORDERROR"
+msgstr "Passwords do not match. Please retry."
+
+msgid "PASSWORDCHANGESUCCESS"
+msgstr "Password changed?"
+
+msgid "PREFERENCESSAVESUCCESS"
+msgstr "Preferences saved..."
+
+msgid "PROFILESAVESUCCESS"
+msgstr "Profile saved?"
+
+msgid "MYWISHLIST"
+msgstr "My Watch List"
+
+msgid "REMOVEFROMWISHLIST"
+msgstr "Remove from My Watch List"
+
+msgid "PHONENUMBERVIEWED"
+msgstr "Send me an Email Notification when somebody views my Phone Number"
+
+msgid "CHATINITIATED"
+msgstr "Send me an Email Notification when somebody initiates a Chat Conversation with me"
+
+msgid "RSVPSENT"
+msgstr "Send me an Email Notification when somebody sends an RSVP for my Open House"
+
+msgid "SAVEDSEARCHMATCH"
+msgstr "Send me an Email Notification when New Listings are posted matching my Saved Search Criteria"
+
+msgid "LISTINGCREATED"
+msgstr "Send me an Email Notification when somebody Lists a Property in my Areas & Neighborhoods Served "
+
+msgid "ENTERSAVEDSEARCHNOTIFICATIONDAYS"
+msgstr "Enter Number of Days"
+
+msgid "SAVEDSEARCHNOTIFICATIONDAYS"
+msgstr "Days after which we should stop sending you Match Notifications"
+
+msgid "SAVEDON"
+msgstr "Saved on"
+
+msgid "YOUHAVENOWISHLISTTITLE"
+msgstr "You have no Listings in your Watch List"
+
+msgid "YOUHAVENOWISHLISTMESSAGE"
+msgstr "Click on the Heart symbol in the Listing display to add it to your Watch List"
+
+msgid "YOUHAVENOSEARCHESTITLE"
+msgstr "You have no Saved Searches"
+
+msgid "YOUHAVENOSEARCHESMESSAGE"
+msgstr "Click on the Save Search button in the Property Search Results to save it for future reference"
+
+msgid "YOUHAVENONOTIFTITLE"
+msgstr "You have no Contacts"
+
+msgid "YOUHAVENONOTIFMESSAGE"
+msgstr "Whenever you contact somebody or when somebody contacts you, your Contacts will be visible here"
+
+msgid "ADDEDTOWISHLIST"
+msgstr "Added to Watch List"
+
+msgid "ADDTOWISHLIST"
+msgstr "Add to Watch List"
+
+msgid "STATUSMESSAGE"
+msgstr "Status Message"
+
+msgid "ENRICHYOURPROFILEMSG"
+msgstr "Please enrich your profile to improve your visibility to potential investors."
+
+msgid "LICENSEREQUIRED"
+msgstr "Enter the License Number"
+
+msgid "CURRENTPASSWORD"
+msgstr "Current Password"
+
+msgid "NEWPASSWORD"
+msgstr "New Password"
+
+msgid "CONFIRMPASSWORD"
+msgstr "Confirm Password"
+
+msgid "ENTERNAME"
+msgstr "Enter Name"
+
+msgid "ENTERMOBILE"
+msgstr "Enter Mobile"
+
+msgid "NOTAMEMBER"
+msgstr "Not a Member ?"
+
+msgid "EMAILPHONE"
+msgstr "Email or Mobile Number"
+
+msgid "MEMBERLOGIN"
+msgstr "Member Login"
+
+msgid "CREATEYOURACCOUNT"
+msgstr "Create Your Account"
+
+msgid "MEMBER"
+msgstr "Member"
+
+msgid "CHANGEPASSWORD"
+msgstr "Change Password"
+
+msgid "CHANGEPASSWORDDESCRIPTION"
+msgstr "Provide your new password"
+
+msgid "ADDWEBSITES"
+msgstr "Add a Web Site"
+
+msgid "USERSREGISTRATIONINFOSCHEMATITLE"
+msgstr "Sign up as a member"
+
+msgid "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE"
+msgstr "Sign up as a Service Provider or Professional"
+
+msgid "REALTORSREGISTRATIONINFOSCHEMATITLE"
+msgstr "Sign up as a Realtor / Broker"
+
+msgid "COMPANYREGISTRATIONINFOSCHEMATITLE"
+msgstr "Register your company in our site"
+
+msgid "VERIFYOTPHEADING"
+msgstr "Verify Security Code"
+
+msgid "VERIFYOTPACCOUNTLOCKEDLINE1"
+msgstr "Your Account has been Locked due to too many incorrect password attempts. Re-sending Security Code?"
+
+msgid "VERIFYOTPACCOUNTLOCKEDLINE2"
+msgstr "Provide the Security Code that was sent to your Email"
+
+msgid "VERIFYOTPUSERUNVERIFIEDLINE1"
+msgstr "We notice that you did not complete the Sign Up process during your last visit. Re-sending Security Code?"
+
+msgid "VERIFYOTPUSERUNVERIFIEDLINE2"
+msgstr "Provide the Security Code that was sent to your Email"
+
+msgid "VERIFYOTPEMPTYPASSWORDLINE1"
+msgstr "We notice that you did not complete the Sign Up process during your last visit. Re-sending Security Code?"
+
+msgid "VERIFYOTPEMPTYPASSWORDLINE2"
+msgstr "Provide the Security Code that was sent to your Email"
+
+msgid "VERIFYOTPAUTOREGISTEREDLINE1"
+msgstr "We need to establish that this Email Id belongs to you"
+
+msgid "VERIFYOTPAUTOREGISTEREDLINE2"
+msgstr "Provide the Security Code that was sent to your Email"
+
+msgid "VERIFYOTPFORGOTPASSWORDLINE1"
+msgstr "We need to verify your email ID in order to Reset your Password"
+
+msgid "VERIFYOTPFORGOTPASSWORDLINE2"
+msgstr "Provide the Security Code that was sent to your Email"
+
+msgid "VERIFYOTPDESCRIPTIONLINE2"
+msgstr "Provide the Security Code that was sent to your Email"
+
+msgid "VERIFYOTPDESCRIPTIONLINE1"
+msgstr "We need to establish that this Email Id belongs to you"
+
+msgid "REGISTRATIONHEADING"
+msgstr "Sign Up"
+
+msgid "REGISTRATIONDESCRIPTIONLINE1"
+msgstr "Provide your Identification"
+
+msgid "REGISTRATIONDESCRIPTIONLINE2"
+msgstr "Your information will be used for identifying you and will never be shared with anyone else"
+
+msgid "LOGINDESCRIPTIONLINE1"
+msgstr "Provide your Email ID"
+
+msgid "LOGINDESCRIPTIONLINE2"
+msgstr "You will be prompted for your Password or Sign Up credentials"
+
+msgid "PASSWORDHEADING"
+msgstr "Security Check"
+
+msgid "PASSWORDDESCRIPTIONLINE1"
+msgstr "Provide your Password"
+
+msgid "PASSWORDDESCRIPTIONLINE2"
+msgstr "You will appear as Online and can instantly connect with others who are also Online"
+
+msgid "FORGOTPASSWORDHEADING"
+msgstr "Set Password"
+
+msgid "FORGOTPASSWORDDESCRIPTIONLINE1"
+msgstr "Provide a Password for future login to our site"
+
+msgid "FORGOTPASSWORDDESCRIPTIONLINE2"
+msgstr "You can choose a Password which is strong and easy to remember"
+
+msgid "STATUSMESSAGETOOLTIP"
+msgstr "Provide a brief message which will be displayed in your Contact Card"
+
+msgid "AREASSERVEDTOOLTIP"
+msgstr "Cities or neighborhoods that you serve."
+
+msgid "PROFESSIONSTOOLTIP"
+msgstr "Choose the type of services provided by you"
+
+msgid "EXPERTISETOOLTIP"
+msgstr "Provide your primary areas of expertise and specialties"
+
+msgid "SPECIALTIESTOOLTIP"
+msgstr "Choose your appropriate real estate specialties "
+
+msgid "BROKERAGEFIRMCOMPLETETOOLTIP"
+msgstr "Your brokerage firm may already be registered with us. Lookup our data with your company name. If not found, you can always register your company here."
+
+msgid "COMPANYCOMPLETETOOLTIP"
+msgstr "Your company may already be registered with us. Lookup our data with your company name. If not found, you can always register your company here."
+
+msgid "HAVECOMPANYTOOLTIP"
+msgstr "If you are associated with a company, you can benefit by providing your company information here"
+
+msgid "HAVECOMPANY"
+msgstr "Associated with a Company ?"
+
+msgid "BROKERAGEFIRMCOMPLETE"
+msgstr "Enter your Brokerage Firm Name"
+
+msgid "COMPANYCOMPLETE"
+msgstr "Enter your Company Name"
+
+msgid "ADDCOMPANYCOLLAPSIBLE"
+msgstr "Did not find your Company ?"
+
+msgid "AREAREQUIRED"
+msgstr "At least one Area Served is required"
+
+msgid "COMPANYNAMEREQUIRED"
+msgstr "Company Name is required"
+
+msgid "CONTACTNUMBERTYPEREQUIRED"
+msgstr "Contact Number Type is required"
+
+msgid "CONTACTNUMBERREQUIRED"
+msgstr "Contact Number is required"
+
+msgid "NAMEREQUIRED"
+msgstr "Name is required"
+
+msgid "MOBILENUMBERREQUIRED"
+msgstr "Mobile Number is required"
+
+msgid "PASSWORDREQUIRED"
+msgstr "Password is required"
+
+msgid "REALTORINVALID"
+msgstr "Realtor / Broker is invalid"
+
+msgid "AREASMISSING"
+msgstr "Areas Served is required"
+
+msgid "REALTORSINCEINVALID"
+msgstr "Professional Since is invalid"
+
+msgid "SPECIALTIESINVALID"
+msgstr "`"
+
+msgid "CONTACTACTIONSMISSING"
+msgstr "At least one Preferred Contact Option is required"
+
+msgid "CONTACTACTIONINVALID"
+msgstr "Preferred Contact Option is invalid"
+
+msgid "PROFESSIONALINVALID"
+msgstr "Professional is invalid"
+
+msgid "PROFESSIONSMISSING"
+msgstr "At least one Profession is required"
+
+msgid "MOBILEOREMAILMANDATORY"
+msgstr "At least one of Email or Mobile Number is mandatory"
+
+msgid "MOBILEOREMAILACTIONANYONENEEDED"
+msgstr "At least one of Email or Telephone Number should be set as preferred contact option"
+
+msgid "EXPIRED_PASSWORD"
+msgstr "Your password has expired. Please reset it."
+
+msgid "EMPTY_PASSWORD"
+msgstr "Password is empty"
+
+msgid "USER_UNVERIFIED"
+msgstr "Please verify your Security Code to proceed further"
+
+msgid "USER_ACCOUNT_DISABLED"
+msgstr "Your account is disabled. Please contact our system administrator"
+
+msgid "USER_ACCOUNT_LOCKED"
+msgstr "Your account is locked. Please reset your password"
+
+msgid "USER_MOBILE_EXIST"
+msgstr "The mobile number that you supplied is already registered in our system. Please try another mobile number"
+
+msgid "USER_EMAIL_EXIST"
+msgstr "The email ID that you supplied is already registered in our system. Please try another email ID"
+
+msgid "USER_EMAIL_MOBILE_EXIST"
+msgstr "The email and mobile number that you supplied is already registered in our system. Please try another email or mobile number"
+
+msgid "TOKEN_NOT_FOUND"
+msgstr "Security Code is invalid. Please try again"
+
+msgid "TOKEN_EXPIRED"
+msgstr "Your Security Code has expired. Please generate a new Security Code"
+
+msgid "TOKEN_NOT_MATCHING"
+msgstr "Security Code is invalid. Please try again"
+
+msgid "OLD_PASSWORD_NOT_SAME"
+msgstr "Old password is invalid"
+
+msgid "BAD_CREDENTIALS"
+msgstr "User name or password is invalid"
+
+msgid "INVALID_USERNAME"
+msgstr "User name or password is invalid"
+
+msgid "INVALID_USERID"
+msgstr "User name or password is invalid"
+
+msgid "USER_NOT_FOUND"
+msgstr "User name or password is invalid"
+
+msgid "BROKERAGE_FIRM_EXIST"
+msgstr "Another brokerage firm with the same name exists"
+
+msgid "COMPANY_EXIST"
+msgstr "Another company with the same name exists"
+
+msgid "BROKERAGE_FIRM_NOT_EXIST"
+msgstr "Brokerage firm does not exist"
+
+msgid "COMPANY_NOT_EXIST"
+msgstr "Company does not exist"
+
+msgid "COMPANYINVALID"
+msgstr "Company is invalid"
+
+msgid "ADDOTHERCONTACTNUMBERS"
+msgstr "Add a Contact Number"
+
+msgid "ENTERAREA"
+msgstr "Enter Areas Served by you"
+
+msgid "ADDAREASSERVED"
+msgstr "Add an Area Served"
+
+msgid "ENTEREXPERTISE"
+msgstr "Enter your Areas of Expertise"
+
+msgid "ADDEXPERTISE"
+msgstr "Add an Area of Expertise"
+
+msgid "REGISTERCOMPANY"
+msgstr "Register My Company"
+
+msgid "ROLETYPE"
+msgstr "I am a"
+
+msgid "ROLE_CUSTOMER"
+msgstr "Real Estate Investor"
+
+msgid "ROLE_REALTOR"
+msgstr "Realtor"
+
+msgid "ROLE_PROFESSIONAL"
+msgstr "Real Estate Service Provider"
+
+msgid "ENTEROTP"
+msgstr "Enter the Security Code sent to your Email"
+
+msgid "USEREMAIL_EXIST"
+msgstr "A user with this email ID already exists. Please use an alternate email ID."
+
+msgid "ROLETYPETOOLTIP"
+msgstr "Sign Up as a Real Estate Investor if you are an Investor or Property Owner. 
+If you are a Realtor / Broker or a Service Provider / Professional Serving the Real Estate Industry, you will be prompted for additional information."
+

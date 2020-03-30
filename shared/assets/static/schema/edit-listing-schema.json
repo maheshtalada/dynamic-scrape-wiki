@@ -1,0 +1,444 @@
+{
+  "schema": {
+    "schemas": [
+      {
+        "type": "header",
+        "children": [
+          {
+            "id": "propertylisting.id",
+            "type": "text-hidden",
+            "data": {
+              "value": "1568"
+            }
+          },
+          {
+            "id": "propertylisting.property",
+            "type": "list",
+            "children": [
+              {
+                "label": "PROPERTYTYPE",
+                "id": "propertylisting.property.type",
+                "type": "content",
+                "data": {
+                  "value": "RESIDENTIAL"
+                }
+              },
+              {
+                "label": "PROPERTYSUBTYPE",
+                "id": "propertylisting.property.subType",
+                "type": "content",
+                "data": {
+                  "value": "GARDEN_HOME_1_4_UNITS"
+                }
+              }
+            ]
+          },
+          {
+            "label": "PROPERTYLISTINGTYPE",
+            "id": "propertylisting.type",
+            "type": "content",
+            "data": {
+              "value": "FORSALE"
+            }
+          },
+          {
+            "label": "SALEPRICE",
+            "id": "propertylisting.salePrice",
+            "type": "card",
+            "children": [
+              {
+                "label": "PRICE",
+                "labelInfo": "USD",
+                "id": "propertylisting.salePrice.askingPrice",
+                "type": "text",
+                "data": {
+                  "value": "233433"
+                },
+                "validation": [
+                  {
+                    "type": "required",
+                    "message": "SALEPRICEREQUIRED",
+                    "value": "SALEPRICEREQUIRED"
+                  },
+                  {
+                    "type": "pattern",
+                    "message": "NUMBERONLY",
+                    "value": "^[1-9]\\d*$"
+                  }
+                ]
+              },
+              {
+                "label": "DISCLOSEPRICE",
+                "id": "propertylisting.salePrice.disclosePrice",
+                "type": "list",
+                "subtype": "list-tabs",
+                "data": {
+                  "optionReference": "DISCLOSEPRICEREFERENCEVALUES",
+                  "value": "true",
+                  "tooltip": "DISCLOSEPRICETOOLTIP"
+                },
+                "validation": [
+                  {
+                    "type": "required",
+                    "message": "DISCLOSEPRICEREQUIRED",
+                    "value": "DISCLOSEPRICEREQUIRED"
+                  }
+                ]
+              },
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "NETOPERATINGINCOME",
+                    "labelInfo": "USD",
+                    "id": "propertylisting.salePrice.netOperatingIncome",
+                    "type": "text-calculator",
+                    "data": {
+                      "value": "223322",
+                      "tooltip": "NETOPERATINGINCOMETOOLTIP",
+                      "formulaType": "netOperatingIncome"
+                    },
+                    "validation": [
+                      {
+                        "type": "required",
+                        "message": "NETOPERATINGINCOMEREQUIRED",
+                        "value": "NETOPERATINGINCOMEREQUIRED"
+                      },
+                      {
+                        "type": "pattern",
+                        "message": "NUMBERONLY",
+                        "value": "^[1-9]\\d*$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "grossRentRevenue": "propertylisting.salePrice.propertyFinancials.grossRentRevenue",
+                      "vacancyLosses": "propertylisting.salePrice.propertyFinancials.vacancyLosses",
+                      "managementFees": "propertylisting.salePrice.propertyFinancials.managementAndLeasingFees",
+                      "propertyInsurance": "propertylisting.salePrice.propertyFinancials.propertyInsurance",
+                      "propertyTaxes": "propertylisting.salePrice.propertyFinancials.propertyTaxes",
+                      "propertyMaintenance": "propertylisting.salePrice.propertyFinancials.propertyMaintenance",
+                      "otherExpenses": "propertylisting.salePrice.propertyFinancials.otherExpenses"
+                    }
+                  },
+                  {
+                    "type": "popup",
+                    "data": {
+                      "value": "CALCULATENETOPERATINGINCOME",
+                      "title": "CALCULATENETOPERATINGINCOME",
+                      "cancelText": "CALCULATEANDAPPLY",
+                      "linkType": "BUTTON",
+                      "isOpen": false
+                    },
+                    "children": [
+                      {
+                        "type": "custom-group",
+                        "children": [
+                          {
+                            "label": "GROSSRENTREVENUE",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.grossRentRevenue",
+                            "type": "text",
+                            "data": {
+                              "tooltip": "GROSSRENTREVENUETOOLTIP"
+                            },
+                            "validation": [
+                              {
+                                "type": "pattern",
+                                "message": "NUMBERONLY",
+                                "value": "^[1-9]\\d*$"
+                              }
+                            ]
+                          },
+                          {
+                            "label": "VACANCYLOSSES",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.vacancyLosses",
+                            "type": "text",
+                            "data": {
+                              "tooltip": "VACANCYLOSSESTOOLTIP"
+                            },
+                            "validation": [
+                              {
+                                "type": "pattern",
+                                "message": "NUMBERONLY",
+                                "value": "^[1-9]\\d*$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "custom-group",
+                        "children": [
+                          {
+                            "label": "MANAGEMENTANDLEASINGFEES",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.managementAndLeasingFees",
+                            "type": "text",
+                            "data": {
+                              "tooltip": "MANAGEMENTANDLEASINGFEESTOOLTIP"
+                            },
+                            "validation": [
+                              {
+                                "type": "pattern",
+                                "message": "NUMBERONLY",
+                                "value": "^[1-9]\\d*$"
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PROPERTYINSURANCE",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.propertyInsurance",
+                            "type": "text",
+                            "data": {
+                              "tooltip": "PROPERTYINSURANCETOOLTIP"
+                            },
+                            "validation": [
+                              {
+                                "type": "pattern",
+                                "message": "NUMBERONLY",
+                                "value": "^[1-9]\\d*$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "custom-group",
+                        "children": [
+                          {
+                            "label": "PROPERTYTAXES",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.propertyTaxes",
+                            "type": "text",
+                            "data": {
+                              "tooltip": "PROPERTYTAXESTOOLTIP"
+                            },
+                            "validation": [
+                              {
+                                "type": "pattern",
+                                "message": "NUMBERONLY",
+                                "value": "^[1-9]\\d*$"
+                              }
+                            ]
+                          },
+                          {
+                            "label": "PROPERTYMAINTENANCE",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.propertyMaintenance",
+                            "type": "text",
+                            "data": {
+                              "tooltip": "PROPERTYMAINTENANCETOOLTIP"
+                            },
+                            "validation": [
+                              {
+                                "type": "pattern",
+                                "message": "NUMBERONLY",
+                                "value": "^[1-9]\\d*$"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "custom-group",
+                        "children": [
+                          {
+                            "label": "OTHEREXPENSES",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.otherExpenses",
+                            "type": "text",
+                            "data": {
+                              "tooltip": "OTHEREXPENSESTOOLTIP"
+                            },
+                            "validation": [
+                              {
+                                "type": "pattern",
+                                "message": "NUMBERONLY",
+                                "value": "^[1-9]\\d*$"
+                              }
+                            ]
+                          },
+                          {
+                            "label": "NETOPERATINGINCOME",
+                            "labelInfo": "USD",
+                            "id": "propertylisting.salePrice.propertyFinancials.netOperatingIncome",
+                            "type": "custom-formula-calculator",
+                            "data": {
+                              "tooltip": "NETOPERATINGINCOMETOOLTIP",
+                              "formulaType": "netOperatingIncome"
+                            },
+                            "cherrypickids": {
+                              "grossRentRevenue": "propertylisting.salePrice.propertyFinancials.grossRentRevenue",
+                              "vacancyLosses": "propertylisting.salePrice.propertyFinancials.vacancyLosses",
+                              "managementFees": "propertylisting.salePrice.propertyFinancials.managementAndLeasingFees",
+                              "propertyInsurance": "propertylisting.salePrice.propertyFinancials.propertyInsurance",
+                              "propertyTaxes": "propertylisting.salePrice.propertyFinancials.propertyTaxes",
+                              "propertyMaintenance": "propertylisting.salePrice.propertyFinancials.propertyMaintenance",
+                              "otherExpenses": "propertylisting.salePrice.propertyFinancials.otherExpenses"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "removeId": true
+                  }
+                ]
+              },
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "CAPRATETYPE",
+                    "id": "propertylisting.salePrice.capRateType",
+                    "type": "dropdown",
+                    "data": {
+                      "optionReference": "financialtype",
+                      "value": "ACTUAL",
+                      "tooltip": "CAPRATETYPETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "required",
+                        "message": "CAPRATETYPEREQUIRED",
+                        "value": "CAPRATETYPEREQUIRED"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "CALCULATEDCAPRATE",
+                    "labelInfo": "PERCENTAGE",
+                    "id": "propertylisting.salePrice.capRate",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "value": "95.67",
+                      "tooltip": "CALCULATEDCAPRATETOOLTIP",
+                      "formulaType": "caprate"
+                    },
+                    "cherrypickids": {
+                      "askingPrice": "propertylisting.salePrice.askingPrice",
+                      "netOperatingIncome": "propertylisting.salePrice.netOperatingIncome"
+                    }
+                  }
+                ]
+              },
+              {
+                "label": "COMMISSIONSPLIT",
+                "labelInfo": "PERCENTAGE",
+                "id": "propertylisting.salePrice.commissionSplit",
+                "type": "text",
+                "data": {
+                  "value": "2",
+                  "tooltip": "COMMISSIONSPLITTOOLTIP"
+                },
+                "validation": [
+                  {
+                    "type": "pattern",
+                    "message": "DECIMALUPTO4DIGIT",
+                    "value": "^(\\d+\\.?\\d{0,4})$"
+                  },
+                  {
+                    "type": "max-value",
+                    "message": "MAXVALUE",
+                    "value": "100"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "groupName": "editlistingprice"
+      },
+      {
+        "type": "header",
+        "children": [
+          {
+            "label": "AREA",
+            "labelInfo": "SQFT",
+            "id": "propertylisting.listingArea",
+            "type": "text",
+            "data": {
+              "value": "2233222",
+              "tooltip": "AREATOOLTIP"
+            },
+            "validation": [
+              {
+                "type": "required",
+                "message": "LISITNGAREAREQUIRED",
+                "value": "LISITNGAREAREQUIRED"
+              },
+              {
+                "type": "pattern",
+                "message": "NUMBERONLY",
+                "value": "^[1-9]\\d*$"
+              }
+            ]
+          },
+          {
+            "label": "TITLE",
+            "id": "propertylisting.title",
+            "type": "text",
+            "data": {
+              "value": "wewqeqw"
+            },
+            "validation": [
+              {
+                "type": "required",
+                "message": "TITLEREQUIRED",
+                "value": "TITLEREQUIRED"
+              },
+              {
+                "type": "max-length",
+                "message": "MAXLENGTH",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "label": "SUMMARY",
+            "id": "propertylisting.summary",
+            "type": "text-area",
+            "data": {
+              "value": "qweqweqweqw"
+            },
+            "maxLength": "1000"
+          }
+        ],
+        "groupName": "listinginfo"
+      }
+    ],
+    "referenceData": {
+      "children": [
+        {
+          "id": "DISCLOSEPRICEREFERENCEVALUES",
+          "option": [
+            {
+              "value": "true",
+              "label": "YES"
+            },
+            {
+              "value": "false",
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "id": "financialtype",
+          "option": [
+            {
+              "value": "ACTUAL",
+              "label": "ACTUAL"
+            },
+            {
+              "value": "PROFORMA",
+              "label": "PROFORMA"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "isExisting": true,
+  "status": "success"
+}

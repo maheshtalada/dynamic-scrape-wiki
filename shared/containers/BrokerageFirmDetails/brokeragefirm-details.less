@@ -1,0 +1,105 @@
+.brokeragefirm-details{
+	&__main-info {
+		min-height: 130px;
+		padding-bottom: 0;
+		&__share-wrap {
+			margin-bottom: 10px;
+		}
+		.title {
+			text-transform: capitalize;
+		}
+		.brokerage-firm-info__contact-details {
+			font-weight: 600;
+		}
+	}
+	.brokeragefirm-details__about-info, .brokeragefirm-details__specialties {
+		min-height: 80px;
+	}
+	&__avatar-wrap {
+		display: flex;
+		justify-content: center;
+		&__avatar {
+			height: 200px;
+			width: 200px;
+			margin-right: 10px;
+			// border-radius: 50%;
+			border: 4px solid @color-base-white;
+			box-shadow: 0 0 2px 2px @grey-200;
+			> img {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+				// border-radius: 50%;
+			}
+		}
+	}
+	.property-details__agents {
+		overflow: visible;
+	}
+	.firm-agents {
+		.slick-arrow.slick-disabled {
+			opacity: 0;
+		}
+		.slick-arrow:before {
+			color: @color-fore-apple-green-accesibility;
+		}
+		&__agent {
+			
+			text-decoration: none;
+			
+			&__avatar {
+				display: flex;
+				justify-content: center;
+				&__wrap {
+					width: 100px;
+					height: auto;
+					img{
+						width: 100%;
+						border-radius: 50%;
+					}
+				}
+			}
+			&__agent-details {
+				font-size: 1.4rem;
+				color: @gray-light;
+				margin-top: 10px;
+				&__name {
+					font-size: 1.6rem;
+					color: @color-base-primary-green;
+					text-align: center;
+					margin-bottom: 15px;
+				}
+				&__areas-served {
+					margin-bottom: 10px;
+					max-height: 40px;
+					overflow: hidden;
+				}
+				&__specialties {
+					padding-left: 5px;
+					max-height: 40px;
+					overflow: hidden;
+				}
+				i {
+					font-weight: 800;
+				}
+			}
+			&:hover .panel-body {
+				border-color: @color-panel-body-hover-green;
+			}
+			.hpanel {
+				margin-right: 0;
+				.panel-body {
+					height: 270px;
+					padding: 10px;
+				}
+			}
+		}
+	}
+
+	.show-more-listings {
+		text-align: end;
+		button {
+			font-size: 1.8rem;
+		}
+	}
+}

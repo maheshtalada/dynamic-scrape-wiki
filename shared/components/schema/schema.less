@@ -1,0 +1,263 @@
+@schema-gutter-width: 5px;
+@schema-vertical-spacing: 10px;
+
+.noselect() {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* IE/Edge */
+	user-select: none;           /* non-prefixed version, currently
+	                                not supported by any browser */
+}
+
+.hide-margin-icons() {
+	> .schema__value--error:before,
+	> .schema__value--valid:before,
+	> .schema__value--pristine:before {
+		// Tabs should never display state icons as
+		// their label component should be the one displaying state
+		display: none !important;
+	}
+}
+
+.rgba(@colour, @alpha)
+{
+	@alphaColour: hsla(hue(@colour), saturation(@colour), lightness(@colour), @alpha);
+	@ieAlphaColour: argb(@alphaColour);
+
+	background-color: @colour; // Fallback for older browsers
+	background-color: @alphaColour;
+
+	// IE hacks
+	zoom: 1; // hasLayout
+	background-color: transparent\9;
+	-ms-filter:  "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 8+
+	filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 6 & 7
+}
+
+.generate-columns(@identifier, @n, @i: 1) when (@i =< @n) {
+	.schema--@{identifier}-@{i} {
+		width: (@i * 100% / @n);
+	}
+	.schema--gutter.schema--@{identifier}-@{i}:not(:last-child) {
+		width: calc((@i * 100% / @n) ~"- " @schema-gutter-width);
+	}
+	.generate-columns(@identifier, @n, (@i + 1));
+}
+
+@import './schema-themes.less';
+@import './components/list/list';
+@import './components/header/header';
+@import './components/data/data';
+@import './components/text/text';
+@import './components/options/dropdown';
+@import './components/options/radio';
+@import './components/options/checkbox';
+@import './components/options/slider';
+@import './components/clone/clone';
+@import './components/content/content';
+@import './components/content/content-list';
+@import './components/cards/card';
+@import './components/custom/custom-group-elements';
+@import './components/custom/custom-ratio-bar';
+@import './components/cards/cards-wrapper';
+@import './components/popup/base-popup/popup';
+@import './components/list/list-tabs-read-content';
+@import './components/custom/custom-carousel-wrapper';
+@import './components/table/table';
+
+.schema {
+	  margin-bottom: 10px;
+}
+
+.schema__label {
+	line-height: 2.4rem;
+	font-weight: normal;
+	margin-bottom: 4px;
+	display: block;
+}
+
+.schema__value {
+	line-height: 2.4rem;
+	color: @color-base-mono-darkest;
+}
+
+.schema__label:not(.schema__label--edit) {
+	display: inline-block;
+
+	vertical-align: top;
+	padding-right: 10px;
+	width: 100%;
+}
+
+.schema__label:empty {
+	display: none;
+}
+
+.schema__value:not(.schema__value--edit) {
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+}
+
+.schema--theme-pdf {
+	.schema__value:not(.schema__value--edit) {
+		display: initial;
+	}
+}
+.schema__value--edit {
+	display: block;
+	position: relative;
+}
+
+.schema__margin__icon() {
+	&:before {
+		position: absolute;
+		right: -30px; // Show the error in the error margin
+		top: 15px;
+		font-size: 2.6rem;
+		z-index: 1;
+		.bp-small({
+			right: -40px;
+		});
+	}
+}
+
+.schema__value--edit.schema__value--error {
+	.icon(exclamationcircle);
+	.schema__margin__icon();
+	&:before {
+		color: @color-base-secondary-red;
+	}
+}
+
+// Successful edited state
+.schema__value--edit.schema__value--valid {
+	.icon(tickcircle);
+	.schema__margin__icon();
+	&:before {
+		color: @color-base-apple-green;
+		right: -32px;
+		.bp-small({
+			right: -42px;
+		});
+	}
+}
+
+.schema--tooltip__tooltip-icon {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: relative;
+	margin-left: 6px;
+	cursor: help;
+	padding: 0 8px;
+	font-weight: 600;
+	z-index: 10;
+	&:before {
+		position: absolute;
+		left: 2px;
+		top: 3px;
+		color: @color-base-core-green;
+	}
+}
+
+.schema--tooltip__tooltip-icon[data-tooltipstate=true] {
+	&:after {
+		display: block;
+		content: "";
+		border: 10px solid transparent;
+		border-bottom-color: @color-base-secondary-blue;
+		position: absolute;
+		left: 0;
+		bottom: -13px;
+	}
+}
+.schema--tooltip__tooltip-content {
+	font-size: 1.6rem;
+	margin-top: 9px;
+	background: @color-base-secondary-blue;
+	color: @color-base-mono-lightest;
+	padding: 20px;
+	> div > p {
+		margin: 0;
+		padding: 0;
+		a, a:hover, a:visited {
+			color: @color-base-white;
+
+		}
+	}
+}
+
+
+.schema--input {
+	outline: none;
+	height: 50px;
+	font-size: 1.6rem;
+	display: inline-block;
+	width: 100%;
+	padding: 0 24px 0 12px;
+	border: 1px solid @color-schema-field-border;
+	&:focus {
+		border-color: @color-base-primary-green;
+	}
+	/*.bp-small({
+		!*font-size: 1.5rem;*!
+		!*padding-left: 12px;*!
+	});*/
+}
+
+.schema--textarea {
+	  &:extend(.schema--input);
+	  height: 110px;
+	padding-top: 8px;
+}
+
+
+.schema--gutter {
+	margin-right: @schema-gutter-width;
+}
+
+.schema__error {
+	color: @color-base-secondary-red;
+}
+.schema__error-box {
+	color: @color-base-mono-lightest;
+}
+.schema__value--edit.schema__value--error > input {
+// .schema__value--edit.schema__value--error > *:not(.schema__component):not(:.schema__error-box) * {
+	color: @color-base-secondary-red;
+	border-color: @color-base-secondary-red;
+}
+
+.generate-columns(mobile, 12);
+.bp-small({
+	.generate-columns(width, 12);
+});
+
+.schema__icon {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+.schema__multi__dropdown {
+	margin-bottom: 10px;
+}
+
+.schema__text__input__container {
+	&.calculated-value {
+		input {
+			font-weight: bold;
+			color: @color-base-primary-blue-black;
+		}
+	}
+}
+
+.schema__profile-pic {
+	display: flex;
+}
+
+.schema__field-required-sign {
+	margin-left: 5px;
+	color: @color-error-border;
+}

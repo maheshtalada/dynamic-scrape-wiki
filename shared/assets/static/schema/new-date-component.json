@@ -1,0 +1,147 @@
+{
+  "schemas": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "type": "custom-multi-group",
+          "children": [
+            {
+              "label": "DATE",
+              "id": "property.incomeandexpense(1).transactionDate",
+              "type": "text-date",
+              "data": {
+                "format": "MM/DD/YYYY"
+              }
+            },
+            {
+              "label": "TYPE",
+              "id": "property.incomeandexpense(1).type",
+              "type": "dropdown",
+              "data": {
+                "optionReference": "contactnumbertype"
+              }
+            },
+            {
+              "label": "SUBTYPE",
+              "id": "property.incomeandexpense(1).subtype",
+              "type": "text"
+            },
+            {
+              "label": "DESCRIPTION",
+              "id": "property.incomeandexpense(1).description",
+              "type": "text"
+            },
+            {
+              "label": "AMOUNT",
+              "labelInfo": "USD",
+              "id": "property.incomeandexpense(1).amount",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "label": "ADDINCOMEEXPENSE",
+          "id": "ADDINCOMEEXPENSE",
+          "type": "clone",
+          "data": {
+            "key": "2"
+          },
+          "children": [
+            {
+              "label": "EXPERTISE",
+              "id": "incomeremovable",
+              "type": "list",
+              "subtype": "list-removable-single",
+              "children": [
+                {
+                  "type": "custom-multi-group",
+                  "children": [
+                    {
+                      "label": "DATE",
+                      "id": "property.incomeandexpense(*).transactionDate",
+                      "type": "text-date",
+                      "data": {
+                        "format": "MM/DD/YYYY"
+                      }
+                    },
+                    {
+                      "label": "TYPE",
+                      "id": "property.incomeandexpense(*).type",
+                      "type": "dropdown",
+                      "data": {
+                        "optionReference": "contactnumbertype"
+                      }
+                    },
+                    {
+                      "label": "SUBTYPE",
+                      "id": "property.incomeandexpense(*).subType",
+                      "type": "text"
+                    },
+                    {
+                      "label": "DESCRIPTION",
+                      "labelInfo": "USD",
+                      "id": "property.incomeandexpense(*).description",
+                      "type": "text"
+                    },
+                    {
+                      "label": "AMOUNT",
+                      "labelInfo": "USD",
+                      "id": "property.incomeandexpense(*).amount",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "contactnumbertype",
+        "option": [
+          {
+            "value": "RENTAL_INCOME",
+            "label": "RENTAL_INCOME"
+          },
+          {
+            "value": "OTHER_INCOME",
+            "label": "OTHER_INCOME"
+          },
+          {
+            "value": "MANAGEMENT_FEE",
+            "label": "MANAGEMENT_FEE"
+          },
+          {
+            "value": "LEASING_FEE",
+            "label": "LEASING_FEE"
+          },
+          {
+            "value": "PROPERTY_TAXES",
+            "label": "PROPERTY_TAXES"
+          },
+          {
+            "value": "INSURANCE",
+            "label": "INSURANCE"
+          },
+          {
+            "value": "HOA_FEE",
+            "label": "HOA_FEE"
+          },
+          {
+            "value": "MAINTENANCE",
+            "label": "MAINTENANCE"
+          },
+          {
+            "value": "OTHER_EXPENSES",
+            "label": "OTHER_EXPENSES"
+          }
+        ]
+      }
+    ]
+  }
+}

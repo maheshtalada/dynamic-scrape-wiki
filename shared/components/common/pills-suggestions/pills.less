@@ -1,0 +1,20 @@
+.schema__pills__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+	.schema__pill{
+		margin: 0 5px 0 0;
+	}
+	&.full-pills {
+		flex-direction: column;
+		.schema__pill {
+			margin: 0 0 5px 0;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&:empty {
+		margin-bottom: 0;
+	}
+}

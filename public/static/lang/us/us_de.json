@@ -1,0 +1,4143 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "CAPTION7": [
+            "Analysieren Sie M?rkte und Eigenschaften auf einer tieferen Ebene"
+         ],
+         "CAPTION8": [
+            "Sehen Sie sich das Potenzial f?r Miet- und Cap-Raten an"
+         ],
+         "MOBILEACCESSINFOTIP": [
+            "Unsere Seite ist noch nicht f?r mobile Ger?te optimiert. Bitte benutzen Sie unsere Desktop-Seite."
+         ],
+         "DONE": [
+            "Erledigt"
+         ],
+         "HIGHESTRENTPOTENTIAL": [
+            "Mietpotenzial (hoch zu niedrig)"
+         ],
+         "CAPRATESEARCHTAB": [
+            "4+ Cap Rate"
+         ],
+         "ADVERTISEWITHUS": [
+            "werben Sie mit uns"
+         ],
+         "IRRYEARTEN": [
+            "IRR (Jahr 10)"
+         ],
+         "CAPRATEYEARONE": [
+            "Cap Rate Potenzial (Jahr 1)"
+         ],
+         "IRRTOOLTIP": [
+            "Interne Verzinsung Enth?lt 6% Abschlusskosten."
+         ],
+         "IRRGRAPHNOTE": [
+            "Enth?lt 6% Abschlusskosten"
+         ],
+         "CAPRATELEGENDSNOTE": [
+            "Median Cap Rate Potenzial"
+         ],
+         "MEDIANPRICELEGENDSNOTE": [
+            "Mediane Preise f?r aktive Angebote"
+         ],
+         "RENTALUNITLEGENDSNOTE": [
+            "Vermietet gegen selbst genutzte Einheiten"
+         ],
+         "INCOMELEGENDSNOTE": [
+            "Das mittlere Einkommen"
+         ],
+         "UNEMPLOYMENTLEGENDSNOTE": [
+            "Arbeitslosenrate"
+         ],
+         "POPULATIONLEGENDSNOTE": [
+            "J?hrliches Bev?lkerungswachstum"
+         ],
+         "PROPERTYCRIMELEGENDSNOTE": [
+            "Verbrechen pro 100K Einwohner"
+         ],
+         "VIOLENTCRIMELEGENDSNOTE": [
+            "Verbrechen pro 100K Einwohner"
+         ],
+         "COMMUTETIMELEGENDSNOTE": [
+            "Median pendelt zur Arbeit"
+         ],
+         "RECOMMENDATIONLEGENDSNOTE": [
+            "Investmentmarktindex"
+         ],
+         "FIXERUPPERLEGENDNOTE": [
+            "Anzahl der Fixierereigenschaften"
+         ],
+         "TURNKEYLEGENDNOTE": [
+            "Anzahl der Turnkey-Eigenschaften"
+         ],
+         "TURNKEYTOOLTIP": [
+            "Eine schl?sselfertige Eigenschaft wird mit einem Mandanten und einem bevorzugten PropsHub-Property-Manager geliefert. In der Regel bedeutet dies, dass die Miete ab dem ersten Tag des Eigentums anf?llt. Beachten Sie die Mietbedingungen."
+         ],
+         "FIXERUPPERTOOLTIP": [
+            "Ein Fixierer ist eine Eigenschaft, die repariert werden muss, um die Eigenschaft in einen mietbaren Zustand zu versetzen. In der Regel sind diese Eigenschaften preiswerter als die Reparaturkosten. Vergleichen Sie die Preise, um sicherzustellen, dass der Listenpreis diese Ausgaben widerspiegelt. Ein von PropsHub bevorzugter Makler kann Ihnen bei der Reha-Verwaltung helfen."
+         ],
+         "CAPRATESEARCHTOOLTIP": [
+            "Kapitalisierungsrate 4+ sind Eigenschaften, die eine Kapitalisierungsrate von 4 und dar?ber bieten k?nnen. Verwenden Sie die Analyse-Return-Funktion, um das Renditepotenzial zu verstehen und das Renditepotenzial mit einem von PropsHub bevorzugten Makler zu ?berpr?fen."
+         ],
+         "POPULARSEEARCHES": [
+            "Beliebte Suchanfragen"
+         ],
+         "POPULARSEARCHTABTOOLTIP": [
+            "Ansicht beliebter Suchanfragen wie Turn Key, Fixer & Listenpreis nach Postleitzahl."
+         ],
+         "TURNKEYTABTOOLTIP": [
+            "Die Ansicht der Schl?sseleigenschaft z?hlt nach jeder Postleitzahl. Eine schl?sselfertige Eigenschaft wird mit einem Mandanten und einem bevorzugten PropsHub-Property-Manager geliefert. In der Regel bedeutet dies, dass die Miete ab dem ersten Tag des Eigentums anf?llt. Beachten Sie die Mietbedingungen."
+         ],
+         "FIXERUPPERTABTOOLTIP": [
+            "Die Ansicht der Fixierereigenschaft z?hlt nach jeder Postleitzahl. Ein Fixierer ist eine Eigenschaft, die repariert werden muss, um die Eigenschaft in einen mietbaren Zustand zu versetzen. In der Regel sind diese Eigenschaften preiswerter als die Reparaturkosten. Vergleichen Sie die Preise, um sicherzustellen, dass der Listenpreis diese Ausgaben widerspiegelt. Ein von PropsHub bevorzugter Makler kann Ihnen bei der Reha-Verwaltung helfen."
+         ],
+         "IRR": [
+            "IRR"
+         ],
+         "DEMOGRAPHICSTABTOOLTIP": [
+            "Ansicht der Demographie nach Postleitzahl. Daten stammen vom United States Census Bureau und vom Federal Bureau of Investigation."
+         ],
+         "GROSSRENTREVENUETOOLTIP": [
+            "Monatsmietdauer 12."
+         ],
+         "MORTGAGEBROKER": [
+            "Hypothekenmakler"
+         ],
+         "REPORTANISSUE": [
+            "Ein Problem melden"
+         ],
+         "SUBJECT": [
+            "Gegenstand"
+         ],
+         "REAL_ESTATE_INVESTOR": [
+            "Immobilieninvestor"
+         ],
+         "USERREGISTRATIONTYPE": [
+            "Ich bin ein"
+         ],
+         "NEEDLEGALADVICE": [
+            "Brauche Rechtsberatung"
+         ],
+         "NEEDINSURANCE": [
+            "Brauchen Sie eine Versicherung"
+         ],
+         "NEEDLOAN": [
+            "Brauchen Sie ein Darlehen"
+         ],
+         "NEEDINVESTMENTADVICE": [
+            "Ben?tige Anlageberatung"
+         ],
+         "NEEDBUYINGASSISTANCE": [
+            "Ben?tige Kaufhilfe"
+         ],
+         "PROVIDEFEEDBACK": [
+            "Feedback zur Website senden"
+         ],
+         "REPORTINACCURACYESTIMATIONS": [
+            "Ungenauigkeit melden"
+         ],
+         "PROVIDESUBJECT": [
+            "Betreff angeben"
+         ],
+         "USERREGISTRATIONTYPETOOLTIP": [
+            "Dein Beruf oder deine Spezialit?t"
+         ],
+         "REALESTATEPROFESSIONALS": [
+            "PropsHub bevorzugte Anbieter"
+         ],
+         "INCORPORATION_ATTORNEY": [
+            "Gr?ndungsanwalt"
+         ],
+         "INSURANCE_AGENT": [
+            "Versicherungsvertreter"
+         ],
+         "LOAN_OFFICER": [
+            "Kreditsachbearbeiter"
+         ],
+         "FROM": [
+            "Von"
+         ],
+         "LISTEDTODAY": [
+            "Heute aufgef?hrt"
+         ],
+         "EMAILINVALIDERROR": [
+            "Die eingegebene E-Mail-Adresse ist ung?ltig. Bitte geben Sie eine g?ltige Email-Adresse ein."
+         ],
+         "ROOMGREATEROREQUALBEDROOM ": [
+            "Die Anzahl der Zimmer sollte gr??er oder gleich der Anzahl der Schlafzimmer sein"
+         ],
+         "VIEWTYPESTOOLTIP": [
+            "Geben Sie von Ihrer Unterkunft aus gesehene Ansichten wie Bergsicht, Poolblick, Parkblick usw."
+         ],
+         "ADDVIEWTYPES": [
+            "Hinzuf?gen des Ansichtstyps"
+         ],
+         "SEARCHORCLICKTEXT": [
+            "Suchen Sie oben oder klicken Sie unten"
+         ],
+         "PROPSHUBINDEX1": [
+            "1 (am wenigsten g?nstig)"
+         ],
+         "PROPSHUBINDEX5": [
+            "5 (am g?nstigsten)"
+         ],
+         "MAPDRAWSELECTIONINFO": [
+            "Klicken Sie hier, um nach Eigenschaften zu suchen"
+         ],
+         "DAYSONMARKET": [
+            "Tage auf dem Markt"
+         ],
+         "NEWEST": [
+            "Neueste"
+         ],
+         "OLDEST": [
+            "?lteste"
+         ],
+         "RENTALUNITRATIO": [
+            "Mieteinheitsverh?ltnis"
+         ],
+         "SHAREVIAEMAIL": [
+            "Teilen Sie per E-Mail"
+         ],
+         "INVESTMENTSPECIALIST": [
+            "Investmentspezialist"
+         ],
+         "LEASED": [
+            "Vermietet"
+         ],
+         "MARKETPRICESTOOLTIP": [
+            "Diese Grafik wird unter Verwendung der besten verf?gbaren vergleichbaren Eigenschaften in der geografischen Umgebung der gelisteten Liegenschaft erstellt."
+         ],
+         "AREASSERVEDNOTE": [
+            "Zu dieser Zeit bedienen wir nur Dallas Fort Worth Metro. Wir planen, sp?ter weitere Metros hinzuzuf?gen."
+         ],
+         "MEDIANSALEPRICECAVEAT": [
+            "?berpr?fen Sie die Richtigkeit der hier vorgestellten Zahlen mit einem qualifizierten Immobilienfachmann."
+         ],
+         "SYSTEMGENERATEDVALUENOTE": [
+            "Alle Daten, die ?ber PropsHub-Produkte pr?sentiert werden, dienen ausschlie?lich Bildungszwecken und basieren auf Daten aus verschiedenen Quellen. PropsHub garantiert nicht die Genauigkeit oder Zuverl?ssigkeit der Daten, die ?ber seine Produkte pr?sentiert werden. Treffen Sie keine Kaufentscheidung basierend auf Daten, die ?ber PropsHub-Produkte pr?sentiert werden. Wir empfehlen dringend, dass Sie alle Daten mit einem qualifizierten Experten ?berpr?fen und Ihre eigene Sorgfaltspflicht anwenden, bevor Sie eine Anlageentscheidung treffen."
+         ],
+         "NETOPERATINGINCOMETOOLTIP": [
+            "Das Netto-Betriebsergebnis (Net Operating Income, NOI) ist das j?hrliche Einkommen, das von einer Immobilie erwirtschaftet wird, nachdem alle Eink?nfte aus der betrieblichen T?tigkeit ber?cksichtigt wurden und alle Aufwendungen aus der Gesch?ftst?tigkeit abgezogen wurden"
+         ],
+         "CAPRATETOOLTIP": [
+            "Verh?ltnis von Nettobetriebsergebnis zu Angebotspreis"
+         ],
+         "CASHONCASHRETURNPERCENTAGETOOLTIP": [
+            "Verh?ltnis von Cash Flow zu Erstinvestition."
+         ],
+         "VACANCYLOSSESTOOLTIP": [
+            "Verluste, die auf Leerstand zur?ckzuf?hren sind. Angenommen an 15 Tagen."
+         ],
+         "MANAGEMENTFEESTOOLTIP": [
+            "Geb?hren f?r die Verwaltung der Immobilie. Angenommen bei 8%."
+         ],
+         "LEASINGFEESTOOLTIP": [
+            "Geb?hren f?r den Neukauf von Mietern. Angenommen zur halben Monatsmiete."
+         ],
+         "PROPERTYINSURANCETOOLTIP": [
+            "Feuer- und Gefahrenversicherungspr?mie."
+         ],
+         "PROPERTYTAXESTOOLTIP": [
+            "Gesch?tzte j?hrliche Grundsteuer."
+         ],
+         "PROPERTYMAINTENANCETOOLTIP": [
+            "Aufwendungen im Zusammenhang mit Reparaturen, Upgrades und Wartung."
+         ],
+         "MONTHLYRENTREVENUETOOLTIP": [
+            "Monatliches Mietpotenzial"
+         ],
+         "OWNERASSOCIATIONFEETOOLTIP": [
+            "Hausbesitzerverband Geb?hren."
+         ],
+         "HOMECAPTION": [
+            "Kauf und Verkauf von Anlageimmobilien"
+         ],
+         "SITECAPTION": [
+            "Globaler Hub f?r Immobilieninvestoren"
+         ],
+         "CAPTION1": [
+            "Investitionsentscheidungen einfach gemacht"
+         ],
+         "CAPTION2": [
+            "Analysieren Sie Renditen mit nur wenigen Klicks"
+         ],
+         "CAPTION3": [
+            "Vergleichen Sie Preise, Trends und Potenziale"
+         ],
+         "CAPTION4": [
+            "Zeigen Sie umfassende demografische Daten zur Umgebung an"
+         ],
+         "CAPTION5": [
+            "Erstellen Sie kostenlos Flyer und Berichte"
+         ],
+         "CAPTION6": [
+            "Online Chat mit Immobilienprofis"
+         ],
+         "RECOMMENDATIONTABTOOLTIP": [
+            "Ansicht des propriet?ren Index, den wir f?r jede Postleitzahl berechnen, indem wir auf eine Vielzahl von Faktoren wie Obergrenzenpotenzial, Listenpreis, Medianeinkommen, Bev?lkerungswachstum, Arbeitslosenquote, Mieteinheitsquote, Eigentumsdelikte, Gewaltverbrechen schauen. Eine h?here Indexbewertung bedeutet normalerweise, dass die Postleitzahl bei den meisten Schl?sselfaktoren g?nstig ist."
+         ],
+         "CAPRATETABTOOLTIP": [
+            "Ansicht des Median-Cap-Ratenpotenzials nach Postleitzahl. Cap Rate ist das Verh?ltnis von Nettobetriebsergebnis zu Angebotspreis."
+         ],
+         "MEDIANSALEPRICETABTOOLTIP": [
+            "Ansicht der mittleren Listenpreise nach Postleitzahl."
+         ],
+         "INCOMETABTOOLTIP": [
+            "Ansicht des Medianeinkommens nach Postleitzahl. Daten stammen vom United States Census Bureau."
+         ],
+         "WIDGETPOPULATIONGROWTHTABTOOLTIP": [
+            "Ansicht des Bev?lkerungswachstums nach Postleitzahl. Daten stammen vom United States Census Bureau."
+         ],
+         "UNEMPLOYMENTGROWTHTABTOOLTIP": [
+            "Ansicht der Arbeitslosenquote nach Postleitzahl. Daten stammen vom United States Census Bureau."
+         ],
+         "RENTEDUNITTABTOOLTIP": [
+            "Ansicht des Verh?ltnisses von Mieteinheiten zu Eigent?merbelegungen nach Postleitzahl. Daten stammen vom United States Census Bureau."
+         ],
+         "PROPERTYCRIMETABTOOLTIP": [
+            "Ansicht der Immobilienkriminalit?tsrate nach Postleitzahl. Daten stammen vom Federal Bureau of Investigation."
+         ],
+         "VIOLENTCRIMETABTOOLTIP": [
+            "Ansicht der Gewaltkriminalit?tsrate nach Postleitzahl. Daten stammen vom Federal Bureau of Investigation."
+         ],
+         "COMMUTETIMETABTOOLTIP": [
+            "Ansicht der Pendelzeit zum Arbeiten nach Postleitzahl. Daten stammen vom United States Census Bureau."
+         ],
+         "MAPSEARCHUSAGEINFO": [
+            "Um Eigenschaften anzuzeigen, klicken Sie auf eine Postleitzahl, oder zeichnen Sie einen Kreis / ein Rechteck, um einen benutzerdefinierten Bereich auf der Karte auszuw?hlen, und klicken Sie auf den ausgew?hlten Bereich."
+         ],
+         "HIGHCASHFLOWTABTOOLTIP": [
+            "Diese Karte vergleicht die Anzahl der positiven Cash-Flow-Eigenschaften f?r den Verkauf in jeder Postleitzahl. Nachbarschaften mit einer h?heren Anzahl von positiven Cash-Flow-Eigenschaften sind ideal f?r Investitionen."
+         ],
+         "MAKEANOFFER": [
+            "Bereit zu investieren?"
+         ],
+         "MAKEANOFFERTITLE": [
+            "M?chten Sie von einem von PropsHub bevorzugten Immobilienmakler kontaktiert werden, um diese Immobilie zu besprechen?"
+         ],
+         "MAKEANOFFERDEFAULTMESSAGE": [
+            "Schreiben Sie ihre Nachricht hier?"
+         ],
+         "MAKEANOFFERCONFIRMATION": [
+            "Vielen Dank. Ein PropsHub bevorzugter Makler wird sich in K?rze mit Ihnen in Verbindung setzen."
+         ],
+         "CONTACTLISTINGAGENT": [
+            "Listing-Agent"
+         ],
+         "RENTEDUNITS": [
+            "Mieteinheiten"
+         ],
+         "IDEALFORINVESTMENT": [
+            "Gut"
+         ],
+         "INVESTWITHCAUTION": [
+            "Messe"
+         ],
+         "RECOMMENDATIONTAB": [
+            "PropsHub Index"
+         ],
+         "ADDTOCONTACTS": [
+            "Zu meinen Kontakten hinzuf?gen"
+         ],
+         "RENTPOTENTIALONFIXUP": [
+            "Mietpotenzial f?r Fixup"
+         ],
+         "SHOWRENTALPROPERTY": [
+            "Mieteinheit?"
+         ],
+         "RENTALPROPERTY": [
+            "Mieteinheit"
+         ],
+         "TWOBHKAPARTMENTPRICE": [
+            "Zwei Schlafzimmer"
+         ],
+         "PROPERTYTAXES": [
+            "Grundsteuern"
+         ],
+         "APARTMENTDETAILSCOLLAPSIBLE": [
+            "Geb?udefunktionen"
+         ],
+         "NUMBEROFPARKINGLOTS": [
+            "Parkm?glichkeiten"
+         ],
+         "NUMBEROFSTORIES": [
+            "Ebenen"
+         ],
+         "VIEWINSLIDESHOW ": [
+            "In der Diashow anzeigen"
+         ],
+         "CONTACTOURLEADREALTOR": [
+            "Verbinden Sie sich mit unserem Investmentspezialisten"
+         ],
+         "MONTHLYRENTREVENUE": [
+            "Monatliche Miete"
+         ],
+         "CASHFLOWPOSITIVETAB": [
+            "Cashflow Positive Dichte"
+         ],
+         "CASHFLOWPOTENTIAL": [
+            "Cashflow-Potenzial"
+         ],
+         "MEDIANSALEPRICETAB": [
+            "Listenpreis"
+         ],
+         "MEDIANLISTINGPRICE": [
+            "Median Listenpreis"
+         ],
+         "PROPERTIESFORSALECOUNT": [
+            "Immobilien zum Verkauf"
+         ],
+         "ANALYZERETURNSREQUIREDINFOTITLE": [
+            "Bitte geben Sie die folgenden Informationen ein, um fortzufahren"
+         ],
+         "ANALYZE": [
+            "Analysieren"
+         ],
+         "COMMUTETIME": [
+            "Pendlerzeit"
+         ],
+         "PROPERTYCRIMETAB": [
+            "Immobilien Kriminalit?t"
+         ],
+         "VIOLENTCRIMETAB": [
+            "Gewaltverbrechen"
+         ],
+         "STREETVIEWNOTAVAILABLE": [
+            "Street View nicht verf?gbar"
+         ],
+         "CHOOSEFROMEXISTINGCONTACTS": [
+            "W?hlen Sie Kontakt"
+         ],
+         "ADDNEWCONTACT": [
+            "F?ge neuen Kontakt hinzu"
+         ],
+         "SENDINGTO": [
+            "Senden an"
+         ],
+         "CONTACTADDEDSUCCESS": [
+            "Kontakt wurde erfolgreich hinzugef?gt."
+         ],
+         "LEGENDS": [
+            "Legenden"
+         ],
+         "SUBDIVISION": [
+            "Unterabteilung"
+         ],
+         "PHARMACY": [
+            "Apotheke"
+         ],
+         "PARK": [
+            "Park"
+         ],
+         "PHOTOSLIDESHOW": [
+            "Diashow"
+         ],
+         "PLAY": [
+            "abspielen"
+         ],
+         "PAUSE": [
+            "Pause"
+         ],
+         "IRRGROUP": [
+            "J?hrliche Wertsch?tzung"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGE": [
+            "Immobilienpreis"
+         ],
+         "RENTINCREMENTPERCENTAGE": [
+            "Miete"
+         ],
+         "DOWNPAYMENTCOST": [
+            "Anzahlung"
+         ],
+         "MOTIVATEDSELLER": [
+            "Motivierter Verk?ufer"
+         ],
+         "APPLIEDFILTERS": [
+            "Angewendete Filter"
+         ],
+         "VIEWTYPES": [
+            "Arten anzeigen"
+         ],
+         "MEDIANLEASEPRICEANALYSIS": [
+            "Gesch?tzte monatliche Miete"
+         ],
+         "STREETVIEW": [
+            "Stra?enansicht"
+         ],
+         "HIGHCASHFLOW": [
+            "Cashflow positiv"
+         ],
+         "TERMSCONDITIONS": [
+            "Nutzungsbedingungen"
+         ],
+         "SAVED": [
+            "Ihre Suchkriterien wurden gespeichert. Sie erhalten E-Mail-Benachrichtigungen, wenn ?bereinstimmungen gefunden werden."
+         ],
+         "PHOTOSGALLERY": [
+            "Fotos"
+         ],
+         "MEDIANMARKETPRICE": [
+            "Median"
+         ],
+         "VALUEADDED": [
+            "Fixer"
+         ],
+         "OWNERASSOCIATIONFEE": [
+            "HOA Geb?hr"
+         ],
+         "MEANTRAVELTIME": [
+            "Mittlere Pendlerzeit"
+         ],
+         "INCOMEEXPENSEGROUP": [
+            "Einnahmen und Leasingkosten"
+         ],
+         "INVESTMENTEXPENSEGROUP": [
+            "Investitions- und Immobilienkosten"
+         ],
+         "CASHONCASHGROWTH": [
+            "Cash-on-Cash-Return-Wachstum"
+         ],
+         "CAPRATEGROWTH": [
+            "Cap-Rate-Wachstum"
+         ],
+         "MINUTES": [
+            "Minuten"
+         ],
+         "UNEMPLOYMENTGROWTHYAXIS": [
+            "Arbeitslosenrate"
+         ],
+         "UNEMPLOYMENTGROWTH": [
+            "Arbeitslosigkeit"
+         ],
+         "WIDGETUNEMPLOYMENT": [
+            "Arbeitslosenquote"
+         ],
+         "OVERVIEW": [
+            "?berblick"
+         ],
+         "ROIGROUP": [
+            "Return on Investment"
+         ],
+         "LOCATEONMAP": [
+            "Suchen Sie auf der Karte"
+         ],
+         "ANY": [
+            "Irgendein"
+         ],
+         "LEVERAGEDPURCHASE": [
+            "Leveraged Purchase"
+         ],
+         "CASHPURCHASE": [
+            "Barkauf"
+         ],
+         "RENTALUNIT": [
+            "Schl?ssel umdrehen"
+         ],
+         "FURNISHEDRENTAL": [
+            "M?blierte Einheit"
+         ],
+         "MOSTPROPERTIES": [
+            "Beliebte Reichweite"
+         ],
+         "BESTBUY": [
+            "Unterhalb des Marktpreises"
+         ],
+         "SUBTYPEAREABEDROOM": [
+            "Mit ?hnlicher Umgebung und Schlafzimmern"
+         ],
+         "MORESEARCHOPTIONS": [
+            "Kartensuche"
+         ],
+         "SUBTYPEAREA": [
+            "Mit ?hnlicher Fl?che"
+         ],
+         "NOPROPERTIESTOCOMPARE": [
+            "Keine ?hnlichen Eigenschaften f?r den Vergleich"
+         ],
+         "EXTERNALLINKSTABTITLE": [
+            "Geben Sie die URL Ihrer verwandten Links ein"
+         ],
+         "EXTERNALLINKPLACEHOLDER": [
+            "Geben Sie den Titel des verkn?pften Links ein"
+         ],
+         "EXTERNALLINKURLPLACEHOLDER": [
+            "Geben Sie die URL f?r den verkn?pften Link ein oder f?gen Sie sie ein"
+         ],
+         "EXTERNAlLINKTITLE": [
+            "Zugeh?riger Link Titel"
+         ],
+         "EXTERNALLINKURL": [
+            "Verwandter Link"
+         ],
+         "EXTERNALLINKS": [
+            "Externe Links"
+         ],
+         "LUXURYRENTAL": [
+            "Luxus Vermietung"
+         ],
+         "MOREPROPERTIES": [
+            "Markt Preise"
+         ],
+         "RENTALCATEGORY": [
+            "Mietkategorie"
+         ],
+         "DOWNPAYMENTPERCENTAGE": [
+            "Anzahlung"
+         ],
+         "LOANINTERESTRATE": [
+            "Zinsrate"
+         ],
+         "INITIALIMPROVEMENTCOST": [
+            "Fixup + Abschlusskosten"
+         ],
+         "MANAGEMENTFEES": [
+            "Verwaltungsgeb?hr"
+         ],
+         "LEASINGFEES": [
+            "Leasinggeb?hr"
+         ],
+         "PROPERTYINSURANCE": [
+            "Versicherung"
+         ],
+         "PROPERTYMAINTENANCE": [
+            "Instandhaltung"
+         ],
+         "CUMANNUALRENT": [
+            "J?hrliche Miete"
+         ],
+         "TOTALGAINCHART": [
+            "Kumulative Gewinne"
+         ],
+         "RENTCASHFLOWCHART": [
+            "Einkommenswachstum"
+         ],
+         "ANNUALFREECASHFLOW": [
+            "Bargeldumlauf"
+         ],
+         "DEBTSERVICES": [
+            "Schuldendienst"
+         ],
+         "PERCENTAGEOFGRR": [
+            "% des Brutto-Mietertrags"
+         ],
+         "CHOOSELOCATIONTOSEARCH": [
+            "Bitte geben Sie eine g?ltige Metro / Stadt / Postleitzahl / Nachbarschaft ein, um mit der Suche zu beginnen"
+         ],
+         "RENTPOTENTIAL": [
+            "Mietpotential"
+         ],
+         "UPTO": [
+            "Bis zu"
+         ],
+         "MEDIANSALEPRICEANALYSIS": [
+            "Preisvergleich"
+         ],
+         "MEDIANLEASEPRICE": [
+            "Median Vermietung"
+         ],
+         "SUBTYPEBEDROOM": [
+            "Mit gleichen Schlafzimmern"
+         ],
+         "NON_REFUNDABLE_PET_FEE": [
+            "Nicht erstattungsf?hige Haustiergeb?hr"
+         ],
+         "CUMPRINCIPALPAID": [
+            "Kumulativer Hauptbetrag"
+         ],
+         "CUMAPPRECIATION": [
+            "Kumulative Wertsch?tzung"
+         ],
+         "CUMCASHFLOW": [
+            "Kumulierter Cashflow"
+         ],
+         "MEDIANPRICESTATS": [
+            "Preisanalyse"
+         ],
+         "MEDIANCURRENTPRICE": [
+            "Diese Liegenschaft"
+         ],
+         "MEDIANLOWPRICE": [
+            "Niedrig"
+         ],
+         "MEDIANHIGHPRICE": [
+            "Hoch"
+         ],
+         "BACK": [
+            "Zur?ck"
+         ],
+         "ACREAGE": [
+            "Anbaufl?che"
+         ],
+         "SQUAREFOOTAGE": [
+            "Quadrat-Filmmaterial"
+         ],
+         "YEAR": [
+            "Jahr"
+         ],
+         "RATEOFRETURN": [
+            "Rendite"
+         ],
+         "INTERNALRATEOFRETURNWITHMORTGAGE": [
+            "Gehebelte interne Rendite"
+         ],
+         "INTERNALRATEOFRETURN": [
+            "Interne Verzinsung"
+         ],
+         "SALECLOSINGCOST": [
+            "Verkaufsabschlusskosten"
+         ],
+         "CALCULATERETURN": [
+            "Renditen analysieren"
+         ],
+         "INVESTMENTGROUP": [
+            "Investition"
+         ],
+         "MORTGAGEGROUP": [
+            "Hypothek"
+         ],
+         "INCOMEGROUP": [
+            "Einkommen"
+         ],
+         "EXPENSEGROUP": [
+            "J?hrliche Gesamtkosten"
+         ],
+         "RETURNGROUPWITHOUTMORTGAGE": [
+            "Gesch?tzte R?cksendungen"
+         ],
+         "RETURNGROUPWITHMORTGAGE": [
+            "Gesch?tzte gehebelte Renditen"
+         ],
+         "ASKINGPRICE": [
+            "Preisvorstellung"
+         ],
+         "CLOSINGCOST": [
+            "Schlie?ungskosten"
+         ],
+         "EMICOST": [
+            "Monatliche Hypothek"
+         ],
+         "LOANDURATION": [
+            "Amtszeit"
+         ],
+         "DEPRECIATIONPERCENTAGE": [
+            "Abschreibung"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGE": [
+            "Erstinvestition"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGE": [
+            "Erstinvestition"
+         ],
+         "TOTALINVESTMENTCOST": [
+            "Kostenbasis"
+         ],
+         "COSTBASIS": [
+            "Gesamtkostenbasis"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGE": [
+            "Steuerpflichtiger Cash Flow"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE": [
+            "Steuerpflichtiger Cash Flow"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGE": [
+            "Gesamtinvestition"
+         ],
+         "CASHONCASHRETURNPERCENTAGE": [
+            "Barmittel auf Cash-Return-Potenzial"
+         ],
+         "APPROXCALCVALUENOTE": [
+            "Die tats?chlichen Werte k?nnen variieren"
+         ],
+         "ALLPROPERTIES": [
+            "Alle Eigenschaften"
+         ],
+         "CURRENTPROPERTY": [
+            "Diese Liegenschaft"
+         ],
+         "MEDIANSALEPRICEXAXIS": [
+            "Median Verkaufspreis (USD)"
+         ],
+         "MEDIANSALEPRICEYAXIS": [
+            "Kategorie"
+         ],
+         "MEDIANLEASEPRICEXAXIS": [
+            "Medianmiete (USD)"
+         ],
+         "MEDIANLEASEPRICEYAXIS": [
+            "Kategorie"
+         ],
+         "MEDIANLEASEPRICESTATS": [
+            "Medianer Preis"
+         ],
+         "MEDIANSALEPRICESTATS": [
+            "Medianer Preis"
+         ],
+         "DAILY": [
+            "Pro Tag"
+         ],
+         "WEEK": [
+            "Pro Woche"
+         ],
+         "MONTH": [
+            "Pro Monat"
+         ],
+         "ANNUALLY": [
+            "Pro Jahr"
+         ],
+         "SCHOOLDISTRICT": [
+            "Schulbezirk"
+         ],
+         "RELIGIOUS_FACILITY": [
+            "Religi?se Einrichtung"
+         ],
+         "GENERATEREPORT": [
+            "Voll Flyer generieren"
+         ],
+         "GENERATEFLYER": [
+            "Flyer erstellen"
+         ],
+         "DEPOSITS": [
+            "Einlagen"
+         ],
+         "ADDDEPOSITS": [
+            "F?gen Sie Einlagen hinzu"
+         ],
+         "DEPOSITTYPE": [
+            "Einzahlungstyp"
+         ],
+         "SECURITY_DEPOSIT": [
+            "Kaution"
+         ],
+         "PET_DEPOSIT": [
+            "Haustier Anzahlung"
+         ],
+         "KEY_DEPOSIT": [
+            "Schl?sseleinzahlung"
+         ],
+         "CLEANING_DEPOSIT": [
+            "Reinigungsgeb?hr"
+         ],
+         "MATCHINGADDRESSES": [
+            "?bereinstimmende Adressen"
+         ],
+         "MATCHINGPROPERTIES": [
+            "?bereinstimmende Eigenschaften"
+         ],
+         "MONDAY": [
+            "Montag"
+         ],
+         "TUESDAY": [
+            "Dienstag"
+         ],
+         "WEDNESDAY": [
+            "Mittwoch"
+         ],
+         "THURSDAY": [
+            "Donnerstag"
+         ],
+         "FRIDAY": [
+            "Freitag"
+         ],
+         "SATURDAY": [
+            "Samstag"
+         ],
+         "SUNDAY": [
+            "Sonntag"
+         ],
+         "TOMORROW": [
+            "Morgen"
+         ],
+         "TODAY": [
+            "Heute"
+         ],
+         "COMING": [
+            "Kommen"
+         ],
+         "BUYING": [
+            "Kauf"
+         ],
+         "SELLING": [
+            "Verkauf"
+         ],
+         "REALTORS": [
+            "Makler / Makler"
+         ],
+         "PROPERTY_MANAGEMENT": [
+            "Immobilienverwaltung"
+         ],
+         "FORECLOSURE": [
+            "Abschottung"
+         ],
+         "LOTAREAUOM": [
+            "Einheit"
+         ],
+         "LAUNDRYROOM": [
+            "W?schekammer"
+         ],
+         "LIBRARY": [
+            "Bibliothek"
+         ],
+         "MEDIAROOM": [
+            "Medienraum"
+         ],
+         "MOTHERINLAW": [
+            "Schwiegermutter"
+         ],
+         "RECREATIONALROOM": [
+            "Erholungsraum"
+         ],
+         "SITTINGROOM": [
+            "Wohnzimmer"
+         ],
+         "STORAGE": [
+            "Lager"
+         ],
+         "UTILITY": [
+            "N?tzlichkeit"
+         ],
+         "WALKINCLOSET": [
+            "Begehbarer Kleiderschrank"
+         ],
+         "WETBAR": [
+            "Wet Bar"
+         ],
+         "ATRIUM": [
+            "Atrium"
+         ],
+         "ATTIC": [
+            "Dachboden"
+         ],
+         "DEN": [
+            "Den"
+         ],
+         "FAMILYROOM": [
+            "Wohnzimmer"
+         ],
+         "FIREPLACE": [
+            "Feuerstelle"
+         ],
+         "FOYER": [
+            "Foyer"
+         ],
+         "GREENHOUSE": [
+            "Gew?chshaus"
+         ],
+         "GUESTROOM": [
+            "G?stezimmer"
+         ],
+         "NORTH": [
+            "Norden"
+         ],
+         "SOUTH": [
+            "S?d"
+         ],
+         "EAST": [
+            "Osten"
+         ],
+         "WEST": [
+            "West"
+         ],
+         "NORTHEAST": [
+            "Nordosten"
+         ],
+         "NORTHWEST": [
+            "Nordwest"
+         ],
+         "SOUTHEAST": [
+            "S?d-Ost"
+         ],
+         "SOUTHWEST": [
+            "S?dwesten"
+         ],
+         "PARKINGTYPES": [
+            "Parkplatztypen"
+         ],
+         "ADDPARKINGTYPES": [
+            "Parketypen hinzuf?gen"
+         ],
+         "LEASEPRICEUOM": [
+            "Einheit"
+         ],
+         "CHARACTERS": [
+            "Figuren"
+         ],
+         "FLOORNUMBER": [
+            "Stockwerk Nummer"
+         ],
+         "FACINGDIRECTION": [
+            "Richtung Richtung"
+         ],
+         "LESS": [
+            "Weniger"
+         ],
+         "MORE": [
+            "Mehr"
+         ],
+         "TIME_SHARE": [
+            "Zeit teilen"
+         ],
+         "CABIN": [
+            "Kabine"
+         ],
+         "MLSNUMBER": [
+            "MLS-Nummer"
+         ],
+         "MLSID": [
+            "MLS"
+         ],
+         "MLSLISTINGURL": [
+            "Quellenlink auflisten"
+         ],
+         "MLSPROPERTYTYPE": [
+            "Kategorie (von der Quelle)"
+         ],
+         "MLSPROPERTYSUBTYPE": [
+            "Eigenschaftstyp (aus Quelle)"
+         ],
+         "MLSINFORMATION": [
+            "MLS Informationen"
+         ],
+         "LISTINGAREAUOM": [
+            "Einheit"
+         ],
+         "YOURADHERE": [
+            "Ihre Werbung hier"
+         ],
+         "LOCATIONDIRECTION": [
+            "Richtungen"
+         ],
+         "ACRE": [
+            "Morgen"
+         ],
+         "MAXIMIZE": [
+            "Maximieren"
+         ],
+         "INCOME": [
+            "Einkommen"
+         ],
+         "SELECTALL": [
+            "W?hlen Sie Alle"
+         ],
+         "NAMEUNDISCLOSED": [
+            "Unbekannter Name der Eigenschaft"
+         ],
+         "ADDRESSUNDISCLOSED": [
+            "Nicht offenbarte Adresse"
+         ],
+         "PRICEUNDISCLOSED": [
+            "Nicht angegebener Preis"
+         ],
+         "LIKES": [
+            "Likes"
+         ],
+         "FLOORPLAN": [
+            "Grundrisse und Umfragen"
+         ],
+         "COMMERCIAL_PROPERTIES": [
+            "Gewerbeimmobilien"
+         ],
+         "RESIDENTIAL_INVESTMENTS": [
+            "Wohnanlagen"
+         ],
+         "ROOM": [
+            "Zimmerinformation"
+         ],
+         "ROLE": [
+            "Rolle"
+         ],
+         "LEGALDESCRIPTION": [
+            "Beschreibung"
+         ],
+         "DISCLAIMER": [
+            "Haftungsausschluss"
+         ],
+         "LIVINGAREA": [
+            "Wohnbereich"
+         ],
+         "LIVINGROOM": [
+            "Wohnzimmer"
+         ],
+         "STUDY": [
+            "Studie"
+         ],
+         "KITCHEN": [
+            "K?che"
+         ],
+         "DININGROOM": [
+            "Esszimmer"
+         ],
+         "PATIO": [
+            "Terrasse"
+         ],
+         "PORCH": [
+            "Veranda"
+         ],
+         "DECK": [
+            "Deck"
+         ],
+         "GARAGE": [
+            "Garage"
+         ],
+         "WORKSHOP": [
+            "Werkstatt"
+         ],
+         "BASEMENT": [
+            "Keller"
+         ],
+         "BEDROOM": [
+            "Schlafzimmer"
+         ],
+         "BATHROOM": [
+            "Bad"
+         ],
+         "FULLBATHROOM": [
+            "Volles Badezimmer"
+         ],
+         "HALFBATHROOM": [
+            "Halbes Badezimmer"
+         ],
+         "QUARTERBATHROOM": [
+            "Viertel Badezimmer"
+         ],
+         "THREEQUARTERBATHROOM": [
+            "Badezimmer mit drei Vierteln"
+         ],
+         "BARBEQUEAREA": [
+            "Grillplatz"
+         ],
+         "DISABLEDACCESS": [
+            "Zugang f?r Behinderte"
+         ],
+         "LAWNAREA": [
+            "Rasenfl?che"
+         ],
+         "WIREDFORAUTOMATION": [
+            "F?r die Automatisierung verdrahtet"
+         ],
+         "DRAFT": [
+            "Entwurf"
+         ],
+         "PENDING_APPROVAL": [
+            "Pending Content Moderation"
+         ],
+         "PENDING_CONTENT_APPROVAL": [
+            "Ausstehende Inhaltsgenehmigung"
+         ],
+         "ACTIVE": [
+            "Aktiv"
+         ],
+         "REJECTED": [
+            "Abgelehnt"
+         ],
+         "EXPIRED": [
+            "Abgelaufen"
+         ],
+         "CLOSED": [
+            "Nicht verf?gbar"
+         ],
+         "CLICKTOVIEWPROFILE": [
+            "Klicken Sie hier, um das Profil anzuzeigen"
+         ],
+         "CHOOSEONMAP": [
+            "W?hlen Sie auf Karte"
+         ],
+         "CLOSEMAP": [
+            "Karte schlie?en"
+         ],
+         "HOMEFORSALESEARCHHEADER": [
+            "Finden Sie Wohnimmobilien zum Verkauf"
+         ],
+         "FORLEASESEARCHHEADER": [
+            "Suchen Sie nach Eigenschaften f?r Leasing"
+         ],
+         "PROFESSIONALSEARCHHEADER": [
+            "Finden Sie Dienstleister oder Fachleute"
+         ],
+         "REALTORSEARCHHEADER": [
+            "Finde bevorzugte Makler / Makler"
+         ],
+         "HIGHESTCAPRATE": [
+            "Kappenratenpotenzial (hoch zu niedrig)"
+         ],
+         "LOWESTCAPRATE": [
+            "Cap-Rate-Potenzial (niedrig zu hoch)"
+         ],
+         "CAPRATERANGE": [
+            "Kappenratenpotential (%)"
+         ],
+         "INVESTEMENTCATEGORIES": [
+            "Investitionskategorien"
+         ],
+         "PREFERREDLOCATION": [
+            "Bevorzugter Standort"
+         ],
+         "PREFERREDLOCATIONS": [
+            "Bevorzugte Lage (n)"
+         ],
+         "MINIMUM": [
+            "Minimum"
+         ],
+         "MAXIMUM": [
+            "Maximal"
+         ],
+         "CORE": [
+            "Ader"
+         ],
+         "COREPLUS": [
+            "Kern Plus"
+         ],
+         "DEVELOPMENTOPPORTUNITY": [
+            "Entwicklungsm?glichkeit"
+         ],
+         "CAPITALCONSTRAINTS": [
+            "Kapitaleinschr?nkungen"
+         ],
+         "ENVIRONMENTPROBLEMS": [
+            "Umweltprobleme"
+         ],
+         "MANAGEMENTPROBLEMS": [
+            "Verwaltungsprobleme"
+         ],
+         "NEEDSSTRUCTURIALIMPROVEMENTS": [
+            "Braucht strukturelle Verbesserungen"
+         ],
+         "NEEDSINETRIORIMPROVEMENTS": [
+            "Needs Interior Verbesserungen"
+         ],
+         "OPERATIONALPROBLEMS": [
+            "Betriebsprobleme"
+         ],
+         "OTHERVALUEADDED": [
+            "Anderer Wert hinzuf?gen"
+         ],
+         "RISKRETURNCATEGORY": [
+            "Investitionskategorie"
+         ],
+         "VALUEADDEDREASON": [
+            "Grund"
+         ],
+         "ALLBILLSPAID": [
+            "Alle Rechnungen bezahlt"
+         ],
+         "METEREDUNITS": [
+            "Getrennt gemessene Einheiten"
+         ],
+         "SOMEBILLSPAID": [
+            "Einige Rechnungen bezahlt"
+         ],
+         "MULTIFAMILYHOUSINGTYPE": [
+            "Stromrechnungen"
+         ],
+         "PAIDUTILITIES": [
+            "Bezahlte Dienstprogramme"
+         ],
+         "CURRENTRENT": [
+            "Aktuelle Miete"
+         ],
+         "SECURITYDEPOSIT": [
+            "Kaution"
+         ],
+         "NUMBEROFUNITS": [
+            "Anzahl der Einheiten"
+         ],
+         "ADD": [
+            "Hinzuf?gen"
+         ],
+         "DEMOGRAPHICS": [
+            "Demographie"
+         ],
+         "WIDGETFMRDATA": [
+            "Fairer Markt mietet"
+         ],
+         "WIDGETHOUSING": [
+            "Wohnungsnutzungsraten"
+         ],
+         "WIDGETMEDIANINCOME": [
+            "Einkommenswachstum"
+         ],
+         "WIDGETOCCUPATION": [
+            "Bev?lkerung nach Beruf"
+         ],
+         "WIDGETINCOMESLAB": [
+            "Aktuelle Einkommensplatten"
+         ],
+         "WIDGETTRANSPORTATION": [
+            "Pendeln zur Arbeit"
+         ],
+         "WIDGETVIOLENTCRIME": [
+            "Gewaltkriminalit?t"
+         ],
+         "WIDGETPROPERTYCRIME": [
+            "Immobilien Kriminalit?t"
+         ],
+         "WIDGETEMPLOYMENTGROWTH": [
+            "Besch?ftigungsquoten"
+         ],
+         "WIDGETETHNICITY": [
+            "Bev?lkerung nach Ethnizit?t"
+         ],
+         "WIDGETPOPULATIONGROWTH": [
+            "Bev?lkerungswachstum"
+         ],
+         "WIDGETPROPERTYTAX": [
+            "Grundsteuer bezahlt"
+         ],
+         "WIDGETSCHOOL": [
+            "Schulen in der N?he"
+         ],
+         "WIDGETDISASTERDATA": [
+            "Aktuelle Federal Emergencies"
+         ],
+         "SOURCE": [
+            "Quelle"
+         ],
+         "WIDGETFMRFOOTER": [
+            "US-Ministerium f?r Wohnungswesen und Stadtentwicklung"
+         ],
+         "WIDGETCENSUSFOOTER": [
+            "US-Volksz?hlungsamt"
+         ],
+         "WIDGETSCHOOLFOOTER": [
+            "US-Bildungsministerium"
+         ],
+         "WIDGETCRIMEFOOTER": [
+            "Bundesamt f?r Untersuchungen"
+         ],
+         "WIDGETDISASTERDATAFOOTER": [
+            "nationale Koordinationsstelle der Vereinigten Staaten f?r Katastrophenhilfe"
+         ],
+         "TOTALPOPULATION": [
+            "Gesamtbev?lkerung"
+         ],
+         "MEDIANAGE": [
+            "Mittelalter"
+         ],
+         "WHITE": [
+            "Wei?"
+         ],
+         "BLACK": [
+            "Schwarz"
+         ],
+         "ASIAN": [
+            "asiatisch"
+         ],
+         "AMERICAN": [
+            "Indianer"
+         ],
+         "HISPANICPERCENTAGE": [
+            "Hispanische Bev?lkerung"
+         ],
+         "EMPTY": [
+            "Andere"
+         ],
+         "OTHER": [
+            "Andere"
+         ],
+         "MALEFEMALERATIO": [
+            "M?nnliches / Weibliches Verh?ltnis"
+         ],
+         "FAIRMARKETRENT": [
+            "Messe Marktmiete"
+         ],
+         "FMRDATAXAXIS": [
+            "Jahr"
+         ],
+         "FMRDATAYAXIS": [
+            "Marktmiete"
+         ],
+         "EFFICIENTAPARTMENTPRICE": [
+            "Effizienz"
+         ],
+         "ONEBHKAPARTMENTPRICE": [
+            "Einzelzimmer"
+         ],
+         "THREEBHKAPARTMENTPRICE": [
+            "Drei Schlafzimmer"
+         ],
+         "FOURBHKAPARTMENTPRICE": [
+            "Vier Schlafzimmer"
+         ],
+         "UNKNOWN": [
+            "unbekannte"
+         ],
+         "TOTALUNITS": [
+            "Gesamtzahl der Einheiten"
+         ],
+         "OCCUPIEDUNIT": [
+            "Besetzte Einheiten"
+         ],
+         "RENTEDUNIT": [
+            "Mieteinheit"
+         ],
+         "OCCUPIEDRENTEDUNITXAXIS": [
+            "Jahr"
+         ],
+         "OCCUPIEDRENTEDUNITYAXIS": [
+            "Prozentsatz der Einheiten"
+         ],
+         "POPULATIONGROWTHYAXIS": [
+            "Population"
+         ],
+         "POPULATIONGROWTH": [
+            "Gesamtbev?lkerung"
+         ],
+         "POPULATIONGROWTHXAXIS": [
+            "Jahr"
+         ],
+         "EMPLOYEMENTGROWTHYAXIS": [
+            "Besch?ftigter Bev?lkerungsprozentsatz"
+         ],
+         "EMPLOYEMENTGROWTH": [
+            "Besch?ftigte Bev?lkerung"
+         ],
+         "EMPLOYEMENTGROWTHXAXIS": [
+            "Jahr"
+         ],
+         "OTHEROCCUPATION": [
+            "Andere Besch?ftigung"
+         ],
+         "EMPLOYEDPERCENTAGE": [
+            "Besch?ftigte Bev?lkerung"
+         ],
+         "MEDIANPROPERTYTAX": [
+            "Median Grundsteuer"
+         ],
+         "MEDIANPROPERTYTAXYAXIS": [
+            "Jahr"
+         ],
+         "MEDIANPROPERTYTAXXAXIS": [
+            "Grundsteuer bezahlt"
+         ],
+         "MEDIANINCOME": [
+            "Das mittlere Einkommen"
+         ],
+         "MEDIANINCOMEXAXIS": [
+            "Jahr"
+         ],
+         "MEDIANINCOMEYAXIS": [
+            "Einkommen"
+         ],
+         "MANAGEMENTOCCUPATION": [
+            "Management"
+         ],
+         "SERVICEOCCUPATION": [
+            "Bedienung"
+         ],
+         "SALESOCCUPATION": [
+            "Der Umsatz"
+         ],
+         "CONSTRUCTIONOCCUPATION": [
+            "Konstruktion"
+         ],
+         "PRODUCTIONOCCUPATION": [
+            "Produktion"
+         ],
+         "INCOMESLAB": [
+            "Gesamtbev?lkerung"
+         ],
+         "INCOMESLABXAXIS": [
+            "Einkommensplatte"
+         ],
+         "INCOMESLABYAXIS": [
+            "Bev?lkerungsprozentsatz"
+         ],
+         "BELOWFIFTEENTHOUSANDINCOME": [
+            "<15K"
+         ],
+         "FIFTEENTOTHIRTYTHOUSANDINCOME": [
+            "15K - 30K"
+         ],
+         "THIRTYTOFIFTYTHOUSANDINCOME": [
+            "30K - 50K"
+         ],
+         "FIFTYTOSEVENTYFIVEHOUSANDINCOME": [
+            "50K - 75K"
+         ],
+         "SEVENTYFIVETOHUNDREDTHOUSANDINCOME": [
+            "75K - 100K"
+         ],
+         "HUNDREDTOONEFIFTYTHOUSANDINCOME": [
+            "100K - 150K"
+         ],
+         "ONEFIFTYABOVETHOUSANDINCOME": [
+            "> 150K"
+         ],
+         "TRANSPORTATIONMEANS": [
+            "Transportmitteln"
+         ],
+         "TRANSPORTATIONMEANSXAXIS": [
+            "Prozentsatz der Bev?lkerung"
+         ],
+         "TRANSPORTATIONMEANSYAXIS": [
+            "Transportoption"
+         ],
+         "PEOPLEDROVEALONE": [
+            "Fuhr alleine"
+         ],
+         "PEOPLECARPOOLED": [
+            "Auto gepoolt"
+         ],
+         "PEOPLEUSEDPUBLICTRANSPORTATION": [
+            "?ffentliche Verkehrsmittel"
+         ],
+         "PEOPLEUSEDBICYCLEORWALKED": [
+            "Fahrrad oder Walked"
+         ],
+         "PEOPLEUSEDOTHERTRANSPORTATION": [
+            "Andere Verkehrsmittel"
+         ],
+         "PEOPLEWORKEDATHOME": [
+            "Arbeitete zu Hause"
+         ],
+         "SCHOOLNAME": [
+            "Schulname"
+         ],
+         "LOWESTGRADE": [
+            "Niedrigste Klasse"
+         ],
+         "HIGHESTGRADE": [
+            "H?chste Note"
+         ],
+         "SCHOOLTYPE": [
+            "Schulart"
+         ],
+         "VIOLENTCRIMEDATA": [
+            "Gewaltverbrechen Rate"
+         ],
+         "VIOLENTCRIMEDATAXAXIS": [
+            "Jahr"
+         ],
+         "VIOLENTCRIMEDATAYAXIS": [
+            "Kriminalit?tsrate (pro 100000 Einwohner)"
+         ],
+         "PROPERTYCRIMEDATA": [
+            "Kriminalit?tsrate f?r Immobilien"
+         ],
+         "PROPERTYCRIMEDATAXAXIS": [
+            "Jahr"
+         ],
+         "PROPERTYCRIMEDATAYAXIS": [
+            "Kriminalit?tsrate (pro 100.000 Einwohner)"
+         ],
+         "INCIDENTTITLE": [
+            "Vorfall"
+         ],
+         "INCIDENTTYPE": [
+            "Ereignistyp"
+         ],
+         "IHPROGRAMDECLARED": [
+            "?bergangsunterkunft"
+         ],
+         "IAPROGRAMDECLARED": [
+            "Individuelle Unterst?tzung"
+         ],
+         "PAPROGRAMDECLARED": [
+            "Sozialhilfe"
+         ],
+         "HMPROGRAMDECLARED": [
+            "Risikominimierung"
+         ],
+         "INCIDENTBEGINDATE": [
+            "Vorfalldatum"
+         ],
+         "TAGNAME": [
+            "Foto-Label"
+         ],
+         "RENAMEFILE": [
+            "Benennen Sie Ihr Dokument um"
+         ],
+         "FILENAME": [
+            "Dokumentname"
+         ],
+         "VIDEOTITLE": [
+            "Videotitel"
+         ],
+         "VIDEOURL": [
+            "Video-URL"
+         ],
+         "CLOSE": [
+            "Schlie?en"
+         ],
+         "MINIMIZE": [
+            "Minimieren"
+         ],
+         "COMMENTS": [
+            "Bemerkungen"
+         ],
+         "FEEDBACKCONTENTMESSAGE": [
+            "Geben Sie Ihr Feedback hier ein ..."
+         ],
+         "SITEFEEDBACKHEADER": [
+            "Senden Sie Feedback zur Website"
+         ],
+         "SENDSITEFEEDBACK": [
+            "Feedback abschicken"
+         ],
+         "READMORE": [
+            "Weiterlesen?"
+         ],
+         "SEARCHBYPROPERTY": [
+            "Eigentum finden"
+         ],
+         "SEARCHBYREALTOR": [
+            "Finden Sie Makler / Makler"
+         ],
+         "QUESTION": [
+            "Fragen und Antworten"
+         ],
+         "OFFLINE": [
+            "Offline"
+         ],
+         "SAVING": [
+            "Speichern ..."
+         ],
+         "YEARS": [
+            "Jahre"
+         ],
+         "MONTHS": [
+            "Monate"
+         ],
+         "WEEKS": [
+            "Wochen"
+         ],
+         "DAYS": [
+            "Tage"
+         ],
+         "INVESTMENTCATEGORIES": [
+            "Investitionskategorien"
+         ],
+         "DEPOSITSDETAILS": [
+            "Einlagen"
+         ],
+         "SHOWVACATIONRENTALS": [
+            "Kurzzeitvermietungen anzeigen?"
+         ],
+         "LEASECATEGORY": [
+            "Leasing-Kategorie"
+         ],
+         "SUBLETALLOWED": [
+            "Unterlassen Sie erlaubt?"
+         ],
+         "ADDEXPENSESBYTENANT": [
+            "F?gen Sie eine vom Mieter bezahlte Geb?hr hinzu"
+         ],
+         "EXPENSESBYLANDLORD": [
+            "Kosten vom Vermieter bezahlt"
+         ],
+         "EXPENSESBYTENANT": [
+            "Kosten vom Mieter bezahlt"
+         ],
+         "ADDEXPENSESBYLANDLORD": [
+            "F?gen Sie eine vom Vermieter bezahlte Geb?hr hinzu"
+         ],
+         "MASTERLEASE": [
+            "Master-Miete"
+         ],
+         "SUBLEASE": [
+            "Untermiete"
+         ],
+         "TYPING": [
+            "% s schreibt ..."
+         ],
+         "NEWMESSAGES": [
+            "neue Nachrichten)"
+         ],
+         "DEFAULTCHATMESSAGE": [
+            "Schreiben Sie ihre Nachricht hier?"
+         ],
+         "MOREACTIONS": [
+            "Mehr Aktionen"
+         ],
+         "ACTIONS": [
+            "Aktionen"
+         ],
+         "THUMBNAIL": [
+            "Foto"
+         ],
+         "LEFT": [
+            "Links"
+         ],
+         "RIGHT": [
+            "Recht"
+         ],
+         "ROTATE": [
+            "Drehen"
+         ],
+         "ZOOM": [
+            "Zoomen"
+         ],
+         "RSVP": [
+            "RSVP"
+         ],
+         "SEEALL": [
+            "Alles sehen"
+         ],
+         "EXISTING": [
+            "Bestehende"
+         ],
+         "NEW": [
+            "Neu"
+         ],
+         "NEWLYRENOVATED": [
+            "Frisch renoviert"
+         ],
+         "UNDERCONSTRUCTION": [
+            "Bauarbeiten im Gange"
+         ],
+         "PROPOSED": [
+            "Vorgeschlagen"
+         ],
+         "ARCHITECT": [
+            "Architekt"
+         ],
+         "HOMETELEPHONE": [
+            "Haustelefon"
+         ],
+         "OFFICETELEPHONE": [
+            "B?rotelefon"
+         ],
+         "MOBILE": [
+            "Handy, Mobiltelefon"
+         ],
+         "AUCTION": [
+            "Versteigerung"
+         ],
+         "BANKOWNED": [
+            "Bank im Besitz"
+         ],
+         "ELECTRICITYBACKUP": [
+            "Strom-Backup"
+         ],
+         "BYBUILDER": [
+            "Von Erbauer"
+         ],
+         "BYOWNER": [
+            "Vom Besitzer"
+         ],
+         "BYAGENT": [
+            "Durch Agent"
+         ],
+         "BYBANK": [
+            "Von der Bank"
+         ],
+         "NEWCONSTRUCTION": [
+            "Neubau"
+         ],
+         "FORSALE": [
+            "Zu verkaufen"
+         ],
+         "FORLEASE": [
+            "F?r Miete"
+         ],
+         "FORAUCTION": [
+            "F?r die Auktion"
+         ],
+         "LAND": [
+            "Land"
+         ],
+         "RESIDENTIAL": [
+            "Alle Wohngeb?ude"
+         ],
+         "TWIN_HOME": [
+            "Zwillingshaus"
+         ],
+         "LOFT_STYLE": [
+            "Loft Stil Apartment"
+         ],
+         "GARDEN_HOME_SINGLE_UNIT": [
+            "Gartenhaus"
+         ],
+         "GARDEN_HOME_1_4_UNITS": [
+            "Gartenhaus 1 bis 4 Einheiten"
+         ],
+         "CONDO_SINGLE_UNIT": [
+            "Eigentumswohnung"
+         ],
+         "CONDO_1_4_UNITS": [
+            "Condo 1 bis 4 Einheiten"
+         ],
+         "TOWNHOME_1_4_UNITS": [
+            "Town Home 1 bis 4 Einheiten"
+         ],
+         "OTHER_RESIDENTIAL": [
+            "Andere Wohngeb?ude"
+         ],
+         "TRIPLEX": [
+            "Triplex"
+         ],
+         "QUADRUPLEX": [
+            "Quadruplex"
+         ],
+         "MOBILE_HOME": [
+            "Wohnwagen"
+         ],
+         "DUPLEX": [
+            "Duplex"
+         ],
+         "DUPLEX_SINGLE_UNIT": [
+            "Duplex"
+         ],
+         "TOWNHOME_SINGLE_UNIT": [
+            "Stadthaus"
+         ],
+         "DUPLEX_2_UNITS": [
+            "Duplex 2 Einheiten"
+         ],
+         "SINGLE_FAMILY_HOME_PORTFOLIO": [
+            "Einfamilienhaus - Portfolio"
+         ],
+         "TOWNHOME": [
+            "Stadthaus"
+         ],
+         "GARDEN_HOME": [
+            "Gartenhaus"
+         ],
+         "CONGREGATE_HOUSING": [
+            "Wohngemeinschaften"
+         ],
+         "ASSISTEDLIVING": [
+            "Betreutes Wohnen"
+         ],
+         "SINGLE_FAMILY_HOME": [
+            "Einfamilienhaus"
+         ],
+         "TOWN_HOUSE": [
+            "Stadthaus"
+         ],
+         "GARDEN_LOW_RISE": [
+            "Garten Low Rise"
+         ],
+         "INDEPENDENT_HOUSE": [
+            "Einfamilienhaus"
+         ],
+         "MULTI_FAMILY_APARTMENT": [
+            "Mehrfamilienhaus"
+         ],
+         "RESIDENTIAL_APARTMENT": [
+            "Wohn-Wohnungen"
+         ],
+         "APARTMENT": [
+            "Wohnungen"
+         ],
+         "ROW_HOUSE": [
+            "Stadthaus"
+         ],
+         "PG_ACCOMMODATION": [
+            "Hotel mit begrenztem Service"
+         ],
+         "HOTEL_AND_LODGING": [
+            "Hotel"
+         ],
+         "SERVICED_APARTMENT": [
+            "Wohnsuiten"
+         ],
+         "CONDO": [
+            "Eigentumswohnung"
+         ],
+         "RESTAURANT": [
+            "Restaurant"
+         ],
+         "PETROL_BUNK": [
+            "Tankstelle"
+         ],
+         "ENTERTAINMENT": [
+            "Unterhaltung"
+         ],
+         "THEATRE": [
+            "Theater"
+         ],
+         "CAFE": [
+            "Cafe"
+         ],
+         "BAR": [
+            "Bar"
+         ],
+         "ELECTRICITY": [
+            "Elektrizit?t"
+         ],
+         "TELEPHONE": [
+            "Telefon"
+         ],
+         "WATER": [
+            "Stadt Wasser"
+         ],
+         "GAS": [
+            "Gas"
+         ],
+         "CABLE": [
+            "Kabel"
+         ],
+         "INTERNET": [
+            "Internet"
+         ],
+         "WIFI": [
+            "W-lan"
+         ],
+         "POWERBACKUP": [
+            "Strom-Backup"
+         ],
+         "CLIMATECONTROL": [
+            "Klimakontrolle"
+         ],
+         "AIRCONDITION": [
+            "Klimaanlage"
+         ],
+         "ELEVATORS": [
+            "Aufz?ge"
+         ],
+         "WASTEDISPOSAL": [
+            "M?llentsorgung"
+         ],
+         "VIDEOSURVEILLANCE": [
+            "Video?berwachung"
+         ],
+         "CAFETERIA": [
+            "Cafeteria"
+         ],
+         "SECURITY": [
+            "Sicherheit"
+         ],
+         "GYM": [
+            "Fitnessstudio"
+         ],
+         "CLUBHOUSE": [
+            "Clubhaus"
+         ],
+         "CHILDCARE": [
+            "Kinderbetreuung"
+         ],
+         "RECREATIONAREA": [
+            "Erholungsgebiet"
+         ],
+         "CONFERENCEROOM": [
+            "Konferenzraum"
+         ],
+         "MAINTENANCESTAFF": [
+            "Wartungspersonal"
+         ],
+         "SMOKINGZONE": [
+            "Raucherzone"
+         ],
+         "QUICKSEARCH": [
+            "Schnelle Suche"
+         ],
+         "NAME": [
+            "Name"
+         ],
+         "OTP": [
+            "Sicherheitscode"
+         ],
+         "SENDOTP": [
+            "Senden Sie OTP"
+         ],
+         "RESENDOTP": [
+            "Erneut senden"
+         ],
+         "HOME": [
+            "Zuhause"
+         ],
+         "SUMMARY": [
+            "Zusammenfassung"
+         ],
+         "MYSEARCHES": [
+            "Meine Suchen"
+         ],
+         "FILTERS": [
+            "Filter"
+         ],
+         "SHOW": [
+            "Show"
+         ],
+         "SAVEASDRAFT": [
+            "Als Entwurf speichern"
+         ],
+         "MAP": [
+            "Karte"
+         ],
+         "SAVE": [
+            "sparen"
+         ],
+         "SUBMIT": [
+            "einreichen"
+         ],
+         "FIND": [
+            "Finden"
+         ],
+         "CLEAR": [
+            "klar"
+         ],
+         "HIDE": [
+            "verbergen"
+         ],
+         "RADIUS": [
+            "Radius"
+         ],
+         "CLEARALL": [
+            "Alles l?schen"
+         ],
+         "SORT": [
+            "Sortieren"
+         ],
+         "VIEWONMAP": [
+            "Auf der Karte anzeigen"
+         ],
+         "ADDRESS": [
+            "Adresse"
+         ],
+         "PROPERTYNAME": [
+            "Name des Anwesens"
+         ],
+         "PROPERTYTYPE": [
+            "Kategorie"
+         ],
+         "PROPERTYSUBTYPE": [
+            "Art der Immobilie"
+         ],
+         "AREA": [
+            "Bereich"
+         ],
+         "LOTAREA": [
+            "Grundst?cksfl?che"
+         ],
+         "PROPERTYDESCRIPTION": [
+            "Objektbeschreibung"
+         ],
+         "HIGHLIGHTS": [
+            "H?hepunkte"
+         ],
+         "CANCEL": [
+            "Stornieren"
+         ],
+         "OK": [
+            "OK"
+         ],
+         "PHOTOS": [
+            "Fotos"
+         ],
+         "ADDITIONALDOCUMENTS": [
+            "Unterlagen"
+         ],
+         "ADDVIDEOLINKS": [
+            "Videos"
+         ],
+         "PROPERTYLISTINGTYPE": [
+            "Auflistungsart"
+         ],
+         "ADDITIONALDETAILS": [
+            "zus?tzliche Information"
+         ],
+         "FINANCIALINFORMATION": [
+            "?berblick"
+         ],
+         "FINANCIALS": [
+            "Finanzen"
+         ],
+         "PRICERANGE": [
+            "Preis"
+         ],
+         "AREARANGE": [
+            "Fl?che (Quadratfu?)"
+         ],
+         "MYPROFILE": [
+            "Mein Profil"
+         ],
+         "MOBILENUMBER": [
+            "Handynummer"
+         ],
+         "MYCOMPANY": [
+            "Meine Firma"
+         ],
+         "MYLISTINGS": [
+            "Meine Eintr?ge"
+         ],
+         "ABOUTUS": [
+            "?ber uns"
+         ],
+         "CONTACTUS": [
+            "Kontaktiere uns"
+         ],
+         "FAQ": [
+            "H?ufig gestellte Fragen"
+         ],
+         "TITLE": [
+            "Listing Titel"
+         ],
+         "PROPERTYLISTINGSALETYPE": [
+            "Geschrieben von"
+         ],
+         "ENDDATE": [
+            "Ablaufdatum der Liste"
+         ],
+         "STATUS": [
+            "Status"
+         ],
+         "DISTRESSED": [
+            "Betr?bt ?"
+         ],
+         "DISTRESSEDSTATUS": [
+            "Distressed Status"
+         ],
+         "SALEPRICE": [
+            "Finanzinformation"
+         ],
+         "LEASEPRICE": [
+            "Miet-Informationen"
+         ],
+         "BIDPRICE": [
+            "Angebotspreis"
+         ],
+         "BIDSTARTPRICE": [
+            "Gebotsstartpreis"
+         ],
+         "DEPOSITAMOUNT": [
+            "Kaution"
+         ],
+         "DAYSFORFULLPAYMENT": [
+            "Tage f?r volle Zahlung"
+         ],
+         "BIDSTARTDATE": [
+            "Startdatum des Gebots"
+         ],
+         "BIDENDDATE": [
+            "Ende des Angebots"
+         ],
+         "COMMISSIONSPLIT": [
+            "K?uferagent-Kommission"
+         ],
+         "COMMISSIONPERCENTAGE": [
+            "Provision der Kommission"
+         ],
+         "COMMISSIONAMOUNT": [
+            "Provisionsgeb?hren"
+         ],
+         "PERSQUAREFEET": [
+            "Pro Sq Ft"
+         ],
+         "BASERATEPERSQUAREFEET": [
+            "Basisrate pro Quadratfu?"
+         ],
+         "RATEPERSQUAREFEET": [
+            "Rate pro Quadratfu?"
+         ],
+         "DISCLOSEADDRESS": [
+            "Adresse angeben?"
+         ],
+         "DISCLOSEPRICE": [
+            "Preis angeben?"
+         ],
+         "PRICE": [
+            "Preis"
+         ],
+         "DESPOSITAMOUNT": [
+            "Anzahlung"
+         ],
+         "LEASEPERIOD": [
+            "Mietdauer in Jahren"
+         ],
+         "LEASETERM": [
+            "Vertragslaufzeit"
+         ],
+         "LEASETERMUOM": [
+            "Einheit"
+         ],
+         "SALETYPE": [
+            "Geschrieben von"
+         ],
+         "CAPRATEKNOWN": [
+            "Berechnen Cap-Rate?"
+         ],
+         "CAPRATETYPE": [
+            "Finanzart"
+         ],
+         "ACTUAL": [
+            "Tats?chlich"
+         ],
+         "PROFORMA": [
+            "Pro-Forma"
+         ],
+         "GROSSRENTREVENUE": [
+            "Brutto-Mieteinnahmen"
+         ],
+         "VACANCYLOSSES": [
+            "Leerstandsverluste"
+         ],
+         "OTHEREXPENSES": [
+            "Andere Ausgaben"
+         ],
+         "CALCULATEANDAPPLY": [
+            "Sich bewerben"
+         ],
+         "CALCULATENETOPERATINGINCOME": [
+            "Berechnung"
+         ],
+         "NETOPERATINGINCOME": [
+            "Nettobetriebsergebnis"
+         ],
+         "CALCULATEDCAPRATE": [
+            "Cap-Rate"
+         ],
+         "CAPRATE": [
+            "Cap-Rate"
+         ],
+         "DELETE": [
+            "L?schen"
+         ],
+         "IMAGEURLS": [
+            "Fotos"
+         ],
+         "PRIMARYIDENTIFIER": [
+            "APN oder Paket-ID"
+         ],
+         "TOTALAREA": [
+            "Gesamtfl?che"
+         ],
+         "DESCRIPTION": [
+            "Beschreibung"
+         ],
+         "AMENITIES": [
+            "Ausstattung"
+         ],
+         "UTILITIES": [
+            "Dienstprogramme verf?gbar am Standort"
+         ],
+         "CONDITIONS": [
+            "Bedingungen"
+         ],
+         "LINEONE": [
+            "Adresse"
+         ],
+         "LINETWO": [
+            "Ger?tenummer / Blocknummer / Chargennummer"
+         ],
+         "REGION": [
+            "Bezirk"
+         ],
+         "LOCALITY": [
+            "Gegend"
+         ],
+         "CITY": [
+            "Stadt"
+         ],
+         "STATE": [
+            "Zustand"
+         ],
+         "ZIPCODE": [
+            "Postleitzahl"
+         ],
+         "COUNTRY": [
+            "Land"
+         ],
+         "CURRENCY": [
+            "W?hrung"
+         ],
+         "COMPANYNAME": [
+            "Name der Firma"
+         ],
+         "CONTACTNUMBERS": [
+            "Kontaktnummern"
+         ],
+         "WEBSITE": [
+            "Webseite"
+         ],
+         "WEBSITES": [
+            "Websites"
+         ],
+         "COMPANYTYPE": [
+            "Unternehmenstyp"
+         ],
+         "SAVEDSEARCHPREFERENCES": [
+            "Voreinstellungen f?r die Benachrichtigungsfunktion"
+         ],
+         "CONTACTPREFERENCES": [
+            "Kontaktpr?ferenzen"
+         ],
+         "CONTENTPREFERENCES": [
+            "Neue Benachrichtigungseinstellungen f?r Inhalte"
+         ],
+         "AREASSERVED": [
+            "Bereiche bedient"
+         ],
+         "SPECIALTIES": [
+            "Spezialit?ten"
+         ],
+         "ABOUT": [
+            "?ber"
+         ],
+         "YEAROFINCEPTION": [
+            "Gr?ndungsjahr"
+         ],
+         "MINDIVISIBLEAREA": [
+            "Minimaler teilbarer Innenraum"
+         ],
+         "MAXDIVISIBLEAREA": [
+            "Maximaler Teilbarer Innenraum"
+         ],
+         "MAXCONTIGUOUSAREA": [
+            "Maximaler angrenzender Innenbereich"
+         ],
+         "YEARBUILT": [
+            "Baujahr"
+         ],
+         "NUMBEROFROOMS": [
+            "Anzahl der R?ume"
+         ],
+         "CONSTRUCTIONSTATUS": [
+            "Baustatus"
+         ],
+         "LEASEAMOUNT": [
+            "Mietpreis"
+         ],
+         "EXPENSEAMOUNT": [
+            "Kosten"
+         ],
+         "EXPENSETYPE": [
+            "Kostenart"
+         ],
+         "LEASEENDDATE": [
+            "Mietende-Datum"
+         ],
+         "ROOMTYPE": [
+            "Zimmertyp"
+         ],
+         "NUMBEROFWASHROOMS": [
+            "Anzahl der Badezimmer"
+         ],
+         "FURNISHEDSTATUS": [
+            "M?bliert ?"
+         ],
+         "UNFURNISHED": [
+            "Nicht eingerichtet"
+         ],
+         "SEMI_FURNISHED": [
+            "Teilm?bliert"
+         ],
+         "FURNISHED": [
+            "M?bliert"
+         ],
+         "DISTANCE": [
+            "Suchradius"
+         ],
+         "BUILDINGAGE": [
+            "Baualter (Jahre)"
+         ],
+         "POSTEDBY": [
+            "Geschrieben von"
+         ],
+         "PROPERTIESFOUND": [
+            "Eigenschaften gefunden"
+         ],
+         "BYRELAVANCE": [
+            "Nach Relevanz"
+         ],
+         "HIGHESTAREA": [
+            "Bereich (hoch zu niedrig)"
+         ],
+         "LOWESTAREA": [
+            "Fl?che (niedrig bis hoch)"
+         ],
+         "HIGHESTPRICE": [
+            "Preis (hoch zu niedrig)"
+         ],
+         "LOWESTPRICE": [
+            "Preis niedrig bis hoch)"
+         ],
+         "GRID": [
+            "Gitter"
+         ],
+         "CHAT": [
+            "Plaudern"
+         ],
+         "EMAIL": [
+            "Email"
+         ],
+         "SHARE": [
+            "Aktie"
+         ],
+         "LOGIN": [
+            "Anmeldung"
+         ],
+         "FEATUREDREALTORS": [
+            "Vorgestellte Immobilienmakler"
+         ],
+         "FEATUREDPROPERTIES": [
+            "hervorgehobene Eigenschaften"
+         ],
+         "LOCATION": [
+            "Ort"
+         ],
+         "INTERACTIVEMAP": [
+            "Interaktive Karte"
+         ],
+         "MOREDETAILS": [
+            "Mehr Details"
+         ],
+         "RESIDENTIAL_LAND": [
+            "Wohn-Land"
+         ],
+         "VILLA": [
+            "Eigentumswohnung"
+         ],
+         "STORE": [
+            "Gesch?ft"
+         ],
+         "LAUNDRY": [
+            "W?sche"
+         ],
+         "SCHOOL": [
+            "Schule"
+         ],
+         "SPA": [
+            "Spa"
+         ],
+         "CATEGORIES": [
+            "Kategorien"
+         ],
+         "CATEGORY": [
+            "Kategorie"
+         ],
+         "FIXTURES": [
+            "Befestigungen"
+         ],
+         "CLICKTOSEE": [
+            "Klicken Sie auf Orte in der N?he anzeigen"
+         ],
+         "INTERCOM": [
+            "Gegensprechanlage"
+         ],
+         "VIDEOCONFERENCE": [
+            "Videokonferenz"
+         ],
+         "LAN": [
+            "Lokales Netzwerk"
+         ],
+         "ENTRYSECURITY": [
+            "Einstiegssicherheit"
+         ],
+         "BIOMETRICACCESS": [
+            "Biometrischer Zugriff"
+         ],
+         "CHILDRENPLAYAREA": [
+            "Kinderspielbereich"
+         ],
+         "GARDENAREA": [
+            "Gartenbereich"
+         ],
+         "SWIMMINGPOOL": [
+            "Schwimmbad"
+         ],
+         "JOGGINGTRACK": [
+            "Joggingpfad"
+         ],
+         "INDOORSPORTS": [
+            "Hallensport"
+         ],
+         "OUTDOORSPORTS": [
+            "Outdoor-Sportarten"
+         ],
+         "DEPARTMENTSTORE": [
+            "Kaufhaus"
+         ],
+         "DETAILS": [
+            "Einzelheiten"
+         ],
+         "FEATURES": [
+            "Ausstattung"
+         ],
+         "SPECIFICATIONS": [
+            "Eigenschaften"
+         ],
+         "FORLEASEDETAILS": [
+            "Miet-Informationen"
+         ],
+         "FORSALEDETAILS": [
+            "Verkaufsinformationen"
+         ],
+         "PRICEDETAILS": [
+            "Preis Details"
+         ],
+         "BUILDINGROOMDETAILS": [
+            "Zimmerdetails"
+         ],
+         "ROOMS": [
+            "R?ume"
+         ],
+         "AIRPORT": [
+            "Flughafen"
+         ],
+         "HOSPITAL": [
+            "Krankenhaus"
+         ],
+         "BUSSTATION": [
+            "Bushaltestelle"
+         ],
+         "POLICE": [
+            "Polizeistation"
+         ],
+         "POSTOFFICE": [
+            "Post"
+         ],
+         "SUBWAYSTATION": [
+            "U-Bahnstation"
+         ],
+         "TRAINSTATION": [
+            "Bahnhof"
+         ],
+         "SHOPPINGMALL": [
+            "Einkaufszentrum"
+         ],
+         "PARKING": [
+            "Parken"
+         ],
+         "ATM": [
+            "Geldautomat"
+         ],
+         "LODGING": [
+            "Unterkunft"
+         ],
+         "REALESTATEAGENCY": [
+            "Immobilienagentur"
+         ],
+         "BANK": [
+            "Bank"
+         ],
+         "CREATELISTING": [
+            "Eine Eigenschaft auflisten"
+         ],
+         "PHOTOSVIDEOS": [
+            "Fotos und Dokumente"
+         ],
+         "FINISH": [
+            "Fertig"
+         ],
+         "SELECTEDBUILDINGUNITCOLLAPSIBLE": [
+            "Informationen zur Einheit"
+         ],
+         "PROPERTYCOLLAPSIBLE": [
+            "Immobilien Informationen"
+         ],
+         "SELECTEDLOTDETAILSCOLLAPSIBLE": [
+            "Losinformationen"
+         ],
+         "SELECTEDBUILDINGCOLLAPSIBLE": [
+            "Geb?ude Informationen"
+         ],
+         "BUILDINGDETAILSCOLLAPSIBLE": [
+            "Geb?ude Informationen"
+         ],
+         "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE": [
+            "Weitere Details"
+         ],
+         "ROOMSCOLLAPSIBLE": [
+            "Zimmerinformation"
+         ],
+         "SECURITYSTAFF": [
+            "Sicherheitspersonal"
+         ],
+         "MAINTENANCECHARGES": [
+            "Monatliche Wartungsgeb?hren"
+         ],
+         "RENTALAMOUNT": [
+            "Mietpreis"
+         ],
+         "COVEREDPARKING": [
+            "?berdachter Parkplatz"
+         ],
+         "YES": [
+            "Ja"
+         ],
+         "NO": [
+            "Nein"
+         ],
+         "UNITTYPE": [
+            "Ger?tetyp"
+         ],
+         "CONFIRM": [
+            "Best?tigen"
+         ],
+         "AVAILABLEDATE": [
+            "Datum verf?gbar"
+         ],
+         "WELCOMETO": [
+            "Willkommen zu"
+         ],
+         "ADDNEW": [
+            "Neue hinzuf?gen"
+         ],
+         "LOCATEME": [
+            "Verwende meinen Standort"
+         ],
+         "ENTERPREFEREDLOCATION": [
+            "Stadt, Nachbarschaft, Adresse"
+         ],
+         "REGISTER": [
+            "Anmelden"
+         ],
+         "ACTIVELISTINGS": [
+            "Aktuelle Eintr?ge"
+         ],
+         "CLEARSEARCH": [
+            "klar"
+         ],
+         "SEARCHBYPROPERTYNAME": [
+            "Objektname / Adresse"
+         ],
+         "SEARCHBYREALTORNAME": [
+            "Makler / Makler Name"
+         ],
+         "SEARCHBYPROFESSIONALNAME": [
+            "Name des Dienstanbieters"
+         ],
+         "SEARCH": [
+            "Suche"
+         ],
+         "DOCUMENTSGALLERY": [
+            "Hochgeladene Dokumente"
+         ],
+         "PROPERTY": [
+            "Eigentum"
+         ],
+         "UNIT": [
+            "Einheit"
+         ],
+         "PROPSHUBREGISTRATION": [
+            "2018 Proshub Alle Rechte vorbehalten"
+         ],
+         "CALLUS": [
+            "Rufen Sie uns an"
+         ],
+         "EMAILUS": [
+            "Schreiben Sie uns eine E-Mail"
+         ],
+         "SIGNIN": [
+            "Anmeldung"
+         ],
+         "SETTINGS": [
+            "die Einstellungen"
+         ],
+         "BACKTO": [
+            "Zur?ck zu"
+         ],
+         "POSTEDON": [
+            "Ver?ffentlicht am"
+         ],
+         "LIST": [
+            "Liste"
+         ],
+         "SAVESEARCH": [
+            "Sichere Suche"
+         ],
+         "NEWLYLISTED": [
+            "Zuletzt Ver?ffentlicht"
+         ],
+         "NEXT": [
+            "N?chster"
+         ],
+         "ALL": [
+            "Alle"
+         ],
+         "IMAGES": [
+            "Fotos"
+         ],
+         "BACKTOMAP": [
+            "Vorheriger Schritt"
+         ],
+         "PREVIOUS": [
+            "Bisherige"
+         ],
+         "LOADINGDATA": [
+            "Arbeiten?"
+         ],
+         "GAS_STATION": [
+            "Tankstelle"
+         ],
+         "GASSTATION": [
+            "Tankstelle"
+         ],
+         "CITYLOCATION": [
+            "Stadt oder Ort"
+         ],
+         "TONS": [
+            "Tonnen"
+         ],
+         "YRS": [
+            "Yrs"
+         ],
+         "MI": [
+            "Mi"
+         ],
+         "KM": [
+            "Kilometer"
+         ],
+         "PERCENTAGE": [
+            "%"
+         ],
+         "FT": [
+            "Ft"
+         ],
+         "AMOUNT": [
+            "Menge"
+         ],
+         "SQFT": [
+            "Sq Ft"
+         ],
+         "AGENT": [
+            "Agent"
+         ],
+         "HELP": [
+            "Stelle eine Frage"
+         ],
+         "TYPE": [
+            "Art"
+         ],
+         "PROPERTYFORSALE": [
+            "Immobilien zum Verkauf"
+         ],
+         "PROPERTYFORLEASE": [
+            "Miete"
+         ],
+         "REALTORSANDBROKERS": [
+            "Makler"
+         ],
+         "VACATIONRENTAL": [
+            "Kurzfristige Vermietung"
+         ],
+         "REALTOR": [
+            "Makler"
+         ],
+         "PROFESSIONAL": [
+            "Dienstleister"
+         ],
+         "PHONE": [
+            "Telefon"
+         ],
+         "OWNER": [
+            "Geschrieben von"
+         ],
+         "CONTACTACTIONS": [
+            "Kontaktpr?ferenzen"
+         ],
+         "STARTTIME": [
+            "Startzeit der Visiting Hour"
+         ],
+         "ENDTIME": [
+            "Besuchsstunden-Endzeit"
+         ],
+         "ADDOPENHOUSETIME": [
+            "F?gen Sie ein anderes Datum hinzu"
+         ],
+         "HOURS": [
+            "W?hlen Sie Zeit"
+         ],
+         "OPENHOUSEDATE": [
+            "Tag der offenen T?r"
+         ],
+         "SCHEDULEOPENHOUSE": [
+            "Planen Sie das Tag der offenen T?r"
+         ],
+         "OPENHOUSETIMES": [
+            "Planen Sie das Tag der offenen T?r"
+         ],
+         "INDIVIDUAL": [
+            "Individuell"
+         ],
+         "COMPANY": [
+            "Unternehmen"
+         ],
+         "BROKERAGEFIRM": [
+            "Brokerage-Unternehmen"
+         ],
+         "SIMILARLISTINGS": [
+            "?hnliche Eigenschaften"
+         ],
+         "SIGNUPAS": [
+            "Anmelden als"
+         ],
+         "LOADMORE": [
+            "Mehr laden"
+         ],
+         "SEND": [
+            "Senden"
+         ],
+         "SENDEMAIL": [
+            "E-Mail senden"
+         ],
+         "IN": [
+            "Indien"
+         ],
+         "US": [
+            "USA"
+         ],
+         "CA": [
+            "Kanada"
+         ],
+         "AR": [
+            "Argentinien"
+         ],
+         "CO": [
+            "Kolumbien"
+         ],
+         "BR": [
+            "Brasilien"
+         ],
+         "MX": [
+            "Mexiko"
+         ],
+         "USD": [
+            "$"
+         ],
+         "CAD": [
+            "Kanadischer Dollar"
+         ],
+         "MXN": [
+            "Mexikanischer Peso"
+         ],
+         "BRL": [
+            "brasilianischer Real"
+         ],
+         "ARS": [
+            "Argentinischer Peso"
+         ],
+         "COP": [
+            "Kolumbianischer Peso"
+         ],
+         "INR": [
+            "Indische Rupien"
+         ],
+         "CAPTION": [
+            "Suchen nach?"
+         ],
+         "PROPERTYNULLRESULTSTITLE": [
+            "Keine Eigenschaften gefunden Bitte versuche es erneut."
+         ],
+         "REALTORNULLRESULTSTITLE": [
+            "Keine Makler / Makler gefunden. Bitte versuche es erneut."
+         ],
+         "PROFESSIONALNULLRESULTSTITLE": [
+            "Keine Service Provider gefunden. Bitte versuche es erneut."
+         ],
+         "REALTORNULLRESULTSMESSAGE": [
+            "Offenbar sind f?r Ihre Suchkriterien keine Makler / Makler verf?gbar. Bitte erweitern Sie Ihre Suchkriterien oder schauen Sie sp?ter noch einmal vorbei."
+         ],
+         "PROFESSIONALNULLRESULTSMESSAGE": [
+            "Offenbar sind f?r Ihre Suchkriterien keine Dienstanbieter verf?gbar. Bitte erweitern Sie Ihre Suchkriterien oder schauen Sie sp?ter noch einmal vorbei."
+         ],
+         "PROPERTYNULLRESULTSMESSAGE": [
+            "Offenbar sind f?r Ihre Suchkriterien keine Eigenschaften verf?gbar. Bitte erweitern Sie Ihre Suchkriterien oder schauen Sie sp?ter noch einmal vorbei."
+         ],
+         "PROPERTYTOOMANYRESULTS": [
+            "Wir haben zu viele Eigenschaften gefunden, die Ihren Suchkriterien entsprechen. Bitte schr?nke deine Suchkriterien ein und versuche es erneut."
+         ],
+         "PROFESSIONALTOOMANYRESULTS": [
+            "Wir haben zu viele Dienstleister gefunden, die Ihren Suchkriterien entsprechen. Bitte schr?nke deine Suchkriterien ein und versuche es erneut."
+         ],
+         "BROKERAGEFIRMINFOCOLLAPSIBLE": [
+            "Professionelle Zusammenfassung"
+         ],
+         "COMPANYINFOCOLLAPSIBLE": [
+            "Professionelle Zusammenfassung"
+         ],
+         "PROFESSIONALSCOLLAPSIBLE": [
+            "Verbundene Dienstleister"
+         ],
+         "REALTORSCOLLAPSIBLE": [
+            "Assoziierte Makler / Makler"
+         ],
+         "ADDPROFESSIONAL": [
+            "F?gen Sie einen Dienstanbieter hinzu"
+         ],
+         "ADDREALTOR": [
+            "F?gen Sie einen Grundst?cksmakler hinzu"
+         ],
+         "AUTHORIZEDPERSONNEL": [
+            "Ich bin berechtigt, diese Unternehmensinformationen zu aktualisieren"
+         ],
+         "TERMSCONDITIONSTITLE": [
+            "Ich habe die ... gelesen und stimme ihnen zu"
+         ],
+         "LISTINGCLOSEDTITLE": [
+            "Ihre Immobilie ist nicht am Markt"
+         ],
+         "LISTINGREJECTEDTITLE": [
+            "Ihre Liste wird abgelehnt"
+         ],
+         "LISTINGCLOSEDDESCRIPTION": [
+            "Sie k?nnen Ihren Eintrag jederzeit anreichern. Klicken Sie auf die Schaltfl?che Bearbeiten, um Ihr Listing zu ?ndern"
+         ],
+         "LISTINGREJECTEDDESCRIPTION": [
+            "Sie m?ssen Ihr Listing bearbeiten, um anst??ige Inhalte zu entfernen. Klicken Sie auf die Schaltfl?che Bearbeiten, um Ihr Listing zu ?ndern"
+         ],
+         "LISTINGPENDINGTITLE": [
+            "Ihr Angebot ist in Bearbeitung"
+         ],
+         "LISTINGACTIVETITLE": [
+            "Ihre Liste ist aktiv"
+         ],
+         "LISTINGPENDINGDESCRIPTION": [
+            "Danke, dass Sie Ihre Immobilie aufgelistet haben. Ihre Anfrage wartet auf die Inhaltsmoderation, bevor sie online ver?ffentlicht wird. Bitte ?berpr?fen Sie Ihre registrierte E-Mail bez?glich des Status Ihres Eintrags."
+         ],
+         "LISTINGACTIVEDESCRIPTION": [
+            "Sie k?nnen Ihren Eintrag jederzeit anreichern. Klicken Sie auf die Schaltfl?che Bearbeiten, um Ihr Listing zu ?ndern"
+         ],
+         "LISTINGCONFIRMATIONDESCRIPTION": [
+            "Bitte sehen Sie sich Ihren Eintrag vor Ihrer Best?tigung an. Nach der Best?tigung dauert es ein paar Minuten, bis Ihr Eintrag online ver?ffentlicht wird."
+         ],
+         "MANDATORYMESSAGE": [
+            "Bitte stellen Sie sicher, dass Sie Werte f?r alle unten aufgef?hrten Pflichtfelder eingeben"
+         ],
+         "LISTINGDRAFTMODE": [
+            "Diese Seite ist nur f?r Ihre Vorschau gedacht. Es ist f?r andere Benutzer noch nicht sichtbar"
+         ],
+         "PROPERTYEMAILMESSAGE": [
+            "Schreiben Sie ihre Nachricht hier?"
+         ],
+         "PERSONEMAILMESSAGE": [
+            "Schreiben Sie ihre Nachricht hier?"
+         ],
+         "RSVPEMAILMESSAGE": [
+            "Ich w?rde die Unterkunft w?hrend des Open House auf% s besuchen"
+         ],
+         "ENTERRSVPMESSAGE": [
+            "Senden Sie eine Antwort an% s"
+         ],
+         "ENTEREMAILMESSAGE": [
+            "Verfasse eine Nachricht an% s"
+         ],
+         "RESIDENTIALSUBTYPEINVALID": [
+            "Ung?ltiger Wohneigentums-Untertyp"
+         ],
+         "PROFESSIONINVALID": [
+            "Beruf ist ung?ltig"
+         ],
+         "UPLOADING": [
+            "Hochladen ..."
+         ],
+         "UPLOADSUCCESS": [
+            "Hochgeladen erfolgreich ..."
+         ],
+         "MYPREFERENCES": [
+            "Meine Einstellungen"
+         ],
+         "MYCONTACTS": [
+            "Meine Kontakte"
+         ],
+         "NOTIFICATIONS": [
+            "Meine Benachrichtigungen"
+         ],
+         "REMOVE": [
+            "Nehmen Sie die Immobilie vom Markt"
+         ],
+         "EDIT": [
+            "Bearbeiten"
+         ],
+         "VIEW": [
+            "Aussicht"
+         ],
+         "ENTERLOCATION": [
+            "Geben Sie die Adresse / Nachbarschaft / Stadt / Postleitzahl ein"
+         ],
+         "PUBLISH": [
+            "Ver?ffentlichen"
+         ],
+         "NUMBEROFBEDROOMS": [
+            "Anzahl der Schlafzimmer"
+         ],
+         "OFFLINEMESSAGE": [
+            "% s ist offline. Klicken Sie hier, um eine E-Mail zu senden"
+         ],
+         "PROVIDESEARCHNAME": [
+            "Geben Sie einen Namen f?r Ihre Suche ein"
+         ],
+         "PERCENTAGEOFCOMPLETION": [
+            "Abschlussstatus"
+         ],
+         "FINANCIALCOMPLETIONGROUP": [
+            "Finanzen"
+         ],
+         "LISTINGCOMPLETIONGROUP": [
+            "Informationen auflisten"
+         ],
+         "PROPERTYCOMPLETIONGROUP": [
+            "Details der Immobilie"
+         ],
+         "ADDITIONALCOMPLETIONGROUP": [
+            "zus?tzliche Information"
+         ],
+         "MISSINGFIELDS": [
+            "Fehlende Felder"
+         ],
+         "VIDEOSTABTITLE": [
+            "Geben Sie die URL f?r Ihre Videos an"
+         ],
+         "TAGFILE": [
+            "Beschrifte dein Foto"
+         ],
+         "SAVEEXIT": [
+            "Entwurf speichern und beenden"
+         ],
+         "SENDINGEMAIL": [
+            "Email schicken?"
+         ],
+         "EMAILSENT": [
+            "E-Mail gesendet"
+         ],
+         "PRIVACYPOLICY": [
+            "Datenschutz-Bestimmungen"
+         ],
+         "PROFILECOMPLETION": [
+            "Bereichern Sie Ihr Profil"
+         ],
+         "USERCOMPLETIONGROUP": [
+            "Profildetails"
+         ],
+         "REALTORSANDBROKERSSEARCHOPTIONINFO": [
+            "Suche nach Realtors / Brokern"
+         ],
+         "INCOME_SPECIALIST": [
+            "Einkommensspezialist"
+         ],
+         "WELCOME": [
+            "Herzlich willkommen"
+         ],
+         "LOGOUT": [
+            "Ausloggen"
+         ],
+         "LEGAL": [
+            "Legal"
+         ],
+         "LOGINHEADING": [
+            "Anmelden oder Registrieren"
+         ],
+         "RESIDENTIAL_LENDING": [
+            "Wohnimmobilien"
+         ],
+         "COMMERCIAL_LENDING": [
+            "Kommerzielle Kredite"
+         ],
+         "URBAN_PLANNING": [
+            "Stadtplanung / Bauingenieurwesen"
+         ],
+         "BACK_OFFICE_SPECIALIST": [
+            "Backoffice-Spezialist"
+         ],
+         "OTHER_SPECIALTY": [
+            "Andere"
+         ],
+         "COMMERCIAL_APPRAISER": [
+            "Commercial Appraiser"
+         ],
+         "GENERAL_APPRAISER": [
+            "Allgemeingutachter"
+         ],
+         "RESIDENTIAL_APPRAISER": [
+            "Wohnwertermittler"
+         ],
+         "PROPERTY_INSPECTOR": [
+            "Immobilieninspektor"
+         ],
+         "PROPERTY_MANAGER": [
+            "Hausverwaltung"
+         ],
+         "LICENSE": [
+            "Lizenz"
+         ],
+         "LICENSENUMBER": [
+            "Lizenznummer"
+         ],
+         "LICENSEJURISDICTION": [
+            "Lizenz Gerichtsbarkeit"
+         ],
+         "LICENSEISSUINGAUTHORITY": [
+            "Lizenz ausstellende Beh?rde"
+         ],
+         "APPRENTICEINSPECTOR": [
+            "Lehrlingsinspektor"
+         ],
+         "AUCTIONEER": [
+            "Auktionator"
+         ],
+         "CERTIFIEDGENERALAPPRAISER": [
+            "Zertifizierter Allgemeingutachter"
+         ],
+         "CERTIFIEDRESIDENTIALAPPRAISER": [
+            "Certified Residential Appraiser"
+         ],
+         "LEASING_AGENT": [
+            "Leasing-Agent"
+         ],
+         "LICENSEDAPPRAISER": [
+            "Lizenzierter Sachverst?ndiger"
+         ],
+         "LICENSEDINSPECTOR": [
+            "Zugelassener Inspektor"
+         ],
+         "MORTGAGE_BROKER": [
+            "Hypothekenmakler"
+         ],
+         "REALESTATEBROKER": [
+            "Immobilienmakler"
+         ],
+         "REGISTEREDAPPRAISER": [
+            "Registrierter Gutachter"
+         ],
+         "REGISTEREDINSPECTOR": [
+            "Registrierter Inspektor"
+         ],
+         "PROPERTYMANAGEMENT": [
+            "Immobilienverwaltung"
+         ],
+         "RENTALPROPERTYMANAGEMENT": [
+            "Vermietung von Immobilien"
+         ],
+         "SALESPERSON": [
+            "Verk?ufer"
+         ],
+         "APPRAISAL": [
+            "Bewertung"
+         ],
+         "INDUSTRIAL": [
+            "Industriell"
+         ],
+         "FARM_AND_LAND": [
+            "Bauernhof und Land"
+         ],
+         "LAND_DEVELOPMENT": [
+            "Landesentwicklung"
+         ],
+         "SECURITIESANDSYNDICATION": [
+            "Wertpapiere und Syndizierung"
+         ],
+         "COUNSELING": [
+            "Beratung"
+         ],
+         "RESEARCH": [
+            "Forschung"
+         ],
+         "SITEURL": [
+            "Seiten-URL"
+         ],
+         "TWITTERHANDLE": [
+            "Twitter Griff"
+         ],
+         "FACEBOOK": [
+            "Facebook URL"
+         ],
+         "BLOG": [
+            "Blog URL"
+         ],
+         "LINKEDIN": [
+            "LinkedIn-URL"
+         ],
+         "EMAILID": [
+            "Email"
+         ],
+         "PASSWORD": [
+            "Passwort"
+         ],
+         "FORGOTPASSWORD": [
+            "Passwort vergessen ?"
+         ],
+         "SIGNUP": [
+            "Anmelden"
+         ],
+         "REMEMBERME": [
+            "Erinnere dich an mich"
+         ],
+         "PROPERTYIMAGEMISSING": [
+            "Keine Fotos"
+         ],
+         "PROFESSIONINFOCOLLAPSIBLE": [
+            "Professionelle Informationen"
+         ],
+         "CONTACTCOLLAPSIBLE": [
+            "Kontakt Informationen"
+         ],
+         "EXPERTISE": [
+            "Fachgebiete"
+         ],
+         "OTHERCONTACTNUMBERS": [
+            "Andere Kontaktnummern"
+         ],
+         "CONTACTNUMBERTYPE": [
+            "Kontaktnummer Typ"
+         ],
+         "CONTACTNUMBER": [
+            "Kontakt Nummer"
+         ],
+         "WEBSITETYPE": [
+            "Websitetyp"
+         ],
+         "PROFESSIONALSINCE": [
+            "Profi seit"
+         ],
+         "AREAS": [
+            "Orte bedient"
+         ],
+         "YEARSOFEXPERIENCE": [
+            "Langj?hrige Erfahrung"
+         ],
+         "CHOOSELOCATIONONMAP": [
+            "Klicken Sie hier, um Ihren bevorzugten Standort auf der Karte anzugeben"
+         ],
+         "FEEDBACKSENTFAIL": [
+            "Beim Senden Ihres Feedbacks ist ein Problem aufgetreten. Bitte versuche es erneut?"
+         ],
+         "FEEDBACKSENTSUCCESS": [
+            "Danke f?r Ihre R?ckmeldung. Wir werden Ihnen so schnell wie m?glich antworten."
+         ],
+         "COULDNOTFETCHLOCATION": [
+            "Wir konnten deinen Standort nicht abrufen"
+         ],
+         "WIDGETMEDIANPRICE": [
+            "Median Preise basieren auf den Angebotspreisen aller aufgef?hrten Objekte"
+         ],
+         "RENTINCREMENTPERCENTAGETOOLTIP": [
+            "Bereitstellung der gesch?tzten j?hrlichen Mietsteigerung unter Ber?cksichtigung der historischen und vorherrschenden Marktbedingungen"
+         ],
+         "COSTBASISTOOLTIP": [
+            "Dies ist die Kostenbasis der Investition, die die Preisvorstellung und die anf?nglichen Verbesserungskosten ber?cksichtigt. Kostenbasis = Preisvorstellung + Anschaffungskosten"
+         ],
+         "TOTALINVESTMENTCOSTTOOLTIP": [
+            "Dies ist die Kostenbasis der Investition, die die Preisvorstellung, die Abschlusskosten und die anf?nglichen Verbesserungskosten ber?cksichtigt."
+         ],
+         "ANNUALTAXABLEINCOMETOOLTIP": [
+            "Dies ist das j?hrliche zu versteuernde Einkommen nach Ber?cksichtigung aller Ausgaben f?r die Instandhaltung der Immobilie"
+         ],
+         "DEPRECIATIONPERCENTAGETOOLTIP": [
+            "Geben Sie die gesch?tzte j?hrliche Abschreibung des Immobilienwertes unter Ber?cksichtigung des normalen Verschlei?es und der Standard-Abschreibungss?tze an"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP": [
+            "Geben Sie die gesch?tzte j?hrliche Wertsteigerung des Immobilienwerts unter Ber?cksichtigung historischer und vorherrschender Marktbedingungen an"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP": [
+            "Preisvorstellung plus eventuelle Fixup- und Abschlusskosten."
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP": [
+            "Dies ist das j?hrliche zu versteuernde Einkommen nach Ber?cksichtigung aller Ausgaben f?r die Instandhaltung der Immobilie. J?hrliches Steuereinkommen ohne Hypothek = Nettobetriebsergebnis - Abschreibungswert"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGETOOLTIP": [
+            "Anzahlung plus eventuelle Fixup- und Closing-Kosten."
+         ],
+         "COSTBASISWITHMORTGAGETOOLTIP": [
+            "Dies ist der Free Cash Flow nach Ber?cksichtigung des Schuldendienstes Free Cash Flow = Nettobetriebsergebnis - Schuldendienst"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP": [
+            "Dies ist das j?hrliche steuerpflichtige Einkommen nach Ber?cksichtigung aller Kosten, die bei der Erhaltung der Immobilie anfallen. Steuerpflichtiger Cash Flow = J?hrlicher Free Cash Flow-Abschreibungswert"
+         ],
+         "SALECLOSINGCOSTTOOLTIP": [
+            "Stellen Sie den gesch?tzten Verkaufabschluss unter Ber?cksichtigung von Provisionen, County Geb?hren, etc"
+         ],
+         "CLOSINGCOSTTOOLTIP": [
+            "Geben Sie die gesch?tzten Abschlusskosten f?r den Kauf unter Ber?cksichtigung von Provisionen, County Geb?hren, etc"
+         ],
+         "INITIALIMPROVEMENTCOSTTOOLTIP": [
+            "Abschlusskosten plus gesch?tzte Kosten f?r Reparaturen und / oder Verbesserungen nach dem Kauf und vor der Vermietung an den ersten Mieter."
+         ],
+         "EMICOSTTOOLTIP": [
+            "Dies ist der gesch?tzte monatliche Hypothekenbetrag unter Ber?cksichtigung der Standardzinss?tze. Der tats?chliche Hypothekenbetrag w?rde basierend auf dem von der Bank berechneten Zinssatz und dem Kredit-Score variieren"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP": [
+            "Dies ist die Gesamtinvestitionssumme unter Ber?cksich - tigung der Kosten f?r das Klopfen, der Anzahlung usw"
+         ],
+         "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP": [
+            "Dies ist die Verzinsung, die den Barertrag berechnet, der auf das in eine Immobilie investierte Geld im Verh?ltnis zur Gesamtinvestition erzielt wird."
+         ],
+         "OTHEREXPENSESTOOLTIP": [
+            "Geben Sie den Gesamtjahresbetrag f?r alle anderen Ausgaben an"
+         ],
+         "HOMEFORSALESEARCHOPTIONINFO": [
+            "Suche nach Wohnimmobilien zum Verkauf"
+         ],
+         "PROPERTYFORLEASESEARCHOPTIONINFO": [
+            "Suchen Sie nach Eigenschaften f?r Leasing"
+         ],
+         "PROFESSIONALSEARCHOPTIONINFO": [
+            "Suchen Sie nach Dienstleistern oder Fachleuten, die Immobilien wie Banker, Versicherungsvertreter, Kreditvermittler, Immobilienverwalter usw. bedienen."
+         ],
+         "LOCATIONPREFUSAGEINFO": [
+            "Geben Sie einen oder mehrere bevorzugte Standorte und einen Suchradius ein, um die Grenzen zu definieren"
+         ],
+         "CAPRATERANGETOOLTIP": [
+            "Geben Sie die oberen und unteren Werte f?r die Cap-Rate an, wenn Sie nach Objekten suchen, die bereits Mieteinnahmen generieren"
+         ],
+         "INVESTMENTCATEGORIESTOOLTIP": [
+            "Geben Sie die Anlagekategorie f?r Ihre Suche an Kern: Dies ist eine nicht fremdfinanzierte Anlage mit geringem Risiko und geringem Potenzial mit vorhersehbaren Cashflows. Core Plus: Dies ist eine Anlage mit mittlerem Risiko und moderater Rendite, die Verbesserungen erforderlich machen kann oder auch nicht. Value Added: Dies ist eine Anlage mit mittlerem bis hohem Risiko und mittlerer bis hoher Rendite, die Verbesserungen oder Kapitalzufl?sse oder andere ?nderungen erfordert. Entwicklungschance: Dies ist eine Investition mit hohem Risiko und hoher Rendite, die ein hohes Ma? an Verbesserung oder andere Risiken erfordert."
+         ],
+         "NUMBERONLY": [
+            "Bitte geben Sie eine g?ltige Nummer ein"
+         ],
+         "MAXVALUE": [
+            "Bitte geben Sie einen g?ltigen Wert kleiner als ein"
+         ],
+         "MAXLENGTH": [
+            "Die maximale Anzahl der erlaubten Zeichen ist"
+         ],
+         "MINLENGTH": [
+            "Die Mindestanzahl von Zeichen ist erforderlich"
+         ],
+         "EMAILIDREQUIRED": [
+            "E-Mail ist erforderlich"
+         ],
+         "EMAILPATTERNERROR": [
+            "Bitte geben Sie eine g?ltige E-Mail-Adresse ein"
+         ],
+         "URLPATTERN": [
+            "Bitte geben Sie eine g?ltige Internetadresse ein"
+         ],
+         "DATE_EXCEPTION": [
+            "Ung?ltiges Datum angegeben"
+         ],
+         "DECIMALUPTO4DIGIT": [
+            "Bitte geben Sie eine g?ltige Nummer mit maximal 4 Dezimalstellen an"
+         ],
+         "MEDIANLEASEPRICECAVEAT": [
+            "Median-Mieten sind Richtwerte. ?berpr?fen Sie die Details des Listings sorgf?ltig."
+         ],
+         "GROSSRENTREVENUEREQUIRED": [
+            "Gross Rental Income ist erforderlich"
+         ],
+         "ISVACATIONRENTAL": [
+            "Ist diese Einheit eine Kurzzeitmiete?"
+         ],
+         "ISVACATIONRENTALTOOLTIP": [
+            "Geben Sie an, ob diese Immobilie als Kurzzeit-, Saison-, Executive- oder Ferienvermietung vermietet wird."
+         ],
+         "PREVIEWSELECTEDFLOORPLANDOCS": [
+            "Ausgew?hlte Grundrisse und Umfragen"
+         ],
+         "FLOORPLANSGALLERY": [
+            "Grundrisse und Umfragen hochgeladen"
+         ],
+         "BASICINFORMATION": [
+            "Ort"
+         ],
+         "PROPERTYDETAILS": [
+            "Einzelheiten"
+         ],
+         "LOCATEPROPERTYTIP": [
+            "W?hlen Sie aus den folgenden Eigenschaften"
+         ],
+         "PROPERTYFOUND": [
+            "?bereinstimmende Eigenschaften an Ihrem Standort"
+         ],
+         "PROPERTYNOTFOUND": [
+            "Haben Sie Ihre Immobilie nicht gefunden?"
+         ],
+         "SELFOWNED": [
+            "Besitzen Sie diese Auflistung?"
+         ],
+         "OWNEREMAILID": [
+            "Eigent?mer E-Mail-ID auflisten"
+         ],
+         "OWNERMOBILENUMBER": [
+            "Mobilnummer des Inhabers auflisten"
+         ],
+         "OWNERNAME": [
+            "Eigent?mername auflisten"
+         ],
+         "LISTINGCONFIRMATIONTITLE": [
+            "Vorschau und best?tigen Sie Ihr Listing"
+         ],
+         "MARKERDRAGPINMESSAGE": [
+            "Falls Sie Ihre Adresse nicht finden k?nnen, geben Sie die n?chstgelegene Sehensw?rdigkeit oder Nachbarschaft ein und ziehen Sie die Stecknadel an Ihren Standort"
+         ],
+         "BASICINFOSCHEMATITLE": [
+            "Suchen Sie Ihre Immobilie"
+         ],
+         "DROPIMAGETITLE": [
+            "Ziehen Sie Ihre Dateien hierher und legen Sie sie dort ab. Sie k?nnen jedes Mal bis zu 10 Dateien hochladen."
+         ],
+         "MEDIATITLE": [
+            "Laden Sie Fotos f?r Ihre Immobilie hoch"
+         ],
+         "OVERVIEWINFOSCHEMATITLE": [
+            "Stellen Sie grundlegende Informationen zu Ihrem Listing bereit"
+         ],
+         "FINANCIALINFOSCHEMATITLE": [
+            "Stellen Sie finanzielle Informationen zur Verf?gung"
+         ],
+         "ADDITIONALINFOSCHEMATITLE": [
+            "Stellen Sie zus?tzliche Informationen bereit"
+         ],
+         "PROPERTYINFOSCHEMATITLE": [
+            "Bereichern Sie Ihre Immobiliendetails"
+         ],
+         "VALUEADDEDREASONTOOLTIP": [
+            "Geben Sie den Hauptgrund oder den Faktor an, der / die die Anlagekategorie dieser Eigenschaft zu einem Value Add macht"
+         ],
+         "RISKRETURNCATEGORYTOOLTIP": [
+            "Geben Sie die Anlagekategorie der Immobilie an, die den Anlegern bei der Entscheidungsfindung hilft. Kern: Hierbei handelt es sich um eine nicht fremdfinanzierte, risikoarme Anlage mit niedrigem Potenzial und vorhersehbaren Cashflows. Core Plus: Dies ist eine Anlage mit mittlerem Risiko und moderater Rendite, die Verbesserungen erforderlich machen kann oder auch nicht. Value Added: Dies ist eine Anlage mit mittlerem bis hohem Risiko und mittlerer bis hoher Rendite, die Verbesserungen oder Kapitalzufl?sse oder andere ?nderungen erfordert. Entwicklungschance: Dies ist eine Investition mit hohem Risiko und hoher Rendite, die ein hohes Ma? an Verbesserung oder andere Risiken erfordert."
+         ],
+         "DISTRESSEDTOOLTIP": [
+            "Geben Sie an, ob diese Eigenschaft besch?digt ist, und geben Sie den entsprechenden Status an"
+         ],
+         "PROPERTYNAMETOOLTIP": [
+            "Geben Sie einen eindeutigen Namen f?r die Eigenschaft an, damit andere Benutzer sie problemlos identifizieren k?nnen"
+         ],
+         "AREATOOLTIP": [
+            "Geben Sie die Fl?che der Immobilie an. Wenn Sie eine Menge oder eine Baueinheit auflisten, dann sollte dies der Bereich der aufgelisteten Menge oder Einheit sein"
+         ],
+         "LOTAREATOOLTIP": [
+            "Geben Sie die gesamte Grundst?cksfl?che der Immobilie an"
+         ],
+         "ENDDATETOOLTIP": [
+            "Geben Sie das Datum an, bis zu dem Ihr Listing aktiv sein soll"
+         ],
+         "CONTACTACTIONSTOOLTIP": [
+            "Stellen Sie Ihre bevorzugte Kontaktart bereit. Wenn Sie alle m?glichen Kontaktoptionen aktivieren, k?nnen andere Sie leichter erreichen"
+         ],
+         "SELFOWNEDTOOLTIP": [
+            "Geben Sie die Eigentumsdetails f?r dieses Listing an. Wenn diese Liste nicht Ihr Eigentum ist, geben Sie die Eigent?merinformationen an"
+         ],
+         "AVAILABLEDATETOOLTIP": [
+            "Geben Sie das Datum an, ab dem die Immobilie zur Verf?gung steht"
+         ],
+         "DISCLOSEADDRESSTOOLTIP": [
+            "Geben Sie an, ob Sie die Adresse f?r diese Eigenschaft angeben oder ausblenden m?chten"
+         ],
+         "DISCLOSEPRICETOOLTIP": [
+            "Geben Sie an, ob Sie den Preis f?r dieses Angebot anzeigen oder ausblenden m?chten"
+         ],
+         "CAPRATEKNOWNTOOLTIP": [
+            "Wenn Sie die Cap-Rate der aufgelisteten Property oder Unit kennen, k?nnen Sie sie direkt eingeben. Wenn nicht, k?nnen wir Ihnen bei der Berechnung der Cap-Rate helfen."
+         ],
+         "CAPRATETYPETOOLTIP": [
+            "Geben Sie an, ob der Cap-Satz auf tats?chlichen oder prognostizierten Einnahmen basiert"
+         ],
+         "COMMISSIONSPLITTOOLTIP": [
+            "Stellen Sie den K?uferprovisionsprozentsatz bereit"
+         ],
+         "COMMISSIONPERCENTAGETOOLTIP": [
+            "Geben Sie den Provisionsprozentsatz an, den der K?ufer zahlen m?sste"
+         ],
+         "COMMISSIONAMOUNTTOOLTIP": [
+            "Geben Sie den Provisionsbetrag an, den der K?ufer zahlen m?sste"
+         ],
+         "SPECIFICATIONSTOOLTIP": [
+            "Geben Sie Geb?udeeigenschaften einschlie?lich Details ?ber das Fundament, verwendete Baumaterialien, Ende, Befestigungen und Einrichtungsgegenst?nde an"
+         ],
+         "PRIMARYIDENTIFIERTOOLTIP": [
+            "Geben Sie den APN oder die Paket-ID an. Dies ist entscheidend f?r die Bewertung der Immobilie f?r Kaufentscheidungen."
+         ],
+         "HIGHLIGHTSTOOLTIP": [
+            "Geben Sie wichtige Highlights Ihrer Immobilie an, z. B. Ausrichtung, Bel?ftung usw."
+         ],
+         "MINDIVISIBLEAREATOOLTIP": [
+            "Stellen Sie die kleinste erlaubte Fl?che in der Abteilung dieses Loses zur Verf?gung"
+         ],
+         "MAXDIVISIBLEAREATOOLTIP": [
+            "Stellen Sie die gr??te erlaubte Fl?che in der Abteilung dieses Loses zur Verf?gung"
+         ],
+         "MAXCONTIGUOUSAREATOOLTIP": [
+            "Stellen Sie den gr??ten zusammenh?ngenden Bereich zur Verf?gung, der in der Abteilung dieses Loses erlaubt ist"
+         ],
+         "FIXTURESTOOLTIP": [
+            "Geben Sie die Details zu jedem in Ihrem Ger?t verf?gbaren Ger?t oder Ger?t an"
+         ],
+         "PROPERTYNAMEREQUIRED": [
+            "Eigenschaftsname ist erforderlich"
+         ],
+         "PROPERTYSUBTYPEREQUIRED": [
+            "Eigenschaftstyp ist erforderlich"
+         ],
+         "PROPERTYTYPEREQUIRED": [
+            "Kategorie ist erforderlich"
+         ],
+         "LINEONEREQUIRED": [
+            "Adresse ist erforderlich"
+         ],
+         "CITYREQUIRED": [
+            "Stadt ist erforderlich"
+         ],
+         "ZIPCODEREQUIRED": [
+            "Postleitzahl ist erforderlich"
+         ],
+         "LOCALITYREQUIRED": [
+            "Ort ist erforderlich"
+         ],
+         "TITLEREQUIRED": [
+            "Listing Titel ist erforderlich"
+         ],
+         "LISTINGAREAREAMISSING": [
+            "Bereich ist erforderlich"
+         ],
+         "PROPERTYLISTINGTYPEREQUIRED": [
+            "Listing Type ist erforderlich"
+         ],
+         "STARTTIMEMISSING": [
+            "Startzeit ist erforderlich"
+         ],
+         "ENDTIMEMISSING": [
+            "Endzeit ist erforderlich"
+         ],
+         "ENDTIMEINVALID": [
+            "Die Endzeit darf nicht kleiner oder gleich der Startzeit sein"
+         ],
+         "OPENHOUSEENDDATEMINVALUE": [
+            "Tag der offenen T?r darf nicht fr?her sein als"
+         ],
+         "ENDDATEMINVALUE": [
+            "Das Ablaufdatum der Liste darf nicht vor dem Datum liegen"
+         ],
+         "ENDDATEMAXVALUE": [
+            "Das Ablaufdatum der Liste darf nicht gr??er als sein"
+         ],
+         "ENDDATEREQUIRED": [
+            "Das Ablaufdatum der Liste ist erforderlich"
+         ],
+         "DISCLOSEADDRESSREQUIRED": [
+            "Disclose-Adresse ist erforderlich"
+         ],
+         "DISCLOSEPRICEREQUIRED": [
+            "Disclose Preis ist erforderlich"
+         ],
+         "SALEPRICEREQUIRED": [
+            "Verkaufspreis ist erforderlich"
+         ],
+         "LEASEPRICEREQUIRED": [
+            "Mietbetrag ist erforderlich"
+         ],
+         "PROPERTYLISTINGMISSING": [
+            "Eigenschaftsliste ist erforderlich"
+         ],
+         "PROPERTYMISSING": [
+            "Eigentum ist erforderlich"
+         ],
+         "SALEPRICEMISSING": [
+            "Verkaufspreis ist erforderlich"
+         ],
+         "SALEPRICEINVALID": [
+            "Verkaufspreis ist ung?ltig"
+         ],
+         "COMMISSIONSPLITINVALID": [
+            "K?uferagent-Kommission ist ung?ltig"
+         ],
+         "SALECOMMISSIONINVALID": [
+            "Provision in Prozent ist ung?ltig"
+         ],
+         "LEASEPRICEMISSING": [
+            "Mietpreis ist erforderlich"
+         ],
+         "LEASEPRICEINVALID": [
+            "Mietpreis ist ung?ltig"
+         ],
+         "LEASEDEPOSITINVALID": [
+            "Einzahlungsbetrag ist ung?ltig"
+         ],
+         "LEASETERMINVALID": [
+            "Mietvertrag ist ung?ltig"
+         ],
+         "LEASEMAINTENANCECHARGESINVALID": [
+            "Die monatlichen Wartungsgeb?hren sind ung?ltig"
+         ],
+         "LEASECOMMISSIONINVALID": [
+            "Provisionsbetrag ist ung?ltig"
+         ],
+         "NUMBEROFBEDSREQUIRED": [
+            "Anzahl der Betten ist erforderlich"
+         ],
+         "NUMBEROFSEATSREQUIRED": [
+            "Anzahl der Sitze ist erforderlich"
+         ],
+         "NUMBEROFBEDROOMSREQUIRED": [
+            "Anzahl der Schlafzimmer ist erforderlich"
+         ],
+         "LISITNGAREAREQUIRED": [
+            "Bereich ist erforderlich"
+         ],
+         "ENDDATEMISSING": [
+            "Ablaufdatum ist erforderlich"
+         ],
+         "OTHERSUBTYPEINVALID": [
+            "Ung?ltiger anderer Eigenschaftsuntertyp"
+         ],
+         "SUBTYPEMISSING": [
+            "Eigenschaftstyp ist erforderlich"
+         ],
+         "LISTINGTITLEMISSING": [
+            "Listing Titel ist erforderlich"
+         ],
+         "LISTINGSALETYPEMISSING": [
+            "Gepostet von ist erforderlich"
+         ],
+         "LISTINGTYPEMISSING": [
+            "Listing Type ist erforderlich"
+         ],
+         "TYPEMISSING": [
+            "Kategorie ist erforderlich"
+         ],
+         "LEASETERMREQUIRED": [
+            "Mietvertrag ist erforderlich"
+         ],
+         "LEASETYPEREQUIRED": [
+            "Lease-Typ ist erforderlich"
+         ],
+         "LEASEAMOUNTREQUIRED": [
+            "Mietbetrag ist erforderlich"
+         ],
+         "DISTRESSEDSTATUSREQUIRED": [
+            "Distressed Status ist erforderlich"
+         ],
+         "CREATEPROPERTY": [
+            "Geben Sie Immobilieninformationen an"
+         ],
+         "CONFIRMADDRESS": [
+            "Best?tigen Sie die Adresse Ihrer Immobilie"
+         ],
+         "MOVEMAP": [
+            "Verschieben oder ziehen Sie die Karte, um nach Eigenschaften zu suchen"
+         ],
+         "BACKTOPROPERTY": [
+            "Vorheriger Schritt"
+         ],
+         "NOIMAGESUPLOADED": [
+            "Keine Dateien hochgeladen f?r"
+         ],
+         "PREVIEWSELECTEDDOCUMENTS": [
+            "Ausgew?hlte Dokumente"
+         ],
+         "PREVIEWSELECTEDIMAGES": [
+            "Vorschau ausgew?hlter Fotos"
+         ],
+         "CURRENTDEFAULT": [
+            "Standardfoto"
+         ],
+         "SETASDEFAULT": [
+            "Als Standard einstellen"
+         ],
+         "CONFIRMPROPERTY": [
+            "W?hlen Sie diesen Standort"
+         ],
+         "NEXTTOFINANCIAL": [
+            "N?chster Schritt"
+         ],
+         "NEXTTOADDITIONAL": [
+            "N?chster Schritt"
+         ],
+         "BACKTOADDITIONAL": [
+            "Vorheriger Schritt"
+         ],
+         "NEXTTOCREATEPROPERTY": [
+            "N?chster Schritt"
+         ],
+         "BACKTOADDRESS": [
+            "Vorheriger Schritt"
+         ],
+         "ADDLEASERENEWALOPTIONS": [
+            "F?gen Sie eine Leasingverl?ngerungsoption hinzu"
+         ],
+         "ADDHIGHLIGHTS": [
+            "F?gen Sie ein weiteres Highlight hinzu"
+         ],
+         "POSTONLINE": [
+            "Beitrag online ver?ffentlichen"
+         ],
+         "NEXTTOPROPERTY": [
+            "N?chster Schritt"
+         ],
+         "NEXTTOPHOTOS": [
+            "N?chster Schritt"
+         ],
+         "BACKTOFINANCIAL": [
+            "Vorheriger Schritt"
+         ],
+         "SELECTEDBUILDINGUNIT": [
+            "Beschreibe deine Einheit"
+         ],
+         "PROPERTYBUILDINGDETAILS": [
+            "Beschreibe dein Geb?ude"
+         ],
+         "APARTMENTDETAILS": [
+            "Beschreibe deine Wohngemeinschaft"
+         ],
+         "PROPERTYLOTDETAILS": [
+            "Beschreibe dein Los"
+         ],
+         "ENTERHIGHLIGHTS": [
+            "Geben Sie Eigenschaften-Highlights ein"
+         ],
+         "ADDFIXTURES": [
+            "F?gen Sie ein Fixture hinzu"
+         ],
+         "ENTERFIXTURES": [
+            "Geben Sie Fixture Details ein"
+         ],
+         "ADDSPECIFICATIONS": [
+            "F?gen Sie ein Feature hinzu"
+         ],
+         "ENTERSPECIFICATIONS": [
+            "Funktionen eingeben"
+         ],
+         "ADDROOMS": [
+            "F?gen Sie einen Raum hinzu"
+         ],
+         "HOTELROOMDETAILS": [
+            "Beschreibe dein Zimmer"
+         ],
+         "LOTDETAILSCOLLAPSIBLE": [
+            "Lot-Informationen (Ich listet ein bestimmtes Lot auf)"
+         ],
+         "SELECTEDLOT": [
+            "Beschreibe dein Los"
+         ],
+         "MAXNOOFFILES": [
+            "Sie k?nnen bis zu 10 Dateien hochladen"
+         ],
+         "UPLOADNOW": [
+            "Jetzt hochladen"
+         ],
+         "SELECTFILESTOUPLOAD": [
+            "Dateien durchsuchen"
+         ],
+         "MINIMUM4IMAGESREQUIRED": [
+            "F?gen Sie mindestens 4 Fotos hinzu"
+         ],
+         "LISTINGUPDATED": [
+            "Listing aktualisiert ..."
+         ],
+         "LISTINGUPDATEFAILED": [
+            "Die Liste konnte nicht aktualisiert werden. Bitte versuche es sp?ter erneut."
+         ],
+         "VIDEOTITLEPLACEHOLDER": [
+            "Geben Sie Ihren Videotitel ein"
+         ],
+         "VIDEOURLPLACEHOLDER": [
+            "Geben Sie Ihre Video-URL ein oder f?gen Sie sie ein"
+         ],
+         "ASKINGPRICEPRICEREQUIRED": [
+            "Geben Sie den Verkaufspreis ein"
+         ],
+         "ISRENTALPROPERTYTOOLTIP": [
+            "Geben Sie an, ob diese Immobilieneinheit vermietet ist, und geben Sie die entsprechenden Finanzinformationen an"
+         ],
+         "ISRENTALPROPERTY": [
+            "Ist diese Einheit vermietet?"
+         ],
+         "RENTALAMOUNTREQUIRED": [
+            "Mietbetrag ist erforderlich"
+         ],
+         "CONSTRUCTIONSTATUSYEARBUILTINVALID ": [
+            "Die Kombination aus Konstruktionsstatus und Jahr ist ung?ltig."
+         ],
+         "ISREALTOR": [
+            "Ich bin ein Immobilienfachmann"
+         ],
+         "PROFILEPICTURE": [
+            "Profilfoto"
+         ],
+         "ADDPROFILEPIC": [
+            "F?ge ein Profilfoto hinzu"
+         ],
+         "UPDATEPROFILEPIC": [
+            "Profilfoto ?ndern"
+         ],
+         "YOUHAVENOCOMPANIESTITLE": [
+            "Sie sind derzeit keinem Unternehmen zugeordnet"
+         ],
+         "YOUHAVENOCOMPANIESMESSAGE": [
+            "Klicken Sie auf den Button, um eine neue Firma zu registrieren"
+         ],
+         "YOUHAVENOLISTINGSTITLE": [
+            "Sie haben keine Eigenschaften aufgelistet"
+         ],
+         "YOUHAVENOLISTINGSMESSAGE": [
+            "Klicken Sie auf den Button, um eine Immobilie aufzulisten"
+         ],
+         "CONFIRMPASSWORDERROR": [
+            "Passw?rter stimmen nicht ?berein. Bitte erneut versuchen."
+         ],
+         "PASSWORDCHANGESUCCESS": [
+            "Passwort ge?ndert?"
+         ],
+         "PREFERENCESSAVESUCCESS": [
+            "Einstellungen gespeichert ..."
+         ],
+         "PROFILESAVESUCCESS": [
+            "Profil gespeichert?"
+         ],
+         "MYWISHLIST": [
+            "Meine Beobachtungsliste"
+         ],
+         "REMOVEFROMWISHLIST": [
+            "Aus meiner Beobachtungsliste entfernen"
+         ],
+         "PHONENUMBERVIEWED": [
+            "Senden Sie mir eine E-Mail-Benachrichtigung, wenn jemand meine Telefonnummer anschaut"
+         ],
+         "CHATINITIATED": [
+            "Senden Sie mir eine E-Mail-Benachrichtigung, wenn jemand eine Chat-Unterhaltung mit mir initiiert"
+         ],
+         "RSVPSENT": [
+            "Senden Sie mir eine E-Mail-Benachrichtigung, wenn jemand ein RSVP f?r mein Open House sendet"
+         ],
+         "SAVEDSEARCHMATCH": [
+            "Senden Sie mir eine E-Mail-Benachrichtigung, wenn neue Eintr?ge gepostet werden, die meinen gespeicherten Suchkriterien entsprechen"
+         ],
+         "LISTINGCREATED": [
+            "Senden Sie mir eine E-Mail-Benachrichtigung, wenn jemand eine Immobilie in meiner Umgebung anzeigt"
+         ],
+         "ENTERSAVEDSEARCHNOTIFICATIONDAYS": [
+            "Geben Sie Anzahl der Tage ein"
+         ],
+         "SAVEDSEARCHNOTIFICATIONDAYS": [
+            "Tage, nach denen wir aufh?ren sollten, Ihnen Match-Benachrichtigungen zu senden"
+         ],
+         "SAVEDON": [
+            "Gespeichert auf"
+         ],
+         "YOUHAVENOWISHLISTTITLE": [
+            "Sie haben keine Eintr?ge in Ihrer Beobachtungsliste"
+         ],
+         "YOUHAVENOWISHLISTMESSAGE": [
+            "Klicken Sie in der Anzeige "
+         ],
+         "YOUHAVENOSEARCHESTITLE": [
+            "Sie haben keine gespeicherten Suchen"
+         ],
+         "YOUHAVENOSEARCHESMESSAGE": [
+            "Klicken Sie in den Ergebnissen der Eigenschaftensuche auf die Schaltfl?che Suche speichern, um sie f?r die zuk?nftige Verwendung zu speichern"
+         ],
+         "YOUHAVENONOTIFTITLE": [
+            "Sie haben keine Kontakte"
+         ],
+         "YOUHAVENONOTIFMESSAGE": [
+            "Wann immer Sie jemanden kontaktieren oder wenn jemand Sie kontaktiert, sind Ihre Kontakte hier sichtbar"
+         ],
+         "ADDEDTOWISHLIST": [
+            "Zur Beobachtungsliste hinzugef?gt"
+         ],
+         "ADDTOWISHLIST": [
+            "Auf die Beobachtungsliste"
+         ],
+         "STATUSMESSAGE": [
+            "Statusnachricht"
+         ],
+         "ENRICHYOURPROFILEMSG": [
+            "Bitte bereichern Sie Ihr Profil, um Ihre Sichtbarkeit f?r potenzielle Investoren zu verbessern."
+         ],
+         "LICENSEREQUIRED": [
+            "Geben Sie die Lizenznummer ein"
+         ],
+         "CURRENTPASSWORD": [
+            "Aktuelles Passwort"
+         ],
+         "NEWPASSWORD": [
+            "Neues Kennwort"
+         ],
+         "CONFIRMPASSWORD": [
+            "Best?tige das Passwort"
+         ],
+         "ENTERNAME": [
+            "Name eingeben"
+         ],
+         "ENTERMOBILE": [
+            "Mobil eingeben"
+         ],
+         "NOTAMEMBER": [
+            "Kein Mitglied ?"
+         ],
+         "EMAILPHONE": [
+            "E-Mail oder Handynummer"
+         ],
+         "MEMBERLOGIN": [
+            "Login f?r Mitglieder"
+         ],
+         "CREATEYOURACCOUNT": [
+            "Erstelle deinen Account"
+         ],
+         "MEMBER": [
+            "Mitglied"
+         ],
+         "CHANGEPASSWORD": [
+            "Passwort ?ndern"
+         ],
+         "CHANGEPASSWORDDESCRIPTION": [
+            "Geben Sie Ihr neues Passwort ein"
+         ],
+         "ADDWEBSITES": [
+            "F?gen Sie eine Website hinzu"
+         ],
+         "USERSREGISTRATIONINFOSCHEMATITLE": [
+            "Melde dich als Mitglied an"
+         ],
+         "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE": [
+            "Melden Sie sich als Dienstanbieter oder Professional an"
+         ],
+         "REALTORSREGISTRATIONINFOSCHEMATITLE": [
+            "Melden Sie sich als Makler / Makler an"
+         ],
+         "COMPANYREGISTRATIONINFOSCHEMATITLE": [
+            "Registrieren Sie Ihr Unternehmen auf unserer Website"
+         ],
+         "VERIFYOTPHEADING": [
+            "?berpr?fen Sie OTP"
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE1": [
+            "Ihr Konto wurde aufgrund zu vieler falscher Passwortversuche gesperrt. Sicherheitscode erneut senden ..."
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE2": [
+            "Geben Sie das OTP an, das an Ihre E-Mail gesendet wurde"
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE1": [
+            "Wir stellen fest, dass Sie den Anmeldevorgang w?hrend Ihres letzten Besuchs nicht abgeschlossen haben. Sicherheitscode erneut senden ..."
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE2": [
+            "Geben Sie das OTP an, das an Ihre E-Mail gesendet wurde"
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE1": [
+            "Wir stellen fest, dass Sie den Anmeldevorgang w?hrend Ihres letzten Besuchs nicht abgeschlossen haben. Sicherheitscode erneut senden ..."
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE2": [
+            "Geben Sie das OTP an, das an Ihre E-Mail gesendet wurde"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE1": [
+            "Wir m?ssen feststellen, dass diese Email-ID Ihnen geh?rt"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE2": [
+            "Geben Sie das OTP an, das an Ihre E-Mail gesendet wurde"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE1": [
+            "Wir m?ssen Ihre E-Mail-ID best?tigen, um Ihr Passwort zur?cksetzen zu k?nnen"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE2": [
+            "Geben Sie das OTP an, das an Ihre E-Mail gesendet wurde"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE2": [
+            "Geben Sie das OTP an, das an Ihre E-Mail gesendet wurde"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE1": [
+            "Wir m?ssen feststellen, dass diese Email-ID Ihnen geh?rt"
+         ],
+         "REGISTRATIONHEADING": [
+            "Anmelden"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE1": [
+            "Geben Sie Ihre Identifikation an"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE2": [
+            "Ihre Daten werden zur Identifizierung Ihrer Person verwendet und niemals an Dritte weitergegeben"
+         ],
+         "LOGINDESCRIPTIONLINE1": [
+            "Geben Sie Ihre E-Mail-ID an"
+         ],
+         "LOGINDESCRIPTIONLINE2": [
+            "Sie werden aufgefordert, Ihre Anmeldedaten f?r Passwort oder Anmeldedaten einzugeben"
+         ],
+         "PASSWORDHEADING": [
+            "Sicherheitskontrolle"
+         ],
+         "PASSWORDDESCRIPTIONLINE1": [
+            "Geben Sie Ihr Passwort ein"
+         ],
+         "PASSWORDDESCRIPTIONLINE2": [
+            "Sie erscheinen als Online und k?nnen sich sofort mit anderen verbinden, die auch online sind"
+         ],
+         "FORGOTPASSWORDHEADING": [
+            "Passwort festlegen"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE1": [
+            "Geben Sie ein Passwort f?r die zuk?nftige Anmeldung auf unserer Website ein"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE2": [
+            "Sie k?nnen ein Passwort ausw?hlen, das stark und leicht zu merken ist"
+         ],
+         "STATUSMESSAGETOOLTIP": [
+            "Geben Sie eine kurze Nachricht an, die auf Ihrer Kontaktkarte angezeigt wird"
+         ],
+         "AREASSERVEDTOOLTIP": [
+            "Geben Sie die Liste der Bereiche oder Orte an, die von Ihnen bedient werden. Stellen Sie sicher, dass Sie auch die benachbarten Bereiche einbeziehen, da dies Ihre Sichtbarkeit verbessert"
+         ],
+         "PROFESSIONSTOOLTIP": [
+            "W?hlen Sie die Art der von Ihnen angebotenen Dienstleistungen"
+         ],
+         "EXPERTISETOOLTIP": [
+            "Stellen Sie Ihre prim?ren Fachgebiete und Spezialgebiete zur Verf?gung"
+         ],
+         "SPECIALTIESTOOLTIP": [
+            "W?hlen Sie Ihre passenden Immobilienspezialit?ten"
+         ],
+         "BROKERAGEFIRMCOMPLETETOOLTIP": [
+            "Ihre Maklerfirma ist m?glicherweise bereits bei uns registriert. Suchen Sie unsere Daten mit Ihrem Firmennamen. Wenn nicht gefunden, k?nnen Sie Ihre Firma immer hier registrieren."
+         ],
+         "COMPANYCOMPLETETOOLTIP": [
+            "Ihr Unternehmen ist m?glicherweise bereits bei uns registriert. Suchen Sie unsere Daten mit Ihrem Firmennamen. Wenn nicht gefunden, k?nnen Sie Ihre Firma immer hier registrieren."
+         ],
+         "HAVECOMPANYTOOLTIP": [
+            "Wenn Sie mit einem Unternehmen verbunden sind, k?nnen Sie davon profitieren, indem Sie hier Ihre Unternehmensinformationen angeben"
+         ],
+         "HAVECOMPANY": [
+            "Verbunden mit einer Firma?"
+         ],
+         "BROKERAGEFIRMCOMPLETE": [
+            "Geben Sie den Namen Ihrer Brokerage-Firma ein"
+         ],
+         "COMPANYCOMPLETE": [
+            "Geben Sie Ihren Firmennamen ein"
+         ],
+         "ADDCOMPANYCOLLAPSIBLE": [
+            "Deine Firma nicht gefunden?"
+         ],
+         "AREAREQUIRED": [
+            "Mindestens eine Area Served ist erforderlich"
+         ],
+         "COMPANYNAMEREQUIRED": [
+            "Firmenname ist erforderlich"
+         ],
+         "CONTACTNUMBERTYPEREQUIRED": [
+            "Kontaktnummer Typ ist erforderlich"
+         ],
+         "CONTACTNUMBERREQUIRED": [
+            "Kontaktnummer ist erforderlich"
+         ],
+         "NAMEREQUIRED": [
+            "Name ist erforderlich"
+         ],
+         "MOBILENUMBERREQUIRED": [
+            "Mobilfunknummer ist erforderlich"
+         ],
+         "PASSWORDREQUIRED": [
+            "Passwort wird ben?tigt"
+         ],
+         "REALTORINVALID": [
+            "Grundst?cksmakler / Makler ist ung?ltig"
+         ],
+         "AREASMISSING": [
+            "Ben?tigte Bereiche sind erforderlich"
+         ],
+         "REALTORSINCEINVALID": [
+            "Professional Da ist ung?ltig"
+         ],
+         "SPECIALTIESINVALID": [
+            "Spezialit?t ist ung?ltig"
+         ],
+         "CONTACTACTIONSMISSING": [
+            "Mindestens eine bevorzugte Kontaktoption ist erforderlich"
+         ],
+         "CONTACTACTIONINVALID": [
+            "Die bevorzugte Kontaktoption ist ung?ltig"
+         ],
+         "PROFESSIONALINVALID": [
+            "Professional ist ung?ltig"
+         ],
+         "PROFESSIONSMISSING": [
+            "Mindestens ein Beruf ist erforderlich"
+         ],
+         "MOBILEOREMAILMANDATORY": [
+            "Mindestens eine der E-Mail- oder Mobiltelefonnummern ist obligatorisch"
+         ],
+         "MOBILEOREMAILACTIONANYONENEEDED": [
+            "Mindestens eine der E-Mail- oder Telefonnummern sollte als bevorzugte Kontaktoption festgelegt werden"
+         ],
+         "EXPIRED_PASSWORD": [
+            "Dein Passwort ist abgelaufen. Bitte setze es zur?ck."
+         ],
+         "EMPTY_PASSWORD": [
+            "Das Passwort ist leer"
+         ],
+         "USER_UNVERIFIED": [
+            "Bitte best?tigen Sie Ihr OTP, um fortzufahren"
+         ],
+         "USER_ACCOUNT_DISABLED": [
+            "Dein Account ist deaktiviert. Bitte kontaktieren Sie unseren Systemadministrator"
+         ],
+         "USER_ACCOUNT_LOCKED": [
+            "Dein Konto ist gesperrt. Bitte setzen Sie ihr Passwort zur?ck"
+         ],
+         "USER_MOBILE_EXIST": [
+            "Die von Ihnen angegebene Handynummer ist bereits in unserem System registriert. Bitte versuchen Sie es mit einer anderen Handynummer"
+         ],
+         "USER_EMAIL_EXIST": [
+            "Die von Ihnen angegebene E-Mail-ID ist bereits in unserem System registriert. Bitte versuchen Sie eine andere E-Mail-ID"
+         ],
+         "USER_EMAIL_MOBILE_EXIST": [
+            "Die von Ihnen angegebene E-Mail- und Mobiltelefonnummer ist bereits in unserem System registriert. Bitte versuchen Sie es mit einer anderen E-Mail- oder Handynummer"
+         ],
+         "TOKEN_NOT_FOUND": [
+            "OTP ist ung?ltig. Bitte versuche es erneut"
+         ],
+         "TOKEN_EXPIRED": [
+            "Ihr OTP ist abgelaufen. Bitte erzeuge ein neues OTP"
+         ],
+         "TOKEN_NOT_MATCHING": [
+            "OTP ist ung?ltig. Bitte versuche es erneut"
+         ],
+         "OLD_PASSWORD_NOT_SAME": [
+            "Altes Passwort ist ung?ltig"
+         ],
+         "BAD_CREDENTIALS": [
+            "Benutzername oder Passwort ist ung?ltig"
+         ],
+         "INVALID_USERNAME": [
+            "Benutzername oder Passwort ist ung?ltig"
+         ],
+         "INVALID_USERID": [
+            "Benutzername oder Passwort ist ung?ltig"
+         ],
+         "USER_NOT_FOUND": [
+            "Benutzername oder Passwort ist ung?ltig"
+         ],
+         "BROKERAGE_FIRM_EXIST": [
+            "Eine andere Maklerfirma mit dem gleichen Namen existiert"
+         ],
+         "COMPANY_EXIST": [
+            "Eine andere Firma mit demselben Namen existiert"
+         ],
+         "BROKERAGE_FIRM_NOT_EXIST": [
+            "Maklerfirma existiert nicht"
+         ],
+         "COMPANY_NOT_EXIST": [
+            "Firma existiert nicht"
+         ],
+         "COMPANYINVALID": [
+            "Firma ist ung?ltig"
+         ],
+         "ADDOTHERCONTACTNUMBERS": [
+            "F?gen Sie eine Kontaktnummer hinzu"
+         ],
+         "ENTERAREA": [
+            "Geben Sie Bereiche ein, die von Ihnen bereitgestellt werden"
+         ],
+         "ADDAREASSERVED": [
+            "F?gen Sie einen Bereich hinzu, der bedient wird"
+         ],
+         "ENTEREXPERTISE": [
+            "Geben Sie Ihre Fachgebiete ein"
+         ],
+         "ADDEXPERTISE": [
+            "F?gen Sie einen Fachbereich hinzu"
+         ],
+         "REGISTERCOMPANY": [
+            "Registrieren Sie meine Firma"
+         ],
+         "ROLETYPE": [
+            "Ich bin ein"
+         ],
+         "ROLE_CUSTOMER": [
+            "Immobilieninvestor"
+         ],
+         "ROLE_REALTOR": [
+            "Makler"
+         ],
+         "ROLE_PROFESSIONAL": [
+            "Immobilien-Dienstleister"
+         ],
+         "ENTEROTP": [
+            "Geben Sie den Sicherheitscode ein, der an Ihre E-Mail gesendet wurde"
+         ],
+         "USEREMAIL_EXIST": [
+            "Ein Benutzer mit dieser E-Mail-ID existiert bereits. Bitte verwenden Sie eine alternative E-Mail-ID."
+         ],
+         "ROLETYPETOOLTIP": [
+            "Melden Sie sich als Immobilieninvestor an, wenn Sie ein Investor oder Immobilienbesitzer sind. Wenn Sie Makler / Makler oder Dienstleister / Professional sind und die Immobilienbranche betreuen, werden Sie um zus?tzliche Informationen gebeten."
+         ],
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": ""
+         }
+      }
+   }
+}

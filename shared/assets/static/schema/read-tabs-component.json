@@ -1,0 +1,187 @@
+{
+  "schemas" : [
+    {
+      "label": "",
+      "conditionaliseElement": "",
+      "data": {
+        "optionReference": "ListingMediaType",
+        "value" : "1"
+      },
+      "subtype": "list-tabs-read-content",
+      "type": "list",
+      "id": "testid",
+      "tabs": [
+        {
+          "type": "list",
+          "tabValue": "1",
+          "id": "1",
+          "children": [
+            {
+              "label": "",
+              "type": "custom-carousel",
+              "data" :{
+                "mediaType" : "photos",
+                "dataSet" : [
+                  {
+                    "uri": "https://image.propshub.com/NTREIS/13810027/1?lm=20180404T135555",
+                    "thumbnailUri": "https://image.propshub.com/NTREIS/13810027/1?lm=20180404T135555",
+                    "primary": false,
+                    "removeFromStorage": false
+                  },
+                  {
+                    "uri": "https://image.propshub.com/NTREIS/13810027/6?lm=20180404T135555",
+                    "thumbnailUri": "https://image.propshub.com/NTREIS/13810027/6?lm=20180404T135555",
+                    "primary": false,
+                    "removeFromStorage": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "tabValue": "2",
+          "id" : "2",
+          "children": [
+            {
+              "label": "",
+              "type": "custom-carousel",
+              "data" :{
+                "mediaType" : "videos",
+                "dataSet" : [
+                  {
+                    "title": "test 2",
+                    "uri": "https://www.youtube.com/embed/mz2VKDNKYsY?showinfo=0",
+                    "primary": false,
+                    "removeFromStorage": false
+                  },
+                  {
+                    "title": "test1",
+                    "uri": "https://www.youtube.com/embed/zb0rLKxXL8s?showinfo=0",
+                    "primary": false,
+                    "removeFromStorage": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "tabValue": "3",
+          "id" : "3",
+          "children": [
+            {
+              "label": "",
+              "type": "custom-carousel",
+              "data" :{
+                "mediaType" : "documents",
+                "dataSet" : [
+                  {
+                    "title": "responsenew.pdf",
+                    "uri": "propshub/244711/634bde7e0ed14a73a04f60c248541724.pdf",
+                    "primary": false,
+                    "removeFromStorage": false
+                  },
+                  {
+                    "title": "Proforma Invoice - Props Hub - Batch1 - designs.pdf",
+                    "uri": "propshub/244711/5eed328eda734a27b8a073b373fc5872.pdf",
+                    "primary": false,
+                    "removeFromStorage": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "tabValue": "4",
+          "id": "4",
+          "children": [
+            {
+              "label": "",
+              "type": "custom-external-links",
+              "data" :{
+                "dataSet" : [
+                  {
+                    "title": "test2",
+                    "uri": "//www.yahoo.com",
+                    "primary": false,
+                    "removeFromStorage": false
+                  },
+                  {
+                    "title": "test",
+                    "uri": "//www.google.com",
+                    "primary": false,
+                    "removeFromStorage": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "tabValue": "5",
+          "id": "5",
+          "children": [
+            {
+              "label": "",
+              "type": "custom-carousel",
+              "data" :{
+                "mediaType" : "documents",
+                "dataSet" : [
+                  {
+                    "title": "Screen Shot 2018-02-05 at 10.52.33 AM.png",
+                    "uri": "propshub/244711/65ddaa16d9734cd7b5d808c94428ac53.png",
+                    "thumbnailUri": "propshub/244711/thumbnail/65ddaa16d9734cd7b5d808c94428ac53.png",
+                    "primary": false,
+                    "removeFromStorage": false
+                  },
+                  {
+                    "title": "Screen Shot 2018-02-05 at 10.52.08 AM.png",
+                    "uri": "propshub/244711/5fdb16d1bc434f659eb0a80631cb486c.png",
+                    "thumbnailUri": "propshub/244711/thumbnail/5fdb16d1bc434f659eb0a80631cb486c.png",
+                    "primary": false,
+                    "removeFromStorage": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "ListingMediaType",
+        "option": [
+          {
+            "value": "1",
+            "label": "Photos"
+          },
+          {
+            "value": "2",
+            "label": "Videos"
+          },
+          {
+            "value": "3",
+            "label": "Documents"
+          },
+          {
+            "value": "4",
+            "label": "Links"
+          },
+          {
+            "value": "5",
+            "label": "FloorPlans"
+          }
+        ]
+      }
+    ]
+  }
+}

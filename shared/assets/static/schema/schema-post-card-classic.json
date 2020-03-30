@@ -1,0 +1,158 @@
+{
+  "document": {
+    "author": "Propshub Inc",
+    "subject": "listing title",
+    "title": "listing title"
+  },
+  "pages": [
+    {
+      "type": "postcard-page",
+      "children": [
+        {
+          "type": "page-body",
+          "children": [
+            {
+              "type": "multi-column",
+              "children": [
+                {
+                  "type": "hero-left-rail",
+                  "children": [
+                    {
+                      "type": "hero-price-tag",
+                      "children": [
+                        {
+                          "type": "content-text-value",
+                          "data": {
+                            "value": 123456,
+                            "configOptions": {
+                              "handler": "formatCurrency",
+                              "localeCode": "US"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "bed-bath",
+                      "children": [
+                        {
+                          "type": "content-text-value",
+                          "data": {
+                            "value": 3,
+                            "configOptions": {
+                              "postFix": "Bed "
+                            }
+                          }
+                        },
+                        {
+                          "type": "content-text-value",
+                          "data": {
+                            "value": "1234",
+                            "configOptions": {
+                              "handler": "formatNumber",
+                              "postFix": "Sq Ft"
+                            }
+                          },
+                          "translationRequired": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "content-text-value",
+                      "data": {
+                        "value": "Single Family Home"
+                      },
+                      "translationRequired": true
+                    },
+                    {
+                      "type": "open-house",
+                      "children": [
+                        {
+                          "type": "content-text-value",
+                          "data": {
+                            "value": "02/18/2019"
+                          }
+                        },
+                        {
+                          "type": "content-text-value",
+                          "data": {
+                            "value": "08:00 AM"
+                          }
+                        },
+                        {
+                          "type": "content-text-value",
+                          "data": {
+                            "value": "05:00 PM"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "property-highlights",
+                      "children": [
+                        {
+                          "type": "content-text-value-list",
+                          "data": {
+                            "value": [
+                              "Just Sold In Your Neighborhood!"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "hero-main-rail",
+                  "children": [
+                    {
+                      "type": "image-gallery",
+                      "data": {
+                        "medias": [
+                          {
+                            "uri": "propshub/1114713/568b85a8bfd34fb0865b257666e79809.jpg",
+                            "thumbnailUri": "propshub/1114713/thumbnail/568b85a8bfd34fb0865b257666e79809.jpg",
+                            "primary": false,
+                            "removeFromStorage": false
+                          },
+                          {
+                            "uri": "propshub/1114713/1aa2079ab8424cb9b8edca7f8a21a8dc.jpg",
+                            "thumbnailUri": "propshub/1114713/thumbnail/1aa2079ab8424cb9b8edca7f8a21a8dc.jpg",
+                            "primary": false,
+                            "removeFromStorage": false
+                          },
+                          {
+                            "uri": "propshub/1114713/95d80a2c5c104bdea60ae2df189dbb54.jpg",
+                            "thumbnailUri": "propshub/1114713/thumbnail/95d80a2c5c104bdea60ae2df189dbb54.jpg",
+                            "primary": false,
+                            "removeFromStorage": false
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "header": {
+    "listingUrl": "/residential-investments/for-sale/texas/dallas/tx-75201/single-family-home/property-listings/1114713",
+    "title": "2037, Jackson Street, Dallas, TX-75201"
+  },
+  "footer": {
+    "realtor": {
+      "siteurl": "/real-estate-agents-brokers/texas/fort-worth-dallas/residential-investments/test-realtor/realtor/39771",
+      "name": "test realtor",
+      "photo": "propshub/39771/thumbnail/914328d3415840f8b24c3d27896ea0ff.png",
+      "email": "testrealtor@yopmail.com"
+    },
+    "subTitle": "listing title",
+    "listingUrl": "/residential-investments/for-sale/texas/dallas/tx-75201/single-family-home/property-listings/1114713"
+  },
+  "title": "2037, Jackson Street, Dallas, TX-75201"
+}

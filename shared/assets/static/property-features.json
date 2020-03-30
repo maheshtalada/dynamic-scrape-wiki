@@ -1,0 +1,126 @@
+{
+  "utilities" : [
+    {
+      "key" : "ELECTRICITY",
+      "name" : "ELECTRICITY"
+    },
+    {
+      "key" : "TELEPHONE",
+      "name" : "TELEPHONE"
+    },
+    {
+      "key" : "WATER",
+      "name" : "WATER"
+    },
+    {
+      "key" : "GAS",
+      "name" : "GAS"
+    },
+    {
+      "key" : "CABLE",
+      "name" : "CABLE"
+    },
+    {
+      "key" : "WIFI",
+      "name" : "WIFI"
+    },
+    {
+      "key" : "INTERNET",
+      "name" : "INTERNET"
+    },
+    {
+      "key" : "POWERBACKUP",
+      "name" : "POWERBACKUP"
+    },
+    {
+      "key" : "AIRCONDITION",
+      "name" : "AIRCONDITION"
+    },
+    {
+      "key" : "ELEVATORS",
+      "name" : "ELEVATORS"
+    },
+    {
+      "key" : "WASTEDISPOSAL",
+      "name" : "WASTEDISPOSAL"
+    },
+    {
+      "key" : "VIDEOSURVEILLANCE",
+      "name" : "VIDEOSURVEILLANCE"
+    },
+    {
+      "key" : "CAFETERIA",
+      "name" : "CAFETERIA"
+    },
+    {
+      "key" : "SECURITY",
+      "name" : "SECURITY"
+    },
+    {
+      "key" : "OPENSPACES",
+      "name" : "OPENSPACES"
+    },
+    {
+      "key" : "GYM",
+      "name" : "GYM"
+    },
+    {
+      "key" : "CLUBHOUSE",
+      "name" : "CLUBHOUSE"
+    },
+    {
+      "key" : "CHILDCARE",
+      "name" : "CHILDCARE"
+    },
+    {
+      "key" : "CONFERENCEROOM",
+      "name" : "CONFERENCEROOM"
+    },
+    {
+      "key" : "MAINTENANCESTAFF",
+      "name" : "MAINTENANCESTAFF"
+    },
+    {
+      "key" : "SMOKINGZONE",
+      "name" : "SMOKINGZONE"
+    }
+  ],
+  "conditions" : [
+    {
+      "key" : "GRADED",
+      "name" : "GRADED"
+    },
+    {
+      "key" : "PAVED",
+      "name" : "PAVED"
+    },
+    {
+      "key" : "FINISHED",
+      "name" : "FINISHED"
+    },
+    {
+      "key" : "FULLYIMPROVED",
+      "name" : "FULLYIMPROVED"
+    },
+    {
+      "key" : "PLATTEDANDENGINEERED",
+      "name" : "PLATTEDANDENGINEERED"
+    },
+    {
+      "key" : "IMPROVEMENTSUNKNOWN",
+      "name" : "IMPROVEMENTSUNKNOWN"
+    },
+    {
+      "key" : "STRUCTUREPRESENT",
+      "name" : "STRUCTUREPRESENT"
+    },
+    {
+      "key" : "FENCED",
+      "name" : "FENCED"
+    },
+    {
+      "key" : "ENVIRONMENTPROBLEMS",
+      "name" : "ENVIRONMENTPROBLEMS"
+    }
+  ]
+}

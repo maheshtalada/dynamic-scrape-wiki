@@ -1,0 +1,59 @@
+.mobile-search-options {
+    /*margin-bottom: 20px;*/
+	width: 100%;
+    &__option {
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .btn {
+            color: @color-base-primary-green;
+            width: 100%;
+            border-color: @color-base-primary-green;
+            font-size: 1.6rem;
+			padding: 10px;
+        }
+    }
+    .masked__radio {
+        margin: 0;
+        border: 1px solid @grey-600;
+        label {
+            border: none;
+            font-size: 1.6rem;
+            // font-weight: 600;
+            color: @color-base-dark;
+            padding: 4px 7px;
+            display: block;
+            i.tooltip {
+                position: relative;
+                right: 3px;
+                font-size: 1.6rem;
+                font-weight: 600;
+                margin: 3px 0 0 10px;
+                float: right;
+                color: @color-base-primary-green;
+            }    
+        }
+        &__item {
+            flex: none;
+            width: 50%;
+            // width: 100%;
+            // border-bottom: 1px solid @color-base-primary-green;
+            // &:last-child {
+            //     border-bottom: none;
+            // }
+            &:nth-child(1),&:nth-child(3) {
+                border-right: 1px solid @grey-600;
+            }
+            &:nth-child(1),&:nth-child(2) {
+                border-bottom: 1px solid @grey-600;
+            }
+        }
+        input:checked + label {
+            background-color: @color-base-primary-green;
+            i {
+                color: @color-base-white;
+            }
+        }
+    }
+}

@@ -1,0 +1,3613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-10 12:37+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+msgid "MEDIANLEASEPRICEANALYSIS"
+msgstr "ಬೆಲೆ ಹೋಲಿಕೆ ಕೇಳುತ್ತಿದೆ"
+
+msgid "MEDIANSALEPRICEANALYSIS"
+msgstr "ಅಂದಾಜು ಬಾಡಿಗೆ"
+
+msgid "SUBTYPEBEDROOM"
+msgstr "ಇದೇ ಸ್ಕ್ವೇರ್ ಫೂಟೇಜ್ನೊಂದಿಗೆ"
+
+msgid "SUBTYPEAREA"
+msgstr "ಅದೇ ಬೆಡ್ ರೂಮ್ಗಳೊಂದಿಗೆ"
+
+msgid "NON_REFUNDABLE_PET_FEE"
+msgstr "ಮರುಪಾವತಿಸಲಾಗದ ಪೆಟ್ ಶುಲ್ಕ"
+
+msgid "CUMPRINCIPALPAID"
+msgstr "ಸಂಚಿತ ಪ್ರಿನ್ಸಿಪಾಲ್ ಪಾವತಿಸಲಾಗಿದೆ"
+
+msgid "CUMAPPRECIATION"
+msgstr "ಕ್ಯೂಮುಲೇಟಿವ್ ಮೆಚ್ಚುಗೆ"
+
+msgid "CUMCASHFLOW"
+msgstr "ಕ್ಯೂಮುಲೇಟಿವ್ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+
+msgid "SHOWRENTALPROPERTY"
+msgstr "ಬಾಡಿಗೆ ಮಾಡಲಾದ ಘಟಕಗಳು?"
+
+msgid "RENTALPROPERTY"
+msgstr "ಬಾಡಿಗೆ ಘಟಕ"
+
+msgid "MEDIANPRICESTATS"
+msgstr "ಬೆಲೆ ವಿಶ್ಲೇಷಣೆ"
+
+msgid "MEDIANCURRENTPRICE"
+msgstr "ಈ ಆಸ್ತಿ"
+
+msgid "MEDIANLOWPRICE"
+msgstr "ಕಡಿಮೆ"
+
+msgid "MEDIANMARKETPRICE"
+msgstr "ಮಾರುಕಟ್ಟೆ"
+
+msgid "MEDIANHIGHPRICE"
+msgstr "ಹೈ"
+
+msgid "BACK"
+msgstr "ಹಿಂದೆ"
+
+msgid "ACREAGE"
+msgstr "ಎಕರೆ"
+
+msgid "SQUAREFOOTAGE"
+msgstr "ಸ್ಕ್ವೇರ್ ಫೂಟೇಜ್"
+
+msgid "IRRGROUP"
+msgstr "ಮೌಲ್ಯ ಚಾಲಕಗಳು"
+
+msgid "YEAR"
+msgstr "ವರ್ಷ"
+
+msgid "RATEOFRETURN"
+msgstr "ರಿಟರ್ನ್ ದರ"
+
+msgid "INTERNALRATEOFRETURNWITHMORTGAGE"
+msgstr "ನಿಯಂತ್ರಿತ ಆಂತರಿಕ ದರ ರಿಟರ್ನ್"
+
+msgid "INTERNALRATEOFRETURN"
+msgstr "ಆಂತರಿಕ ದರ ರಿಟರ್ನ್"
+
+msgid "PROPERTYANNUALAPPRECIATIONPERCENTAGE"
+msgstr "ವಾರ್ಷಿಕ ಬೆಲೆ ಮೆಚ್ಚುಗೆ"
+
+msgid "RENTINCREMENTPERCENTAGE"
+msgstr "ವಾರ್ಷಿಕ ಬಾಡಿಗೆ ಹೆಚ್ಚಳ"
+
+msgid "SALECLOSINGCOST"
+msgstr "ಮಾರಾಟ ಮುಚ್ಚುವ ವೆಚ್ಚ"
+
+msgid "CALCULATERETURN"
+msgstr "ರಿಟರ್ನ್ಸ್ ವಿಶ್ಲೇಷಿಸಿ"
+
+msgid "INVESTMENTGROUP"
+msgstr "ಅಂದಾಜು ಹೂಡಿಕೆ"
+
+msgid "MORTGAGEGROUP"
+msgstr "ಅಂದಾಜು ಮಾರ್ಟ್ಗೇಜ್"
+
+msgid "INCOMEGROUP"
+msgstr "ಅಂದಾಜು ವಾರ್ಷಿಕ ವರಮಾನ"
+
+msgid "EXPENSEGROUP"
+msgstr "ಅಂದಾಜು ವಾರ್ಷಿಕ ವೆಚ್ಚಗಳು"
+
+msgid "RETURNGROUPWITHOUTMORTGAGE"
+msgstr "ಅಂದಾಜು ರಿಟರ್ನ್ಸ್"
+
+msgid "RETURNGROUPWITHMORTGAGE"
+msgstr "ಅಂದಾಜು ಲೀವೇಜ್ಡ್ ರಿಟರ್ನ್ಸ್"
+
+msgid "ASKINGPRICE"
+msgstr "ಬೆಲೆ ಕೇಳುವುದು"
+
+msgid "CLOSINGCOST"
+msgstr "ಮುಚ್ಚುವ ವೆಚ್ಚ"
+
+msgid "INITIALIMPROVEMENTCOST"
+msgstr "ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚ"
+
+msgid "DOWNPAYMENTPERCENTAGE"
+msgstr "ಪಾವತಿಯ ಶೇಕಡಾವಾರು ಕೆಳಗೆ"
+
+msgid "DOWNPAYMENTCOST"
+msgstr "ಪಾವತಿ ಡೌನ್"
+
+msgid "EMICOST"
+msgstr "ಮಾಸಿಕ ಭೋಗ್ಯ"
+
+msgid "LOANINTERESTRATE"
+msgstr "ಸಾಲ ಬಡ್ಡಿ ದರ"
+
+msgid "LOANDURATION"
+msgstr "ಅಧಿಕಾರಾವಧಿ"
+
+msgid "DEPRECIATIONPERCENTAGE"
+msgstr "ಸವಕಳಿ"
+
+msgid "INITIALINVESTMENTWITHMORTGAGE"
+msgstr "ಆರಂಭಿಕ ಬಂಡವಾಳ"
+
+msgid "INITIALINVESTMENTWITHOUTMORTGAGE"
+msgstr "ಆರಂಭಿಕ ಬಂಡವಾಳ"
+
+msgid "TOTALINVESTMENTCOST"
+msgstr "ವೆಚ್ಚದ ಮೂಲ"
+
+msgid "COSTBASIS"
+msgstr "ಒಟ್ಟು ವೆಚ್ಚದ ಬೇಸಿಸ್"
+
+msgid "ANNUALFREECASHFLOW"
+msgstr "ಉಚಿತ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+
+msgid "ANNUALTAXABLEINCOMEWITHMORTGAGE"
+msgstr "ತೆರಿಗೆ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+
+msgid "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE"
+msgstr "ತೆರಿಗೆ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+
+msgid "TOTALINVESTMENTCOSTWITHMORTGAGE"
+msgstr "ಒಟ್ಟು ಆರಂಭಿಕ ಹೂಡಿಕೆ"
+
+msgid "CASHONCASHRETURNPERCENTAGE"
+msgstr "ನಗದು ರಿಟರ್ನ್ ಮೇಲೆ ನಗದು"
+
+msgid "APPROXCALCVALUENOTE"
+msgstr "ನಿಜವಾದ ಮೌಲ್ಯಗಳು ಬದಲಾಗಬಹುದು"
+
+msgid "ALLPROPERTIES"
+msgstr "ಎಲ್ಲಾ ಗುಣಲಕ್ಷಣಗಳು"
+
+msgid "CURRENTPROPERTY"
+msgstr "ಈ ಆಸ್ತಿ"
+
+msgid "MEDIANSALEPRICEXAXIS"
+msgstr "ಮಧ್ಯದ ಮಾರಾಟದ ಬೆಲೆ (ಯುಎಸ್ಡಿ)"
+
+msgid "MEDIANSALEPRICEYAXIS"
+msgstr "ವರ್ಗ"
+
+msgid "MEDIANLEASEPRICEXAXIS"
+msgstr "ಮಧ್ಯಮ ಬಾಡಿಗೆ"
+
+msgid "MEDIANLEASEPRICEYAXIS"
+msgstr "ವರ್ಗ"
+
+msgid "MEDIANLEASEPRICESTATS"
+msgstr "ಮಧ್ಯಮ ಬೆಲೆ"
+
+msgid "MEDIANSALEPRICESTATS"
+msgstr "ಮಧ್ಯಮ ಬೆಲೆ"
+
+msgid "DAILY"
+msgstr "ಪ್ರತಿ ದಿನಕ್ಕೆ"
+
+msgid "WEEK"
+msgstr "ವಾರಕ್ಕೆ"
+
+msgid "MONTH"
+msgstr "ಪ್ರತಿ ತಿಂಗಳು"
+
+msgid "ANNUALLY"
+msgstr "ವರ್ಷಕ್ಕೆ"
+
+msgid "SCHOOLDISTRICT"
+msgstr "ಸ್ಕೂಲ್ ಡಿಸ್ಟ್ರಿಕ್ಟ್"
+
+msgid "RELIGIOUS_FACILITY"
+msgstr "ಧಾರ್ಮಿಕ ಸೌಲಭ್ಯ"
+
+msgid "GENERATEREPORT"
+msgstr "ಪೂರ್ಣ ಫ್ಲೈಯರ್ ರಚಿಸಿ"
+
+msgid "GENERATEFLYER"
+msgstr "ಫ್ಲೈಯರ್ ರಚಿಸಿ"
+
+msgid "DEPOSITS"
+msgstr "ಠೇವಣಿಗಳು"
+
+msgid "ADDDEPOSITS"
+msgstr "ಠೇವಣಿಗಳನ್ನು ಸೇರಿಸಿ"
+
+msgid "DEPOSITTYPE"
+msgstr "ಠೇವಣಿ ಕೌಟುಂಬಿಕತೆ"
+
+msgid "SECURITY_DEPOSIT"
+msgstr "ಭದ್ರತಾ ಠೇವಣಿ"
+
+msgid "PET_DEPOSIT"
+msgstr "ಪೆಟ್ ಠೇವಣಿ"
+
+msgid "KEY_DEPOSIT"
+msgstr "ಕೀ ಠೇವಣಿ"
+
+msgid "CLEANING_DEPOSIT"
+msgstr "ಠೇವಣಿ ಸ್ವಚ್ಛಗೊಳಿಸುವ"
+
+msgid "MATCHINGADDRESSES"
+msgstr "ಹೊಂದಾಣಿಕೆಯ ವಿಳಾಸಗಳು"
+
+msgid "MATCHINGPROPERTIES"
+msgstr "ಹೊಂದಾಣಿಕೆಯ ಪ್ರಾಪರ್ಟೀಸ್"
+
+msgid "MONDAY"
+msgstr "ಸೋಮವಾರ"
+
+msgid "TUESDAY"
+msgstr "ಮಂಗಳವಾರ"
+
+msgid "WEDNESDAY"
+msgstr "ಬುಧವಾರ"
+
+msgid "THURSDAY"
+msgstr "ಗುರುವಾರ"
+
+msgid "FRIDAY"
+msgstr "ಶುಕ್ರವಾರ"
+
+msgid "SATURDAY"
+msgstr "ಶನಿವಾರ"
+
+msgid "SUNDAY"
+msgstr "ಭಾನುವಾರ"
+
+msgid "TOMORROW"
+msgstr "ನಾಳೆ"
+
+msgid "TODAY"
+msgstr "ಇಂದು"
+
+msgid "COMING"
+msgstr "ಕಮಿಂಗ್"
+
+msgid "BUYING"
+msgstr "ಖರೀದಿಸುತ್ತಿದೆ"
+
+msgid "SELLING"
+msgstr "ಮಾರಾಟ"
+
+msgid "REALTORS"
+msgstr "ಮಾರಾಟಗಾರರು / ದಲ್ಲಾಳಿಗಳು"
+
+msgid "PROPERTY_MANAGEMENT"
+msgstr "ಆಸ್ತಿ ನಿರ್ವಹಣೆ"
+
+msgid "FORECLOSURE"
+msgstr "ಹಕ್ಕು ನಿರಾಕರಣೆ"
+
+msgid "LOTAREAUOM"
+msgstr "ಘಟಕ"
+
+msgid "LAUNDRYROOM"
+msgstr "ಬಟ್ಟೆ ಒಗೆಯುವ ಕೋಣೆ"
+
+msgid "LIBRARY"
+msgstr "ಲೈಬ್ರರಿ"
+
+msgid "MEDIAROOM"
+msgstr "ಮಾಧ್ಯಮ ಕೊಠಡಿ"
+
+msgid "MOTHERINLAW"
+msgstr "ಅತ್ತೆ"
+
+msgid "RECREATIONALROOM"
+msgstr "ಮನರಂಜನಾ ಕೊಠಡಿ"
+
+msgid "SITTINGROOM"
+msgstr "ಕುಳಿತುಕೊಳ್ಳುವ ಕೊಠಡಿ"
+
+msgid "STORAGE"
+msgstr "ಸಂಗ್ರಹಣೆ"
+
+msgid "UTILITY"
+msgstr "ಉಪಯುಕ್ತತೆ"
+
+msgid "WALKINCLOSET"
+msgstr "ವಾಕಿಂಗ್ ಕ್ಲೋಸೆಟ್"
+
+msgid "WETBAR"
+msgstr "ವೆಟ್ ಬಾರ್"
+
+msgid "ATRIUM"
+msgstr "ಹೃತ್ಕರ್ಣ"
+
+msgid "ATTIC"
+msgstr "ಅಟ್ಟಿಕ್"
+
+msgid "DEN"
+msgstr "ಡೆನ್"
+
+msgid "FAMILYROOM"
+msgstr "ಕುಟುಂಬ ಕೊಠಡಿ"
+
+msgid "FIREPLACE"
+msgstr "ಫೈರ್ ಪ್ಲೇಸ್"
+
+msgid "FOYER"
+msgstr "ಫಾಯರ್"
+
+msgid "GREENHOUSE"
+msgstr "ಗ್ರೀನ್ ಹೌಸ್"
+
+msgid "GUESTROOM"
+msgstr "ಅತಿಥಿ ಕೊಠಡಿ"
+
+msgid "NORTH"
+msgstr "ಉತ್ತರ"
+
+msgid "SOUTH"
+msgstr "ದಕ್ಷಿಣ"
+
+msgid "EAST"
+msgstr "ಪೂರ್ವ"
+
+msgid "WEST"
+msgstr "ಪಶ್ಚಿಮ"
+
+msgid "NORTHEAST"
+msgstr "ನಾರ್ತ್ ಈಸ್ಟ್"
+
+msgid "NORTHWEST"
+msgstr "ವಾಯುವ್ಯ"
+
+msgid "SOUTHEAST"
+msgstr "ಸೌತ್ ಈಸ್ಟ್"
+
+msgid "SOUTHWEST"
+msgstr "ಸೌತ್ ವೆಸ್ಟ್"
+
+msgid "PARKINGTYPES"
+msgstr "ಪಾರ್ಕಿಂಗ್ ವಿಧಗಳು"
+
+msgid "ADDPARKINGTYPES"
+msgstr "ಪಾರ್ಕಿಂಗ್ ಪ್ರಕಾರಗಳನ್ನು ಸೇರಿಸಿ"
+
+msgid "LEASEPRICEUOM"
+msgstr "ಘಟಕ"
+
+msgid "CHARACTERS"
+msgstr "ಪಾತ್ರಗಳು"
+
+msgid "FLOORNUMBER"
+msgstr "ಮಹಡಿ ಸಂಖ್ಯೆ"
+
+msgid "FACINGDIRECTION"
+msgstr "ನಿರ್ದೇಶನವನ್ನು ಎದುರಿಸುತ್ತಿದೆ"
+
+msgid "LESS"
+msgstr "ಕಡಿಮೆ"
+
+msgid "MORE"
+msgstr "ಇನ್ನಷ್ಟು"
+
+msgid "TIME_SHARE"
+msgstr "ಸಮಯ ಹಂಚಿಕೆ"
+
+msgid "CABIN"
+msgstr "ಕ್ಯಾಬಿನ್"
+
+msgid "MLSNUMBER"
+msgstr "MLS ಸಂಖ್ಯೆ"
+
+msgid "MLSID"
+msgstr "MLS"
+
+msgid "MLSLISTINGURL"
+msgstr "ಮೂಲ ಲಿಂಕ್ ಪಟ್ಟಿ"
+
+msgid "MLSPROPERTYTYPE"
+msgstr "ವರ್ಗ (ಮೂಲದಿಂದ)"
+
+msgid "MLSPROPERTYSUBTYPE"
+msgstr "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ (ಮೂಲದಿಂದ)"
+
+msgid "MLSINFORMATION"
+msgstr "MLS ಮಾಹಿತಿ"
+
+msgid "LISTINGAREAUOM"
+msgstr "ಘಟಕ"
+
+msgid "YOURADHERE"
+msgstr "ನಿಮ್ಮ ಜಾಹೀರಾತು ಇಲ್ಲಿ"
+
+msgid "LOCATIONDIRECTION"
+msgstr "ದಿಕ್ಕುಗಳು"
+
+msgid "ACRE"
+msgstr "ಎಕರೆ"
+
+msgid "MAXIMIZE"
+msgstr "ಗರಿಷ್ಠೀಕರಿಸು"
+
+msgid "INCOME"
+msgstr "ಆದಾಯ"
+
+msgid "SELECTALL"
+msgstr "ಎಲ್ಲವನ್ನು ಆರಿಸು"
+
+msgid "NAMEUNDISCLOSED"
+msgstr "ಬಹಿರಂಗಪಡಿಸದ ಆಸ್ತಿ ಹೆಸರು"
+
+msgid "ADDRESSUNDISCLOSED"
+msgstr "ಬಹಿರಂಗಪಡಿಸದ ವಿಳಾಸ"
+
+msgid "PRICEUNDISCLOSED"
+msgstr "ಬಹಿರಂಗಪಡಿಸದ ಬೆಲೆ"
+
+msgid "LIKES"
+msgstr "ಇಷ್ಟಗಳು"
+
+msgid "FLOORPLAN"
+msgstr "ಮಹಡಿ ಯೋಜನೆಗಳು ಮತ್ತು ಸಮೀಕ್ಷೆಗಳು"
+
+msgid "COMMERCIAL_PROPERTIES"
+msgstr "ವಾಣಿಜ್ಯ ಗುಣಲಕ್ಷಣಗಳು"
+
+msgid "RESIDENTIAL_INVESTMENTS"
+msgstr "ವಸತಿ ಹೂಡಿಕೆಗಳು"
+
+msgid "ROOM"
+msgstr "ರೂಮ್ ಮಾಹಿತಿ"
+
+msgid "ROLE"
+msgstr "ಪಾತ್ರ"
+
+msgid "LEGALDESCRIPTION"
+msgstr "ವಿವರಣೆ"
+
+msgid "DISCLAIMER"
+msgstr "ಹಕ್ಕುತ್ಯಾಗ"
+
+msgid "LIVINGAREA"
+msgstr "ಜೀವಿಸುವ ಜಾಗ"
+
+msgid "LIVINGROOM"
+msgstr "ಲಿವಿಂಗ್ ರೂಮ್"
+
+msgid "STUDY"
+msgstr "ಅಧ್ಯಯನ"
+
+msgid "KITCHEN"
+msgstr "ಅಡಿಗೆ"
+
+msgid "DININGROOM"
+msgstr "ಊಟದ ಕೋಣೆ"
+
+msgid "PATIO"
+msgstr "ಒಳಾಂಗಣದಲ್ಲಿ"
+
+msgid "PORCH"
+msgstr "ಮುಖಮಂಟಪ"
+
+msgid "DECK"
+msgstr "ಡೆಕ್"
+
+msgid "GARAGE"
+msgstr "ಗ್ಯಾರೇಜ್"
+
+msgid "WORKSHOP"
+msgstr "ಕಾರ್ಯಾಗಾರ"
+
+msgid "BASEMENT"
+msgstr "ಬೇಸ್ಮೆಂಟ್"
+
+msgid "BEDROOM"
+msgstr "ಮಲಗುವ ಕೋಣೆ"
+
+msgid "BATHROOM"
+msgstr "ಸ್ನಾನಗೃಹ"
+
+msgid "FULLBATHROOM"
+msgstr "ಪೂರ್ಣ ಬಾತ್ರೂಮ್"
+
+msgid "HALFBATHROOM"
+msgstr "ಅರ್ಧ ಸ್ನಾನಗೃಹ"
+
+msgid "QUARTERBATHROOM"
+msgstr "ಕ್ವಾರ್ಟರ್ ಸ್ನಾನಗೃಹ"
+
+msgid "THREEQUARTERBATHROOM"
+msgstr "ಮೂರು ಕ್ವಾರ್ಟರ್ ಸ್ನಾನಗೃಹ"
+
+msgid "BARBEQUEAREA"
+msgstr "ಬಾರ್ಬೆಕ್ಯು ಪ್ರದೇಶ"
+
+msgid "DISABLEDACCESS"
+msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ ಪ್ರವೇಶ"
+
+msgid "LAWNAREA"
+msgstr "ಲಾನ್ ಪ್ರದೇಶ"
+
+msgid "WIREDFORAUTOMATION"
+msgstr "ಆಟೊಮೇಷನ್ಗಾಗಿ ವೈರ್ಡ್"
+
+msgid "DRAFT"
+msgstr "ಡ್ರಾಫ್ಟ್"
+
+msgid "PENDING_APPROVAL"
+msgstr "ಬಾಕಿ ಇರುವ ವಿಷಯದ ಮಧ್ಯವರ್ತನೆ"
+
+msgid "PENDING_CONTENT_APPROVAL"
+msgstr "ಬಾಕಿ ಉಳಿದಿರುವ ವಿಷಯ ಅನುಮೋದನೆ"
+
+msgid "ACTIVE"
+msgstr "ಸಕ್ರಿಯ"
+
+msgid "REJECTED"
+msgstr "ತಿರಸ್ಕರಿಸಿದ"
+
+msgid "EXPIRED"
+msgstr "ಅವಧಿ ಮುಗಿದಿದೆ"
+
+msgid "CLOSED"
+msgstr "ಮುಚ್ಚಲಾಗಿದೆ"
+
+msgid "CLICKTOVIEWPROFILE"
+msgstr "ಪ್ರೊಫೈಲ್ ಅನ್ನು ವೀಕ್ಷಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "CHOOSEONMAP"
+msgstr "ನಕ್ಷೆ ಆಯ್ಕೆಮಾಡಿ"
+
+msgid "CLOSEMAP"
+msgstr "ನಕ್ಷೆ ಮುಚ್ಚಿ"
+
+msgid "HOMEFORSALESEARCHHEADER"
+msgstr "ಮಾರಾಟಕ್ಕೆ ಮನೆಗಳನ್ನು ಹುಡುಕಿ"
+
+msgid "FORLEASESEARCHHEADER"
+msgstr "ಬಾಡಿಗೆ / ಬಾಡಿಗೆಗೆ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಹುಡುಕಿ"
+
+msgid "PROFESSIONALSEARCHHEADER"
+msgstr "ಸೇವೆ ಒದಗಿಸುವವರು ಅಥವಾ ವೃತ್ತಿಪರರನ್ನು ಹುಡುಕಿ"
+
+msgid "REALTORSEARCHHEADER"
+msgstr "ಮೆಚ್ಚಿನ ರಿಯಾಲ್ಟರ್ಸ್ / ಬ್ರೋಕರ್ಗಳನ್ನು ಹುಡುಕಿ"
+
+msgid "HOMEFORSALE"
+msgstr "ಇನ್ವೆಸ್ಟ್"
+
+msgid "HIGHESTCAPRATE"
+msgstr "ಕ್ಯಾಪ್ ದರ ಸಂಭಾವ್ಯ (ಕಡಿಮೆ ಮಟ್ಟದಿಂದ)"
+
+msgid "LOWESTCAPRATE"
+msgstr "ಕ್ಯಾಪ್ ದರ ಸಂಭಾವ್ಯತೆ (ಹೈ ಟು ಹೈ)"
+
+msgid "CAPRATERANGE"
+msgstr "ಕ್ಯಾಪ್ ದರ ಸಂಭಾವ್ಯ (%)"
+
+msgid "INVESTEMENTCATEGORIES"
+msgstr "ಬಂಡವಾಳ ವರ್ಗಗಳು"
+
+msgid "PREFERREDLOCATION"
+msgstr "ಮೆಚ್ಚಿನ ಸ್ಥಳ"
+
+msgid "PREFERREDLOCATIONS"
+msgstr "ಮೆಚ್ಚಿನ ಸ್ಥಳಗಳು"
+
+msgid "MINIMUM"
+msgstr "ಕನಿಷ್ಠ"
+
+msgid "MAXIMUM"
+msgstr "ಗರಿಷ್ಠ"
+
+msgid "CORE"
+msgstr "ಕೋರ್ - ಕಡಿಮೆ ಅಪಾಯ / ರಿಟರ್ನ್"
+
+msgid "COREPLUS"
+msgstr "ಕೋರ್ ಪ್ಲಸ್ - ಸಾಧಾರಣ ರಿಸ್ಕ್ / ರಿಟರ್ನ್"
+
+msgid "VALUEADDED"
+msgstr "ಮೌಲ್ಯ ಸೇರಿಸಿ"
+
+msgid "DEVELOPMENTOPPORTUNITY"
+msgstr "ಅಭಿವೃದ್ಧಿ ಅವಕಾಶ"
+
+msgid "CAPITALCONSTRAINTS"
+msgstr "ಕ್ಯಾಪಿಟಲ್ ನಿರ್ಬಂಧಗಳು"
+
+msgid "ENVIRONMENTPROBLEMS"
+msgstr "ಪರಿಸರ ಸಮಸ್ಯೆಗಳು"
+
+msgid "MANAGEMENTPROBLEMS"
+msgstr "ನಿರ್ವಹಣೆ ತೊಂದರೆಗಳು"
+
+msgid "NEEDSSTRUCTURIALIMPROVEMENTS"
+msgstr "ರಚನಾತ್ಮಕ ಸುಧಾರಣೆಗಳು ಅಗತ್ಯ"
+
+msgid "NEEDSINETRIORIMPROVEMENTS"
+msgstr "ಆಂತರಿಕ ಸುಧಾರಣೆಗಳು ಅಗತ್ಯ"
+
+msgid "OPERATIONALPROBLEMS"
+msgstr "ಕಾರ್ಯಾಚರಣೆಯ ತೊಂದರೆಗಳು"
+
+msgid "OTHERVALUEADDED"
+msgstr "ಇತರೆ ಮೌಲ್ಯ ಸೇರಿಸಿ"
+
+msgid "RISKRETURNCATEGORY"
+msgstr "ಹೂಡಿಕೆ ವರ್ಗ"
+
+msgid "VALUEADDEDREASON"
+msgstr "ಕಾರಣ"
+
+msgid "ALLBILLSPAID"
+msgstr "ಎಲ್ಲಾ ಬಿಲ್ಗಳು ಪಾವತಿಸಿವೆ"
+
+msgid "METEREDUNITS"
+msgstr "ಪ್ರತ್ಯೇಕವಾಗಿ ಮಾಪನ ಮಾಡಿದ ಘಟಕಗಳು"
+
+msgid "SOMEBILLSPAID"
+msgstr "ಕೆಲವು ಬಿಲ್ಗಳು ಪಾವತಿಸಿವೆ"
+
+msgid "MULTIFAMILYHOUSINGTYPE"
+msgstr "ಯುಟಿಲಿಟಿ ಬಿಲ್ಗಳು"
+
+msgid "PAIDUTILITIES"
+msgstr "ಪಾವತಿಸಿದ ಉಪಯುಕ್ತತೆಗಳು"
+
+msgid "CURRENTRENT"
+msgstr "ಪ್ರಸ್ತುತ ಬಾಡಿಗೆ"
+
+msgid "SECURITYDEPOSIT"
+msgstr "ಭದ್ರತಾ ಠೇವಣಿ"
+
+msgid "NUMBEROFUNITS"
+msgstr "ಘಟಕಗಳ ಸಂಖ್ಯೆ"
+
+msgid "ADD"
+msgstr "ಸೇರಿಸಿ"
+
+msgid "DEMOGRAPHICS"
+msgstr "ಜನಸಂಖ್ಯಾಶಾಸ್ತ್ರ"
+
+msgid "WIDGETPOPULATION"
+msgstr "ಜನಸಂಖ್ಯಾ ಅಂಕಿಅಂಶ"
+
+msgid "WIDGETFMRDATA"
+msgstr "ನ್ಯಾಯೋಚಿತ ಮಾರುಕಟ್ಟೆ ಬಾಡಿಗೆ ಅಂಕಿಅಂಶಗಳು"
+
+msgid "WIDGETHOUSING"
+msgstr "ವಸತಿ ಅಂಕಿಅಂಶಗಳು"
+
+msgid "WIDGETMEDIANINCOME"
+msgstr "ಆದಾಯ ಅಂಕಿಅಂಶ"
+
+msgid "WIDGETOCCUPATION"
+msgstr "ಉದ್ಯೋಗ ಅಂಕಿಅಂಶಗಳು"
+
+msgid "WIDGETINCOMESLAB"
+msgstr "ವರಮಾನ ಚಪ್ಪಡಿ ಅಂಕಿಅಂಶ"
+
+msgid "WIDGETTRANSPORTATION"
+msgstr "ಕೆಲಸ ಅಂಕಿಅಂಶಕ್ಕೆ ಪ್ರಯಾಣ"
+
+msgid "WIDGETSCHOOL"
+msgstr "ಹತ್ತಿರದ ಶಾಲೆಗಳು"
+
+msgid "WIDGETVIOLENTCRIME"
+msgstr "ಹಿಂಸಾತ್ಮಕ ಅಪರಾಧ ಅಂಕಿಅಂಶಗಳು"
+
+msgid "WIDGETPROPERTYCRIME"
+msgstr "ಆಸ್ತಿ ಅಪರಾಧ ಅಂಕಿಅಂಶಗಳು"
+
+msgid "WIDGETDISASTERDATA"
+msgstr "ಇತ್ತೀಚಿನ ಫೆಡರಲ್ ತುರ್ತುಸ್ಥಿತಿಗಳು"
+
+msgid "SOURCE"
+msgstr "ಮೂಲ"
+
+msgid "WIDGETFMRFOOTER"
+msgstr "ವಸತಿ ಮತ್ತು ನಗರಾಭಿವೃದ್ಧಿ ಇಲಾಖೆಯ ಯು.ಎಸ್"
+
+msgid "WIDGETCENSUSFOOTER"
+msgstr "ಯುಎಸ್ ಸೆನ್ಸಸ್ ಬ್ಯೂರೊ"
+
+msgid "WIDGETSCHOOLFOOTER"
+msgstr "ಯುಎಸ್ ಶಿಕ್ಷಣ ಇಲಾಖೆ"
+
+msgid "WIDGETCRIMEFOOTER"
+msgstr "ಸಂಯುಕ್ತ ತನಿಖಾ ದಳ"
+
+msgid "WIDGETDISASTERDATAFOOTER"
+msgstr "ಫೆಡರಲ್ ಎಮರ್ಜೆನ್ಸಿ ಮ್ಯಾನೇಜ್ಮೆಂಟ್ ಏಜೆನ್ಸಿ"
+
+msgid "WIDGETEMPLOYMENTGROWTH"
+msgstr "ಉದ್ಯೋಗ ಬೆಳವಣಿಗೆ ಅಂಕಿಅಂಶಗಳು"
+
+msgid "WIDGETETHNICITY"
+msgstr "ಜನಸಂಖ್ಯಾ ಜನಾಂಗೀಯತೆ ಅಂಕಿಅಂಶಗಳು"
+
+msgid "WIDGETPOPULATIONGROWTH"
+msgstr "ಉದ್ಯೋಗ ಜನಸಂಖ್ಯೆ ಅಂಕಿಅಂಶ"
+
+msgid "WIDGETPROPERTYTAX"
+msgstr "ಆಸ್ತಿ ತೆರಿಗೆ ಅಂಕಿಅಂಶ"
+
+msgid "TOTALPOPULATION"
+msgstr "ಒಟ್ಟು ಜನಸಂಖ್ಯೆ"
+
+msgid "MEDIANAGE"
+msgstr "ಮಧ್ಯ ವಯಸ್ಸು"
+
+msgid "WHITE"
+msgstr "ಬಿಳಿ"
+
+msgid "BLACK"
+msgstr "ಕಪ್ಪು"
+
+msgid "ASIAN"
+msgstr "ಏಷ್ಯನ್"
+
+msgid "AMERICAN"
+msgstr "ಅಮೆರಿಕನ್ ಇಂಡಿಯನ್"
+
+msgid "HISPANICPERCENTAGE"
+msgstr "ಹಿಸ್ಪಾನಿಕ್ ಜನಸಂಖ್ಯೆ"
+
+msgid "EMPTY"
+msgstr "ಎಲ್ಲಾ"
+
+msgid "OTHER"
+msgstr "ಇತರೆ"
+
+msgid "MALEFEMALERATIO"
+msgstr "ಪುರುಷ / ಸ್ತ್ರೀ ಅನುಪಾತ"
+
+msgid "FAIRMARKETRENT"
+msgstr "ನ್ಯಾಯೋಚಿತ ಮಾರುಕಟ್ಟೆ ಬಾಡಿಗೆ"
+
+msgid "FMRDATAXAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "FMRDATAYAXIS"
+msgstr "ಮಾರುಕಟ್ಟೆ ಬಾಡಿಗೆ"
+
+msgid "EFFICIENTAPARTMENTPRICE"
+msgstr "ದಕ್ಷತೆ"
+
+msgid "ONEBHKAPARTMENTPRICE"
+msgstr "ಏಕ ಬೆಡ್ರೂಮ್"
+
+msgid "TWOBHKAPARTMENTPRICE"
+msgstr "ಡಬಲ್ ಬೆಡ್ರೂಮ್"
+
+msgid "THREEBHKAPARTMENTPRICE"
+msgstr "ಮೂರು ಮಲಗುವ ಕೋಣೆ"
+
+msgid "FOURBHKAPARTMENTPRICE"
+msgstr "ನಾಲ್ಕು ಮಲಗುವ ಕೋಣೆ"
+
+msgid "UNKNOWN"
+msgstr "ಅಜ್ಞಾತ"
+
+msgid "TOTALUNITS"
+msgstr "ಘಟಕಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆ"
+
+msgid "OCCUPIEDUNIT"
+msgstr "ಆಕ್ರಮಿತ ಘಟಕಗಳು"
+
+msgid "RENTEDUNIT"
+msgstr "ಬಾಡಿಗೆ ಘಟಕಗಳು"
+
+msgid "OCCUPIEDRENTEDUNITXAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "OCCUPIEDRENTEDUNITYAXIS"
+msgstr "ಘಟಕಗಳ ಶೇಕಡಾವಾರು"
+
+msgid "POPULATIONGROWTHYAXIS"
+msgstr "ಜನಸಂಖ್ಯೆ"
+
+msgid "POPULATIONGROWTH"
+msgstr "ಒಟ್ಟು ಜನಸಂಖ್ಯೆ"
+
+msgid "POPULATIONGROWTHXAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "EMPLOYEMENTGROWTHYAXIS"
+msgstr "ಉದ್ಯೋಗ ಜನಸಂಖ್ಯೆಯ ಶೇಕಡಾವಾರು"
+
+msgid "EMPLOYEMENTGROWTH"
+msgstr "ಉದ್ಯೋಗದ ಜನಸಂಖ್ಯೆ"
+
+msgid "EMPLOYEMENTGROWTHXAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "OTHEROCCUPATION"
+msgstr "ಇತರೆ ಉದ್ಯೋಗ"
+
+msgid "EMPLOYEDPERCENTAGE"
+msgstr "ಉದ್ಯೋಗದ ಜನಸಂಖ್ಯೆ"
+
+msgid "MEDIANPROPERTYTAX"
+msgstr "ಮಧ್ಯಮ ಆಸ್ತಿ ತೆರಿಗೆ"
+
+msgid "MEDIANPROPERTYTAXYAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "MEDIANPROPERTYTAXXAXIS"
+msgstr "ಆಸ್ತಿ ತೆರಿಗೆ ಪಾವತಿಸಲಾಗಿದೆ"
+
+msgid "MEDIANINCOME"
+msgstr "ಮಧ್ಯಮ ವರಮಾನ"
+
+msgid "MEDIANINCOMEXAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "MEDIANINCOMEYAXIS"
+msgstr "ಆದಾಯ"
+
+msgid "MANAGEMENTOCCUPATION"
+msgstr "ನಿರ್ವಹಣೆ"
+
+msgid "SERVICEOCCUPATION"
+msgstr "ಸೇವೆ"
+
+msgid "SALESOCCUPATION"
+msgstr "ಮಾರಾಟ"
+
+msgid "CONSTRUCTIONOCCUPATION"
+msgstr "ನಿರ್ಮಾಣ"
+
+msgid "PRODUCTIONOCCUPATION"
+msgstr "ಉತ್ಪಾದನೆ"
+
+msgid "INCOMESLAB"
+msgstr "ಒಟ್ಟು ಜನಸಂಖ್ಯೆ"
+
+msgid "INCOMESLABXAXIS"
+msgstr "ಇನ್ಫ್ಯಾಮ್ ಸ್ಲ್ಯಾಬ್"
+
+msgid "INCOMESLABYAXIS"
+msgstr "ಜನಸಂಖ್ಯೆ"
+
+msgid "BELOWFIFTEENTHOUSANDINCOME"
+msgstr "<15 ಕೆ"
+
+msgid "FIFTEENTOTHIRTYTHOUSANDINCOME"
+msgstr "15 ಕೆ - 30 ಕೆ"
+
+msgid "THIRTYTOFIFTYTHOUSANDINCOME"
+msgstr "30 ಕೆ - 50 ಕೆ"
+
+msgid "FIFTYTOSEVENTYFIVEHOUSANDINCOME"
+msgstr "50 ಕೆ - 75 ಕೆ"
+
+msgid "SEVENTYFIVETOHUNDREDTHOUSANDINCOME"
+msgstr "75 ಕೆ - 100 ಕೆ"
+
+msgid "HUNDREDTOONEFIFTYTHOUSANDINCOME"
+msgstr "100 ಕೆ - 150 ಕೆ"
+
+msgid "ONEFIFTYABOVETHOUSANDINCOME"
+msgstr "> 150 ಕೆ"
+
+msgid "MEANTRAVELTIME"
+msgstr "ಕೆಲಸ ಮಾಡಲು ಸಮಯ ಮೀರಿ ಸಮಯ"
+
+msgid "TRANSPORTATIONMEANS"
+msgstr "ಸಾಗಣೆಯ ವಿಧಾನಗಳು"
+
+msgid "TRANSPORTATIONMEANSXAXIS"
+msgstr "ಜನಸಂಖ್ಯೆಯ ಶೇಕಡಾವಾರು"
+
+msgid "TRANSPORTATIONMEANSYAXIS"
+msgstr "ಸಾರಿಗೆ ಆಯ್ಕೆ"
+
+msgid "PEOPLEDROVEALONE"
+msgstr "ಡ್ರೊನ್ ಅಲೋನ್"
+
+msgid "PEOPLECARPOOLED"
+msgstr "ಕಾರ್ ಪೂಲ್ಡ್"
+
+msgid "PEOPLEUSEDPUBLICTRANSPORTATION"
+msgstr "ಸಾರ್ವಜನಿಕ ವಿನಿಮಯ"
+
+msgid "PEOPLEUSEDBICYCLEORWALKED"
+msgstr "ಬೈಸಿಕಲ್ ಅಥವಾ ವಾಕ್ಡ್"
+
+msgid "PEOPLEUSEDOTHERTRANSPORTATION"
+msgstr "ಇತರೆ ಸಾರಿಗೆ"
+
+msgid "PEOPLEWORKEDATHOME"
+msgstr "ಮುಖಪುಟದಲ್ಲಿ ಕೆಲಸ"
+
+msgid "SCHOOLNAME"
+msgstr "ಶಾಲೆಯ ಹೆಸರು"
+
+msgid "LOWESTGRADE"
+msgstr "ಕಡಿಮೆ ಗ್ರೇಡ್"
+
+msgid "HIGHESTGRADE"
+msgstr "ಅತ್ಯುನ್ನತ ಗ್ರೇಡ್"
+
+msgid "SCHOOLTYPE"
+msgstr "ಸ್ಕೂಲ್ ಕೌಟುಂಬಿಕತೆ"
+
+msgid "VIOLENTCRIMEDATA"
+msgstr "ಹಿಂಸಾತ್ಮಕ ಅಪರಾಧ ದರ"
+
+msgid "VIOLENTCRIMEDATAXAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "VIOLENTCRIMEDATAYAXIS"
+msgstr "ಕ್ರೈಮ್ ದರ (ಪ್ರತಿ 100,000 ಜನಸಂಖ್ಯೆಗೆ)"
+
+msgid "PROPERTYCRIMEDATA"
+msgstr "ಆಸ್ತಿ ಅಪರಾಧ ದರ"
+
+msgid "PROPERTYCRIMEDATAXAXIS"
+msgstr "ವರ್ಷ"
+
+msgid "PROPERTYCRIMEDATAYAXIS"
+msgstr "ಕ್ರೈಮ್ ದರ (ಪ್ರತಿ 100,000 ಜನಸಂಖ್ಯೆಗೆ)"
+
+msgid "INCIDENTTITLE"
+msgstr "ಘಟನೆ"
+
+msgid "INCIDENTTYPE"
+msgstr "ಘಟನೆ ಪ್ರಕಾರ"
+
+msgid "IHPROGRAMDECLARED"
+msgstr "ಮಧ್ಯಂತರ ವಸತಿ?"
+
+msgid "IAPROGRAMDECLARED"
+msgstr "ವೈಯಕ್ತಿಕ ಸಹಾಯ?"
+
+msgid "PAPROGRAMDECLARED"
+msgstr "ಸಾರ್ವಜನಿಕ ಸಹಾಯ?"
+
+msgid "HMPROGRAMDECLARED"
+msgstr "ಅಪಾಯ ನಿವಾರಣೆ?"
+
+msgid "INCIDENTBEGINDATE"
+msgstr "ಘಟನೆ ದಿನಾಂಕ"
+
+msgid "TAGNAME"
+msgstr "ಫೋಟೋ ಲೇಬಲ್"
+
+msgid "RENAMEFILE"
+msgstr "ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಮರುಹೆಸರಿಸಿ"
+
+msgid "FILENAME"
+msgstr "ಡಾಕ್ಯುಮೆಂಟ್ ಹೆಸರು"
+
+msgid "VIDEOTITLE"
+msgstr "ವೀಡಿಯೊ ಶೀರ್ಷಿಕೆ"
+
+msgid "VIDEOURL"
+msgstr "ವೀಡಿಯೊ URL"
+
+msgid "CLOSE"
+msgstr "ಮುಚ್ಚಿ"
+
+msgid "MINIMIZE"
+msgstr "ಕಡಿಮೆಗೊಳಿಸು"
+
+msgid "COMMENTS"
+msgstr "ಪ್ರತಿಕ್ರಿಯೆಗಳು"
+
+msgid "FEEDBACKCONTENTMESSAGE"
+msgstr "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಿ ..."
+
+msgid "SITEFEEDBACKHEADER"
+msgstr "ಸೈಟ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕಳುಹಿಸಿ"
+
+msgid "SENDSITEFEEDBACK"
+msgstr "ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ"
+
+msgid "READMORE"
+msgstr "ಮತ್ತಷ್ಟು ಓದು…"
+
+msgid "SEARCHBYPROPERTY"
+msgstr "ಆಸ್ತಿಯನ್ನು ಹುಡುಕಿ"
+
+msgid "SEARCHBYREALTOR"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅನ್ನು ಹುಡುಕಿ"
+
+msgid "QUESTION"
+msgstr "ಪ್ರಶ್ನೆ"
+
+msgid "OFFLINE"
+msgstr "ಆಫ್ಲೈನ್"
+
+msgid "SAVING"
+msgstr "ಉಳಿಸಲಾಗುತ್ತಿದೆ !!!"
+
+msgid "SAVED"
+msgstr "ಉಳಿಸಲಾಗಿದೆ !!!"
+
+msgid "YEARS"
+msgstr "ವರ್ಷಗಳು"
+
+msgid "MONTHS"
+msgstr "ತಿಂಗಳುಗಳು"
+
+msgid "WEEKS"
+msgstr "ವಾರಗಳು"
+
+msgid "DAYS"
+msgstr "ದಿನಗಳು"
+
+msgid "MASTERLEASE"
+msgstr "ಮಾಸ್ಟರ್ ಲೀಸ್"
+
+msgid "SUBLEASE"
+msgstr "ಸಬ್ ಲೀಸ್"
+
+msgid "TYPING"
+msgstr "% S ಟೈಪ್ ಮಾಡಲಾಗುತ್ತಿದೆ ..."
+
+msgid "NEWMESSAGES"
+msgstr "ಹೊಸ ಸಂದೇಶ (ಗಳು)"
+
+msgid "DEFAULTCHATMESSAGE"
+msgstr "ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಇಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ ..."
+
+msgid "MOREACTIONS"
+msgstr "ಇನ್ನಷ್ಟು ಕ್ರಿಯೆಗಳು"
+
+msgid "ACTIONS"
+msgstr "ಕ್ರಿಯೆಗಳು"
+
+msgid "THUMBNAIL"
+msgstr "ಫೋಟೋ"
+
+msgid "LEFT"
+msgstr "ಎಡ"
+
+msgid "RIGHT"
+msgstr "ಬಲ"
+
+msgid "ROTATE"
+msgstr "ತಿರುಗಿಸಿ"
+
+msgid "ZOOM"
+msgstr "ಜೂಮ್"
+
+msgid "RSVP"
+msgstr "ಆರ್ಎಸ್ವಿಪಿ"
+
+msgid "SEEALL"
+msgstr "ಎಲ್ಲವನ್ನೂ ನೋಡು"
+
+msgid "EXISTING"
+msgstr "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ"
+
+msgid "NEW"
+msgstr "ಹೊಸ"
+
+msgid "NEWLYRENOVATED"
+msgstr "ಹೊಸದಾಗಿ ನವೀಕರಣಗೊಂಡ"
+
+msgid "UNDERCONSTRUCTION"
+msgstr "ಅಂಡರ್ ಕನ್ಸ್ಟ್ರಕ್ಷನ್"
+
+msgid "PROPOSED"
+msgstr "ಪ್ರಸ್ತಾಪಿತ"
+
+msgid "ARCHITECT"
+msgstr "ವಾಸ್ತುಶಿಲ್ಪಿ"
+
+msgid "HOMETELEPHONE"
+msgstr "ಮುಖಪುಟ ದೂರವಾಣಿ"
+
+msgid "OFFICETELEPHONE"
+msgstr "ಕಚೇರಿ ದೂರವಾಣಿ"
+
+msgid "MOBILE"
+msgstr "ಮೊಬೈಲ್"
+
+msgid "AUCTION"
+msgstr "ಹರಾಜು"
+
+msgid "BANKOWNED"
+msgstr "ಬ್ಯಾಂಕ್ ಸ್ವಾಮ್ಯದ"
+
+msgid "ELECTRICITYBACKUP"
+msgstr "ವಿದ್ಯುತ್ ಬ್ಯಾಕಪ್"
+
+msgid "BYBUILDER"
+msgstr "ಬಿಲ್ಡರ್ ಮೂಲಕ"
+
+msgid "BYOWNER"
+msgstr "ಮಾಲೀಕರಿಂದ"
+
+msgid "BYAGENT"
+msgstr "ಏಜೆಂಟ್ ಮೂಲಕ"
+
+msgid "BYBANK"
+msgstr "ಬ್ಯಾಂಕ್"
+
+msgid "NEWCONSTRUCTION"
+msgstr "ಹೊಸ ನಿರ್ಮಾಣ"
+
+msgid "FORSALE"
+msgstr "ಮಾರಾಟಕ್ಕೆ"
+
+msgid "FORLEASE"
+msgstr "ಬಾಡಿಗೆ / ಬಾಡಿಗೆಗೆ"
+
+msgid "FORAUCTION"
+msgstr "ಹರಾಜು"
+
+msgid "LAND"
+msgstr "ಜಮೀನು"
+
+msgid "RESIDENTIAL"
+msgstr "ವಸತಿ"
+
+msgid "TWIN_HOME"
+msgstr "ಟ್ವಿನ್ ಹೋಮ್"
+
+msgid "LOFT_STYLE"
+msgstr "ಲಾಫ್ಟ್ ಶೈಲಿಯ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+msgid "GARDEN_HOME_SINGLE_UNIT"
+msgstr "ಗಾರ್ಡನ್ ಹೋಮ್"
+
+msgid "GARDEN_HOME_1_4_UNITS"
+msgstr "ಗಾರ್ಡನ್ ಮುಖಪುಟ 1 ರಿಂದ 4 ಘಟಕಗಳು"
+
+msgid "CONDO_SINGLE_UNIT"
+msgstr "ಕಾಂಡೋ"
+
+msgid "CONDO_1_4_UNITS"
+msgstr "ಕಾಂಡೋ 1 ರಿಂದ 4 ಘಟಕಗಳು"
+
+msgid "TOWNHOME_1_4_UNITS"
+msgstr "ಟೌನ್ ಮುಖಪುಟ 1 ರಿಂದ 4 ಘಟಕಗಳು"
+
+msgid "OTHER_RESIDENTIAL"
+msgstr "ಇತರ ವಸತಿ"
+
+msgid "TRIPLEX"
+msgstr "ಟ್ರಿಪ್ಲೆಕ್ಸ್"
+
+msgid "QUADRUPLEX"
+msgstr "ಕ್ವಾಡ್ರುಪ್ಲೆಕ್ಸ್"
+
+msgid "MOBILE_HOME"
+msgstr "ಮೊಬೈಲ್ ಹೋಮ್"
+
+msgid "DUPLEX"
+msgstr "ಡ್ಯುಪ್ಲೆಕ್ಸ್"
+
+msgid "DUPLEX_SINGLE_UNIT"
+msgstr "ಡ್ಯುಪ್ಲೆಕ್ಸ್"
+
+msgid "TOWNHOME_SINGLE_UNIT"
+msgstr "ಟೌನ್ಹೋಮ್"
+
+msgid "DUPLEX_2_UNITS"
+msgstr "ಡ್ಯೂಪ್ಲೆಕ್ಸ್ 2 ಘಟಕಗಳು"
+
+msgid "SINGLE_FAMILY_HOME_PORTFOLIO"
+msgstr "ಒಂದೇ ಕುಟುಂಬದ ಮನೆ - ಬಂಡವಾಳ"
+
+msgid "TOWN_HOME"
+msgstr "ಟೌನ್ ಹೋಮ್"
+
+msgid "GARDEN_HOME"
+msgstr "ಗಾರ್ಡನ್ ಹೋಮ್"
+
+msgid "CONGREGATE_HOUSING"
+msgstr "ವಸತಿ ಸಭೆ"
+
+msgid "ASSISTED_LIVING"
+msgstr "ಸಹಾಯಕ ಜೀವನ"
+
+msgid "SINGLE_FAMILY_HOME"
+msgstr "ಒಂದೇ ಕುಟುಂಬದ ಮನೆ"
+
+msgid "TOWN_HOUSE"
+msgstr "ಟೌನ್ ಹೌಸ್"
+
+msgid "GARDEN_LOW_RISE"
+msgstr "ನಗರದಲ್ಲಿ ಮನೆ"
+
+msgid "INDEPENDENT_HOUSE"
+msgstr "ಸ್ವತಂತ್ರ ಹೌಸ್"
+
+msgid "MULTI_FAMILY_APARTMENT"
+msgstr "ಮಲ್ಟಿ ಫ್ಯಾಮಿಲಿ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+msgid "RESIDENTIAL_APARTMENT"
+msgstr "ವಸತಿ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+msgid "APARTMENT"
+msgstr "ಅಪಾರ್ಟ್ಮೆಂಟ್"
+
+msgid "ROW_HOUSE"
+msgstr "ರೋ ಹೌಸ್"
+
+msgid "PG_ACCOMMODATION"
+msgstr "ಬಾಡಿಗೆ ಅತಿಥಿ ವಸತಿ"
+
+msgid "HOTEL_AND_LODGING"
+msgstr "ಹೋಟೆಲು ಮತ್ತು ವಸತಿ"
+
+msgid "SERVICED_APARTMENT"
+msgstr "ಸೇವೆಯುಕ್ತ ಅಪಾರ್ಟ್"
+
+msgid "CONDO"
+msgstr "ರೋ ಹೌಸ್"
+
+msgid "RESTAURANT"
+msgstr "ಉಪಹಾರ ಗೃಹ"
+
+msgid "PETROL_BUNK"
+msgstr "ಪೆಟ್ರೋಲ್ ಬಂಕ್"
+
+msgid "ENTERTAINMENT"
+msgstr "ಮನರಂಜನೆ"
+
+msgid "THEATRE"
+msgstr "ಥಿಯೇಟರ್"
+
+msgid "CAFE"
+msgstr "ಕೆಫೆ"
+
+msgid "BAR"
+msgstr "ಬಾರ್"
+
+msgid "ELECTRICITY"
+msgstr "ವಿದ್ಯುತ್"
+
+msgid "TELEPHONE"
+msgstr "ದೂರವಾಣಿ"
+
+msgid "WATER"
+msgstr "ನೀರು"
+
+msgid "GAS"
+msgstr "ಗ್ಯಾಸ್"
+
+msgid "CABLE"
+msgstr "ಕೇಬಲ್"
+
+msgid "INTERNET"
+msgstr "ಇಂಟರ್ನೆಟ್"
+
+msgid "WIFI"
+msgstr "ವೈಫೈ"
+
+msgid "POWERBACKUP"
+msgstr "ಪವರ್ ಬ್ಯಾಕಪ್"
+
+msgid "CLIMATECONTROL"
+msgstr "ಹವಾಮಾನ ನಿಯಂತ್ರಣ"
+
+msgid "AIRCONDITION"
+msgstr "ಹವಾ ನಿಯಂತ್ರಣ"
+
+msgid "ELEVATORS"
+msgstr "ಎಲಿವೇಟರ್"
+
+msgid "WASTEDISPOSAL"
+msgstr "ತ್ಯಾಜ್ಯ ವಿಲೇವಾರಿ"
+
+msgid "VIDEOSURVEILLANCE"
+msgstr "ವೀಡಿಯೊ ಕಣ್ಗಾವಲು"
+
+msgid "CAFETERIA"
+msgstr "ಕೆಫೆಟೇರಿಯಾ"
+
+msgid "SECURITY"
+msgstr "ಭದ್ರತಾ"
+
+msgid "GYM"
+msgstr "ಜಿಮ್"
+
+msgid "CLUBHOUSE"
+msgstr "ಕ್ಲಬ್ ಹೌಸ್"
+
+msgid "CHILDCARE"
+msgstr "ಚೈಲ್ಡ್ ಕೇರ್"
+
+msgid "RECREATIONAREA"
+msgstr "ಮನರಂಜನಾ ಪ್ರದೇಶ"
+
+msgid "CONFERENCEROOM"
+msgstr "ಕಾನ್ಫರೆನ್ಸ್ ರೂಮ್"
+
+msgid "MAINTENANCESTAFF"
+msgstr "ಮೇಂಟೆನೆನ್ಸ್ ಸ್ಟಾಫ್"
+
+msgid "SMOKINGZONE"
+msgstr "ಧೂಮಪಾನ ವಲಯ"
+
+msgid "QUICKSEARCH"
+msgstr "ಶೀಘ್ರ ಹುಡುಕಾಟ"
+
+msgid "NAME"
+msgstr "ಹೆಸರು"
+
+msgid "OTP"
+msgstr "ಒಂದು ಟೈಮ್ ಪಾಸ್ವರ್ಡ್"
+
+msgid "SENDOTP"
+msgstr "OTP ಕಳುಹಿಸಿ"
+
+msgid "RESENDOTP"
+msgstr "ಒಂದು ಟೈಮ್ ಪಾಸ್ವರ್ಡ್ ಕಳುಹಿಸಿ ಮರು"
+
+msgid "HOME"
+msgstr "ಮುಖಪುಟ"
+
+msgid "SUMMARY"
+msgstr "ಸಾರಾಂಶ"
+
+msgid "MYSEARCHES"
+msgstr "ನನ್ನ ಹುಡುಕಾಟಗಳು"
+
+msgid "FILTERS"
+msgstr "ಶೋಧಕಗಳು"
+
+msgid "SHOW"
+msgstr "ಶೋ"
+
+msgid "SAVEASDRAFT"
+msgstr "ಡ್ರಾಫ್ಟ್ ಉಳಿಸಿ"
+
+msgid "MAP"
+msgstr "ನಕ್ಷೆ"
+
+msgid "SAVE"
+msgstr "ಉಳಿಸಿ"
+
+msgid "SUBMIT"
+msgstr "ಸಲ್ಲಿಸಲು"
+
+msgid "FIND"
+msgstr "ಕ್ಲಿಕ್"
+
+msgid "CLEAR"
+msgstr "ಸ್ಪಷ್ಟ"
+
+msgid "HIDE"
+msgstr "ಮರೆಮಾಡಿ"
+
+msgid "RADIUS"
+msgstr "ತ್ರಿಜ್ಯ"
+
+msgid "CLEARALL"
+msgstr "ಎಲ್ಲವನ್ನೂ ತೆಗೆ"
+
+msgid "SORT"
+msgstr "ವಿಂಗಡಿಸಿ"
+
+msgid "VIEWONMAP"
+msgstr "ನಕ್ಷೆಯಲ್ಲಿ ವೀಕ್ಷಿಸಿ"
+
+msgid "ADDRESS"
+msgstr "ವಿಳಾಸ"
+
+msgid "PROPERTYNAME"
+msgstr "ಆಸ್ತಿ ಹೆಸರು"
+
+msgid "PROPERTYTYPE"
+msgstr "ವರ್ಗ"
+
+msgid "PROPERTYSUBTYPE"
+msgstr "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ"
+
+msgid "AREA"
+msgstr "ಪ್ರದೇಶ"
+
+msgid "LOTAREA"
+msgstr "ಕಥಾವಸ್ತುವಿನಲ್ಲಿ ಪ್ರದೇಶ"
+
+msgid "PROPERTYDESCRIPTION"
+msgstr "ಆಸ್ತಿ ವಿವರಣೆ"
+
+msgid "HIGHLIGHTS"
+msgstr "ಮುಖ್ಯಾಂಶಗಳು"
+
+msgid "CANCEL"
+msgstr "ರದ್ದು"
+
+msgid "OK"
+msgstr "ಸರಿ"
+
+msgid "PHOTOS"
+msgstr "ಚಿತ್ರಗಳು"
+
+msgid "ADDITIONALDOCUMENTS"
+msgstr "ದಾಖಲೆಗಳು"
+
+msgid "ADDVIDEOLINKS"
+msgstr "ವೀಡಿಯೊಗಳು"
+
+msgid "PROPERTYLISTINGTYPE"
+msgstr "ಜಾಹೀರಾತು ಕೌಟುಂಬಿಕತೆ"
+
+msgid "ADDITIONALDETAILS"
+msgstr "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ"
+
+msgid "FINANCIALINFORMATION"
+msgstr "ಅವಲೋಕನ"
+
+msgid "FINANCIALS"
+msgstr "ಹಣಕಾಸು"
+
+msgid "PRICERANGE"
+msgstr "ಬೆಲೆ"
+
+msgid "AREARANGE"
+msgstr "ಪ್ರದೇಶ (ಚದರ ಅಡಿ)"
+
+msgid "MYPROFILE"
+msgstr "ಸ್ವ ಭೂಮಿಕೆ"
+
+msgid "MOBILENUMBER"
+msgstr "ಮೊಬೈಲ್ ನಂಬರ"
+
+msgid "MYCOMPANY"
+msgstr "ನನ್ನ ಕಂಪನಿ"
+
+msgid "MYLISTINGS"
+msgstr "ನನ್ನ ಪಟ್ಟಿಗಳು"
+
+msgid "ABOUTUS"
+msgstr "ನಮ್ಮ ಬಗ್ಗೆ"
+
+msgid "CONTACTUS"
+msgstr "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ"
+
+msgid "FAQ"
+msgstr "ಪುನರಾವರ್ತಿತ ಪ್ರಶ್ನೆಗಳು"
+
+msgid "TITLE"
+msgstr "ಜಾಹೀರಾತು ಶೀರ್ಷಿಕೆ"
+
+msgid "PROPERTYLISTINGSALETYPE"
+msgstr "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+
+msgid "ENDDATE"
+msgstr "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ"
+
+msgid "STATUS"
+msgstr "ಸ್ಥಿತಿ"
+
+msgid "DISTRESSED"
+msgstr "ತೊಂದರೆಗೀಡಾದ"
+
+msgid "DISTRESSEDSTATUS"
+msgstr "ತೊಂದರೆಗೀಡಾದ ಸ್ಥಿತಿ"
+
+msgid "SALEPRICE"
+msgstr "ಹಣಕಾಸಿನ ಮಾಹಿತಿ"
+
+msgid "LEASEPRICE"
+msgstr "ಬಾಡಿಗೆ ಮಾಹಿತಿ"
+
+msgid "BIDPRICE"
+msgstr "ಬಿಡ್ ಬೆಲೆ"
+
+msgid "BIDSTARTPRICE"
+msgstr "ಬಿಡ್ ಪ್ರಾರಂಭಿಸಿ ಬೆಲೆ"
+
+msgid "DEPOSITAMOUNT"
+msgstr "ಭದ್ರತಾ ಠೇವಣಿ"
+
+msgid "DAYSFORFULLPAYMENT"
+msgstr "ಪೂರ್ಣ ಪಾವತಿ ದಿನಗಳ"
+
+msgid "BIDSTARTDATE"
+msgstr "ಬಿಡ್ ಪ್ರಾರಂಭ ದಿನಾಂಕ"
+
+msgid "BIDENDDATE"
+msgstr "ಬಿಡ್ ಅಂತಿಮ ದಿನಾಂಕ"
+
+msgid "COMMISSIONSPLIT"
+msgstr "ಖರೀದಿದಾರನ ಏಜೆಂಟ್ ಕಮಿಷನ್"
+
+msgid "COMMISSIONPERCENTAGE"
+msgstr "ಆಯೋಗದ ಶೇಕಡಾವಾರು"
+
+msgid "COMMISSIONAMOUNT"
+msgstr "ಆಯೋಗದ ಚಾರ್ಜಸ್"
+
+msgid "PERSQUAREFEET"
+msgstr "ಪ್ರತಿ ಚದರ ಅಡಿ"
+
+msgid "BASERATEPERSQUAREFEET"
+msgstr "ಪ್ರತಿ ಅಡಿ ಚದರ ಅಡಿ"
+
+msgid "RATEPERSQUAREFEET"
+msgstr "ಪ್ರತಿ ಚದರ ಅಡಿಗೆ ದರ"
+
+msgid "DISCLOSEADDRESS"
+msgstr "ವಿಳಾಸವನ್ನು ಬಹಿರಂಗಪಡಿಸುವುದೇ?"
+
+msgid "DISCLOSEPRICE"
+msgstr "ಬೆಲೆ ಬಹಿರಂಗಪಡಿಸುವುದೇ?"
+
+msgid "PRICE"
+msgstr "ಬೆಲೆ"
+
+msgid "DESPOSITAMOUNT"
+msgstr "ಠೇವಣಿ"
+
+msgid "LEASEPERIOD"
+msgstr "ವರ್ಷಗಳಲ್ಲಿ ಲೀಸ್ ಅವಧಿ"
+
+msgid "LEASETERM"
+msgstr "ಲೀಸ್ ಅವಧಿ"
+
+msgid "LEASETERMUOM"
+msgstr "ಘಟಕ"
+
+msgid "SALETYPE"
+msgstr "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+
+msgid "CAPRATEKNOWN"
+msgstr "ಕ್ಯಾಪ್ ದರವನ್ನು ಲೆಕ್ಕಹಾಕು?"
+
+msgid "CAPRATETYPE"
+msgstr "ಹಣಕಾಸು ಪ್ರಕಾರ"
+
+msgid "ACTUAL"
+msgstr "ವಾಸ್ತವಿಕ"
+
+msgid "PROFORMA"
+msgstr "ಪ್ರೊ-ಫಾರ್ಮ್"
+
+msgid "GROSSRENTREVENUE"
+msgstr "ಒಟ್ಟು ಬಾಡಿಗೆ ಆದಾಯ"
+
+msgid "VACANCYLOSSES"
+msgstr "ಖಾಲಿ ನಷ್ಟಗಳು"
+
+msgid "OWNERASSOCIATIONFEE"
+msgstr "ಮಾಲೀಕರು ಅಸೋಸಿಯೇಷನ್ ​​ಶುಲ್ಕಗಳು"
+
+msgid "MANAGEMENTANDLEASINGFEES"
+msgstr "ನಿರ್ವಹಣೆ ಮತ್ತು ಲೀಸಿಂಗ್ ಶುಲ್ಕಗಳು"
+
+msgid "PROPERTYINSURANCE"
+msgstr "ಆಸ್ತಿ ವಿಮೆ"
+
+msgid "PROPERTYTAXES"
+msgstr "ಆಸ್ತಿ ತೆರಿಗೆಗಳು"
+
+msgid "PROPERTYMAINTENANCE"
+msgstr "ಆಸ್ತಿ ನಿರ್ವಹಣೆ ವೆಚ್ಚಗಳು"
+
+msgid "OTHEREXPENSES"
+msgstr "ಇತರೆ ವೆಚ್ಚಗಳು"
+
+msgid "CALCULATEANDAPPLY"
+msgstr "ಅನ್ವಯಿಸು"
+
+msgid "CALCULATENETOPERATINGINCOME"
+msgstr "ಲೆಕ್ಕ"
+
+msgid "NETOPERATINGINCOME"
+msgstr "ನೆಟ್ ಆಪರೇಟಿಂಗ್ ವರಮಾನ"
+
+msgid "CALCULATEDCAPRATE"
+msgstr "ಕ್ಯಾಪ್ ಪ್ರಮಾಣ"
+
+msgid "CAPRATE"
+msgstr "ಕ್ಯಾಪ್ ಪ್ರಮಾಣ"
+
+msgid "DELETE"
+msgstr "ತೆಗೆದುಹಾಕಿ"
+
+msgid "IMAGEURLS"
+msgstr "ಚಿತ್ರಗಳು"
+
+msgid "PRIMARYIDENTIFIER"
+msgstr "ಆಸ್ತಿ ಗುರುತಿನ ಸಂಖ್ಯೆ"
+
+msgid "TOTALAREA"
+msgstr "ಒಟ್ಟು ಪ್ರದೇಶ"
+
+msgid "DESCRIPTION"
+msgstr "ವಿವರಣೆ"
+
+msgid "AMENITIES"
+msgstr "ಸೌಲಭ್ಯಗಳನ್ನು"
+
+msgid "UTILITIES"
+msgstr "ಉಪಯುಕ್ತತೆಗಳನ್ನು"
+
+msgid "CONDITIONS"
+msgstr "ನಿಯಮಗಳು"
+
+msgid "LINEONE"
+msgstr "ರಸ್ತೆ ವಿಳಾಸ"
+
+msgid "LINETWO"
+msgstr "ಹೆಗ್ಗುರುತು"
+
+msgid "REGION"
+msgstr "ಪ್ರದೇಶ"
+
+msgid "LOCALITY"
+msgstr "ಲೋಕಾಲಿಟಿ"
+
+msgid "CITY"
+msgstr "ಸಿಟಿ"
+
+msgid "STATE"
+msgstr "ರಾಜ್ಯ"
+
+msgid "ZIPCODE"
+msgstr "ಪಿನ್ ಕೋಡ್"
+
+msgid "COUNTRY"
+msgstr "ದೇಶದ"
+
+msgid "CURRENCY"
+msgstr "ಕರೆನ್ಸಿ"
+
+msgid "COMPANYNAME"
+msgstr "ಸಂಸ್ಥೆಯ ಹೆಸರು"
+
+msgid "CONTACTNUMBERS"
+msgstr "ದೂರವಾಣಿ ಸಂಖ್ಯೆಗಳು"
+
+msgid "WEBSITE"
+msgstr "ವೆಬ್ಸೈಟ್"
+
+msgid "WEBSITES"
+msgstr "ವೆಬ್"
+
+msgid "COMPANYTYPE"
+msgstr "ಸ್ವಾಮ್ಯದಲ್ಲಿರುವ ಟೈಪ್"
+
+msgid "SAVEDSEARCHPREFERENCES"
+msgstr "ಅಧಿಸೂಚನೆ ಪ್ರಾಶಸ್ತ್ಯಗಳನ್ನು ಹೊಂದಿಸಿ"
+
+msgid "CONTACTPREFERENCES"
+msgstr "ಸಂಪರ್ಕ ಪ್ರಾಶಸ್ತ್ಯಗಳು"
+
+msgid "CONTENTPREFERENCES"
+msgstr "ಹೊಸ ವಿಷಯ ಅಧಿಸೂಚನೆ ಪ್ರಾಶಸ್ತ್ಯಗಳು"
+
+msgid "AREASSERVED"
+msgstr "ಪ್ರದೇಶಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ"
+
+msgid "SPECIALTIES"
+msgstr "ವಿಶೇಷ"
+
+msgid "ABOUT"
+msgstr "ಬಗ್ಗೆ"
+
+msgid "YEAROFINCEPTION"
+msgstr "ಇನ್ಸೆಪ್ಷನ್ ವರ್ಷದ"
+
+msgid "MINDIVISIBLEAREA"
+msgstr "ಕನಿಷ್ಠ ಡಿವೈಸಿಬಲ್ ಆಂತರಿಕ ಪ್ರದೇಶ"
+
+msgid "MAXDIVISIBLEAREA"
+msgstr "ಗರಿಷ್ಠ ಡಿವೈಸಿಬಲ್ ಆಂತರಿಕ ಪ್ರದೇಶ"
+
+msgid "MAXCONTIGUOUSAREA"
+msgstr "ಗರಿಷ್ಠ ಸಂಚಿತ ಆಂತರಿಕ ಪ್ರದೇಶ"
+
+msgid "YEARBUILT"
+msgstr "ಬಿಲ್ಟ್ ವರ್ಷದ"
+
+msgid "NUMBEROFROOMS"
+msgstr "ಕೊಠಡಿ ಸಂಖ್ಯೆ"
+
+msgid "NUMBEROFSTORIES"
+msgstr "ಕಥೆಗಳು ಸಂಖ್ಯೆ"
+
+msgid "NUMBEROFPARKINGLOTS"
+msgstr "ಪಾರ್ಕಿಂಗ್ ಸ್ಥಳಗಳು ಸಂಖ್ಯೆ"
+
+msgid "CONSTRUCTIONSTATUS"
+msgstr "ನಿರ್ಮಾಣ ಸ್ಥಿತಿ"
+
+msgid "LEASEAMOUNT"
+msgstr "ಲೀಸ್ ಮೊತ್ತ"
+
+msgid "EXPENSEAMOUNT"
+msgstr "ಖರ್ಚು"
+
+msgid "EXPENSETYPE"
+msgstr "ಖರ್ಚು ಕೌಟುಂಬಿಕತೆ"
+
+msgid "LEASEENDDATE"
+msgstr "ಲೀಸ್ ಎಂಡ್ ಡೇಟ್"
+
+msgid "ROOMTYPE"
+msgstr "ಕೋಣೆ ಪ್ರಕಾರ"
+
+msgid "NUMBEROFWASHROOMS"
+msgstr "ಬಾತ್ ಕೊಠಡಿ ಸಂಖ್ಯೆ"
+
+msgid "FURNISHEDSTATUS"
+msgstr "ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು?"
+
+msgid "UNFURNISHED"
+msgstr "ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು"
+
+msgid "SEMI_FURNISHED"
+msgstr "ಅರೆ ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು"
+
+msgid "FURNISHED"
+msgstr "ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು"
+
+msgid "DISTANCE"
+msgstr "ಹುಡುಕಾಟ ತ್ರಿಜ್ಯ"
+
+msgid "BUILDINGAGE"
+msgstr "ಕಟ್ಟಡ ವಯಸ್ಸು (ವರ್ಷಗಳು)"
+
+msgid "POSTEDBY"
+msgstr "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+
+msgid "PROPERTIESFOUND"
+msgstr "ಪ್ರಾಪರ್ಟೀಸ್ ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "BYRELAVANCE"
+msgstr "ಪ್ರಸ್ತುತತೆಯ ಪ್ರಕಾರ"
+
+msgid "HIGHESTAREA"
+msgstr "ಪ್ರದೇಶ (ಕಡಿಮೆ ಮಟ್ಟದಿಂದ)"
+
+msgid "LOWESTAREA"
+msgstr "ವಿಸ್ತೀರ್ಣ (ಎತ್ತರದಿಂದ ಕಡಿಮೆ)"
+
+msgid "HIGHESTPRICE"
+msgstr "ಬೆಲೆ (ಲೋ ಹೈ)"
+
+msgid "LOWESTPRICE"
+msgstr "ಬೆಲೆ (ಕಡಿಮೆಯಿಂದ)"
+
+msgid "GRID"
+msgstr "ಗ್ರಿಡ್"
+
+msgid "CHAT"
+msgstr "ಚಾಟಿಂಗ್"
+
+msgid "EMAIL"
+msgstr "ಇಮೇಲ್"
+
+msgid "SHARE"
+msgstr "ಹಂಚಿಕೊಳ್ಳಿ"
+
+msgid "LOGIN"
+msgstr "ಲಾಗಿನ್"
+
+msgid "FEATUREDREALTORS"
+msgstr "ವಿಶಿಷ್ಟ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆಂಟ್"
+
+msgid "FEATUREDPROPERTIES"
+msgstr "ವೈಶಿಷ್ಟ್ಯಪೂರ್ಣ ಗುಣಗಳು"
+
+msgid "LOCATION"
+msgstr "ಸ್ಥಳ"
+
+msgid "INTERACTIVEMAP"
+msgstr "ಇಂಟರಾಕ್ಟಿವ್ ನಕ್ಷೆ"
+
+msgid "MOREDETAILS"
+msgstr "ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ"
+
+msgid "RESIDENTIAL_LAND"
+msgstr "ರೆಸಿಡೆನ್ಶಿಯಲ್ ಲ್ಯಾಂಡ್"
+
+msgid "VILLA"
+msgstr "ವಿಲ್ಲಾ"
+
+msgid "STORE"
+msgstr "ಅಂಗಡಿ"
+
+msgid "LAUNDRY"
+msgstr "ಲಾಂಡ್ರಿ"
+
+msgid "SCHOOL"
+msgstr "ಸ್ಕೂಲ್"
+
+msgid "SPA"
+msgstr "ಸ್ಪಾ"
+
+msgid "CATEGORIES"
+msgstr "ವರ್ಗಗಳು"
+
+msgid "CATEGORY"
+msgstr "ವರ್ಗ"
+
+msgid "FIXTURES"
+msgstr "ಫಿಕ್ಚರ್ಗಳು"
+
+msgid "CLICKTOSEE"
+msgstr "ಹತ್ತಿರದ ಸ್ಥಳಗಳು ನೋಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "INTERCOM"
+msgstr "ಇಂಟರ್ಕಮ್"
+
+msgid "VIDEOCONFERENCE"
+msgstr "ವೀಡಿಯೊ ಕಾನ್ಫರೆನ್ಸ್"
+
+msgid "LAN"
+msgstr "ಸ್ಥಳೀಯ ವಲಯ ಜಾಲ"
+
+msgid "ENTRYSECURITY"
+msgstr "ಎಂಟ್ರಿ ಭದ್ರತಾ"
+
+msgid "BIOMETRICACCESS"
+msgstr "ಬಯೋಮೆಟ್ರಿಕ್ ಪ್ರವೇಶ"
+
+msgid "CHILDRENPLAYAREA"
+msgstr "ಮಕ್ಕಳ ಪ್ಲೇ ಏರಿಯಾ"
+
+msgid "GARDENAREA"
+msgstr "ಗಾರ್ಡನ್ ಪ್ರದೇಶ"
+
+msgid "SWIMMINGPOOL"
+msgstr "ಈಜು ಕೊಳ"
+
+msgid "JOGGINGTRACK"
+msgstr "ಜಾಗಿಂಗ್ ಟ್ರ್ಯಾಕ್"
+
+msgid "INDOORSPORTS"
+msgstr "ಒಳಾಂಗಣ ಸ್ಪೋರ್ಟ್ಸ್"
+
+msgid "OUTDOORSPORTS"
+msgstr "ಹೊರಾಂಗಣ ಕ್ರೀಡೆ"
+
+msgid "DEPARTMENTSTORE"
+msgstr "ಕಿರಾಣಿ ಅಂಗಡಿ"
+
+msgid "DETAILS"
+msgstr "ವಿವರಗಳು"
+
+msgid "FEATURES"
+msgstr "ಸೌಲಭ್ಯಗಳನ್ನು"
+
+msgid "SPECIFICATIONS"
+msgstr "ವಿಶೇಷಣಗಳು"
+
+msgid "FORLEASEDETAILS"
+msgstr "ಲೀಸ್ ಮಾಹಿತಿ"
+
+msgid "FORSALEDETAILS"
+msgstr "ಮಾರಾಟದ ಮಾಹಿತಿ"
+
+msgid "PRICEDETAILS"
+msgstr "ಬೆಲೆ ವಿವರಗಳು"
+
+msgid "BUILDINGROOMDETAILS"
+msgstr "ಕೊಠಡಿ ವಿವರಗಳು"
+
+msgid "ROOMS"
+msgstr "ಕೊಠಡಿ"
+
+msgid "AIRPORT"
+msgstr "ವಿಮಾನ ನಿಲ್ದಾಣ"
+
+msgid "HOSPITAL"
+msgstr "ಆಸ್ಪತ್ರೆ"
+
+msgid "BUSSTATION"
+msgstr "ಬಸ್ ನಿಲ್ದಾಣ"
+
+msgid "POLICE"
+msgstr "ಆರಕ್ಷಕ ಠಾಣೆ"
+
+msgid "POSTOFFICE"
+msgstr "ಅಂಚೆ ಕಛೇರಿ"
+
+msgid "SUBWAYSTATION"
+msgstr "ಸುರಂಗಮಾರ್ಗದ ನಿಲ್ದಾಣ"
+
+msgid "TRAINSTATION"
+msgstr "ರೈಲ್ವೆ ನಿಲ್ದಾಣ"
+
+msgid "SHOPPINGMALL"
+msgstr "ಶಾಪಿಂಗ್ ಮಾಲ್"
+
+msgid "PARKING"
+msgstr "ಪಾರ್ಕಿಂಗ್"
+
+msgid "ATM"
+msgstr "ಎಟಿಎಂ"
+
+msgid "LODGING"
+msgstr "ವಸತಿ"
+
+msgid "REALESTATEAGENCY"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆನ್ಸಿ"
+
+msgid "BANK"
+msgstr "ಬ್ಯಾಂಕ್"
+
+msgid "CREATELISTING"
+msgstr "ಮಾರಾಟ / ಬಾಡಿಗೆ ಆಸ್ತಿ"
+
+msgid "PHOTOSVIDEOS"
+msgstr "ಫೋಟೋಗಳು ಮತ್ತು ಡಾಕ್ಯುಮೆಂಟ್ಗಳು"
+
+msgid "FINISH"
+msgstr "ಮುಕ್ತಾಯ"
+
+msgid "SELECTEDBUILDINGUNITCOLLAPSIBLE"
+msgstr "ಘಟಕ ಮಾಹಿತಿ"
+
+msgid "PROPERTYCOLLAPSIBLE"
+msgstr "ಆಸ್ತಿ ಮಾಹಿತಿ"
+
+msgid "SELECTEDLOTDETAILSCOLLAPSIBLE"
+msgstr "ಕಥಾವಸ್ತು ಮಾಹಿತಿ"
+
+msgid "SELECTEDBUILDINGCOLLAPSIBLE"
+msgstr "ಕಟ್ಟಡ ಮಾಹಿತಿ"
+
+msgid "BUILDINGDETAILSCOLLAPSIBLE"
+msgstr "ಕಟ್ಟಡ ಮಾಹಿತಿ"
+
+msgid "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE"
+msgstr "ಹೆಚ್ಚುವರಿ ವಿವರಗಳು"
+
+msgid "APARTMENTDETAILSCOLLAPSIBLE"
+msgstr "ಸೌಲಭ್ಯಗಳನ್ನು"
+
+msgid "ROOMSCOLLAPSIBLE"
+msgstr "ರೂಮ್ ಮಾಹಿತಿ"
+
+msgid "SECURITYSTAFF"
+msgstr "ಭದ್ರತಾ ಸಿಬ್ಬಂದಿ"
+
+msgid "MAINTENANCECHARGES"
+msgstr "ಮಾಸಿಕ ನಿರ್ವಹಣಾ ಶುಲ್ಕಗಳು"
+
+msgid "RENTALAMOUNT"
+msgstr "ಬಾಡಿಗೆ ಪ್ರಮಾಣ"
+
+msgid "COVEREDPARKING"
+msgstr "ಕವರ್ಡ್ ಪಾರ್ಕಿಂಗ್"
+
+msgid "YES"
+msgstr "ಹೌದು"
+
+msgid "NO"
+msgstr "ಯಾವುದೇ"
+
+msgid "UNITTYPE"
+msgstr "ಘಟಕ ಕೌಟುಂಬಿಕತೆ"
+
+msgid "CONFIRM"
+msgstr "ದೃಢೀಕರಿಸಿ"
+
+msgid "AVAILABLEDATE"
+msgstr "ಪೊಸೆಷನ್ ದಿನಾಂಕ"
+
+msgid "WELCOMETO"
+msgstr "ಸುಸ್ವಾಗತ"
+
+msgid "ADDNEW"
+msgstr "ಹೊಸದನ್ನು ಸೇರಿಸಿ"
+
+msgid "LOCATEME"
+msgstr "ನನ್ನ ಸ್ಥಾನ ಬಳಸಿ"
+
+msgid "ENTERPREFEREDLOCATION"
+msgstr "ಲೋಕಲಿಟಿ / ಲ್ಯಾಂಡ್ಮಾರ್ಕ್ / ಸ್ಟ್ರೀಟ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+
+msgid "REGISTER"
+msgstr "ನೋಂದಣಿ"
+
+msgid "ACTIVELISTINGS"
+msgstr "ಇತ್ತೀಚಿನ ಜಾಹೀರಾತುಗಳು"
+
+msgid "CLEARSEARCH"
+msgstr "ಸ್ಪಷ್ಟ"
+
+msgid "SEARCHBYPROPERTYNAME"
+msgstr "ಆಸ್ತಿ ಹೆಸರು / ಸ್ಟ್ರೀಟ್ ವಿಳಾಸ"
+
+msgid "SEARCHBYREALTORNAME"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಹೆಸರು"
+
+msgid "SEARCHBYPROFESSIONALNAME"
+msgstr "ಸೇವೆ ಒದಗಿಸುವವರು ಹೆಸರು"
+
+msgid "SEARCH"
+msgstr "ಹುಡುಕು"
+
+msgid "DOCUMENTSGALLERY"
+msgstr "ಅಪ್ಲೋಡ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್ಸ್"
+
+msgid "PHOTOSGALLERY"
+msgstr "ಚಿತ್ರಸಂಪುಟ"
+
+msgid "PROPERTY"
+msgstr "ಆಸ್ತಿ"
+
+msgid "UNIT"
+msgstr "ಘಟಕ"
+
+msgid "PROPSHUBREGISTRATION"
+msgstr "2018 Propshub ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ"
+
+msgid "CALLUS"
+msgstr "ನಮ್ಮನ್ನು ಕಾಲ್"
+
+msgid "EMAILUS"
+msgstr "ನಮ್ಮನ್ನು ಇಮೇಲ್ ಮಾಡಿ"
+
+msgid "SIGNIN"
+msgstr "ಲಾಗಿನ್"
+
+msgid "SETTINGS"
+msgstr "ಸೆಟ್ಟಿಂಗ್ಗಳು"
+
+msgid "BACKTO"
+msgstr "ಬ್ಯಾಕ್ ಟು"
+
+msgid "POSTEDON"
+msgstr "ಪೋಸ್ಟ್"
+
+msgid "LIST"
+msgstr "ಪಟ್ಟಿ"
+
+msgid "SAVESEARCH"
+msgstr "ಹುಡುಕು ಉಳಿಸಿ"
+
+msgid "NEWLYLISTED"
+msgstr "ಹೆಚ್ಚಿನ ಇತ್ತೀಚೆಗೆ ದಿನಾಂಕ"
+
+msgid "NEXT"
+msgstr "ಮುಂದಿನ"
+
+msgid "ALL"
+msgstr "ಎಲ್ಲಾ"
+
+msgid "IMAGES"
+msgstr "ಚಿತ್ರಗಳು"
+
+msgid "BACKTOMAP"
+msgstr "ಹಿಂದಿನ ಹಂತ"
+
+msgid "PREVIOUS"
+msgstr "ಹಿಂದಿನ"
+
+msgid "LOADINGDATA"
+msgstr "ಕೆಲಸ !!!"
+
+msgid "GAS_STATION"
+msgstr "ಪೆಟ್ರೋಲ್ ಬಂಕ್"
+
+msgid "GASSTATION"
+msgstr "ಪೆಟ್ರೋಲ್ ಬಂಕ್"
+
+msgid "CITYLOCATION"
+msgstr "ಸಿಟಿ ಅಥವಾ ಸ್ಥಳ"
+
+msgid "TONS"
+msgstr "ಟನ್"
+
+msgid "YRS"
+msgstr "ಇಯರ್ಸ್"
+
+msgid "MI"
+msgstr "ಮೈಲ್ಸ್"
+
+msgid "KM"
+msgstr "ಕಿಲೋಮೀಟರ್ಗಳು"
+
+msgid "PERCENTAGE"
+msgstr "ಶೇಕಡಾವಾರು"
+
+msgid "FT"
+msgstr "ಅಡಿ"
+
+msgid "AMOUNT"
+msgstr "ಪ್ರಮಾಣ"
+
+msgid "SQFT"
+msgstr "ಚದರ ಅಡಿ"
+
+msgid "AGENT"
+msgstr "ಏಜೆಂಟ್"
+
+msgid "HELP"
+msgstr "ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ"
+
+msgid "TYPE"
+msgstr "ವಿಧ"
+
+msgid "PROPERTYFORSALE"
+msgstr "ಮಾರಾಟಕ್ಕೆ ಗುಣಗಳು"
+
+msgid "PROPERTYFORLEASE"
+msgstr "ಬಾಡಿಗೆ"
+
+msgid "REALTORSANDBROKERS"
+msgstr "ರಿಯಾಲ್ಟರ್"
+
+msgid "MORESEARCHOPTIONS"
+msgstr "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"
+
+msgid "VACATIONRENTAL"
+msgstr "ರಜೆ ಬಾಡಿಗೆ"
+
+msgid "REALTOR"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್"
+
+msgid "PROFESSIONAL"
+msgstr "ಸೇವೆ ಒದಗಿಸುವವರು"
+
+msgid "PHONE"
+msgstr "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
+
+msgid "OWNER"
+msgstr "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+
+msgid "CONTACTACTIONS"
+msgstr "ಸಂಪರ್ಕ ಆದ್ಯತೆಗಳು"
+
+msgid "STARTTIME"
+msgstr "ಅವರ್ ಪ್ರಾರಂಭ ಸಮಯ ಭೇಟಿ"
+
+msgid "ENDTIME"
+msgstr "ಅವರ್ ಎಂಡ್ ಟೈಮ್ ಭೇಟಿ"
+
+msgid "ADDOPENHOUSETIME"
+msgstr "ಮತ್ತೊಂದು ದಿನಾಂಕ ಸೇರಿಸಿ"
+
+msgid "HOURS"
+msgstr "ಟೈಮ್ ಆಯ್ಕೆ"
+
+msgid "OPENHOUSEDATE"
+msgstr "ಓಪನ್ ಹೌಸ್ ದಿನಾಂಕ"
+
+msgid "SCHEDULEOPENHOUSE"
+msgstr "ಓಪನ್ ಹೌಸ್ ಅನ್ನು ನಿಗದಿಪಡಿಸಿ"
+
+msgid "OPENHOUSETIMES"
+msgstr "ಓಪನ್ ಹೌಸ್ ಅನ್ನು ನಿಗದಿಪಡಿಸಿ"
+
+msgid "INDIVIDUAL"
+msgstr "ಇಂಡಿವಿಜುವಲ್"
+
+msgid "COMPANY"
+msgstr "ಕಂಪನಿ"
+
+msgid "BROKERAGEFIRM"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆನ್ಸಿ"
+
+msgid "SIMILARLISTINGS"
+msgstr "ನೀವು ಇಷ್ಟ ಮಾಡಬಹುದು"
+
+msgid "SIGNUPAS"
+msgstr "ಮಾಹಿತಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+
+msgid "LOADMORE"
+msgstr "ಇನ್ನಷ್ಟು ಲೋಡ್"
+
+msgid "SEND"
+msgstr "ಕಳುಹಿಸು"
+
+msgid "SENDEMAIL"
+msgstr "ಇಮೇಲ್ ಕಳುಹಿಸಿ"
+
+msgid "IN"
+msgstr "ಭಾರತದ"
+
+msgid "US"
+msgstr "ಯುಎಸ್ಎ"
+
+msgid "CA"
+msgstr "ಕೆನಡಾದಲ್ಲಿ"
+
+msgid "AR"
+msgstr "ಅರ್ಜೆಂಟೀನಾ"
+
+msgid "CO"
+msgstr "ಕೊಲಂಬಿಯ"
+
+msgid "BR"
+msgstr "ಬ್ರೆಜಿಲ್"
+
+msgid "MX"
+msgstr "ಮೆಕ್ಸಿಕೋ"
+
+msgid "USD"
+msgstr "ಅಮೆರಿಕನ್ ಡಾಲರ್"
+
+msgid "CAD"
+msgstr "ಕೆನಡಿಯನ್ ಡಾಲರ್"
+
+msgid "MXN"
+msgstr "ಮೆಕ್ಸಿಕನ್ ಪೆಸೊ"
+
+msgid "BRL"
+msgstr "ಬ್ರೆಜಿಲಿಯನ್ ರಿಯಲ್"
+
+msgid "ARS"
+msgstr "ರಾಂಡ್"
+
+msgid "COP"
+msgstr "ಕೊಲಂಬಿಯಾದ ಪೆಸೊ"
+
+msgid "INR"
+msgstr "ಭಾರತೀಯ ರೂಪಾಯಿ"
+
+msgid "SITECAPTION"
+msgstr "ವಸತಿ ಹೂಡಿಕೆದಾರರಿಗೆ ಜಾಗತಿಕ ಹಬ್"
+
+msgid "CAPTION"
+msgstr "ಇದಕ್ಕಾಗಿ ಹುಡುಕು…"
+
+msgid "PROPERTYNULLRESULTSTITLE"
+msgstr "ಯಾವುದೇ ಪ್ರಾಪರ್ಟೀಸ್ ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "REALTORNULLRESULTSTITLE"
+msgstr "ಇಲ್ಲ ರಿಯಾಲ್ಟರ್ಸ್ / ಬ್ರೋಕರ್ಗಳು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "PROFESSIONALNULLRESULTSTITLE"
+msgstr "ಯಾವುದೇ ಸೇವೆ ಒದಗಿಸುವವರು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "REALTORNULLRESULTSMESSAGE"
+msgstr "ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ರಿಯಾಲ್ಟರ್ಸ್ / ಬ್ರೋಕರ್ಗಳು ಲಭ್ಯವಿಲ್ಲ ಎಂದು ತೋರುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹುಡುಕಾಟ ಮಾನದಂಡವನ್ನು ವಿಸ್ತರಿಸಿ ಅಥವಾ ನಂತರ ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ."
+
+msgid "PROFESSIONALNULLRESULTSMESSAGE"
+msgstr "ನಿಮ್ಮ ಹುಡುಕಾಟ ಮಾನದಂಡಗಳನ್ನು ಮಾಡಿಕೊಳ್ಳಲು ಯಾವುದೇ ಸೇವೆ ಒದಗಿಸುವವರು ಕಂಡುಬಂದಿಲ್ಲವೆಂದು ತೋರುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ವಿಸ್ತರಿಸಿ ಅಥವಾ ನಂತರ ಪರಿಶೀಲಿಸಿ."
+
+msgid "PROPERTYNULLRESULTSMESSAGE"
+msgstr "ನಿಮ್ಮ ಹುಡುಕಾಟ ಮಾನದಂಡಗಳನ್ನು ಲಭ್ಯವಿದೆ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಕಂಡುಬಂದಿಲ್ಲವೆಂದು ತೋರುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ವಿಸ್ತರಿಸಿ ಅಥವಾ ನಂತರ ಪರಿಶೀಲಿಸಿ."
+
+msgid "PROPERTYTOOMANYRESULTS"
+msgstr "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಮಾನದಂಡಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುವ ಹಲವಾರು ಗುಣಗಳನ್ನು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ಕುಗ್ಗಿಸುವ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "PROFESSIONALTOOMANYRESULTS"
+msgstr "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಮಾನದಂಡಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುವ ಹಲವಾರು ಸೇವಾದಾರರು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ಕುಗ್ಗಿಸುವ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "BROKERAGEFIRMINFOCOLLAPSIBLE"
+msgstr "ವೃತ್ತಿಪರ ಸಾರಾಂಶ"
+
+msgid "COMPANYINFOCOLLAPSIBLE"
+msgstr "ವೃತ್ತಿಪರ ಸಾರಾಂಶ"
+
+msgid "PROFESSIONALSCOLLAPSIBLE"
+msgstr "ಅಸೋಸಿಯೇಟೆಡ್ ಸೇವೆ ಒದಗಿಸುವವ"
+
+msgid "REALTORSCOLLAPSIBLE"
+msgstr "ಅಸೋಸಿಯೇಟೆಡ್ ರಿಯಾಲ್ಟರ್ಸ್ / ದಲ್ಲಾಳಿಗಳು"
+
+msgid "ADDPROFESSIONAL"
+msgstr "ಒಂದು ಸೇವೆ ಒದಗಿಸುವವರನ್ನು ಸೇರಿಸಿ"
+
+msgid "ADDREALTOR"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅನ್ನು ಸೇರಿಸಿ"
+
+msgid "TERMSCONDITIONS"
+msgstr "ನಿಯಮಗಳು ಮತ್ತು ನಿಯಮಗಳು"
+
+msgid "AUTHORIZEDPERSONNEL"
+msgstr "ಈ ಕಂಪನಿ ಮಾಹಿತಿ ನವೀಕರಿಸಲು ನನಗೆ ಅಧಿಕಾರ ಇದೆ"
+
+msgid "TERMSCONDITIONSTITLE"
+msgstr "ನಾನು ಓದಿ ಒಪ್ಪಿಕೊಂಡಿದ್ದೇನೆ"
+
+msgid "LISTINGPENDINGTITLE"
+msgstr "ನಿಮ್ಮ ಪಟ್ಟಿಗೆ ಬಾಕಿ ಉಳಿದಿರುವ ಅನುಮೋದನೆ ಇದೆ"
+
+msgid "LISTINGACTIVETITLE"
+msgstr "ನಿಮ್ಮ ಜಾಹೀರಾತು ಸಕ್ರಿಯವಾಗಿದೆ"
+
+msgid "LISTINGPENDINGDESCRIPTION"
+msgstr "ನಿಮ್ಮ ಆಸ್ತಿಯನ್ನು ಪಟ್ಟಿ ಮಾಡಿದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ವಿನಂತಿಯು ಆನ್ಲೈನ್ನಲ್ಲಿ ಪ್ರಕಟಗೊಳ್ಳುವ ಮೊದಲು ವಿಷಯವನ್ನು ಮಾಡರೇಶನ್ಗಾಗಿ ಕಾಯುತ್ತಿದೆ. ನಿಮ್ಮ ನೋಂದಾಯಿತ ಇಮೇಲ್ ಅನ್ನು ನಿಮ್ಮ ಪಟ್ಟಿಯ ಸ್ಥಿತಿಯನ್ನು ಮರುಪರಿಶೀಲಿಸುವಂತೆ ಪರಿಶೀಲಿಸಿ."
+
+msgid "LISTINGACTIVEDESCRIPTION"
+msgstr "ನಿಮ್ಮ ಜಾಹೀರಾತನ್ನು ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸಮೃದ್ಧಗೊಳಿಸಬಹುದು. ನಿಮ್ಮ ಜಾಹೀರಾತನ್ನು ಮಾರ್ಪಡಿಸಲು ಕೆಳಗಿನ ಸಂಪಾದಿಸು ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "LISTINGCONFIRMATIONDESCRIPTION"
+msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಖಚಿತಪಡಿಸಿ ಮೊದಲು ನಿಮ್ಮ ಜಾಹೀರಾತು ಪೂರ್ವವೀಕ್ಷಣೆ. ಖಚಿತಪಡಿಸುವರು ಒಮ್ಮೆ, ಇದು ನಿಮ್ಮ ಜಾಹೀರಾತು ಪ್ರಕಟವಾಗಬಹುದು ಆನ್ಲೈನ್ ಕೆಲವು ನಿಮಿಷಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ."
+
+msgid "MANDATORYMESSAGE"
+msgstr "ನೀವು ಅಗತ್ಯವಿರುವ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಮೌಲ್ಯಗಳನ್ನು ನಮೂದಿಸಿ ಕೆಳಗೆ ಹೈಲೈಟ್ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
+
+msgid "LISTINGDRAFTMODE"
+msgstr "ಈ ಪುಟವು ನಿಮ್ಮ ಮುನ್ನೋಟ ಆಗಿದೆ. ಇದು ಇನ್ನೂ ಇತರ ಬಳಕೆದಾರರಿಗೆ ಗೋಚರಿಸುವುದಿಲ್ಲ"
+
+msgid "PROPERTYEMAILMESSAGE"
+msgstr "ನನಗೆ ನಿಮ್ಮ ಪ್ರಾಪರ್ಟೀಯಲ್ಲಿ ಆಸಕ್ತಿ ಇದೆ"
+
+msgid "PERSONEMAILMESSAGE"
+msgstr "ನಾನು ನಿಮ್ಮ ಸೇವೆಗಳನ್ನು ಪಡೆಯಲು ಬಯಸುತ್ತೇನೆ"
+
+msgid "RSVPEMAILMESSAGE"
+msgstr "ನಾನು ಓಪನ್ ಹೌಸ್ನಲ್ಲಿ% s ನಲ್ಲಿ ಆಸ್ತಿಗೆ ಭೇಟಿ ನೀಡುತ್ತೇನೆ"
+
+msgid "ENTERRSVPMESSAGE"
+msgstr "% S ಗೆ RSVP ಅನ್ನು ಕಳುಹಿಸಿ"
+
+msgid "ENTEREMAILMESSAGE"
+msgstr "ಸಂದೇಶವನ್ನು% s ಗೆ ರಚಿಸಿ"
+
+msgid "RESIDENTIALSUBTYPEINVALID"
+msgstr "ಅಮಾನ್ಯವಾದ ವಸತಿ ಆಸ್ತಿ ಉಪ ಕೌಟುಂಬಿಕತೆ"
+
+msgid "PROFESSIONINVALID"
+msgstr "ವೃತ್ತಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "UPLOADING"
+msgstr "ಅಪ್ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ !!!"
+
+msgid "UPLOADSUCCESS"
+msgstr "ಯಶಸ್ವಿಯಾಗಿ ಅಪ್ಲೋಡ್ !!!"
+
+msgid "MYPREFERENCES"
+msgstr "ನನ್ನ ಆಯ್ಕೆಗಳು"
+
+msgid "MYCONTACTS"
+msgstr "ನನ್ನ ಸಂಪರ್ಕಗಳು"
+
+msgid "NOTIFICATIONS"
+msgstr "ನನ್ನ ಅಧಿಸೂಚನೆಗಳು"
+
+msgid "REMOVE"
+msgstr "ಆಸ್ತಿಯನ್ನು ಮಾರುಕಟ್ಟೆಗೆ ತೆಗೆದುಕೊಳ್ಳಿ"
+
+msgid "EDIT"
+msgstr "ಸಂಪಾದಿಸಿ"
+
+msgid "VIEW"
+msgstr "ನೋಟ"
+
+msgid "ENTERLOCATION"
+msgstr "ಆಸ್ತಿ ಹೆಸರು / ವಿಳಾಸ / ಲ್ಯಾಂಡ್ಮಾರ್ಕ್ / ಲೋಕಾಲಿಟಿ ನಮೂದಿಸಿ"
+
+msgid "PUBLISH"
+msgstr "ಪ್ರಕಟಿಸು"
+
+msgid "NUMBEROFBEDROOMS"
+msgstr "ಮಲಗುವ ಕೋಣೆಗಳು ಸಂಖ್ಯೆ"
+
+msgid "OFFLINEMESSAGE"
+msgstr "% S ಆಫ್ಲೈನ್ನಲ್ಲಿದೆ. ಇಮೇಲ್ ಕಳುಹಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "PROVIDESEARCHNAME"
+msgstr "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕಾಗಿ ಒಂದು ಹೆಸರನ್ನು ಒದಗಿಸಿ"
+
+msgid "PERCENTAGEOFCOMPLETION"
+msgstr "ಪೂರ್ಣಗೊಂಡ ಸ್ಥಿತಿ"
+
+msgid "FINANCIALCOMPLETIONGROUP"
+msgstr "ಹಣಕಾಸು"
+
+msgid "LISTINGCOMPLETIONGROUP"
+msgstr "ಜಾಹೀರಾತು ಮಾಹಿತಿ"
+
+msgid "PROPERTYCOMPLETIONGROUP"
+msgstr "ಆಸ್ತಿ ವಿವರಗಳು"
+
+msgid "ADDITIONALCOMPLETIONGROUP"
+msgstr "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ"
+
+msgid "MISSINGFIELDS"
+msgstr "ಕಾಣೆಯಾಗಿದೆ ಕ್ಷೇತ್ರಗಳು"
+
+msgid "VIDEOSTABTITLE"
+msgstr "ನಿಮ್ಮ ವೀಡಿಯೊಗಳಿಗೆ URL ಅನ್ನು ಒದಗಿಸಿ"
+
+msgid "TAGFILE"
+msgstr "ನಿಮ್ಮ ಫೋಟೋವನ್ನು ಲೇಬಲ್ ಮಾಡಿ"
+
+msgid "SAVEEXIT"
+msgstr "ಡ್ರಾಫ್ಟ್ & ನಿರ್ಗಮಿಸಿ ಉಳಿಸಿ"
+
+msgid "SENDINGEMAIL"
+msgstr "ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+
+msgid "EMAILSENT"
+msgstr "ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿದೆ"
+
+msgid "PRIVACYPOLICY"
+msgstr "ಗೌಪ್ಯತಾ ನೀತಿ"
+
+msgid "CAPTION1"
+msgstr "ಫ್ಲೈಯರ್ಸ್ ಮತ್ತು ಉಚಿತ ವರದಿಗಳನ್ನು ರಚಿಸಿ"
+
+msgid "CAPTION2"
+msgstr "ಕೆಲವೇ ಕ್ಲಿಕ್ಗಳಲ್ಲಿ ರಿಟರ್ನ್ಸ್ ಅನ್ನು ವಿಶ್ಲೇಷಿಸಿ"
+
+msgid "CAPTION3"
+msgstr "ಮೌಲ್ಯ ಸೇರಿಸು & ರಜೆ ಬಾಡಿಗೆಗಳ ಸ್ವಯಂ ಗುರುತಿಸುವಿಕೆ"
+
+msgid "CAPTION4"
+msgstr "ಪ್ರಾಪರ್ಟೀಸ್ ಹೋಲಿಸಿ ವಿಶ್ಲೇಷಣೆ ಗ್ರಾಫ್ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+
+msgid "CAPTION5"
+msgstr "ಪ್ರತಿ ಲೋಕಲಿಟಿಗಾಗಿ ವಿವರವಾದ ಜನಸಂಖ್ಯಾಶಾಸ್ತ್ರ"
+
+msgid "CAPTION6"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ವೃತ್ತಿಪರರೊಂದಿಗೆ ತಕ್ಷಣ ಸಂಪರ್ಕಿಸಿ"
+
+msgid "PROFILECOMPLETION"
+msgstr "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ವೃದ್ಧಿಸಿಕೊಳ್ಳಿ"
+
+msgid "USERCOMPLETIONGROUP"
+msgstr "ಪ್ರೊಫೈಲ್ ವಿವರಗಳು"
+
+msgid "REALTORSANDBROKERSSEARCHOPTIONINFO"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ಗಳಿಗಾಗಿ ಹುಡುಕಿ"
+
+msgid "INCOME_SPECIALIST"
+msgstr "ಆದಾಯ ಸ್ಪೆಷಲಿಸ್ಟ್"
+
+msgid "WELCOME"
+msgstr "ಸ್ವಾಗತ"
+
+msgid "LOGOUT"
+msgstr "ಲಾಗ್ ಔಟ್"
+
+msgid "LEGAL"
+msgstr "ಕಾನೂನು"
+
+msgid "LOGINHEADING"
+msgstr "ಲಾಗಿನ್ ಅಥವಾ ಸೈನ್ ಅಪ್"
+
+msgid "RESIDENTIAL_LENDING"
+msgstr "ವಸತಿ ಸಾಲ"
+
+msgid "COMMERCIAL_LENDING"
+msgstr "ವಾಣಿಜ್ಯ ಸಾಲ"
+
+msgid "URBAN_PLANNING"
+msgstr "ನಗರ ಯೋಜನೆ / ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್"
+
+msgid "BACK_OFFICE_SPECIALIST"
+msgstr "ಬ್ಯಾಕ್ ಆಫೀಸ್ ಸ್ಪೆಷಲಿಸ್ಟ್"
+
+msgid "OTHER_SPECIALTY"
+msgstr "ಇತರೆ"
+
+msgid "COMMERCIAL_APPRAISER"
+msgstr "ವಾಣಿಜ್ಯ ಮೌಲ್ಯಮಾಪಕ"
+
+msgid "GENERAL_APPRAISER"
+msgstr "ಸಾಮಾನ್ಯ ಮೌಲ್ಯಮಾಪಕ"
+
+msgid "RESIDENTIAL_APPRAISER"
+msgstr "ವಸತಿ ಮೌಲ್ಯಮಾಪಕ"
+
+msgid "PROPERTY_INSPECTOR"
+msgstr "ಆಸ್ತಿ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+
+msgid "PROPERTY_MANAGER"
+msgstr "ಆಸ್ತಿ ವ್ಯವಸ್ಥಾಪಕ"
+
+msgid "LICENSE"
+msgstr "ಪರವಾನಗಿ"
+
+msgid "LICENSENUMBER"
+msgstr "ಪರವಾನಗಿ ಸಂಖ್ಯೆ"
+
+msgid "LICENSEJURISDICTION"
+msgstr "ಪರವಾನಗಿ ನ್ಯಾಯಾಲಯ"
+
+msgid "LICENSEISSUINGAUTHORITY"
+msgstr "ಪರವಾನಗಿ ನೀಡುವ ಅಧಿಕಾರ"
+
+msgid "APPRENTICEINSPECTOR"
+msgstr "ಅಪ್ರೆಂಟಿಸ್ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+
+msgid "AUCTIONEER"
+msgstr "ಹರಾಜುಗಾರ"
+
+msgid "CERTIFIEDGENERALAPPRAISER"
+msgstr "ಸರ್ಟಿಫೈಡ್ ಜನರಲ್ ಮೌಲ್ಯಮಾಪಕ"
+
+msgid "CERTIFIEDRESIDENTIALAPPRAISER"
+msgstr "ಪ್ರಮಾಣೀಕೃತ ವಸತಿ ಮೌಲ್ಯಮಾಪಕ"
+
+msgid "LEASING_AGENT"
+msgstr "ಲೀಸಿಂಗ್ ಏಜೆಂಟ್"
+
+msgid "LICENSEDAPPRAISER"
+msgstr "ಪರವಾನಗಿ ಪಡೆದ ಮೌಲ್ಯಮಾಪಕ"
+
+msgid "LICENSEDINSPECTOR"
+msgstr "ಪರವಾನಗಿ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+
+msgid "MORTGAGE_BROKER"
+msgstr "ಅಡಮಾನ ದಲ್ಲಾಳಿ"
+
+msgid "REALESTATEBROKER"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಬ್ರೋಕರ್"
+
+msgid "REGISTEREDAPPRAISER"
+msgstr "ನೋಂದಾಯಿತ ಮೌಲ್ಯಮಾಪಕ"
+
+msgid "REGISTEREDINSPECTOR"
+msgstr "ನೋಂದಾಯಿತ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+
+msgid "PROPERTYMANAGEMENT"
+msgstr "ಆಸ್ತಿ ನಿರ್ವಹಣೆ"
+
+msgid "RENTALPROPERTYMANAGEMENT"
+msgstr "ಬಾಡಿಗೆ ಆಸ್ತಿ ನಿರ್ವಹಣೆ"
+
+msgid "SALESPERSON"
+msgstr "ಮಾರಾಟಗಾರ"
+
+msgid "APPRAISAL"
+msgstr "ಅಪ್ರೇಸಲ್"
+
+msgid "LAND_DEVELOPMENT"
+msgstr "ಜಮೀನು ಅಭಿವೃದ್ಧಿ"
+
+msgid "SECURITIESANDSYNDICATION"
+msgstr "ಭದ್ರತಾ ಮತ್ತು ಸಿಂಡಿಕೇಶನ್"
+
+msgid "COUNSELING"
+msgstr "ಕೌನ್ಸೆಲಿಂಗ್"
+
+msgid "RESEARCH"
+msgstr "ರಿಸರ್ಚ್"
+
+msgid "SITEURL"
+msgstr "ಸೈಟ್ URL"
+
+msgid "TWITTERHANDLE"
+msgstr "ಟ್ವಿಟರ್ ಹ್ಯಾಂಡಲ್"
+
+msgid "FACEBOOK"
+msgstr "ಫೇಸ್ಬುಕ್ URL"
+
+msgid "BLOG"
+msgstr "ಬ್ಲಾಗ್ URL"
+
+msgid "LINKEDIN"
+msgstr "ಸಂದೇಶ URL ಅನ್ನು"
+
+msgid "EMAILID"
+msgstr "ಇಮೇಲ್"
+
+msgid "PASSWORD"
+msgstr "ಪಾಸ್ವರ್ಡ್"
+
+msgid "FORGOTPASSWORD"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ ?"
+
+msgid "SIGNUP"
+msgstr "ಸೈನ್ ಅಪ್"
+
+msgid "REMEMBERME"
+msgstr "ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿ ಇಡು"
+
+msgid "PROPERTYIMAGEMISSING"
+msgstr "ಫೋಟೋಗಳಿಲ್ಲ"
+
+msgid "PROFESSIONINFOCOLLAPSIBLE"
+msgstr "ವೃತ್ತಿ ಮಾಹಿತಿ"
+
+msgid "CONTACTCOLLAPSIBLE"
+msgstr "ಸಂಪರ್ಕ ಮಾಹಿತಿ"
+
+msgid "EXPERTISE"
+msgstr "ಪರಿಣಿತಿ ಪ್ರದೇಶಗಳು"
+
+msgid "OTHERCONTACTNUMBERS"
+msgstr "ಇತರೆ ಸಂಪರ್ಕಿಸಿ ಸಂಖ್ಯೆಗಳು"
+
+msgid "CONTACTNUMBERTYPE"
+msgstr "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಟೈಪ್"
+
+msgid "CONTACTNUMBER"
+msgstr "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ"
+
+msgid "WEBSITETYPE"
+msgstr "ವೆಬ್ ಸೈಟ್ ಪ್ರಕಾರ"
+
+msgid "PROFESSIONALSINCE"
+msgstr "ವೃತ್ತಿಪರ ರಿಂದ"
+
+msgid "AREAS"
+msgstr "ವಿವರಗಳಿವೆ ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ"
+
+msgid "YEARSOFEXPERIENCE"
+msgstr "ವರ್ಷಗಳ ಅನುಭವ"
+
+msgid "MAPSEARCHUSAGEINFO"
+msgstr "ನಿಮ್ಮ ನಗರ / ನೆರೆಹೊರೆ ಗುರುತಿಸಿ ಮತ್ತು ಗಡಿಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು ಸರ್ಕಲ್ / ಆಯತವನ್ನು ಸೆಳೆಯಿರಿ"
+
+msgid "CHOOSELOCATIONONMAP"
+msgstr "ಮ್ಯಾಪ್ನಲ್ಲಿ ನಿಮ್ಮ ಮೆಚ್ಚಿನ ಸ್ಥಳವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "FEEDBACKSENTFAIL"
+msgstr "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕಳುಹಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ…"
+
+msgid "FEEDBACKSENTSUCCESS"
+msgstr "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ನಾವು ನಿಮಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತೇವೆ."
+
+msgid "COULDNOTFETCHLOCATION"
+msgstr "ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ನಮಗೆ ತರಲಾಗಲಿಲ್ಲ"
+
+msgid "NETOPERATINGINCOMETOOLTIP"
+msgstr "ನಿವ್ವಳ ಕಾರ್ಯಾಚರಣಾ ಆದಾಯ (ಎನ್ಒಐ) ಕಾರ್ಯಾಚರಣೆಗಳಿಂದ ಸಂಗ್ರಹಿಸಲಾದ ಎಲ್ಲಾ ಆದಾಯವನ್ನು ಒಳಗೊಂಡ ನಂತರ ಆಸ್ತಿಯಿಂದ ಉತ್ಪತ್ತಿಯಾಗುವ ವಾರ್ಷಿಕ ಆದಾಯ, ಮತ್ತು ಕಾರ್ಯಾಚರಣೆಗಳಿಂದ ಉಂಟಾದ ಎಲ್ಲಾ ವೆಚ್ಚಗಳನ್ನು ಕಡಿತಗೊಳಿಸುವುದು"
+
+msgid "CAPRATETOOLTIP"
+msgstr "ಬಂಡವಾಳೀಕರಣ ದರ ಅಥವಾ ಕ್ಯಾಪ್ ದರವು, ನಿವ್ವಳ ಆಪರೇಟಿಂಗ್ ವರಮಾನದ (ಎನ್ಒಐ) ಆಸ್ತಿ ಸ್ವತ್ತಿನ ಮೌಲ್ಯಕ್ಕೆ ಅಥವಾ ಬೆಲೆ ಕೇಳುವುದು"
+
+msgid "WIDGETMEDIANPRICE"
+msgstr "ಮಧ್ಯದ ಬೆಲೆಗಳು ಪಟ್ಟಿ ಮಾಡಲಾದ ಎಲ್ಲಾ ಗುಣಲಕ್ಷಣಗಳ ಕೇಳುವ ಬೆಲೆಗಳನ್ನು ಆಧರಿಸಿವೆ"
+
+msgid "SYSTEMGENERATEDVALUENOTE"
+msgstr "ಗುರುತು ಜಾಗಗಳಲ್ಲಿ ಒದಗಿಸಲಾದ ಅಂದಾಜು ಮೌಲ್ಯಗಳನ್ನು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಮಾರುಕಟ್ಟೆ ಪರಿಸ್ಥಿತಿಗಳು, ಐತಿಹಾಸಿಕ ಡೇಟಾ ಮತ್ತು ಇತರ ಅಂಶಗಳ ಆಧಾರದ ಮೇಲೆ ಗಣನೆಯ ಮೂಲಕ ಲೆಕ್ಕಾಚಾರ ಮಾಡಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ."
+
+msgid "RENTINCREMENTPERCENTAGETOOLTIP"
+msgstr "ಐತಿಹಾಸಿಕ ಮತ್ತು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಮಾರುಕಟ್ಟೆ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಬಾಡಿಗೆಗೆ ಅಂದಾಜು ವಾರ್ಷಿಕ ಹೆಚ್ಚಳವನ್ನು ಒದಗಿಸಿ"
+
+msgid "COSTBASISTOOLTIP"
+msgstr "ಕೇಳುವ ಬೆಲೆ ಮತ್ತು ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚಗಳನ್ನು ಪರಿಗಣಿಸುವ ಹೂಡಿಕೆಯ ವೆಚ್ಚದ ಆಧಾರವಾಗಿದೆ. ವೆಚ್ಚದ ಬೇಸಿಸ್ = ಬೆಲೆ + ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚವನ್ನು ಕೇಳುವುದು"
+
+msgid "TOTALINVESTMENTCOSTTOOLTIP"
+msgstr "ಕೇಳುವ ಬೆಲೆ, ಮುಚ್ಚುವ ವೆಚ್ಚ ಮತ್ತು ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚಗಳನ್ನು ಪರಿಗಣಿಸುವ ಹೂಡಿಕೆಯ ವೆಚ್ಚದ ಆಧಾರವಾಗಿದೆ."
+
+msgid "ANNUALTAXABLEINCOMETOOLTIP"
+msgstr "ಆಸ್ತಿಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವ ಎಲ್ಲಾ ಖರ್ಚುಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ವಾರ್ಷಿಕ ತೆರಿಗೆಯ ಆದಾಯವಾಗಿದೆ"
+
+msgid "DEPRECIATIONPERCENTAGETOOLTIP"
+msgstr "ಸಾಮಾನ್ಯ ಉಡುಗೆ ಮತ್ತು ಕಣ್ಣೀರಿನ ಮತ್ತು ಪ್ರಮಾಣಿತ ಸವಕಳಿ ದರಗಳನ್ನು ಪರಿಗಣಿಸಿ ಆಸ್ತಿ ಮೌಲ್ಯದ ಅಂದಾಜು ವಾರ್ಷಿಕ ಸವಕಳಿ ಒದಗಿಸಿ"
+
+msgid "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP"
+msgstr "ಐತಿಹಾಸಿಕ ಮತ್ತು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಮಾರುಕಟ್ಟೆ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಆಸ್ತಿ ಮೌಲ್ಯದಲ್ಲಿ ಅಂದಾಜು ವಾರ್ಷಿಕ ಮೆಚ್ಚುಗೆಯನ್ನು ಒದಗಿಸಿ"
+
+msgid "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP"
+msgstr "ಇದು ಅಡಮಾನವಿಲ್ಲದ ಆರಂಭಿಕ ಹೂಡಿಕೆಯಾಗಿದ್ದು, ಬೆಲೆ ಕೇಳುವುದು, ವೆಚ್ಚಗಳು ಮತ್ತು ಸುಧಾರಣೆ ವೆಚ್ಚಗಳನ್ನು ಮುಚ್ಚುವುದು ಆರಂಭಿಕ ಹೂಡಿಕೆ ಇಲ್ಲದೆ ಅಡಮಾನ = ಕೇಳುವ ಬೆಲೆ + ಮುಚ್ಚುವ ವೆಚ್ಚ + ಆರಂಭಿಕ ಸುಧಾರಣೆ"
+
+msgid "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP"
+msgstr "ಆಸ್ತಿಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವ ಎಲ್ಲಾ ಖರ್ಚುಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ವಾರ್ಷಿಕ ತೆರಿಗೆಯ ಆದಾಯವಾಗಿದೆ. ಮಾರ್ಟ್ಗೇಜ್ ಇಲ್ಲದೆ ವಾರ್ಷಿಕ ತೆರಿಗೆ ಆದಾಯ = ನೆಟ್ ಆಪರೇಟಿಂಗ್ ವರಮಾನ- ಸವಕಳಿ ಮೌಲ್ಯ"
+
+msgid "INITIALINVESTMENTWITHMORTGAGETOOLTIP"
+msgstr "ಅಡಮಾನವನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ಆರಂಭಿಕ ಹೂಡಿಕೆಯಾಗಿದೆ. ಆರಂಭಿಕ ಬಂಡವಾಳ = ಡೌನ್ ಪೇಮೆಂಟ್ + ಪ್ರಾಥಮಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚಗಳು + ಮುಚ್ಚುವ ವೆಚ್ಚ"
+
+msgid "COSTBASISWITHMORTGAGETOOLTIP"
+msgstr "ಸಾಲದ ಸೇವೆ ಉಚಿತ ನಗದು ಹರಿವು = ನೆಟ್ ಆಪರೇಟಿಂಗ್ ವರಮಾನ - ಸಾಲ ಸೇವೆ ಪರಿಗಣನೆಗೆ ತೆಗೆದುಕೊಳ್ಳುವ ನಂತರ ಇದು ಉಚಿತ ನಗದು ಹರಿವು"
+
+msgid "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP"
+msgstr "ಆಸ್ತಿಯನ್ನು ಕಾಪಾಡುವ ವೆಚ್ಚದಲ್ಲಿ ಎಲ್ಲಾ ಖರ್ಚುಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ವಾರ್ಷಿಕ ತೆರಿಗೆಯ ಆದಾಯವಾಗಿದೆ. ಟ್ಯಾಕ್ಸಬಲ್ ಕ್ಯಾಶ್ ಫ್ಲೋ = ವಾರ್ಷಿಕ ಫ್ರೀ ಕ್ಯಾಶ್ ಫ್ಲೋ-ಸವಕಳಿ ಮೌಲ್ಯ"
+
+msgid "SALECLOSINGCOSTTOOLTIP"
+msgstr "ಆಯೋಗಗಳು, ಕೌಂಟಿ ಶುಲ್ಕಗಳು, ಇತ್ಯಾದಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಅಂದಾಜು ಮಾರಾಟ ಮುಚ್ಚುವಿಕೆಯನ್ನು ಒದಗಿಸಿ"
+
+msgid "CLOSINGCOSTTOOLTIP"
+msgstr "ಆಯೋಗಗಳು, ಕೌಂಟಿ ಶುಲ್ಕಗಳು, ಇತ್ಯಾದಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಅಂದಾಜು ಖರೀದಿ ಮುಕ್ತಾಯದ ವೆಚ್ಚವನ್ನು ಒದಗಿಸಿ"
+
+msgid "INITIALIMPROVEMENTCOSTTOOLTIP"
+msgstr "ಖರೀದಿಸಿದ ನಂತರ ಆಸ್ತಿಯ ಸುಧಾರಣೆಗೆ ಅಗತ್ಯವಾದ ಬಂಡವಾಳ ಹೂಡಿಕೆಯನ್ನು ಒದಗಿಸಿ. ವಿಶಿಷ್ಟವಾಗಿ, ಮೌಲ್ಯದ ಗುಣಲಕ್ಷಣಗಳಿಗಾಗಿ ಇದು ಹೆಚ್ಚಾಗಿದೆ"
+
+msgid "OWNERASSOCIATIONFEETOOLTIP"
+msgstr "ಮಾಲೀಕ ಸಂಘಕ್ಕೆ ಪಾವತಿಸಲು ವಾರ್ಷಿಕ ಶುಲ್ಕವನ್ನು ಒದಗಿಸಿ"
+
+msgid "EMICOSTTOOLTIP"
+msgstr "ಪ್ರಮಾಣಿತ ಬಡ್ಡಿದರಗಳು ಪರಿಗಣಿಸಿರುವ ಮಾಸಿಕ ಅಡಮಾನ ಮೊತ್ತವು ಇದು. ನಿಜವಾದ ಅಡಮಾನ ಮೊತ್ತ ಬ್ಯಾಂಕ್ ಮತ್ತು ಕ್ರೆಡಿಟ್ ಸ್ಕೋರ್ನಿಂದ ವಿಧಿಸಲಾದ ಬಡ್ಡಿಯ ದರವನ್ನು ಆಧರಿಸಿರುತ್ತದೆ"
+
+msgid "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP"
+msgstr "ಇದು ಒಟ್ಟು ಆರಂಭಿಕ ಹೂಡಿಕೆಯು ತೇಲುವ ವೆಚ್ಚವನ್ನು ಪರಿಗಣಿಸುತ್ತದೆ, ಪಾವತಿ ಕೆಳಗೆ, ಇತ್ಯಾದಿ"
+
+msgid "CASHONCASHRETURNPERCENTAGETOOLTIP"
+msgstr "ಇದು ಆಸ್ತಿಯಲ್ಲಿ ಹೂಡಿರುವ ಹಣದ ಮೇಲೆ ಗಳಿಸಿದ ನಗದು ಆದಾಯವನ್ನು ಗಣನೆಗೆ ತೆಗೆದುಕೊಳ್ಳುವುದರ ಜೊತೆಗೆ ಲೆಕ್ಕಪರಿಶೋಧನೆಯ ಪ್ರಮಾಣವನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ಆದಾಯದ ದರವಾಗಿದೆ."
+
+msgid "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP"
+msgstr "ಒಟ್ಟು ಪ್ರಾರಂಭಿಕ ಹೂಡಿಕೆಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಆಸ್ತಿಯಲ್ಲಿ ಹೂಡಿದ ಹಣದ ಮೇಲೆ ಗಳಿಸಿದ ನಗದು ಆದಾಯವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡುವ ರಿಟರ್ನ್ ದರ ಇದು."
+
+msgid "HOMEFORSALESEARCHOPTIONINFO"
+msgstr "ಮಾರಾಟಕ್ಕೆ ಹೋಮ್ಸ್ಗಾಗಿ ಹುಡುಕಿ"
+
+msgid "PROPERTYFORLEASESEARCHOPTIONINFO"
+msgstr ""
+
+msgid "PROFESSIONALSEARCHOPTIONINFO"
+msgstr "ಕೊಳಾಯಿಗಾರರು, ವರ್ಣಚಿತ್ರಕಾರರು, ಗುತ್ತಿಗೆದಾರರು ನಂತಹ ವಸತಿ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತಿದ್ದ ಸೇವೆ ಒದಗಿಸುವವರು ಅಥವಾ ವೃತ್ತಿಪರರಿಗೆ ಹುಡುಕಾಟ"
+
+msgid "LOCATIONPREFUSAGEINFO"
+msgstr "ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಆದ್ಯತೆಯ ಸ್ಥಾನಗಳನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ಪರಿಧಿಯನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು ತ್ರಿಜ್ಯವನ್ನು ಹುಡುಕಿ"
+
+msgid "CAPRATERANGETOOLTIP"
+msgstr "ಬಾಡಿಗೆ ಆದಾಯವನ್ನು ಈಗಾಗಲೇ ಉತ್ಪಾದಿಸುವ ಗುಣಲಕ್ಷಣಗಳನ್ನು ನೀವು ಹುಡುಕುತ್ತಿರುವಾಗ ಕ್ಯಾಪ್ ದರಕ್ಕೆ ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ವ್ಯಾಪ್ತಿಯ ಮೌಲ್ಯಗಳನ್ನು ಒದಗಿಸಿ"
+
+msgid "INVESTMENTCATEGORIESTOOLTIP"
+msgstr "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕಾಗಿ ಹೂಡಿಕೆ ವರ್ಗವನ್ನು ಒದಗಿಸಿ ಕೋರ್: ಇದು ಹಣದುಬ್ಬರವಿಲ್ಲದ ನಗದು ಹರಿವಿನೊಂದಿಗೆ ಅನ್ಯವಲ್ಲದ, ಕಡಿಮೆ-ಅಪಾಯ / ಕಡಿಮೆ ಸಾಮರ್ಥ್ಯದ ರಿಟರ್ನ್ ಹೂಡಿಕೆಯಾಗಿದೆ. ಕೋರ್ ಪ್ಲಸ್: ಇದು ಮಧ್ಯಮ-ಅಪಾಯ / ಮಧ್ಯಮ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಿಂದಾಗಿ, ಇದು ಸುಧಾರಣೆಗಳ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ ಅಥವಾ ಇರಬಹುದು. ಮೌಲ್ಯ ಸೇರಿಸಲಾಗಿದೆ: ಇದು ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಅಪಾಯ / ಮಧ್ಯಮ-ದಿಂದ-ಹೆಚ್ಚಿನ-ಲಾಭದ ಹೂಡಿಕೆಯಾಗಿದ್ದು ಇದು ವರ್ಧನೆಗಳನ್ನು ಅಥವಾ ಬಂಡವಾಳದ ಒಳಹರಿವು ಅಥವಾ ಇತರ ಬದಲಾವಣೆಗಳಿಗೆ ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ಅಭಿವೃದ್ಧಿಯ ಅವಕಾಶ: ಇದು ಅಧಿಕ-ಅಪಾಯ / ಅಧಿಕ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಾಗಿದ್ದು, ಇದು ಹೆಚ್ಚಿನ ಮಟ್ಟದ ವರ್ಧನೆ ಅಥವಾ ಇತರ ಅಪಾಯಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ."
+
+msgid "NUMBERONLY"
+msgstr "ದಯವಿಟ್ಟು ಮಾನ್ಯ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
+
+msgid "MAXVALUE"
+msgstr "ಮಾನ್ಯ ಮೌಲ್ಯವನ್ನು ಕಡಿಮೆ ನಮೂದಿಸಿ"
+
+msgid "MAXLENGTH"
+msgstr "ಅವಕಾಶ ಅಕ್ಷರಗಳ ಗರಿಷ್ಠ ಸಂಖ್ಯೆ"
+
+msgid "MINLENGTH"
+msgstr "ಅಗತ್ಯವಿದೆ ಪಾತ್ರಗಳು ಕನಿಷ್ಟ ಸಂಖ್ಯೆಯಾಗಿದೆ"
+
+msgid "EMAILIDREQUIRED"
+msgstr "ಇಮೇಲ್ ID ಅಗತ್ಯವಿದೆ"
+
+msgid "EMAILPATTERNERROR"
+msgstr "ದಯವಿಟ್ಟು ಸರಿಯಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+
+msgid "URLPATTERN"
+msgstr "ದಯವಿಟ್ಟು ಮಾನ್ಯ ವೆಬ್ಸೈಟ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+
+msgid "DATE_EXCEPTION"
+msgstr "ಅಮಾನ್ಯವಾದ ದಿನಾಂಕ ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ"
+
+msgid "DECIMALUPTO4DIGIT"
+msgstr "ದಯವಿಟ್ಟು ಗರಿಷ್ಟ 4 ದಶಮಾಂಶ ಸ್ಥಾನಗಳೊಂದಿಗೆ ಮಾನ್ಯವಾದ ಸಂಖ್ಯೆಯನ್ನು ಒದಗಿಸಿ"
+
+msgid "PROFILEPICTURE"
+msgstr "ಪ್ರೊಫೈಲ್ ಫೋಟೋ"
+
+msgid "ADDPROFILEPIC"
+msgstr "ಪ್ರೊಫೈಲ್ ಫೋಟೋ ಸೇರಿಸಿ"
+
+msgid "UPDATEPROFILEPIC"
+msgstr "ಪ್ರೊಫೈಲ್ ಫೋಟೋ ಬದಲಿಸಿ"
+
+msgid "YOUHAVENOCOMPANIESTITLE"
+msgstr "ನೀವು ಪ್ರಸ್ತುತ ಕಂಪೆನಿಯೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ"
+
+msgid "YOUHAVENOCOMPANIESMESSAGE"
+msgstr "ಹೊಸ ಕಂಪನಿಯೊಂದನ್ನು ನೋಂದಾಯಿಸಲು ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "YOUHAVENOLISTINGSTITLE"
+msgstr "ನೀವು ಯಾವುದೇ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಜಾಹಿರಾತು ಮಾಡಿಲ್ಲ"
+
+msgid "YOUHAVENOLISTINGSMESSAGE"
+msgstr "ಮಾರಾಟ / ಬಾಡಿಗೆ ಆಸ್ತಿಯ ಗುಂಡಿಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "CONFIRMPASSWORDERROR"
+msgstr "ಗುಪ್ತಪದಗಳುತಾಳೆಯಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಮರುಪ್ರಯತ್ನಿಸಿ !!!"
+
+msgid "PASSWORDCHANGESUCCESS"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಬದಲಾಗಿದೆ !!!"
+
+msgid "PREFERENCESSAVESUCCESS"
+msgstr "ಆದ್ಯತೆಗಳು ಉಳಿಸಲಾಗಿದೆ !!!"
+
+msgid "PROFILESAVESUCCESS"
+msgstr "ಪ್ರೊಫೈಲ್ ಉಳಿಸಲಾಗಿದೆ !!!"
+
+msgid "MYWISHLIST"
+msgstr "ನನ್ನ ವೀಕ್ಷಣೆ ಪಟ್ಟಿ"
+
+msgid "REMOVEFROMWISHLIST"
+msgstr "ನನ್ನ ವೀಕ್ಷಣೆ ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಿ"
+
+msgid "PHONENUMBERVIEWED"
+msgstr "ಯಾರಾದರೂ ನನ್ನ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ವೀಕ್ಷಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+
+msgid "CHATINITIATED"
+msgstr "ಯಾರಾದರೂ ನನ್ನೊಂದಿಗೆ ಚಾಟ್ ಸಂವಾದವನ್ನು ಪ್ರಾರಂಭಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+
+msgid "RSVPSENT"
+msgstr "ಯಾರಾದರೂ ಓಪನ್ ಹೌಸ್ಗಾಗಿ ಆರ್ಎಸ್ವಿಪಿ ಕಳುಹಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+
+msgid "SAVEDSEARCHMATCH"
+msgstr "ನನ್ನ ಉಳಿಸಿದ ಹುಡುಕಾಟ ಮಾನದಂಡಕ್ಕೆ ಹೊಸ ಪಟ್ಟಿಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+
+msgid "LISTINGCREATED"
+msgstr "ಯಾರಾದರೂ ನನ್ನ ಪ್ರದೇಶಗಳಲ್ಲಿ ಒಂದು ಆಸ್ತಿಯನ್ನು ಪ್ರಕಟಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ & ಸ್ಥಳಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆ"
+
+msgid "ENTERSAVEDSEARCHNOTIFICATIONDAYS"
+msgstr "ದಿನಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
+
+msgid "SAVEDSEARCHNOTIFICATIONDAYS"
+msgstr "ದಿನಗಳ ನಂತರ ನಾವು ನಿಮಗೆ ಕಳುಹಿಸುವಿಕೆಯನ್ನು ನಿಲ್ಲಿಸಲು ಸೂಚನೆಗಳು ಹೊಂದಿಕೆ"
+
+msgid "SAVEDON"
+msgstr "ಉಳಿಸಲಾಗಿದೆ"
+
+msgid "YOUHAVENOWISHLISTTITLE"
+msgstr "ನಿಮ್ಮ ವಾಚ್ ಪಟ್ಟಿಯಲ್ಲಿ ನೀವು ಯಾವುದೇ ಪಟ್ಟಿಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+
+msgid "YOUHAVENOWISHLISTMESSAGE"
+msgstr "ನಿಮ್ಮ ವಾಚ್ ಲಿಸ್ಟ್ಗೆ ಅದನ್ನು ಸೇರಿಸಲು ಲಿಸ್ಟ್ ಡಿಸ್ಪ್ಲೇನಲ್ಲಿ ಹಾರ್ಟ್ ಚಿಹ್ನೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "YOUHAVENOSEARCHESTITLE"
+msgstr "ನೀವು ಉಳಿಸಿದ ಹುಡುಕಾಟಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+
+msgid "YOUHAVENOSEARCHESMESSAGE"
+msgstr "ಭವಿಷ್ಯದ ಉಲ್ಲೇಖಕ್ಕಾಗಿ ಅದನ್ನು ಉಳಿಸಲು ಆಸ್ತಿ ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳಲ್ಲಿ ಸೇವ್ ಹುಡುಕಾಟ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+msgid "YOUHAVENONOTIFTITLE"
+msgstr "ನೀವು ಯಾವುದೇ ಸಂಪರ್ಕಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+
+msgid "YOUHAVENONOTIFMESSAGE"
+msgstr "ನೀವು ಯಾರನ್ನಾದರೂ ಸಂಪರ್ಕಿಸಿ ಅಥವಾ ಯಾರಾದರೂ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿದಾಗ, ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಇಲ್ಲಿ ಗೋಚರಿಸುತ್ತವೆ"
+
+msgid "ADDEDTOWISHLIST"
+msgstr "ವಾಚ್ ಲಿಸ್ಟ್ಗೆ ಸೇರಿಸಲಾಗಿದೆ"
+
+msgid "ADDTOWISHLIST"
+msgstr "ವೀಕ್ಷಣೆಯ ಪಟ್ಟಿಗೆ ಸೇರಿಸು"
+
+msgid "STATUSMESSAGE"
+msgstr "ಸ್ಥಿತಿ ಸಂದೇಶ"
+
+msgid "ENRICHYOURPROFILEMSG"
+msgstr "ಸಂಭಾವ್ಯ ಹೂಡಿಕೆದಾರರಿಗೆ ನಿಮ್ಮ ಗೋಚರತೆಯನ್ನು ಸುಧಾರಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಉತ್ಕೃಷ್ಟಗೊಳಿಸಿ."
+
+msgid "LICENSEREQUIRED"
+msgstr "ಪರವಾನಗಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ"
+
+msgid "CURRENTPASSWORD"
+msgstr "ಪ್ರಸ್ತುತ ಗುಪ್ತಪದ"
+
+msgid "NEWPASSWORD"
+msgstr "ಹೊಸ ಪಾಸ್ವರ್ಡ್"
+
+msgid "CONFIRMPASSWORD"
+msgstr "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ"
+
+msgid "ENTERNAME"
+msgstr "ಹೆಸರು ನಮೂದಿಸಿ"
+
+msgid "ENTERMOBILE"
+msgstr "ಮೊಬೈಲ್ ನಮೂದಿಸಿ"
+
+msgid "NOTAMEMBER"
+msgstr "ಮಾಡಿರುವುದಿಲ್ಲ ಒಂದು ಸದಸ್ಯ?"
+
+msgid "EMAILPHONE"
+msgstr "ಇಮೇಲ್ ID ಅಥವಾ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+
+msgid "MEMBERLOGIN"
+msgstr "ಸದಸ್ಯ ಲಾಗಿನ್"
+
+msgid "CREATEYOURACCOUNT"
+msgstr "ನಿಮ್ಮ ಖಾತೆ ರಚಿಸಿ"
+
+msgid "MEMBER"
+msgstr "ಸದಸ್ಯ"
+
+msgid "CHANGEPASSWORD"
+msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸಿ"
+
+msgid "CHANGEPASSWORDDESCRIPTION"
+msgstr "ನಿಮ್ಮ ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಒದಗಿಸಿ"
+
+msgid "ADDWEBSITES"
+msgstr "ಒಂದು ವೆಬ್ ಸೈಟ್ ಸೇರಿಸಿ"
+
+msgid "USERSREGISTRATIONINFOSCHEMATITLE"
+msgstr "ನಮ್ಮ ಸೈಟ್ ನೋಂದಾಯಿಸಿ"
+
+msgid "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE"
+msgstr "ಒಂದು ಸೇವೆ ಪೂರೈಕೆದಾರರು ಅಥವಾ ಪ್ರೋಫೆಷನಲ್ ಎಂದು ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+
+msgid "REALTORSREGISTRATIONINFOSCHEMATITLE"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಆಗಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+
+msgid "COMPANYREGISTRATIONINFOSCHEMATITLE"
+msgstr "ನಮ್ಮ ಸೈಟ್ ನಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿಯ ನೋಂದಣಿ"
+
+msgid "VERIFYOTPHEADING"
+msgstr "OTP ಅನ್ನು ಪರಿಶೀಲಿಸಿ"
+
+msgid "VERIFYOTPACCOUNTLOCKEDLINE1"
+msgstr "ಹಲವಾರು ತಪ್ಪಾದ ಪಾಸ್ವರ್ಡ್ ಪ್ರಯತ್ನಗಳ ಕಾರಣ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ. OTP ಮರು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+
+msgid "VERIFYOTPACCOUNTLOCKEDLINE2"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+
+msgid "VERIFYOTPUSERUNVERIFIEDLINE1"
+msgstr "ನಿಮ್ಮ ಕೊನೆಯ ಭೇಟಿಯ ಸಮಯದಲ್ಲಿ ನೀವು ಸೈನ್ ಅಪ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿಲ್ಲ ಎಂದು ನಾವು ಗಮನಿಸುತ್ತೇವೆ. OTP ಮರು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+
+msgid "VERIFYOTPUSERUNVERIFIEDLINE2"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+
+msgid "VERIFYOTPEMPTYPASSWORDLINE1"
+msgstr "ನಿಮ್ಮ ಕೊನೆಯ ಭೇಟಿಯ ಸಮಯದಲ್ಲಿ ನೀವು ಸೈನ್ ಅಪ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿಲ್ಲ ಎಂದು ನಾವು ಗಮನಿಸುತ್ತೇವೆ. OTP ಮರು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+
+msgid "VERIFYOTPEMPTYPASSWORDLINE2"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+
+msgid "VERIFYOTPAUTOREGISTEREDLINE1"
+msgstr "ಈ ಇಮೇಲ್ ಐಡಿ ನಿಮಗೆ ಸೇರಿದೆ ಎಂದು ನಾವು ದೃಢೀಕರಿಸಬೇಕಾಗಿದೆ"
+
+msgid "VERIFYOTPAUTOREGISTEREDLINE2"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+
+msgid "VERIFYOTPFORGOTPASSWORDLINE1"
+msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಲು ನಿಮ್ಮ ಇಮೇಲ್ ID ಅನ್ನು ನಾವು ಪರಿಶೀಲಿಸಬೇಕಾಗಿದೆ"
+
+msgid "VERIFYOTPFORGOTPASSWORDLINE2"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+
+msgid "VERIFYOTPDESCRIPTIONLINE2"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+
+msgid "VERIFYOTPDESCRIPTIONLINE1"
+msgstr "ಈ ಇಮೇಲ್ ಐಡಿ ನಿಮಗೆ ಸೇರಿದೆ ಎಂದು ನಾವು ದೃಢೀಕರಿಸಬೇಕಾಗಿದೆ"
+
+msgid "REGISTRATIONHEADING"
+msgstr "ಸೈನ್ ಅಪ್"
+
+msgid "REGISTRATIONDESCRIPTIONLINE1"
+msgstr "ನಿಮ್ಮ ಗುರುತನ್ನು ಒದಗಿಸಿ"
+
+msgid "REGISTRATIONDESCRIPTIONLINE2"
+msgstr "ನಿಮ್ಮನ್ನು ಗುರುತಿಸಲು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಬಳಸಲಾಗುತ್ತದೆ ಮತ್ತು ಯಾರೊಂದಿಗೂ ಎಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಲಾಗುವುದಿಲ್ಲ"
+
+msgid "LOGINDESCRIPTIONLINE1"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ ID ಯನ್ನು ಒದಗಿಸಿ"
+
+msgid "LOGINDESCRIPTIONLINE2"
+msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಅಥವಾ ಸೈನ್ ಅಪ್ ರುಜುವಾತುಗಳಿಗಾಗಿ ನಿಮ್ಮನ್ನು ಕೇಳಲಾಗುತ್ತದೆ"
+
+msgid "PASSWORDHEADING"
+msgstr "ಭದ್ರತಾ ತಪಾಸಣೆ"
+
+msgid "PASSWORDDESCRIPTIONLINE1"
+msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಒದಗಿಸಿ"
+
+msgid "PASSWORDDESCRIPTIONLINE2"
+msgstr "ನೀವು ಆನ್ಲೈನ್ನಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತೀರಿ ಮತ್ತು ಆನ್ಲೈನ್ನಲ್ಲಿರುವ ಇತರರೊಂದಿಗೆ ತಕ್ಷಣ ಸಂಪರ್ಕಿಸಬಹುದು"
+
+msgid "FORGOTPASSWORDHEADING"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಹೊಂದಿಸಿ"
+
+msgid "FORGOTPASSWORDDESCRIPTIONLINE1"
+msgstr "ನಮ್ಮ ಸೈಟ್ಗೆ ಭವಿಷ್ಯದ ಪ್ರವೇಶಕ್ಕಾಗಿ ಪಾಸ್ವರ್ಡ್ ಒದಗಿಸಿ"
+
+msgid "FORGOTPASSWORDDESCRIPTIONLINE2"
+msgstr "ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಪ್ರಬಲ ಮತ್ತು ಸುಲಭವಾದ ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು"
+
+msgid "STATUSMESSAGETOOLTIP"
+msgstr "ನಿಮ್ಮ ಸಂಪರ್ಕ ಕಾರ್ಡ್ನಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುವ ಸಂಕ್ಷಿಪ್ತ ಸಂದೇಶವನ್ನು ಒದಗಿಸಿ"
+
+msgid "AREASSERVEDTOOLTIP"
+msgstr "ನೀವು ಸೇವೆಯನ್ನು ಪ್ರದೇಶಗಳಲ್ಲಿ ಅಥವಾ ಪ್ರದೇಶಗಳ ಪಟ್ಟಿ ಒದಗಿಸಿ. ನೀವು ನೆರೆಯ ಪ್ರದೇಶಗಳು ಈ ನಿಮ್ಮ ಗೋಚರತೆಯನ್ನು ಸುಧಾರಿಸುತ್ತದೆ ರಿಂದ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
+
+msgid "PROFESSIONSTOOLTIP"
+msgstr "ನೀವು ಒದಗಿಸಿದ ಸೇವೆಗಳು ಪ್ರಕಾರವನ್ನು ಆರಿಸಿ"
+
+msgid "EXPERTISETOOLTIP"
+msgstr "ಪರಿಣತಿ ಮತ್ತು ವಿಶೇಷ ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಪ್ರದೇಶಗಳಲ್ಲಿ ಒದಗಿಸಿ"
+
+msgid "SPECIALTIESTOOLTIP"
+msgstr "ನಿಮ್ಮ ಸೂಕ್ತ ವಸತಿ ವಿಶೇಷ ಆಯ್ಕೆ"
+
+msgid "BROKERAGEFIRMCOMPLETETOOLTIP"
+msgstr "ನಿಮ್ಮ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಸಂಸ್ಥೆ ಈಗಾಗಲೇ ನಮ್ಮೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಬಹುದು. ನಿಮ್ಮ ಕಂಪನಿ ಹೆಸರು ನಮ್ಮ ಡೇಟಾ ಲುಕಪ್. ಕಂಡುಬಂದಿಲ್ಲ, ನೀವು ಯಾವಾಗಲೂ ಇಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿ ನೋಂದಾಯಿಸಿಕೊಳ್ಳಬಹುದು."
+
+msgid "COMPANYCOMPLETETOOLTIP"
+msgstr "ನಿಮ್ಮ ಕಂಪನಿ ಈಗಾಗಲೇ ನಮ್ಮೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಬಹುದು. ನಿಮ್ಮ ಕಂಪನಿ ಹೆಸರು ನಮ್ಮ ಡೇಟಾ ಲುಕಪ್. ಕಂಡುಬಂದಿಲ್ಲ, ನೀವು ಯಾವಾಗಲೂ ಇಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿ ನೋಂದಾಯಿಸಿಕೊಳ್ಳಬಹುದು."
+
+msgid "HAVECOMPANYTOOLTIP"
+msgstr "ನೀವು ಕಂಪನಿಯ ಸಂಬಂಧಿಸಿವೆ, ನೀವು ಇಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸುವ ಮೂಲಕ ಪ್ರಯೋಜನವನ್ನು ಪಡೆಯಬಹುದು"
+
+msgid "HAVECOMPANY"
+msgstr "ಒಂದು ಕಂಪನಿ ಜೊತೆಗಿನ?"
+
+msgid "BROKERAGEFIRMCOMPLETE"
+msgstr "ನಿಮ್ಮ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆನ್ಸಿ ಹೆಸರು ನಮೂದಿಸಿ"
+
+msgid "COMPANYCOMPLETE"
+msgstr "ನಿಮ್ಮ ಕಂಪನಿ ಹೆಸರು ನಮೂದಿಸಿ"
+
+msgid "ADDCOMPANYCOLLAPSIBLE"
+msgstr "ನಿಮ್ಮ ಕಂಪನಿ ಸಿಗಲಿಲ್ಲವೇ?"
+
+msgid "AREAREQUIRED"
+msgstr "ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ ಕನಿಷ್ಠ ಒಂದು ಪ್ರದೇಶ ಕಡ್ಡಾಯ"
+
+msgid "COMPANYNAMEREQUIRED"
+msgstr "ಕಂಪೆನಿ ಹೆಸರು ಕಡ್ಡಾಯ"
+
+msgid "CONTACTNUMBERTYPEREQUIRED"
+msgstr "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಟೈಪ್ ಕಡ್ಡಾಯ"
+
+msgid "CONTACTNUMBERREQUIRED"
+msgstr "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಕಡ್ಡಾಯ"
+
+msgid "NAMEREQUIRED"
+msgstr "ಹೆಸರು ಕಡ್ಡಾಯ"
+
+msgid "MOBILENUMBERREQUIRED"
+msgstr "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಕಡ್ಡಾಯ"
+
+msgid "PASSWORDREQUIRED"
+msgstr "ಪಾಸ್ವರ್ಡ್ ಕಡ್ಡಾಯ"
+
+msgid "REALTORINVALID"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "AREASMISSING"
+msgstr "ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ ಪ್ರದೇಶಗಳು ಕಡ್ಡಾಯ"
+
+msgid "REALTORSINCEINVALID"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅಗತ್ಯವಿದೆ"
+
+msgid "SPECIALTIESINVALID"
+msgstr "ವಿಶೇಷ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "CONTACTACTIONSMISSING"
+msgstr "ಕನಿಷ್ಠ ಒಂದು ಇಷ್ಟದ ಸಂಪರ್ಕಿಸಿ ಆಯ್ಕೆಯನ್ನು ಕಡ್ಡಾಯ"
+
+msgid "CONTACTACTIONINVALID"
+msgstr "ಪ್ರಾಶಸ್ತ್ಯದ ಸಂಪರ್ಕಿಸಿ ಆಯ್ಕೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "PROFESSIONALINVALID"
+msgstr "ವೃತ್ತಿಪರ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "PROFESSIONSMISSING"
+msgstr "ಕನಿಷ್ಠ ಒಂದು ವೃತ್ತಿ ಅಗತ್ಯವಿದೆ"
+
+msgid "MOBILEOREMAILMANDATORY"
+msgstr "ಇಮೇಲ್ ID ಅಥವಾ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಕನಿಷ್ಠ ಒಂದು ಕಡ್ಡಾಯ"
+
+msgid "MOBILEOREMAILACTIONANYONENEEDED"
+msgstr "ಇಮೇಲ್ ID ಅಥವಾ ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಕನಿಷ್ಠ ಒಂದು ಆದ್ಯತೆ ಸಂಪರ್ಕ ಆಯ್ಕೆಯಾಗಿ ಹೊಂದಿಸಬೇಕು"
+
+msgid "EXPIRED_PASSWORD"
+msgstr "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮುಕ್ತಾಯಗೊಂಡಿದೆ. ಇದು ಮರುಹೊಂದಿಸಿ"
+
+msgid "EMPTY_PASSWORD"
+msgstr "ಗುಪ್ತಪದಖಾಲಿಯಿದೆ"
+
+msgid "USER_UNVERIFIED"
+msgstr "ಮುಂದಕ್ಕೆ ನಿಮ್ಮ OTP ಪರಿಶೀಲಿಸಿ"
+
+msgid "USER_ACCOUNT_DISABLED"
+msgstr "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ನಮ್ಮ ಸಿಸ್ಟಮ್ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ"
+
+msgid "USER_ACCOUNT_LOCKED"
+msgstr "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ. ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಲು"
+
+msgid "USER_MOBILE_EXIST"
+msgstr "ನೀವು ಸರಬರಾಜು ಮಾಡಿದ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ಈಗಾಗಲೇ ನಮ್ಮ ವ್ಯವಸ್ಥೆಯನ್ನು ದಾಖಾಲಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಇನ್ನೊಂದು ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಪ್ರಯತ್ನಿಸಿ"
+
+msgid "USER_EMAIL_EXIST"
+msgstr "ನೀವು ಸರಬರಾಜು ಮಾಡಿದ ಇಮೇಲ್ ID ಈಗಾಗಲೇ ನಮ್ಮ ವ್ಯವಸ್ಥೆಯನ್ನು ದಾಖಾಲಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಇನ್ನೊಂದು ಇಮೇಲ್ ಪ್ರಯತ್ನಿಸಿ"
+
+msgid "USER_EMAIL_MOBILE_EXIST"
+msgstr "ನೀವು ಸರಬರಾಜು ಮಾಡಿದ ಇಮೇಲ್ ID ಮತ್ತು ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ಈಗಾಗಲೇ ನಮ್ಮ ವ್ಯವಸ್ಥೆಯನ್ನು ದಾಖಾಲಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೊಂದು ಇಮೇಲ್ ID ಅಥವಾ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಪ್ರಯತ್ನಿಸಿ"
+
+msgid "TOKEN_NOT_FOUND"
+msgstr "OTP ಅನ್ನು ಅಮಾನ್ಯವಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ"
+
+msgid "TOKEN_EXPIRED"
+msgstr "ನಿಮ್ಮ OTP ಮುಗಿದಿದೆ. ಒಂದು ಹೊಸ OTP ಸೃಷ್ಟಿಸಲು ಮಾಡಿ"
+
+msgid "TOKEN_NOT_MATCHING"
+msgstr "OTP ಅನ್ನು ಅಮಾನ್ಯವಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ"
+
+msgid "OLD_PASSWORD_NOT_SAME"
+msgstr "ಹಳೆಯ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "BAD_CREDENTIALS"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "INVALID_USERNAME"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "INVALID_USERID"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "USER_NOT_FOUND"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "BROKERAGE_FIRM_EXIST"
+msgstr "ಅದೇ ಹೆಸರಿನೊಂದಿಗೆ ಮತ್ತೊಂದು ಸಂಸ್ಥೆಯ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
+
+msgid "COMPANY_EXIST"
+msgstr "ಅದೇ ಹೆಸರಿನ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ ಮತ್ತೊಂದು ಕಂಪನಿ"
+
+msgid "BROKERAGE_FIRM_NOT_EXIST"
+msgstr "ಸಂಸ್ಥೆಯ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ"
+
+msgid "COMPANY_NOT_EXIST"
+msgstr "ಕಂಪನಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ"
+
+msgid "COMPANYINVALID"
+msgstr "ಕಂಪನಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "ADDOTHERCONTACTNUMBERS"
+msgstr "ಒಂದು ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಸೇರಿಸಿ"
+
+msgid "ENTERAREA"
+msgstr "ನೀವು ಸೇವೆಯನ್ನು ಪ್ರದೇಶಗಳು ನಮೂದಿಸಿ"
+
+msgid "ADDAREASSERVED"
+msgstr "ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ ಒಬ್ಬ ಪ್ರಾದೇಶಿಕ ಸೇರಿಸಿ"
+
+msgid "ENTEREXPERTISE"
+msgstr "ನಿಮ್ಮ ಪರಿಣತಿಯ ಕ್ಷೇತ್ರದಲ್ಲಿ ನಮೂದಿಸಿ"
+
+msgid "ADDEXPERTISE"
+msgstr "ಪರಿಣಿತಿ ಒಂದು ಪ್ರದೇಶ ಸೇರಿಸಿ"
+
+msgid "REGISTERCOMPANY"
+msgstr "ನನ್ನ ಕಂಪನಿ ನೋಂದಾಯಿಸಿ"
+
+msgid "ROLETYPE"
+msgstr "ನಾನು ಒಬ್ಬ"
+
+msgid "ROLE_CUSTOMER"
+msgstr "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಇನ್ವೆಸ್ಟರ್"
+
+msgid "ROLE_REALTOR"
+msgstr "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್"
+
+msgid "ROLE_PROFESSIONAL"
+msgstr "ವಸತಿ ಸೇವೆ ಒದಗಿಸುವವರು"
+
+msgid "ENTEROTP"
+msgstr "ನಿಮ್ಮ ಇಮೇಲ್ ID ಗೆ ಕಳುಹಿಸಿದ OTP ಯನ್ನು ನಮೂದಿಸಿ"
+
+msgid "USEREMAIL_EXIST"
+msgstr "ಈ ಇಮೇಲ್ ID ಹೊಂದಿರುವ ಬಳಕೆದಾರ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ದಯವಿಟ್ಟು ಪರ್ಯಾಯ ಇಮೇಲ್ ID ಅನ್ನು ಬಳಸಿ."
+
+msgid "ROLETYPETOOLTIP"
+msgstr "ನೀವು ಹೂಡಿಕೆದಾರ ಅಥವಾ ಆಸ್ತಿ ಮಾಲೀಕರಾಗಿದ್ದರೆ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಇನ್ವೆಸ್ಟರ್ ಆಗಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ. ನೀವು ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅಥವಾ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಇಂಡಸ್ಟ್ರಿ ಸೇವೆ ಸಲ್ಲಿಸುವ ಸೇವೆ ಒದಗಿಸುವವರು / ವೃತ್ತಿಪರರಾಗಿದ್ದರೆ, ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಗಾಗಿ ನಿಮ್ಮನ್ನು ಕೇಳಲಾಗುತ್ತದೆ."
+
+msgid "PREVIEWSELECTEDFLOORPLANDOCS"
+msgstr "ಆಯ್ದ ಮಹಡಿ ಯೋಜನೆಗಳು ಮತ್ತು ಸಮೀಕ್ಷೆಗಳು"
+
+msgid "FLOORPLANSGALLERY"
+msgstr "ಅಪ್ಲೋಡ್ ಮಾಡಿದ ಮಹಡಿ ಯೋಜನೆಗಳು ಮತ್ತು ಸಮೀಕ್ಷೆಗಳು"
+
+msgid "BASICINFORMATION"
+msgstr "ಸ್ಥಳ"
+
+msgid "PROPERTYDETAILS"
+msgstr "ವಿವರಗಳು"
+
+msgid "LOCATEPROPERTYTIP"
+msgstr "ಕೆಳಗೆ ಪ್ರಾಪರ್ಟೀಸ್ ಆಯ್ಕೆ"
+
+msgid "PROPERTYFOUND"
+msgstr "ನಿಮ್ಮ ಸ್ಥಳದಲ್ಲಿ ಪ್ರಾಪರ್ಟೀಸ್ ಹೊಂದಾಣಿಕೆ"
+
+msgid "PROPERTYNOTFOUND"
+msgstr "ನಿಮ್ಮ ಆಸ್ತಿ ಸಿಗಲಿಲ್ಲ?"
+
+msgid "SELFOWNED"
+msgstr "ಈ ಜಾಹೀರಾತು ಮಾಲಿಕರೇ?"
+
+msgid "OWNEREMAILID"
+msgstr "ಜಾಹೀರಾತು ಮಾಲೀಕ ಇಮೇಲ್ ಐಡಿ"
+
+msgid "OWNERMOBILENUMBER"
+msgstr "ಜಾಹೀರಾತು ಮಾಲೀಕ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+
+msgid "OWNERNAME"
+msgstr "ಜಾಹೀರಾತು ಮಾಲೀಕರ ಹೆಸರು"
+
+msgid "LISTINGCONFIRMATIONTITLE"
+msgstr "ಮುನ್ನೋಟ ನಿಮ್ಮ ಜಾಹೀರಾತು ಖಚಿತಪಡಿಸಲು"
+
+msgid "MARKERDRAGPINMESSAGE"
+msgstr "ಸಂದರ್ಭದಲ್ಲಿ ನೀವು ನಿಮ್ಮ ವಿಳಾಸ ಹುಡುಕಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ, ಹತ್ತಿರದ ಲ್ಯಾಂಡ್ಮಾರ್ಕ್ ಅಥವಾ ಲೋಕಾಲಿಟಿ ನಮೂದಿಸಿ ತದನಂತರ ನಿಮ್ಮ ಆಸ್ತಿ ಸ್ಥಳ ಪಿನ್ ಎಳೆಯಿರಿ"
+
+msgid "BASICINFOSCHEMATITLE"
+msgstr "ನಿಮ್ಮ ಆಸ್ತಿ ಪತ್ತೆ"
+
+msgid "DROPIMAGETITLE"
+msgstr "ನಿಮ್ಮ ಫೈಲ್ಗಳನ್ನು ಇಲ್ಲಿ ಎಳೆದು ಬಿಡಿ. ನೀವು ಪ್ರತಿ ಬಾರಿಯೂ 10 ಫೈಲ್ಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಬಹುದು."
+
+msgid "MEDIATITLE"
+msgstr "ನಿಮ್ಮ ಆಸ್ತಿ ಫೋಟೋಗಳನ್ನು ಅಪ್ಲೋಡ್"
+
+msgid "OVERVIEWINFOSCHEMATITLE"
+msgstr "ನಿಮ್ಮ ಜಾಹೀರಾತು ಬಗ್ಗೆ ಮೂಲಭೂತ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಿ"
+
+msgid "FINANCIALINFOSCHEMATITLE"
+msgstr "ಹಣಕಾಸಿನ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಿ"
+
+msgid "ADDITIONALINFOSCHEMATITLE"
+msgstr "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ ಒದಗಿಸಿ"
+
+msgid "PROPERTYINFOSCHEMATITLE"
+msgstr "ನಿಮ್ಮ ಆಸ್ತಿ ವಿವರಗಳು ಸಮೃದ್ಧಗೊಳಿಸಿ"
+
+msgid "VALUEADDEDREASONTOOLTIP"
+msgstr "ಈ ಆಸ್ತಿಯ ಹೂಡಿಕೆ ವರ್ಗವನ್ನು ಮೌಲ್ಯ ಸೇರಿಸಿ ಮಾಡುವ ಪ್ರಾಥಮಿಕ ಕಾರಣ ಅಥವಾ ಅಂಶವನ್ನು ಒದಗಿಸಿ"
+
+msgid "RISKRETURNCATEGORYTOOLTIP"
+msgstr "ನಿರ್ಣಯಗಳನ್ನು ಮಾಡುವಲ್ಲಿ ಹೂಡಿಕೆದಾರರಿಗೆ ಸಹಾಯ ಮಾಡುವ ರಿಸ್ಕ್ ರಿಟರ್ನ್ ವಿಭಾಗದ ಆಸ್ತಿಯನ್ನು ಒದಗಿಸಿ. ಕೋರ್: ಊಹಿಸಲಾಗದ ನಗದು ಹರಿವಿನೊಂದಿಗೆ ಇದು ಒಂದು ಅಂದಾಜು ಮಾಡಲಾಗದ, ಕಡಿಮೆ-ಅಪಾಯದ / ಕಡಿಮೆ ಸಾಮರ್ಥ್ಯದ ರಿಟರ್ನ್ ಹೂಡಿಕೆಯಾಗಿದೆ. ಕೋರ್ ಪ್ಲಸ್: ಇದು ಮಧ್ಯಮ-ಅಪಾಯ / ಮಧ್ಯಮ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಿಂದಾಗಿ, ಇದು ಸುಧಾರಣೆಗಳ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ ಅಥವಾ ಇರಬಹುದು. ಮೌಲ್ಯ ಸೇರಿಸಲಾಗಿದೆ: ಇದು ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಅಪಾಯ / ಮಧ್ಯಮ-ದಿಂದ-ಹೆಚ್ಚಿನ-ಲಾಭದ ಹೂಡಿಕೆಯಾಗಿದ್ದು ಇದು ವರ್ಧನೆಗಳನ್ನು ಅಥವಾ ಬಂಡವಾಳದ ಒಳಹರಿವು ಅಥವಾ ಇತರ ಬದಲಾವಣೆಗಳಿಗೆ ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ಅವಕಾಶವಾದಿ: ಇದು ಅಧಿಕ-ಅಪಾಯ / ಅಧಿಕ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಾಗಿದ್ದು, ಇದು ಹೆಚ್ಚಿನ ಮಟ್ಟದ ವರ್ಧನೆ ಅಥವಾ ಇತರ ಅಪಾಯಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ."
+
+msgid "DISTRESSEDTOOLTIP"
+msgstr "ಈ ಆಸ್ತಿ ತೊಂದರೆಗೀಡಾದ ಮತ್ತು ಸರಿಯಾದ ಸ್ಥಿತಿ ಎಂದು ಸೂಚಿಸುತ್ತದೆ"
+
+msgid "PROPERTYNAMETOOLTIP"
+msgstr "ಆಸ್ತಿ ಎಷ್ಟು ಒಂದು ಅನನ್ಯ ಹೆಸರನ್ನು ಒದಗಿಸಿ, ಇತರರು ಸುಲಭವಾಗಿ ಗುರುತಿಸಬಹುದಾಗಿದೆ"
+
+msgid "AREATOOLTIP"
+msgstr "ಆಸ್ತಿಯ ಜಾಗ ಒದಗಿಸುತ್ತವೆ. ನೀವು ಒಂದು ನಿವೇಶನ ಒಂದು ನಿರ್ಮಾಣ ಘಟಕವನ್ನು ಜಾಹೀರಾತು, ನಂತರ, ಈ ನಿವೇಶನ ಘಟಕದ ಪ್ರದೇಶದಲ್ಲಿ ಪ್ರಚಾರ ಇರಬೇಕು"
+
+msgid "LOTAREATOOLTIP"
+msgstr "ಸ್ವತ್ತಿನ ಒಟ್ಟು ಕಥಾವಸ್ತುವಿನ ಪ್ರದೇಶ ಒದಗಿಸಿ"
+
+msgid "ENDDATETOOLTIP"
+msgstr "ನಿಮ್ಮ ಜಾಹೀರಾತು ಕ್ರಿಯಾತ್ಮಕವಾಗಿ ಯಾವ ರವರೆಗೆ ದಿನಾಂಕವನ್ನು ಒದಗಿಸಿ"
+
+msgid "CONTACTACTIONSTOOLTIP"
+msgstr "ಸಂಪರ್ಕ ನಿಮ್ಮ ಆದ್ಯತೆ ಕ್ರಮದಲ್ಲಿ ಒದಗಿಸಿ. ಎಲ್ಲಾ ಸಂಭಾವ್ಯ ಸಂಪರ್ಕ ಆಯ್ಕೆಗಳನ್ನು ಶಕ್ತಗೊಳಿಸುವುದರಿಂದ ಸುಲಭವಾಗಿ ನೀವು ತಲುಪಲು ಇತರರು ಅನುಕೂಲ"
+
+msgid "SELFOWNEDTOOLTIP"
+msgstr "ಈ ಜಾಹೀರಾತಿಗಾಗಿ ಮಾಲೀಕತ್ವವನ್ನು ವಿವರಗಳನ್ನು ಒದಗಿಸಿ. ಈ ನಿಮ್ಮಿಂದ, ನಂತರ, ಮಾಲೀಕರು ಮಾಹಿತಿ ಒದಗಿಸಲು"
+
+msgid "AVAILABLEDATETOOLTIP"
+msgstr "ಆಸ್ತಿ ಅನುಭೋಗಕ್ಕೆ ಲಭ್ಯವಾಗಲಿರುವ ಮೂಲಕ ದಿನಾಂಕವನ್ನು ಒದಗಿಸಿ"
+
+msgid "DISCLOSEADDRESSTOOLTIP"
+msgstr "ಈ ಆಸ್ತಿಗಾಗಿ ವಿಳಾಸವನ್ನು ಬಹಿರಂಗಪಡಿಸಲು ಅಥವಾ ಮರೆಮಾಡಲು ನೀವು ಬಯಸುತ್ತೀರಾ ಎಂಬುದನ್ನು ಸೂಚಿಸಿ"
+
+msgid "DISCLOSEPRICETOOLTIP"
+msgstr "ಈ ಪಟ್ಟಿಗಾಗಿ ಬೆಲೆ ಬಹಿರಂಗಪಡಿಸಲು ಅಥವಾ ಮರೆಮಾಡಲು ನೀವು ಬಯಸುತ್ತೀರಾ ಎಂಬುದನ್ನು ಸೂಚಿಸಿ"
+
+msgid "CAPRATEKNOWNTOOLTIP"
+msgstr "ಆಸ್ತಿಯ ಕ್ಯಾಪ್ ದರ ಅಥವಾ ಪಟ್ಟಿ ಮಾಡಲಾದ ಯುನಿಟ್ ನಿಮಗೆ ತಿಳಿದಿದ್ದರೆ, ನೀವು ಅದನ್ನು ನೇರವಾಗಿ ನಮೂದಿಸಬಹುದು. ಇಲ್ಲದಿದ್ದರೆ, ಕ್ಯಾಪ್ ದರವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡಲು ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಬಹುದು"
+
+msgid "CAPRATETYPETOOLTIP"
+msgstr "ಕ್ಯಾಪ್ ದರವು ವಾಸ್ತವಿಕ ಅಥವಾ ಯೋಜಿತ ಆದಾಯದ ಆಧಾರದ ಮೇಲೆ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ"
+
+msgid "GROSSRENTREVENUETOOLTIP"
+msgstr "ವಾರ್ಷಿಕ ಒಟ್ಟು ಬಾಡಿಗೆ ಆದಾಯ ಅಥವಾ ಪೊಟೆನ್ಟೈಲ್ ಬಾಡಿಗೆ ವರಮಾನವನ್ನು ಆಸ್ತಿ ಸಂಪೂರ್ಣವಾಗಿ ಆಕ್ರಮಿಸಿಕೊಂಡಿದೆ ಎಂದು ಊಹಿಸಿ"
+
+msgid "VACANCYLOSSESTOOLTIP"
+msgstr "ಗುತ್ತಿಗೆ ಪಾವತಿಗಳ ಮೇಲೆ ಆಸ್ತಿಯನ್ನು ಅಥವಾ ಡೀಫಾಲ್ಟ್ ಅನ್ನು ಖಾಲಿ ಮಾಡುವ ಬಾಡಿಗೆದಾರರಿಂದ ವಾರ್ಷಿಕ ನಷ್ಟವನ್ನು ಒದಗಿಸಿ"
+
+msgid "MANAGEMENTANDLEASINGFEESTOOLTIP"
+msgstr "ಆಸ್ತಿ ನಿರ್ವಹಣೆ ಮತ್ತು ಲೀಸಿಂಗ್ಗಾಗಿ ವಾರ್ಷಿಕ ಶುಲ್ಕವನ್ನು ಒದಗಿಸಿ"
+
+msgid "PROPERTYINSURANCETOOLTIP"
+msgstr "ವಾರ್ಷಿಕ ಆಸ್ತಿ ವಿಮಾ ಮೊತ್ತವನ್ನು ಒದಗಿಸಿ"
+
+msgid "PROPERTYTAXESTOOLTIP"
+msgstr "ವಾರ್ಷಿಕ ಆಸ್ತಿ ತೆರಿಗೆ ಮೊತ್ತವನ್ನು ಒದಗಿಸಿ"
+
+msgid "PROPERTYMAINTENANCETOOLTIP"
+msgstr "ಆಸ್ತಿಯನ್ನು ನಿರ್ವಹಿಸಲು ವಾರ್ಷಿಕ ಖರ್ಚುಗಳನ್ನು ಒದಗಿಸಿ"
+
+msgid "OTHEREXPENSESTOOLTIP"
+msgstr "ಎಲ್ಲಾ ಇತರ ಖರ್ಚುಗಳಿಗೆ ಒಟ್ಟು ವಾರ್ಷಿಕ ಮೊತ್ತವನ್ನು ಒದಗಿಸಿ"
+
+msgid "CALCULATEDCAPRATETOOLTIP"
+msgstr "ಬಂಡವಾಳೀಕರಣ ದರ ಅಥವಾ ಕ್ಯಾಪ್ ದರವು, ನಿವ್ವಳ ಆಪರೇಟಿಂಗ್ ವರಮಾನದ (ಎನ್ಒಐ) ಆಸ್ತಿ ಸ್ವತ್ತಿನ ಮೌಲ್ಯಕ್ಕೆ ಅಥವಾ ಬೆಲೆ ಕೇಳುವುದು"
+
+msgid "COMMISSIONSPLITTOOLTIP"
+msgstr "ಕೊಳ್ಳುವವರ ದಳ್ಳಾಲಿ ಕಮಿಷನ್ ಶೇಕಡಾವಾರು ಒದಗಿಸಲು"
+
+msgid "COMMISSIONPERCENTAGETOOLTIP"
+msgstr "ಖರೀದಿದಾರನನ್ನು ಪಾವತಿಸಲು ಎಂದು ಆಯೋಗದ ಶೇಕಡಾವಾರು ಒದಗಿಸಲು"
+
+msgid "COMMISSIONAMOUNTTOOLTIP"
+msgstr "ಖರೀದಿದಾರನನ್ನು ಪಾವತಿಸಲು ಎಂದು ಆಯೋಗದ ಪ್ರಮಾಣದ ಒದಗಿಸಿ"
+
+msgid "SPECIFICATIONSTOOLTIP"
+msgstr "ಕಟ್ಟಡ ಅಡಿಪಾಯ ಬಗ್ಗೆ ವಿವರಗಳನ್ನು ಸೇರಿದಂತೆ ವಿಶೇಷಣಗಳು ಒದಗಿಸಿ, ಕಟ್ಟಡ ಸಾಮಗ್ರಿಗಳನ್ನು ಬಳಸಿಕೊಂಡು, ಗಳಿಸಿತ್ತು ನೆಲೆವಸ್ತುಗಳ ಮತ್ತು ಪೀಠೋಪಕರಣಗಳ"
+
+msgid "PRIMARYIDENTIFIERTOOLTIP"
+msgstr "ಆಸ್ತಿ ಗುರುತಿನ ಸಂಖ್ಯೆ ಒದಗಿಸಿ. ನಿರ್ಧಾರಗಳನ್ನು ಖರೀದಿ ಆಸ್ತಿ ಮೌಲ್ಯಮಾಪನ ಪ್ರಮುಖ ಇರುತ್ತದೆ."
+
+msgid "HIGHLIGHTSTOOLTIP"
+msgstr "ವಾಸ್ತುವಿನ ಅನುಸರಣೆ, ಎದುರಿಸುತ್ತಿರುವ ದಿಕ್ಕಿನಲ್ಲಿ, ಗಾಳಿ, ಇತ್ಯಾದಿ ನಿಮ್ಮ ಆಸ್ತಿ ಪ್ರಮುಖ ಮುಖ್ಯಾಂಶಗಳು ಒದಗಿಸಿ"
+
+msgid "MINDIVISIBLEAREATOOLTIP"
+msgstr "ಈ ಕಥಾವಸ್ತುವಿನ ಭಾಗಾಕಾರದಲ್ಲಿನ ಅವಕಾಶ ಚಿಕ್ಕ ಪ್ರದೇಶ ಒದಗಿಸಿ"
+
+msgid "MAXDIVISIBLEAREATOOLTIP"
+msgstr "ಈ ಕಥಾವಸ್ತುವಿನ ವಿಭಾಗದಲ್ಲಿ ಅನುಮತಿಸುವ ದೊಡ್ಡ ಪ್ರದೇಶವನ್ನು ಒದಗಿಸಿ"
+
+msgid "MAXCONTIGUOUSAREATOOLTIP"
+msgstr "ಈ ಕಥಾವಸ್ತುವಿನ ಭಾಗಾಕಾರದಲ್ಲಿನ ಅವಕಾಶ ದೊಡ್ಡ ನಿರಂತರ ಪ್ರದೇಶವನ್ನು ಒದಗಿಸಲು"
+
+msgid "FIXTURESTOOLTIP"
+msgstr "ನಿಮ್ಮ ಘಟಕದಲ್ಲಿ ಪ್ರತಿ ಪಂದ್ಯದ ಅಥವಾ ಉಪಕರಣದ ವಿವರಗಳನ್ನು ಒದಗಿಸಿ"
+
+msgid "PROPERTYNAMEREQUIRED"
+msgstr "ಆಸ್ತಿ ಹೆಸರು ಕಡ್ಡಾಯ"
+
+msgid "PROPERTYSUBTYPEREQUIRED"
+msgstr "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ ಕಡ್ಡಾಯ"
+
+msgid "PROPERTYTYPEREQUIRED"
+msgstr "ವರ್ಗ ಅಗತ್ಯವಿದೆ"
+
+msgid "LINEONEREQUIRED"
+msgstr "ಸ್ಟ್ರೀಟ್ ವಿಳಾಸ ಕಡ್ಡಾಯ"
+
+msgid "CITYREQUIRED"
+msgstr "ಸಿಟಿ ಕಡ್ಡಾಯ"
+
+msgid "ZIPCODEREQUIRED"
+msgstr "ಪಿನ್ ಕೋಡ್ ಕಡ್ಡಾಯ"
+
+msgid "LOCALITYREQUIRED"
+msgstr "ಲೋಕಾಲಿಟಿ ಕಡ್ಡಾಯ"
+
+msgid "TITLEREQUIRED"
+msgstr "ಜಾಹೀರಾತು ಶೀರ್ಷಿಕೆ ಕಡ್ಡಾಯ"
+
+msgid "LISTINGAREAREAMISSING"
+msgstr "ಪ್ರದೇಶ ಕಡ್ಡಾಯ"
+
+msgid "PROPERTYLISTINGTYPEREQUIRED"
+msgstr "ಜಾಹೀರಾತು ಟೈಪ್ ಕಡ್ಡಾಯ"
+
+msgid "STARTTIMEMISSING"
+msgstr "ಪ್ರಾರಂಭ ಸಮಯದ ಅಗತ್ಯವಿದೆ"
+
+msgid "ENDTIMEMISSING"
+msgstr "ಎಂಡ್ ಸಮಯದ ಅಗತ್ಯವಿದೆ"
+
+msgid "ENDTIMEINVALID"
+msgstr "ಎಂಡ್ ಟೈಮ್ ಕಡಿಮೆ ಅಥವಾ ಟೈಮ್ ಪ್ರಾರಂಭಿಸಿ ಸಮಾನವಾಗಿರಬೇಕು ಸಾಧ್ಯವಿಲ್ಲ"
+
+msgid "OPENHOUSEENDDATEMINVALUE"
+msgstr "ಓಪನ್ ಹೌಸ್ ದಿನಾಂಕ ಮುಂಚಿತವಾಗಿರಬೇಕು ಸಾಧ್ಯವಿಲ್ಲ"
+
+msgid "ENDDATEMINVALUE"
+msgstr "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ ಮುಂಚಿತವಾಗಿರಬೇಕು ಸಾಧ್ಯವಿಲ್ಲ"
+
+msgid "ENDDATEMAXVALUE"
+msgstr "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ ಹೆಚ್ಚು ಹೆಚ್ಚಿರಬಾರದು"
+
+msgid "ENDDATEREQUIRED"
+msgstr "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ ಕಡ್ಡಾಯ"
+
+msgid "GROSSRENTREVENUEREQUIRED"
+msgstr "ಒಟ್ಟು ಬಾಡಿಗೆ ಆದಾಯ ಅಗತ್ಯವಿದೆ"
+
+msgid "DISCLOSEADDRESSREQUIRED"
+msgstr "ಪ್ರಕಟಣೆ ವಿಳಾಸ ಅಗತ್ಯವಿದೆ"
+
+msgid "DISCLOSEPRICEREQUIRED"
+msgstr "ಪ್ರಕಟಣೆ ಬೆಲೆ ಅಗತ್ಯವಿದೆ"
+
+msgid "SALEPRICEREQUIRED"
+msgstr "ಮಾರಾಟ ಬೆಲೆ ಕಡ್ಡಾಯ"
+
+msgid "LEASEPRICEREQUIRED"
+msgstr "ಬಾಡಿಗೆ ಪ್ರಮಾಣ ಕಡ್ಡಾಯ"
+
+msgid "PROPERTYLISTINGMISSING"
+msgstr "ಆಸ್ತಿ ಪಟ್ಟಿ ಕಡ್ಡಾಯ"
+
+msgid "PROPERTYMISSING"
+msgstr "ಆಸ್ತಿ ಕಡ್ಡಾಯ"
+
+msgid "SALEPRICEMISSING"
+msgstr "ಮಾರಾಟ ಬೆಲೆ ಕಡ್ಡಾಯ"
+
+msgid "SALEPRICEINVALID"
+msgstr "ಮಾರಾಟ ಬೆಲೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "COMMISSIONSPLITINVALID"
+msgstr "ಖರೀದಿದಾರನ ಏಜೆಂಟ್ ಕಮಿಷನ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "SALECOMMISSIONINVALID"
+msgstr "ಆಯೋಗದ ಶೇಕಡಾವಾರು ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "LEASEPRICEMISSING"
+msgstr "ಲೀಸ್ ಬೆಲೆ ಕಡ್ಡಾಯ"
+
+msgid "LEASEPRICEINVALID"
+msgstr "ಲೀಸ್ ಬೆಲೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "LEASEDEPOSITINVALID"
+msgstr "ಠೇವಣಿ ಮೊತ್ತ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "LEASETERMINVALID"
+msgstr "ಲೀಸ್ ಅವಧಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "LEASEMAINTENANCECHARGESINVALID"
+msgstr "ಮಾಸಿಕ ನಿರ್ವಹಣಾ ಶುಲ್ಕಗಳು ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "LEASECOMMISSIONINVALID"
+msgstr "ಆಯೋಗದ ಪ್ರಮಾಣ ಅಮಾನ್ಯವಾಗಿದೆ"
+
+msgid "NUMBEROFBEDSREQUIRED"
+msgstr "ಬೆಡ್ಸ್ ಸಂಖ್ಯೆ ಅಗತ್ಯವಿದೆ"
+
+msgid "NUMBEROFSEATSREQUIRED"
+msgstr "ಸಂಖ್ಯೆ ಆಸನಗಳು ಅಗತ್ಯವಿದೆ"
+
+msgid "NUMBEROFBEDROOMSREQUIRED"
+msgstr "ಮಲಗುವ ಕೋಣೆಗಳು ಸಂಖ್ಯೆ ಅಗತ್ಯವಿದೆ"
+
+msgid "LISITNGAREAREQUIRED"
+msgstr "ಪ್ರದೇಶ ಕಡ್ಡಾಯ"
+
+msgid "ENDDATEMISSING"
+msgstr "ಎಕ್ಸ್ ಪೈರಿ ದಿನಾಂಕ ಅಗತ್ಯವಿದೆ"
+
+msgid "OTHERSUBTYPEINVALID"
+msgstr "ಅಮಾನ್ಯವಾದ ಇತರೆ ಆಸ್ತಿ ಉಪ ಕೌಟುಂಬಿಕತೆ"
+
+msgid "SUBTYPEMISSING"
+msgstr "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ ಕಡ್ಡಾಯ"
+
+msgid "LISTINGTITLEMISSING"
+msgstr "ಜಾಹೀರಾತು ಶೀರ್ಷಿಕೆ ಅಗತ್ಯವಿದೆ"
+
+msgid "LISTINGSALETYPEMISSING"
+msgstr "ಮೂಲಕ ಅಗತ್ಯವಿದೆ ದಿನಾಂಕ"
+
+msgid "LISTINGTYPEMISSING"
+msgstr "ಜಾಹೀರಾತು ಟೈಪ್ ಅಗತ್ಯವಿದೆ"
+
+msgid "TYPEMISSING"
+msgstr "ವರ್ಗ ಅಗತ್ಯವಿದೆ"
+
+msgid "LEASETERMREQUIRED"
+msgstr "ಲೀಸ್ ಟರ್ಮ್ ಅಗತ್ಯವಿದೆ"
+
+msgid "LEASETYPEREQUIRED"
+msgstr "ಲೀಸ್ ಕೌಟುಂಬಿಕತೆ ಅಗತ್ಯವಿದೆ"
+
+msgid "LEASEAMOUNTREQUIRED"
+msgstr "ಲೀಸ್ ಮೊತ್ತ ಅಗತ್ಯವಿದೆ"
+
+msgid "DISTRESSEDSTATUSREQUIRED"
+msgstr "ಸಂಕಟದ ಸ್ಥಿತಿ ಅಗತ್ಯವಿದೆ"
+
+msgid "CREATEPROPERTY"
+msgstr "ಆಸ್ತಿ ಮಾಹಿತಿ ಒದಗಿಸಿ"
+
+msgid "CONFIRMADDRESS"
+msgstr "ನಿಮ್ಮ ಆಸ್ತಿಯ ವಿಳಾಸವನ್ನು ಖಚಿತಪಡಿಸಿ"
+
+msgid "MOVEMAP"
+msgstr "ಸರಿಸಿ ಅಥವಾ ಗುಣಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು ನಕ್ಷೆ ಎಳೆಯಿರಿ"
+
+msgid "BACKTOPROPERTY"
+msgstr "ಹಿಂದಿನ ಹಂತ"
+
+msgid "NOIMAGESUPLOADED"
+msgstr "ಯಾವುದೇ ಫೈಲ್ಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ"
+
+msgid "PREVIEWSELECTEDDOCUMENTS"
+msgstr "ಆಯ್ದ ಡಾಕ್ಯುಮೆಂಟ್ಸ್"
+
+msgid "PREVIEWSELECTEDIMAGES"
+msgstr "ಮುನ್ನೋಟ ಆಯ್ದ ಚಿತ್ರಗಳು"
+
+msgid "CURRENTDEFAULT"
+msgstr "ಡೀಫಾಲ್ಟ್ ಫೋಟೋ"
+
+msgid "SETASDEFAULT"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತವಾಗಿಡು"
+
+msgid "CONFIRMPROPERTY"
+msgstr "ಇದನ್ನು ಸ್ಥಾನ ಆಯ್ಕೆಮಾಡಿ"
+
+msgid "NEXTTOFINANCIAL"
+msgstr "ಮುಂದಿನ ನಡೆ"
+
+msgid "NEXTTOADDITIONAL"
+msgstr "ಮುಂದಿನ ನಡೆ"
+
+msgid "BACKTOADDITIONAL"
+msgstr "ಹಿಂದಿನ ಹಂತ"
+
+msgid "NEXTTOCREATEPROPERTY"
+msgstr "ಮುಂದಿನ ನಡೆ"
+
+msgid "BACKTOADDRESS"
+msgstr "ಹಿಂದಿನ ಹಂತ"
+
+msgid "ADDLEASERENEWALOPTIONS"
+msgstr "ಲೀಸ್ ನವೀಕರಣ ಆಯ್ಕೆಯನ್ನು ಸೇರಿಸಿ"
+
+msgid "ADDHIGHLIGHTS"
+msgstr "ಮತ್ತೊಂದು ಹೈಲೈಟ್ ಸೇರಿಸಿ"
+
+msgid "POSTONLINE"
+msgstr "ಪೋಸ್ಟ್ ಜಾಹೀರಾತು ಆನ್ಲೈನ್"
+
+msgid "NEXTTOPROPERTY"
+msgstr "ಮುಂದಿನ ನಡೆ"
+
+msgid "NEXTTOPHOTOS"
+msgstr "ಮುಂದಿನ ನಡೆ"
+
+msgid "BACKTOFINANCIAL"
+msgstr "ಹಿಂದಿನ ಹಂತ"
+
+msgid "SELECTEDBUILDINGUNIT"
+msgstr "ನಿಮ್ಮ ಘಟಕ ವಿವರಿಸಿ"
+
+msgid "PROPERTYBUILDINGDETAILS"
+msgstr "ನಿಮ್ಮ ಕಟ್ಟಡ ವಿವರಿಸಿ"
+
+msgid "APARTMENTDETAILS"
+msgstr "ನಿಮ್ಮ ವಸತಿ ಸಮುದಾಯ ವಿವರಿಸಿ"
+
+msgid "PROPERTYLOTDETAILS"
+msgstr "ನಿಮ್ಮ ಕಥಾವಸ್ತು ವಿವರಿಸಿ"
+
+msgid "ENTERHIGHLIGHTS"
+msgstr "ಆಸ್ತಿ ಮುಖ್ಯಾಂಶಗಳು ನಮೂದಿಸಿ"
+
+msgid "ADDFIXTURES"
+msgstr "ಫಿಕ್ಸ್ಚರ್ ಸೇರಿಸಿ"
+
+msgid "ENTERFIXTURES"
+msgstr "ಫಿಕ್ಸ್ಚರ್ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ"
+
+msgid "ADDSPECIFICATIONS"
+msgstr "ಕಟ್ಟಡದ ವಿವರಣೆಯನ್ನು ಸೇರಿಸಿ"
+
+msgid "ENTERSPECIFICATIONS"
+msgstr "ಕಟ್ಟಡ ವಿಶೇಷಣಗಳು ನಮೂದಿಸಿ"
+
+msgid "ADDROOMS"
+msgstr "ಒಂದು ಕೊಠಡಿ ಸೇರಿಸಿ"
+
+msgid "HOTELROOMDETAILS"
+msgstr "ನಿಮ್ಮ ರೂಮ್ Decsribe"
+
+msgid "LOTDETAILSCOLLAPSIBLE"
+msgstr "ಕಥಾವಸ್ತು ಮಾಹಿತಿ (ನಾನು ಒಂದು ನಿರ್ದಿಷ್ಟ ಕಥಾವಸ್ತು ಪಟ್ಟಿಯನ್ನು ನಾನು)"
+
+msgid "SELECTEDLOT"
+msgstr "ನಿಮ್ಮ ಕಥಾವಸ್ತು ವಿವರಿಸಿ"
+
+msgid "MAXNOOFFILES"
+msgstr "ನೀವು 10 ಫೈಲ್ಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಬಹುದು"
+
+msgid "UPLOADNOW"
+msgstr "ಈಗ ಅಪ್ಲೋಡ್"
+
+msgid "SELECTFILESTOUPLOAD"
+msgstr "ಬ್ರೌಸ್ ಫೈಲ್ಸ್"
+
+msgid "MINIMUM4IMAGESREQUIRED"
+msgstr "ಕನಿಷ್ಠ 4 ಫೋಟೋಗಳನ್ನು ಸೇರಿಸಿ"
+
+msgid "LISTINGUPDATED"
+msgstr "ಪಟ್ಟಿ ನವೀಕರಿಸಲಾಗಿದೆ !!!"
+
+msgid "LISTINGUPDATEFAILED"
+msgstr "ಪಟ್ಟಿಯನ್ನು ನವೀಕರಿಸಲಾಗಲಿಲ್ಲ !!! ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+
+msgid "VIDEOTITLEPLACEHOLDER"
+msgstr "ನಿಮ್ಮ ವೀಡಿಯೊ ಶೀರ್ಷಿಕೆಯನ್ನು ಟೈಪ್ ಮಾಡಿ"
+
+msgid "VIDEOURLPLACEHOLDER"
+msgstr "ನಿಮ್ಮ ವೀಡಿಯೊ URL ಟೈಪ್ ಮಾಡಿ ಅಥವಾ ಅಂಟಿಸಿ"
+
+msgid "ASKINGPRICEPRICEREQUIRED"
+msgstr "ಕೇಳುವ ಬೆಲೆ ನಮೂದಿಸಿ"
+
+msgid "ISRENTALPROPERTYTOOLTIP"
+msgstr "ಈ ಆಸ್ತಿ ಘಟಕವನ್ನು ಬಾಡಿಗೆಗೆ ನೀಡಲಾಗಿದೆಯೇ ಮತ್ತು ಸೂಕ್ತ ಹಣಕಾಸಿನ ಮಾಹಿತಿ ಎಂಬುದನ್ನು ಸೂಚಿಸಿ"
+
+msgid "ISRENTALPROPERTY"
+msgstr "ಈ ಘಟಕವನ್ನು ಬಾಡಿಗೆಗೆ ನೀಡಲಾಗಿದೆಯೇ?"
+
+msgid "RENTALAMOUNTREQUIRED"
+msgstr "ಲೀಸ್ ಮೊತ್ತ ಅಗತ್ಯವಿದೆ"
+
+msgid "CONSTRUCTIONSTATUSYEARBUILTINVALID "
+msgstr "ನಿರ್ಮಾಣ ಸ್ಥಿತಿ ಮತ್ತು ವರ್ಷದ ಸಂಯೋಜನೆಯು ಅಮಾನ್ಯವಾಗಿದೆ."
+

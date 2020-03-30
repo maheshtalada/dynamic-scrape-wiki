@@ -1,0 +1,40 @@
+{
+  "staticUrl": "http://localhost:9052",
+  "api" : {
+    "prefix": "/api/v1",
+    "host": "service-qa.propshub.com",
+    "port" : "443",
+    "protocol" : "https"
+  },
+  "imageRootPath" : "https://images.propshub.com",
+  "localeSettings" : {
+    "IN" : {
+      "siteDomain" : "qa.propshub.in",
+      "chatNameSpace" : "https://chat.propshub.in"
+    },
+    "US" : {
+      "siteDomain" : "qa.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "CA" : {
+      "siteDomain" : "qa.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "MX" : {
+      "siteDomain" : "qa.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "BR" : {
+      "siteDomain" : "qa.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "AR" : {
+      "siteDomain" : "qa.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "CO" : {
+      "siteDomain" : "qa.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    }
+  }
+}

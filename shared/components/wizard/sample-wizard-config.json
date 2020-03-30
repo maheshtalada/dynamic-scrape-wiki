@@ -1,0 +1,108 @@
+{
+  "screens" : [
+    {
+      "title" : "title1",
+      "question" : "my first test question",
+      "answer" : {
+        "component" : {
+          "type" : "text",
+          "placeholder" : "question 1"
+        }
+      },
+      "helpwidget" : {
+        "slides" : [
+          {
+            "title" : "help widget slide title",
+            "description" : "help widget slide description"
+          },
+          {
+            "title" : "help widget slide title",
+            "description" : "help widget slide description"
+          },
+          {
+            "title" : "help widget slide title",
+            "description" : "help widget slide description"
+          }
+        ]
+      },
+      "navigation" : {
+        "next" : {
+          "isEnable" : true,
+          "title" : "NEXT"
+        }
+      }
+    },
+    {
+      "title" : "title2",
+      "question" : "my second test question",
+      "answer" : {
+        "component" : {
+          "type" : "text",
+          "placeholder" : "question 2"
+        }
+      },
+      "helpwidget" : {
+        "slides" : [
+          {
+            "title" : "help widget slide title 2",
+            "description" : "help widget slide description"
+          },
+          {
+            "title" : "help widget slide title 3",
+            "description" : "help widget slide description"
+          },
+          {
+            "title" : "help widget slide title 4",
+            "description" : "help widget slide description"
+          }
+        ]
+      },
+      "navigation" : {
+        "prev" : {
+          "isEnable" : true,
+          "title" : "PREVIOUS"
+        },
+        "next" : {
+          "isEnable" : true,
+          "title" : "NEXT"
+        }
+      }
+    },
+    {
+      "title" : "title3",
+      "question" : "my first test question",
+      "answer" : {
+        "component" : {
+          "type" : "text",
+          "placeholder" : "question 3"
+        }
+      },
+      "helpwidget" : {
+        "slides" : [
+          {
+            "title" : "help widget slide title x",
+            "description" : "help widget slide description"
+          },
+          {
+            "title" : "help widget slide title y",
+            "description" : "help widget slide description"
+          },
+          {
+            "title" : "help widget slide title z",
+            "description" : "help widget slide description"
+          }
+        ]
+      },
+      "navigation" : {
+        "prev" : {
+          "isEnable" : true,
+          "title" : "PREVIOUS"
+        },
+        "next" : {
+          "isEnable" : true,
+          "title" : "NEXT"
+        }
+      }
+    }
+  ]
+}

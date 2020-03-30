@@ -1,0 +1,256 @@
+.tenant-application {
+    .tenant-application-start {
+        &__schema-wrap {
+            min-height: ~"calc(100vh - 300px)";
+        }
+    }
+    .schema-border {
+        margin-bottom: 15px;
+    }
+    .cash-return-modal__property-details {
+        padding: 5px 0;
+        border-color: @color-schema-field-border;
+    }
+    &__scroll-content {
+        max-height: ~"calc(100vh - 245px)";
+        overflow: auto;
+    }
+    .navigation-bar__section-label {
+        .bp-small({
+			font-size: 1.4rem;
+		});
+		.bp-medium({
+			font-size: 1.4rem;
+		});
+		.bp-large({
+			font-size: 1.4rem;
+        });
+        font-weight: 600;
+    }
+    &.schema-listing-page .schema-forms {
+        min-height: unset;
+    }
+}
+
+.tenant-apply-btn {
+    display: flex;
+    align-items: center;
+}
+
+.tenant-application-payment {
+    .listing-confirmation {
+        display: flex;
+        align-items: center;
+        .bp-xsmall({
+            flex-wrap: wrap;
+        });
+        .bp-small({
+            flex-wrap: nowrap;
+        });
+        .payment-success-icon,.payment-fail-icon,.payment-warning-icon {
+            display: flex;
+            justify-content: center;
+            i {
+                font-size: 7rem;
+                font-weight: 900;
+                color: @color-base-primary-green;
+            }
+        }
+        .payment-warning-icon {
+            i {
+                color: @color-error-border;
+            }
+        }
+        .payment-fail-icon {
+            i {
+                font-weight: normal;
+                color: @color-error-border;
+            }
+        }
+    }
+    .listing-confirmation__wrapper-left {
+        .bp-xsmall({
+            border-right: none;
+            margin-bottom: 20px;
+        });
+        .bp-small({
+            border-right: 1px solid @grey-600;
+            margin-bottom: 0;
+        });
+        min-height: 100px;
+    }
+    &__paypal-button-wrap {
+        .bp-xsmall({
+            flex-wrap: wrap;
+        });
+        .bp-small({
+            flex-wrap: nowrap;
+        });
+    }
+}
+
+.tenant-application-review {
+    .listing-confirmation {
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        min-height: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content : center;
+    }
+    &__title {
+        color: @color-base-primary-green;
+        margin-left: 10px;
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+    &__status-options {
+        width: 70%;
+        .masked__radio__item {
+            font-size: 1.8rem;
+        }
+    }
+    &__confirm-btn {
+        margin-top: 10px;
+    }
+    &__comment-box {
+        width: 70%;
+        margin-top: 10px;
+        padding: 8px;
+        color: @color-base-dark;
+        &.show-error {
+            animation: shake 0.2s;
+            animation-timing-function : linear;
+            border-color: @color-error-border;
+        }
+    }
+}
+
+.tenant-application-details {
+    &__details-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__detail-box {
+        padding: 10px;
+        border: 1px solid @grey-300;
+        margin: 10px;
+        .bp-xsmall({
+            width: ~"calc(100% - 20px)";
+        });
+        .bp-small({
+            width: ~"calc(50% - 20px)";
+        });
+        &__title {
+            color: @color-base-primary-green;
+            padding-bottom: 5px;
+            border-bottom: 1px solid @color-base-primary-green;
+            font-weight: 600;
+            display: block;
+        }
+        .label-value {
+            display: flex;
+            justify-content: space-between;
+            .label,.value {
+                width: 50%;
+                hyphens: auto;
+            }
+        }
+        &.disclosures {
+            .label-value {
+                .label {
+                    width: 90%;
+                }
+                .value {
+                    width: 10%;
+                }
+            }
+        }
+        &__sub-details {
+            .tenant-application-details__detail-box__title {
+                // font-weight: 600;
+                display: inline-block
+            }
+            // padding-left: 15px;
+            // margin-left: 15px;
+            // border-left: 1px solid @grey-300;
+        }
+        &__value-group {
+            border-bottom: 1px solid @grey-400;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            &:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+    &__terms-conditions {
+        font-size: 1.3rem;
+        font-style: italic;
+        margin: 0 0 10px 30px;
+    }
+}
+
+.tenant-documents-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    &__upload {
+        border: 1px solid @grey-400;
+        width: 200px;
+        min-height: 200px;
+        margin: 0 15px 10px 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .mdl-spinner {
+            width: 65px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            margin: 0 0 10px 0;
+            font-weight: 600;
+            border-bottom: 1px solid;
+        }
+        .media-drop-zone {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .status-icon {
+            font-size: 8rem;
+            color: @color-base-primary-green;
+            margin-bottom: 10px;
+        }
+        .btn {
+            margin-bottom: 5px;
+            width: 100%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.4rem;
+        }
+        &__btn-wrap {
+            width: 100%;
+            position: relative;
+            display: flex;
+            .input-field {
+                flex: 1;
+            }
+            .download {
+                margin-left: 5px;
+            }
+            .mdl-spinner {
+                width: 28px;
+                position: absolute;
+                right: 5px;
+                bottom: 43px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

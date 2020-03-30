@@ -1,0 +1,188 @@
+{
+  "categories" : [
+    {
+      "name" : "CATEGORY1",
+      "icon" : "agricultural",
+      "link" : "/depot/agriculture",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY1_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY1_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY1_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY1_4",
+          "icon" : ""
+        }
+      ]
+    },
+    {
+      "name" : "CATEGORY2",
+      "icon" : "elevators",
+      "link" : "/depot/construction",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY2_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY2_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY2_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY2_4",
+          "icon" : ""
+        }
+      ]
+    },
+    {
+      "name" : "CATEGORY3",
+      "icon" : "water",
+      "link" : "/depot/plumbing",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY3_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY3_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY3_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY3_4",
+          "icon" : ""
+        }
+      ]
+    },
+    {
+      "name" : "CATEGORY4",
+      "icon" : "electricity",
+      "link" : "/depot/electrical",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY4_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY4_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY4_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY4_4",
+          "icon" : ""
+        }
+      ]
+    },
+    {
+      "name" : "CATEGORY5",
+      "icon" : "industrial",
+      "link" : "/depot/industrial",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY5_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY5_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY5_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY5_4",
+          "icon" : ""
+        }
+      ]
+    },
+    {
+      "name" : "CATEGORY6",
+      "icon" : "health-care",
+      "link" : "/depot/medical",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY6_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY6_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY6_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY6_4",
+          "icon" : ""
+        }
+      ]
+    },
+    {
+      "name" : "CATEGORY7",
+      "icon" : "office",
+      "link" : "/depot/office",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY7_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY7_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY7_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY7_4",
+          "icon" : ""
+        }
+      ]
+    },
+    {
+      "name" : "CATEGORY8",
+      "icon" : "power-backup",
+      "link" : "/depot/electronics",
+      "sub-categories" : [
+        {
+          "name" : "CATEGORY8_1",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY8_2",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY8_3",
+          "icon" : ""
+        },
+        {
+          "name" : "CATEGORY8_4",
+          "icon" : ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,891 @@
+{
+  "schema" : {
+    "schemas": {
+      "expresslisting": {
+        "label": "",
+        "data": {},
+        "type": "header",
+        "children": [
+          {
+            "label": "Choose Property Type?",
+            "tooltip": "property type is",
+            "conditionaliseElement": "",
+            "validation": [
+              {
+                "value": "Please complete this to continue",
+                "message": "Please complete this to continue",
+                "type": "required"
+              }
+            ],
+            "validationDecisionTable": "Validate_Mandatory",
+            "data": {
+              "optionReference": "PropertyTypes"
+            },
+            "subtype": "list-tabs-radio-icon",
+            "type": "list",
+            "id": ".CaseDetails.application_business.trading_premises_type",
+            "tabs": [
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "LandPropertyTypeTab",
+                "tabValue": "LAND",
+                "children": [
+                  {
+                    "label": "Please select Land Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "LAND"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  },
+                  {
+                    "label": "Enter LOT number",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {},
+                    "type": "text",
+                    "id": ".CaseDetails.application_business.lot"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "OfficePropertyTypeTab",
+                "tabValue": "OFFICE",
+                "children": [
+                  {
+                    "label": "Please select Office Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "OFFICE"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  },
+                  {
+                    "label": "Enter building number",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {},
+                    "type": "text",
+                    "id": ".CaseDetails.application_business.building"
+                  },
+                  {
+                    "label": "Enter building unit number",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {},
+                    "type": "text",
+                    "id": ".CaseDetails.application_business.unit"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "AgriculturalPropertyTypeTab",
+                "tabValue": "AGRICULTURAL",
+                "children": [
+                  {
+                    "label": "Please select Agricultural Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "AGRICULTURAL"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  },
+                  {
+                    "label": "Enter LOT number",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {},
+                    "type": "text",
+                    "id": ".CaseDetails.application_business.lot"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "HotelPropertyTypeTab",
+                "tabValue": "HOTEL",
+                "children": [
+                  {
+                    "label": "Please select Hotel Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "HOTEL"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "ResidentialPropertyTypeTab",
+                "tabValue": "RESIDENTIAL",
+                "children": [
+                  {
+                    "label": "Please select Hotel Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "RESIDENTIAL"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "IndustrialPropertyTypeTab",
+                "tabValue": "INDUSTRIAL",
+                "children": [
+                  {
+                    "label": "Please select Hotel Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "INDUSTRIAL"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "RetailPropertyTypeTab",
+                "tabValue": "RETAIL",
+                "children": [
+                  {
+                    "label": "Please select Hotel Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "RETAIL"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "OtherPropertyTypeTab",
+                "tabValue": "OTHER",
+                "children": [
+                  {
+                    "label": "Please select Hotel Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "OTHER"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  }
+                ]
+              },
+              {
+                "conditionaliseElement": "",
+                "data": {},
+                "type": "list",
+                "id": "OtherPropertyTypeTab",
+                "tabValue": "HEALTHCARE",
+                "children": [
+                  {
+                    "label": "Please select Hotel Related Subtypes",
+                    "conditionaliseElement": "",
+                    "validation": [
+                      {
+                        "value": "Please complete this to continue",
+                        "message": "Please complete this to continue",
+                        "type": "required"
+                      }
+                    ],
+                    "validationDecisionTable": "Validate_Mandatory",
+                    "data": {
+                      "optionReference": "HEALTHCARE"
+                    },
+                    "subtype": "list-tabs-radio-icon",
+                    "type": "list",
+                    "id": ".CaseDetails.application_business.trading_premises_type_other"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "ADDRESS",
+            "id": "propertylisting.property.address",
+            "type": "card",
+            "children": [
+              {
+                "label": "LINEONE",
+                "id": "propertylisting.property.address.lineOne",
+                "type": "text"
+              },
+              {
+                "label": "LINETWO",
+                "id": "propertylisting.property.address.lineTwo",
+                "type": "text"
+              },
+              {
+                "label": "REGION",
+                "id": "propertylisting.property.address.region",
+                "type": "text"
+              },
+              {
+                "label": "LOCALITY",
+                "id": "propertylisting.property.address.locality",
+                "type": "text"
+              },
+              {
+                "label": "CITY",
+                "id": "propertylisting.property.address.city",
+                "type": "text"
+              },
+              {
+                "label": "STATECODE",
+                "id": "propertylisting.property.address.stateCode",
+                "type": "text"
+              },
+              {
+                "label": "ZIPCODE",
+                "id": "propertylisting.property.address.zipCode",
+                "type": "text"
+              },
+              {
+                "label": "COUNTRY",
+                "id": "propertylisting.property.address.country",
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "label": "Choose Listing Type",
+            "tooltip": "Listing type is",
+            "conditionaliseElement": "",
+            "validation": [
+              {
+                "value": "Please complete this to continue",
+                "message": "Please complete this to continue",
+                "type": "required"
+              }
+            ],
+            "validationDecisionTable": "Validate_Mandatory",
+            "data": {
+              "optionReference": "PropertyListingType"
+            },
+            "subtype": "list-tabs",
+            "type": "list",
+            "id": ".CaseDetails.application_business.listingtype",
+            "tabs": [
+              {
+                "label": "SALEDETAILS",
+                "id": "propertylisting.salePrice",
+                "type": "list",
+                "tabValue": "FORSALE",
+                "children": [
+                  {
+                    "label": "ASKINGPRICE",
+                    "id": "propertylisting.salePrice.askingPrice",
+                    "type": "text"
+                  },
+                  {
+                    "label": "CAPRATE",
+                    "id": "propertylisting.salePrice.capRate",
+                    "type": "text"
+                  },
+                  {
+                    "label": "COMMISSIONSPLIT",
+                    "id": "propertylisting.salePrice.commissionSplit",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "label": "LEASEDETAILS",
+                "id": "propertylisting.leasePrice",
+                "type": "list",
+                "tabValue": "FORLEASE",
+                "children": [
+                  {
+                    "label": "PRICE",
+                    "id": "propertylisting.leasePrice.price",
+                    "type": "text"
+                  },
+                  {
+                    "label": "DEPOSITPRICE",
+                    "id": "propertylisting.leasePrice.despositPrice",
+                    "type": "text"
+                  },
+                  {
+                    "label": "LEASEFREQUENCY",
+                    "id": "propertylisting.leasePrice.leaseFrequency",
+                    "type": "text",
+                    "data": {
+                      "optionReference": "Frequency"
+                    }
+                  },
+                  {
+                    "label": "LEASETERM",
+                    "id": "propertylisting.leasePrice.leaseTerm",
+                    "type": "text"
+                  },
+                  {
+                    "label": "LOCKINPERIOD",
+                    "id": "propertylisting.leasePrice.lockInPeriod",
+                    "type": "text"
+                  },
+                  {
+                    "label": "LEASETERMFREQUENCY",
+                    "id": "propertylisting.leasePrice.leaseTermFrequency",
+                    "type": "text",
+                    "data": {
+                      "optionReference": "Frequency"
+                    }
+                  },
+                  {
+                    "label": "COMMISSIONSPLIT",
+                    "id": "propertylisting.leasePrice.commissionSplit",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "label": "BIDDETAILS",
+                "id": "propertylisting.bidPrice",
+                "type": "list",
+                "tabValue": "FORAUCTION",
+                "children": [
+                  {
+                    "label": "BIDSTARTPRICE",
+                    "id": "propertylisting.bidPrice.bidStartPrice",
+                    "type": "text"
+                  },
+                  {
+                    "label": "DEPOSIT",
+                    "id": "propertylisting.bidPrice.depositAmount",
+                    "type": "text"
+                  },
+                  {
+                    "label": "DAYSFORFULLPAYMENT",
+                    "id": "propertylisting.bidPrice.daysForFullPayment",
+                    "type": "text"
+                  },
+                  {
+                    "label": "BIDSTARTDATE",
+                    "id": "propertylisting.bidPrice.bidStartDate",
+                    "type": "text"
+                  },
+                  {
+                    "label": "BIDENDDATE",
+                    "id": "propertylisting.bidPrice.bidEndDate",
+                    "type": "text"
+                  },
+                  {
+                    "label": "COMMISIONSPLIT",
+                    "id": "propertylisting.bidPrice.commissionSplit",
+                    "type": "text"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tooltip": "This includes number total area in sqft",
+            "conditionaliseElement": "",
+            "data": {
+              "value": "Enter Area?"
+            },
+            "subtype": "content",
+            "type": "content",
+            "id": "AreaLabel"
+          },
+          {
+            "label": "Enter Area",
+            "conditionaliseElement": "",
+            "type": "text",
+            "data": {},
+            "id": "AreaValue"
+          }
+        ]
+      }
+    },
+    "referenceData": {
+      "children": [
+        {
+          "id": "PropertyTypes",
+          "option": [
+            {
+              "value": "LAND",
+              "label": "LAND"
+            },
+            {
+              "value": "AGRICULTURAL",
+              "label": "AGRICULTURAL"
+            },
+            {
+              "value": "OFFICE",
+              "label": "OFFICE"
+            },
+            {
+              "value": "HOTEL",
+              "label": "HOTEL"
+            },
+            {
+              "value": "RESIDENTIAL",
+              "label": "RESIDENTIAL"
+            },
+            {
+              "value": "HEALTHCARE",
+              "label": "HEALTHCARE"
+            },
+            {
+              "value": "INDUSTRIAL",
+              "label": "INDUSTRIAL"
+            },
+            {
+              "value": "RETAIL",
+              "label": "RETAIL"
+            },
+            {
+              "value": "OTHER",
+              "label": "OTHER"
+            }
+          ]
+        },
+        {
+          "id": "AGRICULTURAL",
+          "option": [
+            {
+              "value": "AGRIBUSINESS",
+              "label": "AGRIBUSINESS"
+            },
+            {
+              "value": "PASTURELAND",
+              "label": "PASTURELAND"
+            },
+            {
+              "value": "RANCH",
+              "label": "RANCH"
+            },
+            {
+              "value": "TIMBERLAND",
+              "label": "TIMBERLAND"
+            },
+            {
+              "value": "AGRICULTURALLAND",
+              "label": "AGRICULTURALLAND"
+            },
+            {
+              "value": "FARM",
+              "label": "FARM"
+            }
+          ]
+        },
+        {
+          "id": "HEALTHCARE",
+          "option": [
+            {
+              "value": "ACUTECAREHOSPITAL",
+              "label": "ACUTECAREHOSPITAL"
+            },
+            {
+              "value": "MULTICAREHOSPITAL",
+              "label": "MULTICAREHOSPITAL"
+            },
+            {
+              "value": "GENERALHOSPITAL",
+              "label": "GENERALHOSPITAL"
+            },
+            {
+              "value": "DENTIST",
+              "label": "DENTIST"
+            },
+            {
+              "value": "VETERINARYCARE",
+              "label": "VETERINARYCARE"
+            }
+          ]
+        },
+        {
+          "id": "HOTEL",
+          "option": [
+            {
+              "value": "LIMITEDSERVICE",
+              "label": "LIMITEDSERVICE"
+            },
+            {
+              "value": "FULLSERVICE",
+              "label": "FULLSERVICE"
+            },
+            {
+              "value": "RESIDENTIALSUITES",
+              "label": "RESIDENTIALSUITES"
+            }
+          ]
+        },
+        {
+          "id": "OFFICE",
+          "option": [
+            {
+              "value": "OFFICEBUILDING",
+              "label": "OFFICEBUILDING"
+            },
+            {
+              "value": "BUSINESSPARK",
+              "label": "BUSINESSPARK"
+            },
+            {
+              "value": "OFFICECONDO",
+              "label": "OFFICECONDO"
+            },
+            {
+              "value": "OFFICESHOWROOM",
+              "label": "OFFICESHOWROOM"
+            }
+          ]
+        },
+        {
+          "id": "OTHER",
+          "option": [
+            {
+              "value": "ENTERTAINMENT",
+              "label": "ENTERTAINMENT"
+            },
+            {
+              "value": "THEATRE",
+              "label": "THEATRE"
+            },
+            {
+              "value": "SPORTSFACILITY",
+              "label": "SPORTSFACILITY"
+            },
+            {
+              "value": "SCHOOL",
+              "label": "SCHOOL"
+            },
+            {
+              "value": "BEAUTYCARE",
+              "label": "BEAUTYCARE"
+            },
+            {
+              "value": "SPA",
+              "label": "SPA"
+            },
+            {
+              "value": "OTHER",
+              "label": "OTHER"
+            }
+          ]
+        },
+        {
+          "id": "LAND",
+          "option": [
+            {
+              "value": "INDUSTRIALLAND",
+              "label": "INDUSTRIALLAND"
+            },
+            {
+              "value": "OFFICELAND",
+              "label": "OFFICELAND"
+            },
+            {
+              "value": "RESIDENTIALLAND",
+              "label": "RESIDENTIALLAND"
+            },
+            {
+              "value": "COMMERCIALLAND",
+              "label": "COMMERCIALLAND"
+            },
+            {
+              "value": "CAMPGROUND",
+              "label": "CAMPGROUND"
+            },
+            {
+              "value": "PARKINGLAND",
+              "label": "PARKINGLAND"
+            },
+            {
+              "value": "RVPARK",
+              "label": "RVPARK"
+            },
+            {
+              "value": "OTHER",
+              "label": "OTHER"
+            }
+          ]
+        },
+        {
+          "id": "RETAIL",
+          "option": [
+            {
+              "value": "MALL",
+              "label": "MALL"
+            },
+            {
+              "value": "STORE",
+              "label": "STORE"
+            },
+            {
+              "value": "RESTAURANT",
+              "label": "RESTAURANT"
+            },
+            {
+              "value": "BAR",
+              "label": "BAR"
+            },
+            {
+              "value": "GASSTATION",
+              "label": "GASSTATION"
+            },
+            {
+              "value": "RETAILPOD",
+              "label": "RETAILPOD"
+            },
+            {
+              "value": "STREETRETAIL",
+              "label": "STREETRETAIL"
+            },
+            {
+              "value": "OTHER",
+              "label": "OTHER"
+            }
+          ]
+        },
+        {
+          "id": "INDUSTRIAL",
+          "option": [
+            {
+              "value": "RNDLAB",
+              "label": "RNDLAB"
+            },
+            {
+              "value": "STORAGEFACILITY",
+              "label": "STORAGEFACILITY"
+            },
+            {
+              "value": "TRUCKTERMINAL",
+              "label": "TRUCKTERMINAL"
+            },
+            {
+              "value": "FLEXSPACE",
+              "label": "FLEXSPACE"
+            },
+            {
+              "value": "WAREHOUSE",
+              "label": "WAREHOUSE"
+            },
+            {
+              "value": "INDUSTRIALCONDO",
+              "label": "INDUSTRIALCONDO"
+            },
+            {
+              "value": "MANUFACTURING",
+              "label": "MANUFACTURING"
+            },
+            {
+              "value": "COLDSTORAGE",
+              "label": "COLDSTORAGE"
+            },
+            {
+              "value": "WORKSHOP",
+              "label": "WORKSHOP"
+            },
+            {
+              "value": "DISTRIBUTIONWAREHOUSE",
+              "label": "DISTRIBUTIONWAREHOUSE"
+            },
+            {
+              "value": "OTHER",
+              "label": "OTHER"
+            }
+          ]
+        },
+        {
+          "id": "RESIDENTIAL",
+          "option": [
+            {
+              "value": "VILLA",
+              "label": "VILLA"
+            },
+            {
+              "value": "GARDENLOWRISE",
+              "label": "GARDENLOWRISE"
+            },
+            {
+              "value": "GOVERNMENTSUBSIDIZED",
+              "label": "GOVERNMENTSUBSIDIZED"
+            },
+            {
+              "value": "MIDHIGHRISE",
+              "label": "MIDHIGHRISE"
+            },
+            {
+              "value": "MOBILEHOME",
+              "label": "MOBILEHOME"
+            },
+            {
+              "value": "DUPLEX",
+              "label": "DUPLEX"
+            },
+            {
+              "value": "TRIPLEX",
+              "label": "TRIPLEX"
+            },
+            {
+              "value": "FOURPLEX",
+              "label": "FOURPLEX"
+            },
+            {
+              "value": "CONDO",
+              "label": "CONDO"
+            },
+            {
+              "value": "ASSISTEDLIVING",
+              "label": "ASSISTEDLIVING"
+            },
+            {
+              "value": "CONGREGATE",
+              "label": "CONGREGATE"
+            }
+          ]
+        },
+        {
+          "id": "PropertyListingType",
+          "option": [
+            {
+              "value": "FORSALE",
+              "label": "FORSALE"
+            },
+            {
+              "value": "FORLEASE",
+              "label": "FORLEASE"
+            },
+            {
+              "value": "FORAUCTION",
+              "label": "FORAUCTION"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

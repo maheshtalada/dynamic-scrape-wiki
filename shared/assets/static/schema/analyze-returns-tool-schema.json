@@ -1,0 +1,1418 @@
+{
+    "schemas": [
+        {
+            "type": "header",
+            "children": [
+                {
+                    "type": "header",
+                    "children": [
+                        {
+                            "type": "table",
+                            "children": [
+                                {
+                                    "type": "table-header",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "INVESTMENTGROUP",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "label": "AMOUNT",
+                                                    "labelInfo": "USD",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-body",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "ASKINGPRICE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.salePrice",
+                                                    "type": "text",
+                                                    "data": {
+                                                        "changeableFields": [
+                                                            "analyzereturn.propertyTaxesPercentage",
+                                                            "analyzereturn.propertyTaxes"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "FIXUPCOST",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "FIXUPCOST",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.initialImprovementCost",
+                                                    "type": "text",
+                                                    "data": {
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.salePrice",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "ASKINGPRICEPRICEREQUIRED",
+                                                                "value": "ASKINGPRICEPRICEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "CLOSINGCOST",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "CLOSINGCOST",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.closingCost",
+                                                    "type": "text",
+                                                    "data": {},
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.salePrice",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "ASKINGPRICEPRICEREQUIRED",
+                                                                "value": "ASKINGPRICEPRICEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-header",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "PURCHASE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-body",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "DOWNPAYMENTPERCENTAGE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.downPaymentPercentage",
+                                                    "type": "text-calculator",
+                                                    "typePostfix": "%",
+                                                    "data": {
+                                                        "value": "100",
+                                                        "changeableFields": [
+                                                            "analyzereturn.loanDuration",
+                                                            "analyzereturn.loanInterestRate"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        },
+                                                        {
+                                                            "type": "max-value",
+                                                            "message": "MAXVALUE",
+                                                            "value": "100"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "LOANDURATION",
+                                                    "labelInfo": "YEARS",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.loanDuration",
+                                                    "type": "text-calculate-suggestion",
+                                                    "data": {
+                                                        "optionReference": "LOANDURATIONREFERENCEVALUES",
+                                                        "formulaType": "updateLoanTenure"
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        },
+                                                        {
+                                                            "type": "max-value",
+                                                            "message": "MAXVALUE",
+                                                            "value": "100"
+                                                        }
+                                                    ],
+                                                    "cherrypickids": {
+                                                        "downPaymentPercentage": "analyzereturn.downPaymentPercentage"
+                                                    },
+                                                    "isDisableRequired": true
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "LOANINTERESTRATE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.loanInterestRate",
+                                                    "type": "text-calculate-suggestion",
+                                                    "data": {
+                                                        "optionReference": "LOANINTERESTRATEREFERENCEVALUES",
+                                                        "formulaType": "updateLoanInterestRate"
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        },
+                                                        {
+                                                            "type": "max-value",
+                                                            "message": "MAXVALUE",
+                                                            "value": "100"
+                                                        }
+                                                    ],
+                                                    "cherrypickids": {
+                                                        "downPaymentPercentage": "analyzereturn.downPaymentPercentage"
+                                                    },
+                                                    "isDisableRequired": true
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-footer",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "INITIALINVESTMENT",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.initialInvestment",
+                                                    "type": "custom-calculator-animate",
+                                                    "data": {
+                                                        "formulaType": "initialInvestment"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "salePrice": "analyzereturn.salePrice",
+                                                        "initialImprovementCost": "analyzereturn.initialImprovementCost",
+                                                        "downPaymentPercentage": "analyzereturn.downPaymentPercentage",
+                                                        "closingCost" : "analyzereturn.closingCost"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "header",
+                            "label": "ASSUMPTIONS",
+                            "children": [
+                                {
+                                    "type": "table",
+                                    "children": [
+                                        {
+                                            "type": "table-header",
+                                            "children": [
+                                                {
+                                                    "type": "table-row",
+                                                    "children": [
+                                                        {
+                                                            "label": "IRRGROUP",
+                                                            "type": "content",
+                                                            "data": {
+                                                                "separator": false
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-body",
+                                            "children": [
+                                                {
+                                                    "type": "table-row",
+                                                    "children": [
+                                                        {
+                                                            "label": "PROPERTYANNUALAPPRECIATIONPERCENTAGE",
+                                                            "type": "content",
+                                                            "data": {
+                                                                "separator": false
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "analyzereturn.propertyAnnualAppreciationPercentage",
+                                                            "type": "text-calculator",
+                                                            "data": {
+                                                                "value": "2"
+                                                            },
+                                                            "validation": [
+                                                                {
+                                                                    "type": "pattern",
+                                                                    "message": "DECIMALUPTO4DIGIT",
+                                                                    "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                                }
+                                                            ],
+                                                            "typePostfix": "%"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "table-row",
+                                                    "children": [
+                                                        {
+                                                            "label": "RENTINCREMENTPERCENTAGE",
+                                                            "type": "content",
+                                                            "data": {
+                                                                "separator": false
+                                                            }
+                                                        },
+                                                        {
+                                                            "id": "analyzereturn.rentIncrementPercentage",
+                                                            "type": "text-calculator",
+                                                            "data": {
+                                                                "value": "2"
+                                                            },
+                                                            "validation": [
+                                                                {
+                                                                    "type": "pattern",
+                                                                    "message": "DECIMALUPTO4DIGIT",
+                                                                    "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                                }
+                                                            ],
+                                                            "typePostfix": "%"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "groupName": "PURCHASESUMMARY"
+        },
+        {
+            "type": "header",
+            "children": [
+                {
+                    "type": "header",
+                    "children": [
+                        {
+                            "type": "table",
+                            "children": [
+                                {
+                                    "type": "table-header",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "INCOMEGROUP",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "label": "AMOUNT",
+                                                    "labelInfo": "USD",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-body",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "MONTHLYRENTREVENUE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.monthlyRent",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "monthlyRent",
+                                                        "changeableFields": [
+                                                            "analyzereturn.vacancyLosses",
+                                                            "analyzereturn.managementFees",
+                                                            "analyzereturn.leasingFees",
+                                                            "analyzereturn.propertyTaxesPercentage",
+                                                            "analyzereturn.ownerAssociationFeePercentage",
+                                                            "analyzereturn.propertyInsurancePercentage",
+                                                            "analyzereturn.propertyMaintenance",
+                                                            "analyzereturn.grossRentRevenue"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "cherrypickids": {
+                                                        "grossRentRevenue": "analyzereturn.grossRentRevenue"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "GROSSRENTREVENUE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "GROSSRENTREVENUETOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.grossRentRevenue",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "grossRentRevenue"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "monthlyRent": "analyzereturn.monthlyRent"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-header",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "EXPENSEAMOUNT",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "label": "PERCENTAGEOFGRR",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "label": "AMOUNT",
+                                                    "labelInfo": "USD",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-body",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "VACANCYLOSSES",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "VACANCYLOSSESTOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.vacancyLossesPercentage",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage",
+                                                        "changeableFields": [
+                                                            "analyzereturn.vacancyLosses"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        },
+                                                        {
+                                                            "type": "max-value",
+                                                            "message": "MAXVALUE",
+                                                            "value": "100"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.vacancyLosses",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.vacancyLosses",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expenseCost",
+                                                        "changeableFields": [
+                                                            "analyzereturn.vacancyLossesPercentage"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expensePercentage": "analyzereturn.vacancyLossesPercentage",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "MANAGEMENTFEES",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "MANAGEMENTFEESTOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.managementPercentage",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage",
+                                                        "changeableFields": [
+                                                            "analyzereturn.managementFees"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        },
+                                                        {
+                                                            "type": "max-value",
+                                                            "message": "MAXVALUE",
+                                                            "value": "100"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.managementFees",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.managementFees",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expenseCost",
+                                                        "changeableFields": [
+                                                            "analyzereturn.managementPercentage"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expensePercentage": "analyzereturn.managementPercentage",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "LEASINGFEES",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "LEASINGFEESTOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.leasingPercentage",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage",
+                                                        "changeableFields": [
+                                                            "analyzereturn.leasingFees"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        },
+                                                        {
+                                                            "type": "max-value",
+                                                            "message": "MAXVALUE",
+                                                            "value": "100"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.leasingFees",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.leasingFees",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expenseCost",
+                                                        "changeableFields": [
+                                                            "analyzereturn.leasingPercentage"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expensePercentage": "analyzereturn.leasingPercentage",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "PROPERTYTAXES",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "PROPERTYTAXESTOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.propertyTaxesPercentage",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage",
+                                                        "changeableFields": [
+                                                            "analyzereturn.propertyTaxes"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.propertyTaxes",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.propertyTaxes",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "propertyTaxes",
+                                                        "changeableFields": [
+                                                            "analyzereturn.propertyTaxesPercentage"
+                                                        ],
+                                                        "className": "system-generated-value"
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.salePrice",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "ASKINGPRICEPRICEREQUIRED",
+                                                                "value": "ASKINGPRICEPRICEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "propertyTaxRate": "analyzereturn.propertyTaxRate",
+                                                        "salePrice": "analyzereturn.salePrice"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "PROPERTYINSURANCE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "PROPERTYINSURANCETOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.propertyInsurancePercentage",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage",
+                                                        "changeableFields": [
+                                                            "analyzereturn.propertyInsurance"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.propertyInsurance",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.propertyInsurance",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expenseCost",
+                                                        "changeableFields": [
+                                                            "analyzereturn.propertyInsurancePercentage"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expensePercentage": "analyzereturn.propertyInsurancePercentage",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "OWNERASSOCIATIONFEE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "OWNERASSOCIATIONFEETOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.ownerAssociationFeePercentage",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage",
+                                                        "changeableFields": [
+                                                            "analyzereturn.ownerAssociationFee"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.ownerAssociationFee",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.ownerAssociationFee",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expenseCost",
+                                                        "changeableFields": [
+                                                            "analyzereturn.ownerAssociationFeePercentage"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expensePercentage": "analyzereturn.ownerAssociationFeePercentage",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "PROPERTYMAINTENANCE",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "tooltip": "PROPERTYMAINTENANCETOOLTIP",
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.propertyMaintenancePercentage",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage",
+                                                        "changeableFields": [
+                                                            "analyzereturn.propertyMaintenance"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.propertyMaintenance",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.propertyMaintenance",
+                                                    "type": "text-calculator",
+                                                    "data": {
+                                                        "formulaType": "expenseCost",
+                                                        "changeableFields": [
+                                                            "analyzereturn.propertyMaintenancePercentage"
+                                                        ]
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "pattern",
+                                                            "message": "DECIMALUPTO4DIGIT",
+                                                            "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                                                        }
+                                                    ],
+                                                    "dependableFields": {
+                                                        "id": "analyzereturn.grossRentRevenue",
+                                                        "validation": [
+                                                            {
+                                                                "type": "required",
+                                                                "message": "GROSSRENTREVENUEREQUIRED",
+                                                                "value": "GROSSRENTREVENUEREQUIRED",
+                                                                "handler": "keytype"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expensePercentage": "analyzereturn.propertyMaintenancePercentage",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "EXPENSEGROUP",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.totalExpensesPercentage",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.totalExpenses",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.totalExpenses",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "totalExpenses"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "vacancyLosses": "analyzereturn.vacancyLosses",
+                                                        "managementFees": "analyzereturn.managementFees",
+                                                        "leasingFees": "analyzereturn.leasingFees",
+                                                        "propertyInsurance": "analyzereturn.propertyInsurance",
+                                                        "propertyTaxes": "analyzereturn.propertyTaxes",
+                                                        "propertyMaintenance": "analyzereturn.propertyMaintenance",
+                                                        "ownerAssociationFee": "analyzereturn.ownerAssociationFee"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-footer",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "NETOPERATINGINCOME",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.netOperatingPercentage",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.netOperatingIncome",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.netOperatingIncome",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "netOperatingIncome"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "grossRentRevenue": "analyzereturn.grossRentRevenue",
+                                                        "totalExpenses": "analyzereturn.totalExpenses"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "DEBTSERVICES",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.emiPercentage",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.emiCost",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.emiCost",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "emiCost"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "salePrice": "analyzereturn.salePrice",
+                                                        "loanInterestRate": "analyzereturn.loanInterestRate",
+                                                        "loanDuration": "analyzereturn.loanDuration",
+                                                        "downPaymentPercentage": "analyzereturn.downPaymentPercentage"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "ANNUALFREECASHFLOW",
+                                                    "type": "content",
+                                                    "data": {
+                                                        "separator": false
+                                                    }
+                                                },
+                                                {
+                                                    "id": "analyzereturn.cashflowpercentage",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "expensePercentage"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "expenseCost": "analyzereturn.cashflowvalue",
+                                                        "expenseFactor": "analyzereturn.grossRentRevenue",
+                                                        "downPaymentPercentage": "analyzereturn.downPaymentPercentage"
+                                                    },
+                                                    "typePostfix": "%"
+                                                },
+                                                {
+                                                    "id": "analyzereturn.cashflowvalue",
+                                                    "type": "content-calculator",
+                                                    "data": {
+                                                        "formulaType": "annualFreeCashFlow"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "netOperatingIncome": "analyzereturn.netOperatingIncome",
+                                                        "emiCost": "analyzereturn.emiCost",
+                                                        "initialImprovementCost" : "analyzereturn.initialImprovementCost",
+                                                        "closingCost" : "analyzereturn.closingCost"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "groupName": "OPERATIONALSTATEMENT"
+        },
+        {
+            "type": "header",
+            "children": [
+                {
+                    "type": "header",
+                    "children": [
+                        {
+                            "type": "table",
+                            "children": [
+                                {
+                                    "type": "table-header",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "label": "CAPRATE",
+                                                    "type": "custom-calculator-animate",
+                                                    "data": {
+                                                        "labelConfig" : {
+                                                            "updateHandler" : "updateCaprateLabel",
+                                                            "dependentId" : "analyzereturn.downPaymentPercentage",
+                                                            "options" : {
+                                                                "CAPRATE" : {
+                                                                    "label" : "CAPRATE",
+                                                                    "tooltip": "CAPRATETOOLTIP"
+                                                                },
+                                                                "CASHONCASH" : {
+                                                                    "label" : "CASHONCASHRETURNPERCENTAGE",
+                                                                    "tooltip": "CASHONCASHRETURNPERCENTAGETOOLTIP"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "table-body",
+                                    "children": [
+                                        {
+                                            "type": "table-row",
+                                            "children": [
+                                                {
+                                                    "labelInfo": "PERCENTAGE",
+                                                    "id": "analyzereturn.capRate",
+                                                    "type": "custom-calculator-animate",
+                                                    "data": {
+                                                        "tooltip": "CAPRATETOOLTIP",
+                                                        "formulaType": "caprate"
+                                                    },
+                                                    "cherrypickids": {
+                                                        "annualFreeCashFlow": "analyzereturn.cashflowvalue",
+                                                        "salePrice": "analyzereturn.salePrice",
+                                                        "downPaymentPercentage": "analyzereturn.downPaymentPercentage",
+                                                        "initialImprovementCost" : "analyzereturn.initialImprovementCost",
+                                                        "closingCost" : "analyzereturn.closingCost",
+                                                        "netOperatingIncome": "analyzereturn.netOperatingIncome",
+                                                        "loanInterestRate": "analyzereturn.loanInterestRate",
+                                                        "loanDuration": "analyzereturn.loanDuration"
+                                                    },
+                                                    "classNames": [
+                                                        "schema__calculator-animate",
+                                                        "schema__calculator-animate__caprate"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "groupName": "PROJECTIONS"
+        }
+    ],
+    "referenceData": {
+        "children": [
+            {
+                "id": "PURCHASETYPEREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "cashPurchase",
+                        "label": "CASHPURCHASE"
+                    },
+                    {
+                        "value": "leveragedPurchase",
+                        "label": "LEVERAGEDPURCHASE"
+                    }
+                ]
+            },
+            {
+                "id": "LOANDURATIONREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "10",
+                        "label": "10",
+                        "dependentValue": "4.5"
+                    },
+                    {
+                        "value": "15",
+                        "label": "15",
+                        "dependentValue": "4.675"
+                    },
+                    {
+                        "value": "20",
+                        "label": "20",
+                        "dependentValue": "4.75"
+                    },
+                    {
+                        "value": "25",
+                        "label": "25",
+                        "dependentValue": "4.875"
+                    },
+                    {
+                        "value": "30",
+                        "label": "30",
+                        "dependentValue": "5.0"
+                    }
+                ]
+            },
+            {
+                "id": "LOANINTERESTRATEREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "4.5",
+                        "label": "4.5",
+                        "dependentValue": "10"
+                    },
+                    {
+                        "value": "4.675",
+                        "label": "4.675",
+                        "dependentValue": "15"
+                    },
+                    {
+                        "value": "4.75",
+                        "label": "4.75",
+                        "dependentValue": "20"
+                    },
+                    {
+                        "value": "4.875",
+                        "label": "4.875",
+                        "dependentValue": "25"
+                    },
+                    {
+                        "value": "5.0",
+                        "label": "5.0",
+                        "dependentValue": "30"
+                    }
+                ]
+            }
+        ]
+    }
+}

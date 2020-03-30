@@ -1,0 +1,1041 @@
+{
+  "schema": {
+    "schemas": [
+      {
+        "type": "card-large",
+        "children": [
+          {
+            "type": "header",
+            "label": "ABOUT",
+            "children": [
+              {
+                "label": "TITLE",
+                "type": "content-grid",
+                "data": {
+                  "value": "Apartment Style/Flat, Contemporary - Scottsdale, AZ"
+                }
+              },
+              {
+                "label": "SUMMARY",
+                "type": "content-grid",
+                "data": {
+                  "value": "Authentic Loft Living in the heart of downtown Scottsdale! Top floor premium north side location with views of Camelback Mountain. Light, open floorplan, generous kitchen and LR, concrete floors and tall ceilings make this a comfortable place to move into. Give up your car and walk to the finest restaurants and shopping just out your front door. Hang out on the balcony and be a part of the happening Scottsdale scene. Private garage parking, plus a personal storage room are just 2 of the amenities you'll find living here. Don't fret over parking for spring training as it's only a short walk away. Super hip location. Experience world class cultural events at the Scottsdale Cultural Arts Center and Scottsdale Museum of Contemporary Art. Life will be easy here. After all you deserve it, right?"
+                }
+              },
+              {
+                "label": "AREA",
+                "type": "content-grid",
+                "data": {
+                  "value": "915",
+                  "configOptions": {
+                    "handler": "formatNumber",
+                    "postFix": "SQFT"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "groupName": "summarysection"
+      },
+      {
+        "type": "card-wrapper",
+        "children": [
+          {
+            "type": "card",
+            "children": [
+              {
+                "label": "FORSALEDETAILS",
+                "type": "header",
+                "children": [
+                  {
+                    "label": "PRICE",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "375000",
+                      "configOptions": {
+                        "handler": "formatCurrency",
+                        "localeCode": "US"
+                      }
+                    }
+                  },
+                  {
+                    "label": "PROPERTYTAXES",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "819",
+                      "configOptions": {
+                        "handler": "formatCurrency",
+                        "localeCode": "US"
+                      }
+                    }
+                  },
+                  {
+                    "label": "OWNERASSOCIATIONFEE",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "4748.88",
+                      "configOptions": {
+                        "handler": "formatCurrency",
+                        "localeCode": "US"
+                      }
+                    }
+                  }
+                ],
+                "groupName": "pricesection"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "children": [
+              {
+                "label": "PROPERTYCOLLAPSIBLE",
+                "type": "header",
+                "children": [
+                  {
+                    "label": "PROPERTYNAME",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "4020 N SCOTTSDALE Road"
+                    }
+                  },
+                  {
+                    "label": "PROPERTYTYPE",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "RESIDENTIAL",
+                      "configOptions": {
+                        "translationRequired": true
+                      }
+                    }
+                  },
+                  {
+                    "label": "PROPERTYSUBTYPE",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "RESIDENTIAL_APARTMENT",
+                      "configOptions": {
+                        "translationRequired": true
+                      }
+                    }
+                  },
+                  {
+                    "label": "PRIMARYIDENTIFIER",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "130-13-337"
+                    }
+                  },
+                  {
+                    "label": "LOCATIONDIRECTION",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "From Scottsdale Rd continue south, property is on West side of street, located on corner of 1st Ave and Scottsdale Rd."
+                    }
+                  },
+                  {
+                    "label": "PARKINGTYPES",
+                    "type": "content-grid",
+                    "data": {
+                      "value": [
+                        "Assigned",
+                        "Gated",
+                        "Parking Structure"
+                      ],
+                      "configOptions": {
+                        "handler": "flattenWithOutTranslations"
+                      }
+                    }
+                  }
+                ],
+                "groupName": "propertysection"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "children": [
+              {
+                "label": "SELECTEDBUILDINGCOLLAPSIBLE",
+                "type": "header",
+                "children": [
+                  {
+                    "label": "CONSTRUCTIONSTATUS",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "EXISTING",
+                      "configOptions": {
+                        "translationRequired": true
+                      }
+                    }
+                  },
+                  {
+                    "label": "YEARBUILT",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 2008
+                    }
+                  },
+                  {
+                    "label": "NUMBEROFSTORIES",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 3
+                    }
+                  },
+                  {
+                    "label": "LOTAREA",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "0.019",
+                      "configOptions": {
+                        "handler": "formatNumber",
+                        "postFix": "ACRE"
+                      }
+                    }
+                  }
+                ],
+                "groupName": "buildingsection"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "children": [
+              {
+                "label": "SELECTEDBUILDINGUNITCOLLAPSIBLE",
+                "type": "header",
+                "children": [
+                  {
+                    "label": "NUMBEROFROOMS",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 2
+                    }
+                  },
+                  {
+                    "label": "NUMBEROFBEDROOMS",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "label": "NUMBEROFWASHROOMS",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "label": "FIXTURES",
+                    "type": "content-grid",
+                    "data": {
+                      "value": [
+                        "Dishwasher",
+                        "Microwave",
+                        "Oven",
+                        "Refrigerator"
+                      ],
+                      "configOptions": {
+                        "handler": "flattenWithOutTranslations"
+                      }
+                    }
+                  }
+                ],
+                "groupName": "buildingsection"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "children": [
+              {
+                "label": "BUILDINGROOMDETAILS",
+                "type": "header",
+                "children": [
+                  {
+                    "label": "BEDROOM",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "label": "FULLBATHROOM",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "label": "DECK",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "label": "DININGROOM",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 1
+                    }
+                  },
+                  {
+                    "label": "KITCHEN",
+                    "type": "content-grid",
+                    "data": {
+                      "value": 1
+                    }
+                  }
+                ],
+                "groupName": "apartmentroomsection"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "children": [
+              {
+                "label": "LEGAL",
+                "type": "header",
+                "children": [
+                  {
+                    "label": "DISCLAIMER",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "Copyright © 2018 Arizona Regional Multiple Listing Service, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified."
+                    }
+                  },
+                  {
+                    "label": "MLSINFORMATION",
+                    "type": "header-subheader"
+                  },
+                  {
+                    "label": "MLSID",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "ARMLSAZ"
+                    }
+                  },
+                  {
+                    "label": "MLSNUMBER",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "5724768"
+                    }
+                  },
+                  {
+                    "label": "MLSLISTINGURL",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "http://listings.listhub.net/pages/ARMLSAZ/5724768/?channel=propshub",
+                      "configOptions": {
+                        "isExternalLink": true
+                      }
+                    }
+                  },
+                  {
+                    "label": "MLSPROPERTYTYPE",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "Residential"
+                    }
+                  },
+                  {
+                    "label": "MLSPROPERTYSUBTYPE",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "Apartment"
+                    }
+                  }
+                ],
+                "groupName": "propertysection"
+              }
+            ]
+          },
+          {
+            "type": "card",
+            "children": [
+              {
+                "label":"APARTMENTDETAILSCOLLAPSIBLE",
+                "type":"header",
+                "children":[
+                  {
+                    "label":"AMENITIES",
+                    "type":"content-grid",
+                    "data":{
+                      "value":[
+                        "BARBEQUEAREA",
+                        "CHILDCARE",
+                        "CLUBHOUSE",
+                        "CHILDRENPLAYAREA",
+                        "DISABLEDACCESS",
+                        "GARDENAREA",
+                        "LAWNAREA",
+                        "SWIMMINGPOOL",
+                        "GYM",
+                        "JOGGINGTRACK",
+                        "INTERCOM",
+                        "INDOORSPORTS",
+                        "OUTDOORSPORTS",
+                        "DEPARTMENTSTORE",
+                        "SPA",
+                        "WIREDFORAUTOMATION"
+                      ],
+                      "configOptions":{
+                        "handler":"flattenWithTranslations",
+                        "localeCode":"US"
+                      }
+                    }
+                  },
+                  {
+                    "label": "SPECIFICATIONS",
+                    "type": "content-grid",
+                    "data": {
+                      "value": [
+                        "building feature 1",
+                        "building feature 2",
+                        "building feature 3"
+                      ]
+                    }
+                  },
+                  {
+                    "label": "HIGHLIGHTS",
+                    "type": "content-grid",
+                    "data": {
+                      "value": [
+                        "1 mi to Graduate School USA (School)",
+                        "3 mi to The Magnolia Theatre (Movie theater)",
+                        "3 mi to West Village (Shopping mall)",
+                        "1 mi to Baylor University Medical Center (Hospital)",
+                        "2 mi to Dealey Plaza (Park)",
+                        "highlight new ",
+                        "highlight new 2"
+                      ]
+                    }
+                  }
+                ],
+                "groupName":"apartmentsection"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tabs": ["media","schools","medianprice"],
+  "owner": {
+    "id": "21549",
+    "creationDate": 1513680504573,
+    "name": "Scott A Jarson",
+    "roles": [
+      "ROLE_REALTOR"
+    ],
+    "currentUserStatus": "AUTOREGISTERED",
+    "allowedContactActions": [
+      "EMAIL",
+      "TELEPHONE"
+    ],
+    "areasServed": [
+      {
+        "googleText": "Phoenix",
+        "cityName": "Phoenix",
+        "region": "Maricopa",
+        "locality": "Phoenix",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.481878,
+          "lon": -112.069692
+        }
+      },
+      {
+        "googleText": "Scottsdale",
+        "cityName": "Scottsdale",
+        "region": "Maricopa",
+        "locality": "Scottsdale",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.795443,
+          "lon": -111.879526
+        }
+      },
+      {
+        "googleText": "Paradise Valley",
+        "cityName": "Paradise Valley",
+        "region": "Maricopa",
+        "locality": "Paradise Valley",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.580854,
+          "lon": -111.954643
+        }
+      },
+      {
+        "googleText": "Cave Creek",
+        "cityName": "Cave Creek",
+        "region": "Maricopa",
+        "locality": "Cave Creek",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.856533,
+          "lon": -111.97067
+        }
+      }
+    ],
+    "websites": [
+      {
+        "websiteURLType": "SITEURL",
+        "url": "http://www.azarchitecture.com"
+      }
+    ],
+    "companyID": "21547",
+    "profileURL": "/real-estate-agents-residential-investments/scott-a-jarson/realtor/21549",
+    "specialties": [
+      "RESIDENTIAL_INVESTMENTS"
+    ],
+    "canChat": false
+  },
+  "medianPriceStatics": {
+    "schemas": [
+      {
+        "label": "WIDGETMEDIANPRICE",
+        "labelInfo": "85251",
+        "type": "card",
+        "children": [
+          {
+            "label": "MEDIANSALEPRICEANALYSIS",
+            "type": "header",
+            "translationRequired": true
+          },
+          {
+            "id": "medianSalePrice",
+            "type": "chart",
+            "data": {
+              "graphType": "horizontal-bar",
+              "chartID": "medianSalePrice-chartid",
+              "legendID": "medianSalePrice-legendid",
+              "dataset": {
+                "labels": [
+                  "RESIDENTIAL",
+                  "SUBTYPEAREABEDROOM",
+                  "SUBTYPEAREA",
+                  "SUBTYPEBEDROOM",
+                  "CURRENTPROPERTY"
+                ],
+                "datasets": [
+                  {
+                    "label": "MEDIANSALEPRICESTATS",
+                    "data": [
+                      399180,
+                      165750,
+                      171000,
+                      289950,
+                      375000
+                    ],
+                    "backgroundColor": "rgb(75, 192, 192)",
+                    "borderColor": "rgb(75, 192, 192)",
+                    "borderWidth": 1,
+                    "dataLabels": {
+                      "align": "end",
+                      "anchor": "end"
+                    }
+                  }
+                ],
+                "options": {
+                  "axisLabels": {
+                    "xAxes": [
+                      "MEDIANSALEPRICEXAXIS"
+                    ],
+                    "yAxes": [
+                      "MEDIANSALEPRICEYAXIS"
+                    ]
+                  },
+                  "configOptions": {
+                    "xAxes": {
+                      "handler": "formatCurrencyUnit"
+                    },
+                    "dataLabels": {
+                      "handler": "formatCurrencyUnit",
+                      "handlerOptions": {
+                        "precisions": 1
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "dataType": "chart"
+          },
+          {
+            "label": "MEDIANLEASEPRICEANALYSIS",
+            "type": "header",
+            "translationRequired": true
+          },
+          {
+            "id": "medianLeasePrice",
+            "type": "chart",
+            "data": {
+              "graphType": "horizontal-bar",
+              "chartID": "medianLeasePrice-chartid",
+              "legendID": "medianLeasePrice-legendid",
+              "dataset": {
+                "labels": [
+                  "RESIDENTIAL",
+                  "SUBTYPEAREABEDROOM",
+                  "SUBTYPEAREA",
+                  "SUBTYPEBEDROOM"
+                ],
+                "datasets": [
+                  {
+                    "label": "MEDIANLEASEPRICESTATS",
+                    "data": [
+                      2000,
+                      1400,
+                      1298,
+                      1552
+                    ],
+                    "backgroundColor": "rgb(11,151,214)",
+                    "borderColor": "rgb(11,151,214)",
+                    "borderWidth": 1,
+                    "dataLabels": {
+                      "align": "end",
+                      "anchor": "end"
+                    }
+                  }
+                ],
+                "options": {
+                  "displayValue": true,
+                  "axisLabels": {
+                    "xAxes": [
+                      "MEDIANLEASEPRICEXAXIS"
+                    ],
+                    "yAxes": [
+                      "MEDIANLEASEPRICEYAXIS"
+                    ]
+                  },
+                  "configOptions": {
+                    "xAxes": {
+                      "handler": "formatCurrencyUnit",
+                      "handlerOptions": {
+                        "precisions": 1
+                      }
+                    },
+                    "dataLabels": {
+                      "handler": "formatCurrencyUnit",
+                      "handlerOptions": {
+                        "precisions": 2
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "dataType": "chart"
+          }
+        ]
+      }
+    ]
+  },
+  "propertyListing": {
+    "id": "242137",
+    "createdByUserId": "21549",
+    "creationDate": 1518854468695,
+    "ownedByUserId": "21549",
+    "title": "Apartment Style/Flat, Contemporary - Scottsdale, AZ",
+    "listingArea": 915,
+    "listingAreaUOM": "SQFT",
+    "type": "FORSALE",
+    "saleType": "BYAGENT",
+    "selfOwned": false,
+    "allowedContactActions": [
+      "EMAIL",
+      "TELEPHONE"
+    ],
+    "propertyID": "359403",
+    "property": {
+      "id": "359403",
+      "createdByUserId": "21549",
+      "creationDate": 1523434690204,
+      "name": "4020 N SCOTTSDALE Road",
+      "address": {
+        "lineOne": "4020 N SCOTTSDALE Road",
+        "lineTwo": "3010",
+        "region": "Maricopa",
+        "locality": "Scottsdale",
+        "city": "Scottsdale",
+        "stateCode": "AZ",
+        "zipCode": "85251",
+        "country": "US",
+        "geometry": {
+          "lat": 33.49438,
+          "lon": -111.92646
+        }
+      },
+      "formattedAddress": "4020 N Scottsdale Road, 3010, Scottsdale, AZ-85251",
+      "type": "RESIDENTIAL",
+      "subType": "RESIDENTIAL_APARTMENT",
+      "primaryIdentifier": "130-13-337",
+      "highlights": [
+        "Architecture Style : Contemporary",
+        "View Type(s) : City, Mountain"
+      ],
+      "building": {
+        "numberOfStories": 3,
+        "constructionStatus": "EXISTING",
+        "yearBuilt": 2008,
+        "specifications": [
+          "Exterior Type(s) : Brick Veneer, Stucco",
+          "Heating System(s) : Forced Air",
+          "Floor Type(s) : Concrete",
+          "Roof Type(s) : Built-up",
+          "Elevator Available"
+        ],
+        "lotArea": 0.01933,
+        "lotAreaUOM": "ACRE"
+      },
+      "propertyURL": "/commercial-properties-scottsdale-az-85251/residential/residentialapartment/properties/359403",
+      "locationDirection": "From Scottsdale Rd continue south, property is on West side of street, located on corner of 1st Ave and Scottsdale Rd.",
+      "parkingTypes": [
+        "Assigned",
+        "Gated",
+        "Parking Structure"
+      ],
+      "schoolDistrict": "048 - Scottsdale Unified District",
+      "schools": [
+        {
+          "name": "Tonalea K-8",
+          "lowestGradeLevel": "PK",
+          "highestGradeLevel": "5",
+          "distance": 0
+        },
+        {
+          "name": "Coronado Elementary School",
+          "lowestGradeLevel": "9",
+          "highestGradeLevel": "12",
+          "distance": 0
+        },
+        {
+          "name": "Supai Middle School",
+          "lowestGradeLevel": "6",
+          "highestGradeLevel": "8",
+          "distance": 0
+        }
+      ]
+    },
+    "selectedUnit": {
+      "rooms": [
+        {
+          "roomType": "BEDROOM",
+          "numberOfRooms": 1
+        },
+        {
+          "roomType": "FULLBATHROOM",
+          "numberOfRooms": 1
+        },
+        {
+          "roomType": "DECK",
+          "numberOfRooms": 1
+        },
+        {
+          "roomType": "DININGROOM",
+          "numberOfRooms": 1
+        },
+        {
+          "roomType": "KITCHEN",
+          "numberOfRooms": 1
+        }
+      ],
+      "numberOfBedRooms": 1,
+      "numberOfWashRooms": 1,
+      "numberOfRooms": 2,
+      "fixtures": [
+        "Dishwasher",
+        "Microwave",
+        "Oven",
+        "Refrigerator"
+      ]
+    },
+    "status": "ACTIVE",
+    "salePrice": {
+      "askingPrice": 375000,
+      "disclosePrice": true,
+      "propertyFinancials": {
+        "propertyTaxes": 819,
+        "ownerAssociationFee": 4748.8798799999995,
+        "calculatedCapRate": 1.7,
+        "predictedGrossRentRevenue": 1450
+      }
+    },
+    "listingURL": "/residential/sale/residential-apartment-scottsdale-az-85251/property-listings/242137",
+    "summary": "Authentic Loft Living in the heart of downtown Scottsdale! Top floor premium north side location with views of Camelback Mountain. Light, open floorplan, generous kitchen and LR, concrete floors and tall ceilings make this a comfortable place to move into. Give up your car and walk to the finest restaurants and shopping just out your front door. Hang out on the balcony and be a part of the happening Scottsdale scene. Private garage parking, plus a personal storage room are just 2 of the amenities you'll find living here. Don't fret over parking for spring training as it's only a short walk away. Super hip location. Experience world class cultural events at the Scottsdale Cultural Arts Center and Scottsdale Museum of Contemporary Art. Life will be easy here. After all you deserve it, right?",
+    "disclaimer": "Copyright © 2018 Arizona Regional Multiple Listing Service, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified.",
+    "interiorImages": [
+      {
+        "uri": "ARMLSAZ/5724768/1?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/2?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/3?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/4?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/5?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/6?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/7?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/8?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/9?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/10?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/11?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/12?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/13?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/14?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "ARMLSAZ/5724768/15?lm=20180329T221655",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "indexTime": 1518855014437,
+    "mlsListing": {
+      "mlsId": "ARMLSAZ",
+      "mlsName": "Arizona Regional Multiple Listing Service, Inc.",
+      "mlsNumber": "5724768",
+      "listingKey": "3yd-ARMLSAZ-5724768",
+      "listingUrl": "http://listings.listhub.net/pages/ARMLSAZ/5724768/?channel=propshub",
+      "providerCategory": "Broker",
+      "providerName": "Jarson & Jarson Real Estate",
+      "providerUrl": "http://www.azarchitecture.com",
+      "propertyType": "Residential",
+      "propertySubType": "Apartment",
+      "lastModificationDate": 1522791425000,
+      "creationDate": null
+    },
+    "usageCategory": "RESIDENTIAL"
+  },
+  "schools": {
+    "schemas": [
+      {
+        "type": "card-large",
+        "children": [
+          {
+            "id": "schools",
+            "type": "data-grid",
+            "data": {
+              "dataset": {
+                "labels": [
+                  "SCHOOLNAME",
+                  "ZIPCODE",
+                  "SCHOOLTYPE",
+                  "LOWESTGRADE",
+                  "HIGHESTGRADE",
+                  "WEBSITE"
+                ],
+                "datasets": [
+                  {
+                    "SCHOOLNAME": "OUR LADY OF PERPETUAL HELP SCHOOL",
+                    "ZIPCODE": "85251",
+                    "SCHOOLTYPE": "Private",
+                    "LOWESTGRADE": "KG",
+                    "HIGHESTGRADE": "8",
+                    "WEBSITE": null
+                  },
+                  {
+                    "SCHOOLNAME": "HOWARD S GRAY EDUCATION PROGRAM",
+                    "ZIPCODE": "85251",
+                    "SCHOOLTYPE": "Private",
+                    "LOWESTGRADE": "7",
+                    "HIGHESTGRADE": "12",
+                    "WEBSITE": null
+                  },
+                  {
+                    "SCHOOLNAME": "Arcadia Neighborhood Learning Center",
+                    "ZIPCODE": "85251",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "KG",
+                    "HIGHESTGRADE": "08",
+                    "WEBSITE": "www.susd.org"
+                  },
+                  {
+                    "SCHOOLNAME": "Coronado High School",
+                    "ZIPCODE": "85257",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "09",
+                    "HIGHESTGRADE": "12",
+                    "WEBSITE": "www.susd.org/schools/high/coronado"
+                  },
+                  {
+                    "SCHOOLNAME": "Tonalea Elementary School",
+                    "ZIPCODE": "85257",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "PK",
+                    "HIGHESTGRADE": "06",
+                    "WEBSITE": "http://www.susd.org/tonalea/"
+                  },
+                  {
+                    "SCHOOLNAME": "Scottsdale Online Learning",
+                    "ZIPCODE": "85257",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "KG",
+                    "HIGHESTGRADE": "12",
+                    "WEBSITE": null
+                  },
+                  {
+                    "SCHOOLNAME": "Pima Elementary School",
+                    "ZIPCODE": "85251",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "PK",
+                    "HIGHESTGRADE": "06",
+                    "WEBSITE": "pima.susd.org"
+                  },
+                  {
+                    "SCHOOLNAME": "Navajo Elementary School",
+                    "ZIPCODE": "85251",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "PK",
+                    "HIGHESTGRADE": "06",
+                    "WEBSITE": "www.susd.org/schools/elem/Navajo/"
+                  },
+                  {
+                    "SCHOOLNAME": "Kiva Elementary School",
+                    "ZIPCODE": "85253",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "KG",
+                    "HIGHESTGRADE": "06",
+                    "WEBSITE": "www.susd.org/schools/elem/Kiva/kiva.htm"
+                  },
+                  {
+                    "SCHOOLNAME": "Hohokam Traditional School",
+                    "ZIPCODE": "85257",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "PK",
+                    "HIGHESTGRADE": "06",
+                    "WEBSITE": "www.susd.org/schools/Elem/Hohokam"
+                  },
+                  {
+                    "SCHOOLNAME": "Ingleside Middle School",
+                    "ZIPCODE": "85018",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "06",
+                    "HIGHESTGRADE": "08",
+                    "WEBSITE": "ingleside.susd.org"
+                  },
+                  {
+                    "SCHOOLNAME": "Mohave Middle School",
+                    "ZIPCODE": "85250",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "07",
+                    "HIGHESTGRADE": "08",
+                    "WEBSITE": "www.susd.org/schools/middle/Mohave/index.htm"
+                  },
+                  {
+                    "SCHOOLNAME": "Hopi Elementary School",
+                    "ZIPCODE": "85018",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "KG",
+                    "HIGHESTGRADE": "05",
+                    "WEBSITE": "www.hopi.susd.org"
+                  },
+                  {
+                    "SCHOOLNAME": "Supai Middle School",
+                    "ZIPCODE": "85257",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "07",
+                    "HIGHESTGRADE": "08",
+                    "WEBSITE": "www.susd.org/supai"
+                  },
+                  {
+                    "SCHOOLNAME": "Saguaro High School",
+                    "ZIPCODE": "85250",
+                    "SCHOOLTYPE": "Regular School",
+                    "LOWESTGRADE": "09",
+                    "HIGHESTGRADE": "12",
+                    "WEBSITE": "saguaro.susd.org/"
+                  }
+                ]
+              }
+            },
+            "dataType": "data-grid"
+          },
+          {
+            "label": "SOURCE",
+            "labelPostfix": ":",
+            "type": "card-footer",
+            "data": {
+              "value": "WIDGETSCHOOLFOOTER"
+            },
+            "translationRequired": true
+          }
+        ]
+      }
+    ]
+  },
+  "standardDeviation": {
+    "min": 105000,
+    "max": 420000,
+    "avg": 165750,
+    "stdDeviation": 102396.99,
+    "stdDeviationUpperBound": 472940.97000000003,
+    "stdDeviationLowerBound": -141440.97000000003,
+    "modeLowerBound": 119738,
+    "modeUpperBound": 159650.86
+  },
+  "status": "success"
+}

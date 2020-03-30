@@ -1,0 +1,1057 @@
+{
+  "schemas": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "label": "NAME",
+          "id": "realtor.name",
+          "type": "text",
+          "validation": [
+            {
+              "type": "required",
+              "message": "NAMEREQUIRED",
+              "value": "NAMEREQUIRED"
+            }
+          ]
+        },
+        {
+          "label": "MOBILENUMBER",
+          "id": "realtor.mobileNumber",
+          "type": "text",
+          "validation": [
+            {
+              "type": "pattern",
+              "message": "NUMBERONLY",
+              "value": "^[0-9]\\d*$"
+            },
+            {
+              "type": "max-length",
+              "message": "MAXLENGTH",
+              "value": "10"
+            },
+            {
+              "type": "min-length",
+              "message": "MINLENGTH",
+              "value": "10"
+            }
+          ]
+        },
+        {
+          "label": "EMAILID",
+          "id": "realtor.emailId",
+          "type": "text",
+          "validation": [
+            {
+              "type": "required",
+              "message": "EMAILIDREQUIRED",
+              "value": "EMAILIDREQUIRED"
+            },
+            {
+              "type": "pattern",
+              "message": "EMAILPATTERNERROR",
+              "value": "^([a-zA-Z0-9'_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"
+            }
+          ]
+        },
+        {
+          "label": "PASSWORD",
+          "id": "realtor.password",
+          "type": "text-password",
+          "validation": [
+            {
+              "type": "required",
+              "message": "PASSWORDREQUIRED",
+              "value": "PASSWORDREQUIRED"
+            },
+            {
+              "type": "min-length",
+              "message": "MINLENGTH",
+              "value": "6"
+            }
+          ]
+        }
+      ],
+      "groupName": "userinfo"
+    },
+    {
+      "type": "header",
+      "children": [
+        {
+          "label": "AREASSERVED",
+          "id": "AREASSERVED",
+          "type": "list",
+          "data": {
+            "tooltip": "AREASSERVEDTOOLTIP"
+          },
+          "children": [
+            {
+              "id": "realtor.areasServed(1)",
+              "type": "list",
+              "children": [
+                {
+                  "label": "ENTERAREA",
+                  "id": "realtor.areasServed(1).googleText",
+                  "type": "text-google-place",
+                  "validation": [
+                    {
+                      "type": "required",
+                      "message": "AREAREQUIRED",
+                      "value": "AREAREQUIRED"
+                    }
+                  ]
+                },
+                {
+                  "id": "realtor.areasServed(1).cityName",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(1).region",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(1).locality",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(1).stateCode",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(1).country",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(1).geometry",
+                  "type": "list",
+                  "children": [
+                    {
+                      "id": "realtor.areasServed(1).geometry.lat",
+                      "type": "text-hidden"
+                    },
+                    {
+                      "id": "realtor.areasServed(1).geometry.lon",
+                      "type": "text-hidden"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ADDAREASSERVED",
+          "id": "ADDAREASSERVED",
+          "type": "clone",
+          "data": {
+            "tooltip": "AREASSERVEDTOOLTIP",
+            "key": "2"
+          },
+          "children": [
+            {
+              "id": "areasservedremovable",
+              "type": "list",
+              "subtype": "list-removable-single",
+              "children": [
+                {
+                  "label": "AREASSERVED",
+                  "id": "realtor.areasServed(*)",
+                  "type": "list",
+                  "children": [
+                    {
+                      "label": "ENTERAREA",
+                      "id": "realtor.areasServed(*).googleText",
+                      "type": "text-google-place",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "AREAREQUIRED",
+                          "value": "AREAREQUIRED"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "realtor.areasServed(*).cityName",
+                      "type": "text-hidden"
+                    },
+                    {
+                      "id": "realtor.areasServed(*).region",
+                      "type": "text-hidden"
+                    },
+                    {
+                      "id": "realtor.areasServed(*).locality",
+                      "type": "text-hidden"
+                    },
+                    {
+                      "id": "realtor.areasServed(*).stateCode",
+                      "type": "text-hidden"
+                    },
+                    {
+                      "id": "realtor.areasServed(*).country",
+                      "type": "text-hidden"
+                    },
+                    {
+                      "id": "realtor.areasServed(*).geometry",
+                      "type": "list",
+                      "children": [
+                        {
+                          "id": "realtor.areasServed(*).geometry.lat",
+                          "type": "text-hidden"
+                        },
+                        {
+                          "id": "realtor.areasServed(*).geometry.lon",
+                          "type": "text-hidden"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groupName": "areasinfo"
+    },
+    {
+      "type": "header",
+      "children": [
+        {
+          "id": "professioninfocollapsible",
+          "type": "list",
+          "subtype": "list-tabs-collapse",
+          "data": {
+            "value": "true",
+            "label": "PROFESSIONINFOCOLLAPSIBLE",
+            "openIcon": "pe-7s-plus",
+            "closeIcon": "pe-7s-less"
+          },
+          "tabs": [
+            {
+              "type": "list",
+              "children": [
+                {
+                  "label": "PROFESSIONALSINCE",
+                  "id": "realtor.realtorSince",
+                  "type": "text",
+                  "data": {
+                    "value": "2016"
+                  },
+                  "validation": [
+                    {
+                      "type": "pattern",
+                      "message": "NUMBERONLY",
+                      "value": "^[0-9]\\d*$"
+                    },
+                    {
+                      "type": "max-value",
+                      "message": "MAXVALUE",
+                      "value": "2017"
+                    }
+                  ]
+                },
+                {
+                  "label": "SPECIALTIES",
+                  "id": "realtor.specialties",
+                  "type": "list",
+                  "data": {
+                    "tooltip": "SPECIALTIESTOOLTIP"
+                  },
+                  "children": [
+                    {
+                      "id": "realtor.specialties",
+                      "type": "list",
+                      "subtype": "list-columns-no-gutter",
+                      "data": {
+                        "columns": "3",
+                        "loop": true
+                      },
+                      "children": [
+                        {
+                          "id": "realtor.specialties(0)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "INCOME_SPECIALIST",
+                            "optionValue": "INCOME_SPECIALIST"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(1)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "COMMERCIAL_PROPERTIES",
+                            "optionValue": "COMMERCIAL_PROPERTIES"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(2)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "RESIDENTIAL_INVESTMENTS",
+                            "optionValue": "RESIDENTIAL_INVESTMENTS"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(3)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "PROPERTY_MANAGEMENT",
+                            "optionValue": "PROPERTY_MANAGEMENT"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(4)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "RESIDENTIAL_LENDING",
+                            "optionValue": "RESIDENTIAL_LENDING"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(5)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "COMMERCIAL_LENDING",
+                            "optionValue": "COMMERCIAL_LENDING"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(6)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "FARM_AND_LAND",
+                            "optionValue": "FARM_AND_LAND"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(7)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "INDUSTRIAL",
+                            "optionValue": "INDUSTRIAL"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(8)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "LAND_DEVELOPMENT",
+                            "optionValue": "LAND_DEVELOPMENT"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(9)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "APPRAISAL",
+                            "optionValue": "APPRAISAL"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(10)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "URBAN_PLANNING",
+                            "optionValue": "URBAN_PLANNING"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(11)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "LEGAL",
+                            "optionValue": "LEGAL"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(12)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "BACK_OFFICE_SPECIALIST",
+                            "optionValue": "BACK_OFFICE_SPECIALIST"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(13)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "RESEARCH",
+                            "optionValue": "RESEARCH"
+                          }
+                        },
+                        {
+                          "id": "realtor.specialties(14)",
+                          "type": "options",
+                          "subtype": "checkbox-icon-values",
+                          "data": {
+                            "label": "OTHER_SPECIALTY",
+                            "optionValue": "OTHER_SPECIALTY"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "ABOUT",
+                  "id": "realtor.about",
+                  "type": "text-area",
+                  "maxLength": "1000"
+                },
+                {
+                  "label": "EXPERTISE",
+                  "id": "EXPERTISE",
+                  "type": "list",
+                  "data": {
+                    "tooltip": "EXPERTISETOOLTIP"
+                  },
+                  "children": [
+                    {
+                      "label": "EXPERTISE",
+                      "id": "realtor.areasOfExpertise(1)",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "label": "ADDEXPERTISE",
+                  "id": "ADDEXPERTISE",
+                  "type": "clone",
+                  "data": {
+                    "tooltip": "EXPERTISETOOLTIP",
+                    "key": "2"
+                  },
+                  "children": [
+                    {
+                      "label": "EXPERTISE",
+                      "id": "areasofexpertiseremovable",
+                      "type": "list",
+                      "subtype": "list-removable-single",
+                      "children": [
+                        {
+                          "label": "EXPERTISE",
+                          "id": "realtor.areasOfExpertise(*)",
+                          "type": "text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "custom-group",
+                  "children": [
+                    {
+                      "label": "LICENSE",
+                      "id": "realtor.license",
+                      "type": "list-tabs-dropdown",
+                      "data": {
+                        "optionReference": "license"
+                      },
+                      "dependableFields": {
+                        "id": "realtor.licenseNumber",
+                        "validation": [
+                          {
+                            "type": "required",
+                            "message": "LICENSENUMBERREQUIRED",
+                            "value": "LICENSENUMBERREQUIRED",
+                            "handler": "submit"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "label": "LICENSENUMBER",
+                      "id": "realtor.licenseNumber",
+                      "type": "text",
+                      "dependableFields": {
+                        "id": "realtor.license",
+                        "validation": [
+                          {
+                            "type": "required",
+                            "message": "LICENSERREQUIRED",
+                            "value": "LICENSERREQUIRED",
+                            "handler": "submit"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "custom-group",
+                  "children": [
+                    {
+                      "label": "LICENSEJURISDICTION",
+                      "id": "realtor.licenseJurisdiction",
+                      "type": "text"
+                    },
+                    {
+                      "label": "LICENSEISSUINGAUTHORITY",
+                      "id": "realtor.licenseIssuingAuthority",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "tabValue": "true"
+            }
+          ]
+        }
+      ],
+      "groupName": "realtorinfo"
+    },
+    {
+      "type": "header",
+      "children": [
+        {
+          "label": "CONTACTACTIONS",
+          "id": "realtor.allowedContactActions",
+          "type": "list",
+          "data": {
+            "tooltip": "CONTACTACTIONSTOOLTIP"
+          },
+          "children": [
+            {
+              "id": "realtor.allowedContactActions",
+              "type": "list",
+              "subtype": "list-columns-no-gutter",
+              "data": {
+                "columns": "3",
+                "loop": true
+              },
+              "children": [
+                {
+                  "id": "realtor.allowedContactActions(0)",
+                  "type": "options",
+                  "subtype": "checkbox-icon-values",
+                  "data": {
+                    "value": "EMAIL",
+                    "icon": "mail",
+                    "label": "EMAIL",
+                    "optionValue": "EMAIL"
+                  }
+                },
+                {
+                  "id": "realtor.allowedContactActions(1)",
+                  "type": "options",
+                  "subtype": "checkbox-icon-values",
+                  "data": {
+                    "icon": "phone",
+                    "label": "TELEPHONE",
+                    "optionValue": "TELEPHONE"
+                  }
+                },
+                {
+                  "id": "realtor.allowedContactActions(2)",
+                  "type": "options",
+                  "subtype": "checkbox-icon-values",
+                  "data": {
+                    "value": "CHAT",
+                    "icon": "chat2",
+                    "label": "CHAT",
+                    "optionValue": "CHAT"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contactcollapsible",
+          "type": "list",
+          "subtype": "list-tabs-collapse",
+          "data": {
+            "value": "true",
+            "label": "CONTACTCOLLAPSIBLE",
+            "openIcon": "pe-7s-plus",
+            "closeIcon": "pe-7s-less"
+          },
+          "tabs": [
+            {
+              "type": "list",
+              "children": [
+                {
+                  "label": "OTHERCONTACTNUMBERS",
+                  "id": "OTHERCONTACTNUMBERS",
+                  "type": "list",
+                  "children": [
+                    {
+                      "id": "realtor.otherContactNumbers(1)",
+                      "type": "list",
+                      "children": [
+                        {
+                          "type": "custom-group",
+                          "children": [
+                            {
+                              "label": "CONTACTNUMBERTYPE",
+                              "id": "realtor.otherContactNumbers(1).contactNumberType",
+                              "type": "dropdown",
+                              "data": {
+                                "optionReference": "contactnumbertype"
+                              },
+                              "dependableFields": {
+                                "id": "realtor.otherContactNumbers(1).number",
+                                "validation": [
+                                  {
+                                    "type": "required",
+                                    "message": "CONTACTNUMBERREQUIRED",
+                                    "value": "CONTACTNUMBERREQUIRED",
+                                    "handler": "submit"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "label": "CONTACTNUMBER",
+                              "id": "realtor.otherContactNumbers(1).number",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "pattern",
+                                  "message": "NUMBERONLY",
+                                  "value": "^[0-9]\\d*$"
+                                },
+                                {
+                                  "type": "max-length",
+                                  "message": "MAXLENGTH",
+                                  "value": "10"
+                                },
+                                {
+                                  "type": "min-length",
+                                  "message": "MINLENGTH",
+                                  "value": "10"
+                                }
+                              ],
+                              "dependableFields": {
+                                "id": "realtor.otherContactNumbers(1).contactNumberType",
+                                "validation": [
+                                  {
+                                    "type": "required",
+                                    "message": "CONTACTNUMBERTYPEREQUIRED",
+                                    "value": "CONTACTNUMBERTYPEREQUIRED",
+                                    "handler": "submit"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "ADDOTHERCONTACTNUMBERS",
+                  "id": "ADDOTHERCONTACTNUMBERS",
+                  "type": "clone",
+                  "data": {
+                    "key": "2"
+                  },
+                  "children": [
+                    {
+                      "id": "othercontactnumbersremovable",
+                      "type": "list",
+                      "subtype": "list-removable-single",
+                      "children": [
+                        {
+                          "label": "OTHERCONTACTNUMBERS",
+                          "id": "realtor.otherContactNumbers(*)",
+                          "type": "list",
+                          "children": [
+                            {
+                              "type": "custom-group",
+                              "children": [
+                                {
+                                  "label": "CONTACTNUMBERTYPE",
+                                  "id": "realtor.otherContactNumbers(*).contactNumberType",
+                                  "type": "dropdown",
+                                  "data": {
+                                    "optionReference": "contactnumbertype"
+                                  },
+                                  "dependableFields": {
+                                    "id": "realtor.otherContactNumbers(*).number",
+                                    "validation": [
+                                      {
+                                        "type": "required",
+                                        "message": "CONTACTNUMBERREQUIRED",
+                                        "value": "CONTACTNUMBERREQUIRED",
+                                        "handler": "submit"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "label": "CONTACTNUMBER",
+                                  "id": "realtor.otherContactNumbers(*).number",
+                                  "type": "text",
+                                  "validation": [
+                                    {
+                                      "type": "pattern",
+                                      "message": "NUMBERONLY",
+                                      "value": "^[0-9]\\d*$"
+                                    },
+                                    {
+                                      "type": "max-length",
+                                      "message": "MAXLENGTH",
+                                      "value": "10"
+                                    },
+                                    {
+                                      "type": "min-length",
+                                      "message": "MINLENGTH",
+                                      "value": "10"
+                                    }
+                                  ],
+                                  "dependableFields": {
+                                    "id": "realtor.otherContactNumbers(*).contactNumberType",
+                                    "validation": [
+                                      {
+                                        "type": "required",
+                                        "message": "CONTACTNUMBERTYPEREQUIRED",
+                                        "value": "CONTACTNUMBERTYPEREQUIRED",
+                                        "handler": "submit"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "WEBSITES",
+                  "id": "WEBSITES",
+                  "type": "list",
+                  "children": [
+                    {
+                      "id": "realtor.websites(1)",
+                      "type": "list",
+                      "children": [
+                        {
+                          "type": "custom-group",
+                          "children": [
+                            {
+                              "label": "WEBSITETYPE",
+                              "id": "realtor.websites(1).websiteURLType",
+                              "type": "dropdown",
+                              "data": {
+                                "optionReference": "websitetype"
+                              },
+                              "dependableFields": {
+                                "id": "realtor.websites(1).url",
+                                "validation": [
+                                  {
+                                    "type": "required",
+                                    "message": "SITEURLREQUIRED",
+                                    "value": "SITEURLREQUIRED",
+                                    "handler": "submit"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "label": "SITEURL",
+                              "id": "realtor.websites(1).url",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "pattern",
+                                  "message": "URLPATTERN",
+                                  "value": "^(http://|https://|www\\.)[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(/.*)?$"
+                                }
+                              ],
+                              "dependableFields": {
+                                "id": "realtor.websites(1).websiteURLType",
+                                "validation": [
+                                  {
+                                    "type": "required",
+                                    "message": "WEBSITETYPEREQUIRED",
+                                    "value": "WEBSITETYPEREQUIRED",
+                                    "handler": "submit"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "ADDWEBSITES",
+                  "id": "ADDWEBSITES",
+                  "type": "clone",
+                  "data": {
+                    "key": "2"
+                  },
+                  "children": [
+                    {
+                      "id": "websitesremovable",
+                      "type": "list",
+                      "subtype": "list-removable-single",
+                      "children": [
+                        {
+                          "label": "WEBSITES",
+                          "id": "realtor.websites(*)",
+                          "type": "list",
+                          "children": [
+                            {
+                              "type": "custom-group",
+                              "children": [
+                                {
+                                  "label": "WEBSITETYPE",
+                                  "id": "realtor.websites(*).websiteURLType",
+                                  "type": "dropdown",
+                                  "data": {
+                                    "optionReference": "websitetype"
+                                  },
+                                  "dependableFields": {
+                                    "id": "realtor.websites(*).url",
+                                    "validation": [
+                                      {
+                                        "type": "required",
+                                        "message": "SITEURLREQUIRED",
+                                        "value": "SITEURLREQUIRED",
+                                        "handler": "submit"
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "label": "SITEURL",
+                                  "id": "realtor.websites(*).url",
+                                  "type": "text",
+                                  "validation": [
+                                    {
+                                      "type": "pattern",
+                                      "message": "URLPATTERN",
+                                      "value": "^(http://|https://|www\\.)[a-z0-9]+([\\-\\.]{1}[a-z0-9]+)*\\.[a-z]{2,5}(:[0-9]{1,5})?(/.*)?$"
+                                    }
+                                  ],
+                                  "dependableFields": {
+                                    "id": "realtor.websites(*).websiteURLType",
+                                    "validation": [
+                                      {
+                                        "type": "required",
+                                        "message": "WEBSITETYPEREQUIRED",
+                                        "value": "WEBSITETYPEREQUIRED",
+                                        "handler": "submit"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "tabValue": "true"
+            }
+          ]
+        }
+      ],
+      "groupName": "contactinfo"
+    },
+    {
+      "type": "header",
+      "children": [
+        {
+          "label": "HAVECOMPANY",
+          "id": "realtor.haveCompany",
+          "type": "list",
+          "subtype": "list-tabs",
+          "data": {
+            "optionReference": "HAVECOMPANYREFERENCEVALUES",
+            "value": "false",
+            "tooltip": "HAVECOMPANYTOOLTIP"
+          },
+          "tabs": [
+            {
+              "id": "company",
+              "type": "list",
+              "children": [
+                {
+                  "label": "BROKERAGEFIRMCOMPLETE",
+                  "id": "realtor.companyIdOrName",
+                  "type": "text-ajax-populate",
+                  "data": {
+                    "tooltip": "BROKERAGEFIRMCOMPLETETOOLTIP",
+                    "url": "https://service.propshub.com/api/v1/search/brokerage-firm/suggest",
+                    "param": "q"
+                  }
+                }
+              ],
+              "tabValue": "true"
+            }
+          ]
+        }
+      ],
+      "groupName": "addbrokeragefirm"
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "license",
+        "option": [
+          {
+            "value": "AUCTIONEER",
+            "label": "AUCTIONEER"
+          },
+          {
+            "value": "CERTIFIEDGENERALAPPRAISER",
+            "label": "CERTIFIEDGENERALAPPRAISER"
+          },
+          {
+            "value": "CERTIFIEDRESIDENTIALAPPRAISER",
+            "label": "CERTIFIEDRESIDENTIALAPPRAISER"
+          },
+          {
+            "value": "LEASINGAGENT",
+            "label": "LEASING_AGENT"
+          },
+          {
+            "value": "LICENSEDAPPRAISER",
+            "label": "LICENSEDAPPRAISER"
+          },
+          {
+            "value": "LICENSEDINSPECTOR",
+            "label": "LICENSEDINSPECTOR"
+          },
+          {
+            "value": "MORTGAGEBROKER",
+            "label": "MORTGAGE_BROKER"
+          },
+          {
+            "value": "PROPERTYMANAGEMENT",
+            "label": "PROPERTYMANAGEMENT"
+          },
+          {
+            "value": "REALESTATEBROKER",
+            "label": "REALESTATEBROKER"
+          },
+          {
+            "value": "REGISTEREDAPPRAISER",
+            "label": "REGISTEREDAPPRAISER"
+          },
+          {
+            "value": "REGISTEREDINSPECTOR",
+            "label": "REGISTEREDINSPECTOR"
+          },
+          {
+            "value": "RENTALPROPERTYMANAGEMENT",
+            "label": "RENTALPROPERTYMANAGEMENT"
+          },
+          {
+            "value": "SALESPERSON",
+            "label": "SALESPERSON"
+          },
+          {
+            "value": "OTHER",
+            "label": "OTHER"
+          }
+        ]
+      },
+      {
+        "id": "contactnumbertype",
+        "option": [
+          {
+            "value": "HOMETELEPHONE",
+            "label": "HOMETELEPHONE"
+          },
+          {
+            "value": "OFFICETELEPHONE",
+            "label": "OFFICETELEPHONE"
+          },
+          {
+            "value": "MOBILE",
+            "label": "MOBILE"
+          }
+        ]
+      },
+      {
+        "id": "websitetype",
+        "option": [
+          {
+            "value": "SITEURL",
+            "label": "SITEURL"
+          },
+          {
+            "value": "TWITTERHANDLE",
+            "label": "TWITTERHANDLE"
+          },
+          {
+            "value": "LINKEDIN",
+            "label": "LINKEDIN"
+          },
+          {
+            "value": "FACEBOOK",
+            "label": "FACEBOOK"
+          },
+          {
+            "value": "BLOG",
+            "label": "BLOG"
+          }
+        ]
+      },
+      {
+        "id": "HAVECOMPANYREFERENCEVALUES",
+        "option": [
+          {
+            "value": "true",
+            "label": "YES"
+          },
+          {
+            "value": "false",
+            "label": "NO"
+          }
+        ]
+      }
+    ]
+  },
+  "schemaInfos": [
+    {
+      "description": "USERINFOGROUPDESCRIPTION",
+      "icon": "Icon_User_Info"
+    },
+    {
+      "description": "AREASINFOGROUPDESCRIPTION",
+      "icon": "Icon_Areas_Served"
+    },
+    {
+      "description": "PROFESSIONINFOGROUPDESCRIPTION",
+      "icon": "Icon_User_Info"
+    },
+    {
+      "description": "CONTACTINFOGROUPDESCRIPTION",
+      "icon": "Icon_Contact_Info"
+    },
+    {
+      "description": "ADDBROKERAGEFIRMINFOGROUPDESCRIPTION",
+      "icon": "Icon_Company_Info"
+    }
+  ],
+  "status": "success"
+}

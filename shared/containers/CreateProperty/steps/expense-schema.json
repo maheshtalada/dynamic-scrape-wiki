@@ -1,0 +1,247 @@
+{
+  "addschema": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "type": "custom-multi-group",
+          "children": [
+            {
+              "label": "EXPENSEDATE",
+              "id": "property.expense(1).expenseDate",
+              "type": "date",
+              "data": {
+                "value": "",
+                "format": "MM/DD/YYYY"
+              },
+              "validation":[  
+                {  
+                   "type":"required",
+                   "message":"EXPENSEDATEREQUIRED",
+                   "value":"EXPENSEDATEREQUIRED"
+                }
+             ]
+            },
+            {
+              "label": "EXPENSETYPE",
+              "id": "property.expense(1).expenseType",
+              "type": "dropdown",
+              "data": {
+                "optionReference": "contactnumbertype"
+              },
+              "validation":[  
+                {  
+                   "type":"required",
+                   "message":"EXPENSETYPEREQUIRED",
+                   "value":"EXPENSETYPEREQUIRED"
+                }
+             ]
+            },
+            {
+              "label": "DESCRIPTION",
+              "id": "property.expense(1).description",
+              "type": "text"
+            },
+            {
+              "label": "AMOUNT",
+              "labelInfo": "USD",
+              "id": "property.expense(1).amount",
+              "type": "text",
+              "validation":[  
+                {  
+                   "type":"required",
+                   "message":"EXPENSEAMOUNTREQUIRED",
+                   "value":"EXPENSEAMOUNTREQUIRED"
+                },
+                {  
+                   "type":"pattern",
+                   "message":"DECIMALUPTO4DIGIT",
+                   "value":"^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                }
+             ]
+            }
+          ]
+        },
+        {
+          "label": "ADDEXPENSE",
+          "id": "ADDEXPENSE",
+          "type": "clone",
+          "data": {
+            "tooltip": "EXPENSETOOLTIP",
+            "key": "2"
+          },
+          "children": [
+            {
+              "label": "EXPERTISE",
+              "id": "expenseremovable",
+              "type": "list",
+              "subtype": "list-removable-single",
+              "children": [
+                {
+                  "type": "custom-multi-group",
+                  "children": [
+                    {
+                      "label": "EXPENSEDATE",
+                      "id": "property.expense(*).expenseDate",
+                      "type": "date",
+                      "data": {
+                        "format": "MM/DD/YYYY"
+                      },
+                      "validation":[  
+                        {  
+                           "type":"required",
+                           "message":"EXPENSEDATEREQUIRED",
+                           "value":"EXPENSEDATEREQUIRED"
+                        }
+                     ]
+                    },
+                    {
+                      "label": "EXPENSETYPE",
+                      "id": "property.expense(*).expenseType",
+                      "type": "dropdown",
+                      "data": {
+                        "optionReference": "contactnumbertype"
+                      },
+                      "validation":[  
+                        {  
+                           "type":"required",
+                           "message":"EXPENSETYPEREQUIRED",
+                           "value":"EXPENSETYPEREQUIRED"
+                        }
+                     ]
+                    },
+                    {
+                      "label": "DESCRIPTION",
+                      "id": "property.expense(*).description",
+                      "type": "text"
+                    },
+                    {
+                      "label": "AMOUNT",
+                      "labelInfo": "USD",
+                      "id": "property.expense(*).amount",
+                      "type": "text",
+                      "validation":[  
+                        {  
+                           "type":"required",
+                           "message":"EXPENSEAMOUNTREQUIRED",
+                           "value":"EXPENSEAMOUNTREQUIRED"
+                        },
+                        {  
+                           "type":"pattern",
+                           "message":"DECIMALUPTO4DIGIT",
+                           "value":"^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                        }
+                     ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "editschema": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "type": "custom-multi-group",
+          "children": [
+            {
+              "label": "EXPENSEDATE",
+              "id": "property.expense(1).expenseDate",
+              "type": "date",
+              "data": {
+                "value": ""
+              },
+              "validation":[  
+                {  
+                   "type":"required",
+                   "message":"EXPENSEDATEREQUIRED",
+                   "value":"EXPENSEDATEREQUIRED"
+                }
+             ]
+            },
+            {
+              "label": "EXPENSETYPE",
+              "id": "property.expense(1).expenseType",
+              "type": "dropdown",
+              "data": {
+                "optionReference": "contactnumbertype"
+              },
+              "validation":[  
+                {  
+                   "type":"required",
+                   "message":"EXPENSETYPEREQUIRED",
+                   "value":"EXPENSETYPEREQUIRED"
+                }
+             ]
+            },
+            {
+              "label": "DESCRIPTION",
+              "id": "property.expense(1).description",
+              "type": "text"
+            },
+            {
+              "label": "AMOUNT",
+              "labelInfo": "USD",
+              "id": "property.expense(1).amount",
+              "type": "text",
+              "validation":[  
+                {  
+                   "type":"required",
+                   "message":"EXPENSEAMOUNTREQUIRED",
+                   "value":"EXPENSEAMOUNTREQUIRED"
+                },
+                {  
+                   "type":"pattern",
+                   "message":"DECIMALUPTO4DIGIT",
+                   "value":"^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                }
+             ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "contactnumbertype",
+        "option": [
+          {
+            "value": "MANAGEMENT_FEE",
+            "label": "MANAGEMENTFEES"
+          },
+          {
+            "value": "LEASING_FEE",
+            "label": "LEASINGFEES"
+          },
+          {
+            "value": "PROPERTY_TAXES",
+            "label": "PROPERTYTAXES"
+          },
+          {
+            "value": "INSURANCE",
+            "label": "PROPERTYINSURANCE"
+          },
+          {
+            "value": "HOA_FEE",
+            "label": "OWNERASSOCIATIONFEE"
+          },
+          {
+            "value": "MAINTENANCE",
+            "label": "PROPERTYMAINTENANCE"
+          },
+          {
+            "value": "OTHER",
+            "label": "OTHER"
+          }
+        ]
+      }
+    ]
+  }
+}

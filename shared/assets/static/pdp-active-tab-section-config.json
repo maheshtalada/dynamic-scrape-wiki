@@ -1,0 +1,33 @@
+{
+  "listing" : {
+    "features" : ["highlights","utilities"],
+    "similarListings": ["data"],
+    "documents": ["documents","floorPlans"],
+    "videos": ["videoLinks"],
+    "externalLinks": ["externalLinks"],
+    "schools": ["schools"],
+    "medianPriceStatics": ["medianPriceStatics"]
+  },
+  "realtor" : {
+    "specialties" : ["specialties","areasOfExpertise"],
+    "listings" : ["data"],
+    "articles" : ["data"],
+    "about": ["about","websites"]
+  },
+  "brokeragefirm" : {
+    "recentListings" : ["data"],
+    "cashFlowListings" : ["data"],
+    "realtors" : ["data"],
+    "about": ["about","websites"],
+    "specialties": ["specialties","areasOfExpertise"],
+    "areasServed": ["areasServed","areasServed"]
+  },
+  "company" : {
+    "specialties" : ["professionTypes"],
+    "professionals" : ["professionals"]
+  },
+  "professional" : {
+    "specialties" : ["professions","areasOfExpertise"],
+    "about": ["about","websites"]
+  }
+}

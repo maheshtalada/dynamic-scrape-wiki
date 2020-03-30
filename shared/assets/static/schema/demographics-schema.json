@@ -1,0 +1,1142 @@
+{
+  "schemas": [
+    {
+      "type": "list",
+      "children": [
+        {
+          "label": "WIDGETMEDIANPRICE",
+          "type": "card-wrapper",
+          "children": [
+            {
+              "label": "MEDIANSALEPRICEANALYSIS",
+              "type": "card",
+              "children": [
+                {
+                  "id": "medianSaleSubdivisionAndSchoolDistrictPrice",
+                  "type": "chart",
+                  "data": {
+                    "graphType": "horizontal-bar",
+                    "chartID": "medianSaleSubdivisionAndSchoolDistrictPrice-chartid",
+                    "legendID": "medianSaleSubdivisionAndSchoolDistrictPrice-legendid",
+                    "dataset": {
+                      "labels": [
+                        "RESIDENTIAL",
+                        "SUBTYPEAREABEDROOM",
+                        "SUBTYPEBEDROOM",
+                        "CURRENTPROPERTY"
+                      ],
+                      "datasets": [
+                        {
+                          "label": "MEDIANSALESUBDIVISIONANDSCHOOLDISTRICTPRICESTATS",
+                          "data": [
+                            119900,
+                            119900,
+                            124450,
+                            119000
+                          ],
+                          "backgroundColor": "rgb(75, 192, 192)",
+                          "borderColor": "rgb(75, 192, 192)",
+                          "borderWidth": 1
+                        }
+                      ],
+                      "options": {
+                        "displayValue": true,
+                        "axisLabels": {
+                          "xAxes": [
+                            null
+                          ],
+                          "yAxes": [
+                            null
+                          ]
+                        },
+                        "configOptions": {
+                          "xAxes": {
+                            "handler": "formatCurrencyUnit",
+                            "handlerOptions": {
+                              "precisions": 1
+                            }
+                          },
+                          "dataLabels": {
+                            "handler": "formatCurrencyUnit",
+                            "handlerOptions": {
+                              "precisions": 1
+                            }
+                          }
+                        },
+                        "dataLabels": {
+                          "align": "center",
+                          "anchor": "center",
+                          "color": "#ffffff"
+                        },
+                        "tooltips": {
+                          "enabled": false
+                        }
+                      }
+                    }
+                  },
+                  "dataType": "chart"
+                }
+              ]
+            },
+            {
+              "label": "MEDIANLEASEPRICEANALYSIS",
+              "type": "card",
+              "children": [
+                {
+                  "id": "medianLeaseSubdivisionAndSchoolDistrictPrice",
+                  "type": "chart",
+                  "data": {
+                    "graphType": "horizontal-bar",
+                    "chartID": "medianLeaseSubdivisionAndSchoolDistrictPrice-chartid",
+                    "legendID": "medianLeaseSubdivisionAndSchoolDistrictPrice-legendid",
+                    "dataset": {
+                      "labels": [
+                        "RESIDENTIAL",
+                        "SUBTYPEAREABEDROOM",
+                        "SUBTYPEBEDROOM"
+                      ],
+                      "datasets": [
+                        {
+                          "label": "MEDIANLEASESUBDIVISIONANDSCHOOLDISTRICTPRICESTATS",
+                          "data": [
+                            1235,
+                            1195,
+                            1195
+                          ],
+                          "backgroundColor": "rgb(11,151,214)",
+                          "borderColor": "rgb(11,151,214)",
+                          "borderWidth": 1
+                        }
+                      ],
+                      "options": {
+                        "displayValue": true,
+                        "axisLabels": {
+                          "xAxes": [
+                            null
+                          ],
+                          "yAxes": [
+                            null
+                          ]
+                        },
+                        "configOptions": {
+                          "xAxes": {
+                            "handler": "formatCurrency"
+                          },
+                          "dataLabels": {
+                            "handler": "formatCurrency"
+                          }
+                        },
+                        "dataLabels": {
+                          "align": "center",
+                          "anchor": "center",
+                          "color": "#ffffff"
+                        },
+                        "tooltips": {
+                          "enabled": false
+                        }
+                      }
+                    }
+                  },
+                  "dataType": "chart"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "demographics",
+      "id": "demographicdata",
+      "type": "card-wrapper",
+      "children": [
+        {
+          "label": "WIDGETFMRDATA",
+          "labelInfo": "Dallas County",
+          "type": "card",
+          "children": [
+            {
+              "id": "fmrData",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "chartID": "fmrData-chartid",
+                "legendID": "fmrData-legendid",
+                "dataset": {
+                  "labels": [
+                    "2014",
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "EFFICIENTAPARTMENTPRICE",
+                      "data": [
+                        602,
+                        607,
+                        667,
+                        689,
+                        730
+                      ],
+                      "backgroundColor": "#44c9d2",
+                      "borderColor": "#44c9d2"
+                    },
+                    {
+                      "label": "ONEBHKAPARTMENTPRICE",
+                      "data": [
+                        722,
+                        728,
+                        796,
+                        837,
+                        878
+                      ],
+                      "backgroundColor": "#0b97d5",
+                      "borderColor": "#0b97d5"
+                    },
+                    {
+                      "label": "TWOBHKAPARTMENTPRICE",
+                      "data": [
+                        913,
+                        921,
+                        986,
+                        1031,
+                        1077
+                      ],
+                      "backgroundColor": "#0b4163",
+                      "borderColor": "#0b4163"
+                    },
+                    {
+                      "label": "THREEBHKAPARTMENTPRICE",
+                      "data": [
+                        1218,
+                        1229,
+                        1337,
+                        1390,
+                        1447
+                      ],
+                      "backgroundColor": "#79002b",
+                      "borderColor": "#79002b"
+                    },
+                    {
+                      "label": "FOURBHKAPARTMENTPRICE",
+                      "data": [
+                        1471,
+                        1484,
+                        1692,
+                        1774,
+                        1856
+                      ],
+                      "backgroundColor": "#ca202d",
+                      "borderColor": "#ca202d"
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {
+                      "yAxes": {
+                        "handler": "formatCurrency"
+                      },
+                      "dataLabels": {
+                        "handler": "formatCurrency"
+                      }
+                    }
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETFMRFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 1
+        },
+        {
+          "label": "WIDGETPOPULATIONGROWTH",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "id": "populationGrowth",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "chartID": "populationGrowth-chartid",
+                "legendID": "populationGrowth-legendid",
+                "dataset": {
+                  "labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "POPULATIONGROWTH",
+                      "data": [
+                        82842,
+                        82664,
+                        83121,
+                        82353,
+                        82582
+                      ],
+                      "backgroundColor": "rgb(22,119,110)",
+                      "borderColor": "rgb(22,119,110)",
+                      "borderWidth": 1
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {}
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 2
+        },
+        {
+          "label": "WIDGETUNEMPLOYMENT",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "id": "unEmployedGrowth",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "chartID": "unEmployedGrowth-chartid",
+                "legendID": "unEmployedGrowth-legendid",
+                "dataset": {
+                  "labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "UNEMPLOYMENTGROWTH",
+                      "data": [
+                        15.09,
+                        13.84,
+                        12.72,
+                        8.9,
+                        7.1
+                      ],
+                      "backgroundColor": "#ca202d",
+                      "borderColor": "#ca202d",
+                      "borderWidth": 1
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {
+                      "yAxes": {
+                        "postFix": "%",
+                        "handlerOptions": {
+                          "precisions": 2
+                        }
+                      },
+                      "dataLabels": {
+                        "postFix": "%",
+                        "handlerOptions": {
+                          "precisions": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 3
+        },
+        {
+          "label": "WIDGETMEDIANINCOME",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "id": "medianIncome",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "chartID": "medianIncome-chartid",
+                "legendID": "medianIncome-legendid",
+                "dataset": {
+                  "labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "MEDIANINCOME",
+                      "data": [
+                        21385,
+                        21649,
+                        22193,
+                        22568,
+                        22087
+                      ],
+                      "backgroundColor": "#0b4163",
+                      "borderColor": "#0b4163",
+                      "borderWidth": 1
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {
+                      "yAxes": {
+                        "handler": "formatCurrencyUnit",
+                        "handlerOptions": {
+                          "precisions": 1
+                        }
+                      },
+                      "dataLabels": {
+                        "handler": "formatCurrencyUnit",
+                        "handlerOptions": {
+                          "precisions": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 4
+        },
+        {
+          "label": "WIDGETHOUSING",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "label": "TOTALUNITS",
+              "labelPostfix": ":",
+              "type": "content",
+              "data": {
+                "value": "25121 (5.4 Rooms/Unit)"
+              }
+            },
+            {
+              "id": "occupiedRented",
+              "type": "chart",
+              "data": {
+                "graphType": "multi-axis-bar",
+                "chartID": "occupiedRented-chartid",
+                "legendID": "occupiedRented-legendid",
+                "dataset": {
+                  "labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "OCCUPIEDUNIT",
+                      "data": [
+                        89.71,
+                        90.08,
+                        89.77,
+                        90.22,
+                        90.86
+                      ],
+                      "backgroundColor": "#0b97d5",
+                      "borderColor": "#0b97d5",
+                      "borderWidth": 1
+                    },
+                    {
+                      "label": "RENTEDUNITS",
+                      "data": [
+                        33.52,
+                        34.53,
+                        34.82,
+                        36.8,
+                        37.14
+                      ],
+                      "backgroundColor": "#008373",
+                      "borderColor": "#008373",
+                      "borderWidth": 1
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {
+                      "yAxes": {
+                        "postFix": "%"
+                      },
+                      "dataLabels": {
+                        "postFix": "%"
+                      }
+                    }
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 5
+        },
+        {
+          "label": "WIDGETPROPERTYTAX",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "id": "medianPropertyTax",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "chartID": "medianPropertyTax-chartid",
+                "legendID": "medianPropertyTax-legendid",
+                "dataset": {
+                  "labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "MEDIANPROPERTYTAX",
+                      "data": [
+                        1347,
+                        1296,
+                        1283,
+                        1229,
+                        1248
+                      ],
+                      "backgroundColor": "#79002b",
+                      "borderColor": "#79002b",
+                      "borderWidth": 1
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {
+                      "yAxes": {
+                        "handler": "formatCurrency"
+                      },
+                      "dataLabels": {
+                        "handler": "formatCurrency"
+                      }
+                    }
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 6
+        },
+        {
+          "label": "WIDGETINCOMESLAB",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "id": "incomeSlab",
+              "type": "chart",
+              "data": {
+                "graphType": "bar",
+                "chartID": "incomeSlab-chartid",
+                "legendID": "incomeSlab-legendid",
+                "dataset": {
+                  "labels": [
+                    "BELOWFIFTEENTHOUSANDINCOME",
+                    "FIFTEENTOTHIRTYTHOUSANDINCOME",
+                    "THIRTYTOFIFTYTHOUSANDINCOME",
+                    "FIFTYTOSEVENTYFIVEHOUSANDINCOME",
+                    "SEVENTYFIVETOHUNDREDTHOUSANDINCOME",
+                    "HUNDREDTOONEFIFTYTHOUSANDINCOME",
+                    "ONEFIFTYABOVETHOUSANDINCOME"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "INCOMESLAB",
+                      "data": [
+                        19.31,
+                        24.09,
+                        26.57,
+                        17.49,
+                        7.13,
+                        3.93,
+                        1.47
+                      ],
+                      "backgroundColor": "#44c9d2",
+                      "borderColor": "#44c9d2",
+                      "borderWidth": 1
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {
+                      "yAxes": {
+                        "postFix": "%"
+                      },
+                      "dataLabels": {
+                        "postFix": "%"
+                      }
+                    }
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 7
+        },
+        {
+          "label": "WIDGETOCCUPATION",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "id": "occupation",
+              "type": "chart",
+              "data": {
+                "graphType": "pie",
+                "chartID": "occupation-chartid",
+                "legendID": "occupation-legendid",
+                "dataset": {
+                  "labels": [
+                    "CONSTRUCTIONOCCUPATION",
+                    "SERVICEOCCUPATION",
+                    "SALESOCCUPATION",
+                    "PRODUCTIONOCCUPATION",
+                    "MANAGEMENTOCCUPATION"
+                  ],
+                  "datasets": [
+                    {
+                      "data": [
+                        25.09,
+                        24.07,
+                        22.52,
+                        18.09,
+                        10.23
+                      ],
+                      "backgroundColor": [
+                        "rgb(10,154,142)",
+                        "rgb(48,110,119)",
+                        "rgb(22,119,110)",
+                        "rgb(26,68,90)",
+                        "rgb(0,172,220)"
+                      ],
+                      "hoverBackgroundColor": [
+                        "rgb(10,154,142)",
+                        "rgb(48,110,119)",
+                        "rgb(22,119,110)",
+                        "rgb(26,68,90)",
+                        "rgb(0,172,220)"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 8
+        },
+        {
+          "label": "WIDGETETHNICITY",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "label": "MEDIANAGE",
+              "labelPostfix": ":",
+              "type": "content",
+              "data": {
+                "value": "28.4",
+                "configOptions": {
+                  "postFix": "YEARS"
+                }
+              },
+              "translationRequired": true
+            },
+            {
+              "label": "HISPANICPERCENTAGE",
+              "labelPostfix": ":",
+              "type": "content",
+              "data": {
+                "value": "0%"
+              }
+            },
+            {
+              "label": "MALEFEMALERATIO",
+              "id": "maleFemale",
+              "type": "custom-ratio-bar",
+              "data": {
+                "value": [
+                  48,
+                  52
+                ],
+                "backgroundColor": [
+                  "#0c74b5",
+                  "#f94a57"
+                ]
+              }
+            },
+            {
+              "id": "population",
+              "type": "chart",
+              "data": {
+                "graphType": "pie",
+                "chartID": "population-chartid",
+                "legendID": "population-legendid",
+                "dataset": {
+                  "labels": [
+                    "WHITE",
+                    "BLACK",
+                    "OTHER",
+                    "AMERICAN",
+                    "ASIAN"
+                  ],
+                  "datasets": [
+                    {
+                      "data": [
+                        65.32,
+                        25.86,
+                        8.44,
+                        0.22,
+                        0.16
+                      ],
+                      "backgroundColor": [
+                        "rgb(10,154,142)",
+                        "rgb(48,110,119)",
+                        "rgb(22,119,110)",
+                        "rgb(26,68,90)",
+                        "rgb(0,172,220)"
+                      ],
+                      "hoverBackgroundColor": [
+                        "rgb(10,154,142)",
+                        "rgb(48,110,119)",
+                        "rgb(22,119,110)",
+                        "rgb(26,68,90)",
+                        "rgb(0,172,220)"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 9
+        },
+        {
+          "label": "WIDGETTRANSPORTATION",
+          "labelInfo": "75217",
+          "type": "card",
+          "children": [
+            {
+              "label": "MEANTRAVELTIME",
+              "labelInfo": "MINUTES",
+              "labelPostfix": ":",
+              "type": "content",
+              "data": {
+                "value": "33"
+              }
+            },
+            {
+              "id": "transportationMeans",
+              "type": "chart",
+              "data": {
+                "graphType": "horizontal-bar",
+                "chartID": "transportationMeans-chartid",
+                "legendID": "transportationMeans-legendid",
+                "dataset": {
+                  "labels": [
+                    "PEOPLEDROVEALONE",
+                    "PEOPLECARPOOLED",
+                    "PEOPLEUSEDPUBLICTRANSPORTATION",
+                    "PEOPLEUSEDBICYCLEORWALKED",
+                    "PEOPLEUSEDOTHERTRANSPORTATION",
+                    "PEOPLEWORKEDATHOME"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "TRANSPORTATIONMEANS",
+                      "data": [
+                        77.55,
+                        13.58,
+                        4,
+                        0.7,
+                        1.6,
+                        2.57
+                      ],
+                      "backgroundColor": "#0a9a8e",
+                      "borderColor": "#0a9a8e",
+                      "borderWidth": 1
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {
+                      "xAxes": {
+                        "postFix": "%"
+                      },
+                      "dataLabels": {
+                        "postFix": "%"
+                      }
+                    }
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCENSUSFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 10
+        },
+        {
+          "label": "WIDGETPROPERTYCRIME",
+          "type": "card",
+          "children": [
+            {
+              "id": "propertyCrimeData",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "chartID": "propertyCrimeData-chartid",
+                "legendID": "propertyCrimeData-legendid",
+                "dataset": {
+                  "labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "Dallas Police Department",
+                      "data": [
+                        4420.37,
+                        4201.46,
+                        3619.47,
+                        3467.04,
+                        3427.79
+                      ],
+                      "backgroundColor": "#ca202d",
+                      "borderColor": "#ca202d"
+                    },
+                    {
+                      "label": "Texas",
+                      "data": [
+                        3363.13,
+                        3253.23,
+                        3015.35,
+                        2840.85,
+                        2759.78
+                      ],
+                      "backgroundColor": "#0b4163",
+                      "borderColor": "#0b4163"
+                    },
+                    {
+                      "label": "United States",
+                      "data": [
+                        2868.03,
+                        2733.64,
+                        2574.1,
+                        2500.53,
+                        2450.75
+                      ],
+                      "backgroundColor": "#44c9d2",
+                      "borderColor": "#44c9d2"
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {}
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCRIMEFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 11
+        },
+        {
+          "label": "WIDGETVIOLENTCRIME",
+          "type": "card",
+          "children": [
+            {
+              "id": "violentCrimeData",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "chartID": "violentCrimeData-chartid",
+                "legendID": "violentCrimeData-legendid",
+                "dataset": {
+                  "labels": [
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015",
+                    "2016"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "Dallas Police Department",
+                      "data": [
+                        672.55,
+                        660.79,
+                        637.38,
+                        666.83,
+                        738.49
+                      ],
+                      "backgroundColor": "#ca202d",
+                      "borderColor": "#ca202d"
+                    },
+                    {
+                      "label": "Texas",
+                      "data": [
+                        408.56,
+                        410.32,
+                        406.65,
+                        412.67,
+                        434.42
+                      ],
+                      "backgroundColor": "#0b4163",
+                      "borderColor": "#0b4163"
+                    },
+                    {
+                      "label": "United States",
+                      "data": [
+                        387.75,
+                        369.13,
+                        361.55,
+                        373.74,
+                        386.28
+                      ],
+                      "backgroundColor": "#44c9d2",
+                      "borderColor": "#44c9d2"
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {},
+                    "configOptions": {}
+                  }
+                }
+              },
+              "dataType": "chart"
+            },
+            {
+              "label": "SOURCE",
+              "labelPostfix": ":",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETCRIMEFOOTER"
+              },
+              "translationRequired": true
+            }
+          ],
+          "order": 12
+        }
+      ]
+    },
+    {
+      "label": "WIDGETDISASTERDATA",
+      "labelInfo": "Dallas County",
+      "type": "card-large",
+      "children": [
+        {
+          "id": "distasterData",
+          "type": "data-grid",
+          "data": {
+            "dataset": {
+              "labels": [
+                "INCIDENTTITLE",
+                "INCIDENTBEGINDATE",
+                "INCIDENTTYPE",
+                "IHPROGRAMDECLARED",
+                "IAPROGRAMDECLARED",
+                "PAPROGRAMDECLARED",
+                "HMPROGRAMDECLARED"
+              ],
+              "datasets": [
+                {
+                  "INCIDENTTITLE": "EXTREME WILDFIRE THREAT",
+                  "INCIDENTBEGINDATE": "11/27/2005",
+                  "INCIDENTTYPE": "Fire",
+                  "IHPROGRAMDECLARED": "&#x2716;",
+                  "IAPROGRAMDECLARED": "&#x2716;",
+                  "PAPROGRAMDECLARED": "&#x2714;",
+                  "HMPROGRAMDECLARED": "&#x2714;"
+                },
+                {
+                  "INCIDENTTITLE": "HURRICANE RITA ",
+                  "INCIDENTBEGINDATE": "09/23/2005",
+                  "INCIDENTTYPE": "Hurricane",
+                  "IHPROGRAMDECLARED": "&#x2716;",
+                  "IAPROGRAMDECLARED": "&#x2716;",
+                  "PAPROGRAMDECLARED": "&#x2714;",
+                  "HMPROGRAMDECLARED": "&#x2714;"
+                },
+                {
+                  "INCIDENTTITLE": "HURRICANE RITA",
+                  "INCIDENTBEGINDATE": "09/20/2005",
+                  "INCIDENTTYPE": "Hurricane",
+                  "IHPROGRAMDECLARED": "&#x2716;",
+                  "IAPROGRAMDECLARED": "&#x2716;",
+                  "PAPROGRAMDECLARED": "&#x2714;",
+                  "HMPROGRAMDECLARED": "&#x2716;"
+                },
+                {
+                  "INCIDENTTITLE": "HURRICANE KATRINA EVACUATION",
+                  "INCIDENTBEGINDATE": "08/29/2005",
+                  "INCIDENTTYPE": "Hurricane",
+                  "IHPROGRAMDECLARED": "&#x2716;",
+                  "IAPROGRAMDECLARED": "&#x2716;",
+                  "PAPROGRAMDECLARED": "&#x2714;",
+                  "HMPROGRAMDECLARED": "&#x2716;"
+                },
+                {
+                  "INCIDENTTITLE": "LOSS OF THE SPACE SHUTTLE COLUMBIA",
+                  "INCIDENTBEGINDATE": "02/01/2003",
+                  "INCIDENTTYPE": "Other",
+                  "IHPROGRAMDECLARED": "&#x2716;",
+                  "IAPROGRAMDECLARED": "&#x2716;",
+                  "PAPROGRAMDECLARED": "&#x2714;",
+                  "HMPROGRAMDECLARED": "&#x2716;"
+                }
+              ]
+            }
+          },
+          "dataType": "data-grid"
+        },
+        {
+          "label": "SOURCE",
+          "labelPostfix": ":",
+          "type": "card-footer",
+          "data": {
+            "value": "WIDGETDISASTERDATAFOOTER"
+          },
+          "translationRequired": true
+        }
+      ]
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,4165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-10 12:37+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+msgid "CAPTION7"
+msgstr "Analise mercados e propriedades em um n?vel mais profundo"
+
+msgid "CAPTION8"
+msgstr "Visualizar o potencial de aluguel e cobertura"
+
+msgid "MOBILEACCESSINFOTIP"
+msgstr "Nosso site ainda n?o est? otimizado para dispositivos m?veis. Por favor, use nosso site para desktop."
+
+msgid "DONE"
+msgstr "Feito"
+
+msgid "HIGHESTRENTPOTENTIAL"
+msgstr "Potencial de aluguel (alto a baixo)"
+
+msgid "CAPRATESEARCHTAB"
+msgstr "4+ taxa de cobertura"
+
+msgid "ADVERTISEWITHUS"
+msgstr "Anuncie conosco"
+
+msgid "IRRYEARTEN"
+msgstr "IRR (Ano 10)"
+
+msgid "CAPRATEYEARONE"
+msgstr "Cap Rate Potential (Ano 1)"
+
+msgid "IRRTOOLTIP"
+msgstr "Taxa interna de retorno. Inclui 6% de custo de fechamento de venda."
+
+msgid "IRRGRAPHNOTE"
+msgstr "Inclui 6% de custo de fechamento de venda"
+
+msgid "CAPRATELEGENDSNOTE"
+msgstr "Potencial m?dio da taxa de cobertura"
+
+msgid "MEDIANPRICELEGENDSNOTE"
+msgstr "Pre?os medianos de listagens ativas"
+
+msgid "RENTALUNITLEGENDSNOTE"
+msgstr "Unidades alugadas versus ocupadas"
+
+msgid "INCOMELEGENDSNOTE"
+msgstr "Renda mediana"
+
+msgid "UNEMPLOYMENTLEGENDSNOTE"
+msgstr "Taxa de desemprego"
+
+msgid "POPULATIONLEGENDSNOTE"
+msgstr "Crescimento anual da popula??o"
+
+msgid "PROPERTYCRIMELEGENDSNOTE"
+msgstr "Crimes por 100K habitantes"
+
+msgid "VIOLENTCRIMELEGENDSNOTE"
+msgstr "Crimes por 100K habitantes"
+
+msgid "COMMUTETIMELEGENDSNOTE"
+msgstr "Tempo m?dio de deslocamento para o trabalho"
+
+msgid "RECOMMENDATIONLEGENDSNOTE"
+msgstr "?ndice do mercado de investimento"
+
+msgid "FIXERUPPERLEGENDNOTE"
+msgstr "Contagem de propriedades do fixador"
+
+msgid "TURNKEYLEGENDNOTE"
+msgstr "Contagem de propriedades de turn key"
+
+msgid "TURNKEYTOOLTIP"
+msgstr "Uma propriedade de turn key vem com um inquilino e um gerente de propriedade preferida do PropsHub. Normalmente, isso significa que o aluguel ? coletado a partir do primeiro dia de propriedade. Preste aten??o aos termos da loca??o."
+
+msgid "FIXERUPPERTOOLTIP"
+msgstr "Um fixador ? uma propriedade que precisa de reparos para colocar a propriedade em condi??es de aluguel. Normalmente, essas propriedades t?m pre?os menores para contabilizar as despesas de reparo. Compare os pre?os para se certificar de que o pre?o de tabela reflete essa despesa. Um corretor de im?veis preferencial PropsHub pode ajud?-lo com o gerenciamento de reabilita??o."
+
+msgid "CAPRATESEARCHTOOLTIP"
+msgstr "Cap rate 4+ s?o propriedades que t?m o potencial de oferecer uma taxa de capeamento de 4 e acima. Use o recurso de an?lise de retornos para entender o potencial de retorno e verificar o potencial de retorno com um corretor de im?veis preferencial do PropsHub."
+
+msgid "POPULARSEEARCHES"
+msgstr "Pesquisas populares"
+
+msgid "POPULARSEARCHTABTOOLTIP"
+msgstr "Visualiza??o de pesquisas populares, como chave na m?o, fixador e cota??o de an?ncio por c?digo postal."
+
+msgid "TURNKEYTABTOOLTIP"
+msgstr "A visualiza??o da propriedade da chave de turno conta por cada CEP. Uma propriedade de turn key vem com um inquilino e um gerente de propriedade preferida do PropsHub. Normalmente, isso significa que o aluguel ? coletado a partir do primeiro dia de propriedade. Preste aten??o aos termos da loca??o."
+
+msgid "FIXERUPPERTABTOOLTIP"
+msgstr "A visualiza??o da propriedade do fixador ? contada por cada c?digo postal. Um fixador ? uma propriedade que precisa de reparos para colocar a propriedade em condi??es de aluguel. Normalmente, essas propriedades t?m pre?os menores para contabilizar as despesas de reparo. Compare os pre?os para se certificar de que o pre?o de tabela reflete essa despesa. Um corretor de im?veis preferencial PropsHub pode ajud?-lo com o gerenciamento de reabilita??o."
+
+msgid "IRR"
+msgstr "TIR"
+
+msgid "DEMOGRAPHICSTABTOOLTIP"
+msgstr "Vista da demografia por c?digo postal. Dados provenientes do United States Census Bureau e do Federal Bureau of Investigation."
+
+msgid "GROSSRENTREVENUETOOLTIP"
+msgstr "Aluguel mensal vezes 12."
+
+msgid "MORTGAGEBROKER"
+msgstr "Corretor hipotec?rio"
+
+msgid "REPORTANISSUE"
+msgstr "Comunicar um problema"
+
+msgid "SUBJECT"
+msgstr "Sujeito"
+
+msgid "REAL_ESTATE_INVESTOR"
+msgstr "Investidor Imobili?rio"
+
+msgid "USERREGISTRATIONTYPE"
+msgstr "eu sou um"
+
+msgid "NEEDLEGALADVICE"
+msgstr "Precisa de aconselhamento legal"
+
+msgid "NEEDINSURANCE"
+msgstr "Precisa de seguro"
+
+msgid "NEEDLOAN"
+msgstr "Precisa de empr?stimo"
+
+msgid "NEEDINVESTMENTADVICE"
+msgstr "Precisa de conselhos de investimento"
+
+msgid "NEEDBUYINGASSISTANCE"
+msgstr "Precisa de ajuda para comprar"
+
+msgid "PROVIDEFEEDBACK"
+msgstr "Enviar feedback do site"
+
+msgid "REPORTINACCURACYESTIMATIONS"
+msgstr "Relatar imprecis?o"
+
+msgid "REPORTANISSUE"
+msgstr "Comunicar um problema"
+
+msgid "PROVIDESUBJECT"
+msgstr "Fornecer assunto"
+
+msgid "USERREGISTRATIONTYPETOOLTIP"
+msgstr "Sua profiss?o ou especialidade"
+
+msgid "REALESTATEPROFESSIONALS"
+msgstr "Fornecedores preferidos do PropsHub"
+
+msgid "INCORPORATION_ATTORNEY"
+msgstr "Advogado de Incorpora??o"
+
+msgid "INSURANCE_AGENT"
+msgstr "Agente de seguros"
+
+msgid "LOAN_OFFICER"
+msgstr "Oficial de Empr?stimo"
+
+msgid "FROM"
+msgstr "A partir de"
+
+msgid "LISTEDTODAY"
+msgstr "Listado hoje"
+
+msgid "EMAILINVALIDERROR"
+msgstr "O email introduzido ? inv?lido. Por favor digite um email v?lido."
+
+msgid "ROOMGREATEROREQUALBEDROOM "
+msgstr "O n?mero de quartos deve ser maior ou igual ao n?mero de quartos"
+
+msgid "VIEWTYPESTOOLTIP"
+msgstr "Fornecer vistas vistas de sua propriedade, como vista para a montanha, piscina, parque, etc."
+
+msgid "ADDVIEWTYPES"
+msgstr "Adicionar tipo de vista"
+
+msgid "SEARCHORCLICKTEXT"
+msgstr "Pesquise acima ou clique abaixo"
+
+msgid "PROPSHUBINDEX1"
+msgstr "1 (menos favor?vel)"
+
+msgid "PROPSHUBINDEX5"
+msgstr "5 (mais favor?vel)"
+
+msgid "MAPDRAWSELECTIONINFO"
+msgstr "Clique para procurar propriedades"
+
+msgid "DAYSONMARKET"
+msgstr "Dias no mercado"
+
+msgid "NEWEST"
+msgstr "O mais novo"
+
+msgid "OLDEST"
+msgstr "Mais antigo"
+
+msgid "RENTALUNITRATIO"
+msgstr "Propor??o da unidade de loca??o"
+
+msgid "SHAREVIAEMAIL"
+msgstr "Compartilhar via e-mail"
+
+msgid "INVESTMENTSPECIALIST"
+msgstr "Especialista em investimentos"
+
+msgid "LEASED"
+msgstr "Arrendado"
+
+msgid "MARKETPRICESTOOLTIP"
+msgstr "Este gr?fico ? desenvolvido usando as melhores propriedades compar?veis ??dispon?veis dentro da vizinhan?a geogr?fica da propriedade listada."
+
+msgid "AREASSERVEDNOTE"
+msgstr "Estamos servindo apenas o Dallas Fort Worth Metro neste momento. N?s planejamos adicionar mais metros depois."
+
+msgid "MEDIANSALEPRICECAVEAT"
+msgstr "Verifique a precis?o dos n?meros apresentados aqui com um profissional imobili?rio qualificado."
+
+msgid "SYSTEMGENERATEDVALUENOTE"
+msgstr "Todos os dados apresentados atrav?s dos produtos PropsHub s?o puramente apenas para fins educacionais e s?o estimativas baseadas em dados de v?rias fontes. O PropsHub n?o garante a precis?o ou confiabilidade dos dados apresentados atrav?s de seus produtos. N?o tome qualquer decis?o de compra com base nos dados apresentados atrav?s dos produtos PropsHub. ? altamente recomend?vel que voc? verifique cada parte dos dados com um profissional qualificado e fa?a sua pr?pria auditoria antes de tomar qualquer decis?o de investimento."
+
+msgid "NETOPERATINGINCOMETOOLTIP"
+msgstr "A receita operacional l?quida (NOI) ? a receita anual gerada por uma propriedade ap?s incluir todo o lucro arrecadado das opera??es e deduzindo todas as despesas incorridas de opera??es"
+
+msgid "CAPRATETOOLTIP"
+msgstr "Rela??o entre a receita operacional l?quida e o pre?o pedido."
+
+msgid "CASHONCASHRETURNPERCENTAGETOOLTIP"
+msgstr "Rela??o entre Fluxo de Caixa e Investimento Inicial."
+
+msgid "VACANCYLOSSESTOOLTIP"
+msgstr "Perdas que resultam da vac?ncia. Assumida em 15 dias."
+
+msgid "MANAGEMENTFEESTOOLTIP"
+msgstr "Taxas pagas pela administra??o da propriedade. Assumido em 8%."
+
+msgid "LEASINGFEESTOOLTIP"
+msgstr "Taxas pagas para aquisi??o de novo inquilino. Assumido em aluguel de meio m?s."
+
+msgid "PROPERTYINSURANCETOOLTIP"
+msgstr "Pr?mio de seguro de inc?ndio e risco."
+
+msgid "PROPERTYTAXESTOOLTIP"
+msgstr "Imposto anual estimado sobre a propriedade."
+
+msgid "PROPERTYMAINTENANCETOOLTIP"
+msgstr "Despesas relacionadas a reparos, upgrades e manuten??o."
+
+msgid "MONTHLYRENTREVENUETOOLTIP"
+msgstr "Potencial de aluguel mensal."
+
+msgid "OWNERASSOCIATIONFEETOOLTIP"
+msgstr "Taxas de associa??o de propriet?rios de casas."
+
+msgid "HOMECAPTION"
+msgstr "Compre e venda propriedades de investimento"
+
+msgid "SITECAPTION"
+msgstr "Hub Global para Investidores Imobili?rios"
+
+msgid "CAPTION1"
+msgstr "Decis?es de investimento simplificadas"
+
+msgid "CAPTION2"
+msgstr "Analise os retornos em apenas alguns cliques"
+
+msgid "CAPTION3"
+msgstr "Compare pre?os, tend?ncias e potencial"
+
+msgid "CAPTION4"
+msgstr "Visualizar dados demogr?ficos abrangentes de vizinhan?a"
+
+msgid "CAPTION5"
+msgstr "Gerar panfletos e relat?rios gratuitamente"
+
+msgid "CAPTION6"
+msgstr "Converse on-line com profissionais do setor imobili?rio"
+
+msgid "RECOMMENDATIONTABTOOLTIP"
+msgstr "Vis?o do ?ndice propriet?rio que calculamos para cada CEP, analisando uma variedade de fatores como potencial de taxa cap, pre?o de lista, renda m?dia, crescimento populacional, taxa de desemprego, taxa de unidades alugadas, crime de propriedade, crime violento. Uma classifica??o de ?ndice mais alta geralmente significa que o c?digo postal se posicionou favoravelmente na maioria dos fatores-chave."
+
+msgid "CAPRATETABTOOLTIP"
+msgstr "Visualiza??o do potencial mediano de taxa de captura por c?digo postal. Cap Rate ? a rela??o entre a receita operacional l?quida e o pre?o pedido."
+
+msgid "MEDIANSALEPRICETABTOOLTIP"
+msgstr "Visualiza??o dos pre?os m?dios de listagem por c?digo postal."
+
+msgid "INCOMETABTOOLTIP"
+msgstr "Vista da renda mediana por CEP. Dados provenientes do United States Census Bureau."
+
+msgid "WIDGETPOPULATIONGROWTHTABTOOLTIP"
+msgstr "Vis?o do crescimento populacional por CEP. Dados provenientes do United States Census Bureau."
+
+msgid "UNEMPLOYMENTGROWTHTABTOOLTIP"
+msgstr "Vista da taxa de desemprego por CEP. Dados provenientes do United States Census Bureau."
+
+msgid "RENTEDUNITTABTOOLTIP"
+msgstr "Visualiza??o da propor??o de unidades de loca??o para unidades ocupadas pelo propriet?rio em cada CEP. Dados provenientes do United States Census Bureau."
+
+msgid "PROPERTYCRIMETABTOOLTIP"
+msgstr "Vista da taxa de criminalidade de propriedade por c?digo postal. Dados provenientes do Federal Bureau of Investigation."
+
+msgid "VIOLENTCRIMETABTOOLTIP"
+msgstr "Vis?o da taxa de criminalidade violenta por CEP. Dados provenientes do Federal Bureau of Investigation."
+
+msgid "COMMUTETIMETABTOOLTIP"
+msgstr "Visualiza??o do tempo de deslocamento para o trabalho por c?digo postal. Dados provenientes do United States Census Bureau."
+
+msgid "MAPSEARCHUSAGEINFO"
+msgstr "Para visualizar as propriedades, clique em um CEP, OU, desenhe um c?rculo / ret?ngulo para selecionar uma ?rea personalizada no mapa e clique na ?rea selecionada."
+
+msgid "HIGHCASHFLOWTABTOOLTIP"
+msgstr "Este mapa compara a contagem das propriedades positivas do fluxo de caixa ? venda em cada c?digo postal. Bairros com maior n?mero de propriedades positivas de fluxo de caixa s?o ideais para investimento."
+
+msgid "MAKEANOFFER"
+msgstr "Pronto para investir?"
+
+msgid "MAKEANOFFERTITLE"
+msgstr "Gostaria que um corretor de im?veis preferencial da PropsHub contatasse voc? para discutir essa propriedade?"
+
+msgid "MAKEANOFFERDEFAULTMESSAGE"
+msgstr "Digite sua mensagem aqui ..."
+
+msgid "MAKEANOFFERCONFIRMATION"
+msgstr "Obrigado. Um corretor de im?veis preferencial PropsHub entrar? em contato com voc? em breve."
+
+msgid "CONTACTLISTINGAGENT"
+msgstr "Listando Agente"
+
+msgid "RENTEDUNITS"
+msgstr "Unidades de aluguel"
+
+msgid "IDEALFORINVESTMENT"
+msgstr "Boa"
+
+msgid "INVESTWITHCAUTION"
+msgstr "Justo"
+
+msgid "RECOMMENDATIONTAB"
+msgstr "?ndice PropsHub"
+
+msgid "ADDTOCONTACTS"
+msgstr "Adicionar aos meus contatos"
+
+msgid "RENTPOTENTIALONFIXUP"
+msgstr "Rent Potential on Fixup"
+
+msgid "SHOWRENTALPROPERTY"
+msgstr "Unidade de aluguel?"
+
+msgid "RENTALPROPERTY"
+msgstr "Unidade de loca??o"
+
+msgid "TWOBHKAPARTMENTPRICE"
+msgstr "Dois quartos"
+
+msgid "PROPERTYTAXES"
+msgstr "Impostos sobre a propriedade"
+
+msgid "APARTMENTDETAILSCOLLAPSIBLE"
+msgstr "Recursos de constru??o"
+
+msgid "NUMBEROFPARKINGLOTS"
+msgstr "Vagas de estacionamento"
+
+msgid "NUMBEROFSTORIES"
+msgstr "N?veis"
+
+msgid "VIEWINSLIDESHOW "
+msgstr "Visualizar na apresenta??o de slides"
+
+msgid "CONTACTOURLEADREALTOR"
+msgstr "Conecte-se com nosso especialista em investimentos"
+
+msgid "MONTHLYRENTREVENUE"
+msgstr "Aluguel mensal"
+
+msgid "CASHFLOWPOSITIVETAB"
+msgstr "Densidade Positiva do Fluxo de Caixa"
+
+msgid "CASHFLOWPOTENTIAL"
+msgstr "Potencial de Fluxo de Caixa"
+
+msgid "MEDIANSALEPRICETAB"
+msgstr "Pre?o de Listagem"
+
+msgid "MEDIANLISTINGPRICE"
+msgstr "Pre?o m?dio de listagem"
+
+msgid "PROPERTIESFORSALECOUNT"
+msgstr "Propriedades a venda"
+
+msgid "ANALYZERETURNSREQUIREDINFOTITLE"
+msgstr "Por favor, forne?a as seguintes informa??es para prosseguir"
+
+msgid "ANALYZE"
+msgstr "Analisar"
+
+msgid "COMMUTETIME"
+msgstr "Tempo de viagem"
+
+msgid "PROPERTYCRIMETAB"
+msgstr "Crime da propriedade"
+
+msgid "VIOLENTCRIMETAB"
+msgstr "Crime violento"
+
+msgid "STREETVIEWNOTAVAILABLE"
+msgstr "Street View n?o dispon?vel"
+
+msgid "CHOOSEFROMEXISTINGCONTACTS"
+msgstr "Escolha o contato"
+
+msgid "ADDNEWCONTACT"
+msgstr "Adicionar novo contato"
+
+msgid "SENDINGTO"
+msgstr "Envio para"
+
+msgid "CONTACTADDEDSUCCESS"
+msgstr "Contato adicionado com sucesso."
+
+msgid "LEGENDS"
+msgstr "Legendas"
+
+msgid "SUBDIVISION"
+msgstr "Sub Divis?o"
+
+msgid "PHARMACY"
+msgstr "Farmacia"
+
+msgid "PARK"
+msgstr "Parque"
+
+msgid "PHOTOSLIDESHOW"
+msgstr "Apresenta??o de slides"
+
+msgid "PLAY"
+msgstr "Toque"
+
+msgid "PAUSE"
+msgstr "Pausa"
+
+msgid "IRRGROUP"
+msgstr "Aprecia??o Anual"
+
+msgid "PROPERTYANNUALAPPRECIATIONPERCENTAGE"
+msgstr "Pre?o de propriedade"
+
+msgid "RENTINCREMENTPERCENTAGE"
+msgstr "Aluguel"
+
+msgid "DOWNPAYMENTCOST"
+msgstr "Pagamento inicial"
+
+msgid "MOTIVATEDSELLER"
+msgstr "Vendedor motivado"
+
+msgid "APPLIEDFILTERS"
+msgstr "Filtros aplicados"
+
+msgid "VIEWTYPES"
+msgstr "Tipos de Visualiza??o"
+
+msgid "MEDIANLEASEPRICEANALYSIS"
+msgstr "Aluguel Mensal Estimado"
+
+msgid "STREETVIEW"
+msgstr "vista da rua"
+
+msgid "HIGHCASHFLOW"
+msgstr "Fluxo de Caixa Positivo"
+
+msgid "TERMSCONDITIONS"
+msgstr "Termos de uso"
+
+msgid "SAVED"
+msgstr "Seus crit?rios de pesquisa foram salvos. Voc? receber? notifica??es por e-mail se as correspond?ncias forem encontradas."
+
+msgid "PHOTOSGALLERY"
+msgstr "Fotos"
+
+msgid "MEDIANMARKETPRICE"
+msgstr "Mediana"
+
+msgid "VALUEADDED"
+msgstr "Fixador"
+
+msgid "OWNERASSOCIATIONFEE"
+msgstr "Taxa de HOA"
+
+msgid "MEANTRAVELTIME"
+msgstr "Mean Mean Commute Time"
+
+msgid "INCOMEEXPENSEGROUP"
+msgstr "Despesas de Renda e Arrendamento"
+
+msgid "INVESTMENTEXPENSEGROUP"
+msgstr "Despesas de investimento e propriedade"
+
+msgid "CASHONCASHGROWTH"
+msgstr "Cash on Cash Return Growth"
+
+msgid "CAPRATEGROWTH"
+msgstr "Cap Rate Growth"
+
+msgid "MINUTES"
+msgstr "Mins"
+
+msgid "UNEMPLOYMENTGROWTHYAXIS"
+msgstr "Taxa de desemprego"
+
+msgid "UNEMPLOYMENTGROWTH"
+msgstr "Desemprego"
+
+msgid "WIDGETUNEMPLOYMENT"
+msgstr "Taxas de desemprego"
+
+msgid "OVERVIEW"
+msgstr "Vis?o geral"
+
+msgid "ROIGROUP"
+msgstr "Retorno do investimento"
+
+msgid "LOCATEONMAP"
+msgstr "Localize no mapa"
+
+msgid "ANY"
+msgstr "Qualquer"
+
+msgid "LEVERAGEDPURCHASE"
+msgstr "Compra alavancada"
+
+msgid "CASHPURCHASE"
+msgstr "Compra em dinheiro"
+
+msgid "RENTALUNIT"
+msgstr "Virar chave"
+
+msgid "FURNISHEDRENTAL"
+msgstr "Unidade Mobiliada"
+
+msgid "MOSTPROPERTIES"
+msgstr "Gama Popular"
+
+msgid "BESTBUY"
+msgstr "Abaixo do pre?o de mercado"
+
+msgid "SUBTYPEAREABEDROOM"
+msgstr "Com ?rea e dormit?rios semelhantes"
+
+msgid "MORESEARCHOPTIONS"
+msgstr "Pesquisa no mapa"
+
+msgid "SUBTYPEAREA"
+msgstr "Com ?rea semelhante"
+
+msgid "NOPROPERTIESTOCOMPARE"
+msgstr "Nenhuma propriedade similar para compara??o"
+
+msgid "EXTERNALLINKSTABTITLE"
+msgstr "Forne?a o URL de seus links relacionados"
+
+msgid "EXTERNALLINKPLACEHOLDER"
+msgstr "Digite seu t?tulo do link relacionado"
+
+msgid "EXTERNALLINKURLPLACEHOLDER"
+msgstr "Digite ou cole o URL do link relacionado"
+
+msgid "EXTERNAlLINKTITLE"
+msgstr "T?tulo do link relacionado"
+
+msgid "EXTERNALLINKURL"
+msgstr "Link Relacionado"
+
+msgid "EXTERNALLINKS"
+msgstr "Links externos"
+
+msgid "LUXURYRENTAL"
+msgstr "Aluguer de luxo"
+
+msgid "MOREPROPERTIES"
+msgstr "Pre?os de mercado"
+
+msgid "RENTALCATEGORY"
+msgstr "Categoria de aluguel"
+
+msgid "DOWNPAYMENTPERCENTAGE"
+msgstr "Pagamento inicial"
+
+msgid "LOANINTERESTRATE"
+msgstr "Taxa de juro"
+
+msgid "INITIALIMPROVEMENTCOST"
+msgstr "Custo de corre??o + fechamento"
+
+msgid "MANAGEMENTFEES"
+msgstr "Taxa de administra??o"
+
+msgid "LEASINGFEES"
+msgstr "Taxa de leasing"
+
+msgid "PROPERTYINSURANCE"
+msgstr "Seguro"
+
+msgid "PROPERTYMAINTENANCE"
+msgstr "Manuten??o"
+
+msgid "CUMANNUALRENT"
+msgstr "Aluguel Anual"
+
+msgid "TOTALGAINCHART"
+msgstr "Ganhos cumulativos"
+
+msgid "RENTCASHFLOWCHART"
+msgstr "Crescimento de renda"
+
+msgid "ANNUALFREECASHFLOW"
+msgstr "Fluxo de caixa"
+
+msgid "DEBTSERVICES"
+msgstr "Servi?o de d?bito"
+
+msgid "PERCENTAGEOFGRR"
+msgstr "% do rendimento bruto de loca??o"
+
+msgid "CHOOSELOCATIONTOSEARCH"
+msgstr "Por favor insira um Metro / Cidade / C?digo Postal / Bairro v?lido para come?ar sua busca"
+
+msgid "RENTPOTENTIAL"
+msgstr "Potencial de aluguel"
+
+msgid "UPTO"
+msgstr "At?"
+
+msgid "MEDIANSALEPRICEANALYSIS"
+msgstr "Comparando pre?os"
+
+msgid "MEDIANLEASEPRICE"
+msgstr "Aluguer mediano"
+
+msgid "SUBTYPEBEDROOM"
+msgstr "Com os mesmos Quartos"
+
+msgid "NON_REFUNDABLE_PET_FEE"
+msgstr "Taxa de animais n?o reembols?vel"
+
+msgid "CUMPRINCIPALPAID"
+msgstr "Principal acumulado pago"
+
+msgid "CUMAPPRECIATION"
+msgstr "Aprecia??o Cumulativa"
+
+msgid "CUMCASHFLOW"
+msgstr "Fluxo de caixa cumulativo"
+
+msgid "MEDIANPRICESTATS"
+msgstr "An?lise de pre?os"
+
+msgid "MEDIANCURRENTPRICE"
+msgstr "Est? Propriedade"
+
+msgid "MEDIANLOWPRICE"
+msgstr "Baixo"
+
+msgid "MEDIANHIGHPRICE"
+msgstr "Alto"
+
+msgid "BACK"
+msgstr "Costas"
+
+msgid "ACREAGE"
+msgstr "Acreage"
+
+msgid "SQUAREFOOTAGE"
+msgstr "Square Footage"
+
+msgid "YEAR"
+msgstr "Ano"
+
+msgid "RATEOFRETURN"
+msgstr "Taxa de retorno"
+
+msgid "INTERNALRATEOFRETURNWITHMORTGAGE"
+msgstr "Taxa interna de retorno interna"
+
+msgid "INTERNALRATEOFRETURN"
+msgstr "Taxa interna de retorno"
+
+msgid "SALECLOSINGCOST"
+msgstr "Custo de fechamento da venda"
+
+msgid "CALCULATERETURN"
+msgstr "Analisar retornos"
+
+msgid "INVESTMENTGROUP"
+msgstr "Investimento"
+
+msgid "MORTGAGEGROUP"
+msgstr "Hipoteca"
+
+msgid "INCOMEGROUP"
+msgstr "Renda"
+
+msgid "EXPENSEGROUP"
+msgstr "Despesas Anuais Totais"
+
+msgid "RETURNGROUPWITHOUTMORTGAGE"
+msgstr "Retornos estimados"
+
+msgid "RETURNGROUPWITHMORTGAGE"
+msgstr "Retornos alavancados estimados"
+
+msgid "ASKINGPRICE"
+msgstr "Perguntar o pre?o"
+
+msgid "CLOSINGCOST"
+msgstr "Custo de fechamento"
+
+msgid "EMICOST"
+msgstr "Hipoteca mensal"
+
+msgid "LOANDURATION"
+msgstr "Tenure"
+
+msgid "DEPRECIATIONPERCENTAGE"
+msgstr "Deprecia??o"
+
+msgid "INITIALINVESTMENTWITHMORTGAGE"
+msgstr "Investimento inicial"
+
+msgid "INITIALINVESTMENTWITHOUTMORTGAGE"
+msgstr "Investimento inicial"
+
+msgid "TOTALINVESTMENTCOST"
+msgstr "Base de custo"
+
+msgid "COSTBASIS"
+msgstr "Base de custo total"
+
+msgid "ANNUALTAXABLEINCOMEWITHMORTGAGE"
+msgstr "Fluxo de caixa tribut?vel"
+
+msgid "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE"
+msgstr "Fluxo de caixa tribut?vel"
+
+msgid "TOTALINVESTMENTCOSTWITHMORTGAGE"
+msgstr "Investimento inicial total"
+
+msgid "CASHONCASHRETURNPERCENTAGE"
+msgstr "Cash on Cash Return Potential"
+
+msgid "APPROXCALCVALUENOTE"
+msgstr "Os valores reais podem variar"
+
+msgid "ALLPROPERTIES"
+msgstr "Todas as propriedades"
+
+msgid "CURRENTPROPERTY"
+msgstr "Est? Propriedade"
+
+msgid "MEDIANSALEPRICEXAXIS"
+msgstr "Pre?o de venda mediano (USD)"
+
+msgid "MEDIANSALEPRICEYAXIS"
+msgstr "Categoria"
+
+msgid "MEDIANLEASEPRICEXAXIS"
+msgstr "Renda M?dia (USD)"
+
+msgid "MEDIANLEASEPRICEYAXIS"
+msgstr "Categoria"
+
+msgid "MEDIANLEASEPRICESTATS"
+msgstr "Pre?o m?dio"
+
+msgid "MEDIANSALEPRICESTATS"
+msgstr "Pre?o m?dio"
+
+msgid "DAILY"
+msgstr "Por dia"
+
+msgid "WEEK"
+msgstr "Por semana"
+
+msgid "MONTH"
+msgstr "Por m?s"
+
+msgid "ANNUALLY"
+msgstr "Por ano"
+
+msgid "SCHOOLDISTRICT"
+msgstr "Distrito escolar"
+
+msgid "RELIGIOUS_FACILITY"
+msgstr "Instala??o Religiosa"
+
+msgid "GENERATEREPORT"
+msgstr "Gerar Full Flyer"
+
+msgid "GENERATEFLYER"
+msgstr "Gerar Flyer"
+
+msgid "DEPOSITS"
+msgstr "Dep?sitos"
+
+msgid "ADDDEPOSITS"
+msgstr "Adicionar Dep?sitos"
+
+msgid "DEPOSITTYPE"
+msgstr "Tipo de Dep?sito"
+
+msgid "SECURITY_DEPOSIT"
+msgstr "Dep?sito de seguran?a"
+
+msgid "PET_DEPOSIT"
+msgstr "Dep?sito de animais de estima??o"
+
+msgid "KEY_DEPOSIT"
+msgstr "Key Deposit"
+
+msgid "CLEANING_DEPOSIT"
+msgstr "Dep?sito de limpeza"
+
+msgid "MATCHINGADDRESSES"
+msgstr "Endere?os correspondentes"
+
+msgid "MATCHINGPROPERTIES"
+msgstr "Propriedades correspondentes"
+
+msgid "MONDAY"
+msgstr "Segunda-feira"
+
+msgid "TUESDAY"
+msgstr "ter?a"
+
+msgid "WEDNESDAY"
+msgstr "Quarta-feira"
+
+msgid "THURSDAY"
+msgstr "Quinta-feira"
+
+msgid "FRIDAY"
+msgstr "Sexta-feira"
+
+msgid "SATURDAY"
+msgstr "s?bado"
+
+msgid "SUNDAY"
+msgstr "domingo"
+
+msgid "TOMORROW"
+msgstr "Amanh?"
+
+msgid "TODAY"
+msgstr "Hoje"
+
+msgid "COMING"
+msgstr "Chegando"
+
+msgid "BUYING"
+msgstr "Comprando"
+
+msgid "SELLING"
+msgstr "Venda"
+
+msgid "REALTORS"
+msgstr "Realtors / Brokers"
+
+msgid "PROPERTY_MANAGEMENT"
+msgstr "Gest?o da propriedade"
+
+msgid "FORECLOSURE"
+msgstr "Foreclosure"
+
+msgid "LOTAREAUOM"
+msgstr "Unidade"
+
+msgid "LAUNDRYROOM"
+msgstr "Lavandaria"
+
+msgid "LIBRARY"
+msgstr "Biblioteca"
+
+msgid "MEDIAROOM"
+msgstr "Sala de m?dia"
+
+msgid "MOTHERINLAW"
+msgstr "Sogra"
+
+msgid "RECREATIONALROOM"
+msgstr "Sala Recreativa"
+
+msgid "SITTINGROOM"
+msgstr "Sala de estar"
+
+msgid "STORAGE"
+msgstr "Armazenamento"
+
+msgid "UTILITY"
+msgstr "Utilidade"
+
+msgid "WALKINCLOSET"
+msgstr "Walkin Closet"
+
+msgid "WETBAR"
+msgstr "Barra molhada"
+
+msgid "ATRIUM"
+msgstr "?trio"
+
+msgid "ATTIC"
+msgstr "S?t?o"
+
+msgid "DEN"
+msgstr "Den"
+
+msgid "FAMILYROOM"
+msgstr "Quarto de fam?lia"
+
+msgid "FIREPLACE"
+msgstr "Lugar do fogo"
+
+msgid "FOYER"
+msgstr "Foyer"
+
+msgid "GREENHOUSE"
+msgstr "Estufa"
+
+msgid "GUESTROOM"
+msgstr "Quarto de h?spedes"
+
+msgid "NORTH"
+msgstr "Norte"
+
+msgid "SOUTH"
+msgstr "Sul"
+
+msgid "EAST"
+msgstr "Leste"
+
+msgid "WEST"
+msgstr "Oeste"
+
+msgid "NORTHEAST"
+msgstr "Nordeste"
+
+msgid "NORTHWEST"
+msgstr "noroeste"
+
+msgid "SOUTHEAST"
+msgstr "Sudeste"
+
+msgid "SOUTHWEST"
+msgstr "Sul oeste"
+
+msgid "PARKINGTYPES"
+msgstr "Tipos de estacionamento"
+
+msgid "ADDPARKINGTYPES"
+msgstr "Adicionar tipos de estacionamento"
+
+msgid "LEASEPRICEUOM"
+msgstr "Unidade"
+
+msgid "CHARACTERS"
+msgstr "Personagens"
+
+msgid "FLOORNUMBER"
+msgstr "N?mero do piso"
+
+msgid "FACINGDIRECTION"
+msgstr "Dire??o de frente"
+
+msgid "LESS"
+msgstr "Menos"
+
+msgid "MORE"
+msgstr "Mais"
+
+msgid "TIME_SHARE"
+msgstr "Time Share"
+
+msgid "CABIN"
+msgstr "Cabine"
+
+msgid "MLSNUMBER"
+msgstr "N?mero MLS"
+
+msgid "MLSID"
+msgstr "MLS"
+
+msgid "MLSLISTINGURL"
+msgstr "Link de fonte de listagem"
+
+msgid "MLSPROPERTYTYPE"
+msgstr "Categoria (da Origem)"
+
+msgid "MLSPROPERTYSUBTYPE"
+msgstr "Tipo de propriedade (da origem)"
+
+msgid "MLSINFORMATION"
+msgstr "Informa??o do MLS"
+
+msgid "LISTINGAREAUOM"
+msgstr "Unidade"
+
+msgid "YOURADHERE"
+msgstr "Seu an?ncio aqui"
+
+msgid "LOCATIONDIRECTION"
+msgstr "instru??es"
+
+msgid "ACRE"
+msgstr "Acres"
+
+msgid "MAXIMIZE"
+msgstr "Maximizar"
+
+msgid "INCOME"
+msgstr "Renda"
+
+msgid "SELECTALL"
+msgstr "Selecionar tudo"
+
+msgid "NAMEUNDISCLOSED"
+msgstr "Nome da propriedade n?o divulgada"
+
+msgid "ADDRESSUNDISCLOSED"
+msgstr "Endere?o n?o divulgado"
+
+msgid "PRICEUNDISCLOSED"
+msgstr "Pre?o n?o divulgado"
+
+msgid "LIKES"
+msgstr "Gosta de"
+
+msgid "FLOORPLAN"
+msgstr "Planos de piso e pesquisas"
+
+msgid "COMMERCIAL_PROPERTIES"
+msgstr "Propriedades comerciais"
+
+msgid "RESIDENTIAL_INVESTMENTS"
+msgstr "Investimentos residenciais"
+
+msgid "ROOM"
+msgstr "Informa??o do quarto"
+
+msgid "ROLE"
+msgstr "Fun??o"
+
+msgid "LEGALDESCRIPTION"
+msgstr "Descri??o"
+
+msgid "DISCLAIMER"
+msgstr "aviso Legal"
+
+msgid "LIVINGAREA"
+msgstr "Sala-de-estar"
+
+msgid "LIVINGROOM"
+msgstr "Sala de estar"
+
+msgid "STUDY"
+msgstr "Estude"
+
+msgid "KITCHEN"
+msgstr "Cozinha"
+
+msgid "DININGROOM"
+msgstr "Sala de jantar"
+
+msgid "PATIO"
+msgstr "P?tio"
+
+msgid "PORCH"
+msgstr "Varanda"
+
+msgid "DECK"
+msgstr "Baralho"
+
+msgid "GARAGE"
+msgstr "Garagem"
+
+msgid "WORKSHOP"
+msgstr "Oficina"
+
+msgid "BASEMENT"
+msgstr "Por?o"
+
+msgid "BEDROOM"
+msgstr "quarto"
+
+msgid "BATHROOM"
+msgstr "Banheiro"
+
+msgid "FULLBATHROOM"
+msgstr "Banheiro completo"
+
+msgid "HALFBATHROOM"
+msgstr "Meio banheiro"
+
+msgid "QUARTERBATHROOM"
+msgstr "Quarto de banho"
+
+msgid "THREEQUARTERBATHROOM"
+msgstr "Banheiro de tr?s quartos"
+
+msgid "BARBEQUEAREA"
+msgstr "?rea de churrasco"
+
+msgid "DISABLEDACCESS"
+msgstr "Acesso desabilitado"
+
+msgid "LAWNAREA"
+msgstr "?rea de gramado"
+
+msgid "WIREDFORAUTOMATION"
+msgstr "Wired for Automation"
+
+msgid "DRAFT"
+msgstr "Esbo?o, projeto"
+
+msgid "PENDING_APPROVAL"
+msgstr "Modera??o de conte?do pendente"
+
+msgid "PENDING_CONTENT_APPROVAL"
+msgstr "Aprova??o de conte?do pendente"
+
+msgid "ACTIVE"
+msgstr "Ativo"
+
+msgid "REJECTED"
+msgstr "Rejeitado"
+
+msgid "EXPIRED"
+msgstr "Expirado"
+
+msgid "CLOSED"
+msgstr "Fora do mercado"
+
+msgid "CLICKTOVIEWPROFILE"
+msgstr "Clique aqui para ver o perfil"
+
+msgid "CHOOSEONMAP"
+msgstr "Escolha no Mapa"
+
+msgid "CLOSEMAP"
+msgstr "Fechar Mapa"
+
+msgid "HOMEFORSALESEARCHHEADER"
+msgstr "Encontre investimentos residenciais para venda"
+
+msgid "FORLEASESEARCHHEADER"
+msgstr "Localizar im?veis para loca??o"
+
+msgid "PROFESSIONALSEARCHHEADER"
+msgstr "Encontre Provedores de Servi?os ou Profissionais"
+
+msgid "REALTORSEARCHHEADER"
+msgstr "Encontre corretores de im?veis / corretores preferidos"
+
+msgid "HIGHESTCAPRATE"
+msgstr "Potencial da taxa de decolagem (alto a baixo)"
+
+msgid "LOWESTCAPRATE"
+msgstr "Potencial da Taxa de Cap: (baixo para alto)"
+
+msgid "CAPRATERANGE"
+msgstr "Potencial de taxa de capta??o (%)"
+
+msgid "INVESTEMENTCATEGORIES"
+msgstr "Categorias de investimento"
+
+msgid "PREFERREDLOCATION"
+msgstr "Local preferido"
+
+msgid "PREFERREDLOCATIONS"
+msgstr "Locais preferidos"
+
+msgid "MINIMUM"
+msgstr "M?nimo"
+
+msgid "MAXIMUM"
+msgstr "M?ximo"
+
+msgid "CORE"
+msgstr "Testemunho"
+
+msgid "COREPLUS"
+msgstr "Core Plus"
+
+msgid "DEVELOPMENTOPPORTUNITY"
+msgstr "Oportunidade de desenvolvimento"
+
+msgid "CAPITALCONSTRAINTS"
+msgstr "Restri??es de Capital"
+
+msgid "ENVIRONMENTPROBLEMS"
+msgstr "Problemas de ambiente"
+
+msgid "MANAGEMENTPROBLEMS"
+msgstr "Problemas de gerenciamento"
+
+msgid "NEEDSSTRUCTURIALIMPROVEMENTS"
+msgstr "Precisa de Melhorias Estruturais"
+
+msgid "NEEDSINETRIORIMPROVEMENTS"
+msgstr "Precisa de melhorias de interiores"
+
+msgid "OPERATIONALPROBLEMS"
+msgstr "Problemas operacionais"
+
+msgid "OTHERVALUEADDED"
+msgstr "Outro valor adicionado"
+
+msgid "RISKRETURNCATEGORY"
+msgstr "Categoria de investimento"
+
+msgid "VALUEADDEDREASON"
+msgstr "Raz?o"
+
+msgid "ALLBILLSPAID"
+msgstr "Todas as contas pagas"
+
+msgid "METEREDUNITS"
+msgstr "Unidades separadamente medidas"
+
+msgid "SOMEBILLSPAID"
+msgstr "Algumas contas pagas"
+
+msgid "MULTIFAMILYHOUSINGTYPE"
+msgstr "Contas de utilidade p?blica"
+
+msgid "PAIDUTILITIES"
+msgstr "Utilit?rios pagos"
+
+msgid "CURRENTRENT"
+msgstr "Aluguel atual"
+
+msgid "SECURITYDEPOSIT"
+msgstr "Dep?sito de seguran?a"
+
+msgid "NUMBEROFUNITS"
+msgstr "N?mero de unidades"
+
+msgid "ADD"
+msgstr "Adicionar"
+
+msgid "DEMOGRAPHICS"
+msgstr "Demografia"
+
+msgid "WIDGETFMRDATA"
+msgstr "Rendas de mercado justo"
+
+msgid "WIDGETHOUSING"
+msgstr "Taxas de ocupa??o da habita??o"
+
+msgid "WIDGETMEDIANINCOME"
+msgstr "Crescimento de renda"
+
+msgid "WIDGETOCCUPATION"
+msgstr "Popula??o por ocupa??o"
+
+msgid "WIDGETINCOMESLAB"
+msgstr "Slabs de renda atual"
+
+msgid "WIDGETTRANSPORTATION"
+msgstr "Comutar para trabalhar"
+
+msgid "WIDGETVIOLENTCRIME"
+msgstr "Taxas de crime violento"
+
+msgid "WIDGETPROPERTYCRIME"
+msgstr "Taxas de crime de propriedade"
+
+msgid "WIDGETEMPLOYMENTGROWTH"
+msgstr "Taxas de Emprego"
+
+msgid "WIDGETETHNICITY"
+msgstr "Popula??o por Origem ?tnica"
+
+msgid "WIDGETPOPULATIONGROWTH"
+msgstr "Crescimento populacional"
+
+msgid "WIDGETPROPERTYTAX"
+msgstr "Impostos de Propriedade pagos"
+
+msgid "WIDGETSCHOOL"
+msgstr "Escolas pr?ximas"
+
+msgid "WIDGETDISASTERDATA"
+msgstr "Emerg?ncias federais recentes"
+
+msgid "SOURCE"
+msgstr "Fonte"
+
+msgid "WIDGETFMRFOOTER"
+msgstr "Departamento de Habita??o e Desenvolvimento Urbano dos EUA"
+
+msgid "WIDGETCENSUSFOOTER"
+msgstr "US Census Bureau"
+
+msgid "WIDGETSCHOOLFOOTER"
+msgstr "Departamento de Educa??o dos EUA"
+
+msgid "WIDGETCRIMEFOOTER"
+msgstr "Departamento Federal de Investiga??o"
+
+msgid "WIDGETDISASTERDATAFOOTER"
+msgstr "Ag?ncia Federal de Gest?o de Emerg?ncias"
+
+msgid "TOTALPOPULATION"
+msgstr "Popula??o total"
+
+msgid "MEDIANAGE"
+msgstr "Idade M?dia"
+
+msgid "WHITE"
+msgstr "Branco"
+
+msgid "BLACK"
+msgstr "Preto"
+
+msgid "ASIAN"
+msgstr "Asi?tico"
+
+msgid "AMERICAN"
+msgstr "?ndio americano"
+
+msgid "HISPANICPERCENTAGE"
+msgstr "Popula??o hisp?nica"
+
+msgid "EMPTY"
+msgstr "De outros"
+
+msgid "OTHER"
+msgstr "De outros"
+
+msgid "MALEFEMALERATIO"
+msgstr "R?cio Masculino / Feminino"
+
+msgid "FAIRMARKETRENT"
+msgstr "Aluguel do Mercado Justo"
+
+msgid "FMRDATAXAXIS"
+msgstr "Ano"
+
+msgid "FMRDATAYAXIS"
+msgstr "Aluguel do mercado"
+
+msgid "EFFICIENTAPARTMENTPRICE"
+msgstr "Efici?ncia"
+
+msgid "ONEBHKAPARTMENTPRICE"
+msgstr "Quarto Individual"
+
+msgid "THREEBHKAPARTMENTPRICE"
+msgstr "Tr?s quartos"
+
+msgid "FOURBHKAPARTMENTPRICE"
+msgstr "Quatro quartos"
+
+msgid "UNKNOWN"
+msgstr "Desconhecido"
+
+msgid "TOTALUNITS"
+msgstr "N?mero total de unidades"
+
+msgid "OCCUPIEDUNIT"
+msgstr "Unidades ocupadas"
+
+msgid "RENTEDUNIT"
+msgstr "Unidade de loca??o"
+
+msgid "OCCUPIEDRENTEDUNITXAXIS"
+msgstr "Ano"
+
+msgid "OCCUPIEDRENTEDUNITYAXIS"
+msgstr "Porcentagem de Unidades"
+
+msgid "POPULATIONGROWTHYAXIS"
+msgstr "Popula??o"
+
+msgid "POPULATIONGROWTH"
+msgstr "Popula??o total"
+
+msgid "POPULATIONGROWTHXAXIS"
+msgstr "Ano"
+
+msgid "EMPLOYEMENTGROWTHYAXIS"
+msgstr "Porcentagem de Popula??o Empregada"
+
+msgid "EMPLOYEMENTGROWTH"
+msgstr "Popula??o empregada"
+
+msgid "EMPLOYEMENTGROWTHXAXIS"
+msgstr "Ano"
+
+msgid "OTHEROCCUPATION"
+msgstr "Outra Ocupa??o"
+
+msgid "EMPLOYEDPERCENTAGE"
+msgstr "Popula??o empregada"
+
+msgid "MEDIANPROPERTYTAX"
+msgstr "Imposto sobre Propriedade M?dia"
+
+msgid "MEDIANPROPERTYTAXYAXIS"
+msgstr "Ano"
+
+msgid "MEDIANPROPERTYTAXXAXIS"
+msgstr "Impostos de Propriedade pagos"
+
+msgid "MEDIANINCOME"
+msgstr "Renda M?dia"
+
+msgid "MEDIANINCOMEXAXIS"
+msgstr "Ano"
+
+msgid "MEDIANINCOMEYAXIS"
+msgstr "Renda"
+
+msgid "MANAGEMENTOCCUPATION"
+msgstr "Gest?o"
+
+msgid "SERVICEOCCUPATION"
+msgstr "Servi?o"
+
+msgid "SALESOCCUPATION"
+msgstr "Vendas"
+
+msgid "CONSTRUCTIONOCCUPATION"
+msgstr "Constru??o"
+
+msgid "PRODUCTIONOCCUPATION"
+msgstr "Produ??o"
+
+msgid "INCOMESLAB"
+msgstr "Popula??o total"
+
+msgid "INCOMESLABXAXIS"
+msgstr "Laje incomodada"
+
+msgid "INCOMESLABYAXIS"
+msgstr "Percentagem Populacional"
+
+msgid "BELOWFIFTEENTHOUSANDINCOME"
+msgstr "<15K"
+
+msgid "FIFTEENTOTHIRTYTHOUSANDINCOME"
+msgstr "15K - 30K"
+
+msgid "THIRTYTOFIFTYTHOUSANDINCOME"
+msgstr "30K - 50K"
+
+msgid "FIFTYTOSEVENTYFIVEHOUSANDINCOME"
+msgstr "50K - 75K"
+
+msgid "SEVENTYFIVETOHUNDREDTHOUSANDINCOME"
+msgstr "75K - 100K"
+
+msgid "HUNDREDTOONEFIFTYTHOUSANDINCOME"
+msgstr "100K - 150K"
+
+msgid "ONEFIFTYABOVETHOUSANDINCOME"
+msgstr "> 150K"
+
+msgid "TRANSPORTATIONMEANS"
+msgstr "Meios de Transporte"
+
+msgid "TRANSPORTATIONMEANSXAXIS"
+msgstr "Porcentagem de popula??o"
+
+msgid "TRANSPORTATIONMEANSYAXIS"
+msgstr "Op??o de transporte"
+
+msgid "PEOPLEDROVEALONE"
+msgstr "Drove Alone"
+
+msgid "PEOPLECARPOOLED"
+msgstr "Carro agrupado"
+
+msgid "PEOPLEUSEDPUBLICTRANSPORTATION"
+msgstr "Transporte p?blico"
+
+msgid "PEOPLEUSEDBICYCLEORWALKED"
+msgstr "Bicicleta ou andou"
+
+msgid "PEOPLEUSEDOTHERTRANSPORTATION"
+msgstr "Outro Transporte"
+
+msgid "PEOPLEWORKEDATHOME"
+msgstr "Trabalhou em casa"
+
+msgid "SCHOOLNAME"
+msgstr "Nome da escola"
+
+msgid "LOWESTGRADE"
+msgstr "Grau mais baixo"
+
+msgid "HIGHESTGRADE"
+msgstr "Mais alto grau"
+
+msgid "SCHOOLTYPE"
+msgstr "Tipo de Escola"
+
+msgid "VIOLENTCRIMEDATA"
+msgstr "Taxa de Crime Violento"
+
+msgid "VIOLENTCRIMEDATAXAXIS"
+msgstr "Ano"
+
+msgid "VIOLENTCRIMEDATAYAXIS"
+msgstr "Taxa de Crime (por 100.000 habitantes)"
+
+msgid "PROPERTYCRIMEDATA"
+msgstr "Taxa de Crime de Propriedade"
+
+msgid "PROPERTYCRIMEDATAXAXIS"
+msgstr "Ano"
+
+msgid "PROPERTYCRIMEDATAYAXIS"
+msgstr "Taxa de Crime (por 100.000 habitantes)"
+
+msgid "INCIDENTTITLE"
+msgstr "Incidente"
+
+msgid "INCIDENTTYPE"
+msgstr "Tipo de incidente"
+
+msgid "IHPROGRAMDECLARED"
+msgstr "Habita??o provis?ria?"
+
+msgid "IAPROGRAMDECLARED"
+msgstr "Assist?ncia individual?"
+
+msgid "PAPROGRAMDECLARED"
+msgstr "Assist?ncia p?blica ?"
+
+msgid "HMPROGRAMDECLARED"
+msgstr "Mitiga??o de perigos?"
+
+msgid "INCIDENTBEGINDATE"
+msgstr "Data de Incidente"
+
+msgid "TAGNAME"
+msgstr "Etiqueta da foto"
+
+msgid "RENAMEFILE"
+msgstr "Renomeie seu documento"
+
+msgid "FILENAME"
+msgstr "Nome do Documento"
+
+msgid "VIDEOTITLE"
+msgstr "T?tulo do video"
+
+msgid "VIDEOURL"
+msgstr "URL de v?deo"
+
+msgid "CLOSE"
+msgstr "Fechar"
+
+msgid "MINIMIZE"
+msgstr "Minimizar"
+
+msgid "COMMENTS"
+msgstr "Coment?rios"
+
+msgid "FEEDBACKCONTENTMESSAGE"
+msgstr "Digite seus coment?rios aqui ..."
+
+msgid "SITEFEEDBACKHEADER"
+msgstr "Enviar coment?rios do site"
+
+msgid "SENDSITEFEEDBACK"
+msgstr "Enviar coment?rios"
+
+msgid "READMORE"
+msgstr "Consulte Mais informa??o?"
+
+msgid "SEARCHBYPROPERTY"
+msgstr "Find Property"
+
+msgid "SEARCHBYREALTOR"
+msgstr "Encontre corretor de im?veis / corretor"
+
+msgid "QUESTION"
+msgstr "Q & A"
+
+msgid "OFFLINE"
+msgstr "desligada"
+
+msgid "SAVING"
+msgstr "Salvando?"
+
+msgid "YEARS"
+msgstr "Anos"
+
+msgid "MONTHS"
+msgstr "Meses"
+
+msgid "WEEKS"
+msgstr "Semanas"
+
+msgid "DAYS"
+msgstr "Dias"
+
+msgid "INVESTMENTCATEGORIES"
+msgstr "Categorias de Investimento"
+
+msgid "DEPOSITSDETAILS"
+msgstr "Dep?sitos"
+
+msgid "SHOWVACATIONRENTALS"
+msgstr "Mostrar aluguel de curto prazo?"
+
+msgid "CLOSINGCOST"
+msgstr "Custo de Fechamento"
+
+msgid "LEASECATEGORY"
+msgstr "Categoria de loca??o"
+
+msgid "SUBLETALLOWED"
+msgstr "Sub Let Allowed?"
+
+msgid "ADDEXPENSESBYTENANT"
+msgstr "Adicione uma despesa paga pelo inquilino"
+
+msgid "EXPENSESBYLANDLORD"
+msgstr "Despesas pagas pelo senhorio"
+
+msgid "EXPENSESBYTENANT"
+msgstr "Despesas pagas pelo inquilino"
+
+msgid "ADDEXPENSESBYLANDLORD"
+msgstr "Adicionar uma despesa paga pelo propriet?rio"
+
+msgid "LEASECATEGORY"
+msgstr "Categoria de loca??o"
+
+msgid "MASTERLEASE"
+msgstr "Master Lease"
+
+msgid "SUBLEASE"
+msgstr "Sub-Arrendamento"
+
+msgid "TYPING"
+msgstr "% S est? digitando ..."
+
+msgid "NEWMESSAGES"
+msgstr "novas mensagens)"
+
+msgid "DEFAULTCHATMESSAGE"
+msgstr "Digite sua mensagem aqui ..."
+
+msgid "MOREACTIONS"
+msgstr "Mais a??es"
+
+msgid "ACTIONS"
+msgstr "A??es"
+
+msgid "THUMBNAIL"
+msgstr "foto"
+
+msgid "LEFT"
+msgstr "Esquerda"
+
+msgid "RIGHT"
+msgstr "Certo"
+
+msgid "ROTATE"
+msgstr "Girar"
+
+msgid "ZOOM"
+msgstr "Zoom"
+
+msgid "RSVP"
+msgstr "Responda Por Favor"
+
+msgid "SEEALL"
+msgstr "Ver todos"
+
+msgid "EXISTING"
+msgstr "Existir"
+
+msgid "NEW"
+msgstr "Novo"
+
+msgid "NEWLYRENOVATED"
+msgstr "Recentemente Renovado"
+
+msgid "UNDERCONSTRUCTION"
+msgstr "Em constru??o"
+
+msgid "PROPOSED"
+msgstr "Proposta"
+
+msgid "ARCHITECT"
+msgstr "Arquiteto"
+
+msgid "HOMETELEPHONE"
+msgstr "Telefone de casa"
+
+msgid "OFFICETELEPHONE"
+msgstr "Telefone de escrit?rio"
+
+msgid "MOBILE"
+msgstr "M?vel"
+
+msgid "AUCTION"
+msgstr "Leil?o"
+
+msgid "BANKOWNED"
+msgstr "Propriedade do banco"
+
+msgid "ELECTRICITYBACKUP"
+msgstr "Backup de eletricidade"
+
+msgid "BYBUILDER"
+msgstr "Pelo construtor"
+
+msgid "BYOWNER"
+msgstr "Pelo propriet?rio"
+
+msgid "BYAGENT"
+msgstr "Pelo agente"
+
+msgid "BYBANK"
+msgstr "Pelo banco"
+
+msgid "NEWCONSTRUCTION"
+msgstr "Nova constru??o"
+
+msgid "FORSALE"
+msgstr "? venda"
+
+msgid "FORLEASE"
+msgstr "Para loca??o"
+
+msgid "FORAUCTION"
+msgstr "Para Leil?o"
+
+msgid "LAND"
+msgstr "Terra"
+
+msgid "RESIDENTIAL"
+msgstr "Todos residencial"
+
+msgid "TWIN_HOME"
+msgstr "Twin Home"
+
+msgid "LOFT_STYLE"
+msgstr "Loft Styled Apartment"
+
+msgid "GARDEN_HOME_SINGLE_UNIT"
+msgstr "Garden Home"
+
+msgid "GARDEN_HOME_1_4_UNITS"
+msgstr "Jardim In?cio 1 a 4 Unidades"
+
+msgid "CONDO_SINGLE_UNIT"
+msgstr "Condom?nio"
+
+msgid "CONDO_1_4_UNITS"
+msgstr "Condom?nio de 1 a 4 Unidades"
+
+msgid "TOWNHOME_1_4_UNITS"
+msgstr "Town Home 1 a 4 Unidades"
+
+msgid "OTHER_RESIDENTIAL"
+msgstr "Outro Residencial"
+
+msgid "TRIPLEX"
+msgstr "Triplex"
+
+msgid "QUADRUPLEX"
+msgstr "Quadruplex"
+
+msgid "MOBILE_HOME"
+msgstr "Mobile Home"
+
+msgid "DUPLEX"
+msgstr "Duplex"
+
+msgid "DUPLEX_SINGLE_UNIT"
+msgstr "Duplex"
+
+msgid "TOWNHOME_SINGLE_UNIT"
+msgstr "Townhome"
+
+msgid "DUPLEX_2_UNITS"
+msgstr "Duplex 2 Unidades"
+
+msgid "SINGLE_FAMILY_HOME_PORTFOLIO"
+msgstr "Casa unifamiliar - Carteira"
+
+msgid "TOWNHOME"
+msgstr "Town Home"
+
+msgid "GARDEN_HOME"
+msgstr "Garden Home"
+
+msgid "CONGREGATE_HOUSING"
+msgstr "Habita??o Congregada"
+
+msgid "ASSISTEDLIVING"
+msgstr "Vivendo com assist?ncia"
+
+msgid "SINGLE_FAMILY_HOME"
+msgstr "Casa Familiar"
+
+msgid "TOWN_HOUSE"
+msgstr "Casa de cidade"
+
+msgid "GARDEN_LOW_RISE"
+msgstr "Jardim Low Rise"
+
+msgid "INDEPENDENT_HOUSE"
+msgstr "Casa Familiar"
+
+msgid "MULTI_FAMILY_APARTMENT"
+msgstr "Apartamento multi-familiar"
+
+msgid "RESIDENTIAL_APARTMENT"
+msgstr "Apartamento residencial"
+
+msgid "APARTMENT"
+msgstr "Apartamento"
+
+msgid "ROW_HOUSE"
+msgstr "Casa de cidade"
+
+msgid "PG_ACCOMMODATION"
+msgstr "Limited Service Hotel"
+
+msgid "HOTEL_AND_LODGING"
+msgstr "Hotel"
+
+msgid "SERVICED_APARTMENT"
+msgstr "Suites residenciais"
+
+msgid "CONDO"
+msgstr "Condom?nio"
+
+msgid "RESTAURANT"
+msgstr "Restaurante"
+
+msgid "PETROL_BUNK"
+msgstr "Posto de gasolina"
+
+msgid "ENTERTAINMENT"
+msgstr "Entretenimento"
+
+msgid "THEATRE"
+msgstr "Teatro"
+
+msgid "CAFE"
+msgstr "Caf?"
+
+msgid "BAR"
+msgstr "Barra"
+
+msgid "ELECTRICITY"
+msgstr "Eletricidade"
+
+msgid "TELEPHONE"
+msgstr "Telefone"
+
+msgid "WATER"
+msgstr "City Water"
+
+msgid "GAS"
+msgstr "G?s"
+
+msgid "CABLE"
+msgstr "Cabo"
+
+msgid "INTERNET"
+msgstr "Internet"
+
+msgid "WIFI"
+msgstr "Wi-fi"
+
+msgid "POWERBACKUP"
+msgstr "Backup de energia"
+
+msgid "CLIMATECONTROL"
+msgstr "Controle clim?tico"
+
+msgid "AIRCONDITION"
+msgstr "Condi??o do ar"
+
+msgid "ELEVATORS"
+msgstr "Elevadores"
+
+msgid "WASTEDISPOSAL"
+msgstr "Dep?sito de lixo"
+
+msgid "VIDEOSURVEILLANCE"
+msgstr "Video vigil?ncia"
+
+msgid "CAFETERIA"
+msgstr "Cantina"
+
+msgid "SECURITY"
+msgstr "Seguran?a"
+
+msgid "GYM"
+msgstr "Academia"
+
+msgid "CLUBHOUSE"
+msgstr "Casa do clube"
+
+msgid "CHILDCARE"
+msgstr "Cuidados infantis"
+
+msgid "RECREATIONAREA"
+msgstr "?rea de recrea??o"
+
+msgid "CONFERENCEROOM"
+msgstr "Sala de conferencia"
+
+msgid "MAINTENANCESTAFF"
+msgstr "Equipe de manuten??o"
+
+msgid "SMOKINGZONE"
+msgstr "Zona de fumadores"
+
+msgid "QUICKSEARCH"
+msgstr "Pesquisa r?pida"
+
+msgid "NAME"
+msgstr "Nome"
+
+msgid "OTP"
+msgstr "C?digo de seguran?a"
+
+msgid "SENDOTP"
+msgstr "Enviar OTP"
+
+msgid "RESENDOTP"
+msgstr "Reenviar"
+
+msgid "HOME"
+msgstr "Casa"
+
+msgid "SUMMARY"
+msgstr "Resumo"
+
+msgid "MYSEARCHES"
+msgstr "Minhas Pesquisas"
+
+msgid "FILTERS"
+msgstr "Filtros"
+
+msgid "SHOW"
+msgstr "exposi??o"
+
+msgid "SAVEASDRAFT"
+msgstr "Salvar como rascunho"
+
+msgid "MAP"
+msgstr "Mapa"
+
+msgid "SAVE"
+msgstr "Salve ?"
+
+msgid "SUBMIT"
+msgstr "Enviar"
+
+msgid "FIND"
+msgstr "Encontrar"
+
+msgid "CLEAR"
+msgstr "Claro"
+
+msgid "HIDE"
+msgstr "ocultar"
+
+msgid "RADIUS"
+msgstr "Raio"
+
+msgid "CLEARALL"
+msgstr "Limpar tudo"
+
+msgid "SORT"
+msgstr "Ordenar"
+
+msgid "VIEWONMAP"
+msgstr "Visualizar no Mapa"
+
+msgid "ADDRESS"
+msgstr "Endere?o"
+
+msgid "PROPERTYNAME"
+msgstr "Nome da propriedade"
+
+msgid "PROPERTYTYPE"
+msgstr "Categoria"
+
+msgid "PROPERTYSUBTYPE"
+msgstr "Tipo de Propriedade"
+
+msgid "AREA"
+msgstr "?rea"
+
+msgid "LOTAREA"
+msgstr "?rea do lote"
+
+msgid "PROPERTYDESCRIPTION"
+msgstr "Descri??o da Propriedade"
+
+msgid "HIGHLIGHTS"
+msgstr "Destaques"
+
+msgid "CANCEL"
+msgstr "Cancelar"
+
+msgid "OK"
+msgstr "Est? bem"
+
+msgid "PHOTOS"
+msgstr "Fotos"
+
+msgid "ADDITIONALDOCUMENTS"
+msgstr "Documentos"
+
+msgid "ADDVIDEOLINKS"
+msgstr "V?deos"
+
+msgid "PROPERTYLISTINGTYPE"
+msgstr "Tipo de listagem"
+
+msgid "ADDITIONALDETAILS"
+msgstr "informa??o adicional"
+
+msgid "FINANCIALINFORMATION"
+msgstr "Vis?o geral"
+
+msgid "FINANCIALS"
+msgstr "Finan?as"
+
+msgid "PRICERANGE"
+msgstr "Pre?o"
+
+msgid "AREARANGE"
+msgstr "?rea (Sq Ft)"
+
+msgid "MYPROFILE"
+msgstr "Meu perfil"
+
+msgid "MOBILENUMBER"
+msgstr "N?mero de celular"
+
+msgid "MYCOMPANY"
+msgstr "Minha compania"
+
+msgid "MYLISTINGS"
+msgstr "Minhas Ofertas"
+
+msgid "ABOUTUS"
+msgstr "Sobre n?s"
+
+msgid "CONTACTUS"
+msgstr "Contate-Nos"
+
+msgid "FAQ"
+msgstr "perguntas frequentes"
+
+msgid "TITLE"
+msgstr "T?tulo do Listado"
+
+msgid "PROPERTYLISTINGSALETYPE"
+msgstr "Postado por"
+
+msgid "ENDDATE"
+msgstr "Data de expira??o do cadastro"
+
+msgid "STATUS"
+msgstr "Status"
+
+msgid "DISTRESSED"
+msgstr "Distressed?"
+
+msgid "DISTRESSEDSTATUS"
+msgstr "Estado afligido"
+
+msgid "SALEPRICE"
+msgstr "Informa??o financeira"
+
+msgid "LEASEPRICE"
+msgstr "Informa??es de loca??o"
+
+msgid "BIDPRICE"
+msgstr "Pre?o de oferta"
+
+msgid "BIDSTARTPRICE"
+msgstr "Pre?o de in?cio da lan?a"
+
+msgid "DEPOSITAMOUNT"
+msgstr "Dep?sito de seguran?a"
+
+msgid "DAYSFORFULLPAYMENT"
+msgstr "Dias para Pagamento Completo"
+
+msgid "BIDSTARTDATE"
+msgstr "Data de in?cio da lote"
+
+msgid "BIDENDDATE"
+msgstr "Data final do lote"
+
+msgid "COMMISSIONSPLIT"
+msgstr "Comiss?o do Agente do Comprador"
+
+msgid "COMMISSIONPERCENTAGE"
+msgstr "Porcentagem da Comiss?o"
+
+msgid "COMMISSIONAMOUNT"
+msgstr "Encargos da Comiss?o"
+
+msgid "PERSQUAREFEET"
+msgstr "Por p?s quadrados"
+
+msgid "BASERATEPERSQUAREFEET"
+msgstr "Taxa Base por Sq Ft"
+
+msgid "RATEPERSQUAREFEET"
+msgstr "Taxa por p?s quadrados"
+
+msgid "DISCLOSEADDRESS"
+msgstr "Divulgar o endere?o?"
+
+msgid "DISCLOSEPRICE"
+msgstr "Divulgue o pre?o?"
+
+msgid "PRICE"
+msgstr "Pre?o"
+
+msgid "DESPOSITAMOUNT"
+msgstr "Dep?sito"
+
+msgid "LEASEPERIOD"
+msgstr "Per?odo de loca??o nos anos"
+
+msgid "LEASETERM"
+msgstr "Termo de loca??o"
+
+msgid "LEASETERMUOM"
+msgstr "Unidade"
+
+msgid "SALETYPE"
+msgstr "Postado por"
+
+msgid "CAPRATEKNOWN"
+msgstr "Calcular taxa de bon??"
+
+msgid "CAPRATETYPE"
+msgstr "Tipo Financeiro"
+
+msgid "ACTUAL"
+msgstr "Real"
+
+msgid "PROFORMA"
+msgstr "Pro-forma"
+
+msgid "GROSSRENTREVENUE"
+msgstr "Receita de Loca??o Bruta"
+
+msgid "VACANCYLOSSES"
+msgstr "Perdas de vaga"
+
+msgid "OTHEREXPENSES"
+msgstr "Outras despesas"
+
+msgid "CALCULATEANDAPPLY"
+msgstr "Aplique"
+
+msgid "CALCULATENETOPERATINGINCOME"
+msgstr "Calcular"
+
+msgid "NETOPERATINGINCOME"
+msgstr "Receita operacional l?quida"
+
+msgid "CALCULATEDCAPRATE"
+msgstr "Taxa de Cap"
+
+msgid "CAPRATE"
+msgstr "Taxa de Cap"
+
+msgid "DELETE"
+msgstr "Remover"
+
+msgid "IMAGEURLS"
+msgstr "Fotos"
+
+msgid "PRIMARYIDENTIFIER"
+msgstr "APN ou Parcel ID"
+
+msgid "TOTALAREA"
+msgstr "?rea total"
+
+msgid "DESCRIPTION"
+msgstr "Descri??o"
+
+msgid "AMENITIES"
+msgstr "Facilidades"
+
+msgid "UTILITIES"
+msgstr "Utilit?rios dispon?veis no site"
+
+msgid "CONDITIONS"
+msgstr "Condi??es"
+
+msgid "LINEONE"
+msgstr "Endere?o"
+
+msgid "LINETWO"
+msgstr "N?mero da unidade / n?mero do bloco / n?mero do lote"
+
+msgid "REGION"
+msgstr "munic?pio"
+
+msgid "LOCALITY"
+msgstr "Vizinhan?a"
+
+msgid "CITY"
+msgstr "Cidade"
+
+msgid "STATE"
+msgstr "Estado"
+
+msgid "ZIPCODE"
+msgstr "CEP"
+
+msgid "COUNTRY"
+msgstr "Pa?s"
+
+msgid "CURRENCY"
+msgstr "Moeda"
+
+msgid "COMPANYNAME"
+msgstr "Nome da empresa"
+
+msgid "CONTACTNUMBERS"
+msgstr "N?meros de contato"
+
+msgid "WEBSITE"
+msgstr "Local na rede Internet"
+
+msgid "WEBSITES"
+msgstr "Sites"
+
+msgid "COMPANYTYPE"
+msgstr "Tipo de companhia"
+
+msgid "SAVEDSEARCHPREFERENCES"
+msgstr "Prefer?ncias de notifica??o de correspond?ncia"
+
+msgid "CONTACTPREFERENCES"
+msgstr "Prefer?ncias de contato"
+
+msgid "CONTENTPREFERENCES"
+msgstr "Novas Prefer?ncias de Notifica??o de Conte?do"
+
+msgid "AREASSERVED"
+msgstr "?reas Servidas"
+
+msgid "SPECIALTIES"
+msgstr "Especialidades"
+
+msgid "ABOUT"
+msgstr "Sobre"
+
+msgid "YEAROFINCEPTION"
+msgstr "Ano do in?cio"
+
+msgid "MINDIVISIBLEAREA"
+msgstr "?rea interior m?nima divis?vel"
+
+msgid "MAXDIVISIBLEAREA"
+msgstr "?rea Interior Divis?vel M?xima"
+
+msgid "MAXCONTIGUOUSAREA"
+msgstr "?rea Interior Contiguante M?xima"
+
+msgid "YEARBUILT"
+msgstr "Ano de constru??o"
+
+msgid "NUMBEROFROOMS"
+msgstr "N?mero de quartos"
+
+msgid "CONSTRUCTIONSTATUS"
+msgstr "Status da Constru??o"
+
+msgid "LEASEAMOUNT"
+msgstr "Montante do arrendamento"
+
+msgid "EXPENSEAMOUNT"
+msgstr "Despesa"
+
+msgid "EXPENSETYPE"
+msgstr "Tipo de despesa"
+
+msgid "LEASEENDDATE"
+msgstr "Data de t?rmino da loca??o"
+
+msgid "ROOMTYPE"
+msgstr "Tipo de sala"
+
+msgid "NUMBEROFWASHROOMS"
+msgstr "N?mero de banheiros"
+
+msgid "FURNISHEDSTATUS"
+msgstr "Mobiliado ?"
+
+msgid "UNFURNISHED"
+msgstr "N?o mobiliado"
+
+msgid "SEMI_FURNISHED"
+msgstr "Semi mobilado"
+
+msgid "FURNISHED"
+msgstr "Mobiliado"
+
+msgid "DISTANCE"
+msgstr "Search Radius"
+
+msgid "BUILDINGAGE"
+msgstr "Idade do Edif?cio (Anos)"
+
+msgid "POSTEDBY"
+msgstr "Postado por"
+
+msgid "PROPERTIESFOUND"
+msgstr "Propriedades encontradas"
+
+msgid "BYRELAVANCE"
+msgstr "Por Relev?ncia"
+
+msgid "HIGHESTAREA"
+msgstr "?rea (alta a baixa)"
+
+msgid "LOWESTAREA"
+msgstr "?rea (baixa a alta)"
+
+msgid "HIGHESTPRICE"
+msgstr "Pre?o (alto a baixo)"
+
+msgid "LOWESTPRICE"
+msgstr "Pre?o (baixo para alto)"
+
+msgid "GRID"
+msgstr "Grade"
+
+msgid "CHAT"
+msgstr "Bate-papo"
+
+msgid "EMAIL"
+msgstr "O email"
+
+msgid "SHARE"
+msgstr "Compartilhar"
+
+msgid "LOGIN"
+msgstr "Entrar"
+
+msgid "FEATUREDREALTORS"
+msgstr "Realtors em destaque"
+
+msgid "FEATUREDPROPERTIES"
+msgstr "Propriedades em destaque"
+
+msgid "LOCATION"
+msgstr "Localiza??o"
+
+msgid "INTERACTIVEMAP"
+msgstr "Mapa Interativo"
+
+msgid "MOREDETAILS"
+msgstr "Mais detalhes"
+
+msgid "RESIDENTIAL_LAND"
+msgstr "Terra residencial"
+
+msgid "VILLA"
+msgstr "Condom?nio"
+
+msgid "STORE"
+msgstr "Loja"
+
+msgid "LAUNDRY"
+msgstr "Lavanderia"
+
+msgid "SCHOOL"
+msgstr "Escola"
+
+msgid "SPA"
+msgstr "Spa"
+
+msgid "CATEGORIES"
+msgstr "Categorias"
+
+msgid "CATEGORY"
+msgstr "Categoria"
+
+msgid "FIXTURES"
+msgstr "Lumin?rias"
+
+msgid "CLICKTOSEE"
+msgstr "Clique para ver lugares pr?ximos"
+
+msgid "INTERCOM"
+msgstr "Interfone"
+
+msgid "VIDEOCONFERENCE"
+msgstr "V?deoconfer?ncia"
+
+msgid "LAN"
+msgstr "Rede local"
+
+msgid "ENTRYSECURITY"
+msgstr "Seguran?a de entrada"
+
+msgid "BIOMETRICACCESS"
+msgstr "Acesso biom?trico"
+
+msgid "CHILDRENPLAYAREA"
+msgstr "?rea de recrea??o infantil"
+
+msgid "GARDENAREA"
+msgstr "?rea de jardim"
+
+msgid "SWIMMINGPOOL"
+msgstr "Piscina"
+
+msgid "JOGGINGTRACK"
+msgstr "Pista de jogging"
+
+msgid "INDOORSPORTS"
+msgstr "Esportes Indoor"
+
+msgid "OUTDOORSPORTS"
+msgstr "Esportes ao ar livre"
+
+msgid "DEPARTMENTSTORE"
+msgstr "Loja de departamento"
+
+msgid "DETAILS"
+msgstr "Detalhes"
+
+msgid "FEATURES"
+msgstr "Facilidades"
+
+msgid "SPECIFICATIONS"
+msgstr "Caracter?sticas"
+
+msgid "FORLEASEDETAILS"
+msgstr "Informa??es de loca??o"
+
+msgid "FORSALEDETAILS"
+msgstr "Informa??es de venda"
+
+msgid "PRICEDETAILS"
+msgstr "Detalhes do pre?o"
+
+msgid "BUILDINGROOMDETAILS"
+msgstr "Detalhes do quarto"
+
+msgid "ROOMS"
+msgstr "quartos"
+
+msgid "AIRPORT"
+msgstr "Aeroporto"
+
+msgid "HOSPITAL"
+msgstr "Hospital"
+
+msgid "BUSSTATION"
+msgstr "Esta??o de onibus"
+
+msgid "POLICE"
+msgstr "Delegacia de pol?cia"
+
+msgid "POSTOFFICE"
+msgstr "Ag?ncia dos Correios"
+
+msgid "SUBWAYSTATION"
+msgstr "Esta??o de metr?"
+
+msgid "TRAINSTATION"
+msgstr "Esta??o de trem"
+
+msgid "SHOPPINGMALL"
+msgstr "Centro de compras"
+
+msgid "PARKING"
+msgstr "Estacionamento"
+
+msgid "ATM"
+msgstr "ATM"
+
+msgid "LODGING"
+msgstr "Alojamento"
+
+msgid "REALESTATEAGENCY"
+msgstr "Ag?ncia imobili?ria"
+
+msgid "BANK"
+msgstr "Banco"
+
+msgid "CREATELISTING"
+msgstr "Listar uma propriedade"
+
+msgid "PHOTOSVIDEOS"
+msgstr "Fotos e documentos"
+
+msgid "FINISH"
+msgstr "Terminar"
+
+msgid "SELECTEDBUILDINGUNITCOLLAPSIBLE"
+msgstr "Informa??o da Unidade"
+
+msgid "PROPERTYCOLLAPSIBLE"
+msgstr "Informa??o de Propriedade"
+
+msgid "SELECTEDLOTDETAILSCOLLAPSIBLE"
+msgstr "Informa??o do lote"
+
+msgid "SELECTEDBUILDINGCOLLAPSIBLE"
+msgstr "Informa??es de constru??o"
+
+msgid "BUILDINGDETAILSCOLLAPSIBLE"
+msgstr "Informa??es de constru??o"
+
+msgid "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE"
+msgstr "detalhes adicionais"
+
+msgid "ROOMSCOLLAPSIBLE"
+msgstr "Informa??o do quarto"
+
+msgid "SECURITYSTAFF"
+msgstr "Agente de seguran?a"
+
+msgid "MAINTENANCECHARGES"
+msgstr "Encargos mensais de manuten??o"
+
+msgid "RENTALAMOUNT"
+msgstr "Montante do arrendamento"
+
+msgid "COVEREDPARKING"
+msgstr "Estacionamento coberto"
+
+msgid "YES"
+msgstr "sim"
+
+msgid "NO"
+msgstr "N?o"
+
+msgid "UNITTYPE"
+msgstr "Tipo de unidade"
+
+msgid "CONFIRM"
+msgstr "confirme"
+
+msgid "AVAILABLEDATE"
+msgstr "Data Dispon?vel"
+
+msgid "WELCOMETO"
+msgstr "Bem-vindo ao"
+
+msgid "ADDNEW"
+msgstr "Adicionar novo"
+
+msgid "LOCATEME"
+msgstr "Use minha localiza??o"
+
+msgid "ENTERPREFEREDLOCATION"
+msgstr "Cidade, Bairro, Endere?o"
+
+msgid "REGISTER"
+msgstr "Inscrever-se"
+
+msgid "ACTIVELISTINGS"
+msgstr "Listas recentes"
+
+msgid "CLEARSEARCH"
+msgstr "Claro"
+
+msgid "SEARCHBYPROPERTYNAME"
+msgstr "Nome da propriedade / endere?o da rua"
+
+msgid "SEARCHBYREALTORNAME"
+msgstr "Nome do corretor de im?veis / corretor"
+
+msgid "SEARCHBYPROFESSIONALNAME"
+msgstr "Nome do Provedor de Servi?os"
+
+msgid "SEARCH"
+msgstr "Pesquisa"
+
+msgid "DOCUMENTSGALLERY"
+msgstr "Documentos carregados"
+
+msgid "PROPERTY"
+msgstr "Propriedade"
+
+msgid "UNIT"
+msgstr "Unidade"
+
+msgid "PROPSHUBREGISTRATION"
+msgstr "2018 Propshub Todos os direitos reservados"
+
+msgid "CALLUS"
+msgstr "Ligue-nos"
+
+msgid "EMAILUS"
+msgstr "Envia-nos um email"
+
+msgid "SIGNIN"
+msgstr "Entrar"
+
+msgid "SETTINGS"
+msgstr "Configura??es"
+
+msgid "BACKTO"
+msgstr "De volta a"
+
+msgid "POSTEDON"
+msgstr "Postado em"
+
+msgid "LIST"
+msgstr "Lista"
+
+msgid "SAVESEARCH"
+msgstr "Salvar busca"
+
+msgid "NEWLYLISTED"
+msgstr "Mais recentemente publicado"
+
+msgid "NEXT"
+msgstr "Pr?ximo"
+
+msgid "ALL"
+msgstr "Todos"
+
+msgid "IMAGES"
+msgstr "Fotos"
+
+msgid "BACKTOMAP"
+msgstr "Passo anterior"
+
+msgid "PREVIOUS"
+msgstr "Anterior"
+
+msgid "LOADINGDATA"
+msgstr "Trabalhando?"
+
+msgid "GAS_STATION"
+msgstr "Posto de gasolina"
+
+msgid "GASSTATION"
+msgstr "Posto de gasolina"
+
+msgid "CITYLOCATION"
+msgstr "Cidade ou Local"
+
+msgid "TONS"
+msgstr "Toneladas"
+
+msgid "YRS"
+msgstr "Anos"
+
+msgid "MI"
+msgstr "Milhas"
+
+msgid "KM"
+msgstr "Quil?metros"
+
+msgid "PERCENTAGE"
+msgstr "%"
+
+msgid "FT"
+msgstr "P?s"
+
+msgid "AMOUNT"
+msgstr "Montante"
+
+msgid "SQFT"
+msgstr "Sq Ft"
+
+msgid "AGENT"
+msgstr "Agente"
+
+msgid "HELP"
+msgstr "Fa?a uma pergunta"
+
+msgid "TYPE"
+msgstr "Tipo"
+
+msgid "PROPERTYFORSALE"
+msgstr "Propriedades a venda"
+
+msgid "PROPERTYFORLEASE"
+msgstr "Aluguel"
+
+msgid "REALTORSANDBROKERS"
+msgstr "Realtors"
+
+msgid "VACATIONRENTAL"
+msgstr "Aluguer de curta dura??o"
+
+msgid "REALTOR"
+msgstr "Corretor de im?veis"
+
+msgid "PROFESSIONAL"
+msgstr "Provedores de servi?o"
+
+msgid "PHONE"
+msgstr "telefone"
+
+msgid "OWNER"
+msgstr "Postado por"
+
+msgid "CONTACTACTIONS"
+msgstr "Prefer?ncias de contato"
+
+msgid "STARTTIME"
+msgstr "Hor?rio de visita Hora de in?cio"
+
+msgid "ENDTIME"
+msgstr "Hor?rio final de hora de visita"
+
+msgid "ADDOPENHOUSETIME"
+msgstr "Adicionar outra data"
+
+msgid "HOURS"
+msgstr "Escolha o tempo"
+
+msgid "OPENHOUSEDATE"
+msgstr "Data da Casa Aberta"
+
+msgid "SCHEDULEOPENHOUSE"
+msgstr "Hor?rio de Abertura"
+
+msgid "OPENHOUSETIMES"
+msgstr "Hor?rio de Abertura"
+
+msgid "INDIVIDUAL"
+msgstr "Individual"
+
+msgid "COMPANY"
+msgstr "Empresa"
+
+msgid "BROKERAGEFIRM"
+msgstr "Firma de corretores"
+
+msgid "SIMILARLISTINGS"
+msgstr "Propriedades similares"
+
+msgid "SIGNUPAS"
+msgstr "Inscreva-se como"
+
+msgid "LOADMORE"
+msgstr "Carregue mais"
+
+msgid "SEND"
+msgstr "Enviar"
+
+msgid "SENDEMAIL"
+msgstr "Enviar email"
+
+msgid "IN"
+msgstr "?ndia"
+
+msgid "US"
+msgstr "EUA"
+
+msgid "CA"
+msgstr "Canad?"
+
+msgid "AR"
+msgstr "Argentina"
+
+msgid "CO"
+msgstr "Col?mbia"
+
+msgid "BR"
+msgstr "Brasil"
+
+msgid "MX"
+msgstr "M?xico"
+
+msgid "USD"
+msgstr "$"
+
+msgid "CAD"
+msgstr "D?lar canadense"
+
+msgid "MXN"
+msgstr "Peso mexicano"
+
+msgid "BRL"
+msgstr "Real brasileiro"
+
+msgid "ARS"
+msgstr "Peso argentino"
+
+msgid "COP"
+msgstr "Peso colombiano"
+
+msgid "INR"
+msgstr "R?pias indianas"
+
+msgid "CAPTION"
+msgstr "Procurar por?"
+
+msgid "PROPERTYNULLRESULTSTITLE"
+msgstr "N?o foram encontradas propriedades. Por favor, tente novamente."
+
+msgid "REALTORNULLRESULTSTITLE"
+msgstr "Nenhum Realtors / Brokers encontrado. Por favor, tente novamente."
+
+msgid "PROFESSIONALNULLRESULTSTITLE"
+msgstr "Nenhum fornecedor de servi?os encontrado. Por favor, tente novamente."
+
+msgid "REALTORNULLRESULTSMESSAGE"
+msgstr "Parece que n?o h? corretores de im?veis dispon?veis para os seus crit?rios de pesquisa. Amplie os seus crit?rios de pesquisa ou volte mais tarde."
+
+msgid "PROFESSIONALNULLRESULTSMESSAGE"
+msgstr "Parece que n?o h? fornecedores de servi?os dispon?veis para seus crit?rios de pesquisa. Amplie seus crit?rios de pesquisa ou volte mais tarde."
+
+msgid "PROPERTYNULLRESULTSMESSAGE"
+msgstr "Parece que n?o h? propriedades dispon?veis para seus crit?rios de pesquisa. Amplie seus crit?rios de pesquisa ou volte mais tarde."
+
+msgid "PROPERTYTOOMANYRESULTS"
+msgstr "Encontramos muitas propriedades que correspondem aos seus crit?rios de pesquisa. Por favor, restrinja seus crit?rios de pesquisa e tente novamente."
+
+msgid "PROFESSIONALTOOMANYRESULTS"
+msgstr "Encontramos muitos prestadores de servi?os que correspondem aos seus crit?rios de pesquisa. Por favor, restrinja seus crit?rios de pesquisa e tente novamente."
+
+msgid "BROKERAGEFIRMINFOCOLLAPSIBLE"
+msgstr "Resumo profissional"
+
+msgid "COMPANYINFOCOLLAPSIBLE"
+msgstr "Resumo profissional"
+
+msgid "PROFESSIONALSCOLLAPSIBLE"
+msgstr "Provedores de Servi?os Associados"
+
+msgid "REALTORSCOLLAPSIBLE"
+msgstr "Corretores de im?veis / corretores associados"
+
+msgid "ADDPROFESSIONAL"
+msgstr "Adicionar um provedor de servi?os"
+
+msgid "ADDREALTOR"
+msgstr "Adicione um corretor de im?veis / corretor"
+
+msgid "AUTHORIZEDPERSONNEL"
+msgstr "Estou autorizado a atualizar esta informa??o da empresa"
+
+msgid "TERMSCONDITIONSTITLE"
+msgstr "Eu li e concordo com o"
+
+msgid "LISTINGCLOSEDTITLE"
+msgstr "Sua propriedade est? fora do mercado"
+
+msgid "LISTINGREJECTEDTITLE"
+msgstr "Sua listagem ? rejeitada"
+
+msgid "LISTINGCLOSEDDESCRIPTION"
+msgstr "Voc? pode enriquecer sua listagem a qualquer momento. Clique no bot?o Editar abaixo para modificar sua ficha"
+
+msgid "LISTINGREJECTEDDESCRIPTION"
+msgstr "Voc? precisar? editar sua listagem para remover qualquer conte?do censur?vel. Clique no bot?o Editar abaixo para modificar sua ficha"
+
+msgid "LISTINGPENDINGTITLE"
+msgstr "Sua Listagem est? Pendente de Aprova??o"
+
+msgid "LISTINGACTIVETITLE"
+msgstr "Sua listagem est? ativa"
+
+msgid "LISTINGPENDINGDESCRIPTION"
+msgstr "Obrigado por Listar sua Propriedade. Seu pedido aguarda modera??o de conte?do antes de ser publicado on-line. Por favor, verifique seu e-mail registrado no que diz respeito ao status de sua listagem."
+
+msgid "LISTINGACTIVEDESCRIPTION"
+msgstr "Voc? pode enriquecer seu an?ncio a qualquer momento. Clique no bot?o Editar abaixo para modificar seu an?ncio"
+
+msgid "LISTINGCONFIRMATIONDESCRIPTION"
+msgstr "Por favor, visualize sua listagem antes de confirmar. Depois de confirmar, levar? alguns minutos para que sua listagem seja publicada on-line."
+
+msgid "MANDATORYMESSAGE"
+msgstr "Certifique-se de que voc? insira valores para todos os campos obrigat?rios destacados abaixo"
+
+msgid "LISTINGDRAFTMODE"
+msgstr "Esta p?gina ? apenas para sua visualiza??o. Ainda n?o ser? vis?vel para outros usu?rios"
+
+msgid "PROPERTYEMAILMESSAGE"
+msgstr "Digite sua mensagem aqui ..."
+
+msgid "PERSONEMAILMESSAGE"
+msgstr "Digite sua mensagem aqui ..."
+
+msgid "RSVPEMAILMESSAGE"
+msgstr "Gostaria de visitar a propriedade durante a Casa Aberta em% s"
+
+msgid "ENTERRSVPMESSAGE"
+msgstr "Enviar RSVP para% s"
+
+msgid "ENTEREMAILMESSAGE"
+msgstr "Compor mensagem para% s"
+
+msgid "RESIDENTIALSUBTYPEINVALID"
+msgstr "Subtipo de propriedade residencial inv?lida"
+
+msgid "PROFESSIONINVALID"
+msgstr "A profiss?o ? inv?lida"
+
+msgid "UPLOADING"
+msgstr "Upload ..."
+
+msgid "UPLOADSUCCESS"
+msgstr "Enviado com sucesso?"
+
+msgid "MYPREFERENCES"
+msgstr "Minhas prefer?ncias"
+
+msgid "MYCONTACTS"
+msgstr "Meus contatos"
+
+msgid "NOTIFICATIONS"
+msgstr "Minhas Notifica??es"
+
+msgid "REMOVE"
+msgstr "Tirar Propriedade Off Market"
+
+msgid "EDIT"
+msgstr "Editar"
+
+msgid "VIEW"
+msgstr "Vis?o"
+
+msgid "ENTERLOCATION"
+msgstr "Digite o endere?o / vizinhan?a / cidade / c?digo postal"
+
+msgid "PUBLISH"
+msgstr "Publicar"
+
+msgid "NUMBEROFBEDROOMS"
+msgstr "N?mero de Quartos"
+
+msgid "OFFLINEMESSAGE"
+msgstr "% S est? offline. Clique aqui para enviar um email"
+
+msgid "PROVIDESEARCHNAME"
+msgstr "Forne?a um nome para sua pesquisa"
+
+msgid "PERCENTAGEOFCOMPLETION"
+msgstr "Status de Conclus?o"
+
+msgid "FINANCIALCOMPLETIONGROUP"
+msgstr "Finan?as"
+
+msgid "LISTINGCOMPLETIONGROUP"
+msgstr "Informa??o de Listagem"
+
+msgid "PROPERTYCOMPLETIONGROUP"
+msgstr "Detalhes da propriedade"
+
+msgid "ADDITIONALCOMPLETIONGROUP"
+msgstr "informa??o adicional"
+
+msgid "MISSINGFIELDS"
+msgstr "Campos perdidos"
+
+msgid "VIDEOSTABTITLE"
+msgstr "Forne?a o URL dos seus v?deos"
+
+msgid "TAGFILE"
+msgstr "Marque sua foto"
+
+msgid "SAVEEXIT"
+msgstr "Salvar rascunho e sa?da"
+
+msgid "SENDINGEMAIL"
+msgstr "Enviando email?"
+
+msgid "EMAILSENT"
+msgstr "E-mail enviado"
+
+msgid "PRIVACYPOLICY"
+msgstr "Pol?tica de Privacidade"
+
+msgid "PROFILECOMPLETION"
+msgstr "Enrique?a seu perfil"
+
+msgid "USERCOMPLETIONGROUP"
+msgstr "Detalhes de perfil"
+
+msgid "REALTORSANDBROKERSSEARCHOPTIONINFO"
+msgstr "Pesquisar corretores de im?veis / corretores"
+
+msgid "INCOME_SPECIALIST"
+msgstr "Especialista em renda"
+
+msgid "WELCOME"
+msgstr "Bem vinda"
+
+msgid "LOGOUT"
+msgstr "Sair"
+
+msgid "LEGAL"
+msgstr "Legal"
+
+msgid "LOGINHEADING"
+msgstr "Fa?a o login ou cadastre-se"
+
+msgid "RESIDENTIAL_LENDING"
+msgstr "Empr?stimo residencial"
+
+msgid "COMMERCIAL_LENDING"
+msgstr "Empr?stimo Comercial"
+
+msgid "URBAN_PLANNING"
+msgstr "Planejamento Urbano / Engenharia Civil"
+
+msgid "BACK_OFFICE_SPECIALIST"
+msgstr "Especialista em Back Office"
+
+msgid "OTHER_SPECIALTY"
+msgstr "De outros"
+
+msgid "COMMERCIAL_APPRAISER"
+msgstr "Avaliador Comercial"
+
+msgid "GENERAL_APPRAISER"
+msgstr "Avaliador Geral"
+
+msgid "RESIDENTIAL_APPRAISER"
+msgstr "Avaliador residencial"
+
+msgid "PROPERTY_INSPECTOR"
+msgstr "Inspetor de propriedades"
+
+msgid "PROPERTY_MANAGER"
+msgstr "Gerente da propriedade"
+
+msgid "LICENSE"
+msgstr "Licen?a"
+
+msgid "LICENSENUMBER"
+msgstr "N?mero de licen?a"
+
+msgid "LICENSEJURISDICTION"
+msgstr "Licen?a Jursidiction"
+
+msgid "LICENSEISSUINGAUTHORITY"
+msgstr "Autoridade de emiss?o de licen?as"
+
+msgid "APPRENTICEINSPECTOR"
+msgstr "Inspetor de Aprendiz"
+
+msgid "AUCTIONEER"
+msgstr "Leiloeiro"
+
+msgid "CERTIFIEDGENERALAPPRAISER"
+msgstr "Avaliador Geral Certificado"
+
+msgid "CERTIFIEDRESIDENTIALAPPRAISER"
+msgstr "Avaliador residencial certificado"
+
+msgid "LEASING_AGENT"
+msgstr "Agente de loca??o"
+
+msgid "LICENSEDAPPRAISER"
+msgstr "Avaliador licenciado"
+
+msgid "LICENSEDINSPECTOR"
+msgstr "Inspetor licenciado"
+
+msgid "MORTGAGE_BROKER"
+msgstr "Corretor hipotec?rio"
+
+msgid "REALESTATEBROKER"
+msgstr "Corretor imobili?rio"
+
+msgid "REGISTEREDAPPRAISER"
+msgstr "Avaliador registrado"
+
+msgid "REGISTEREDINSPECTOR"
+msgstr "Inspetor registrado"
+
+msgid "PROPERTYMANAGEMENT"
+msgstr "Gest?o da propriedade"
+
+msgid "RENTALPROPERTYMANAGEMENT"
+msgstr "Rental Property Management"
+
+msgid "SALESPERSON"
+msgstr "Vendedor"
+
+msgid "APPRAISAL"
+msgstr "Avalia??o"
+
+msgid "INDUSTRIAL"
+msgstr "Industrial"
+
+msgid "FARM_AND_LAND"
+msgstr "Fazenda e terra"
+
+msgid "LAND_DEVELOPMENT"
+msgstr "Desenvolvimento de Terras"
+
+msgid "SECURITIESANDSYNDICATION"
+msgstr "Securities and Syndication"
+
+msgid "COUNSELING"
+msgstr "Aconselhamento"
+
+msgid "RESEARCH"
+msgstr "Pesquisa"
+
+msgid "SITEURL"
+msgstr "URL do site"
+
+msgid "TWITTERHANDLE"
+msgstr "Pega do Twitter"
+
+msgid "FACEBOOK"
+msgstr "URL do Facebook"
+
+msgid "BLOG"
+msgstr "URL do blog"
+
+msgid "LINKEDIN"
+msgstr "URL do LinkedIn"
+
+msgid "EMAILID"
+msgstr "O email"
+
+msgid "PASSWORD"
+msgstr "Senha"
+
+msgid "FORGOTPASSWORD"
+msgstr "Esqueceu a senha ?"
+
+msgid "SIGNUP"
+msgstr "Inscrever-se"
+
+msgid "REMEMBERME"
+msgstr "Lembre de mim"
+
+msgid "PROPERTYIMAGEMISSING"
+msgstr "N?o h? fotos"
+
+msgid "PROFESSIONINFOCOLLAPSIBLE"
+msgstr "Informa??o profissional"
+
+msgid "CONTACTCOLLAPSIBLE"
+msgstr "Informa??es de contato"
+
+msgid "EXPERTISE"
+msgstr "?reas de experi?ncia"
+
+msgid "OTHERCONTACTNUMBERS"
+msgstr "Outros n?meros de contato"
+
+msgid "CONTACTNUMBERTYPE"
+msgstr "Tipo de n?mero de contato"
+
+msgid "CONTACTNUMBER"
+msgstr "N?mero de contato"
+
+msgid "WEBSITETYPE"
+msgstr "Tipo de site da Web"
+
+msgid "PROFESSIONALSINCE"
+msgstr "Profissional desde"
+
+msgid "AREAS"
+msgstr "Localidades atendidas"
+
+msgid "YEARSOFEXPERIENCE"
+msgstr "anos de experi?ncia"
+
+msgid "CHOOSELOCATIONONMAP"
+msgstr "Clique aqui para especificar seu local preferido no mapa"
+
+msgid "FEEDBACKSENTFAIL"
+msgstr "Houve algum problema ao enviar seus coment?rios. Por favor, tente novamente?"
+
+msgid "FEEDBACKSENTSUCCESS"
+msgstr "Obrigado pelo seu feedback. N?s responderemos o mais r?pido poss?vel."
+
+msgid "COULDNOTFETCHLOCATION"
+msgstr "N?o conseguimos buscar sua localiza??o"
+
+msgid "WIDGETMEDIANPRICE"
+msgstr "Os pre?os m?dios s?o baseados nos pre?os de todas as propriedades listadas"
+
+msgid "RENTINCREMENTPERCENTAGETOOLTIP"
+msgstr "Fornecer o aumento anual estimado no aluguel considerando as condi??es hist?ricas e prevalecentes do mercado"
+
+msgid "COSTBASISTOOLTIP"
+msgstr "Esta ? a base do custo do investimento que leva em considera??o o pre?o de venda e os custos de melhoria inicial. Base de custo = Pre?o de venda + Custo de melhoria inicial"
+
+msgid "TOTALINVESTMENTCOSTTOOLTIP"
+msgstr "Esta ? a base do custo do investimento que leva em considera??o o pre?o de venda, custo de fechamento e custos de melhoria inicial."
+
+msgid "ANNUALTAXABLEINCOMETOOLTIP"
+msgstr "Esta ? a receita tribut?vel anual ap?s ter levado em considera??o todas as despesas incorridas na manuten??o da propriedade"
+
+msgid "DEPRECIATIONPERCENTAGETOOLTIP"
+msgstr "Forne?a a deprecia??o anual estimada do valor da propriedade considerando o desgaste normal e as taxas padr?o de deprecia??o"
+
+msgid "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP"
+msgstr "Fornecer a aprecia??o anual estimada no valor do im?vel considerando as condi??es de mercado hist?ricas e prevalecentes"
+
+msgid "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP"
+msgstr "Pre?o pedido mais qualquer corre??o e custo de fechamento."
+
+msgid "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP"
+msgstr "Este ? o lucro tribut?vel anual ap?s ter levado em considera??o todas as despesas incorridas na manuten??o do im?vel. Renda tribut?vel anual sem hipoteca = Lucro operacional l?quido - Valor de deprecia??o"
+
+msgid "INITIALINVESTMENTWITHMORTGAGETOOLTIP"
+msgstr "Adiantamento mais qualquer corre??o e custo de fechamento."
+
+msgid "COSTBASISWITHMORTGAGETOOLTIP"
+msgstr "Este ? o Fluxo de Caixa Livre depois de levar em considera??o o servi?o da d?vida Fluxo de Caixa Livre = Lucro Operacional L?quido - Servi?o da D?vida"
+
+msgid "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP"
+msgstr "Esta ? a Receita Tribut?vel Anual ap?s ter levado em considera??o todas as despesas incorridas na manuten??o do im?vel Fluxo de Caixa Tribut?vel = Valor L?quido de Caixa - Deprecia??o"
+
+msgid "SALECLOSINGCOSTTOOLTIP"
+msgstr "Forne?a o fechamento de venda estimado considerando comiss?es, taxas de condado, etc."
+
+msgid "CLOSINGCOSTTOOLTIP"
+msgstr "Fornecer o custo estimado de fechamento da compra considerando as comiss?es, taxas do condado, etc."
+
+msgid "INITIALIMPROVEMENTCOSTTOOLTIP"
+msgstr "Custo de fechamento mais custo estimado para reparos e / ou melhorias a serem feitos ap?s a compra e antes do aluguel para o primeiro inquilino."
+
+msgid "EMICOSTTOOLTIP"
+msgstr "Este ? o montante mensal estimado da hipoteca considerando as taxas de juros padr?o. O montante real da hipoteca variaria em fun??o da taxa de juros cobrada pelo banco e da pontua??o de cr?dito"
+
+msgid "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP"
+msgstr "Este ? o investimento inicial total considerando custos de cobran?a, adiantamento, etc."
+
+msgid "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP"
+msgstr "Esta ? a taxa de retorno que calcula o rendimento de caixa gerado no caixa investido em uma propriedade em rela??o ao investimento inicial total."
+
+msgid "CAPRATETOOLTIP"
+msgstr "Rela??o entre a receita operacional l?quida e o pre?o pedido"
+
+msgid "OTHEREXPENSESTOOLTIP"
+msgstr "Forne?a o montante anual total de todas as outras despesas"
+
+msgid "HOMEFORSALESEARCHOPTIONINFO"
+msgstr "Procure Investimentos Residenciais para Venda"
+
+msgid "PROPERTYFORLEASESEARCHOPTIONINFO"
+msgstr "Pesquisar im?veis para loca??o"
+
+msgid "PROFESSIONALSEARCHOPTIONINFO"
+msgstr "Procure Provedores de Servi?os ou Profissionais que servem Im?veis como Banqueiros, Agentes de Seguros, Agentes de Cr?dito, Gerentes de Propriedade, etc."
+
+msgid "LOCATIONPREFUSAGEINFO"
+msgstr "Digite um ou mais locais preferidos e raio de busca para definir os limites"
+
+msgid "CAPRATERANGETOOLTIP"
+msgstr "Forne?a os valores do intervalo superior e inferior para a taxa de capta??es, caso voc? esteja procurando propriedades que j? geram renda"
+
+msgid "INVESTMENTCATEGORIESTOOLTIP"
+msgstr "Fornecer a categoria de investimento para a sua pesquisa Core: Este ? um investimento de retorno desalavancado, de baixo risco / baixo potencial com fluxos de caixa previs?veis. Core Plus: Este ? um investimento de risco moderado / retorno moderado que pode ou n?o exigir melhorias. Valor Adicionado: Este ? um investimento de m?dio a alto risco / m?dio a alto retorno que exige melhorias ou entradas de capital ou outras mudan?as. Oportunidade de desenvolvimento: Este ? um investimento de alto risco / alto retorno que requer um alto grau de aprimoramento ou outros riscos."
+
+msgid "NUMBERONLY"
+msgstr "Por favor insira um n?mero v?lido"
+
+msgid "MAXVALUE"
+msgstr "Introduza um valor v?lido inferior a"
+
+msgid "MAXLENGTH"
+msgstr "O n?mero m?ximo de caracteres permitido ?"
+
+msgid "MINLENGTH"
+msgstr "O n?mero m?nimo de caracteres requerido ?"
+
+msgid "EMAILIDREQUIRED"
+msgstr "E-mail ? obrigat?rio"
+
+msgid "EMAILPATTERNERROR"
+msgstr "Por favor insira um endere?o de e-mail v?lido"
+
+msgid "URLPATTERN"
+msgstr "Digite um endere?o de site v?lido"
+
+msgid "DATE_EXCEPTION"
+msgstr "Data inv?lida especificada"
+
+msgid "DECIMALUPTO4DIGIT"
+msgstr "Forne?a um n?mero v?lido com um m?ximo de 4 casas decimais"
+
+msgid "MEDIANLEASEPRICECAVEAT"
+msgstr "Rendas medianas s?o indicativas. Revise os detalhes da listagem com cuidado."
+
+msgid "GROSSRENTREVENUEREQUIRED"
+msgstr "A renda bruta de loca??o ? necess?ria"
+
+msgid "ISVACATIONRENTAL"
+msgstr "Esta Unidade ? um Aluguer de Curta Dura??o?"
+
+msgid "ISVACATIONRENTALTOOLTIP"
+msgstr "Indique se esta propriedade est? sendo alugada como um arrendamento de curto prazo, sazonal, executivo ou de f?rias."
+
+msgid "PREVIEWSELECTEDFLOORPLANDOCS"
+msgstr "Planos e pesquisas selecionadas"
+
+msgid "FLOORPLANSGALLERY"
+msgstr "Planos e levantamentos de piso carregados"
+
+msgid "BASICINFORMATION"
+msgstr "Localiza??o"
+
+msgid "PROPERTYDETAILS"
+msgstr "Detalhes"
+
+msgid "LOCATEPROPERTYTIP"
+msgstr "Escolha entre as Propriedades abaixo"
+
+msgid "PROPERTYFOUND"
+msgstr "Propriedades correspondentes na sua localiza??o"
+
+msgid "PROPERTYNOTFOUND"
+msgstr "N?o encontrou sua propriedade?"
+
+msgid "SELFOWNED"
+msgstr "Voc? possui este an?ncio?"
+
+msgid "OWNEREMAILID"
+msgstr "Identidade do e-mail do propriet?rio da listagem"
+
+msgid "OWNERMOBILENUMBER"
+msgstr "N?mero de celular do propriet?rio do an?ncio"
+
+msgid "OWNERNAME"
+msgstr "Nome do propriet?rio da lista"
+
+msgid "LISTINGCONFIRMATIONTITLE"
+msgstr "Visualize e confirme seu an?ncio"
+
+msgid "MARKERDRAGPINMESSAGE"
+msgstr "Caso n?o consiga encontrar seu endere?o, insira o marco ou o bairro mais pr?ximo e arraste o pino para o local da sua propriedade"
+
+msgid "BASICINFOSCHEMATITLE"
+msgstr "Localize sua Propriedade"
+
+msgid "DROPIMAGETITLE"
+msgstr "Arraste e solte seus arquivos aqui. Voc? pode carregar at? 10 arquivos de cada vez."
+
+msgid "MEDIATITLE"
+msgstr "Carregar fotos para sua propriedade"
+
+msgid "OVERVIEWINFOSCHEMATITLE"
+msgstr "Forne?a informa??es b?sicas sobre seu Listado"
+
+msgid "FINANCIALINFOSCHEMATITLE"
+msgstr "Fornecer informa??es financeiras"
+
+msgid "ADDITIONALINFOSCHEMATITLE"
+msgstr "Fornecer informa??es adicionais"
+
+msgid "PROPERTYINFOSCHEMATITLE"
+msgstr "Enrique?a os detalhes da sua propriedade"
+
+msgid "VALUEADDEDREASONTOOLTIP"
+msgstr "Forne?a o principal motivo ou fator que torna a Categoria de Investimento desta propriedade um Valor Adicionado"
+
+msgid "RISKRETURNCATEGORYTOOLTIP"
+msgstr "Forne?a a categoria de retorno de risco da propriedade que ajude os investidores na tomada de decis?es. N?cleo: trata-se de um investimento de retorno desalavancado, de baixo risco / baixo potencial com fluxos de caixa previs?veis. Core Plus: Este ? um investimento de risco moderado / retorno moderado que pode ou n?o exigir melhorias. Valor Adicionado: Este ? um investimento de m?dio a alto risco / m?dio a alto retorno que exige melhorias ou entradas de capital ou outras mudan?as. Oportun?stico: Este ? um investimento de alto risco / alto retorno que requer um alto grau de aprimoramento ou outros riscos."
+
+msgid "DISTRESSEDTOOLTIP"
+msgstr "Indique se esta propriedade est? angustiada e o estado apropriado"
+
+msgid "PROPERTYNAMETOOLTIP"
+msgstr "Forne?a um nome exclusivo para a propriedade para que, outros possam identific?-la facilmente"
+
+msgid "AREATOOLTIP"
+msgstr "Forne?a a ?rea da propriedade. Se voc? est? listando muito ou uma unidade de constru??o, ent?o, essa deve ser a ?rea do lote ou unidade listada"
+
+msgid "LOTAREATOOLTIP"
+msgstr "Forne?a a ?rea do lote total da propriedade"
+
+msgid "ENDDATETOOLTIP"
+msgstr "Forne?a a data at? a qual sua listagem deve estar ativa"
+
+msgid "CONTACTACTIONSTOOLTIP"
+msgstr "Forne?a o seu modo de contato preferido. A ativa??o de todas as poss?veis op??es de contato facilitar? outros para alcan??-lo facilmente"
+
+msgid "SELFOWNEDTOOLTIP"
+msgstr "Forne?a os detalhes de propriedade desta Lista. Se esta listagem n?o ? de sua propriedade, forne?a as informa??es do propriet?rio"
+
+msgid "AVAILABLEDATETOOLTIP"
+msgstr "Forne?a a data em que a propriedade estar? dispon?vel para ocupa??o"
+
+msgid "DISCLOSEADDRESSTOOLTIP"
+msgstr "Indique se deseja divulgar ou ocultar o endere?o desta propriedade"
+
+msgid "DISCLOSEPRICETOOLTIP"
+msgstr "Indique se deseja divulgar ou ocultar o pre?o desta listagem"
+
+msgid "CAPRATEKNOWNTOOLTIP"
+msgstr "Se voc? sabe que a taxa de bonifica??o da propriedade ou unidade est? listada, ent?o, voc? pode inseri-la diretamente. Caso contr?rio, podemos ajud?-lo a calcular a taxa de bon?."
+
+msgid "CAPRATETYPETOOLTIP"
+msgstr "Indique se a taxa Cap ? baseada em receitas reais ou projetadas"
+
+msgid "COMMISSIONSPLITTOOLTIP"
+msgstr "Fornecer a porcentagem da comiss?o do agente do comprador"
+
+msgid "COMMISSIONPERCENTAGETOOLTIP"
+msgstr "Fornecer a porcentagem de comiss?o que o comprador teria que pagar"
+
+msgid "COMMISSIONAMOUNTTOOLTIP"
+msgstr "Fornecer o montante da comiss?o que o comprador teria que pagar"
+
+msgid "SPECIFICATIONSTOOLTIP"
+msgstr "Fornecer caracter?sticas de constru??o, incluindo detalhes sobre a base, materiais de constru??o utilizados, acabamento, acess?rios e mobili?rio"
+
+msgid "PRIMARYIDENTIFIERTOOLTIP"
+msgstr "Forne?a o APN ou Parcel ID. Isso ser? vital para avaliar a propriedade para as decis?es de compra."
+
+msgid "HIGHLIGHTSTOOLTIP"
+msgstr "Forne?a os destaques principais de sua propriedade, como dire??o, ventila??o, etc."
+
+msgid "MINDIVISIBLEAREATOOLTIP"
+msgstr "Forne?a a menor ?rea permitida na divis?o deste lote"
+
+msgid "MAXDIVISIBLEAREATOOLTIP"
+msgstr "Forne?a a maior ?rea permitida na divis?o deste lote"
+
+msgid "MAXCONTIGUOUSAREATOOLTIP"
+msgstr "Forne?a a maior ?rea cont?gua permitida na divis?o deste lote"
+
+msgid "FIXTURESTOOLTIP"
+msgstr "Forne?a os detalhes de cada aparelho ou aparelho dispon?vel em sua unidade"
+
+msgid "PROPERTYNAMEREQUIRED"
+msgstr "O nome da propriedade ? obrigat?rio"
+
+msgid "PROPERTYSUBTYPEREQUIRED"
+msgstr "O tipo de propriedade ? obrigat?rio"
+
+msgid "PROPERTYTYPEREQUIRED"
+msgstr "A categoria ? necess?ria"
+
+msgid "LINEONEREQUIRED"
+msgstr "O endere?o da rua ? obrigat?rio"
+
+msgid "CITYREQUIRED"
+msgstr "Cidade ? necess?ria"
+
+msgid "ZIPCODEREQUIRED"
+msgstr "C?digo postal requerido"
+
+msgid "LOCALITYREQUIRED"
+msgstr "A localidade ? necess?ria"
+
+msgid "TITLEREQUIRED"
+msgstr "O t?tulo da lista ? obrigat?rio"
+
+msgid "LISTINGAREAREAMISSING"
+msgstr "?rea necess?ria"
+
+msgid "PROPERTYLISTINGTYPEREQUIRED"
+msgstr "? necess?rio o tipo de listagem"
+
+msgid "STARTTIMEMISSING"
+msgstr "? necess?rio tempo de in?cio"
+
+msgid "ENDTIMEMISSING"
+msgstr "? necess?rio o tempo de t?rmino"
+
+msgid "ENDTIMEINVALID"
+msgstr "O tempo de t?rmino n?o pode ser inferior ou igual ? hora de in?cio"
+
+msgid "OPENHOUSEENDDATEMINVALUE"
+msgstr "A data da Casa Aberta n?o pode ser anterior ?"
+
+msgid "ENDDATEMINVALUE"
+msgstr "A Data de Vencimento da Listagem n?o pode ser anterior ?"
+
+msgid "ENDDATEMAXVALUE"
+msgstr "A data de validade da lista n?o pode ser superior a"
+
+msgid "ENDDATEREQUIRED"
+msgstr "Data de expira??o do cadastro ? necess?ria"
+
+msgid "DISCLOSEADDRESSREQUIRED"
+msgstr "? necess?rio dispor o endere?o"
+
+msgid "DISCLOSEPRICEREQUIRED"
+msgstr "? necess?rio dispor o pre?o"
+
+msgid "SALEPRICEREQUIRED"
+msgstr "? necess?rio um pre?o de venda"
+
+msgid "LEASEPRICEREQUIRED"
+msgstr "? necess?rio um valor de loca??o"
+
+msgid "PROPERTYLISTINGMISSING"
+msgstr "Lista de propriedades ? necess?ria"
+
+msgid "PROPERTYMISSING"
+msgstr "Propriedade ? necess?ria"
+
+msgid "SALEPRICEMISSING"
+msgstr "? necess?rio um pre?o de venda"
+
+msgid "SALEPRICEINVALID"
+msgstr "Pre?o de venda inv?lido"
+
+msgid "COMMISSIONSPLITINVALID"
+msgstr "A Comiss?o do Agente do Comprador ? inv?lida"
+
+msgid "SALECOMMISSIONINVALID"
+msgstr "A percentagem da Comiss?o ? inv?lida"
+
+msgid "LEASEPRICEMISSING"
+msgstr "O pre?o do arrendamento ? obrigat?rio"
+
+msgid "LEASEPRICEINVALID"
+msgstr "O pre?o do arrendamento ? inv?lido"
+
+msgid "LEASEDEPOSITINVALID"
+msgstr "O valor do dep?sito ? inv?lido"
+
+msgid "LEASETERMINVALID"
+msgstr "O termo de loca??o ? inv?lido"
+
+msgid "LEASEMAINTENANCECHARGESINVALID"
+msgstr "Os custos mensais de manuten??o s?o inv?lidos"
+
+msgid "LEASECOMMISSIONINVALID"
+msgstr "O valor da Comiss?o ? inv?lido"
+
+msgid "NUMBEROFBEDSREQUIRED"
+msgstr "N?mero de camas necess?rio"
+
+msgid "NUMBEROFSEATSREQUIRED"
+msgstr "O n?mero de lugares ? necess?rio"
+
+msgid "NUMBEROFBEDROOMSREQUIRED"
+msgstr "N?mero de quartos ? necess?rio"
+
+msgid "LISITNGAREAREQUIRED"
+msgstr "?rea necess?ria"
+
+msgid "ENDDATEMISSING"
+msgstr "Data de validade necess?ria"
+
+msgid "OTHERSUBTYPEINVALID"
+msgstr "Subtipo inv?lido de outras propriedades"
+
+msgid "SUBTYPEMISSING"
+msgstr "O tipo de propriedade ? obrigat?rio"
+
+msgid "LISTINGTITLEMISSING"
+msgstr "O t?tulo da lista ? obrigat?rio"
+
+msgid "LISTINGSALETYPEMISSING"
+msgstr "Postado por ? obrigat?rio"
+
+msgid "LISTINGTYPEMISSING"
+msgstr "? necess?rio o tipo de listagem"
+
+msgid "TYPEMISSING"
+msgstr "A categoria ? necess?ria"
+
+msgid "LEASETERMREQUIRED"
+msgstr "Termo de loca??o ? obrigat?rio"
+
+msgid "LEASETYPEREQUIRED"
+msgstr "Tipo de loca??o ? obrigat?rio"
+
+msgid "LEASEAMOUNTREQUIRED"
+msgstr "? necess?rio um valor de loca??o"
+
+msgid "DISTRESSEDSTATUSREQUIRED"
+msgstr "Status Distressed ? necess?rio"
+
+msgid "CREATEPROPERTY"
+msgstr "Fornecer informa??es sobre a propriedade"
+
+msgid "CONFIRMADDRESS"
+msgstr "Confirme o endere?o da sua propriedade"
+
+msgid "MOVEMAP"
+msgstr "Mover ou arrastar o mapa para encontrar propriedades"
+
+msgid "BACKTOPROPERTY"
+msgstr "Passo anterior"
+
+msgid "NOIMAGESUPLOADED"
+msgstr "Nenhum arquivo foi carregado para"
+
+msgid "PREVIEWSELECTEDDOCUMENTS"
+msgstr "Documentos selecionados"
+
+msgid "PREVIEWSELECTEDIMAGES"
+msgstr "Visualizar fotos selecionadas"
+
+msgid "CURRENTDEFAULT"
+msgstr "Foto Padr?o"
+
+msgid "SETASDEFAULT"
+msgstr "Definir como padr?o"
+
+msgid "CONFIRMPROPERTY"
+msgstr "Selecione esta Localiza??o"
+
+msgid "NEXTTOFINANCIAL"
+msgstr "Pr?ximo passo"
+
+msgid "NEXTTOADDITIONAL"
+msgstr "Pr?ximo passo"
+
+msgid "BACKTOADDITIONAL"
+msgstr "Passo anterior"
+
+msgid "NEXTTOCREATEPROPERTY"
+msgstr "Pr?ximo passo"
+
+msgid "BACKTOADDRESS"
+msgstr "Passo anterior"
+
+msgid "ADDLEASERENEWALOPTIONS"
+msgstr "Adicionar uma op??o de renova??o de loca??o"
+
+msgid "ADDHIGHLIGHTS"
+msgstr "Adicione outro destaque"
+
+msgid "POSTONLINE"
+msgstr "Listagem de postagem on-line"
+
+msgid "NEXTTOPROPERTY"
+msgstr "Pr?ximo passo"
+
+msgid "NEXTTOPHOTOS"
+msgstr "Pr?ximo passo"
+
+msgid "BACKTOFINANCIAL"
+msgstr "Passo anterior"
+
+msgid "SELECTEDBUILDINGUNIT"
+msgstr "Descreva sua Unidade"
+
+msgid "PROPERTYBUILDINGDETAILS"
+msgstr "Descreva seu pr?dio"
+
+msgid "APARTMENTDETAILS"
+msgstr "Descreva sua comunidade residencial"
+
+msgid "PROPERTYLOTDETAILS"
+msgstr "Descreva seu lote"
+
+msgid "ENTERHIGHLIGHTS"
+msgstr "Digite os Destaques da Propriedade"
+
+msgid "ADDFIXTURES"
+msgstr "Adicionar um dispositivo el?trico"
+
+msgid "ENTERFIXTURES"
+msgstr "Digite os Detalhes do Fixture"
+
+msgid "ADDSPECIFICATIONS"
+msgstr "Adicionar um recurso"
+
+msgid "ENTERSPECIFICATIONS"
+msgstr "Insira Recursos"
+
+msgid "ADDROOMS"
+msgstr "Adicionar um quarto"
+
+msgid "HOTELROOMDETAILS"
+msgstr "Descreva seu quarto"
+
+msgid "LOTDETAILSCOLLAPSIBLE"
+msgstr "Informa??es do lote (eu estou listando um lote espec?fico)"
+
+msgid "SELECTEDLOT"
+msgstr "Descreva seu lote"
+
+msgid "MAXNOOFFILES"
+msgstr "Voc? pode carregar at? 10 arquivos"
+
+msgid "UPLOADNOW"
+msgstr "Carregar agora"
+
+msgid "SELECTFILESTOUPLOAD"
+msgstr "Procurar arquivos"
+
+msgid "MINIMUM4IMAGESREQUIRED"
+msgstr "Adicione pelo menos 4 fotos"
+
+msgid "LISTINGUPDATED"
+msgstr "Listagem atualizada?"
+
+msgid "LISTINGUPDATEFAILED"
+msgstr "A listagem n?o p?de ser atualizada. Por favor, tente novamente mais tarde."
+
+msgid "VIDEOTITLEPLACEHOLDER"
+msgstr "Digite seu t?tulo de video"
+
+msgid "VIDEOURLPLACEHOLDER"
+msgstr "Digite ou cole o seu URL de v?deo"
+
+msgid "ASKINGPRICEPRICEREQUIRED"
+msgstr "Digite o pre?o solicitado"
+
+msgid "ISRENTALPROPERTYTOOLTIP"
+msgstr "Indique se esta unidade de propriedade ? alugada e as informa??es financeiras apropriadas"
+
+msgid "ISRENTALPROPERTY"
+msgstr "Essa unidade ? alugada?"
+
+msgid "RENTALAMOUNTREQUIRED"
+msgstr "Montante do arrendamento ? necess?rio"
+
+msgid "CONSTRUCTIONSTATUSYEARBUILTINVALID "
+msgstr "A combina??o Estado e Ano de constru??o ? inv?lida."
+
+msgid "ISREALTOR"
+msgstr "Eu sou um profissional imobili?rio"
+
+msgid "PROFILEPICTURE"
+msgstr "Foto de perfil"
+
+msgid "ADDPROFILEPIC"
+msgstr "Adicionar foto de perfil"
+
+msgid "UPDATEPROFILEPIC"
+msgstr "Mude a foto do perfil"
+
+msgid "YOUHAVENOCOMPANIESTITLE"
+msgstr "Atualmente, voc? n?o est? associado a uma empresa"
+
+msgid "YOUHAVENOCOMPANIESMESSAGE"
+msgstr "Clique no bot?o para registrar uma nova empresa"
+
+msgid "YOUHAVENOLISTINGSTITLE"
+msgstr "Voc? n?o listou nenhuma propriedade"
+
+msgid "YOUHAVENOLISTINGSMESSAGE"
+msgstr "Clique no bot?o para listar uma propriedade"
+
+msgid "CONFIRMPASSWORDERROR"
+msgstr "As senhas n?o coincidem. Por favor tente novamente."
+
+msgid "PASSWORDCHANGESUCCESS"
+msgstr "Senha alterada ..."
+
+msgid "PREFERENCESSAVESUCCESS"
+msgstr "Prefer?ncias salvas ..."
+
+msgid "PROFILESAVESUCCESS"
+msgstr "Perfil salvo?"
+
+msgid "MYWISHLIST"
+msgstr "Minha lista de observa??o"
+
+msgid "REMOVEFROMWISHLIST"
+msgstr "Remover da minha lista de observa??o"
+
+msgid "PHONENUMBERVIEWED"
+msgstr "Envie-me uma notifica??o por e-mail quando algu?m ver o meu n?mero de telefone"
+
+msgid "CHATINITIATED"
+msgstr "Envie-me uma notifica??o por e-mail quando algu?m iniciar uma conversa de conversa comigo"
+
+msgid "RSVPSENT"
+msgstr "Envie-me uma notifica??o por e-mail quando algu?m envia um RSVP para minha Open House"
+
+msgid "SAVEDSEARCHMATCH"
+msgstr "Envie-me uma notifica??o por e-mail quando novos an?ncios forem postados correspondendo aos meus crit?rios de pesquisa salvos"
+
+msgid "LISTINGCREATED"
+msgstr "Envie-me uma notifica??o por e-mail quando algu?m listar uma propriedade nas minhas ?reas e bairros servidos"
+
+msgid "ENTERSAVEDSEARCHNOTIFICATIONDAYS"
+msgstr "Insira o n?mero de dias"
+
+msgid "SAVEDSEARCHNOTIFICATIONDAYS"
+msgstr "Dias ap?s os quais devemos parar de enviar-lhe notifica??es de correspond?ncia"
+
+msgid "SAVEDON"
+msgstr "Salvo em"
+
+msgid "YOUHAVENOWISHLISTTITLE"
+msgstr "Voc? n?o tem lista em sua lista de observa??o"
+
+msgid "YOUHAVENOWISHLISTMESSAGE"
+msgstr "Clique no s?mbolo do cora??o na exibi??o de listagem para adicion?-lo ? sua lista de observa??o"
+
+msgid "YOUHAVENOSEARCHESTITLE"
+msgstr "Voc? n?o tem buscas salvas"
+
+msgid "YOUHAVENOSEARCHESMESSAGE"
+msgstr "Clique no bot?o Salvar pesquisa nos resultados da pesquisa de propriedades para salv?-lo para refer?ncia futura"
+
+msgid "YOUHAVENONOTIFTITLE"
+msgstr "Voc? n?o tem contatos"
+
+msgid "YOUHAVENONOTIFMESSAGE"
+msgstr "Sempre que voc? entrar em contato com algu?m ou quando algu?m entrar em contato com voc?, seus contatos estar?o vis?veis aqui"
+
+msgid "ADDEDTOWISHLIST"
+msgstr "Adicionado ? lista de exibi??o"
+
+msgid "ADDTOWISHLIST"
+msgstr "Adicionar ? lista de exibi??o"
+
+msgid "STATUSMESSAGE"
+msgstr "Mensagem de status"
+
+msgid "ENRICHYOURPROFILEMSG"
+msgstr "Por favor, enriquecer seu perfil para melhorar sua visibilidade para potenciais investidores."
+
+msgid "LICENSEREQUIRED"
+msgstr "Digite o n?mero da licen?a"
+
+msgid "CURRENTPASSWORD"
+msgstr "senha atual"
+
+msgid "NEWPASSWORD"
+msgstr "Nova senha"
+
+msgid "CONFIRMPASSWORD"
+msgstr "Confirme a Senha"
+
+msgid "ENTERNAME"
+msgstr "Insira o nome"
+
+msgid "ENTERMOBILE"
+msgstr "Digite Mobile"
+
+msgid "NOTAMEMBER"
+msgstr "N?o ? um membro ?"
+
+msgid "EMAILPHONE"
+msgstr "E-mail ou n?mero de celular"
+
+msgid "MEMBERLOGIN"
+msgstr "Acesso de membro"
+
+msgid "CREATEYOURACCOUNT"
+msgstr "Crie sua conta"
+
+msgid "MEMBER"
+msgstr "Membro"
+
+msgid "CHANGEPASSWORD"
+msgstr "Mudar senha"
+
+msgid "CHANGEPASSWORDDESCRIPTION"
+msgstr "Forne?a sua nova senha"
+
+msgid "ADDWEBSITES"
+msgstr "Adicionar um site da Web"
+
+msgid "USERSREGISTRATIONINFOSCHEMATITLE"
+msgstr "Inscreva-se como membro"
+
+msgid "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE"
+msgstr "Assine como um provedor de servi?os ou profissional"
+
+msgid "REALTORSREGISTRATIONINFOSCHEMATITLE"
+msgstr "Inscreva-se como corretor de im?veis / corretor"
+
+msgid "COMPANYREGISTRATIONINFOSCHEMATITLE"
+msgstr "Registre sua empresa em nosso site"
+
+msgid "VERIFYOTPHEADING"
+msgstr "Verificar OTP"
+
+msgid "VERIFYOTPACCOUNTLOCKEDLINE1"
+msgstr "Sua conta foi bloqueada devido a muitas tentativas de senha incorretas. Reenviar o C?digo de Seguran?a ..."
+
+msgid "VERIFYOTPACCOUNTLOCKEDLINE2"
+msgstr "Fornecer o OTP que foi enviado para o seu Email"
+
+msgid "VERIFYOTPUSERUNVERIFIEDLINE1"
+msgstr "Observamos que voc? n?o concluiu o processo de Inscri??o durante sua ?ltima visita. Reenviar o C?digo de Seguran?a ..."
+
+msgid "VERIFYOTPUSERUNVERIFIEDLINE2"
+msgstr "Fornecer o OTP que foi enviado para o seu Email"
+
+msgid "VERIFYOTPEMPTYPASSWORDLINE1"
+msgstr "Observamos que voc? n?o concluiu o processo de Inscri??o durante sua ?ltima visita. Reenviar o C?digo de Seguran?a ..."
+
+msgid "VERIFYOTPEMPTYPASSWORDLINE2"
+msgstr "Fornecer o OTP que foi enviado para o seu Email"
+
+msgid "VERIFYOTPAUTOREGISTEREDLINE1"
+msgstr "Precisamos estabelecer que esse ID de e-mail pertence a voc?"
+
+msgid "VERIFYOTPAUTOREGISTEREDLINE2"
+msgstr "Fornecer o OTP que foi enviado para o seu Email"
+
+msgid "VERIFYOTPFORGOTPASSWORDLINE1"
+msgstr "Precisamos verificar sua ID de e-mail para redefinir sua senha"
+
+msgid "VERIFYOTPFORGOTPASSWORDLINE2"
+msgstr "Fornecer o OTP que foi enviado para o seu Email"
+
+msgid "VERIFYOTPDESCRIPTIONLINE2"
+msgstr "Fornecer o OTP que foi enviado para o seu Email"
+
+msgid "VERIFYOTPDESCRIPTIONLINE1"
+msgstr "Precisamos estabelecer que esse ID de e-mail pertence a voc?"
+
+msgid "REGISTRATIONHEADING"
+msgstr "Inscrever-se"
+
+msgid "REGISTRATIONDESCRIPTIONLINE1"
+msgstr "Forne?a sua identifica??o"
+
+msgid "REGISTRATIONDESCRIPTIONLINE2"
+msgstr "Suas informa??es ser?o usadas para identific?-lo e nunca ser?o compartilhadas com outras pessoas"
+
+msgid "LOGINDESCRIPTIONLINE1"
+msgstr "Forne?a sua ID de e-mail"
+
+msgid "LOGINDESCRIPTIONLINE2"
+msgstr "Voc? ser? solicitado para suas credenciais de senha ou registro"
+
+msgid "PASSWORDHEADING"
+msgstr "Verifica??o de seguran?a"
+
+msgid "PASSWORDDESCRIPTIONLINE1"
+msgstr "Forne?a sua Senha"
+
+msgid "PASSWORDDESCRIPTIONLINE2"
+msgstr "Voc? aparecer? como on-line e pode se conectar instantaneamente com outras pessoas que tamb?m est?o online"
+
+msgid "FORGOTPASSWORDHEADING"
+msgstr "Configurar senha"
+
+msgid "FORGOTPASSWORDDESCRIPTIONLINE1"
+msgstr "Forne?a uma senha para login futuro no nosso site"
+
+msgid "FORGOTPASSWORDDESCRIPTIONLINE2"
+msgstr "Voc? pode escolher uma senha que seja forte e f?cil de lembrar"
+
+msgid "STATUSMESSAGETOOLTIP"
+msgstr "Forne?a uma breve mensagem que ser? exibida em seu cart?o de contato"
+
+msgid "AREASSERVEDTOOLTIP"
+msgstr "Forne?a a lista de ?reas ou localidades atendidas por voc?. Certifique-se de incluir as ?reas vizinhas, pois isso ir? melhorar a sua visibilidade"
+
+msgid "PROFESSIONSTOOLTIP"
+msgstr "Escolha o tipo de servi?os fornecidos por voc?"
+
+msgid "EXPERTISETOOLTIP"
+msgstr "Forne?a suas principais ?reas de especializa??o e especialidades"
+
+msgid "SPECIALTIESTOOLTIP"
+msgstr "Escolha suas especialidades imobili?rias apropriadas"
+
+msgid "BROKERAGEFIRMCOMPLETETOOLTIP"
+msgstr "Sua corretora j? pode estar registrada conosco. Consulte nossos dados com o nome da empresa. Se n?o for encontrado, voc? sempre pode registrar sua empresa aqui."
+
+msgid "COMPANYCOMPLETETOOLTIP"
+msgstr "Sua empresa pode j? estar cadastrada conosco. Consulte nossos dados com o nome da empresa. Se n?o for encontrado, voc? sempre pode registrar sua empresa aqui."
+
+msgid "HAVECOMPANYTOOLTIP"
+msgstr "Se voc? est? associado a uma empresa, voc? pode se beneficiar fornecendo informa??es da sua empresa aqui"
+
+msgid "HAVECOMPANY"
+msgstr "Associado a uma empresa?"
+
+msgid "BROKERAGEFIRMCOMPLETE"
+msgstr "Digite o nome da empresa de corretagem"
+
+msgid "COMPANYCOMPLETE"
+msgstr "Digite o nome da sua empresa"
+
+msgid "ADDCOMPANYCOLLAPSIBLE"
+msgstr "N?o encontrou sua empresa?"
+
+msgid "AREAREQUIRED"
+msgstr "Pelo menos uma ?rea servida ? necess?ria"
+
+msgid "COMPANYNAMEREQUIRED"
+msgstr "Nome da empresa ? obrigat?rio"
+
+msgid "CONTACTNUMBERTYPEREQUIRED"
+msgstr "O tipo de n?mero de contato ? necess?rio"
+
+msgid "CONTACTNUMBERREQUIRED"
+msgstr "N?mero de contato necess?rio"
+
+msgid "NAMEREQUIRED"
+msgstr "O nome ? obrigat?rio"
+
+msgid "MOBILENUMBERREQUIRED"
+msgstr "N?mero de celular necess?rio"
+
+msgid "PASSWORDREQUIRED"
+msgstr "Senha requerida"
+
+msgid "REALTORINVALID"
+msgstr "Realtor / Broker ? inv?lido"
+
+msgid "AREASMISSING"
+msgstr "S?o necess?rias ?reas atendidas"
+
+msgid "REALTORSINCEINVALID"
+msgstr "Professional Since ? inv?lido"
+
+msgid "SPECIALTIESINVALID"
+msgstr "A especialidade ? inv?lida"
+
+msgid "CONTACTACTIONSMISSING"
+msgstr "Pelo menos uma op??o de contato preferencial ? necess?ria"
+
+msgid "CONTACTACTIONINVALID"
+msgstr "Op??o de Contato Preferencial ? inv?lida"
+
+msgid "PROFESSIONALINVALID"
+msgstr "O profissional n?o ? v?lido"
+
+msgid "PROFESSIONSMISSING"
+msgstr "Pelo menos uma profiss?o ? necess?ria"
+
+msgid "MOBILEOREMAILMANDATORY"
+msgstr "Pelo menos um de e-mail ou n?mero de celular ? obrigat?rio"
+
+msgid "MOBILEOREMAILACTIONANYONENEEDED"
+msgstr "Pelo menos um de e-mail ou n?mero de telefone deve ser definido como op??o de contato preferencial"
+
+msgid "EXPIRED_PASSWORD"
+msgstr "Sua senha expirou. Por favor, reinicie-o."
+
+msgid "EMPTY_PASSWORD"
+msgstr "A senha est? vazia"
+
+msgid "USER_UNVERIFIED"
+msgstr "Verifique seu OTP para prosseguir"
+
+msgid "USER_ACCOUNT_DISABLED"
+msgstr "Sua conta est? desativada. Entre em contato com nosso administrador de sistema"
+
+msgid "USER_ACCOUNT_LOCKED"
+msgstr "Sua conta est? bloqueada. Reinicie sua senha"
+
+msgid "USER_MOBILE_EXIST"
+msgstr "O n?mero de celular que voc? forneceu j? est? registrado em nosso sistema. Por favor, tente outro n?mero de celular"
+
+msgid "USER_EMAIL_EXIST"
+msgstr "A ID de e-mail que voc? forneceu j? est? registrada em nosso sistema. Por favor, tente outra ID de email"
+
+msgid "USER_EMAIL_MOBILE_EXIST"
+msgstr "O e-mail e o n?mero de celular que voc? forneceu j? est?o registrados em nosso sistema. Por favor, tente outro e-mail ou n?mero de celular"
+
+msgid "TOKEN_NOT_FOUND"
+msgstr "OTP ? inv?lido. Por favor, tente novamente"
+
+msgid "TOKEN_EXPIRED"
+msgstr "OTP expirou. Crie um novo OTP"
+
+msgid "TOKEN_NOT_MATCHING"
+msgstr "OTP ? inv?lido. Por favor, tente novamente"
+
+msgid "OLD_PASSWORD_NOT_SAME"
+msgstr "A senha antiga ? inv?lida"
+
+msgid "BAD_CREDENTIALS"
+msgstr "O nome de usu?rio ou a senha s?o inv?lidos"
+
+msgid "INVALID_USERNAME"
+msgstr "O nome de usu?rio ou a senha s?o inv?lidos"
+
+msgid "INVALID_USERID"
+msgstr "O nome de usu?rio ou a senha s?o inv?lidos"
+
+msgid "USER_NOT_FOUND"
+msgstr "O nome de usu?rio ou a senha s?o inv?lidos"
+
+msgid "BROKERAGE_FIRM_EXIST"
+msgstr "Existe outra firma de corretagem com o mesmo nome"
+
+msgid "COMPANY_EXIST"
+msgstr "Existe outra empresa com o mesmo nome"
+
+msgid "BROKERAGE_FIRM_NOT_EXIST"
+msgstr "A corretora n?o existe"
+
+msgid "COMPANY_NOT_EXIST"
+msgstr "A empresa n?o existe"
+
+msgid "COMPANYINVALID"
+msgstr "Empresa inv?lida"
+
+msgid "ADDOTHERCONTACTNUMBERS"
+msgstr "Adicionar um n?mero de contato"
+
+msgid "ENTERAREA"
+msgstr "Insira as ?reas servidas por voc?"
+
+msgid "ADDAREASSERVED"
+msgstr "Adicionar uma ?rea servida"
+
+msgid "ENTEREXPERTISE"
+msgstr "Insira suas ?reas de especializa??o"
+
+msgid "ADDEXPERTISE"
+msgstr "Adicionar uma ?rea de especializa??o"
+
+msgid "REGISTERCOMPANY"
+msgstr "Registre minha empresa"
+
+msgid "ROLETYPE"
+msgstr "eu sou um"
+
+msgid "ROLE_CUSTOMER"
+msgstr "Investidor imobili?rio"
+
+msgid "ROLE_REALTOR"
+msgstr "Corretor de im?veis"
+
+msgid "ROLE_PROFESSIONAL"
+msgstr "Provedor de servi?os imobili?rios"
+
+msgid "ENTEROTP"
+msgstr "Digite o c?digo de seguran?a enviado para o seu e-mail"
+
+msgid "USEREMAIL_EXIST"
+msgstr "Um usu?rio com essa ID de e-mail j? existe. Use uma ID de e-mail alternativa."
+
+msgid "ROLETYPETOOLTIP"
+msgstr "Inscreva-se como um investidor imobili?rio se voc? ? um investidor ou propriet?rio. Se voc? ? um Realtor / Broker ou um Provedor de Servi?o / Profissional que serve a Ind?stria Imobili?ria, voc? ser? solicitado a obter informa??es adicionais."
+

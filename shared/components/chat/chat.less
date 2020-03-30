@@ -1,0 +1,116 @@
+.chat-window {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 15;
+	background-color:@color-base-white;
+	border: 1px solid @border-color;
+	border-bottom: none;
+	border-top: none;
+	border-radius: 3px;
+	.bp-xsmall({
+		width: 100% !important;
+	});
+	.bp-medium({
+		width: 350px !important;
+	});
+	&__wrapper {
+		width: inherit;
+	}
+
+	&__header {
+		background-color: @color-base-primary-green;
+		height: 50px;
+		color: @color-base-white;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__title {
+		padding-left: 20px;
+		span {
+			display: block;
+			color: @color-base-white;
+		}
+
+		&__name {
+			font-weight: 600;
+			font-size: 1.4rem;
+		}
+
+		&__property {
+			font-size: 1.2rem;
+		}
+	}
+
+	&__body {
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		width: inherit;
+		&__box {
+			position: relative;
+			height: 220px;
+			overflow-y: scroll;
+		}
+	}
+
+	&__messages {
+		padding: 0 5px;
+	}
+
+	.animate-hide {
+		height: 0;
+	}
+
+	&__actions{
+		&__item{
+			font-size: 3rem;
+			margin-right: 10px;
+			i {
+				color: @color-base-white;
+			}
+		}
+	}
+
+	&__typing {
+		font-style: italic;
+		color: @color-base-primary-green;
+	}
+
+	&__input-box {
+		display: flex;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-around;
+		border: 1px solid @border-color;
+
+		&__text-area {
+			border: none;
+			outline: none;
+			flex: 1;
+		}
+	}
+	&__offline-info {
+		width: 100%;
+		min-height: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 1px solid @grey-400;
+		span {
+			font-weight: 600;
+		}
+	}
+	&__email-btn-wrap {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		button {
+			width: 100%;
+		}
+	}
+}

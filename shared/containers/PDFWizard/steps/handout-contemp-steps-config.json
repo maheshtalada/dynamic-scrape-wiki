@@ -1,0 +1,60 @@
+{
+    "steps" : {
+      "template": {
+        "index" : 0,
+        "title": "Template",
+        "definition": "Select a template for your flyer",
+        "question": "Select a template for your flyer",
+        "tips": [
+            {
+            "title": "Select a template for your flyer",
+            "description": "<p>We have provided popular templates for you to pick the design for your flyer.</p>"
+            }
+        ]
+      },
+      "galleryimages": {
+        "index" : 1,
+        "title": "Thumbnails",
+        "definition": "",
+        "question": "Select upto %s thumbnails",
+        "maxImages": 5,
+        "tips": [
+            {
+                "title": "Select thumbnails",
+                "description": "<p>You can choose one or more thumbnail photos to be visible on your flyer.</p>"
+            }
+        ],
+        "next": "highlights",
+        "prev": "template"
+      },
+      "highlights": {
+        "index" : 2,
+        "title": "Highlights",
+        "definition": "",
+        "question": "Edit highlights",
+        "tips": [
+          {
+            "title": "Edit highlights",
+            "description": "<p>Enter the property highlights that will appear on your flyer. You can choose to edit the default highlights provided or replace it with your own descriptions.</p>"
+          }
+        ],
+        "prev": "galleryimages",
+        "next": "contactinfo"
+      },
+      "contactinfo": {
+        "index" : 3,
+        "title": "Disclosures",
+        "definition": "",
+        "question": "Confirm disclosures",
+        "tips": [
+          {
+            "title": "Confirm disclosures",
+            "description": "<p>You can choose to disclose / hide / edit the price, address, realtor and brokerage firm information that will appear in your flyer.</p>"
+          }
+        ],
+        "prev": "highlights"
+      }
+    },
+    "pageTitle" : "GENERATEFLYERPAGETITLE",
+    "pageDescription" : ""
+  }

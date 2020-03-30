@@ -1,0 +1,3603 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "MEDIANLEASEPRICEANALYSIS": [
+            "मूल्य तुलना पूछना"
+         ],
+         "MEDIANSALEPRICEANALYSIS": [
+            "अनुमानित किराया"
+         ],
+         "SUBTYPEBEDROOM": [
+            "समान स्क्वायर फुटेज के साथ"
+         ],
+         "SUBTYPEAREA": [
+            "एक ही बेडरूम के साथ"
+         ],
+         "NON_REFUNDABLE_PET_FEE": [
+            "गैर वापसीयोग्य पालतू शुल्क"
+         ],
+         "CUMPRINCIPALPAID": [
+            "संचयी प्रिंसिपल भुगतान किया"
+         ],
+         "CUMAPPRECIATION": [
+            "कमिमेटिव प्रशंसा"
+         ],
+         "CUMCASHFLOW": [
+            "कम्युलेटिव कैश फ्लो"
+         ],
+         "SHOWRENTALPROPERTY": [
+            "किराए पर इकाइयां?"
+         ],
+         "RENTALPROPERTY": [
+            "किराए का यूनिट"
+         ],
+         "MEDIANPRICESTATS": [
+            "मूल्य विश्लेषण"
+         ],
+         "MEDIANCURRENTPRICE": [
+            "यह संपत्ति"
+         ],
+         "MEDIANLOWPRICE": [
+            "कम"
+         ],
+         "MEDIANMARKETPRICE": [
+            "बाजार"
+         ],
+         "MEDIANHIGHPRICE": [
+            "उच्च"
+         ],
+         "BACK": [
+            "वापस"
+         ],
+         "ACREAGE": [
+            "रकबा"
+         ],
+         "SQUAREFOOTAGE": [
+            "चौक फुटमाप"
+         ],
+         "IRRGROUP": [
+            "खास ड्राइवर"
+         ],
+         "YEAR": [
+            "साल"
+         ],
+         "RATEOFRETURN": [
+            "प्रतिफल दर"
+         ],
+         "INTERNALRATEOFRETURNWITHMORTGAGE": [
+            "लीवरेज रिटर्न की आंतरिक दर"
+         ],
+         "INTERNALRATEOFRETURN": [
+            "वापसी की आंतरिक दर"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGE": [
+            "वार्षिक मूल्य प्रशंसा"
+         ],
+         "RENTINCREMENTPERCENTAGE": [
+            "वार्षिक किराया वृद्धि"
+         ],
+         "SALECLOSINGCOST": [
+            "बिक्री समापन लागत"
+         ],
+         "CALCULATERETURN": [
+            "रिटर्न का विश्लेषण करें"
+         ],
+         "INVESTMENTGROUP": [
+            "अनुमानित निवेश"
+         ],
+         "MORTGAGEGROUP": [
+            "अनुमानित बंधक"
+         ],
+         "INCOMEGROUP": [
+            "अनुमानित वार्षिक आय"
+         ],
+         "EXPENSEGROUP": [
+            "अनुमानित वार्षिक व्यय"
+         ],
+         "RETURNGROUPWITHOUTMORTGAGE": [
+            "अनुमानित रिटर्न"
+         ],
+         "RETURNGROUPWITHMORTGAGE": [
+            "अनुमानित लीवरेज रिटर्न"
+         ],
+         "ASKINGPRICE": [
+            "दाम पूछना"
+         ],
+         "CLOSINGCOST": [
+            "समापन लागत"
+         ],
+         "INITIALIMPROVEMENTCOST": [
+            "प्रारंभिक सुधार लागत"
+         ],
+         "DOWNPAYMENTPERCENTAGE": [
+            "डाउन पेमेंट प्रतिशत"
+         ],
+         "DOWNPAYMENTCOST": [
+            "अग्रिम भुगतान"
+         ],
+         "EMICOST": [
+            "मासिक बंधक"
+         ],
+         "LOANINTERESTRATE": [
+            "ऋण ब्याज दर"
+         ],
+         "LOANDURATION": [
+            "कार्यकाल"
+         ],
+         "DEPRECIATIONPERCENTAGE": [
+            "मूल्यह्रास"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGE": [
+            "शुरुवाती निवेश"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGE": [
+            "शुरुवाती निवेश"
+         ],
+         "TOTALINVESTMENTCOST": [
+            "मुल्य आधारित"
+         ],
+         "COSTBASIS": [
+            "कुल लागत आधार"
+         ],
+         "ANNUALFREECASHFLOW": [
+            "मुक्त नकदी प्रवाह"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGE": [
+            "कर योग्य कैश फ्लो"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE": [
+            "कर योग्य कैश फ्लो"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGE": [
+            "कुल प्रारंभिक निवेश"
+         ],
+         "CASHONCASHRETURNPERCENTAGE": [
+            "कैश रिटर्न पर नकद"
+         ],
+         "APPROXCALCVALUENOTE": [
+            "वास्तविक मूल्य भिन्न हो सकते हैं"
+         ],
+         "ALLPROPERTIES": [
+            "सभी गुण"
+         ],
+         "CURRENTPROPERTY": [
+            "यह संपत्ति"
+         ],
+         "MEDIANSALEPRICEXAXIS": [
+            "औसत बिक्री मूल्य (USD)"
+         ],
+         "MEDIANSALEPRICEYAXIS": [
+            "वर्ग"
+         ],
+         "MEDIANLEASEPRICEXAXIS": [
+            "औसत किराया"
+         ],
+         "MEDIANLEASEPRICEYAXIS": [
+            "वर्ग"
+         ],
+         "MEDIANLEASEPRICESTATS": [
+            "औसत मूल्य"
+         ],
+         "MEDIANSALEPRICESTATS": [
+            "औसत मूल्य"
+         ],
+         "DAILY": [
+            "हर दिन"
+         ],
+         "WEEK": [
+            "प्रति सप्ताह"
+         ],
+         "MONTH": [
+            "प्रति माह"
+         ],
+         "ANNUALLY": [
+            "प्रति वर्ष"
+         ],
+         "SCHOOLDISTRICT": [
+            "स्कूल जिला"
+         ],
+         "RELIGIOUS_FACILITY": [
+            "धार्मिक सुविधा"
+         ],
+         "GENERATEREPORT": [
+            "पूर्ण उड़नेवाला उत्पन्न करें"
+         ],
+         "GENERATEFLYER": [
+            "उड़ता उत्पन्न करें"
+         ],
+         "DEPOSITS": [
+            "जमा"
+         ],
+         "ADDDEPOSITS": [
+            "जमा राशि जोड़ें"
+         ],
+         "DEPOSITTYPE": [
+            "जमा प्रकार"
+         ],
+         "SECURITY_DEPOSIT": [
+            "सुरक्षा जमा राशि"
+         ],
+         "PET_DEPOSIT": [
+            "पेट जमा"
+         ],
+         "KEY_DEPOSIT": [
+            "कुंजी जमा"
+         ],
+         "CLEANING_DEPOSIT": [
+            "जमा क्लीनिंग"
+         ],
+         "MATCHINGADDRESSES": [
+            "मिलान करने वाले पते"
+         ],
+         "MATCHINGPROPERTIES": [
+            "मिलान गुण"
+         ],
+         "MONDAY": [
+            "सोमवार"
+         ],
+         "TUESDAY": [
+            "मंगलवार"
+         ],
+         "WEDNESDAY": [
+            "बुधवार"
+         ],
+         "THURSDAY": [
+            "गुरूवार"
+         ],
+         "FRIDAY": [
+            "शुक्रवार"
+         ],
+         "SATURDAY": [
+            "शनिवार"
+         ],
+         "SUNDAY": [
+            "रविवार"
+         ],
+         "TOMORROW": [
+            "आने वाला कल"
+         ],
+         "TODAY": [
+            "आज"
+         ],
+         "COMING": [
+            "अ रहे है"
+         ],
+         "BUYING": [
+            "खरीदना"
+         ],
+         "SELLING": [
+            "बेचना"
+         ],
+         "REALTORS": [
+            "रिलाल्टर्स / दलाल"
+         ],
+         "PROPERTY_MANAGEMENT": [
+            "संपत्ति प्रबंधन"
+         ],
+         "FORECLOSURE": [
+            "फोरक्लोजर"
+         ],
+         "LOTAREAUOM": [
+            "इकाई"
+         ],
+         "LAUNDRYROOM": [
+            "कपड़े धोने का कमरा"
+         ],
+         "LIBRARY": [
+            "पुस्तकालय"
+         ],
+         "MEDIAROOM": [
+            "मीडिया रूम"
+         ],
+         "MOTHERINLAW": [
+            "सास"
+         ],
+         "RECREATIONALROOM": [
+            "मनोरंजन कक्ष"
+         ],
+         "SITTINGROOM": [
+            "बैठक"
+         ],
+         "STORAGE": [
+            "भंडारण"
+         ],
+         "UTILITY": [
+            "उपयोगिता"
+         ],
+         "WALKINCLOSET": [
+            "अलमारी कक्ष"
+         ],
+         "WETBAR": [
+            "वेट बार"
+         ],
+         "ATRIUM": [
+            "एट्रियम"
+         ],
+         "ATTIC": [
+            "अटारी"
+         ],
+         "DEN": [
+            "मांद"
+         ],
+         "FAMILYROOM": [
+            "परिवार कक्ष"
+         ],
+         "FIREPLACE": [
+            "फायर प्लेस"
+         ],
+         "FOYER": [
+            "फ़ोयर"
+         ],
+         "GREENHOUSE": [
+            "ग्रीन हाउस"
+         ],
+         "GUESTROOM": [
+            "अतिथि - कमरा"
+         ],
+         "NORTH": [
+            "उत्तर"
+         ],
+         "SOUTH": [
+            "दक्षिण"
+         ],
+         "EAST": [
+            "पूर्व"
+         ],
+         "WEST": [
+            "पश्चिम"
+         ],
+         "NORTHEAST": [
+            "ईशान कोण"
+         ],
+         "NORTHWEST": [
+            "उत्तर पश्चिम"
+         ],
+         "SOUTHEAST": [
+            "दक्षिण पूर्व"
+         ],
+         "SOUTHWEST": [
+            "दक्षिण पश्चिम"
+         ],
+         "PARKINGTYPES": [
+            "पार्किंग प्रकार"
+         ],
+         "ADDPARKINGTYPES": [
+            "पार्किंग प्रकार जोड़ें"
+         ],
+         "LEASEPRICEUOM": [
+            "इकाई"
+         ],
+         "CHARACTERS": [
+            "वर्ण"
+         ],
+         "FLOORNUMBER": [
+            "मंजिल संख्या"
+         ],
+         "FACINGDIRECTION": [
+            "दिशा का सामना करना पड़ रहा है"
+         ],
+         "LESS": [
+            "कम"
+         ],
+         "MORE": [
+            "अधिक"
+         ],
+         "TIME_SHARE": [
+            "टाइम शेयर"
+         ],
+         "CABIN": [
+            "केबिन"
+         ],
+         "MLSNUMBER": [
+            "एमएलएस नंबर"
+         ],
+         "MLSID": [
+            "एमएलएस"
+         ],
+         "MLSLISTINGURL": [
+            "लिस्टिंग स्रोत लिंक"
+         ],
+         "MLSPROPERTYTYPE": [
+            "श्रेणी (स्रोत से)"
+         ],
+         "MLSPROPERTYSUBTYPE": [
+            "संपत्ति का प्रकार (स्रोत से)"
+         ],
+         "MLSINFORMATION": [
+            "एमएलएस सूचना"
+         ],
+         "LISTINGAREAUOM": [
+            "इकाई"
+         ],
+         "YOURADHERE": [
+            "आपका विज्ञापन यहां"
+         ],
+         "LOCATIONDIRECTION": [
+            "दिशा-निर्देश"
+         ],
+         "ACRE": [
+            "एकड़"
+         ],
+         "MAXIMIZE": [
+            "अधिकतम"
+         ],
+         "INCOME": [
+            "आय"
+         ],
+         "SELECTALL": [
+            "सभी का चयन करे"
+         ],
+         "NAMEUNDISCLOSED": [
+            "अज्ञात संपत्ति का नाम"
+         ],
+         "ADDRESSUNDISCLOSED": [
+            "अज्ञात पता"
+         ],
+         "PRICEUNDISCLOSED": [
+            "अव्यवस्थित मूल्य"
+         ],
+         "LIKES": [
+            "को यह पसंद है"
+         ],
+         "FLOORPLAN": [
+            "तल योजनाएं और सर्वेक्षण"
+         ],
+         "COMMERCIAL_PROPERTIES": [
+            "व्यावसायिक संपत्तियों"
+         ],
+         "RESIDENTIAL_INVESTMENTS": [
+            "आवासीय निवेश"
+         ],
+         "ROOM": [
+            "कक्ष सूचना"
+         ],
+         "ROLE": [
+            "भूमिका"
+         ],
+         "LEGALDESCRIPTION": [
+            "विवरण"
+         ],
+         "DISCLAIMER": [
+            "अस्वीकरण"
+         ],
+         "LIVINGAREA": [
+            "क्षेत्र में रहने वाले"
+         ],
+         "LIVINGROOM": [
+            "बैठक कक्ष"
+         ],
+         "STUDY": [
+            "अध्ययन"
+         ],
+         "KITCHEN": [
+            "रसोई"
+         ],
+         "DININGROOM": [
+            "भोजन कक्ष"
+         ],
+         "PATIO": [
+            "आंगन"
+         ],
+         "PORCH": [
+            "बरामदा"
+         ],
+         "DECK": [
+            "डेक"
+         ],
+         "GARAGE": [
+            "गेराज"
+         ],
+         "WORKSHOP": [
+            "कार्यशाला"
+         ],
+         "BASEMENT": [
+            "तहखाना"
+         ],
+         "BEDROOM": [
+            "शयनकक्ष"
+         ],
+         "BATHROOM": [
+            "बाथरूम"
+         ],
+         "FULLBATHROOM": [
+            "पूर्ण स्नानघर"
+         ],
+         "HALFBATHROOM": [
+            "आधा बाथरूम"
+         ],
+         "QUARTERBATHROOM": [
+            "क्वार्टर स्नानघर"
+         ],
+         "THREEQUARTERBATHROOM": [
+            "तीन क्वार्टर स्नानघर"
+         ],
+         "BARBEQUEAREA": [
+            "बारबेक्यू एरिया"
+         ],
+         "DISABLEDACCESS": [
+            "विकलांग का उपयोग"
+         ],
+         "LAWNAREA": [
+            "लॉन एरिया"
+         ],
+         "WIREDFORAUTOMATION": [
+            "स्वचालन के लिए वायर्ड"
+         ],
+         "DRAFT": [
+            "प्रारूप"
+         ],
+         "PENDING_APPROVAL": [
+            "लंबित सामग्री मॉडरेशन"
+         ],
+         "PENDING_CONTENT_APPROVAL": [
+            "लंबित सामग्री अनुमोदन"
+         ],
+         "ACTIVE": [
+            "सक्रिय"
+         ],
+         "REJECTED": [
+            "अस्वीकृत"
+         ],
+         "EXPIRED": [
+            "समय सीमा समाप्त"
+         ],
+         "CLOSED": [
+            "बन्द है"
+         ],
+         "CLICKTOVIEWPROFILE": [
+            "प्रोफ़ाइल देखने के लिए यहां क्लिक करें"
+         ],
+         "CHOOSEONMAP": [
+            "मानचित्र पर चुनें"
+         ],
+         "CLOSEMAP": [
+            "मानचित्र बंद करें"
+         ],
+         "HOMEFORSALESEARCHHEADER": [
+            "बिक्री के लिए होम खोजें"
+         ],
+         "FORLEASESEARCHHEADER": [
+            "किराए / किराए के लिए गुण खोजें"
+         ],
+         "PROFESSIONALSEARCHHEADER": [
+            "सेवा प्रदाता या पेशेवर खोजें"
+         ],
+         "REALTORSEARCHHEADER": [
+            "पसंदीदा रियाल्टार / ब्रोकर्स खोजें"
+         ],
+         "HOMEFORSALE": [
+            "निवेश"
+         ],
+         "HIGHESTCAPRATE": [
+            "कैप रेट क्षमता (उच्च से कम)"
+         ],
+         "LOWESTCAPRATE": [
+            "कैप दर संभावित (निम्न से उच्च)"
+         ],
+         "CAPRATERANGE": [
+            "कैप दर संभावित (%)"
+         ],
+         "INVESTEMENTCATEGORIES": [
+            "निवेश श्रेणियाँ"
+         ],
+         "PREFERREDLOCATION": [
+            "पसंदीदा स्थान"
+         ],
+         "PREFERREDLOCATIONS": [
+            "पसंदीदा स्थान"
+         ],
+         "MINIMUM": [
+            "न्यूनतम"
+         ],
+         "MAXIMUM": [
+            "ज्यादा से ज्यादा"
+         ],
+         "CORE": [
+            "कोर - कम जोखिम / वापसी"
+         ],
+         "COREPLUS": [
+            "कोर प्लस - मध्यम जोखिम / वापसी"
+         ],
+         "VALUEADDED": [
+            "मूल्य संवर्धित"
+         ],
+         "DEVELOPMENTOPPORTUNITY": [
+            "विकास अवसर"
+         ],
+         "CAPITALCONSTRAINTS": [
+            "पूंजीगत प्रतिबंध"
+         ],
+         "ENVIRONMENTPROBLEMS": [
+            "पर्यावरण समस्याएं"
+         ],
+         "MANAGEMENTPROBLEMS": [
+            "प्रबंधन समस्याएं"
+         ],
+         "NEEDSSTRUCTURIALIMPROVEMENTS": [
+            "संरचनात्मक सुधार की आवश्यकता है"
+         ],
+         "NEEDSINETRIORIMPROVEMENTS": [
+            "आंतरिक सुधार की आवश्यकता है"
+         ],
+         "OPERATIONALPROBLEMS": [
+            "परिचालन समस्याएं"
+         ],
+         "OTHERVALUEADDED": [
+            "अन्य मूल्य जोड़ें"
+         ],
+         "RISKRETURNCATEGORY": [
+            "निवेश श्रेणी"
+         ],
+         "VALUEADDEDREASON": [
+            "कारण"
+         ],
+         "ALLBILLSPAID": [
+            "सभी बिलों का भुगतान किया"
+         ],
+         "METEREDUNITS": [
+            "पृथक मीटरयुक्त इकाइयां"
+         ],
+         "SOMEBILLSPAID": [
+            "भुगतान किए गए कुछ बिल"
+         ],
+         "MULTIFAMILYHOUSINGTYPE": [
+            "उपयोगिता बिल"
+         ],
+         "PAIDUTILITIES": [
+            "भुगतान उपयोगिताएँ"
+         ],
+         "CURRENTRENT": [
+            "वर्तमान किराया"
+         ],
+         "SECURITYDEPOSIT": [
+            "सुरक्षा जमा राशि"
+         ],
+         "NUMBEROFUNITS": [
+            "इकाइयों की संख्या"
+         ],
+         "ADD": [
+            "जोड़ना"
+         ],
+         "DEMOGRAPHICS": [
+            "जनसांख्यिकी"
+         ],
+         "WIDGETPOPULATION": [
+            "जनसंख्या सांख्यिकी"
+         ],
+         "WIDGETFMRDATA": [
+            "उचित बाजार भाड़ा सांख्यिकी"
+         ],
+         "WIDGETHOUSING": [
+            "आवास सांख्यिकी"
+         ],
+         "WIDGETMEDIANINCOME": [
+            "आय सांख्यिकी"
+         ],
+         "WIDGETOCCUPATION": [
+            "व्यवसाय सांख्यिकी"
+         ],
+         "WIDGETINCOMESLAB": [
+            "आय स्लैब सांख्यिकी"
+         ],
+         "WIDGETTRANSPORTATION": [
+            "काम के आंकड़े पर चलना"
+         ],
+         "WIDGETSCHOOL": [
+            "आस-पास के स्कूल"
+         ],
+         "WIDGETVIOLENTCRIME": [
+            "हिंसक अपराध दर सांख्यिकी"
+         ],
+         "WIDGETPROPERTYCRIME": [
+            "संपत्ति अपराध दर सांख्यिकी"
+         ],
+         "WIDGETDISASTERDATA": [
+            "हाल ही में संघीय आपात स्थिति"
+         ],
+         "SOURCE": [
+            "स्रोत"
+         ],
+         "WIDGETFMRFOOTER": [
+            "संयुक्त राज्य आवास तथा शहरी विकास विभाग"
+         ],
+         "WIDGETCENSUSFOOTER": [
+            "अमेरिकी जनगणना ब्यूरो"
+         ],
+         "WIDGETSCHOOLFOOTER": [
+            "अमेरिकी शिक्षा विभाग"
+         ],
+         "WIDGETCRIMEFOOTER": [
+            "फैड्रल ब्यूरो आॅफ इन्वेस्टीगेशन"
+         ],
+         "WIDGETDISASTERDATAFOOTER": [
+            "फ़ेडरल इमरजेंसी मैनेजमेंट एजेंसी"
+         ],
+         "WIDGETEMPLOYMENTGROWTH": [
+            "रोजगार वृद्धि सांख्यिकी"
+         ],
+         "WIDGETETHNICITY": [
+            "जनसंख्या नस्ल सांख्यिकी"
+         ],
+         "WIDGETPOPULATIONGROWTH": [
+            "रोजगार जनसंख्या सांख्यिकी"
+         ],
+         "WIDGETPROPERTYTAX": [
+            "संपत्ति कर सांख्यिकी"
+         ],
+         "TOTALPOPULATION": [
+            "कुल जनसंख्या"
+         ],
+         "MEDIANAGE": [
+            "मध्य आयु"
+         ],
+         "WHITE": [
+            "सफेद"
+         ],
+         "BLACK": [
+            "काली"
+         ],
+         "ASIAN": [
+            "एशियाई"
+         ],
+         "AMERICAN": [
+            "अमेरिकी भारतीय"
+         ],
+         "HISPANICPERCENTAGE": [
+            "हिस्पैनिक जनसंख्या"
+         ],
+         "EMPTY": [
+            "सब"
+         ],
+         "OTHER": [
+            "अन्य"
+         ],
+         "MALEFEMALERATIO": [
+            "पुरुष / महिला अनुपात"
+         ],
+         "FAIRMARKETRENT": [
+            "उचित बाजार किराया"
+         ],
+         "FMRDATAXAXIS": [
+            "साल"
+         ],
+         "FMRDATAYAXIS": [
+            "बाजार किराया"
+         ],
+         "EFFICIENTAPARTMENTPRICE": [
+            "दक्षता"
+         ],
+         "ONEBHKAPARTMENTPRICE": [
+            "एक बेडरूम"
+         ],
+         "TWOBHKAPARTMENTPRICE": [
+            "डबल बेडरूम"
+         ],
+         "THREEBHKAPARTMENTPRICE": [
+            "तीन शयनकक्ष"
+         ],
+         "FOURBHKAPARTMENTPRICE": [
+            "चार बेडरूम"
+         ],
+         "UNKNOWN": [
+            "अनजान"
+         ],
+         "TOTALUNITS": [
+            "इकाइयों की कुल संख्या"
+         ],
+         "OCCUPIEDUNIT": [
+            "अधिग्रहीत इकाइयां"
+         ],
+         "RENTEDUNIT": [
+            "किराए पर इकाइयां"
+         ],
+         "OCCUPIEDRENTEDUNITXAXIS": [
+            "साल"
+         ],
+         "OCCUPIEDRENTEDUNITYAXIS": [
+            "इकाइयों का प्रतिशत"
+         ],
+         "POPULATIONGROWTHYAXIS": [
+            "आबादी"
+         ],
+         "POPULATIONGROWTH": [
+            "कुल जनसंख्या"
+         ],
+         "POPULATIONGROWTHXAXIS": [
+            "साल"
+         ],
+         "EMPLOYEMENTGROWTHYAXIS": [
+            "नियोजित जनसंख्या प्रतिशत"
+         ],
+         "EMPLOYEMENTGROWTH": [
+            "नियोजित जनसंख्या"
+         ],
+         "EMPLOYEMENTGROWTHXAXIS": [
+            "साल"
+         ],
+         "OTHEROCCUPATION": [
+            "अन्य व्यवसाय"
+         ],
+         "EMPLOYEDPERCENTAGE": [
+            "नियोजित जनसंख्या"
+         ],
+         "MEDIANPROPERTYTAX": [
+            "औसत संपत्ति कर"
+         ],
+         "MEDIANPROPERTYTAXYAXIS": [
+            "साल"
+         ],
+         "MEDIANPROPERTYTAXXAXIS": [
+            "संपत्ति कर का भुगतान"
+         ],
+         "MEDIANINCOME": [
+            "औसत आय"
+         ],
+         "MEDIANINCOMEXAXIS": [
+            "साल"
+         ],
+         "MEDIANINCOMEYAXIS": [
+            "आय"
+         ],
+         "MANAGEMENTOCCUPATION": [
+            "प्रबंध"
+         ],
+         "SERVICEOCCUPATION": [
+            "सर्विस"
+         ],
+         "SALESOCCUPATION": [
+            "बिक्री"
+         ],
+         "CONSTRUCTIONOCCUPATION": [
+            "निर्माण"
+         ],
+         "PRODUCTIONOCCUPATION": [
+            "उत्पादन"
+         ],
+         "INCOMESLAB": [
+            "कुल जनसंख्या"
+         ],
+         "INCOMESLABXAXIS": [
+            "Inncome Slab"
+         ],
+         "INCOMESLABYAXIS": [
+            "आबादी"
+         ],
+         "BELOWFIFTEENTHOUSANDINCOME": [
+            "<15K"
+         ],
+         "FIFTEENTOTHIRTYTHOUSANDINCOME": [
+            "15 के -30 के"
+         ],
+         "THIRTYTOFIFTYTHOUSANDINCOME": [
+            "30 के - 50 के"
+         ],
+         "FIFTYTOSEVENTYFIVEHOUSANDINCOME": [
+            "50 के - 75 के"
+         ],
+         "SEVENTYFIVETOHUNDREDTHOUSANDINCOME": [
+            "75 के - 100 के"
+         ],
+         "HUNDREDTOONEFIFTYTHOUSANDINCOME": [
+            "100 के - 150 के"
+         ],
+         "ONEFIFTYABOVETHOUSANDINCOME": [
+            "> 150K"
+         ],
+         "MEANTRAVELTIME": [
+            "काम करने के लिए मीन कम्यूट टाइम"
+         ],
+         "TRANSPORTATIONMEANS": [
+            "परिवहन के साधन"
+         ],
+         "TRANSPORTATIONMEANSXAXIS": [
+            "जनसंख्या का प्रतिशत"
+         ],
+         "TRANSPORTATIONMEANSYAXIS": [
+            "परिवहन विकल्प"
+         ],
+         "PEOPLEDROVEALONE": [
+            "अकेले चला गया"
+         ],
+         "PEOPLECARPOOLED": [
+            "कार पूल"
+         ],
+         "PEOPLEUSEDPUBLICTRANSPORTATION": [
+            "सार्वजनिक परिवहन"
+         ],
+         "PEOPLEUSEDBICYCLEORWALKED": [
+            "साइकिल या चलना"
+         ],
+         "PEOPLEUSEDOTHERTRANSPORTATION": [
+            "अन्य परिवहन"
+         ],
+         "PEOPLEWORKEDATHOME": [
+            "घर पर काम किया"
+         ],
+         "SCHOOLNAME": [
+            "विद्यालय का नाम"
+         ],
+         "LOWESTGRADE": [
+            "सबसे कम ग्रेड"
+         ],
+         "HIGHESTGRADE": [
+            "उच्चतम दर्जा"
+         ],
+         "SCHOOLTYPE": [
+            "स्कूल का प्रकार"
+         ],
+         "VIOLENTCRIMEDATA": [
+            "हिंसक अपराध दर"
+         ],
+         "VIOLENTCRIMEDATAXAXIS": [
+            "साल"
+         ],
+         "VIOLENTCRIMEDATAYAXIS": [
+            "अपराध दर (प्रति 100,000 जनसंख्या)"
+         ],
+         "PROPERTYCRIMEDATA": [
+            "संपत्ति अपराध दर"
+         ],
+         "PROPERTYCRIMEDATAXAXIS": [
+            "साल"
+         ],
+         "PROPERTYCRIMEDATAYAXIS": [
+            "अपराध दर (प्रति 100,000 जनसंख्या)"
+         ],
+         "INCIDENTTITLE": [
+            "घटना"
+         ],
+         "INCIDENTTYPE": [
+            "घटना प्रकार"
+         ],
+         "IHPROGRAMDECLARED": [
+            "अंतरिम आवास?"
+         ],
+         "IAPROGRAMDECLARED": [
+            "व्यक्तिगत सहायता?"
+         ],
+         "PAPROGRAMDECLARED": [
+            "सार्वजनिक सहायता ?"
+         ],
+         "HMPROGRAMDECLARED": [
+            "ख़तरा ख़तरा?"
+         ],
+         "INCIDENTBEGINDATE": [
+            "घटना दिनांक"
+         ],
+         "TAGNAME": [
+            "फोटो लेबल"
+         ],
+         "RENAMEFILE": [
+            "अपने दस्तावेज़ का नाम बदलें"
+         ],
+         "FILENAME": [
+            "दस्तावेज़ का नाम"
+         ],
+         "VIDEOTITLE": [
+            "वीडियो शीषर्क"
+         ],
+         "VIDEOURL": [
+            "वीडियो यूआरएल"
+         ],
+         "CLOSE": [
+            "बंद करे"
+         ],
+         "MINIMIZE": [
+            "छोटा करना"
+         ],
+         "COMMENTS": [
+            "टिप्पणियाँ"
+         ],
+         "FEEDBACKCONTENTMESSAGE": [
+            "अपनी प्रतिक्रिया यहां लिखें ..."
+         ],
+         "SITEFEEDBACKHEADER": [
+            "साइट फ़ीडबैक भेजें"
+         ],
+         "SENDSITEFEEDBACK": [
+            "प्रतिक्रिया भेजें"
+         ],
+         "READMORE": [
+            "अधिक पढ़ें…"
+         ],
+         "SEARCHBYPROPERTY": [
+            "संपत्ति खोजें"
+         ],
+         "SEARCHBYREALTOR": [
+            "रियाल्टार / ब्रोकर खोजें"
+         ],
+         "QUESTION": [
+            "प्रश्न"
+         ],
+         "OFFLINE": [
+            "ऑफलाइन"
+         ],
+         "SAVING": [
+            "सहेजा जा रहा है !!!"
+         ],
+         "SAVED": [
+            "बचाया !!!"
+         ],
+         "YEARS": [
+            "वर्षों"
+         ],
+         "MONTHS": [
+            "महीने"
+         ],
+         "WEEKS": [
+            "सप्ताह"
+         ],
+         "DAYS": [
+            "दिन"
+         ],
+         "MASTERLEASE": [
+            "मास्टर लीज"
+         ],
+         "SUBLEASE": [
+            "उप पट्टा"
+         ],
+         "TYPING": [
+            "% S टाइप कर रहा है ..."
+         ],
+         "NEWMESSAGES": [
+            "नए संदेश)"
+         ],
+         "DEFAULTCHATMESSAGE": [
+            "अपना संदेश यहां टंकित करें…"
+         ],
+         "MOREACTIONS": [
+            "अधिक कार्रवाई"
+         ],
+         "ACTIONS": [
+            "क्रिया"
+         ],
+         "THUMBNAIL": [
+            "तस्वीर"
+         ],
+         "LEFT": [
+            "बाएं"
+         ],
+         "RIGHT": [
+            "सही"
+         ],
+         "ROTATE": [
+            "घुमाएँ"
+         ],
+         "ZOOM": [
+            "ज़ूम"
+         ],
+         "RSVP": [
+            "RSVP"
+         ],
+         "SEEALL": [
+            "सभी देखें"
+         ],
+         "EXISTING": [
+            "मौजूदा"
+         ],
+         "NEW": [
+            "नया"
+         ],
+         "NEWLYRENOVATED": [
+            "नव पुनर्निर्मित"
+         ],
+         "UNDERCONSTRUCTION": [
+            "निर्माणाधीन"
+         ],
+         "PROPOSED": [
+            "प्रस्तावित"
+         ],
+         "ARCHITECT": [
+            "वास्तुकार"
+         ],
+         "HOMETELEPHONE": [
+            "घर का फोन"
+         ],
+         "OFFICETELEPHONE": [
+            "कार्यालय टेलीफोन"
+         ],
+         "MOBILE": [
+            "मोबाइल"
+         ],
+         "AUCTION": [
+            "नीलाम"
+         ],
+         "BANKOWNED": [
+            "बैंक के स्वामित्व वाले"
+         ],
+         "ELECTRICITYBACKUP": [
+            "बिजली बैकअप"
+         ],
+         "BYBUILDER": [
+            "बिल्डर द्वारा"
+         ],
+         "BYOWNER": [
+            "मालिक द्वारा"
+         ],
+         "BYAGENT": [
+            "एजेंट द्वारा"
+         ],
+         "BYBANK": [
+            "बैंक द्वारा"
+         ],
+         "NEWCONSTRUCTION": [
+            "नया निर्माण"
+         ],
+         "FORSALE": [
+            "बेचने के लिए"
+         ],
+         "FORLEASE": [
+            "लीज / रेंट के लिए"
+         ],
+         "FORAUCTION": [
+            "नीलामी के लिए"
+         ],
+         "LAND": [
+            "भूमि"
+         ],
+         "RESIDENTIAL": [
+            "आवासीय"
+         ],
+         "TWIN_HOME": [
+            "ट्विन होम"
+         ],
+         "LOFT_STYLE": [
+            "मचान स्टाइल अपार्टमेंट"
+         ],
+         "GARDEN_HOME_SINGLE_UNIT": [
+            "गार्डन होम"
+         ],
+         "GARDEN_HOME_1_4_UNITS": [
+            "गार्डन होम 1 से 4 यूनिट"
+         ],
+         "CONDO_SINGLE_UNIT": [
+            "कोंडो"
+         ],
+         "CONDO_1_4_UNITS": [
+            "कोंडो 1 से 4 इकाइयों"
+         ],
+         "TOWNHOME_1_4_UNITS": [
+            "टाउन होम 1 से 4 यूनिट"
+         ],
+         "OTHER_RESIDENTIAL": [
+            "अन्य आवासीय"
+         ],
+         "TRIPLEX": [
+            "Triplex"
+         ],
+         "QUADRUPLEX": [
+            "quadruplex"
+         ],
+         "MOBILE_HOME": [
+            "मोबाइल घर"
+         ],
+         "DUPLEX": [
+            "दोहरा"
+         ],
+         "DUPLEX_SINGLE_UNIT": [
+            "दोहरा"
+         ],
+         "TOWNHOME_SINGLE_UNIT": [
+            "टाउनहोम"
+         ],
+         "DUPLEX_2_UNITS": [
+            "द्वैध 2 इकाइयां"
+         ],
+         "SINGLE_FAMILY_HOME_PORTFOLIO": [
+            "सिंगल फॅमिली होम - पोर्टफोलियो"
+         ],
+         "TOWN_HOME": [
+            "टाउन होम"
+         ],
+         "GARDEN_HOME": [
+            "गार्डन होम"
+         ],
+         "CONGREGATE_HOUSING": [
+            "कंसल्टेंट हाउसिंग"
+         ],
+         "ASSISTED_LIVING": [
+            "सहायता पर रहना"
+         ],
+         "SINGLE_FAMILY_HOME": [
+            "एकल परिवार के घर"
+         ],
+         "TOWN_HOUSE": [
+            "टाउन हाउस"
+         ],
+         "GARDEN_LOW_RISE": [
+            "स्वतंत्र हाउस"
+         ],
+         "INDEPENDENT_HOUSE": [
+            "स्वतंत्र हाउस"
+         ],
+         "MULTI_FAMILY_APARTMENT": [
+            "बहु परिवार अपार्टमेंट"
+         ],
+         "RESIDENTIAL_APARTMENT": [
+            "आवासीय अपार्टमेंट"
+         ],
+         "APARTMENT": [
+            "अपार्टमेंट"
+         ],
+         "ROW_HOUSE": [
+            "पंक्ति घर"
+         ],
+         "PG_ACCOMMODATION": [
+            "पीजी आवास"
+         ],
+         "HOTEL_AND_LODGING": [
+            "होटल और लॉजिंग"
+         ],
+         "SERVICED_APARTMENT": [
+            "सर्विस्ड अपार्टमेंट"
+         ],
+         "CONDO": [
+            "पंक्ति घर"
+         ],
+         "RESTAURANT": [
+            "खाने की दुकान"
+         ],
+         "PETROL_BUNK": [
+            "पेट्रोल चारपाई"
+         ],
+         "ENTERTAINMENT": [
+            "मनोरंजन"
+         ],
+         "THEATRE": [
+            "रंगमंच"
+         ],
+         "CAFE": [
+            "कैफ़े"
+         ],
+         "BAR": [
+            "बार"
+         ],
+         "ELECTRICITY": [
+            "बिजली"
+         ],
+         "TELEPHONE": [
+            "टेलीफोन"
+         ],
+         "WATER": [
+            "पानी"
+         ],
+         "GAS": [
+            "गैस"
+         ],
+         "CABLE": [
+            "केबल"
+         ],
+         "INTERNET": [
+            "इंटरनेट"
+         ],
+         "WIFI": [
+            "वाई - फाई"
+         ],
+         "POWERBACKUP": [
+            "पावर बैकअप"
+         ],
+         "CLIMATECONTROL": [
+            "वातावरण नियंत्रण"
+         ],
+         "AIRCONDITION": [
+            "वातानुकूलन"
+         ],
+         "ELEVATORS": [
+            "लिफ्ट"
+         ],
+         "WASTEDISPOSAL": [
+            "अपशिष्ट निपटान"
+         ],
+         "VIDEOSURVEILLANCE": [
+            "वीडियो निगरानी"
+         ],
+         "CAFETERIA": [
+            "काफ़ीहाउस"
+         ],
+         "SECURITY": [
+            "सुरक्षा"
+         ],
+         "GYM": [
+            "जिम"
+         ],
+         "CLUBHOUSE": [
+            "क्लब हाउस"
+         ],
+         "CHILDCARE": [
+            "बच्चे की देखभाल"
+         ],
+         "RECREATIONAREA": [
+            "मनोरंजन क्षेत्र"
+         ],
+         "CONFERENCEROOM": [
+            "सम्मेलन कक्ष"
+         ],
+         "MAINTENANCESTAFF": [
+            "अनुरक्षण कर्मचारी - वर्ग"
+         ],
+         "SMOKINGZONE": [
+            "धूम्रपान जोन"
+         ],
+         "QUICKSEARCH": [
+            "त्वरित खोज"
+         ],
+         "NAME": [
+            "नाम"
+         ],
+         "OTP": [
+            "एक बार इस्तेमाल किये जाने वाला पासवर्ड"
+         ],
+         "SENDOTP": [
+            "ओटीपी भेजें"
+         ],
+         "RESENDOTP": [
+            "पुन भेजें वन टाइम पासवर्ड"
+         ],
+         "HOME": [
+            "घर"
+         ],
+         "SUMMARY": [
+            "सारांश"
+         ],
+         "MYSEARCHES": [
+            "अपनी खोजों"
+         ],
+         "FILTERS": [
+            "फिल्टर"
+         ],
+         "SHOW": [
+            "दिखाना"
+         ],
+         "SAVEASDRAFT": [
+            "मसौदे के रूप में संचित करें"
+         ],
+         "MAP": [
+            "नक्शा"
+         ],
+         "SAVE": [
+            "बचाना"
+         ],
+         "SUBMIT": [
+            "जमा करें"
+         ],
+         "FIND": [
+            "खोज"
+         ],
+         "CLEAR": [
+            "स्पष्ट"
+         ],
+         "HIDE": [
+            "छिपाना"
+         ],
+         "RADIUS": [
+            "त्रिज्या"
+         ],
+         "CLEARALL": [
+            "सभी साफ करें"
+         ],
+         "SORT": [
+            "तरह"
+         ],
+         "VIEWONMAP": [
+            "मानचित्र पर देखें"
+         ],
+         "ADDRESS": [
+            "पता"
+         ],
+         "PROPERTYNAME": [
+            "सम्पत्ति का नाम"
+         ],
+         "PROPERTYTYPE": [
+            "वर्ग"
+         ],
+         "PROPERTYSUBTYPE": [
+            "संपत्ति के प्रकार"
+         ],
+         "AREA": [
+            "क्षेत्र"
+         ],
+         "LOTAREA": [
+            "भूखंड क्षेत्रफल"
+         ],
+         "PROPERTYDESCRIPTION": [
+            "संपत्ति विवरण"
+         ],
+         "HIGHLIGHTS": [
+            "हाइलाइट"
+         ],
+         "CANCEL": [
+            "रद्द करना"
+         ],
+         "OK": [
+            "ठीक"
+         ],
+         "PHOTOS": [
+            "तस्वीरें"
+         ],
+         "ADDITIONALDOCUMENTS": [
+            "दस्तावेज़"
+         ],
+         "ADDVIDEOLINKS": [
+            "वीडियो"
+         ],
+         "PROPERTYLISTINGTYPE": [
+            "विज्ञापन के प्रकार"
+         ],
+         "ADDITIONALDETAILS": [
+            "अतिरिक्त जानकारी"
+         ],
+         "FINANCIALINFORMATION": [
+            "अवलोकन"
+         ],
+         "FINANCIALS": [
+            "वित्तीय"
+         ],
+         "PRICERANGE": [
+            "मूल्य"
+         ],
+         "AREARANGE": [
+            "क्षेत्र (चौदह फीट)"
+         ],
+         "MYPROFILE": [
+            "मेरी प्रोफाइल"
+         ],
+         "MOBILENUMBER": [
+            "मोबाइल नंबर"
+         ],
+         "MYCOMPANY": [
+            "मेरी कंपनी"
+         ],
+         "MYLISTINGS": [
+            "मेरी लिस्टिंग"
+         ],
+         "ABOUTUS": [
+            "हमारे बारे में"
+         ],
+         "CONTACTUS": [
+            "हमसे संपर्क करें"
+         ],
+         "FAQ": [
+            "अक्सर पूछे जाने वाले प्रश्न"
+         ],
+         "TITLE": [
+            "विज्ञापन शीर्षक"
+         ],
+         "PROPERTYLISTINGSALETYPE": [
+            "द्वारा प्रकाशित किया गया था"
+         ],
+         "ENDDATE": [
+            "विज्ञापन समाप्ति दिनांक"
+         ],
+         "STATUS": [
+            "स्थिति"
+         ],
+         "DISTRESSED": [
+            "व्यथित"
+         ],
+         "DISTRESSEDSTATUS": [
+            "व्यथित स्थिति"
+         ],
+         "SALEPRICE": [
+            "वित्तीय जानकारी"
+         ],
+         "LEASEPRICE": [
+            "किराये की जानकारी"
+         ],
+         "BIDPRICE": [
+            "दाम लगाना"
+         ],
+         "BIDSTARTPRICE": [
+            "बोली की शुरुआती मूल्य"
+         ],
+         "DEPOSITAMOUNT": [
+            "सुरक्षा जमा राशि"
+         ],
+         "DAYSFORFULLPAYMENT": [
+            "पूरा भुगतान के लिए दिन"
+         ],
+         "BIDSTARTDATE": [
+            "बोली शुरू की तारीख"
+         ],
+         "BIDENDDATE": [
+            "बोली समाप्ति तिथि"
+         ],
+         "COMMISSIONSPLIT": [
+            "क्रेता एजेंट आयोग"
+         ],
+         "COMMISSIONPERCENTAGE": [
+            "आयोग प्रतिशत"
+         ],
+         "COMMISSIONAMOUNT": [
+            "कमीशन लेता है"
+         ],
+         "PERSQUAREFEET": [
+            "प्रति वर्ग फुट"
+         ],
+         "BASERATEPERSQUAREFEET": [
+            "आधार दर प्रति वर्ग फुट"
+         ],
+         "RATEPERSQUAREFEET": [
+            "प्रति वर्ग फुट दर"
+         ],
+         "DISCLOSEADDRESS": [
+            "पता खुला?"
+         ],
+         "DISCLOSEPRICE": [
+            "मूल्य का खुलासा करें?"
+         ],
+         "PRICE": [
+            "मूल्य"
+         ],
+         "DESPOSITAMOUNT": [
+            "जमा"
+         ],
+         "LEASEPERIOD": [
+            "साल में लीज अवधि"
+         ],
+         "LEASETERM": [
+            "लीज अवधि"
+         ],
+         "LEASETERMUOM": [
+            "इकाई"
+         ],
+         "SALETYPE": [
+            "द्वारा प्रकाशित किया गया था"
+         ],
+         "CAPRATEKNOWN": [
+            "कैप दर की गणना करें?"
+         ],
+         "CAPRATETYPE": [
+            "वित्तीय प्रकार"
+         ],
+         "ACTUAL": [
+            "वास्तविक"
+         ],
+         "PROFORMA": [
+            "समर्थक फ़ॉर्मा"
+         ],
+         "GROSSRENTREVENUE": [
+            "सकल किराया राजस्व"
+         ],
+         "VACANCYLOSSES": [
+            "रिक्ति का नुकसान"
+         ],
+         "OWNERASSOCIATIONFEE": [
+            "ओनर्स एसोसिएशन फीस"
+         ],
+         "MANAGEMENTANDLEASINGFEES": [
+            "प्रबंधन और पट्टे पर शुल्क"
+         ],
+         "PROPERTYINSURANCE": [
+            "संपत्ति का बीमा"
+         ],
+         "PROPERTYTAXES": [
+            "संपत्ति कर"
+         ],
+         "PROPERTYMAINTENANCE": [
+            "संपत्ति रखरखाव व्यय"
+         ],
+         "OTHEREXPENSES": [
+            "अन्य खर्चे"
+         ],
+         "CALCULATEANDAPPLY": [
+            "लागू करें"
+         ],
+         "CALCULATENETOPERATINGINCOME": [
+            "गणना"
+         ],
+         "NETOPERATINGINCOME": [
+            "शुद्ध संचालन आय"
+         ],
+         "CALCULATEDCAPRATE": [
+            "कैप दर"
+         ],
+         "CAPRATE": [
+            "कैप दर"
+         ],
+         "DELETE": [
+            "हटाना"
+         ],
+         "IMAGEURLS": [
+            "तस्वीरें"
+         ],
+         "PRIMARYIDENTIFIER": [
+            "संपत्ति पहचान संख्या"
+         ],
+         "TOTALAREA": [
+            "कुल क्षेत्रफल"
+         ],
+         "DESCRIPTION": [
+            "विवरण"
+         ],
+         "AMENITIES": [
+            "आराम"
+         ],
+         "UTILITIES": [
+            "उपयोगिताएँ"
+         ],
+         "CONDITIONS": [
+            "शर्तेँ"
+         ],
+         "LINEONE": [
+            "गली का पता"
+         ],
+         "LINETWO": [
+            "सीमा चिन्ह"
+         ],
+         "REGION": [
+            "क्षेत्र"
+         ],
+         "LOCALITY": [
+            "लोकैलिटी"
+         ],
+         "CITY": [
+            "शहर"
+         ],
+         "STATE": [
+            "राज्य"
+         ],
+         "ZIPCODE": [
+            "पिन कोड"
+         ],
+         "COUNTRY": [
+            "देश"
+         ],
+         "CURRENCY": [
+            "मुद्रा"
+         ],
+         "COMPANYNAME": [
+            "कंपनी का नाम"
+         ],
+         "CONTACTNUMBERS": [
+            "संपर्क संख्या"
+         ],
+         "WEBSITE": [
+            "वेबसाइट"
+         ],
+         "WEBSITES": [
+            "वेबसाइटों"
+         ],
+         "COMPANYTYPE": [
+            "कंपनी के प्रकार"
+         ],
+         "SAVEDSEARCHPREFERENCES": [
+            "मिलान अधिसूचना प्राथमिकताएं"
+         ],
+         "CONTACTPREFERENCES": [
+            "संपर्क वरीयताएँ"
+         ],
+         "CONTENTPREFERENCES": [
+            "नई सामग्री अधिसूचना प्राथमिकताएं"
+         ],
+         "AREASSERVED": [
+            "क्षेत्रों में सेवा"
+         ],
+         "SPECIALTIES": [
+            "विशेषता"
+         ],
+         "ABOUT": [
+            "के बारे में"
+         ],
+         "YEAROFINCEPTION": [
+            "स्थापना के वर्ष"
+         ],
+         "MINDIVISIBLEAREA": [
+            "न्यूनतम विभाज्य आंतरिक क्षेत्र"
+         ],
+         "MAXDIVISIBLEAREA": [
+            "अधिकतम विभाजक आंतरिक क्षेत्र"
+         ],
+         "MAXCONTIGUOUSAREA": [
+            "अधिकतम संगत आंतरिक क्षेत्र"
+         ],
+         "YEARBUILT": [
+            "निर्माण का वर्ष"
+         ],
+         "NUMBEROFROOMS": [
+            "कमरों की संख्या"
+         ],
+         "NUMBEROFSTORIES": [
+            "कहानियों की संख्या"
+         ],
+         "NUMBEROFPARKINGLOTS": [
+            "पार्किंग की संख्या"
+         ],
+         "CONSTRUCTIONSTATUS": [
+            "निर्माण कार्य की स्थिति"
+         ],
+         "LEASEAMOUNT": [
+            "पट्टा राशि"
+         ],
+         "EXPENSEAMOUNT": [
+            "व्यय"
+         ],
+         "EXPENSETYPE": [
+            "व्यय प्रकार"
+         ],
+         "LEASEENDDATE": [
+            "लीज समाप्ति तिथि"
+         ],
+         "ROOMTYPE": [
+            "कमरे जैसा"
+         ],
+         "NUMBEROFWASHROOMS": [
+            "स्नान कमरों की संख्या"
+         ],
+         "FURNISHEDSTATUS": [
+            "सुसज्जित ?"
+         ],
+         "UNFURNISHED": [
+            "सुसज्जित नहीं"
+         ],
+         "SEMI_FURNISHED": [
+            "आधा तैयार"
+         ],
+         "FURNISHED": [
+            "सुसज्जित"
+         ],
+         "DISTANCE": [
+            "त्रिज्या खोजें"
+         ],
+         "BUILDINGAGE": [
+            "बिल्डिंग एज (वर्ष)"
+         ],
+         "POSTEDBY": [
+            "द्वारा प्रकाशित किया गया था"
+         ],
+         "PROPERTIESFOUND": [
+            "गुण पाया"
+         ],
+         "BYRELAVANCE": [
+            "प्रासंगिकता से"
+         ],
+         "HIGHESTAREA": [
+            "क्षेत्र (उच्च से कम)"
+         ],
+         "LOWESTAREA": [
+            "क्षेत्र (निम्न से उच्च) क्षेत्र"
+         ],
+         "HIGHESTPRICE": [
+            "मूल्य (उच्च से कम)"
+         ],
+         "LOWESTPRICE": [
+            "कीमतों का उतार - चढ़ाव)"
+         ],
+         "GRID": [
+            "ग्रिड"
+         ],
+         "CHAT": [
+            "बातचीत"
+         ],
+         "EMAIL": [
+            "ईमेल"
+         ],
+         "SHARE": [
+            "शेयर"
+         ],
+         "LOGIN": [
+            "लॉग इन करें"
+         ],
+         "FEATUREDREALTORS": [
+            "विशेष रुप से रियल एस्टेट एजेंट"
+         ],
+         "FEATUREDPROPERTIES": [
+            "विशेष गुण"
+         ],
+         "LOCATION": [
+            "स्थान"
+         ],
+         "INTERACTIVEMAP": [
+            "इंटरैक्टिव मानचित्र"
+         ],
+         "MOREDETAILS": [
+            "अधिक जानकारी"
+         ],
+         "RESIDENTIAL_LAND": [
+            "आवासीय भूमि"
+         ],
+         "VILLA": [
+            "विला"
+         ],
+         "STORE": [
+            "दुकान"
+         ],
+         "LAUNDRY": [
+            "धोबीघर"
+         ],
+         "SCHOOL": [
+            "स्कूल"
+         ],
+         "SPA": [
+            "स्पा"
+         ],
+         "CATEGORIES": [
+            "श्रेणियाँ"
+         ],
+         "CATEGORY": [
+            "वर्ग"
+         ],
+         "FIXTURES": [
+            "फिक्स्चर"
+         ],
+         "CLICKTOSEE": [
+            "आसपास के स्थान देखने के लिए क्लिक करें"
+         ],
+         "INTERCOM": [
+            "इंटरकॉम"
+         ],
+         "VIDEOCONFERENCE": [
+            "वीडियो सम्मेलन"
+         ],
+         "LAN": [
+            "स्थानीय क्षेत्र अंतरजाल"
+         ],
+         "ENTRYSECURITY": [
+            "एंट्री सुरक्षा"
+         ],
+         "BIOMETRICACCESS": [
+            "बॉयोमीट्रिक प्रवेश"
+         ],
+         "CHILDRENPLAYAREA": [
+            "बच्चे खेल क्षेत्र"
+         ],
+         "GARDENAREA": [
+            "बगीचा क्षेत्र"
+         ],
+         "SWIMMINGPOOL": [
+            "स्विमिंग पूल"
+         ],
+         "JOGGINGTRACK": [
+            "जॉगिंग ट्रेक"
+         ],
+         "INDOORSPORTS": [
+            "घर के अंदर के खेल"
+         ],
+         "OUTDOORSPORTS": [
+            "आउटडोर खेल"
+         ],
+         "DEPARTMENTSTORE": [
+            "डिपार्टमेंट स्टोर"
+         ],
+         "DETAILS": [
+            "विवरण"
+         ],
+         "FEATURES": [
+            "आराम"
+         ],
+         "SPECIFICATIONS": [
+            "विशेष विवरण"
+         ],
+         "FORLEASEDETAILS": [
+            "लीज सूचना"
+         ],
+         "FORSALEDETAILS": [
+            "बिक्री संबंधी जानकारी"
+         ],
+         "PRICEDETAILS": [
+            "मूल्य विवरण"
+         ],
+         "BUILDINGROOMDETAILS": [
+            "कमरे का विवरण"
+         ],
+         "ROOMS": [
+            "कमरा"
+         ],
+         "AIRPORT": [
+            "हवाई अड्डा"
+         ],
+         "HOSPITAL": [
+            "अस्पताल"
+         ],
+         "BUSSTATION": [
+            "बस स्टेशन"
+         ],
+         "POLICE": [
+            "पुलिस स्टेशन"
+         ],
+         "POSTOFFICE": [
+            "डाक घर"
+         ],
+         "SUBWAYSTATION": [
+            "मेट्रो स्टेशन"
+         ],
+         "TRAINSTATION": [
+            "रेलवे स्टेशन"
+         ],
+         "SHOPPINGMALL": [
+            "शॉपिंग मॉल"
+         ],
+         "PARKING": [
+            "पार्किंग"
+         ],
+         "ATM": [
+            "एटीएम"
+         ],
+         "LODGING": [
+            "अस्थायी आवास"
+         ],
+         "REALESTATEAGENCY": [
+            "रियल इस्टेट एजेंसी"
+         ],
+         "BANK": [
+            "बैंक"
+         ],
+         "CREATELISTING": [
+            "बेच / किराए पर संपत्ति"
+         ],
+         "PHOTOSVIDEOS": [
+            "तस्वीरें और दस्तावेज़"
+         ],
+         "FINISH": [
+            "समाप्त"
+         ],
+         "SELECTEDBUILDINGUNITCOLLAPSIBLE": [
+            "इकाई जानकारी"
+         ],
+         "PROPERTYCOLLAPSIBLE": [
+            "संपत्ति की जानकारी"
+         ],
+         "SELECTEDLOTDETAILSCOLLAPSIBLE": [
+            "साजिश की जानकारी"
+         ],
+         "SELECTEDBUILDINGCOLLAPSIBLE": [
+            "सूचना भवन"
+         ],
+         "BUILDINGDETAILSCOLLAPSIBLE": [
+            "सूचना भवन"
+         ],
+         "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE": [
+            "अतिरिक्त जानकारिया"
+         ],
+         "APARTMENTDETAILSCOLLAPSIBLE": [
+            "आराम"
+         ],
+         "ROOMSCOLLAPSIBLE": [
+            "कक्ष सूचना"
+         ],
+         "SECURITYSTAFF": [
+            "सुरक्षा कर्मचारी"
+         ],
+         "MAINTENANCECHARGES": [
+            "मासिक रखरखाव प्रभार"
+         ],
+         "RENTALAMOUNT": [
+            "किराये की राशि"
+         ],
+         "COVEREDPARKING": [
+            "छादित पार्किंग"
+         ],
+         "YES": [
+            "हाँ"
+         ],
+         "NO": [
+            "नहीं"
+         ],
+         "UNITTYPE": [
+            "इकाई प्रकार"
+         ],
+         "CONFIRM": [
+            "की पुष्टि करें"
+         ],
+         "AVAILABLEDATE": [
+            "कब्जे की तिथि"
+         ],
+         "WELCOMETO": [
+            "आपका स्वागत है"
+         ],
+         "ADDNEW": [
+            "नया जोड़ें"
+         ],
+         "LOCATEME": [
+            "मेरे स्थान का उपयोग करें"
+         ],
+         "ENTERPREFEREDLOCATION": [
+            "इलाका / मील का पत्थर / सड़क का पता दर्ज करें"
+         ],
+         "REGISTER": [
+            "रजिस्टर"
+         ],
+         "ACTIVELISTINGS": [
+            "हाल ही के विज्ञापन"
+         ],
+         "CLEARSEARCH": [
+            "स्पष्ट"
+         ],
+         "SEARCHBYPROPERTYNAME": [
+            "संपत्ति नाम / सड़क का पता"
+         ],
+         "SEARCHBYREALTORNAME": [
+            "रियाल्टार / ब्रोकर का नाम"
+         ],
+         "SEARCHBYPROFESSIONALNAME": [
+            "सेवा प्रदाता का नाम"
+         ],
+         "SEARCH": [
+            "खोज"
+         ],
+         "DOCUMENTSGALLERY": [
+            "अपलोड किए गए दस्तावेज़"
+         ],
+         "PHOTOSGALLERY": [
+            "फोटो गैलरी"
+         ],
+         "PROPERTY": [
+            "संपत्ति"
+         ],
+         "UNIT": [
+            "यूनिट"
+         ],
+         "PROPSHUBREGISTRATION": [
+            "2018 प्रस्तुति सभी अधिकार सुरक्षित"
+         ],
+         "CALLUS": [
+            "हमें बुलाओ"
+         ],
+         "EMAILUS": [
+            "हमे ईमेल करे"
+         ],
+         "SIGNIN": [
+            "लॉग इन करें"
+         ],
+         "SETTINGS": [
+            "सेटिंग्स"
+         ],
+         "BACKTO": [
+            "वापस"
+         ],
+         "POSTEDON": [
+            "पर प्रविष्ट किया"
+         ],
+         "LIST": [
+            "सूची"
+         ],
+         "SAVESEARCH": [
+            "खोज संग्रहित करें"
+         ],
+         "NEWLYLISTED": [
+            "सबसे हाल ही में पोस्ट किया"
+         ],
+         "NEXT": [
+            "आगामी"
+         ],
+         "ALL": [
+            "सब"
+         ],
+         "IMAGES": [
+            "तस्वीरें"
+         ],
+         "BACKTOMAP": [
+            "पिछला कदम"
+         ],
+         "PREVIOUS": [
+            "पिछला"
+         ],
+         "LOADINGDATA": [
+            "काम कर रहे !!!"
+         ],
+         "GAS_STATION": [
+            "पेट्रोल चारपाई"
+         ],
+         "GASSTATION": [
+            "पेट्रोल चारपाई"
+         ],
+         "CITYLOCATION": [
+            "शहर या स्थान"
+         ],
+         "TONS": [
+            "टोंस"
+         ],
+         "YRS": [
+            "वर्षों"
+         ],
+         "MI": [
+            "मीलों"
+         ],
+         "KM": [
+            "किलोमीटर"
+         ],
+         "PERCENTAGE": [
+            "प्रतिशत"
+         ],
+         "FT": [
+            "पैर का पंजा"
+         ],
+         "AMOUNT": [
+            "रकम"
+         ],
+         "SQFT": [
+            "वर्ग फुट"
+         ],
+         "AGENT": [
+            "एजेंट"
+         ],
+         "HELP": [
+            "प्रश्न पूछें"
+         ],
+         "TYPE": [
+            "प्रकार"
+         ],
+         "PROPERTYFORSALE": [
+            "सेल पर प्रॉपर्टी"
+         ],
+         "PROPERTYFORLEASE": [
+            "किराया"
+         ],
+         "REALTORSANDBROKERS": [
+            "Realtors"
+         ],
+         "MORESEARCHOPTIONS": [
+            "अधिक विकल्प"
+         ],
+         "VACATIONRENTAL": [
+            "छुट्टी का किराया"
+         ],
+         "REALTOR": [
+            "रियाल्टार / ब्रोकर"
+         ],
+         "PROFESSIONAL": [
+            "सेवा प्रदाता"
+         ],
+         "PHONE": [
+            "फ़ोन नंबर"
+         ],
+         "OWNER": [
+            "द्वारा प्रकाशित किया गया था"
+         ],
+         "CONTACTACTIONS": [
+            "संपर्क प्राथमिकताएं"
+         ],
+         "STARTTIME": [
+            "घंटों का समय प्रारंभ समय"
+         ],
+         "ENDTIME": [
+            "विजिटिंग अवर एंड टाइम"
+         ],
+         "ADDOPENHOUSETIME": [
+            "एक और तारीख जोड़ें"
+         ],
+         "HOURS": [
+            "समय चुनें"
+         ],
+         "OPENHOUSEDATE": [
+            "ओपन हाउस तिथि"
+         ],
+         "SCHEDULEOPENHOUSE": [
+            "ओपन हाउस शेड्यूल करें"
+         ],
+         "OPENHOUSETIMES": [
+            "ओपन हाउस शेड्यूल करें"
+         ],
+         "INDIVIDUAL": [
+            "व्यक्ति"
+         ],
+         "COMPANY": [
+            "कंपनी"
+         ],
+         "BROKERAGEFIRM": [
+            "रियल इस्टेट एजेंसी"
+         ],
+         "SIMILARLISTINGS": [
+            "आपको यह भी पसंद आ सकता हैं"
+         ],
+         "SIGNUPAS": [
+            "के रूप में साइन अप करें"
+         ],
+         "LOADMORE": [
+            "और लोड करें"
+         ],
+         "SEND": [
+            "भेजना"
+         ],
+         "SENDEMAIL": [
+            "ईमेल भेजें"
+         ],
+         "IN": [
+            "इंडिया"
+         ],
+         "US": [
+            "अमेरीका"
+         ],
+         "CA": [
+            "कनाडा"
+         ],
+         "AR": [
+            "अर्जेंटीना"
+         ],
+         "CO": [
+            "कोलम्बिया"
+         ],
+         "BR": [
+            "ब्राज़िल"
+         ],
+         "MX": [
+            "मेक्सिको"
+         ],
+         "USD": [
+            "अमेरिकी डॉलर"
+         ],
+         "CAD": [
+            "कैनेडियन डॉलर"
+         ],
+         "MXN": [
+            "मेक्सिकन पेसो"
+         ],
+         "BRL": [
+            "ब्राजीली रियल"
+         ],
+         "ARS": [
+            "अर्जेंटीना पेसो"
+         ],
+         "COP": [
+            "कोलम्बियाई पेसो"
+         ],
+         "INR": [
+            "भारतीय रुपए"
+         ],
+         "SITECAPTION": [
+            "रियल एस्टेट निवेशक के लिए वैश्विक हब"
+         ],
+         "CAPTION": [
+            "निम्न को खोजें…"
+         ],
+         "PROPERTYNULLRESULTSTITLE": [
+            "कोई गुण नहीं मिला कृपया पुन: प्रयास करें।"
+         ],
+         "REALTORNULLRESULTSTITLE": [
+            "रिलाल्टर्स / दलाल नहीं मिला कृपया पुन: प्रयास करें।"
+         ],
+         "PROFESSIONALNULLRESULTSTITLE": [
+            "कोई सेवा प्रदाता नहीं मिला कृपया पुन: प्रयास करें।"
+         ],
+         "REALTORNULLRESULTSMESSAGE": [
+            "ऐसा लगता है कि आपके खोज मानदंडों के लिए कोई रियाल्टार / दलालों उपलब्ध नहीं हैं। कृपया अपने खोज मापदंड को विस्तृत करें या बाद में जांच करें।"
+         ],
+         "PROFESSIONALNULLRESULTSMESSAGE": [
+            "ऐसा लगता है कि आपके खोज मानदंडों के लिए कोई सेवा प्रदाता उपलब्ध नहीं हैं। कृपया अपना खोज मानदंड विस्तृत करें या बाद में जांच करें।"
+         ],
+         "PROPERTYNULLRESULTSMESSAGE": [
+            "ऐसा लगता है कि आपके खोज मापदंड के लिए कोई गुण उपलब्ध नहीं हैं। कृपया अपना खोज मानदंड विस्तृत करें या बाद में जांच करें।"
+         ],
+         "PROPERTYTOOMANYRESULTS": [
+            "हमें आपके खोज मापदंड से मिलते-जुलते कई गुण मिले। कृपया अपना खोज मानदंड संकीर्ण करें और पुनः प्रयास करें।"
+         ],
+         "PROFESSIONALTOOMANYRESULTS": [
+            "हमें आपके खोज मानदंड से मेल खाने वाले बहुत से सेवा प्रदाताओं को मिला। कृपया अपना खोज मानदंड संकीर्ण करें और पुनः प्रयास करें।"
+         ],
+         "BROKERAGEFIRMINFOCOLLAPSIBLE": [
+            "व्यावसायिक सारांश"
+         ],
+         "COMPANYINFOCOLLAPSIBLE": [
+            "व्यावसायिक सारांश"
+         ],
+         "PROFESSIONALSCOLLAPSIBLE": [
+            "संबद्ध सेवा प्रदाता"
+         ],
+         "REALTORSCOLLAPSIBLE": [
+            "एसोसिएटेड रिअलटर्स / ब्रोकर्स"
+         ],
+         "ADDPROFESSIONAL": [
+            "एक सेवा प्रदाता जोड़ें"
+         ],
+         "ADDREALTOR": [
+            "एक रियाल्टार / ब्रोकर जोड़ें"
+         ],
+         "TERMSCONDITIONS": [
+            "नियम और शर्तें"
+         ],
+         "AUTHORIZEDPERSONNEL": [
+            "मैं इस कंपनी की जानकारी को अपडेट करने के लिए अधिकृत हूं"
+         ],
+         "TERMSCONDITIONSTITLE": [
+            "मैंने पढ़ा है और मैं सहमत हूं"
+         ],
+         "LISTINGPENDINGTITLE": [
+            "आपकी लिस्टिंग लंबित स्वीकृति है"
+         ],
+         "LISTINGACTIVETITLE": [
+            "आपका विज्ञापन सक्रिय है"
+         ],
+         "LISTINGPENDINGDESCRIPTION": [
+            "अपनी संपत्ति की लिस्टिंग के लिए धन्यवाद। आपका अनुरोध ऑनलाइन प्रकाशित होने से पहले सामग्री मॉडरेशन का इंतजार कर रहा है कृपया अपनी पंजीकृत ईमेल को अपनी प्रविष्टि की स्थिति के अनुसार प्रतिस्थापित करें।"
+         ],
+         "LISTINGACTIVEDESCRIPTION": [
+            "आप किसी भी समय अपने विज्ञापन को समृद्ध कर सकते हैं अपने विज्ञापन को संशोधित करने के लिए नीचे दिए गए संपादन बटन पर क्लिक करें"
+         ],
+         "LISTINGCONFIRMATIONDESCRIPTION": [
+            "अपनी पुष्टि करने से पहले कृपया अपने विज्ञापन का पूर्वावलोकन करें एक बार पुष्टि करने के बाद, आपके विज्ञापन को ऑनलाइन प्रकाशित करने में कुछ मिनट लगेगा"
+         ],
+         "MANDATORYMESSAGE": [
+            "कृपया सुनिश्चित करें कि आप नीचे हाइलाइट किए गए सभी आवश्यक क्षेत्रों के लिए मान दर्ज करें"
+         ],
+         "LISTINGDRAFTMODE": [
+            "यह पृष्ठ आपके पूर्वावलोकन के लिए ही है। यह अभी तक अन्य उपयोगकर्ताओं को दिखाई नहीं देगा"
+         ],
+         "PROPERTYEMAILMESSAGE": [
+            "मुझे आपकी प्रॉपर्टी में दिलचस्पी है"
+         ],
+         "PERSONEMAILMESSAGE": [
+            "मैं आपकी सेवाओं का लाभ लेना चाहता हूं"
+         ],
+         "RSVPEMAILMESSAGE": [
+            "मैं ओपन हाउस के दौरान% s पर संपत्ति का दौरा करूँगा"
+         ],
+         "ENTERRSVPMESSAGE": [
+            "% S को आरएसवीपी भेजें"
+         ],
+         "ENTEREMAILMESSAGE": [
+            "% S को संदेश लिखें"
+         ],
+         "RESIDENTIALSUBTYPEINVALID": [
+            "अवैध आवासीय संपत्ति उप प्रकार"
+         ],
+         "PROFESSIONINVALID": [
+            "पेशा अमान्य है"
+         ],
+         "UPLOADING": [
+            "अपलोड हो रहा है !!!"
+         ],
+         "UPLOADSUCCESS": [
+            "सफलतापूर्वक अपलोड किया !!!"
+         ],
+         "MYPREFERENCES": [
+            "मेरी वरीयताएं"
+         ],
+         "MYCONTACTS": [
+            "मेरे संपर्क"
+         ],
+         "NOTIFICATIONS": [
+            "मेरी सूचनाएं"
+         ],
+         "REMOVE": [
+            "संपत्ति ऑफ मार्केट ले लो"
+         ],
+         "EDIT": [
+            "संपादित करें"
+         ],
+         "VIEW": [
+            "राय"
+         ],
+         "ENTERLOCATION": [
+            "संपत्ति का नाम / पता / पहचान / इलाका दर्ज करें"
+         ],
+         "PUBLISH": [
+            "प्रकाशित करना"
+         ],
+         "NUMBEROFBEDROOMS": [
+            "बेडरूम की संख्या"
+         ],
+         "OFFLINEMESSAGE": [
+            "% S ऑफ़लाइन है। कोई ईमेल भेजने के लिए यहां क्लिक करें"
+         ],
+         "PROVIDESEARCHNAME": [
+            "अपनी खोज के लिए एक नाम प्रदान करें"
+         ],
+         "PERCENTAGEOFCOMPLETION": [
+            "समापन स्थिति"
+         ],
+         "FINANCIALCOMPLETIONGROUP": [
+            "वित्तीय"
+         ],
+         "LISTINGCOMPLETIONGROUP": [
+            "विज्ञापन सूचना"
+         ],
+         "PROPERTYCOMPLETIONGROUP": [
+            "संपत्ति ब्यौरा"
+         ],
+         "ADDITIONALCOMPLETIONGROUP": [
+            "अतिरिक्त जानकारी"
+         ],
+         "MISSINGFIELDS": [
+            "गायब फ़ील्ड"
+         ],
+         "VIDEOSTABTITLE": [
+            "अपने वीडियो के लिए यूआरएल प्रदान करें"
+         ],
+         "TAGFILE": [
+            "अपना फ़ोटो लेबल करें"
+         ],
+         "SAVEEXIT": [
+            "मसौदा और बाहर निकलें बचाएं"
+         ],
+         "SENDINGEMAIL": [
+            "ईमेल भेज रहा हूं…"
+         ],
+         "EMAILSENT": [
+            "ईमेल भेजा"
+         ],
+         "PRIVACYPOLICY": [
+            "गोपनीयता नीति"
+         ],
+         "CAPTION1": [
+            "मुफ्त के लिए उड़ता और रिपोर्ट उत्पन्न करें"
+         ],
+         "CAPTION2": [
+            "केवल कुछ ही क्लिक में रिटर्न का विश्लेषण करें"
+         ],
+         "CAPTION3": [
+            "वैल्यू ऐड और अवकाश किराया की ऑटो पहचान"
+         ],
+         "CAPTION4": [
+            "गुणों की तुलना करने के लिए मूल्य विश्लेषण ग्राफ़ देखें"
+         ],
+         "CAPTION5": [
+            "प्रत्येक इलाके के लिए विस्तृत जनसांख्यिकी"
+         ],
+         "CAPTION6": [
+            "तुरन्त रियल एस्टेट पेशेवरों के साथ जुड़ें"
+         ],
+         "PROFILECOMPLETION": [
+            "अपना प्रोफाइल समृद्ध करें"
+         ],
+         "USERCOMPLETIONGROUP": [
+            "प्रोफ़ाइल विवरण"
+         ],
+         "REALTORSANDBROKERSSEARCHOPTIONINFO": [
+            "रियाल्टार / ब्रोकर्स के लिए खोजें"
+         ],
+         "INCOME_SPECIALIST": [
+            "आय विशेषज्ञ"
+         ],
+         "WELCOME": [
+            "स्वागत हे"
+         ],
+         "LOGOUT": [
+            "लोग आउट"
+         ],
+         "LEGAL": [
+            "कानूनी"
+         ],
+         "LOGINHEADING": [
+            "लॉग इन या साइन अप करें"
+         ],
+         "RESIDENTIAL_LENDING": [
+            "आवासीय ऋण"
+         ],
+         "COMMERCIAL_LENDING": [
+            "वाणिज्यिक उधार"
+         ],
+         "URBAN_PLANNING": [
+            "शहरी नियोजन / सिविल इंजीनियरिंग"
+         ],
+         "BACK_OFFICE_SPECIALIST": [
+            "वापस कार्यालय विशेषज्ञ"
+         ],
+         "OTHER_SPECIALTY": [
+            "अन्य"
+         ],
+         "COMMERCIAL_APPRAISER": [
+            "वाणिज्यिक मूल्यांक"
+         ],
+         "GENERAL_APPRAISER": [
+            "सामान्य मूल्यांकक"
+         ],
+         "RESIDENTIAL_APPRAISER": [
+            "आवासीय मूल्यांक"
+         ],
+         "PROPERTY_INSPECTOR": [
+            "संपत्ति निरीक्षक"
+         ],
+         "PROPERTY_MANAGER": [
+            "संपत्ति प्रबंधक"
+         ],
+         "LICENSE": [
+            "लाइसेंस"
+         ],
+         "LICENSENUMBER": [
+            "लाइसेंस संख्या"
+         ],
+         "LICENSEJURISDICTION": [
+            "लाइसेंस जुर्माना"
+         ],
+         "LICENSEISSUINGAUTHORITY": [
+            "लाइसेंस जारीकर्ता प्राधिकरण"
+         ],
+         "APPRENTICEINSPECTOR": [
+            "अपरेंटिस इंस्पेक्टर"
+         ],
+         "AUCTIONEER": [
+            "नीलाम में बेचना"
+         ],
+         "CERTIFIEDGENERALAPPRAISER": [
+            "प्रमाणित सामान्य मूल्यांकक"
+         ],
+         "CERTIFIEDRESIDENTIALAPPRAISER": [
+            "प्रमाणित आवासीय मूल्यांक"
+         ],
+         "LEASING_AGENT": [
+            "पट्टे पर एजेंट"
+         ],
+         "LICENSEDAPPRAISER": [
+            "लाइसेंस प्राप्त मूल्यांक"
+         ],
+         "LICENSEDINSPECTOR": [
+            "लाइसेंस निरीक्षक"
+         ],
+         "MORTGAGE_BROKER": [
+            "गिरवी दलाल"
+         ],
+         "REALESTATEBROKER": [
+            "रियल एस्टेट ब्रोकर"
+         ],
+         "REGISTEREDAPPRAISER": [
+            "पंजीकृत मूल्यांकक"
+         ],
+         "REGISTEREDINSPECTOR": [
+            "पंजीकृत निरीक्षक"
+         ],
+         "PROPERTYMANAGEMENT": [
+            "संपत्ति प्रबंधन"
+         ],
+         "RENTALPROPERTYMANAGEMENT": [
+            "किराये की संपत्ति प्रबंधन"
+         ],
+         "SALESPERSON": [
+            "विक्रेता"
+         ],
+         "APPRAISAL": [
+            "मूल्यांकन"
+         ],
+         "LAND_DEVELOPMENT": [
+            "भूमि विकास"
+         ],
+         "SECURITIESANDSYNDICATION": [
+            "भारतीय प्रतिभूति एवं सिंडिकेशन"
+         ],
+         "COUNSELING": [
+            "परामर्श"
+         ],
+         "RESEARCH": [
+            "अनुसंधान"
+         ],
+         "SITEURL": [
+            "साइट URL"
+         ],
+         "TWITTERHANDLE": [
+            "ट्विटर हैंडल"
+         ],
+         "FACEBOOK": [
+            "फेसबुक यूआरएल"
+         ],
+         "BLOG": [
+            "ब्लॉग यूआरएल"
+         ],
+         "LINKEDIN": [
+            "लिंक्डइन यूआरएल"
+         ],
+         "EMAILID": [
+            "ईमेल आईडी"
+         ],
+         "PASSWORD": [
+            "पासवर्ड"
+         ],
+         "FORGOTPASSWORD": [
+            "पासवर्ड भूल गए ?"
+         ],
+         "SIGNUP": [
+            "साइन अप करें"
+         ],
+         "REMEMBERME": [
+            "मुझे याद रखना"
+         ],
+         "PROPERTYIMAGEMISSING": [
+            "तस्वीरें नहीं"
+         ],
+         "PROFESSIONINFOCOLLAPSIBLE": [
+            "व्यावसायिक जानकारी"
+         ],
+         "CONTACTCOLLAPSIBLE": [
+            "संपर्क जानकारी"
+         ],
+         "EXPERTISE": [
+            "विशेषज्ञता के क्षेत्र"
+         ],
+         "OTHERCONTACTNUMBERS": [
+            "अन्य संपर्क नंबर"
+         ],
+         "CONTACTNUMBERTYPE": [
+            "संपर्क संख्या प्रकार"
+         ],
+         "CONTACTNUMBER": [
+            "संपर्क संख्या"
+         ],
+         "WEBSITETYPE": [
+            "वेब साइट का प्रकार"
+         ],
+         "PROFESSIONALSINCE": [
+            "पेशेवर के बाद से"
+         ],
+         "AREAS": [
+            "स्थानीयता सेवाएं"
+         ],
+         "YEARSOFEXPERIENCE": [
+            "वर्षों का अनुभव"
+         ],
+         "MAPSEARCHUSAGEINFO": [
+            "अपने शहर / आस-पड़ोस का पता लगाएं और सीमा को परिभाषित करने के लिए एक मंडल / आयत बनाएं"
+         ],
+         "CHOOSELOCATIONONMAP": [
+            "मानचित्र पर अपना पसंदीदा स्थान निर्दिष्ट करने के लिए यहां क्लिक करें"
+         ],
+         "FEEDBACKSENTFAIL": [
+            "आपकी प्रतिक्रिया भेजने में कुछ समस्या थी कृपया पुन: प्रयास करें…"
+         ],
+         "FEEDBACKSENTSUCCESS": [
+            "आपकी प्रतिक्रिया के लिए आपका धन्यवाद। हम आपको यथाशीघ्र जवाब देंगे।"
+         ],
+         "COULDNOTFETCHLOCATION": [
+            "हम आपका स्थान नहीं ला सके"
+         ],
+         "NETOPERATINGINCOMETOOLTIP": [
+            "नेट ऑपरेटिंग आय (एनओआई) एक संपत्ति द्वारा उत्पन्न वार्षिक आय है जिसमें आपरेशन से एकत्रित सभी आय शामिल है, और आपरेशन से किए गए सभी खर्चों में कटौती"
+         ],
+         "CAPRATETOOLTIP": [
+            "कैपिटलाइजेशन दर या टोपी दर, नेट ऑपरेटिंग आय का अनुपात (एनओआई) संपत्ति परिसंपत्ति मूल्य या पूछना मूल्य के अनुपात है"
+         ],
+         "WIDGETMEDIANPRICE": [
+            "औसत कीमतें सूचीबद्ध सभी संपत्तियों के पूछ मूल्यों पर आधारित हैं"
+         ],
+         "SYSTEMGENERATEDVALUENOTE": [
+            "कृपया ध्यान दें कि चिह्नित क्षेत्रों में प्रदान किए गए अनुमानित मूल्यों को मौजूदा बाजार स्थितियों, ऐतिहासिक डेटा और अन्य कारकों के आधार पर सिस्टम द्वारा गिना जाता है।"
+         ],
+         "RENTINCREMENTPERCENTAGETOOLTIP": [
+            "ऐतिहासिक और प्रचलित बाजार स्थितियों पर विचार कर किराए में अनुमानित वार्षिक वृद्धि प्रदान करें"
+         ],
+         "COSTBASISTOOLTIP": [
+            "यह निवेश का मूल्य आधार है जो विचाराधीन मूल्य और प्रारंभिक सुधार लागत को ध्यान में रखता है। लागत आधार = मूल्य पूछना + प्रारंभिक सुधार लागत"
+         ],
+         "TOTALINVESTMENTCOSTTOOLTIP": [
+            "यह निवेश का मूल्य आधार है जो पूछ मूल्य, समापन लागत और प्रारंभिक सुधार लागत को ध्यान में रखता है।"
+         ],
+         "ANNUALTAXABLEINCOMETOOLTIP": [
+            "संपत्ति बनाए रखने के लिए किए गए सभी खर्चों को ध्यान में रखते हुए यह वार्षिक कर योग्य आय है"
+         ],
+         "DEPRECIATIONPERCENTAGETOOLTIP": [
+            "सामान्य वस्त्र और आंसू और मानक मूल्यह्रास दर पर विचार कर संपत्ति मूल्य का अनुमानित वार्षिक मूल्यह्रास प्रदान करें"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP": [
+            "ऐतिहासिक और प्रचलित बाजार स्थितियों पर विचार कर संपत्ति मूल्य में अनुमानित वार्षिक प्रशंसा प्रदान करें"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP": [
+            "यह बंधक के बिना शुरुआती निवेश है जो विचाराधीन मूल्य, समापन लागत और सुधार लागत पर विचार करता है बंधक के बिना प्रारंभिक निवेश = मूल्य पूछना + बंद होने की लागत + प्रारंभिक सुधार"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP": [
+            "संपत्ति बनाए रखने के लिए किए गए सभी खर्चों को ध्यान में रखते हुए यह वार्षिक कर योग्य आय है। वार्षिक कर योग्य आय बंधक के बिना = नेट ऑपरेटिंग आय - मूल्यह्रास मूल्य"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGETOOLTIP": [
+            "यह बंधक को ध्यान में रखते हुए प्रारंभिक निवेश है। प्रारंभिक निवेश = नीचे भुगतान + प्रारंभिक सुधार लागत + समापन लागत"
+         ],
+         "COSTBASISWITHMORTGAGETOOLTIP": [
+            "यह ऋण सेवा को ध्यान में रखते हुए फ्री कैश फ्लो है मुफ्त कैश फ्लो = नेट ऑपरेटिंग आय - ऋण सेवा"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP": [
+            "यह संपत्ति बनाए रखने पर हुए सभी खर्चों को ध्यान में रखते हुए, वार्षिक कर योग्य आय है, कर योग्य कैश फ्लो = वार्षिक मुक्त कैश फ्लो-मूल्यह्रास मूल्य"
+         ],
+         "SALECLOSINGCOSTTOOLTIP": [
+            "आयोगों, काउंटी फीस, आदि के बारे में अनुमानित बिक्री बंद करना प्रदान करें"
+         ],
+         "CLOSINGCOSTTOOLTIP": [
+            "आयोगों, काउंटी फीस आदि पर अनुमानित खरीद समापन लागत प्रदान करें"
+         ],
+         "INITIALIMPROVEMENTCOSTTOOLTIP": [
+            "खरीद के बाद संपत्ति पर सुधार करने के लिए आवश्यक पूंजीगत निवेश प्रदान करें। आमतौर पर, मूल्य वर्धित गुणों के लिए यह अधिक है"
+         ],
+         "OWNERASSOCIATIONFEETOOLTIP": [
+            "मालिक संघ को भुगतान करने के लिए वार्षिक शुल्क प्रदान करें"
+         ],
+         "EMICOSTTOOLTIP": [
+            "मानक ब्याज दर पर विचार करने के लिए यह अनुमानित मासिक बंधक राशि है। वास्तविक बंधक राशि बैंक द्वारा ब्याज दर और क्रेडिट स्कोर के आधार पर भिन्न होगी"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP": [
+            "क्लस्टरिंग लागत, डाउन पेमेंट इत्यादि पर यह कुल प्रारंभिक निवेश है"
+         ],
+         "CASHONCASHRETURNPERCENTAGETOOLTIP": [
+            "यह वापसी की दर है जो एक संपत्ति में निवेश नकद आय पर अर्जित नकद आय की गणना भी ध्यान में बंधक राशि ले रही है।"
+         ],
+         "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP": [
+            "यह वापसी की दर है जो कुल आरंभिक निवेश के संबंध में किसी संपत्ति में निवेश किए गए नकदी पर अर्जित नकद आय की गणना करता है"
+         ],
+         "HOMEFORSALESEARCHOPTIONINFO": [
+            "बिक्री के लिए होम्स के लिए खोजें"
+         ],
+         "PROPERTYFORLEASESEARCHOPTIONINFO": [
+            ""
+         ],
+         "PROFESSIONALSEARCHOPTIONINFO": [
+            "सेवा प्रदाता या पेशेवरों के लिए खोजें, प्लंबर, चित्रकारों, ठेकेदारों जैसी रियल एस्टेट सेवाएं"
+         ],
+         "LOCATIONPREFUSAGEINFO": [
+            "सीमा परिभाषित करने के लिए एक या अधिक पसंदीदा स्थान और खोज त्रिज्या दर्ज करें"
+         ],
+         "CAPRATERANGETOOLTIP": [
+            "टोपी दर के लिए ऊपरी और निचले सीमा मूल्य प्रदान करें, अगर आप पहले से ही किराये की आय पैदा कर रहे हैं"
+         ],
+         "INVESTMENTCATEGORIESTOOLTIP": [
+            "अपनी खोज के लिए निवेश श्रेणी प्रदान करें कोर: यह अनुमानहीन नकदी प्रवाह के साथ एक कमजोर, कम जोखिम / कम संभावित रिटर्न निवेश है। कोर प्लस: यह एक मध्यम-जोखिम / मध्यम-रिटर्न निवेश है, जो कि वृद्धि की आवश्यकता हो सकती है या नहीं। मान जोड़ा गया: यह एक मध्यम-ते-उच्च-जोखिम / मध्यम से उच्च रिटर्न निवेश है, जिसमें वृद्धि या पूंजी प्रवाह या अन्य परिवर्तन की आवश्यकता होती है। विकास अवसर: यह एक उच्च-जोखिम / उच्च-लाभ निवेश है जिसमें उच्चतर वृद्धि या अन्य जोखिम की आवश्यकता होती है।"
+         ],
+         "NUMBERONLY": [
+            "कृपया एक सही संख्या डालिये"
+         ],
+         "MAXVALUE": [
+            "कृपया एक मान्य मान कम से कम दर्ज करें"
+         ],
+         "MAXLENGTH": [
+            "अनुमत वर्णों की अधिकतम संख्या है"
+         ],
+         "MINLENGTH": [
+            "अपेक्षित अक्षरों की न्यूनतम संख्या है"
+         ],
+         "EMAILIDREQUIRED": [
+            "ईमेल आईडी आवश्यक है"
+         ],
+         "EMAILPATTERNERROR": [
+            "कृपया एक वैध ई - मेल एड्रेस डालें"
+         ],
+         "URLPATTERN": [
+            "कृपया एक वैध वेबसाइट पता दर्ज करें"
+         ],
+         "DATE_EXCEPTION": [
+            "अमान्य तिथि निर्दिष्ट है"
+         ],
+         "DECIMALUPTO4DIGIT": [
+            "अधिकतम 4 दशमलव स्थानों के साथ एक वैध संख्या प्रदान करें"
+         ],
+         "PROFILEPICTURE": [
+            "प्रोफाइल फोटो"
+         ],
+         "ADDPROFILEPIC": [
+            "प्रोफ़ाइल फ़ोटो जोड़ें"
+         ],
+         "UPDATEPROFILEPIC": [
+            "प्रोफाइल फोटो बदलें"
+         ],
+         "YOUHAVENOCOMPANIESTITLE": [
+            "आप वर्तमान में किसी कंपनी से संबद्ध नहीं हैं"
+         ],
+         "YOUHAVENOCOMPANIESMESSAGE": [
+            "एक नई कंपनी को पंजीकृत करने के लिए बटन पर क्लिक करें"
+         ],
+         "YOUHAVENOLISTINGSTITLE": [
+            "आपने किसी गुण का विज्ञापन नहीं किया है"
+         ],
+         "YOUHAVENOLISTINGSMESSAGE": [
+            "बेचने / संपत्ति बेचने के लिए बटन पर क्लिक करें"
+         ],
+         "CONFIRMPASSWORDERROR": [
+            "पासवर्ड मेल नहीं खाते। कृपया फिर से कोशिश करें !!!"
+         ],
+         "PASSWORDCHANGESUCCESS": [
+            "संकेतशब्द परवर्तित !!!"
+         ],
+         "PREFERENCESSAVESUCCESS": [
+            "प्राथमिकताएं सहेजी गईं !!!"
+         ],
+         "PROFILESAVESUCCESS": [
+            "प्रोफ़ाइल सहेजी गई !!!"
+         ],
+         "MYWISHLIST": [
+            "मेरी वॉच लिस्ट"
+         ],
+         "REMOVEFROMWISHLIST": [
+            "मेरी वॉच सूची से निकालें"
+         ],
+         "PHONENUMBERVIEWED": [
+            "मुझे एक ईमेल अधिसूचना भेजें जब कोई मेरे फोन नंबर को देखता है"
+         ],
+         "CHATINITIATED": [
+            "मुझे एक ईमेल अधिसूचना भेजें जब कोई मेरे साथ चैट वार्तालाप शुरू करे"
+         ],
+         "RSVPSENT": [
+            "मुझे एक ईमेल अधिसूचना भेजें जब कोई मेरे ओपन हाउस के लिए आरएसवीपी भेजे"
+         ],
+         "SAVEDSEARCHMATCH": [
+            "मुझे एक ईमेल अधिसूचना भेजें जब नई सूचीएं मेरे सहेजे गए खोज मानदंड से मेल खाते हैं"
+         ],
+         "LISTINGCREATED": [
+            "मुझे एक ईमेल अधिसूचना भेजें जब कोई मेरे क्षेत्र और क्षेत्र में सेवाएं प्रदान करता है"
+         ],
+         "ENTERSAVEDSEARCHNOTIFICATIONDAYS": [
+            "दिनों की संख्या दर्ज करें"
+         ],
+         "SAVEDSEARCHNOTIFICATIONDAYS": [
+            "दिन बाद जिसके बाद हमें आपको मैच सूचनाएं भेजना बंद कर देना चाहिए"
+         ],
+         "SAVEDON": [
+            "पर बचाया"
+         ],
+         "YOUHAVENOWISHLISTTITLE": [
+            "आपकी वॉच लिस्ट में आपके पास कोई सूची नहीं है"
+         ],
+         "YOUHAVENOWISHLISTMESSAGE": [
+            "अपनी वॉच सूची में जोड़ने के लिए लिस्टिंग प्रदर्शन में दिल के प्रतीक पर क्लिक करें"
+         ],
+         "YOUHAVENOSEARCHESTITLE": [
+            "आपके पास सहेजी गई कोई खोज नहीं है"
+         ],
+         "YOUHAVENOSEARCHESMESSAGE": [
+            "भविष्य के संदर्भ के लिए इसे बचाने के लिए संपत्ति खोज परिणामों में खोज सहेजें बटन पर क्लिक करें"
+         ],
+         "YOUHAVENONOTIFTITLE": [
+            "आपके पास कोई संपर्क नहीं है"
+         ],
+         "YOUHAVENONOTIFMESSAGE": [
+            "जब भी आप किसी से संपर्क करेंगे या जब कोई आपका संपर्क करेगा, तो आपके संपर्क यहां दिखाई देंगे"
+         ],
+         "ADDEDTOWISHLIST": [
+            "देखने की सूची में जोड़ा गया"
+         ],
+         "ADDTOWISHLIST": [
+            "घड़ी सूची में जोड़ें"
+         ],
+         "STATUSMESSAGE": [
+            "स्थिति संदेश"
+         ],
+         "ENRICHYOURPROFILEMSG": [
+            "संभावित निवेशकों के लिए आपकी दृश्यता में सुधार के लिए कृपया अपने प्रोफ़ाइल को समृद्ध करें"
+         ],
+         "LICENSEREQUIRED": [
+            "लाइसेंस संख्या दर्ज करें"
+         ],
+         "CURRENTPASSWORD": [
+            "वर्तमान पासवर्ड"
+         ],
+         "NEWPASSWORD": [
+            "नया पासवर्ड"
+         ],
+         "CONFIRMPASSWORD": [
+            "पासवर्ड की पुष्टि कीजिये"
+         ],
+         "ENTERNAME": [
+            "नाम दर्ज"
+         ],
+         "ENTERMOBILE": [
+            "मोबाइल दर्ज"
+         ],
+         "NOTAMEMBER": [
+            "सदस्य नहीं है ?"
+         ],
+         "EMAILPHONE": [
+            "ईमेल आईडी या मोबाइल नंबर"
+         ],
+         "MEMBERLOGIN": [
+            "सदस्य लॉगिन"
+         ],
+         "CREATEYOURACCOUNT": [
+            "अपने खाते बनाएँ"
+         ],
+         "MEMBER": [
+            "सदस्य"
+         ],
+         "CHANGEPASSWORD": [
+            "पासवर्ड बदलें"
+         ],
+         "CHANGEPASSWORDDESCRIPTION": [
+            "अपना नया पासवर्ड प्रदान करें"
+         ],
+         "ADDWEBSITES": [
+            "एक वेब साइट जोड़ें"
+         ],
+         "USERSREGISTRATIONINFOSCHEMATITLE": [
+            "हमारी साइट में रजिस्टर करें"
+         ],
+         "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE": [
+            "एक सेवा प्रदाता या व्यावसायिक के रूप में साइन अप करें"
+         ],
+         "REALTORSREGISTRATIONINFOSCHEMATITLE": [
+            "रियाल्टार / ब्रोकर के रूप में साइन अप करें"
+         ],
+         "COMPANYREGISTRATIONINFOSCHEMATITLE": [
+            "हमारी साइट पर अपनी कंपनी को पंजीकृत करें"
+         ],
+         "VERIFYOTPHEADING": [
+            "OTP सत्यापित करें"
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE1": [
+            "बहुत सारे गलत पासवर्ड प्रयासों के कारण आपका खाता लॉक कर दिया गया है OTP पुनः भेजें ..."
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE2": [
+            "आपके ईमेल को भेजा गया OTP प्रदान करें"
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE1": [
+            "हमने देखा है कि आपने अपनी पिछली यात्रा के दौरान पंजीकरण प्रक्रिया पूरी नहीं की थी OTP पुनः भेजें ..."
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE2": [
+            "आपके ईमेल को भेजा गया OTP प्रदान करें"
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE1": [
+            "हमने देखा है कि आपने अपनी पिछली यात्रा के दौरान पंजीकरण प्रक्रिया पूरी नहीं की थी OTP पुनः भेजें ..."
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE2": [
+            "आपके ईमेल को भेजा गया OTP प्रदान करें"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE1": [
+            "हमें यह स्थापित करने की आवश्यकता है कि यह ईमेल आईडी आपकी है"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE2": [
+            "आपके ईमेल को भेजा गया OTP प्रदान करें"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE1": [
+            "अपना पासवर्ड रीसेट करने के लिए हमें अपना ईमेल आईडी सत्यापित करने की आवश्यकता है"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE2": [
+            "आपके ईमेल को भेजा गया OTP प्रदान करें"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE2": [
+            "आपके ईमेल को भेजा गया OTP प्रदान करें"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE1": [
+            "हमें यह स्थापित करने की आवश्यकता है कि यह ईमेल आईडी आपकी है"
+         ],
+         "REGISTRATIONHEADING": [
+            "साइन अप करें"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE1": [
+            "अपनी पहचान प्रदान करें"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE2": [
+            "आपकी जानकारी का उपयोग आपको पहचानने के लिए किया जाएगा और कभी भी किसी और के साथ साझा नहीं किया जाएगा"
+         ],
+         "LOGINDESCRIPTIONLINE1": [
+            "अपना ईमेल आईडी प्रदान करें"
+         ],
+         "LOGINDESCRIPTIONLINE2": [
+            "आपको अपने पासवर्ड के लिए संकेत दिया जाएगा या क्रेडेंशियल साइन अप करें"
+         ],
+         "PASSWORDHEADING": [
+            "सुरक्षा जांच"
+         ],
+         "PASSWORDDESCRIPTIONLINE1": [
+            "अपना पासवर्ड प्रदान करें"
+         ],
+         "PASSWORDDESCRIPTIONLINE2": [
+            "आप ऑनलाइन के रूप में दिखाई देंगे और वे अन्य लोगों के साथ तुरन्त जुड़ सकते हैं जो ऑनलाइन भी हैं"
+         ],
+         "FORGOTPASSWORDHEADING": [
+            "पासवर्ड सेट करें"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE1": [
+            "हमारी साइट पर भविष्य के प्रवेश के लिए एक पासवर्ड प्रदान करें"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE2": [
+            "आप एक पासवर्ड चुन सकते हैं जो कि मजबूत और याद रखना आसान है"
+         ],
+         "STATUSMESSAGETOOLTIP": [
+            "एक संक्षिप्त संदेश प्रदान करें जो आपके संपर्क कार्ड में प्रदर्शित किया जाएगा"
+         ],
+         "AREASSERVEDTOOLTIP": [
+            "आपके द्वारा प्रदत्त क्षेत्रों या इलाके की सूची प्रदान करें सुनिश्चित करें कि आप पड़ोसी क्षेत्रों को शामिल करते हैं, क्योंकि इससे आपकी दृश्यता में सुधार होगा"
+         ],
+         "PROFESSIONSTOOLTIP": [
+            "आपके द्वारा प्रदान की जाने वाली सेवाओं का प्रकार चुनें"
+         ],
+         "EXPERTISETOOLTIP": [
+            "विशेषज्ञता और विशिष्टताओं के अपने प्राथमिक क्षेत्रों प्रदान करें"
+         ],
+         "SPECIALTIESTOOLTIP": [
+            "अपनी उपयुक्त रियल एस्टेट विशेषता चुनें"
+         ],
+         "BROKERAGEFIRMCOMPLETETOOLTIP": [
+            "आपकी अचल संपत्ति एजेंसी पहले से ही हमारे साथ पंजीकृत हो सकती है अपनी कंपनी के नाम के साथ अपना डेटा देखें यदि नहीं मिला, तो आप हमेशा यहां अपनी कंपनी को पंजीकृत कर सकते हैं।"
+         ],
+         "COMPANYCOMPLETETOOLTIP": [
+            "आपकी कंपनी पहले से ही हमारे साथ पंजीकृत हो सकती है अपनी कंपनी के नाम के साथ अपना डेटा देखें यदि नहीं मिला, तो आप हमेशा यहां अपनी कंपनी को पंजीकृत कर सकते हैं।"
+         ],
+         "HAVECOMPANYTOOLTIP": [
+            "यदि आप किसी कंपनी से जुड़े हैं, तो आप यहां अपनी कंपनी की जानकारी प्रदान करके लाभ प्राप्त कर सकते हैं"
+         ],
+         "HAVECOMPANY": [
+            "एक कंपनी के साथ संबद्ध?"
+         ],
+         "BROKERAGEFIRMCOMPLETE": [
+            "अपनी रियल एस्टेट एजेंसी नाम दर्ज करें"
+         ],
+         "COMPANYCOMPLETE": [
+            "अपनी कंपनी नाम दर्ज करें"
+         ],
+         "ADDCOMPANYCOLLAPSIBLE": [
+            "क्या आपकी कंपनी नहीं मिली?"
+         ],
+         "AREAREQUIRED": [
+            "सेवा में कम से कम एक क्षेत्र अनिवार्य है"
+         ],
+         "COMPANYNAMEREQUIRED": [
+            "कंपनी का नाम अनिवार्य है"
+         ],
+         "CONTACTNUMBERTYPEREQUIRED": [
+            "संपर्क संख्या प्रकार अनिवार्य है"
+         ],
+         "CONTACTNUMBERREQUIRED": [
+            "संपर्क नंबर अनिवार्य है"
+         ],
+         "NAMEREQUIRED": [
+            "नाम अनिवार्य है"
+         ],
+         "MOBILENUMBERREQUIRED": [
+            "मोबाइल नंबर अनिवार्य है"
+         ],
+         "PASSWORDREQUIRED": [
+            "पासवर्ड अनिवार्य है"
+         ],
+         "REALTORINVALID": [
+            "रियाल्टार / ब्रोकर अमान्य है"
+         ],
+         "AREASMISSING": [
+            "प्रदान किए गए क्षेत्र अनिवार्य हैं"
+         ],
+         "REALTORSINCEINVALID": [
+            "रियाल्टार / ब्रोकर की आवश्यकता है"
+         ],
+         "SPECIALTIESINVALID": [
+            "विशेषता अमान्य है"
+         ],
+         "CONTACTACTIONSMISSING": [
+            "कम से कम एक पसंदीदा संपर्क विकल्प अनिवार्य है"
+         ],
+         "CONTACTACTIONINVALID": [
+            "पसंदीदा संपर्क विकल्प अमान्य है"
+         ],
+         "PROFESSIONALINVALID": [
+            "व्यावसायिक अमान्य है"
+         ],
+         "PROFESSIONSMISSING": [
+            "कम से कम एक व्यवसाय की आवश्यकता है"
+         ],
+         "MOBILEOREMAILMANDATORY": [
+            "कम से कम एक ईमेल आईडी या मोबाइल नंबर अनिवार्य है"
+         ],
+         "MOBILEOREMAILACTIONANYONENEEDED": [
+            "कम से कम एक ईमेल आईडी या टेलीफोन नंबर पसंदीदा संपर्क विकल्प के रूप में निर्धारित किया जाना चाहिए"
+         ],
+         "EXPIRED_PASSWORD": [
+            "आपका पारण शब्द गतावधिक हो गया है। कृपया इसे रीसेट करें"
+         ],
+         "EMPTY_PASSWORD": [
+            "पासवर्ड खाली है"
+         ],
+         "USER_UNVERIFIED": [
+            "कृपया आगे बढ़ने के लिए अपना OTP सत्यापित करें"
+         ],
+         "USER_ACCOUNT_DISABLED": [
+            "आपका खाता अक्षम है। कृपया हमारे सिस्टम व्यवस्थापक से संपर्क करें"
+         ],
+         "USER_ACCOUNT_LOCKED": [
+            "आपका खाता लॉक है। अपना पासवर्ड रीसेट करें"
+         ],
+         "USER_MOBILE_EXIST": [
+            "आपके द्वारा प्रदान किया गया मोबाइल नंबर हमारे सिस्टम में पहले से पंजीकृत है। कृपया एक और मोबाइल नंबर की कोशिश करें"
+         ],
+         "USER_EMAIL_EXIST": [
+            "आपके द्वारा प्रदान की गई ईमेल आईडी पहले ही हमारे सिस्टम में पंजीकृत है कृपया एक अन्य ईमेल आईडी का प्रयास करें"
+         ],
+         "USER_EMAIL_MOBILE_EXIST": [
+            "आपके द्वारा प्रदान की गई ईमेल आईडी और मोबाइल नंबर पहले से हमारे सिस्टम में पंजीकृत है कृपया एक अन्य ईमेल आईडी या मोबाइल नंबर का प्रयास करें"
+         ],
+         "TOKEN_NOT_FOUND": [
+            "OTP अमान्य है कृपया पुन: प्रयास करें"
+         ],
+         "TOKEN_EXPIRED": [
+            "आपके ओटीपी की समय सीमा समाप्त हो गई है। कृपया एक नया ओटीपी बनाएं"
+         ],
+         "TOKEN_NOT_MATCHING": [
+            "OTP अमान्य है कृपया पुन: प्रयास करें"
+         ],
+         "OLD_PASSWORD_NOT_SAME": [
+            "पुराना पासवर्ड अमान्य है"
+         ],
+         "BAD_CREDENTIALS": [
+            "उपयोगकर्ता का नाम या पासवर्ड अमान्य है"
+         ],
+         "INVALID_USERNAME": [
+            "उपयोगकर्ता का नाम या पासवर्ड अमान्य है"
+         ],
+         "INVALID_USERID": [
+            "उपयोगकर्ता का नाम या पासवर्ड अमान्य है"
+         ],
+         "USER_NOT_FOUND": [
+            "उपयोगकर्ता का नाम या पासवर्ड अमान्य है"
+         ],
+         "BROKERAGE_FIRM_EXIST": [
+            "उसी नाम के साथ एक ब्रोकरेज फर्म मौजूद है"
+         ],
+         "COMPANY_EXIST": [
+            "उसी नाम वाली एक अन्य कंपनी मौजूद है"
+         ],
+         "BROKERAGE_FIRM_NOT_EXIST": [
+            "ब्रोकरेज फर्म मौजूद नहीं है"
+         ],
+         "COMPANY_NOT_EXIST": [
+            "कंपनी मौजूद नहीं है"
+         ],
+         "COMPANYINVALID": [
+            "कंपनी अमान्य है"
+         ],
+         "ADDOTHERCONTACTNUMBERS": [
+            "एक संपर्क नंबर जोड़ें"
+         ],
+         "ENTERAREA": [
+            "आपके द्वारा प्रदत्त क्षेत्र दर्ज करें"
+         ],
+         "ADDAREASSERVED": [
+            "एक सेवारत क्षेत्र जोड़ें"
+         ],
+         "ENTEREXPERTISE": [
+            "विशेषज्ञता के अपने क्षेत्र दर्ज करें"
+         ],
+         "ADDEXPERTISE": [
+            "विशेषज्ञता का एक क्षेत्र जोड़ें"
+         ],
+         "REGISTERCOMPANY": [
+            "मेरी कंपनी पंजीकृत करें"
+         ],
+         "ROLETYPE": [
+            "मैं एक"
+         ],
+         "ROLE_CUSTOMER": [
+            "रियल एस्टेट इन्वेस्टर"
+         ],
+         "ROLE_REALTOR": [
+            "रियाल्टार / ब्रोकर"
+         ],
+         "ROLE_PROFESSIONAL": [
+            "रियल एस्टेट सेवा प्रदाता"
+         ],
+         "ENTEROTP": [
+            "अपने ईमेल आईडी पर भेजे गए ओटीपी दर्ज करें"
+         ],
+         "USEREMAIL_EXIST": [
+            "इस ईमेल आईडी वाला उपयोगकर्ता पहले से मौजूद है। कृपया एक वैकल्पिक ईमेल आईडी का उपयोग करें"
+         ],
+         "ROLETYPETOOLTIP": [
+            "अगर आप एक निवेशक या संपत्ति के मालिक हैं तो रियल एस्टेट इन्वेस्टर के रूप में साइन अप करें यदि आप एक रियाल्टार / ब्रोकर या एक सेवा प्रदाता / व्यवसायी हैं, तो रियल एस्टेट उद्योग की सेवाएं उपलब्ध कराएंगे, तो आपको अतिरिक्त जानकारी के लिए संकेत दिया जाएगा।"
+         ],
+         "PREVIEWSELECTEDFLOORPLANDOCS": [
+            "चयनित मंजिल योजनाएं और सर्वेक्षण"
+         ],
+         "FLOORPLANSGALLERY": [
+            "अपलोड की गई तल योजनाएं और सर्वेक्षण"
+         ],
+         "BASICINFORMATION": [
+            "स्थान"
+         ],
+         "PROPERTYDETAILS": [
+            "विवरण"
+         ],
+         "LOCATEPROPERTYTIP": [
+            "नीचे गुण से चुनें"
+         ],
+         "PROPERTYFOUND": [
+            "अपने स्थान पर मिलान गुणों को"
+         ],
+         "PROPERTYNOTFOUND": [
+            "अपनी संपत्ति नहीं मिला था?"
+         ],
+         "SELFOWNED": [
+            "क्या आप इस विज्ञापन के मालिक हैं?"
+         ],
+         "OWNEREMAILID": [
+            "विज्ञापन स्वामी ईमेल आईडी"
+         ],
+         "OWNERMOBILENUMBER": [
+            "विज्ञापन स्वामी मोबाइल नंबर"
+         ],
+         "OWNERNAME": [
+            "विज्ञापन के मालिक का नाम"
+         ],
+         "LISTINGCONFIRMATIONTITLE": [
+            "पूर्वावलोकन करें और अपने विज्ञापन की पुष्टि करें"
+         ],
+         "MARKERDRAGPINMESSAGE": [
+            "यदि आप अपना पता नहीं खोज पा रहे हैं, तो निकटतम मील का पत्थर या स्थानीयता दर्ज करें और फिर पिन को अपनी संपत्ति स्थान पर खींचें"
+         ],
+         "BASICINFOSCHEMATITLE": [
+            "अपनी संपत्ति का पता लगाएं"
+         ],
+         "DROPIMAGETITLE": [
+            "खींचें और अपनी फ़ाइलें यहां छोड़ें आप हर बार 10 फाइल अपलोड कर सकते हैं।"
+         ],
+         "MEDIATITLE": [
+            "अपनी संपत्ति के लिए तस्वीरें अपलोड करें"
+         ],
+         "OVERVIEWINFOSCHEMATITLE": [
+            "अपने विज्ञापन के बारे में बुनियादी जानकारी प्रदान करें"
+         ],
+         "FINANCIALINFOSCHEMATITLE": [
+            "वित्तीय जानकारी प्रदान करें"
+         ],
+         "ADDITIONALINFOSCHEMATITLE": [
+            "अतिरिक्त जानकारी प्रदान करें"
+         ],
+         "PROPERTYINFOSCHEMATITLE": [
+            "अपनी संपत्ति के विवरण को समृद्ध करें"
+         ],
+         "VALUEADDEDREASONTOOLTIP": [
+            "एक प्राथमिक कारण या कारक प्रदान करें जो इस संपत्ति के निवेश वर्ग को एक मूल्य जोड़ें जोड़ें"
+         ],
+         "RISKRETURNCATEGORYTOOLTIP": [
+            "संपत्ति की जोखिम वापसी श्रेणी प्रदान करें जो निर्णय लेने में निवेशकों को मदद करता है। कोर: अनुमानित नकदी प्रवाह के साथ यह एक बेतरतीब, कम जोखिम / कम संभावित रिटर्न निवेश है कोर प्लस: यह एक मध्यम-जोखिम / मध्यम-रिटर्न निवेश है, जो कि वृद्धि की आवश्यकता हो सकती है या नहीं। मान जोड़ा गया: यह एक मध्यम-ते-उच्च-जोखिम / मध्यम से उच्च रिटर्न निवेश है, जिसमें वृद्धि या पूंजी प्रवाह या अन्य परिवर्तन की आवश्यकता होती है। अवसरवादी: यह एक उच्च-जोखिम / उच्च-लाभ निवेश है, जिसके लिए उच्चतर वृद्धि या अन्य जोखिमों की आवश्यकता होती है।"
+         ],
+         "DISTRESSEDTOOLTIP": [
+            "बताएं कि यह संपत्ति व्यथित है और उचित स्थिति है"
+         ],
+         "PROPERTYNAMETOOLTIP": [
+            "संपत्ति के लिए एक अद्वितीय नाम प्रदान करें, ताकि दूसरों को इसे आसानी से पहचान सकें"
+         ],
+         "AREATOOLTIP": [
+            "संपत्ति के क्षेत्र प्रदान करें यदि आप किसी प्लॉट या बिल्डिंग इकाई का विज्ञापन कर रहे हैं तो, यह प्लॉट या यूनिट के विज्ञापन का क्षेत्र होना चाहिए"
+         ],
+         "LOTAREATOOLTIP": [
+            "संपत्ति के कुल भूखंड क्षेत्र प्रदान करें"
+         ],
+         "ENDDATETOOLTIP": [
+            "उस तिथि को प्रदान करें जब तक आपका विज्ञापन सक्रिय न हो"
+         ],
+         "CONTACTACTIONSTOOLTIP": [
+            "संपर्क के अपने पसंदीदा मोड प्रदान करें सभी संभावित संपर्क विकल्पों को सक्षम करने से आप आसानी से दूसरों तक पहुंच सकते हैं"
+         ],
+         "SELFOWNEDTOOLTIP": [
+            "इस विज्ञापन के लिए स्वामित्व विवरण प्रदान करें अगर यह आपके द्वारा स्वामित्व नहीं है, तो, स्वामी जानकारी प्रदान करें"
+         ],
+         "AVAILABLEDATETOOLTIP": [
+            "उस दिनांक को प्रदान करें जिसके द्वारा संपत्ति अधिभोग के लिए उपलब्ध होगी"
+         ],
+         "DISCLOSEADDRESSTOOLTIP": [
+            "बताएं कि क्या आप इस संपत्ति के लिए पता दिखाना या छिपाना चाहते हैं"
+         ],
+         "DISCLOSEPRICETOOLTIP": [
+            "बताएं कि क्या आप इस लिस्टिंग के लिए कीमत का खुलासा करना चाहते हैं या छिपाना चाहते हैं"
+         ],
+         "CAPRATEKNOWNTOOLTIP": [
+            "यदि आप प्रॉपर्टी या यूनिट के कैप रेट को सूचीबद्ध करते हैं, तो आप सीधे इसे दर्ज कर सकते हैं। यदि नहीं, तो हम कैप रेट की गणना करने में आपकी सहायता कर सकते हैं"
+         ],
+         "CAPRATETYPETOOLTIP": [
+            "बताएं कि क्या कैप दर वास्तविक या अनुमानित राजस्व पर आधारित है"
+         ],
+         "GROSSRENTREVENUETOOLTIP": [
+            "यह मानते हुए कि संपत्ति पूरी तरह से कब्जा कर लिया है, वार्षिक कुल किराया राजस्व या पेंटेंटेल किराया आय प्रदान करें"
+         ],
+         "VACANCYLOSSESTOOLTIP": [
+            "संपत्ति खाली करने वाले किरायेदारों या पट्टे के भुगतान पर चूक के कारण वार्षिक नुकसान प्रदान करें"
+         ],
+         "MANAGEMENTANDLEASINGFEESTOOLTIP": [
+            "संपत्ति के प्रबंधन और पट्टे पर देने के लिए वार्षिक शुल्क प्रदान करें"
+         ],
+         "PROPERTYINSURANCETOOLTIP": [
+            "वार्षिक सम्पत्ति बीमा राशि प्रदान करें"
+         ],
+         "PROPERTYTAXESTOOLTIP": [
+            "वार्षिक संपत्ति कर राशि प्रदान करें"
+         ],
+         "PROPERTYMAINTENANCETOOLTIP": [
+            "संपत्ति बनाए रखने के लिए वार्षिक व्यय प्रदान करें"
+         ],
+         "OTHEREXPENSESTOOLTIP": [
+            "अन्य सभी व्यय के लिए कुल वार्षिक राशि प्रदान करें"
+         ],
+         "CALCULATEDCAPRATETOOLTIP": [
+            "कैपिटलाइजेशन दर या टोपी दर, नेट ऑपरेटिंग आय का अनुपात (एनओआई) संपत्ति परिसंपत्ति मूल्य या पूछना मूल्य के अनुपात है"
+         ],
+         "COMMISSIONSPLITTOOLTIP": [
+            "खरीदार एजेंट कमीशन प्रदान करें"
+         ],
+         "COMMISSIONPERCENTAGETOOLTIP": [
+            "कमीशन प्रतिशत प्रदान करें जो खरीदार को देना होगा"
+         ],
+         "COMMISSIONAMOUNTTOOLTIP": [
+            "उस कमीशन की राशि प्रदान करें जो खरीदार को देना होगा"
+         ],
+         "SPECIFICATIONSTOOLTIP": [
+            "नींव, भवन निर्माण सामग्री का इस्तेमाल, खत्म, जुड़नार और सामान के बारे में विवरण सहित बिल्डिंग विनिर्देश प्रदान करें"
+         ],
+         "PRIMARYIDENTIFIERTOOLTIP": [
+            "संपत्ति पहचान संख्या प्रदान करें निर्णय लेने के लिए संपत्ति का मूल्यांकन करने के लिए यह महत्वपूर्ण होगा"
+         ],
+         "HIGHLIGHTSTOOLTIP": [
+            "अपनी संपत्ति की मुख्य विशेषताएं, जैसे वास्तू अनुपालन, दिशा, वेंटिलेशन आदि का सामना करना।"
+         ],
+         "MINDIVISIBLEAREATOOLTIP": [
+            "इस साजिश के विभाजन में अनुमति दी गई सबसे छोटा क्षेत्र प्रदान करें"
+         ],
+         "MAXDIVISIBLEAREATOOLTIP": [
+            "इस साजिश के विभाजन में अनुमति दी गई सबसे बड़ी क्षेत्र प्रदान करें"
+         ],
+         "MAXCONTIGUOUSAREATOOLTIP": [
+            "इस साजिश के विभाजन में अनुमति दी सबसे बड़ी संगत क्षेत्र प्रदान करें"
+         ],
+         "FIXTURESTOOLTIP": [
+            "अपने इकाई में उपलब्ध प्रत्येक स्थिरता या उपकरण का विवरण प्रदान करें"
+         ],
+         "PROPERTYNAMEREQUIRED": [
+            "संपत्ति का नाम अनिवार्य है"
+         ],
+         "PROPERTYSUBTYPEREQUIRED": [
+            "संपत्ति का प्रकार अनिवार्य है"
+         ],
+         "PROPERTYTYPEREQUIRED": [
+            "श्रेणी आवश्यक है"
+         ],
+         "LINEONEREQUIRED": [
+            "सड़क का पता अनिवार्य है"
+         ],
+         "CITYREQUIRED": [
+            "शहर अनिवार्य है"
+         ],
+         "ZIPCODEREQUIRED": [
+            "पिन कोड अनिवार्य है"
+         ],
+         "LOCALITYREQUIRED": [
+            "इलाके अनिवार्य है"
+         ],
+         "TITLEREQUIRED": [
+            "विज्ञापन शीर्षक अनिवार्य है"
+         ],
+         "LISTINGAREAREAMISSING": [
+            "क्षेत्र अनिवार्य है"
+         ],
+         "PROPERTYLISTINGTYPEREQUIRED": [
+            "विज्ञापन प्रकार अनिवार्य है"
+         ],
+         "STARTTIMEMISSING": [
+            "प्रारंभ समय आवश्यक है"
+         ],
+         "ENDTIMEMISSING": [
+            "समाप्ति समय की आवश्यकता है"
+         ],
+         "ENDTIMEINVALID": [
+            "प्रारंभ समय प्रारंभ समय के मुकाबले या उससे कम नहीं हो सकता"
+         ],
+         "OPENHOUSEENDDATEMINVALUE": [
+            "ओपन हाउस तिथि पहले की तुलना में नहीं हो सकती"
+         ],
+         "ENDDATEMINVALUE": [
+            "विज्ञापन की समाप्ति तिथि पहले की तुलना में नहीं हो सकती"
+         ],
+         "ENDDATEMAXVALUE": [
+            "विज्ञापन की समाप्ति तिथि से अधिक नहीं हो सकता"
+         ],
+         "ENDDATEREQUIRED": [
+            "विज्ञापन की समाप्ति तिथि अनिवार्य है"
+         ],
+         "GROSSRENTREVENUEREQUIRED": [
+            "सकल किराया राजस्व की आवश्यकता है"
+         ],
+         "DISCLOSEADDRESSREQUIRED": [
+            "पता लगाना आवश्यक है"
+         ],
+         "DISCLOSEPRICEREQUIRED": [
+            "खुलासा करना आवश्यक है"
+         ],
+         "SALEPRICEREQUIRED": [
+            "बिक्री मूल्य अनिवार्य है"
+         ],
+         "LEASEPRICEREQUIRED": [
+            "किराया राशि अनिवार्य है"
+         ],
+         "PROPERTYLISTINGMISSING": [
+            "संपत्ति लिस्टिंग अनिवार्य है"
+         ],
+         "PROPERTYMISSING": [
+            "संपत्ति अनिवार्य है"
+         ],
+         "SALEPRICEMISSING": [
+            "बिक्री मूल्य अनिवार्य है"
+         ],
+         "SALEPRICEINVALID": [
+            "बिक्री मूल्य अमान्य है"
+         ],
+         "COMMISSIONSPLITINVALID": [
+            "खरीदार एजेंट आयोग अमान्य है"
+         ],
+         "SALECOMMISSIONINVALID": [
+            "आयोग का प्रतिशत अमान्य है"
+         ],
+         "LEASEPRICEMISSING": [
+            "लीज प्राइस अनिवार्य है"
+         ],
+         "LEASEPRICEINVALID": [
+            "पट्टा मूल्य अमान्य है"
+         ],
+         "LEASEDEPOSITINVALID": [
+            "जमा राशि अमान्य है"
+         ],
+         "LEASETERMINVALID": [
+            "पट्टा अवधि अमान्य है"
+         ],
+         "LEASEMAINTENANCECHARGESINVALID": [
+            "मासिक रखरखाव प्रभार अमान्य है"
+         ],
+         "LEASECOMMISSIONINVALID": [
+            "आयोग की राशि अमान्य है"
+         ],
+         "NUMBEROFBEDSREQUIRED": [
+            "बिस्तरों की संख्या आवश्यक है"
+         ],
+         "NUMBEROFSEATSREQUIRED": [
+            "सीटों की संख्या आवश्यक है"
+         ],
+         "NUMBEROFBEDROOMSREQUIRED": [
+            "बेडरूम की संख्या आवश्यक है"
+         ],
+         "LISITNGAREAREQUIRED": [
+            "क्षेत्र अनिवार्य है"
+         ],
+         "ENDDATEMISSING": [
+            "समाप्ति तिथि आवश्यक है"
+         ],
+         "OTHERSUBTYPEINVALID": [
+            "अमान्य अन्य संपत्ति उप प्रकार"
+         ],
+         "SUBTYPEMISSING": [
+            "संपत्ति का प्रकार अनिवार्य है"
+         ],
+         "LISTINGTITLEMISSING": [
+            "विज्ञापन शीर्षक आवश्यक है"
+         ],
+         "LISTINGSALETYPEMISSING": [
+            "द्वारा पोस्ट आवश्यक है"
+         ],
+         "LISTINGTYPEMISSING": [
+            "विज्ञापन प्रकार की आवश्यकता है"
+         ],
+         "TYPEMISSING": [
+            "श्रेणी आवश्यक है"
+         ],
+         "LEASETERMREQUIRED": [
+            "पट्टा अवधि की आवश्यकता है"
+         ],
+         "LEASETYPEREQUIRED": [
+            "पट्टा प्रकार की आवश्यकता है"
+         ],
+         "LEASEAMOUNTREQUIRED": [
+            "लीज़ की राशि आवश्यक है"
+         ],
+         "DISTRESSEDSTATUSREQUIRED": [
+            "परेशान स्थिति की आवश्यकता है"
+         ],
+         "CREATEPROPERTY": [
+            "प्रॉपर्टी जानकारी प्रदान करें"
+         ],
+         "CONFIRMADDRESS": [
+            "अपनी संपत्ति के पते की पुष्टि करें"
+         ],
+         "MOVEMAP": [
+            "गुणों को खोजने के लिए मानचित्र को स्थानांतरित या खींचें"
+         ],
+         "BACKTOPROPERTY": [
+            "पिछला कदम"
+         ],
+         "NOIMAGESUPLOADED": [
+            "कोई भी फाइल अपलोड नहीं की गई"
+         ],
+         "PREVIEWSELECTEDDOCUMENTS": [
+            "चयनित दस्तावेज़"
+         ],
+         "PREVIEWSELECTEDIMAGES": [
+            "चयनित फ़ोटो का पूर्वावलोकन करें"
+         ],
+         "CURRENTDEFAULT": [
+            "डिफ़ॉल्ट फोटो"
+         ],
+         "SETASDEFAULT": [
+            "डिफाल्ट के रूप में सेट"
+         ],
+         "CONFIRMPROPERTY": [
+            "यह स्थान चुनें"
+         ],
+         "NEXTTOFINANCIAL": [
+            "अगला कदम"
+         ],
+         "NEXTTOADDITIONAL": [
+            "अगला कदम"
+         ],
+         "BACKTOADDITIONAL": [
+            "पिछला कदम"
+         ],
+         "NEXTTOCREATEPROPERTY": [
+            "अगला कदम"
+         ],
+         "BACKTOADDRESS": [
+            "पिछला कदम"
+         ],
+         "ADDLEASERENEWALOPTIONS": [
+            "एक लीज नवीकरण विकल्प जोड़ें"
+         ],
+         "ADDHIGHLIGHTS": [
+            "एक अन्य हाइलाइट जोड़ें"
+         ],
+         "POSTONLINE": [
+            "पोस्ट विज्ञापन ऑनलाइन"
+         ],
+         "NEXTTOPROPERTY": [
+            "अगला कदम"
+         ],
+         "NEXTTOPHOTOS": [
+            "अगला कदम"
+         ],
+         "BACKTOFINANCIAL": [
+            "पिछला कदम"
+         ],
+         "SELECTEDBUILDINGUNIT": [
+            "अपनी इकाई का वर्णन करें"
+         ],
+         "PROPERTYBUILDINGDETAILS": [
+            "अपनी बिल्डिंग का वर्णन करें"
+         ],
+         "APARTMENTDETAILS": [
+            "अपने आवासीय समुदाय का वर्णन करें"
+         ],
+         "PROPERTYLOTDETAILS": [
+            "अपने भूखंड का वर्णन करें"
+         ],
+         "ENTERHIGHLIGHTS": [
+            "संपत्ति हाइलाइट्स दर्ज"
+         ],
+         "ADDFIXTURES": [
+            "स्थिरता जोड़ें"
+         ],
+         "ENTERFIXTURES": [
+            "स्थिरता विवरण दर्ज करें"
+         ],
+         "ADDSPECIFICATIONS": [
+            "बिल्डिंग स्पेसिफिकेशन जोड़ें"
+         ],
+         "ENTERSPECIFICATIONS": [
+            "बिल्डिंग विनिर्देशों दर्ज"
+         ],
+         "ADDROOMS": [
+            "एक कमरे में जोड़ने"
+         ],
+         "HOTELROOMDETAILS": [
+            "अपने कमरे Decsribe"
+         ],
+         "LOTDETAILSCOLLAPSIBLE": [
+            "साजिश की जानकारी (मैं एक विशिष्ट साजिश सूचीबद्ध कर रहा हूँ)"
+         ],
+         "SELECTEDLOT": [
+            "अपने भूखंड का वर्णन करें"
+         ],
+         "MAXNOOFFILES": [
+            "आप 10 फ़ाइलें अपलोड कर सकते हैं"
+         ],
+         "UPLOADNOW": [
+            "अभी अपलोड करें"
+         ],
+         "SELECTFILESTOUPLOAD": [
+            "फाइलों में खोजें"
+         ],
+         "MINIMUM4IMAGESREQUIRED": [
+            "कम से कम 4 फ़ोटो जोड़ें"
+         ],
+         "LISTINGUPDATED": [
+            "लिस्टिंग अद्यतन !!!"
+         ],
+         "LISTINGUPDATEFAILED": [
+            "लिस्टिंग अपडेट नहीं की जा सकी !!! बाद में पुन: प्रयास करें।"
+         ],
+         "VIDEOTITLEPLACEHOLDER": [
+            "अपना वीडियो शीर्षक टाइप करें"
+         ],
+         "VIDEOURLPLACEHOLDER": [
+            "अपना वीडियो यूआरएल लिखें या पेस्ट करें"
+         ],
+         "ASKINGPRICEPRICEREQUIRED": [
+            "पूछना मूल्य दर्ज करें"
+         ],
+         "ISRENTALPROPERTYTOOLTIP": [
+            "बताएं कि क्या इस संपत्ति इकाई को किराए पर लिया गया है और उचित वित्तीय जानकारी"
+         ],
+         "ISRENTALPROPERTY": [
+            "क्या यह इकाई किराए पर ली गई है?"
+         ],
+         "RENTALAMOUNTREQUIRED": [
+            "पट्टा राशि आवश्यक है"
+         ],
+         "CONSTRUCTIONSTATUSYEARBUILTINVALID ": [
+            "निर्माण स्थिति और वर्ष संयोजन अमान्य है।"
+         ],
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": ""
+         }
+      }
+   }
+}

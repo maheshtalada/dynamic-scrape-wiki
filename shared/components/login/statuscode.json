@@ -1,0 +1,176 @@
+[
+    {
+        "status" : "USER_EXIST",
+        "screen" : "PASSWORD_SCREEN",
+        "action" : "onLogin",
+        "welcome_note" : {
+            "heading" : "PASSWORDHEADING",
+            "line1" : "PASSWORDDESCRIPTIONLINE1",
+            "line2": "PASSWORDDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "AUTO_VERIFIED_USER_EXIST",
+        "screen" : "PASSWORD_SCREEN",
+        "action" : "onLogin",
+        "isBackRequired" : false
+    },
+    {
+        "status" : "BAD_CREDENTIALS",
+        "screen" : "PASSWORD_SCREEN",
+        "action" : "onLogin",
+        "welcome_note" : {
+            "heading" : "PASSWORDHEADING",
+            "line1" : "PASSWORDDESCRIPTIONLINE1",
+            "line2": "PASSWORDDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "INVALID_USERNAME",
+        "screen" : "PASSWORD_SCREEN",
+        "action" : "onLogin",
+        "welcome_note" : {
+            "heading" : "PASSWORDHEADING",
+            "line1" : "PASSWORDDESCRIPTIONLINE1",
+            "line2": "PASSWORDDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "TOKEN_NOT_MATCHING",
+        "screen" : "OTP_SCREEN",
+        "action" : "onVerifyOTP",
+        "isPasswordResetRequired" : true,
+        "welcome_note" : {
+            "heading" : "VERIFYOTPHEADING",
+            "line1" : "VERIFYOTPDESCRIPTIONLINE1",
+            "line2": "VERIFYOTPDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "DEFAULT_SCREEN",
+        "screen" : "USER_SCREEN",
+        "action" : "onIsUserExist",
+        "welcome_note" : {
+            "heading" : "LOGINHEADING",
+            "line1" : "LOGINDESCRIPTIONLINE1",
+            "line2": "LOGINDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "USER_ACCOUNT_DISABLED",
+        "screen" : "USER_SCREEN",
+        "action" : "onIsUserExist",
+        "message" : "USERACCOUNTDISABLED",
+        "screenTitle" : "USERACCOUNTDISABLEDTITLE",
+        "welcome_note" : {
+            "heading" : "USERACCOUNTDISABLEDHEADING",
+            "line1" : "USERACCOUNTDISABLEDLINE1",
+            "line2": "USERACCOUNTDISABLEDLINE2"
+        }
+    },
+    {
+        "status" : "USER_NOT_FOUND",
+        "screen" : "REGISTER_SCREEN",
+        "welcome_note" : {
+            "heading" : "REGISTRATIONHEADING",
+            "line1" : "REGISTRATIONDESCRIPTIONLINE1",
+            "line2": "REGISTRATIONDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "USER_UNVERIFIED",
+        "screen" : "OTP_SCREEN",
+        "action" : "onRegisterVerifyOTP",
+        "screenTitle" : "VERIFYOTPDESCRIPTIONLINE2",
+        "welcome_note" : {
+            "heading" : "VERIFYOTPHEADING",
+            "line1" : "VERIFYOTPUSERUNVERIFIEDLINE1",
+            "line2": "VERIFYOTPUSERUNVERIFIEDLINE2"
+        }
+    },
+    {
+        "status" : "USER_CREATED",
+        "screen" : "OTP_SCREEN",
+        "action" : "onRegisterVerifyOTP",
+        "screenTitle" : "VERIFYOTPDESCRIPTIONLINE2",
+        "welcome_note" : {
+            "heading" : "VERIFYOTPHEADING",
+            "line1" : "VERIFYOTPDESCRIPTIONLINE1",
+            "line2": "VERIFYOTPDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "USER_ACCOUNT_LOCKED",
+        "screen" : "OTP_SCREEN",
+        "action" : "onVerifyOTP",
+        "message" : "USERACCOUNTLOCKED",
+        "screenTitle" : "VERIFYOTPDESCRIPTIONLINE2",
+        "welcome_note" : {
+            "heading" : "VERIFYOTPHEADING",
+            "line1" : "VERIFYOTPACCOUNTLOCKEDLINE1",
+            "line2": "VERIFYOTPACCOUNTLOCKEDLINE2"
+        }
+    },
+    {
+        "status" : "EMPTY_PASSWORD",
+        "screen" : "OTP_SCREEN",
+        "action" : "onVerifyOTP",
+        "message" : "EMPTYPASSWORD",
+        "screenTitle" : "VERIFYOTPDESCRIPTIONLINE2",
+        "welcome_note" : {
+            "heading" : "VERIFYOTPHEADING",
+            "line1" : "VERIFYOTPEMPTYPASSWORDLINE1",
+            "line2": "VERIFYOTPEMPTYPASSWORDLINE2"
+        }
+    },
+    {
+        "status" : "FORGOT_PASSWORD",
+        "screen" : "OTP_SCREEN",
+        "action" : "onVerifyOTP",
+        "message" : "FORGOTPASSWORD",
+        "screenTitle" : "VERIFYOTPDESCRIPTIONLINE2",
+        "welcome_note" : {
+            "heading" : "VERIFYOTPHEADING",
+            "line1" : "VERIFYOTPFORGOTPASSWORDLINE1",
+            "line2": "VERIFYOTPFORGOTPASSWORDLINE2"
+        }
+    },
+    {
+        "status" : "USER_AUTO_REGISTERED",
+        "screen" : "OTP_SCREEN",
+        "action" : "onVerifyOTP",
+        "message" : "USERAUTOREGISTERED",
+        "screenTitle" : "VERIFYOTPDESCRIPTIONLINE2",
+        "welcome_note" : {
+            "heading" : "VERIFYOTPHEADING",
+            "line1" : "VERIFYOTPAUTOREGISTEREDLINE1",
+            "line2": "VERIFYOTPAUTOREGISTEREDLINE2"
+        }
+    },
+    {
+        "status" : "RESET_PASSWORD",
+        "screen" : "RESET_SCREEN",
+        "action" : "onResetPassword",
+        "screenTitle" : "FORGOTPASSWORDDESCRIPTIONLINE1",
+        "welcome_note" : {
+            "heading" : "FORGOTPASSWORDHEADING",
+            "line1" : "FORGOTPASSWORDDESCRIPTIONLINE1",
+            "line2": "FORGOTPASSWORDDESCRIPTIONLINE2"
+        }
+    },
+    {
+        "status" : "AUTO_VERIFIED_USER_RESET_PASSWORD",
+        "screen" : "ACTIVATE_ACCOUNT_SET_PASSWORD",
+        "action" : "onSetPasswordViaEmail",
+        "isBackRequired" : false,
+        "screenTitle" : "FORGOTPASSWORDDESCRIPTIONLINE1"
+    },
+    {
+        "status" : "AUTO_VERIFIED_USER_VERIFY_OTP",
+        "screen" : "OTP_SCREEN",
+        "action" : "onVerifyOTP",
+        "isBackRequired" : false,
+        "screenTitle" : "VERIFYOTPDESCRIPTIONLINE2"
+    }
+]
+

@@ -1,0 +1,505 @@
+{
+  "schema": {
+    "schemas": [
+      {
+        "type": "header",
+        "children": [
+          {
+            "label": "TITLE",
+            "type": "content-grid",
+            "data": {
+              "value": "weww"
+            }
+          },
+          {
+            "label": "SUMMARY",
+            "type": "content-grid",
+            "data": {
+              "value": "asdas"
+            }
+          },
+          {
+            "label": "AREA",
+            "type": "content-grid",
+            "data": {
+              "value": "2222",
+              "configOptions": {
+                "handler": "formatNumber",
+                "postFix": "SQFT"
+              }
+            }
+          }
+        ],
+        "groupName": "summarysection"
+      },
+      {
+        "label": "FORSALEDETAILS",
+        "type": "header",
+        "children": [
+          {
+            "label": "PRICE",
+            "type": "content-grid",
+            "data": {
+              "value": "12322",
+              "configOptions": {
+                "handler": "formatCurrency",
+                "localeCode": "US"
+              }
+            }
+          },
+          {
+            "label": "COMMISSIONSPLIT",
+            "type": "content-grid",
+            "data": {
+              "value": "2",
+              "configOptions": {
+                "postFix": "%"
+              }
+            }
+          }
+        ],
+        "groupName": "pricesection"
+      },
+      {
+        "label": "PROPERTYCOLLAPSIBLE",
+        "type": "header",
+        "children": [
+          {
+            "label": "PROPERTYNAME",
+            "type": "content-grid",
+            "data": {
+              "value": "267-277, Alta Vista Avenue"
+            }
+          },
+          {
+            "label": "PROPERTYTYPE",
+            "type": "content-grid",
+            "data": {
+              "value": "RESIDENTIAL",
+              "configOptions": {
+                "translationRequired": true
+              }
+            }
+          },
+          {
+            "label": "PROPERTYSUBTYPE",
+            "type": "content-grid",
+            "data": {
+              "value": "SINGLE_FAMILY_HOME",
+              "configOptions": {
+                "translationRequired": true
+              }
+            }
+          }
+        ],
+        "groupName": "propertysection"
+      },
+      {
+        "label": "SELECTEDBUILDINGUNITCOLLAPSIBLE",
+        "type": "header",
+        "children": [
+          {
+            "label": "NUMBEROFBEDROOMS",
+            "type": "content-grid",
+            "data": {
+              "value": 2
+            }
+          },
+          {
+            "label": "NUMBEROFWASHROOMS",
+            "type": "content-grid",
+            "data": {
+              "value": 2
+            }
+          }
+        ],
+        "groupName": "buildingsection"
+      }
+    ]
+  },
+  "owner": {
+    "id": "34468",
+    "creationDate": 1519979729436,
+    "name": "mahesh",
+    "roles": [
+      "ROLE_CUSTOMER"
+    ],
+    "currentUserStatus": "VERIFIED",
+    "allowedContactActions": [
+      "EMAIL"
+    ],
+    "role": "ROLE_CUSTOMER",
+    "canChat": false
+  },
+  "propertyListing": {
+    "id": "244711",
+    "createdByUserId": "34468",
+    "creationDate": 1520580318798,
+    "ownedByUserId": "34468",
+    "title": "weww",
+    "listingArea": 2222,
+    "listingAreaUOM": "SQFT",
+    "type": "FORSALE",
+    "saleType": "BYOWNER",
+    "selfOwned": false,
+    "allowedContactActions": [
+      "EMAIL"
+    ],
+    "property": {
+      "name": "267-277, Alta Vista Avenue",
+      "discloseAddress": true,
+      "address": {
+        "lineOne": "267-277, Alta Vista Avenue",
+        "lineTwo": "",
+        "region": "Santa Clara County",
+        "locality": "North Los Altos",
+        "city": "Los Altos",
+        "stateCode": "CA",
+        "zipCode": "94022",
+        "country": "US",
+        "geometry": {
+          "lat": 37.386273,
+          "lon": -122.12241799999998
+        }
+      },
+      "formattedAddress": "267-277, Alta Vista Avenue, Los Altos, CA-94022",
+      "type": "RESIDENTIAL",
+      "subType": "SINGLE_FAMILY_HOME",
+      "highlights": [
+        "1 mi to Los Altos High School (School)",
+        "3 mi to Century Cinema 16 (Movie theater)",
+        "2 mi to San Antonio Center (Shopping mall)",
+        "2 mi to VA Palo Alto Health Care System - Palo Alto Division (Hospital)",
+        "3 mi to Mitchell Park (Park)"
+      ]
+    },
+    "selectedUnit": {
+      "numberOfBedRooms": 2,
+      "numberOfWashRooms": 2
+    },
+    "status": "DRAFT",
+    "salePrice": {
+      "askingPrice": 12322,
+      "disclosePrice": true,
+      "propertyFinancials": {},
+      "commissionSplit": 2
+    },
+    "listingURL": "/residential/sale/single-family-home-los-altos-ca-94022/property-listings/244711",
+    "endDate": "09/09/2018",
+    "summary": "asdas",
+    "interiorImages": [
+      {
+        "uri": "propshub/244711/605bb9c4640e4df8a2ab9db31f973f7a.png",
+        "thumbnailUri": "propshub/244711/thumbnail/605bb9c4640e4df8a2ab9db31f973f7a.png",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "propshub/244711/d2ac1cfba9f54e03a755f4338c64633c.png",
+        "thumbnailUri": "propshub/244711/thumbnail/d2ac1cfba9f54e03a755f4338c64633c.png",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "videoLinks": [
+      {
+        "title": "test 2",
+        "uri": "https://www.youtube.com/embed/mz2VKDNKYsY?showinfo=0",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "title": "test1",
+        "uri": "https://www.youtube.com/embed/zb0rLKxXL8s?showinfo=0",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "externalLinks": [
+      {
+        "title": "test2",
+        "uri": "//www.yahoo.com",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "title": "test",
+        "uri": "//www.google.com",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "floorPlans": [
+      {
+        "title": "Screen Shot 2018-02-05 at 10.52.33 AM.png",
+        "uri": "propshub/244711/65ddaa16d9734cd7b5d808c94428ac53.png",
+        "thumbnailUri": "propshub/244711/thumbnail/65ddaa16d9734cd7b5d808c94428ac53.png",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "title": "Screen Shot 2018-02-05 at 10.52.08 AM.png",
+        "uri": "propshub/244711/5fdb16d1bc434f659eb0a80631cb486c.png",
+        "thumbnailUri": "propshub/244711/thumbnail/5fdb16d1bc434f659eb0a80631cb486c.png",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "documents": [
+      {
+        "title": "responsenew.pdf",
+        "uri": "propshub/244711/634bde7e0ed14a73a04f60c248541724.pdf",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "title": "Proforma Invoice - Props Hub - Batch1 - designs.pdf",
+        "uri": "propshub/244711/5eed328eda734a27b8a073b373fc5872.pdf",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "usageCategory": "RESIDENTIAL"
+  },
+  "completionDetail": {
+    "groups": [
+      {
+        "name": "LISTINGCOMPLETIONGROUP",
+        "totalCompletion": 100
+      },
+      {
+        "name": "PROPERTYCOMPLETIONGROUP",
+        "fields": [
+          {
+            "name": "NUMBEROFROOMS",
+            "percentage": 2.48
+          },
+          {
+            "name": "FLOORNUMBER",
+            "percentage": 2.48
+          },
+          {
+            "name": "FACINGDIRECTION",
+            "percentage": 2.48
+          },
+          {
+            "name": "FURNISHEDSTATUS",
+            "percentage": 2.83
+          },
+          {
+            "name": "ROOMTYPE",
+            "percentage": 2.48
+          },
+          {
+            "name": "NUMBEROFROOMS",
+            "percentage": 2.48
+          },
+          {
+            "name": "PRIMARYIDENTIFIER",
+            "percentage": 3.54
+          },
+          {
+            "name": "SCHOOLDISTRICT",
+            "percentage": 3.54
+          },
+          {
+            "name": "NUMBEROFPARKINGLOTS",
+            "percentage": 2.48
+          },
+          {
+            "name": "LOCATIONDIRECTION",
+            "percentage": 2.48
+          }
+        ],
+        "totalCompletion": 9.41
+      },
+      {
+        "name": "FINANCIALCOMPLETIONGROUP",
+        "fields": [
+          {
+            "name": "DISTRESSED",
+            "percentage": 2.48
+          }
+        ],
+        "totalCompletion": 0
+      },
+      {
+        "name": "ADDITIONALCOMPLETIONGROUP",
+        "fields": [
+          {
+            "name": "DISCLAIMER",
+            "percentage": 1.77
+          }
+        ],
+        "totalCompletion": 50
+      },
+      {
+        "name": "IMAGES",
+        "fields": [
+          {
+            "name": "MINIMUM4IMAGESREQUIRED",
+            "length": 2,
+            "percentage": 15
+          }
+        ],
+        "totalCompletion": 50
+      }
+    ],
+    "totalCompletion": 53.46
+  },
+  "schools": {
+    "label": "WIDGETSCHOOL",
+    "type": "card-large",
+    "children": [
+      {
+        "id": "schools",
+        "type": "data-grid",
+        "data": {
+          "dataset": {
+            "labels": [
+              "SCHOOLNAME",
+              "ZIPCODE",
+              "SCHOOLTYPE",
+              "LOWESTGRADE",
+              "HIGHESTGRADE",
+              "WEBSITE"
+            ],
+            "datasets": [
+              {
+                "SCHOOLNAME": "Gardner Bullis Elementary",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "06",
+                "WEBSITE": "www.gardnerbullis.org"
+              },
+              {
+                "SCHOOLNAME": "Santa Rita Elementary",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "06",
+                "WEBSITE": "www.santaritaschool.org"
+              },
+              {
+                "SCHOOLNAME": "Los Altos High",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "09",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": null
+              },
+              {
+                "SCHOOLNAME": "Bullis Charter",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "08",
+                "WEBSITE": "www.bullischarterschool.com"
+              },
+              {
+                "SCHOOLNAME": "Ardis G. Egan Junior High",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "07",
+                "HIGHESTGRADE": "08",
+                "WEBSITE": "www.eganschool.org"
+              },
+              {
+                "SCHOOLNAME": "SCHOOL FOR INDEPENDENT LEARNERS",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "8",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": null
+              },
+              {
+                "SCHOOLNAME": "Almond Elementary",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "06",
+                "WEBSITE": "www.almondschool.org"
+              },
+              {
+                "SCHOOLNAME": "Covington Elementary",
+                "ZIPCODE": "94024",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "06",
+                "WEBSITE": "www.covingtonschool.org"
+              },
+              {
+                "SCHOOLNAME": "LASD Preschool",
+                "ZIPCODE": "94024",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": null,
+                "HIGHESTGRADE": null,
+                "WEBSITE": "www.losaltos.k12.ca.us"
+              },
+              {
+                "SCHOOLNAME": "HERITAGE ACADEMY",
+                "ZIPCODE": "94024",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "6",
+                "WEBSITE": null
+              },
+              {
+                "SCHOOLNAME": "ST NICHOLAS ELEMENTARY SCHOOL",
+                "ZIPCODE": "94022",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "8",
+                "WEBSITE": null
+              },
+              {
+                "SCHOOLNAME": "VENTANA SCHOOL",
+                "ZIPCODE": "94024",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "PK",
+                "HIGHESTGRADE": "4",
+                "WEBSITE": null
+              },
+              {
+                "SCHOOLNAME": "PINEWOOD PRIVATE SCHOOL LOWER CAMP",
+                "ZIPCODE": "94024",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "2",
+                "WEBSITE": null
+              },
+              {
+                "SCHOOLNAME": "LOS ALTOS CHRISTIAN SCHOOL",
+                "ZIPCODE": "94024",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "8",
+                "WEBSITE": null
+              },
+              {
+                "SCHOOLNAME": "Loyola Elementary",
+                "ZIPCODE": "94024",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "06",
+                "WEBSITE": "www.loyolaschool.org"
+              }
+            ]
+          }
+        },
+        "dataType": "data-grid"
+      },
+      {
+        "label": "SOURCE",
+        "labelPostfix": ":",
+        "type": "card-footer",
+        "data": {
+          "value": "WIDGETSCHOOLFOOTER"
+        },
+        "translationRequired": true
+      }
+    ]
+  },
+  "status": "success"
+}

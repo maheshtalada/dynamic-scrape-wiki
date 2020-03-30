@@ -1,0 +1,26 @@
+.company-details{
+	&__main-info {
+		min-height: 130px;
+		padding-bottom: 0;
+		&__share-wrap {
+			margin-bottom: 10px;
+		}
+	}
+	&__avatar-wrap {
+		display: flex;
+		justify-content: center;
+		&__avatar {
+			height: 100px;
+			width: 100px;
+			margin-right: 10px;
+			border-radius: 50%;
+			border: 4px solid @color-base-white;
+			box-shadow: 1px 1px 0 1px @grey-200;
+			> img {
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+		}
+	}
+}

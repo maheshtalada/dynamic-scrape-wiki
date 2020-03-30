@@ -1,0 +1,99 @@
+{
+  "metaData": {
+    "title": "Real estate professional Test Insurance Agent - insurance agent | Dallas | PropsHub",
+    "description": "Real estate professional Test Insurance Agent is a insurance agent serving Dallas.",
+    "keywords": "real estate professional, test insurance agent, insurance agent, dallas, real estate service provider, chat, email, contact, call, view phone number"
+  },
+  "professional": {
+    "id": "46631",
+    "creationDate": 1531390566889,
+    "name": "test insurance agent",
+    "roles": [
+      "ROLE_PROFESSIONAL"
+    ],
+    "currentUserStatus": "VERIFIED",
+    "allowedContactActions": [
+      "EMAIL",
+      "CHAT"
+    ],
+    "areasServed": [
+      {
+        "googleText": "Dallas",
+        "cityName": "Dallas",
+        "region": "Dallas County",
+        "locality": "Dallas",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.777,
+          "lon": -96.797
+        },
+        "primary": true
+      }
+    ],
+    "profession": "INSURANCE_AGENT",
+    "about": "about test insurance agent",
+    "profileURL": "/residential-investments/insurance-agent/texas/dallas/test-insurance-agent/professional/46631",
+    "preferredProfessional": true
+  },
+  "preferredProfessional": {
+    "total": 6,
+    "data": [
+      {
+        "id": "11442",
+        "name": "Kristopher Franks",
+        "photo": "propshub/11442/thumbnail/bc20428a682142869404a9a154d0b0a8.png",
+        "statecode": "tx",
+        "profileurl": "/real-estate-agents-brokers/texas/fort-worth-saginaw/residential-investments-property-management/kristopher-franks/realtor/11442",
+        "profession": "realtor",
+        "contactactions": [
+          "email",
+          "telephone"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "43039",
+        "name": "Real Realtor",
+        "photo": "propshub/43039/thumbnail/0a48346b847e45dfa186b1aaf6ff4446.png",
+        "statecode": "tx",
+        "profileurl": "/real-estate-agents-brokers/texas/dallas-fort-worth/residential-investments-property-management/real-realtor/realtor/43039",
+        "profession": "realtor",
+        "contactactions": [
+          "email",
+          "telephone",
+          "chat"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "46541",
+        "name": "test loan",
+        "statecode": "tx",
+        "profileurl": "/residential-investments/loan-officer/texas/dallas-fort-worth/test-loan/professional/46541",
+        "profession": "loan_officer",
+        "contactactions": [
+          "email",
+          "telephone",
+          "chat"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "46631",
+        "name": "test insurance agent",
+        "statecode": "tx",
+        "profileurl": "/residential-investments/insurance-agent/texas/dallas/test-insurance-agent/professional/46631",
+        "profession": "insurance_agent",
+        "contactactions": [
+          "email",
+          "chat"
+        ],
+        "canChat": false
+      }
+    ],
+    "totalpage": 2
+  },
+  "status": "success",
+  "canChat": false
+}

@@ -1,0 +1,53 @@
+{
+    "schema": {
+        "schemas": [
+            {
+                "type": "header",
+                "children": [
+                    {
+                        "id": "user.emailId",
+                        "type": "content-grid",
+                        "data": {
+                            "value": ""
+                        }
+                    },
+                    {
+                        "label": "NEWPASSWORD",
+                        "id": "user.password",
+                        "type": "text-password",
+                        "validation": [
+                            {
+                                "type": "required",
+                                "message": "PASSWORDREQUIRED",
+                                "value": "PASSWORDREQUIRED"
+                            },
+                            {
+                                "type": "min-length",
+                                "message": "MINLENGTH",
+                                "value": "6"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "CONFIRMPASSWORD",
+                        "id": "user.confirmPassword",
+                        "type": "text-password",
+                        "validation": [
+                            {
+                                "type": "required",
+                                "message": "PASSWORDREQUIRED",
+                                "value": "PASSWORDREQUIRED"
+                            },
+                            {
+                                "type": "min-length",
+                                "message": "MINLENGTH",
+                                "value": "6"
+                            }
+                        ]
+                    }
+                ],
+                "groupName": "user-register"
+            }
+        ]
+    }
+}

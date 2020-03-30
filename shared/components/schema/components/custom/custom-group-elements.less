@@ -1,0 +1,40 @@
+.schema__group-elements, .schema__multi__group-elements {
+	 width: 100% !important;
+	 > .schema__value {
+		 display: flex;
+		 .bp-xsmall({
+			 flex-wrap: wrap;
+		 });
+		 .bp-medium({
+			 flex-wrap: nowrap;
+		 });
+		 align-items: flex-start;
+		 > * {
+			 .bp-xsmall({
+				 width: 100%;
+			 });
+			 .bp-medium({
+				 width: auto;
+			 })
+		 }
+	 }
+ }
+
+/* group components will share the whole width by 50% */
+.schema__group-elements {
+	> .schema__value {
+		> .schema__component {
+			.bp-xsmall({
+				width: 100%;
+				margin-right: 0;
+			});
+			.bp-small({
+				width: 50%;
+				margin-right: 7px;
+			});
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}

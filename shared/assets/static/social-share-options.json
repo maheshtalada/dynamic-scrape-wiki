@@ -1,0 +1,50 @@
+{
+  "propertydetails" : [
+    { "network" : "facebook"},
+    { "network" : "whatsapp"},
+    { "network" : "pinterest"},
+    { "network" : "twitter"},
+    { "network" : "email"}
+  ],
+  "realtordetails" : [
+    { "network" : "facebook"},
+    { "network" : "whatsapp"},
+    { "network" : "linkedin"},
+    { "network" : "twitter"},
+    { "network" : "email"}
+  ],
+  "articledetails" : [
+    { "network" : "email"},
+    { "network" : "facebook"},
+    { "network" : "whatsapp"},
+    { "network" : "linkedin"},
+    { "network" : "twitter"}
+  ],
+  "questiondetails" : [
+    { "network" : "facebook"},
+    { "network" : "whatsapp"},
+    { "network" : "linkedin"},
+    { "network" : "twitter"}
+  ],
+  "propertysearch" : [
+    { "network" : "facebook"},
+    { "network" : "whatsapp"},
+    { "network" : "pinterest"},
+    { "network" : "twitter"},
+    { "network" : "email"}
+  ],
+  "shareViaEmailOptions" : {
+    "search": {
+      "title" : "PropsHub | Residential Investment Properties %s",
+      "description" : "Discover cash flowing investment properties"
+    },
+    "map": {
+      "title" : "PropsHub | Residential Investment Market | %s",
+      "description" : "View of %s by zip code"
+    },
+    "returns": {
+      "title" : "PropsHub | Return on Investment | %s",
+      "description" : "Calculate ROI for residential investment property"
+    }
+  }
+}

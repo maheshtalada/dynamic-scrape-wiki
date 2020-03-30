@@ -1,0 +1,33 @@
+
+@import './style/pdf/breakpoints.less';
+@import './style/pdf/fonts.less';
+@import './style/pdf/icons.less';
+
+
+.schema__component .schema__component {
+	page-break-before: avoid;
+}
+
+.schema--theme-pdf {
+	@default-font-size: 1.4rem;
+	.schema__label {
+		font-size: @default-font-size;
+	}
+	.schema__value {
+		font-size: @default-font-size;
+	}
+	.schema__header {
+		page-break-inside: avoid;
+	}
+}
+
+@import './style/mixins.less';
+@import './style/colors.less';
+@import './schema.less';
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+

@@ -1,0 +1,3603 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "MEDIANLEASEPRICEANALYSIS": [
+            "ಬೆಲೆ ಹೋಲಿಕೆ ಕೇಳುತ್ತಿದೆ"
+         ],
+         "MEDIANSALEPRICEANALYSIS": [
+            "ಅಂದಾಜು ಬಾಡಿಗೆ"
+         ],
+         "SUBTYPEBEDROOM": [
+            "ಇದೇ ಸ್ಕ್ವೇರ್ ಫೂಟೇಜ್ನೊಂದಿಗೆ"
+         ],
+         "SUBTYPEAREA": [
+            "ಅದೇ ಬೆಡ್ ರೂಮ್ಗಳೊಂದಿಗೆ"
+         ],
+         "NON_REFUNDABLE_PET_FEE": [
+            "ಮರುಪಾವತಿಸಲಾಗದ ಪೆಟ್ ಶುಲ್ಕ"
+         ],
+         "CUMPRINCIPALPAID": [
+            "ಸಂಚಿತ ಪ್ರಿನ್ಸಿಪಾಲ್ ಪಾವತಿಸಲಾಗಿದೆ"
+         ],
+         "CUMAPPRECIATION": [
+            "ಕ್ಯೂಮುಲೇಟಿವ್ ಮೆಚ್ಚುಗೆ"
+         ],
+         "CUMCASHFLOW": [
+            "ಕ್ಯೂಮುಲೇಟಿವ್ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+         ],
+         "SHOWRENTALPROPERTY": [
+            "ಬಾಡಿಗೆ ಮಾಡಲಾದ ಘಟಕಗಳು?"
+         ],
+         "RENTALPROPERTY": [
+            "ಬಾಡಿಗೆ ಘಟಕ"
+         ],
+         "MEDIANPRICESTATS": [
+            "ಬೆಲೆ ವಿಶ್ಲೇಷಣೆ"
+         ],
+         "MEDIANCURRENTPRICE": [
+            "ಈ ಆಸ್ತಿ"
+         ],
+         "MEDIANLOWPRICE": [
+            "ಕಡಿಮೆ"
+         ],
+         "MEDIANMARKETPRICE": [
+            "ಮಾರುಕಟ್ಟೆ"
+         ],
+         "MEDIANHIGHPRICE": [
+            "ಹೈ"
+         ],
+         "BACK": [
+            "ಹಿಂದೆ"
+         ],
+         "ACREAGE": [
+            "ಎಕರೆ"
+         ],
+         "SQUAREFOOTAGE": [
+            "ಸ್ಕ್ವೇರ್ ಫೂಟೇಜ್"
+         ],
+         "IRRGROUP": [
+            "ಮೌಲ್ಯ ಚಾಲಕಗಳು"
+         ],
+         "YEAR": [
+            "ವರ್ಷ"
+         ],
+         "RATEOFRETURN": [
+            "ರಿಟರ್ನ್ ದರ"
+         ],
+         "INTERNALRATEOFRETURNWITHMORTGAGE": [
+            "ನಿಯಂತ್ರಿತ ಆಂತರಿಕ ದರ ರಿಟರ್ನ್"
+         ],
+         "INTERNALRATEOFRETURN": [
+            "ಆಂತರಿಕ ದರ ರಿಟರ್ನ್"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGE": [
+            "ವಾರ್ಷಿಕ ಬೆಲೆ ಮೆಚ್ಚುಗೆ"
+         ],
+         "RENTINCREMENTPERCENTAGE": [
+            "ವಾರ್ಷಿಕ ಬಾಡಿಗೆ ಹೆಚ್ಚಳ"
+         ],
+         "SALECLOSINGCOST": [
+            "ಮಾರಾಟ ಮುಚ್ಚುವ ವೆಚ್ಚ"
+         ],
+         "CALCULATERETURN": [
+            "ರಿಟರ್ನ್ಸ್ ವಿಶ್ಲೇಷಿಸಿ"
+         ],
+         "INVESTMENTGROUP": [
+            "ಅಂದಾಜು ಹೂಡಿಕೆ"
+         ],
+         "MORTGAGEGROUP": [
+            "ಅಂದಾಜು ಮಾರ್ಟ್ಗೇಜ್"
+         ],
+         "INCOMEGROUP": [
+            "ಅಂದಾಜು ವಾರ್ಷಿಕ ವರಮಾನ"
+         ],
+         "EXPENSEGROUP": [
+            "ಅಂದಾಜು ವಾರ್ಷಿಕ ವೆಚ್ಚಗಳು"
+         ],
+         "RETURNGROUPWITHOUTMORTGAGE": [
+            "ಅಂದಾಜು ರಿಟರ್ನ್ಸ್"
+         ],
+         "RETURNGROUPWITHMORTGAGE": [
+            "ಅಂದಾಜು ಲೀವೇಜ್ಡ್ ರಿಟರ್ನ್ಸ್"
+         ],
+         "ASKINGPRICE": [
+            "ಬೆಲೆ ಕೇಳುವುದು"
+         ],
+         "CLOSINGCOST": [
+            "ಮುಚ್ಚುವ ವೆಚ್ಚ"
+         ],
+         "INITIALIMPROVEMENTCOST": [
+            "ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚ"
+         ],
+         "DOWNPAYMENTPERCENTAGE": [
+            "ಪಾವತಿಯ ಶೇಕಡಾವಾರು ಕೆಳಗೆ"
+         ],
+         "DOWNPAYMENTCOST": [
+            "ಪಾವತಿ ಡೌನ್"
+         ],
+         "EMICOST": [
+            "ಮಾಸಿಕ ಭೋಗ್ಯ"
+         ],
+         "LOANINTERESTRATE": [
+            "ಸಾಲ ಬಡ್ಡಿ ದರ"
+         ],
+         "LOANDURATION": [
+            "ಅಧಿಕಾರಾವಧಿ"
+         ],
+         "DEPRECIATIONPERCENTAGE": [
+            "ಸವಕಳಿ"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGE": [
+            "ಆರಂಭಿಕ ಬಂಡವಾಳ"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGE": [
+            "ಆರಂಭಿಕ ಬಂಡವಾಳ"
+         ],
+         "TOTALINVESTMENTCOST": [
+            "ವೆಚ್ಚದ ಮೂಲ"
+         ],
+         "COSTBASIS": [
+            "ಒಟ್ಟು ವೆಚ್ಚದ ಬೇಸಿಸ್"
+         ],
+         "ANNUALFREECASHFLOW": [
+            "ಉಚಿತ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGE": [
+            "ತೆರಿಗೆ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE": [
+            "ತೆರಿಗೆ ಕ್ಯಾಶ್ ಫ್ಲೋ"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGE": [
+            "ಒಟ್ಟು ಆರಂಭಿಕ ಹೂಡಿಕೆ"
+         ],
+         "CASHONCASHRETURNPERCENTAGE": [
+            "ನಗದು ರಿಟರ್ನ್ ಮೇಲೆ ನಗದು"
+         ],
+         "APPROXCALCVALUENOTE": [
+            "ನಿಜವಾದ ಮೌಲ್ಯಗಳು ಬದಲಾಗಬಹುದು"
+         ],
+         "ALLPROPERTIES": [
+            "ಎಲ್ಲಾ ಗುಣಲಕ್ಷಣಗಳು"
+         ],
+         "CURRENTPROPERTY": [
+            "ಈ ಆಸ್ತಿ"
+         ],
+         "MEDIANSALEPRICEXAXIS": [
+            "ಮಧ್ಯದ ಮಾರಾಟದ ಬೆಲೆ (ಯುಎಸ್ಡಿ)"
+         ],
+         "MEDIANSALEPRICEYAXIS": [
+            "ವರ್ಗ"
+         ],
+         "MEDIANLEASEPRICEXAXIS": [
+            "ಮಧ್ಯಮ ಬಾಡಿಗೆ"
+         ],
+         "MEDIANLEASEPRICEYAXIS": [
+            "ವರ್ಗ"
+         ],
+         "MEDIANLEASEPRICESTATS": [
+            "ಮಧ್ಯಮ ಬೆಲೆ"
+         ],
+         "MEDIANSALEPRICESTATS": [
+            "ಮಧ್ಯಮ ಬೆಲೆ"
+         ],
+         "DAILY": [
+            "ಪ್ರತಿ ದಿನಕ್ಕೆ"
+         ],
+         "WEEK": [
+            "ವಾರಕ್ಕೆ"
+         ],
+         "MONTH": [
+            "ಪ್ರತಿ ತಿಂಗಳು"
+         ],
+         "ANNUALLY": [
+            "ವರ್ಷಕ್ಕೆ"
+         ],
+         "SCHOOLDISTRICT": [
+            "ಸ್ಕೂಲ್ ಡಿಸ್ಟ್ರಿಕ್ಟ್"
+         ],
+         "RELIGIOUS_FACILITY": [
+            "ಧಾರ್ಮಿಕ ಸೌಲಭ್ಯ"
+         ],
+         "GENERATEREPORT": [
+            "ಪೂರ್ಣ ಫ್ಲೈಯರ್ ರಚಿಸಿ"
+         ],
+         "GENERATEFLYER": [
+            "ಫ್ಲೈಯರ್ ರಚಿಸಿ"
+         ],
+         "DEPOSITS": [
+            "ಠೇವಣಿಗಳು"
+         ],
+         "ADDDEPOSITS": [
+            "ಠೇವಣಿಗಳನ್ನು ಸೇರಿಸಿ"
+         ],
+         "DEPOSITTYPE": [
+            "ಠೇವಣಿ ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "SECURITY_DEPOSIT": [
+            "ಭದ್ರತಾ ಠೇವಣಿ"
+         ],
+         "PET_DEPOSIT": [
+            "ಪೆಟ್ ಠೇವಣಿ"
+         ],
+         "KEY_DEPOSIT": [
+            "ಕೀ ಠೇವಣಿ"
+         ],
+         "CLEANING_DEPOSIT": [
+            "ಠೇವಣಿ ಸ್ವಚ್ಛಗೊಳಿಸುವ"
+         ],
+         "MATCHINGADDRESSES": [
+            "ಹೊಂದಾಣಿಕೆಯ ವಿಳಾಸಗಳು"
+         ],
+         "MATCHINGPROPERTIES": [
+            "ಹೊಂದಾಣಿಕೆಯ ಪ್ರಾಪರ್ಟೀಸ್"
+         ],
+         "MONDAY": [
+            "ಸೋಮವಾರ"
+         ],
+         "TUESDAY": [
+            "ಮಂಗಳವಾರ"
+         ],
+         "WEDNESDAY": [
+            "ಬುಧವಾರ"
+         ],
+         "THURSDAY": [
+            "ಗುರುವಾರ"
+         ],
+         "FRIDAY": [
+            "ಶುಕ್ರವಾರ"
+         ],
+         "SATURDAY": [
+            "ಶನಿವಾರ"
+         ],
+         "SUNDAY": [
+            "ಭಾನುವಾರ"
+         ],
+         "TOMORROW": [
+            "ನಾಳೆ"
+         ],
+         "TODAY": [
+            "ಇಂದು"
+         ],
+         "COMING": [
+            "ಕಮಿಂಗ್"
+         ],
+         "BUYING": [
+            "ಖರೀದಿಸುತ್ತಿದೆ"
+         ],
+         "SELLING": [
+            "ಮಾರಾಟ"
+         ],
+         "REALTORS": [
+            "ಮಾರಾಟಗಾರರು / ದಲ್ಲಾಳಿಗಳು"
+         ],
+         "PROPERTY_MANAGEMENT": [
+            "ಆಸ್ತಿ ನಿರ್ವಹಣೆ"
+         ],
+         "FORECLOSURE": [
+            "ಹಕ್ಕು ನಿರಾಕರಣೆ"
+         ],
+         "LOTAREAUOM": [
+            "ಘಟಕ"
+         ],
+         "LAUNDRYROOM": [
+            "ಬಟ್ಟೆ ಒಗೆಯುವ ಕೋಣೆ"
+         ],
+         "LIBRARY": [
+            "ಲೈಬ್ರರಿ"
+         ],
+         "MEDIAROOM": [
+            "ಮಾಧ್ಯಮ ಕೊಠಡಿ"
+         ],
+         "MOTHERINLAW": [
+            "ಅತ್ತೆ"
+         ],
+         "RECREATIONALROOM": [
+            "ಮನರಂಜನಾ ಕೊಠಡಿ"
+         ],
+         "SITTINGROOM": [
+            "ಕುಳಿತುಕೊಳ್ಳುವ ಕೊಠಡಿ"
+         ],
+         "STORAGE": [
+            "ಸಂಗ್ರಹಣೆ"
+         ],
+         "UTILITY": [
+            "ಉಪಯುಕ್ತತೆ"
+         ],
+         "WALKINCLOSET": [
+            "ವಾಕಿಂಗ್ ಕ್ಲೋಸೆಟ್"
+         ],
+         "WETBAR": [
+            "ವೆಟ್ ಬಾರ್"
+         ],
+         "ATRIUM": [
+            "ಹೃತ್ಕರ್ಣ"
+         ],
+         "ATTIC": [
+            "ಅಟ್ಟಿಕ್"
+         ],
+         "DEN": [
+            "ಡೆನ್"
+         ],
+         "FAMILYROOM": [
+            "ಕುಟುಂಬ ಕೊಠಡಿ"
+         ],
+         "FIREPLACE": [
+            "ಫೈರ್ ಪ್ಲೇಸ್"
+         ],
+         "FOYER": [
+            "ಫಾಯರ್"
+         ],
+         "GREENHOUSE": [
+            "ಗ್ರೀನ್ ಹೌಸ್"
+         ],
+         "GUESTROOM": [
+            "ಅತಿಥಿ ಕೊಠಡಿ"
+         ],
+         "NORTH": [
+            "ಉತ್ತರ"
+         ],
+         "SOUTH": [
+            "ದಕ್ಷಿಣ"
+         ],
+         "EAST": [
+            "ಪೂರ್ವ"
+         ],
+         "WEST": [
+            "ಪಶ್ಚಿಮ"
+         ],
+         "NORTHEAST": [
+            "ನಾರ್ತ್ ಈಸ್ಟ್"
+         ],
+         "NORTHWEST": [
+            "ವಾಯುವ್ಯ"
+         ],
+         "SOUTHEAST": [
+            "ಸೌತ್ ಈಸ್ಟ್"
+         ],
+         "SOUTHWEST": [
+            "ಸೌತ್ ವೆಸ್ಟ್"
+         ],
+         "PARKINGTYPES": [
+            "ಪಾರ್ಕಿಂಗ್ ವಿಧಗಳು"
+         ],
+         "ADDPARKINGTYPES": [
+            "ಪಾರ್ಕಿಂಗ್ ಪ್ರಕಾರಗಳನ್ನು ಸೇರಿಸಿ"
+         ],
+         "LEASEPRICEUOM": [
+            "ಘಟಕ"
+         ],
+         "CHARACTERS": [
+            "ಪಾತ್ರಗಳು"
+         ],
+         "FLOORNUMBER": [
+            "ಮಹಡಿ ಸಂಖ್ಯೆ"
+         ],
+         "FACINGDIRECTION": [
+            "ನಿರ್ದೇಶನವನ್ನು ಎದುರಿಸುತ್ತಿದೆ"
+         ],
+         "LESS": [
+            "ಕಡಿಮೆ"
+         ],
+         "MORE": [
+            "ಇನ್ನಷ್ಟು"
+         ],
+         "TIME_SHARE": [
+            "ಸಮಯ ಹಂಚಿಕೆ"
+         ],
+         "CABIN": [
+            "ಕ್ಯಾಬಿನ್"
+         ],
+         "MLSNUMBER": [
+            "MLS ಸಂಖ್ಯೆ"
+         ],
+         "MLSID": [
+            "MLS"
+         ],
+         "MLSLISTINGURL": [
+            "ಮೂಲ ಲಿಂಕ್ ಪಟ್ಟಿ"
+         ],
+         "MLSPROPERTYTYPE": [
+            "ವರ್ಗ (ಮೂಲದಿಂದ)"
+         ],
+         "MLSPROPERTYSUBTYPE": [
+            "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ (ಮೂಲದಿಂದ)"
+         ],
+         "MLSINFORMATION": [
+            "MLS ಮಾಹಿತಿ"
+         ],
+         "LISTINGAREAUOM": [
+            "ಘಟಕ"
+         ],
+         "YOURADHERE": [
+            "ನಿಮ್ಮ ಜಾಹೀರಾತು ಇಲ್ಲಿ"
+         ],
+         "LOCATIONDIRECTION": [
+            "ದಿಕ್ಕುಗಳು"
+         ],
+         "ACRE": [
+            "ಎಕರೆ"
+         ],
+         "MAXIMIZE": [
+            "ಗರಿಷ್ಠೀಕರಿಸು"
+         ],
+         "INCOME": [
+            "ಆದಾಯ"
+         ],
+         "SELECTALL": [
+            "ಎಲ್ಲವನ್ನು ಆರಿಸು"
+         ],
+         "NAMEUNDISCLOSED": [
+            "ಬಹಿರಂಗಪಡಿಸದ ಆಸ್ತಿ ಹೆಸರು"
+         ],
+         "ADDRESSUNDISCLOSED": [
+            "ಬಹಿರಂಗಪಡಿಸದ ವಿಳಾಸ"
+         ],
+         "PRICEUNDISCLOSED": [
+            "ಬಹಿರಂಗಪಡಿಸದ ಬೆಲೆ"
+         ],
+         "LIKES": [
+            "ಇಷ್ಟಗಳು"
+         ],
+         "FLOORPLAN": [
+            "ಮಹಡಿ ಯೋಜನೆಗಳು ಮತ್ತು ಸಮೀಕ್ಷೆಗಳು"
+         ],
+         "COMMERCIAL_PROPERTIES": [
+            "ವಾಣಿಜ್ಯ ಗುಣಲಕ್ಷಣಗಳು"
+         ],
+         "RESIDENTIAL_INVESTMENTS": [
+            "ವಸತಿ ಹೂಡಿಕೆಗಳು"
+         ],
+         "ROOM": [
+            "ರೂಮ್ ಮಾಹಿತಿ"
+         ],
+         "ROLE": [
+            "ಪಾತ್ರ"
+         ],
+         "LEGALDESCRIPTION": [
+            "ವಿವರಣೆ"
+         ],
+         "DISCLAIMER": [
+            "ಹಕ್ಕುತ್ಯಾಗ"
+         ],
+         "LIVINGAREA": [
+            "ಜೀವಿಸುವ ಜಾಗ"
+         ],
+         "LIVINGROOM": [
+            "ಲಿವಿಂಗ್ ರೂಮ್"
+         ],
+         "STUDY": [
+            "ಅಧ್ಯಯನ"
+         ],
+         "KITCHEN": [
+            "ಅಡಿಗೆ"
+         ],
+         "DININGROOM": [
+            "ಊಟದ ಕೋಣೆ"
+         ],
+         "PATIO": [
+            "ಒಳಾಂಗಣದಲ್ಲಿ"
+         ],
+         "PORCH": [
+            "ಮುಖಮಂಟಪ"
+         ],
+         "DECK": [
+            "ಡೆಕ್"
+         ],
+         "GARAGE": [
+            "ಗ್ಯಾರೇಜ್"
+         ],
+         "WORKSHOP": [
+            "ಕಾರ್ಯಾಗಾರ"
+         ],
+         "BASEMENT": [
+            "ಬೇಸ್ಮೆಂಟ್"
+         ],
+         "BEDROOM": [
+            "ಮಲಗುವ ಕೋಣೆ"
+         ],
+         "BATHROOM": [
+            "ಸ್ನಾನಗೃಹ"
+         ],
+         "FULLBATHROOM": [
+            "ಪೂರ್ಣ ಬಾತ್ರೂಮ್"
+         ],
+         "HALFBATHROOM": [
+            "ಅರ್ಧ ಸ್ನಾನಗೃಹ"
+         ],
+         "QUARTERBATHROOM": [
+            "ಕ್ವಾರ್ಟರ್ ಸ್ನಾನಗೃಹ"
+         ],
+         "THREEQUARTERBATHROOM": [
+            "ಮೂರು ಕ್ವಾರ್ಟರ್ ಸ್ನಾನಗೃಹ"
+         ],
+         "BARBEQUEAREA": [
+            "ಬಾರ್ಬೆಕ್ಯು ಪ್ರದೇಶ"
+         ],
+         "DISABLEDACCESS": [
+            "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ ಪ್ರವೇಶ"
+         ],
+         "LAWNAREA": [
+            "ಲಾನ್ ಪ್ರದೇಶ"
+         ],
+         "WIREDFORAUTOMATION": [
+            "ಆಟೊಮೇಷನ್ಗಾಗಿ ವೈರ್ಡ್"
+         ],
+         "DRAFT": [
+            "ಡ್ರಾಫ್ಟ್"
+         ],
+         "PENDING_APPROVAL": [
+            "ಬಾಕಿ ಇರುವ ವಿಷಯದ ಮಧ್ಯವರ್ತನೆ"
+         ],
+         "PENDING_CONTENT_APPROVAL": [
+            "ಬಾಕಿ ಉಳಿದಿರುವ ವಿಷಯ ಅನುಮೋದನೆ"
+         ],
+         "ACTIVE": [
+            "ಸಕ್ರಿಯ"
+         ],
+         "REJECTED": [
+            "ತಿರಸ್ಕರಿಸಿದ"
+         ],
+         "EXPIRED": [
+            "ಅವಧಿ ಮುಗಿದಿದೆ"
+         ],
+         "CLOSED": [
+            "ಮುಚ್ಚಲಾಗಿದೆ"
+         ],
+         "CLICKTOVIEWPROFILE": [
+            "ಪ್ರೊಫೈಲ್ ಅನ್ನು ವೀಕ್ಷಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "CHOOSEONMAP": [
+            "ನಕ್ಷೆ ಆಯ್ಕೆಮಾಡಿ"
+         ],
+         "CLOSEMAP": [
+            "ನಕ್ಷೆ ಮುಚ್ಚಿ"
+         ],
+         "HOMEFORSALESEARCHHEADER": [
+            "ಮಾರಾಟಕ್ಕೆ ಮನೆಗಳನ್ನು ಹುಡುಕಿ"
+         ],
+         "FORLEASESEARCHHEADER": [
+            "ಬಾಡಿಗೆ / ಬಾಡಿಗೆಗೆ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಹುಡುಕಿ"
+         ],
+         "PROFESSIONALSEARCHHEADER": [
+            "ಸೇವೆ ಒದಗಿಸುವವರು ಅಥವಾ ವೃತ್ತಿಪರರನ್ನು ಹುಡುಕಿ"
+         ],
+         "REALTORSEARCHHEADER": [
+            "ಮೆಚ್ಚಿನ ರಿಯಾಲ್ಟರ್ಸ್ / ಬ್ರೋಕರ್ಗಳನ್ನು ಹುಡುಕಿ"
+         ],
+         "HOMEFORSALE": [
+            "ಇನ್ವೆಸ್ಟ್"
+         ],
+         "HIGHESTCAPRATE": [
+            "ಕ್ಯಾಪ್ ದರ ಸಂಭಾವ್ಯ (ಕಡಿಮೆ ಮಟ್ಟದಿಂದ)"
+         ],
+         "LOWESTCAPRATE": [
+            "ಕ್ಯಾಪ್ ದರ ಸಂಭಾವ್ಯತೆ (ಹೈ ಟು ಹೈ)"
+         ],
+         "CAPRATERANGE": [
+            "ಕ್ಯಾಪ್ ದರ ಸಂಭಾವ್ಯ (%)"
+         ],
+         "INVESTEMENTCATEGORIES": [
+            "ಬಂಡವಾಳ ವರ್ಗಗಳು"
+         ],
+         "PREFERREDLOCATION": [
+            "ಮೆಚ್ಚಿನ ಸ್ಥಳ"
+         ],
+         "PREFERREDLOCATIONS": [
+            "ಮೆಚ್ಚಿನ ಸ್ಥಳಗಳು"
+         ],
+         "MINIMUM": [
+            "ಕನಿಷ್ಠ"
+         ],
+         "MAXIMUM": [
+            "ಗರಿಷ್ಠ"
+         ],
+         "CORE": [
+            "ಕೋರ್ - ಕಡಿಮೆ ಅಪಾಯ / ರಿಟರ್ನ್"
+         ],
+         "COREPLUS": [
+            "ಕೋರ್ ಪ್ಲಸ್ - ಸಾಧಾರಣ ರಿಸ್ಕ್ / ರಿಟರ್ನ್"
+         ],
+         "VALUEADDED": [
+            "ಮೌಲ್ಯ ಸೇರಿಸಿ"
+         ],
+         "DEVELOPMENTOPPORTUNITY": [
+            "ಅಭಿವೃದ್ಧಿ ಅವಕಾಶ"
+         ],
+         "CAPITALCONSTRAINTS": [
+            "ಕ್ಯಾಪಿಟಲ್ ನಿರ್ಬಂಧಗಳು"
+         ],
+         "ENVIRONMENTPROBLEMS": [
+            "ಪರಿಸರ ಸಮಸ್ಯೆಗಳು"
+         ],
+         "MANAGEMENTPROBLEMS": [
+            "ನಿರ್ವಹಣೆ ತೊಂದರೆಗಳು"
+         ],
+         "NEEDSSTRUCTURIALIMPROVEMENTS": [
+            "ರಚನಾತ್ಮಕ ಸುಧಾರಣೆಗಳು ಅಗತ್ಯ"
+         ],
+         "NEEDSINETRIORIMPROVEMENTS": [
+            "ಆಂತರಿಕ ಸುಧಾರಣೆಗಳು ಅಗತ್ಯ"
+         ],
+         "OPERATIONALPROBLEMS": [
+            "ಕಾರ್ಯಾಚರಣೆಯ ತೊಂದರೆಗಳು"
+         ],
+         "OTHERVALUEADDED": [
+            "ಇತರೆ ಮೌಲ್ಯ ಸೇರಿಸಿ"
+         ],
+         "RISKRETURNCATEGORY": [
+            "ಹೂಡಿಕೆ ವರ್ಗ"
+         ],
+         "VALUEADDEDREASON": [
+            "ಕಾರಣ"
+         ],
+         "ALLBILLSPAID": [
+            "ಎಲ್ಲಾ ಬಿಲ್ಗಳು ಪಾವತಿಸಿವೆ"
+         ],
+         "METEREDUNITS": [
+            "ಪ್ರತ್ಯೇಕವಾಗಿ ಮಾಪನ ಮಾಡಿದ ಘಟಕಗಳು"
+         ],
+         "SOMEBILLSPAID": [
+            "ಕೆಲವು ಬಿಲ್ಗಳು ಪಾವತಿಸಿವೆ"
+         ],
+         "MULTIFAMILYHOUSINGTYPE": [
+            "ಯುಟಿಲಿಟಿ ಬಿಲ್ಗಳು"
+         ],
+         "PAIDUTILITIES": [
+            "ಪಾವತಿಸಿದ ಉಪಯುಕ್ತತೆಗಳು"
+         ],
+         "CURRENTRENT": [
+            "ಪ್ರಸ್ತುತ ಬಾಡಿಗೆ"
+         ],
+         "SECURITYDEPOSIT": [
+            "ಭದ್ರತಾ ಠೇವಣಿ"
+         ],
+         "NUMBEROFUNITS": [
+            "ಘಟಕಗಳ ಸಂಖ್ಯೆ"
+         ],
+         "ADD": [
+            "ಸೇರಿಸಿ"
+         ],
+         "DEMOGRAPHICS": [
+            "ಜನಸಂಖ್ಯಾಶಾಸ್ತ್ರ"
+         ],
+         "WIDGETPOPULATION": [
+            "ಜನಸಂಖ್ಯಾ ಅಂಕಿಅಂಶ"
+         ],
+         "WIDGETFMRDATA": [
+            "ನ್ಯಾಯೋಚಿತ ಮಾರುಕಟ್ಟೆ ಬಾಡಿಗೆ ಅಂಕಿಅಂಶಗಳು"
+         ],
+         "WIDGETHOUSING": [
+            "ವಸತಿ ಅಂಕಿಅಂಶಗಳು"
+         ],
+         "WIDGETMEDIANINCOME": [
+            "ಆದಾಯ ಅಂಕಿಅಂಶ"
+         ],
+         "WIDGETOCCUPATION": [
+            "ಉದ್ಯೋಗ ಅಂಕಿಅಂಶಗಳು"
+         ],
+         "WIDGETINCOMESLAB": [
+            "ವರಮಾನ ಚಪ್ಪಡಿ ಅಂಕಿಅಂಶ"
+         ],
+         "WIDGETTRANSPORTATION": [
+            "ಕೆಲಸ ಅಂಕಿಅಂಶಕ್ಕೆ ಪ್ರಯಾಣ"
+         ],
+         "WIDGETSCHOOL": [
+            "ಹತ್ತಿರದ ಶಾಲೆಗಳು"
+         ],
+         "WIDGETVIOLENTCRIME": [
+            "ಹಿಂಸಾತ್ಮಕ ಅಪರಾಧ ಅಂಕಿಅಂಶಗಳು"
+         ],
+         "WIDGETPROPERTYCRIME": [
+            "ಆಸ್ತಿ ಅಪರಾಧ ಅಂಕಿಅಂಶಗಳು"
+         ],
+         "WIDGETDISASTERDATA": [
+            "ಇತ್ತೀಚಿನ ಫೆಡರಲ್ ತುರ್ತುಸ್ಥಿತಿಗಳು"
+         ],
+         "SOURCE": [
+            "ಮೂಲ"
+         ],
+         "WIDGETFMRFOOTER": [
+            "ವಸತಿ ಮತ್ತು ನಗರಾಭಿವೃದ್ಧಿ ಇಲಾಖೆಯ ಯು.ಎಸ್"
+         ],
+         "WIDGETCENSUSFOOTER": [
+            "ಯುಎಸ್ ಸೆನ್ಸಸ್ ಬ್ಯೂರೊ"
+         ],
+         "WIDGETSCHOOLFOOTER": [
+            "ಯುಎಸ್ ಶಿಕ್ಷಣ ಇಲಾಖೆ"
+         ],
+         "WIDGETCRIMEFOOTER": [
+            "ಸಂಯುಕ್ತ ತನಿಖಾ ದಳ"
+         ],
+         "WIDGETDISASTERDATAFOOTER": [
+            "ಫೆಡರಲ್ ಎಮರ್ಜೆನ್ಸಿ ಮ್ಯಾನೇಜ್ಮೆಂಟ್ ಏಜೆನ್ಸಿ"
+         ],
+         "WIDGETEMPLOYMENTGROWTH": [
+            "ಉದ್ಯೋಗ ಬೆಳವಣಿಗೆ ಅಂಕಿಅಂಶಗಳು"
+         ],
+         "WIDGETETHNICITY": [
+            "ಜನಸಂಖ್ಯಾ ಜನಾಂಗೀಯತೆ ಅಂಕಿಅಂಶಗಳು"
+         ],
+         "WIDGETPOPULATIONGROWTH": [
+            "ಉದ್ಯೋಗ ಜನಸಂಖ್ಯೆ ಅಂಕಿಅಂಶ"
+         ],
+         "WIDGETPROPERTYTAX": [
+            "ಆಸ್ತಿ ತೆರಿಗೆ ಅಂಕಿಅಂಶ"
+         ],
+         "TOTALPOPULATION": [
+            "ಒಟ್ಟು ಜನಸಂಖ್ಯೆ"
+         ],
+         "MEDIANAGE": [
+            "ಮಧ್ಯ ವಯಸ್ಸು"
+         ],
+         "WHITE": [
+            "ಬಿಳಿ"
+         ],
+         "BLACK": [
+            "ಕಪ್ಪು"
+         ],
+         "ASIAN": [
+            "ಏಷ್ಯನ್"
+         ],
+         "AMERICAN": [
+            "ಅಮೆರಿಕನ್ ಇಂಡಿಯನ್"
+         ],
+         "HISPANICPERCENTAGE": [
+            "ಹಿಸ್ಪಾನಿಕ್ ಜನಸಂಖ್ಯೆ"
+         ],
+         "EMPTY": [
+            "ಎಲ್ಲಾ"
+         ],
+         "OTHER": [
+            "ಇತರೆ"
+         ],
+         "MALEFEMALERATIO": [
+            "ಪುರುಷ / ಸ್ತ್ರೀ ಅನುಪಾತ"
+         ],
+         "FAIRMARKETRENT": [
+            "ನ್ಯಾಯೋಚಿತ ಮಾರುಕಟ್ಟೆ ಬಾಡಿಗೆ"
+         ],
+         "FMRDATAXAXIS": [
+            "ವರ್ಷ"
+         ],
+         "FMRDATAYAXIS": [
+            "ಮಾರುಕಟ್ಟೆ ಬಾಡಿಗೆ"
+         ],
+         "EFFICIENTAPARTMENTPRICE": [
+            "ದಕ್ಷತೆ"
+         ],
+         "ONEBHKAPARTMENTPRICE": [
+            "ಏಕ ಬೆಡ್ರೂಮ್"
+         ],
+         "TWOBHKAPARTMENTPRICE": [
+            "ಡಬಲ್ ಬೆಡ್ರೂಮ್"
+         ],
+         "THREEBHKAPARTMENTPRICE": [
+            "ಮೂರು ಮಲಗುವ ಕೋಣೆ"
+         ],
+         "FOURBHKAPARTMENTPRICE": [
+            "ನಾಲ್ಕು ಮಲಗುವ ಕೋಣೆ"
+         ],
+         "UNKNOWN": [
+            "ಅಜ್ಞಾತ"
+         ],
+         "TOTALUNITS": [
+            "ಘಟಕಗಳ ಒಟ್ಟು ಸಂಖ್ಯೆ"
+         ],
+         "OCCUPIEDUNIT": [
+            "ಆಕ್ರಮಿತ ಘಟಕಗಳು"
+         ],
+         "RENTEDUNIT": [
+            "ಬಾಡಿಗೆ ಘಟಕಗಳು"
+         ],
+         "OCCUPIEDRENTEDUNITXAXIS": [
+            "ವರ್ಷ"
+         ],
+         "OCCUPIEDRENTEDUNITYAXIS": [
+            "ಘಟಕಗಳ ಶೇಕಡಾವಾರು"
+         ],
+         "POPULATIONGROWTHYAXIS": [
+            "ಜನಸಂಖ್ಯೆ"
+         ],
+         "POPULATIONGROWTH": [
+            "ಒಟ್ಟು ಜನಸಂಖ್ಯೆ"
+         ],
+         "POPULATIONGROWTHXAXIS": [
+            "ವರ್ಷ"
+         ],
+         "EMPLOYEMENTGROWTHYAXIS": [
+            "ಉದ್ಯೋಗ ಜನಸಂಖ್ಯೆಯ ಶೇಕಡಾವಾರು"
+         ],
+         "EMPLOYEMENTGROWTH": [
+            "ಉದ್ಯೋಗದ ಜನಸಂಖ್ಯೆ"
+         ],
+         "EMPLOYEMENTGROWTHXAXIS": [
+            "ವರ್ಷ"
+         ],
+         "OTHEROCCUPATION": [
+            "ಇತರೆ ಉದ್ಯೋಗ"
+         ],
+         "EMPLOYEDPERCENTAGE": [
+            "ಉದ್ಯೋಗದ ಜನಸಂಖ್ಯೆ"
+         ],
+         "MEDIANPROPERTYTAX": [
+            "ಮಧ್ಯಮ ಆಸ್ತಿ ತೆರಿಗೆ"
+         ],
+         "MEDIANPROPERTYTAXYAXIS": [
+            "ವರ್ಷ"
+         ],
+         "MEDIANPROPERTYTAXXAXIS": [
+            "ಆಸ್ತಿ ತೆರಿಗೆ ಪಾವತಿಸಲಾಗಿದೆ"
+         ],
+         "MEDIANINCOME": [
+            "ಮಧ್ಯಮ ವರಮಾನ"
+         ],
+         "MEDIANINCOMEXAXIS": [
+            "ವರ್ಷ"
+         ],
+         "MEDIANINCOMEYAXIS": [
+            "ಆದಾಯ"
+         ],
+         "MANAGEMENTOCCUPATION": [
+            "ನಿರ್ವಹಣೆ"
+         ],
+         "SERVICEOCCUPATION": [
+            "ಸೇವೆ"
+         ],
+         "SALESOCCUPATION": [
+            "ಮಾರಾಟ"
+         ],
+         "CONSTRUCTIONOCCUPATION": [
+            "ನಿರ್ಮಾಣ"
+         ],
+         "PRODUCTIONOCCUPATION": [
+            "ಉತ್ಪಾದನೆ"
+         ],
+         "INCOMESLAB": [
+            "ಒಟ್ಟು ಜನಸಂಖ್ಯೆ"
+         ],
+         "INCOMESLABXAXIS": [
+            "ಇನ್ಫ್ಯಾಮ್ ಸ್ಲ್ಯಾಬ್"
+         ],
+         "INCOMESLABYAXIS": [
+            "ಜನಸಂಖ್ಯೆ"
+         ],
+         "BELOWFIFTEENTHOUSANDINCOME": [
+            "<15 ಕೆ"
+         ],
+         "FIFTEENTOTHIRTYTHOUSANDINCOME": [
+            "15 ಕೆ - 30 ಕೆ"
+         ],
+         "THIRTYTOFIFTYTHOUSANDINCOME": [
+            "30 ಕೆ - 50 ಕೆ"
+         ],
+         "FIFTYTOSEVENTYFIVEHOUSANDINCOME": [
+            "50 ಕೆ - 75 ಕೆ"
+         ],
+         "SEVENTYFIVETOHUNDREDTHOUSANDINCOME": [
+            "75 ಕೆ - 100 ಕೆ"
+         ],
+         "HUNDREDTOONEFIFTYTHOUSANDINCOME": [
+            "100 ಕೆ - 150 ಕೆ"
+         ],
+         "ONEFIFTYABOVETHOUSANDINCOME": [
+            "> 150 ಕೆ"
+         ],
+         "MEANTRAVELTIME": [
+            "ಕೆಲಸ ಮಾಡಲು ಸಮಯ ಮೀರಿ ಸಮಯ"
+         ],
+         "TRANSPORTATIONMEANS": [
+            "ಸಾಗಣೆಯ ವಿಧಾನಗಳು"
+         ],
+         "TRANSPORTATIONMEANSXAXIS": [
+            "ಜನಸಂಖ್ಯೆಯ ಶೇಕಡಾವಾರು"
+         ],
+         "TRANSPORTATIONMEANSYAXIS": [
+            "ಸಾರಿಗೆ ಆಯ್ಕೆ"
+         ],
+         "PEOPLEDROVEALONE": [
+            "ಡ್ರೊನ್ ಅಲೋನ್"
+         ],
+         "PEOPLECARPOOLED": [
+            "ಕಾರ್ ಪೂಲ್ಡ್"
+         ],
+         "PEOPLEUSEDPUBLICTRANSPORTATION": [
+            "ಸಾರ್ವಜನಿಕ ವಿನಿಮಯ"
+         ],
+         "PEOPLEUSEDBICYCLEORWALKED": [
+            "ಬೈಸಿಕಲ್ ಅಥವಾ ವಾಕ್ಡ್"
+         ],
+         "PEOPLEUSEDOTHERTRANSPORTATION": [
+            "ಇತರೆ ಸಾರಿಗೆ"
+         ],
+         "PEOPLEWORKEDATHOME": [
+            "ಮುಖಪುಟದಲ್ಲಿ ಕೆಲಸ"
+         ],
+         "SCHOOLNAME": [
+            "ಶಾಲೆಯ ಹೆಸರು"
+         ],
+         "LOWESTGRADE": [
+            "ಕಡಿಮೆ ಗ್ರೇಡ್"
+         ],
+         "HIGHESTGRADE": [
+            "ಅತ್ಯುನ್ನತ ಗ್ರೇಡ್"
+         ],
+         "SCHOOLTYPE": [
+            "ಸ್ಕೂಲ್ ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "VIOLENTCRIMEDATA": [
+            "ಹಿಂಸಾತ್ಮಕ ಅಪರಾಧ ದರ"
+         ],
+         "VIOLENTCRIMEDATAXAXIS": [
+            "ವರ್ಷ"
+         ],
+         "VIOLENTCRIMEDATAYAXIS": [
+            "ಕ್ರೈಮ್ ದರ (ಪ್ರತಿ 100,000 ಜನಸಂಖ್ಯೆಗೆ)"
+         ],
+         "PROPERTYCRIMEDATA": [
+            "ಆಸ್ತಿ ಅಪರಾಧ ದರ"
+         ],
+         "PROPERTYCRIMEDATAXAXIS": [
+            "ವರ್ಷ"
+         ],
+         "PROPERTYCRIMEDATAYAXIS": [
+            "ಕ್ರೈಮ್ ದರ (ಪ್ರತಿ 100,000 ಜನಸಂಖ್ಯೆಗೆ)"
+         ],
+         "INCIDENTTITLE": [
+            "ಘಟನೆ"
+         ],
+         "INCIDENTTYPE": [
+            "ಘಟನೆ ಪ್ರಕಾರ"
+         ],
+         "IHPROGRAMDECLARED": [
+            "ಮಧ್ಯಂತರ ವಸತಿ?"
+         ],
+         "IAPROGRAMDECLARED": [
+            "ವೈಯಕ್ತಿಕ ಸಹಾಯ?"
+         ],
+         "PAPROGRAMDECLARED": [
+            "ಸಾರ್ವಜನಿಕ ಸಹಾಯ?"
+         ],
+         "HMPROGRAMDECLARED": [
+            "ಅಪಾಯ ನಿವಾರಣೆ?"
+         ],
+         "INCIDENTBEGINDATE": [
+            "ಘಟನೆ ದಿನಾಂಕ"
+         ],
+         "TAGNAME": [
+            "ಫೋಟೋ ಲೇಬಲ್"
+         ],
+         "RENAMEFILE": [
+            "ನಿಮ್ಮ ಡಾಕ್ಯುಮೆಂಟ್ ಅನ್ನು ಮರುಹೆಸರಿಸಿ"
+         ],
+         "FILENAME": [
+            "ಡಾಕ್ಯುಮೆಂಟ್ ಹೆಸರು"
+         ],
+         "VIDEOTITLE": [
+            "ವೀಡಿಯೊ ಶೀರ್ಷಿಕೆ"
+         ],
+         "VIDEOURL": [
+            "ವೀಡಿಯೊ URL"
+         ],
+         "CLOSE": [
+            "ಮುಚ್ಚಿ"
+         ],
+         "MINIMIZE": [
+            "ಕಡಿಮೆಗೊಳಿಸು"
+         ],
+         "COMMENTS": [
+            "ಪ್ರತಿಕ್ರಿಯೆಗಳು"
+         ],
+         "FEEDBACKCONTENTMESSAGE": [
+            "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಿ ..."
+         ],
+         "SITEFEEDBACKHEADER": [
+            "ಸೈಟ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕಳುಹಿಸಿ"
+         ],
+         "SENDSITEFEEDBACK": [
+            "ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ"
+         ],
+         "READMORE": [
+            "ಮತ್ತಷ್ಟು ಓದು…"
+         ],
+         "SEARCHBYPROPERTY": [
+            "ಆಸ್ತಿಯನ್ನು ಹುಡುಕಿ"
+         ],
+         "SEARCHBYREALTOR": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅನ್ನು ಹುಡುಕಿ"
+         ],
+         "QUESTION": [
+            "ಪ್ರಶ್ನೆ"
+         ],
+         "OFFLINE": [
+            "ಆಫ್ಲೈನ್"
+         ],
+         "SAVING": [
+            "ಉಳಿಸಲಾಗುತ್ತಿದೆ !!!"
+         ],
+         "SAVED": [
+            "ಉಳಿಸಲಾಗಿದೆ !!!"
+         ],
+         "YEARS": [
+            "ವರ್ಷಗಳು"
+         ],
+         "MONTHS": [
+            "ತಿಂಗಳುಗಳು"
+         ],
+         "WEEKS": [
+            "ವಾರಗಳು"
+         ],
+         "DAYS": [
+            "ದಿನಗಳು"
+         ],
+         "MASTERLEASE": [
+            "ಮಾಸ್ಟರ್ ಲೀಸ್"
+         ],
+         "SUBLEASE": [
+            "ಸಬ್ ಲೀಸ್"
+         ],
+         "TYPING": [
+            "% S ಟೈಪ್ ಮಾಡಲಾಗುತ್ತಿದೆ ..."
+         ],
+         "NEWMESSAGES": [
+            "ಹೊಸ ಸಂದೇಶ (ಗಳು)"
+         ],
+         "DEFAULTCHATMESSAGE": [
+            "ನಿಮ್ಮ ಸಂದೇಶವನ್ನು ಇಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ ..."
+         ],
+         "MOREACTIONS": [
+            "ಇನ್ನಷ್ಟು ಕ್ರಿಯೆಗಳು"
+         ],
+         "ACTIONS": [
+            "ಕ್ರಿಯೆಗಳು"
+         ],
+         "THUMBNAIL": [
+            "ಫೋಟೋ"
+         ],
+         "LEFT": [
+            "ಎಡ"
+         ],
+         "RIGHT": [
+            "ಬಲ"
+         ],
+         "ROTATE": [
+            "ತಿರುಗಿಸಿ"
+         ],
+         "ZOOM": [
+            "ಜೂಮ್"
+         ],
+         "RSVP": [
+            "ಆರ್ಎಸ್ವಿಪಿ"
+         ],
+         "SEEALL": [
+            "ಎಲ್ಲವನ್ನೂ ನೋಡು"
+         ],
+         "EXISTING": [
+            "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ"
+         ],
+         "NEW": [
+            "ಹೊಸ"
+         ],
+         "NEWLYRENOVATED": [
+            "ಹೊಸದಾಗಿ ನವೀಕರಣಗೊಂಡ"
+         ],
+         "UNDERCONSTRUCTION": [
+            "ಅಂಡರ್ ಕನ್ಸ್ಟ್ರಕ್ಷನ್"
+         ],
+         "PROPOSED": [
+            "ಪ್ರಸ್ತಾಪಿತ"
+         ],
+         "ARCHITECT": [
+            "ವಾಸ್ತುಶಿಲ್ಪಿ"
+         ],
+         "HOMETELEPHONE": [
+            "ಮುಖಪುಟ ದೂರವಾಣಿ"
+         ],
+         "OFFICETELEPHONE": [
+            "ಕಚೇರಿ ದೂರವಾಣಿ"
+         ],
+         "MOBILE": [
+            "ಮೊಬೈಲ್"
+         ],
+         "AUCTION": [
+            "ಹರಾಜು"
+         ],
+         "BANKOWNED": [
+            "ಬ್ಯಾಂಕ್ ಸ್ವಾಮ್ಯದ"
+         ],
+         "ELECTRICITYBACKUP": [
+            "ವಿದ್ಯುತ್ ಬ್ಯಾಕಪ್"
+         ],
+         "BYBUILDER": [
+            "ಬಿಲ್ಡರ್ ಮೂಲಕ"
+         ],
+         "BYOWNER": [
+            "ಮಾಲೀಕರಿಂದ"
+         ],
+         "BYAGENT": [
+            "ಏಜೆಂಟ್ ಮೂಲಕ"
+         ],
+         "BYBANK": [
+            "ಬ್ಯಾಂಕ್"
+         ],
+         "NEWCONSTRUCTION": [
+            "ಹೊಸ ನಿರ್ಮಾಣ"
+         ],
+         "FORSALE": [
+            "ಮಾರಾಟಕ್ಕೆ"
+         ],
+         "FORLEASE": [
+            "ಬಾಡಿಗೆ / ಬಾಡಿಗೆಗೆ"
+         ],
+         "FORAUCTION": [
+            "ಹರಾಜು"
+         ],
+         "LAND": [
+            "ಜಮೀನು"
+         ],
+         "RESIDENTIAL": [
+            "ವಸತಿ"
+         ],
+         "TWIN_HOME": [
+            "ಟ್ವಿನ್ ಹೋಮ್"
+         ],
+         "LOFT_STYLE": [
+            "ಲಾಫ್ಟ್ ಶೈಲಿಯ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+         ],
+         "GARDEN_HOME_SINGLE_UNIT": [
+            "ಗಾರ್ಡನ್ ಹೋಮ್"
+         ],
+         "GARDEN_HOME_1_4_UNITS": [
+            "ಗಾರ್ಡನ್ ಮುಖಪುಟ 1 ರಿಂದ 4 ಘಟಕಗಳು"
+         ],
+         "CONDO_SINGLE_UNIT": [
+            "ಕಾಂಡೋ"
+         ],
+         "CONDO_1_4_UNITS": [
+            "ಕಾಂಡೋ 1 ರಿಂದ 4 ಘಟಕಗಳು"
+         ],
+         "TOWNHOME_1_4_UNITS": [
+            "ಟೌನ್ ಮುಖಪುಟ 1 ರಿಂದ 4 ಘಟಕಗಳು"
+         ],
+         "OTHER_RESIDENTIAL": [
+            "ಇತರ ವಸತಿ"
+         ],
+         "TRIPLEX": [
+            "ಟ್ರಿಪ್ಲೆಕ್ಸ್"
+         ],
+         "QUADRUPLEX": [
+            "ಕ್ವಾಡ್ರುಪ್ಲೆಕ್ಸ್"
+         ],
+         "MOBILE_HOME": [
+            "ಮೊಬೈಲ್ ಹೋಮ್"
+         ],
+         "DUPLEX": [
+            "ಡ್ಯುಪ್ಲೆಕ್ಸ್"
+         ],
+         "DUPLEX_SINGLE_UNIT": [
+            "ಡ್ಯುಪ್ಲೆಕ್ಸ್"
+         ],
+         "TOWNHOME_SINGLE_UNIT": [
+            "ಟೌನ್ಹೋಮ್"
+         ],
+         "DUPLEX_2_UNITS": [
+            "ಡ್ಯೂಪ್ಲೆಕ್ಸ್ 2 ಘಟಕಗಳು"
+         ],
+         "SINGLE_FAMILY_HOME_PORTFOLIO": [
+            "ಒಂದೇ ಕುಟುಂಬದ ಮನೆ - ಬಂಡವಾಳ"
+         ],
+         "TOWN_HOME": [
+            "ಟೌನ್ ಹೋಮ್"
+         ],
+         "GARDEN_HOME": [
+            "ಗಾರ್ಡನ್ ಹೋಮ್"
+         ],
+         "CONGREGATE_HOUSING": [
+            "ವಸತಿ ಸಭೆ"
+         ],
+         "ASSISTED_LIVING": [
+            "ಸಹಾಯಕ ಜೀವನ"
+         ],
+         "SINGLE_FAMILY_HOME": [
+            "ಒಂದೇ ಕುಟುಂಬದ ಮನೆ"
+         ],
+         "TOWN_HOUSE": [
+            "ಟೌನ್ ಹೌಸ್"
+         ],
+         "GARDEN_LOW_RISE": [
+            "ನಗರದಲ್ಲಿ ಮನೆ"
+         ],
+         "INDEPENDENT_HOUSE": [
+            "ಸ್ವತಂತ್ರ ಹೌಸ್"
+         ],
+         "MULTI_FAMILY_APARTMENT": [
+            "ಮಲ್ಟಿ ಫ್ಯಾಮಿಲಿ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+         ],
+         "RESIDENTIAL_APARTMENT": [
+            "ವಸತಿ ಅಪಾರ್ಟ್ಮೆಂಟ್"
+         ],
+         "APARTMENT": [
+            "ಅಪಾರ್ಟ್ಮೆಂಟ್"
+         ],
+         "ROW_HOUSE": [
+            "ರೋ ಹೌಸ್"
+         ],
+         "PG_ACCOMMODATION": [
+            "ಬಾಡಿಗೆ ಅತಿಥಿ ವಸತಿ"
+         ],
+         "HOTEL_AND_LODGING": [
+            "ಹೋಟೆಲು ಮತ್ತು ವಸತಿ"
+         ],
+         "SERVICED_APARTMENT": [
+            "ಸೇವೆಯುಕ್ತ ಅಪಾರ್ಟ್"
+         ],
+         "CONDO": [
+            "ರೋ ಹೌಸ್"
+         ],
+         "RESTAURANT": [
+            "ಉಪಹಾರ ಗೃಹ"
+         ],
+         "PETROL_BUNK": [
+            "ಪೆಟ್ರೋಲ್ ಬಂಕ್"
+         ],
+         "ENTERTAINMENT": [
+            "ಮನರಂಜನೆ"
+         ],
+         "THEATRE": [
+            "ಥಿಯೇಟರ್"
+         ],
+         "CAFE": [
+            "ಕೆಫೆ"
+         ],
+         "BAR": [
+            "ಬಾರ್"
+         ],
+         "ELECTRICITY": [
+            "ವಿದ್ಯುತ್"
+         ],
+         "TELEPHONE": [
+            "ದೂರವಾಣಿ"
+         ],
+         "WATER": [
+            "ನೀರು"
+         ],
+         "GAS": [
+            "ಗ್ಯಾಸ್"
+         ],
+         "CABLE": [
+            "ಕೇಬಲ್"
+         ],
+         "INTERNET": [
+            "ಇಂಟರ್ನೆಟ್"
+         ],
+         "WIFI": [
+            "ವೈಫೈ"
+         ],
+         "POWERBACKUP": [
+            "ಪವರ್ ಬ್ಯಾಕಪ್"
+         ],
+         "CLIMATECONTROL": [
+            "ಹವಾಮಾನ ನಿಯಂತ್ರಣ"
+         ],
+         "AIRCONDITION": [
+            "ಹವಾ ನಿಯಂತ್ರಣ"
+         ],
+         "ELEVATORS": [
+            "ಎಲಿವೇಟರ್"
+         ],
+         "WASTEDISPOSAL": [
+            "ತ್ಯಾಜ್ಯ ವಿಲೇವಾರಿ"
+         ],
+         "VIDEOSURVEILLANCE": [
+            "ವೀಡಿಯೊ ಕಣ್ಗಾವಲು"
+         ],
+         "CAFETERIA": [
+            "ಕೆಫೆಟೇರಿಯಾ"
+         ],
+         "SECURITY": [
+            "ಭದ್ರತಾ"
+         ],
+         "GYM": [
+            "ಜಿಮ್"
+         ],
+         "CLUBHOUSE": [
+            "ಕ್ಲಬ್ ಹೌಸ್"
+         ],
+         "CHILDCARE": [
+            "ಚೈಲ್ಡ್ ಕೇರ್"
+         ],
+         "RECREATIONAREA": [
+            "ಮನರಂಜನಾ ಪ್ರದೇಶ"
+         ],
+         "CONFERENCEROOM": [
+            "ಕಾನ್ಫರೆನ್ಸ್ ರೂಮ್"
+         ],
+         "MAINTENANCESTAFF": [
+            "ಮೇಂಟೆನೆನ್ಸ್ ಸ್ಟಾಫ್"
+         ],
+         "SMOKINGZONE": [
+            "ಧೂಮಪಾನ ವಲಯ"
+         ],
+         "QUICKSEARCH": [
+            "ಶೀಘ್ರ ಹುಡುಕಾಟ"
+         ],
+         "NAME": [
+            "ಹೆಸರು"
+         ],
+         "OTP": [
+            "ಒಂದು ಟೈಮ್ ಪಾಸ್ವರ್ಡ್"
+         ],
+         "SENDOTP": [
+            "OTP ಕಳುಹಿಸಿ"
+         ],
+         "RESENDOTP": [
+            "ಒಂದು ಟೈಮ್ ಪಾಸ್ವರ್ಡ್ ಕಳುಹಿಸಿ ಮರು"
+         ],
+         "HOME": [
+            "ಮುಖಪುಟ"
+         ],
+         "SUMMARY": [
+            "ಸಾರಾಂಶ"
+         ],
+         "MYSEARCHES": [
+            "ನನ್ನ ಹುಡುಕಾಟಗಳು"
+         ],
+         "FILTERS": [
+            "ಶೋಧಕಗಳು"
+         ],
+         "SHOW": [
+            "ಶೋ"
+         ],
+         "SAVEASDRAFT": [
+            "ಡ್ರಾಫ್ಟ್ ಉಳಿಸಿ"
+         ],
+         "MAP": [
+            "ನಕ್ಷೆ"
+         ],
+         "SAVE": [
+            "ಉಳಿಸಿ"
+         ],
+         "SUBMIT": [
+            "ಸಲ್ಲಿಸಲು"
+         ],
+         "FIND": [
+            "ಕ್ಲಿಕ್"
+         ],
+         "CLEAR": [
+            "ಸ್ಪಷ್ಟ"
+         ],
+         "HIDE": [
+            "ಮರೆಮಾಡಿ"
+         ],
+         "RADIUS": [
+            "ತ್ರಿಜ್ಯ"
+         ],
+         "CLEARALL": [
+            "ಎಲ್ಲವನ್ನೂ ತೆಗೆ"
+         ],
+         "SORT": [
+            "ವಿಂಗಡಿಸಿ"
+         ],
+         "VIEWONMAP": [
+            "ನಕ್ಷೆಯಲ್ಲಿ ವೀಕ್ಷಿಸಿ"
+         ],
+         "ADDRESS": [
+            "ವಿಳಾಸ"
+         ],
+         "PROPERTYNAME": [
+            "ಆಸ್ತಿ ಹೆಸರು"
+         ],
+         "PROPERTYTYPE": [
+            "ವರ್ಗ"
+         ],
+         "PROPERTYSUBTYPE": [
+            "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "AREA": [
+            "ಪ್ರದೇಶ"
+         ],
+         "LOTAREA": [
+            "ಕಥಾವಸ್ತುವಿನಲ್ಲಿ ಪ್ರದೇಶ"
+         ],
+         "PROPERTYDESCRIPTION": [
+            "ಆಸ್ತಿ ವಿವರಣೆ"
+         ],
+         "HIGHLIGHTS": [
+            "ಮುಖ್ಯಾಂಶಗಳು"
+         ],
+         "CANCEL": [
+            "ರದ್ದು"
+         ],
+         "OK": [
+            "ಸರಿ"
+         ],
+         "PHOTOS": [
+            "ಚಿತ್ರಗಳು"
+         ],
+         "ADDITIONALDOCUMENTS": [
+            "ದಾಖಲೆಗಳು"
+         ],
+         "ADDVIDEOLINKS": [
+            "ವೀಡಿಯೊಗಳು"
+         ],
+         "PROPERTYLISTINGTYPE": [
+            "ಜಾಹೀರಾತು ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "ADDITIONALDETAILS": [
+            "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ"
+         ],
+         "FINANCIALINFORMATION": [
+            "ಅವಲೋಕನ"
+         ],
+         "FINANCIALS": [
+            "ಹಣಕಾಸು"
+         ],
+         "PRICERANGE": [
+            "ಬೆಲೆ"
+         ],
+         "AREARANGE": [
+            "ಪ್ರದೇಶ (ಚದರ ಅಡಿ)"
+         ],
+         "MYPROFILE": [
+            "ಸ್ವ ಭೂಮಿಕೆ"
+         ],
+         "MOBILENUMBER": [
+            "ಮೊಬೈಲ್ ನಂಬರ"
+         ],
+         "MYCOMPANY": [
+            "ನನ್ನ ಕಂಪನಿ"
+         ],
+         "MYLISTINGS": [
+            "ನನ್ನ ಪಟ್ಟಿಗಳು"
+         ],
+         "ABOUTUS": [
+            "ನಮ್ಮ ಬಗ್ಗೆ"
+         ],
+         "CONTACTUS": [
+            "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ"
+         ],
+         "FAQ": [
+            "ಪುನರಾವರ್ತಿತ ಪ್ರಶ್ನೆಗಳು"
+         ],
+         "TITLE": [
+            "ಜಾಹೀರಾತು ಶೀರ್ಷಿಕೆ"
+         ],
+         "PROPERTYLISTINGSALETYPE": [
+            "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+         ],
+         "ENDDATE": [
+            "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ"
+         ],
+         "STATUS": [
+            "ಸ್ಥಿತಿ"
+         ],
+         "DISTRESSED": [
+            "ತೊಂದರೆಗೀಡಾದ"
+         ],
+         "DISTRESSEDSTATUS": [
+            "ತೊಂದರೆಗೀಡಾದ ಸ್ಥಿತಿ"
+         ],
+         "SALEPRICE": [
+            "ಹಣಕಾಸಿನ ಮಾಹಿತಿ"
+         ],
+         "LEASEPRICE": [
+            "ಬಾಡಿಗೆ ಮಾಹಿತಿ"
+         ],
+         "BIDPRICE": [
+            "ಬಿಡ್ ಬೆಲೆ"
+         ],
+         "BIDSTARTPRICE": [
+            "ಬಿಡ್ ಪ್ರಾರಂಭಿಸಿ ಬೆಲೆ"
+         ],
+         "DEPOSITAMOUNT": [
+            "ಭದ್ರತಾ ಠೇವಣಿ"
+         ],
+         "DAYSFORFULLPAYMENT": [
+            "ಪೂರ್ಣ ಪಾವತಿ ದಿನಗಳ"
+         ],
+         "BIDSTARTDATE": [
+            "ಬಿಡ್ ಪ್ರಾರಂಭ ದಿನಾಂಕ"
+         ],
+         "BIDENDDATE": [
+            "ಬಿಡ್ ಅಂತಿಮ ದಿನಾಂಕ"
+         ],
+         "COMMISSIONSPLIT": [
+            "ಖರೀದಿದಾರನ ಏಜೆಂಟ್ ಕಮಿಷನ್"
+         ],
+         "COMMISSIONPERCENTAGE": [
+            "ಆಯೋಗದ ಶೇಕಡಾವಾರು"
+         ],
+         "COMMISSIONAMOUNT": [
+            "ಆಯೋಗದ ಚಾರ್ಜಸ್"
+         ],
+         "PERSQUAREFEET": [
+            "ಪ್ರತಿ ಚದರ ಅಡಿ"
+         ],
+         "BASERATEPERSQUAREFEET": [
+            "ಪ್ರತಿ ಅಡಿ ಚದರ ಅಡಿ"
+         ],
+         "RATEPERSQUAREFEET": [
+            "ಪ್ರತಿ ಚದರ ಅಡಿಗೆ ದರ"
+         ],
+         "DISCLOSEADDRESS": [
+            "ವಿಳಾಸವನ್ನು ಬಹಿರಂಗಪಡಿಸುವುದೇ?"
+         ],
+         "DISCLOSEPRICE": [
+            "ಬೆಲೆ ಬಹಿರಂಗಪಡಿಸುವುದೇ?"
+         ],
+         "PRICE": [
+            "ಬೆಲೆ"
+         ],
+         "DESPOSITAMOUNT": [
+            "ಠೇವಣಿ"
+         ],
+         "LEASEPERIOD": [
+            "ವರ್ಷಗಳಲ್ಲಿ ಲೀಸ್ ಅವಧಿ"
+         ],
+         "LEASETERM": [
+            "ಲೀಸ್ ಅವಧಿ"
+         ],
+         "LEASETERMUOM": [
+            "ಘಟಕ"
+         ],
+         "SALETYPE": [
+            "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+         ],
+         "CAPRATEKNOWN": [
+            "ಕ್ಯಾಪ್ ದರವನ್ನು ಲೆಕ್ಕಹಾಕು?"
+         ],
+         "CAPRATETYPE": [
+            "ಹಣಕಾಸು ಪ್ರಕಾರ"
+         ],
+         "ACTUAL": [
+            "ವಾಸ್ತವಿಕ"
+         ],
+         "PROFORMA": [
+            "ಪ್ರೊ-ಫಾರ್ಮ್"
+         ],
+         "GROSSRENTREVENUE": [
+            "ಒಟ್ಟು ಬಾಡಿಗೆ ಆದಾಯ"
+         ],
+         "VACANCYLOSSES": [
+            "ಖಾಲಿ ನಷ್ಟಗಳು"
+         ],
+         "OWNERASSOCIATIONFEE": [
+            "ಮಾಲೀಕರು ಅಸೋಸಿಯೇಷನ್ ​​ಶುಲ್ಕಗಳು"
+         ],
+         "MANAGEMENTANDLEASINGFEES": [
+            "ನಿರ್ವಹಣೆ ಮತ್ತು ಲೀಸಿಂಗ್ ಶುಲ್ಕಗಳು"
+         ],
+         "PROPERTYINSURANCE": [
+            "ಆಸ್ತಿ ವಿಮೆ"
+         ],
+         "PROPERTYTAXES": [
+            "ಆಸ್ತಿ ತೆರಿಗೆಗಳು"
+         ],
+         "PROPERTYMAINTENANCE": [
+            "ಆಸ್ತಿ ನಿರ್ವಹಣೆ ವೆಚ್ಚಗಳು"
+         ],
+         "OTHEREXPENSES": [
+            "ಇತರೆ ವೆಚ್ಚಗಳು"
+         ],
+         "CALCULATEANDAPPLY": [
+            "ಅನ್ವಯಿಸು"
+         ],
+         "CALCULATENETOPERATINGINCOME": [
+            "ಲೆಕ್ಕ"
+         ],
+         "NETOPERATINGINCOME": [
+            "ನೆಟ್ ಆಪರೇಟಿಂಗ್ ವರಮಾನ"
+         ],
+         "CALCULATEDCAPRATE": [
+            "ಕ್ಯಾಪ್ ಪ್ರಮಾಣ"
+         ],
+         "CAPRATE": [
+            "ಕ್ಯಾಪ್ ಪ್ರಮಾಣ"
+         ],
+         "DELETE": [
+            "ತೆಗೆದುಹಾಕಿ"
+         ],
+         "IMAGEURLS": [
+            "ಚಿತ್ರಗಳು"
+         ],
+         "PRIMARYIDENTIFIER": [
+            "ಆಸ್ತಿ ಗುರುತಿನ ಸಂಖ್ಯೆ"
+         ],
+         "TOTALAREA": [
+            "ಒಟ್ಟು ಪ್ರದೇಶ"
+         ],
+         "DESCRIPTION": [
+            "ವಿವರಣೆ"
+         ],
+         "AMENITIES": [
+            "ಸೌಲಭ್ಯಗಳನ್ನು"
+         ],
+         "UTILITIES": [
+            "ಉಪಯುಕ್ತತೆಗಳನ್ನು"
+         ],
+         "CONDITIONS": [
+            "ನಿಯಮಗಳು"
+         ],
+         "LINEONE": [
+            "ರಸ್ತೆ ವಿಳಾಸ"
+         ],
+         "LINETWO": [
+            "ಹೆಗ್ಗುರುತು"
+         ],
+         "REGION": [
+            "ಪ್ರದೇಶ"
+         ],
+         "LOCALITY": [
+            "ಲೋಕಾಲಿಟಿ"
+         ],
+         "CITY": [
+            "ಸಿಟಿ"
+         ],
+         "STATE": [
+            "ರಾಜ್ಯ"
+         ],
+         "ZIPCODE": [
+            "ಪಿನ್ ಕೋಡ್"
+         ],
+         "COUNTRY": [
+            "ದೇಶದ"
+         ],
+         "CURRENCY": [
+            "ಕರೆನ್ಸಿ"
+         ],
+         "COMPANYNAME": [
+            "ಸಂಸ್ಥೆಯ ಹೆಸರು"
+         ],
+         "CONTACTNUMBERS": [
+            "ದೂರವಾಣಿ ಸಂಖ್ಯೆಗಳು"
+         ],
+         "WEBSITE": [
+            "ವೆಬ್ಸೈಟ್"
+         ],
+         "WEBSITES": [
+            "ವೆಬ್"
+         ],
+         "COMPANYTYPE": [
+            "ಸ್ವಾಮ್ಯದಲ್ಲಿರುವ ಟೈಪ್"
+         ],
+         "SAVEDSEARCHPREFERENCES": [
+            "ಅಧಿಸೂಚನೆ ಪ್ರಾಶಸ್ತ್ಯಗಳನ್ನು ಹೊಂದಿಸಿ"
+         ],
+         "CONTACTPREFERENCES": [
+            "ಸಂಪರ್ಕ ಪ್ರಾಶಸ್ತ್ಯಗಳು"
+         ],
+         "CONTENTPREFERENCES": [
+            "ಹೊಸ ವಿಷಯ ಅಧಿಸೂಚನೆ ಪ್ರಾಶಸ್ತ್ಯಗಳು"
+         ],
+         "AREASSERVED": [
+            "ಪ್ರದೇಶಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ"
+         ],
+         "SPECIALTIES": [
+            "ವಿಶೇಷ"
+         ],
+         "ABOUT": [
+            "ಬಗ್ಗೆ"
+         ],
+         "YEAROFINCEPTION": [
+            "ಇನ್ಸೆಪ್ಷನ್ ವರ್ಷದ"
+         ],
+         "MINDIVISIBLEAREA": [
+            "ಕನಿಷ್ಠ ಡಿವೈಸಿಬಲ್ ಆಂತರಿಕ ಪ್ರದೇಶ"
+         ],
+         "MAXDIVISIBLEAREA": [
+            "ಗರಿಷ್ಠ ಡಿವೈಸಿಬಲ್ ಆಂತರಿಕ ಪ್ರದೇಶ"
+         ],
+         "MAXCONTIGUOUSAREA": [
+            "ಗರಿಷ್ಠ ಸಂಚಿತ ಆಂತರಿಕ ಪ್ರದೇಶ"
+         ],
+         "YEARBUILT": [
+            "ಬಿಲ್ಟ್ ವರ್ಷದ"
+         ],
+         "NUMBEROFROOMS": [
+            "ಕೊಠಡಿ ಸಂಖ್ಯೆ"
+         ],
+         "NUMBEROFSTORIES": [
+            "ಕಥೆಗಳು ಸಂಖ್ಯೆ"
+         ],
+         "NUMBEROFPARKINGLOTS": [
+            "ಪಾರ್ಕಿಂಗ್ ಸ್ಥಳಗಳು ಸಂಖ್ಯೆ"
+         ],
+         "CONSTRUCTIONSTATUS": [
+            "ನಿರ್ಮಾಣ ಸ್ಥಿತಿ"
+         ],
+         "LEASEAMOUNT": [
+            "ಲೀಸ್ ಮೊತ್ತ"
+         ],
+         "EXPENSEAMOUNT": [
+            "ಖರ್ಚು"
+         ],
+         "EXPENSETYPE": [
+            "ಖರ್ಚು ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "LEASEENDDATE": [
+            "ಲೀಸ್ ಎಂಡ್ ಡೇಟ್"
+         ],
+         "ROOMTYPE": [
+            "ಕೋಣೆ ಪ್ರಕಾರ"
+         ],
+         "NUMBEROFWASHROOMS": [
+            "ಬಾತ್ ಕೊಠಡಿ ಸಂಖ್ಯೆ"
+         ],
+         "FURNISHEDSTATUS": [
+            "ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು?"
+         ],
+         "UNFURNISHED": [
+            "ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು"
+         ],
+         "SEMI_FURNISHED": [
+            "ಅರೆ ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು"
+         ],
+         "FURNISHED": [
+            "ಒದಗಿಸಲ್ಪಟ್ಟಿದ್ದು"
+         ],
+         "DISTANCE": [
+            "ಹುಡುಕಾಟ ತ್ರಿಜ್ಯ"
+         ],
+         "BUILDINGAGE": [
+            "ಕಟ್ಟಡ ವಯಸ್ಸು (ವರ್ಷಗಳು)"
+         ],
+         "POSTEDBY": [
+            "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+         ],
+         "PROPERTIESFOUND": [
+            "ಪ್ರಾಪರ್ಟೀಸ್ ಕಂಡುಬಂದಿಲ್ಲ"
+         ],
+         "BYRELAVANCE": [
+            "ಪ್ರಸ್ತುತತೆಯ ಪ್ರಕಾರ"
+         ],
+         "HIGHESTAREA": [
+            "ಪ್ರದೇಶ (ಕಡಿಮೆ ಮಟ್ಟದಿಂದ)"
+         ],
+         "LOWESTAREA": [
+            "ವಿಸ್ತೀರ್ಣ (ಎತ್ತರದಿಂದ ಕಡಿಮೆ)"
+         ],
+         "HIGHESTPRICE": [
+            "ಬೆಲೆ (ಲೋ ಹೈ)"
+         ],
+         "LOWESTPRICE": [
+            "ಬೆಲೆ (ಕಡಿಮೆಯಿಂದ)"
+         ],
+         "GRID": [
+            "ಗ್ರಿಡ್"
+         ],
+         "CHAT": [
+            "ಚಾಟಿಂಗ್"
+         ],
+         "EMAIL": [
+            "ಇಮೇಲ್"
+         ],
+         "SHARE": [
+            "ಹಂಚಿಕೊಳ್ಳಿ"
+         ],
+         "LOGIN": [
+            "ಲಾಗಿನ್"
+         ],
+         "FEATUREDREALTORS": [
+            "ವಿಶಿಷ್ಟ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆಂಟ್"
+         ],
+         "FEATUREDPROPERTIES": [
+            "ವೈಶಿಷ್ಟ್ಯಪೂರ್ಣ ಗುಣಗಳು"
+         ],
+         "LOCATION": [
+            "ಸ್ಥಳ"
+         ],
+         "INTERACTIVEMAP": [
+            "ಇಂಟರಾಕ್ಟಿವ್ ನಕ್ಷೆ"
+         ],
+         "MOREDETAILS": [
+            "ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ"
+         ],
+         "RESIDENTIAL_LAND": [
+            "ರೆಸಿಡೆನ್ಶಿಯಲ್ ಲ್ಯಾಂಡ್"
+         ],
+         "VILLA": [
+            "ವಿಲ್ಲಾ"
+         ],
+         "STORE": [
+            "ಅಂಗಡಿ"
+         ],
+         "LAUNDRY": [
+            "ಲಾಂಡ್ರಿ"
+         ],
+         "SCHOOL": [
+            "ಸ್ಕೂಲ್"
+         ],
+         "SPA": [
+            "ಸ್ಪಾ"
+         ],
+         "CATEGORIES": [
+            "ವರ್ಗಗಳು"
+         ],
+         "CATEGORY": [
+            "ವರ್ಗ"
+         ],
+         "FIXTURES": [
+            "ಫಿಕ್ಚರ್ಗಳು"
+         ],
+         "CLICKTOSEE": [
+            "ಹತ್ತಿರದ ಸ್ಥಳಗಳು ನೋಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "INTERCOM": [
+            "ಇಂಟರ್ಕಮ್"
+         ],
+         "VIDEOCONFERENCE": [
+            "ವೀಡಿಯೊ ಕಾನ್ಫರೆನ್ಸ್"
+         ],
+         "LAN": [
+            "ಸ್ಥಳೀಯ ವಲಯ ಜಾಲ"
+         ],
+         "ENTRYSECURITY": [
+            "ಎಂಟ್ರಿ ಭದ್ರತಾ"
+         ],
+         "BIOMETRICACCESS": [
+            "ಬಯೋಮೆಟ್ರಿಕ್ ಪ್ರವೇಶ"
+         ],
+         "CHILDRENPLAYAREA": [
+            "ಮಕ್ಕಳ ಪ್ಲೇ ಏರಿಯಾ"
+         ],
+         "GARDENAREA": [
+            "ಗಾರ್ಡನ್ ಪ್ರದೇಶ"
+         ],
+         "SWIMMINGPOOL": [
+            "ಈಜು ಕೊಳ"
+         ],
+         "JOGGINGTRACK": [
+            "ಜಾಗಿಂಗ್ ಟ್ರ್ಯಾಕ್"
+         ],
+         "INDOORSPORTS": [
+            "ಒಳಾಂಗಣ ಸ್ಪೋರ್ಟ್ಸ್"
+         ],
+         "OUTDOORSPORTS": [
+            "ಹೊರಾಂಗಣ ಕ್ರೀಡೆ"
+         ],
+         "DEPARTMENTSTORE": [
+            "ಕಿರಾಣಿ ಅಂಗಡಿ"
+         ],
+         "DETAILS": [
+            "ವಿವರಗಳು"
+         ],
+         "FEATURES": [
+            "ಸೌಲಭ್ಯಗಳನ್ನು"
+         ],
+         "SPECIFICATIONS": [
+            "ವಿಶೇಷಣಗಳು"
+         ],
+         "FORLEASEDETAILS": [
+            "ಲೀಸ್ ಮಾಹಿತಿ"
+         ],
+         "FORSALEDETAILS": [
+            "ಮಾರಾಟದ ಮಾಹಿತಿ"
+         ],
+         "PRICEDETAILS": [
+            "ಬೆಲೆ ವಿವರಗಳು"
+         ],
+         "BUILDINGROOMDETAILS": [
+            "ಕೊಠಡಿ ವಿವರಗಳು"
+         ],
+         "ROOMS": [
+            "ಕೊಠಡಿ"
+         ],
+         "AIRPORT": [
+            "ವಿಮಾನ ನಿಲ್ದಾಣ"
+         ],
+         "HOSPITAL": [
+            "ಆಸ್ಪತ್ರೆ"
+         ],
+         "BUSSTATION": [
+            "ಬಸ್ ನಿಲ್ದಾಣ"
+         ],
+         "POLICE": [
+            "ಆರಕ್ಷಕ ಠಾಣೆ"
+         ],
+         "POSTOFFICE": [
+            "ಅಂಚೆ ಕಛೇರಿ"
+         ],
+         "SUBWAYSTATION": [
+            "ಸುರಂಗಮಾರ್ಗದ ನಿಲ್ದಾಣ"
+         ],
+         "TRAINSTATION": [
+            "ರೈಲ್ವೆ ನಿಲ್ದಾಣ"
+         ],
+         "SHOPPINGMALL": [
+            "ಶಾಪಿಂಗ್ ಮಾಲ್"
+         ],
+         "PARKING": [
+            "ಪಾರ್ಕಿಂಗ್"
+         ],
+         "ATM": [
+            "ಎಟಿಎಂ"
+         ],
+         "LODGING": [
+            "ವಸತಿ"
+         ],
+         "REALESTATEAGENCY": [
+            "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆನ್ಸಿ"
+         ],
+         "BANK": [
+            "ಬ್ಯಾಂಕ್"
+         ],
+         "CREATELISTING": [
+            "ಮಾರಾಟ / ಬಾಡಿಗೆ ಆಸ್ತಿ"
+         ],
+         "PHOTOSVIDEOS": [
+            "ಫೋಟೋಗಳು ಮತ್ತು ಡಾಕ್ಯುಮೆಂಟ್ಗಳು"
+         ],
+         "FINISH": [
+            "ಮುಕ್ತಾಯ"
+         ],
+         "SELECTEDBUILDINGUNITCOLLAPSIBLE": [
+            "ಘಟಕ ಮಾಹಿತಿ"
+         ],
+         "PROPERTYCOLLAPSIBLE": [
+            "ಆಸ್ತಿ ಮಾಹಿತಿ"
+         ],
+         "SELECTEDLOTDETAILSCOLLAPSIBLE": [
+            "ಕಥಾವಸ್ತು ಮಾಹಿತಿ"
+         ],
+         "SELECTEDBUILDINGCOLLAPSIBLE": [
+            "ಕಟ್ಟಡ ಮಾಹಿತಿ"
+         ],
+         "BUILDINGDETAILSCOLLAPSIBLE": [
+            "ಕಟ್ಟಡ ಮಾಹಿತಿ"
+         ],
+         "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE": [
+            "ಹೆಚ್ಚುವರಿ ವಿವರಗಳು"
+         ],
+         "APARTMENTDETAILSCOLLAPSIBLE": [
+            "ಸೌಲಭ್ಯಗಳನ್ನು"
+         ],
+         "ROOMSCOLLAPSIBLE": [
+            "ರೂಮ್ ಮಾಹಿತಿ"
+         ],
+         "SECURITYSTAFF": [
+            "ಭದ್ರತಾ ಸಿಬ್ಬಂದಿ"
+         ],
+         "MAINTENANCECHARGES": [
+            "ಮಾಸಿಕ ನಿರ್ವಹಣಾ ಶುಲ್ಕಗಳು"
+         ],
+         "RENTALAMOUNT": [
+            "ಬಾಡಿಗೆ ಪ್ರಮಾಣ"
+         ],
+         "COVEREDPARKING": [
+            "ಕವರ್ಡ್ ಪಾರ್ಕಿಂಗ್"
+         ],
+         "YES": [
+            "ಹೌದು"
+         ],
+         "NO": [
+            "ಯಾವುದೇ"
+         ],
+         "UNITTYPE": [
+            "ಘಟಕ ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "CONFIRM": [
+            "ದೃಢೀಕರಿಸಿ"
+         ],
+         "AVAILABLEDATE": [
+            "ಪೊಸೆಷನ್ ದಿನಾಂಕ"
+         ],
+         "WELCOMETO": [
+            "ಸುಸ್ವಾಗತ"
+         ],
+         "ADDNEW": [
+            "ಹೊಸದನ್ನು ಸೇರಿಸಿ"
+         ],
+         "LOCATEME": [
+            "ನನ್ನ ಸ್ಥಾನ ಬಳಸಿ"
+         ],
+         "ENTERPREFEREDLOCATION": [
+            "ಲೋಕಲಿಟಿ / ಲ್ಯಾಂಡ್ಮಾರ್ಕ್ / ಸ್ಟ್ರೀಟ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+         ],
+         "REGISTER": [
+            "ನೋಂದಣಿ"
+         ],
+         "ACTIVELISTINGS": [
+            "ಇತ್ತೀಚಿನ ಜಾಹೀರಾತುಗಳು"
+         ],
+         "CLEARSEARCH": [
+            "ಸ್ಪಷ್ಟ"
+         ],
+         "SEARCHBYPROPERTYNAME": [
+            "ಆಸ್ತಿ ಹೆಸರು / ಸ್ಟ್ರೀಟ್ ವಿಳಾಸ"
+         ],
+         "SEARCHBYREALTORNAME": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಹೆಸರು"
+         ],
+         "SEARCHBYPROFESSIONALNAME": [
+            "ಸೇವೆ ಒದಗಿಸುವವರು ಹೆಸರು"
+         ],
+         "SEARCH": [
+            "ಹುಡುಕು"
+         ],
+         "DOCUMENTSGALLERY": [
+            "ಅಪ್ಲೋಡ್ ಮಾಡಿದ ಡಾಕ್ಯುಮೆಂಟ್ಸ್"
+         ],
+         "PHOTOSGALLERY": [
+            "ಚಿತ್ರಸಂಪುಟ"
+         ],
+         "PROPERTY": [
+            "ಆಸ್ತಿ"
+         ],
+         "UNIT": [
+            "ಘಟಕ"
+         ],
+         "PROPSHUBREGISTRATION": [
+            "2018 Propshub ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ"
+         ],
+         "CALLUS": [
+            "ನಮ್ಮನ್ನು ಕಾಲ್"
+         ],
+         "EMAILUS": [
+            "ನಮ್ಮನ್ನು ಇಮೇಲ್ ಮಾಡಿ"
+         ],
+         "SIGNIN": [
+            "ಲಾಗಿನ್"
+         ],
+         "SETTINGS": [
+            "ಸೆಟ್ಟಿಂಗ್ಗಳು"
+         ],
+         "BACKTO": [
+            "ಬ್ಯಾಕ್ ಟು"
+         ],
+         "POSTEDON": [
+            "ಪೋಸ್ಟ್"
+         ],
+         "LIST": [
+            "ಪಟ್ಟಿ"
+         ],
+         "SAVESEARCH": [
+            "ಹುಡುಕು ಉಳಿಸಿ"
+         ],
+         "NEWLYLISTED": [
+            "ಹೆಚ್ಚಿನ ಇತ್ತೀಚೆಗೆ ದಿನಾಂಕ"
+         ],
+         "NEXT": [
+            "ಮುಂದಿನ"
+         ],
+         "ALL": [
+            "ಎಲ್ಲಾ"
+         ],
+         "IMAGES": [
+            "ಚಿತ್ರಗಳು"
+         ],
+         "BACKTOMAP": [
+            "ಹಿಂದಿನ ಹಂತ"
+         ],
+         "PREVIOUS": [
+            "ಹಿಂದಿನ"
+         ],
+         "LOADINGDATA": [
+            "ಕೆಲಸ !!!"
+         ],
+         "GAS_STATION": [
+            "ಪೆಟ್ರೋಲ್ ಬಂಕ್"
+         ],
+         "GASSTATION": [
+            "ಪೆಟ್ರೋಲ್ ಬಂಕ್"
+         ],
+         "CITYLOCATION": [
+            "ಸಿಟಿ ಅಥವಾ ಸ್ಥಳ"
+         ],
+         "TONS": [
+            "ಟನ್"
+         ],
+         "YRS": [
+            "ಇಯರ್ಸ್"
+         ],
+         "MI": [
+            "ಮೈಲ್ಸ್"
+         ],
+         "KM": [
+            "ಕಿಲೋಮೀಟರ್ಗಳು"
+         ],
+         "PERCENTAGE": [
+            "ಶೇಕಡಾವಾರು"
+         ],
+         "FT": [
+            "ಅಡಿ"
+         ],
+         "AMOUNT": [
+            "ಪ್ರಮಾಣ"
+         ],
+         "SQFT": [
+            "ಚದರ ಅಡಿ"
+         ],
+         "AGENT": [
+            "ಏಜೆಂಟ್"
+         ],
+         "HELP": [
+            "ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ"
+         ],
+         "TYPE": [
+            "ವಿಧ"
+         ],
+         "PROPERTYFORSALE": [
+            "ಮಾರಾಟಕ್ಕೆ ಗುಣಗಳು"
+         ],
+         "PROPERTYFORLEASE": [
+            "ಬಾಡಿಗೆ"
+         ],
+         "REALTORSANDBROKERS": [
+            "ರಿಯಾಲ್ಟರ್"
+         ],
+         "MORESEARCHOPTIONS": [
+            "ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"
+         ],
+         "VACATIONRENTAL": [
+            "ರಜೆ ಬಾಡಿಗೆ"
+         ],
+         "REALTOR": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್"
+         ],
+         "PROFESSIONAL": [
+            "ಸೇವೆ ಒದಗಿಸುವವರು"
+         ],
+         "PHONE": [
+            "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
+         ],
+         "OWNER": [
+            "ಪೋಸ್ಟ್ ಮಾಡಿದವರು"
+         ],
+         "CONTACTACTIONS": [
+            "ಸಂಪರ್ಕ ಆದ್ಯತೆಗಳು"
+         ],
+         "STARTTIME": [
+            "ಅವರ್ ಪ್ರಾರಂಭ ಸಮಯ ಭೇಟಿ"
+         ],
+         "ENDTIME": [
+            "ಅವರ್ ಎಂಡ್ ಟೈಮ್ ಭೇಟಿ"
+         ],
+         "ADDOPENHOUSETIME": [
+            "ಮತ್ತೊಂದು ದಿನಾಂಕ ಸೇರಿಸಿ"
+         ],
+         "HOURS": [
+            "ಟೈಮ್ ಆಯ್ಕೆ"
+         ],
+         "OPENHOUSEDATE": [
+            "ಓಪನ್ ಹೌಸ್ ದಿನಾಂಕ"
+         ],
+         "SCHEDULEOPENHOUSE": [
+            "ಓಪನ್ ಹೌಸ್ ಅನ್ನು ನಿಗದಿಪಡಿಸಿ"
+         ],
+         "OPENHOUSETIMES": [
+            "ಓಪನ್ ಹೌಸ್ ಅನ್ನು ನಿಗದಿಪಡಿಸಿ"
+         ],
+         "INDIVIDUAL": [
+            "ಇಂಡಿವಿಜುವಲ್"
+         ],
+         "COMPANY": [
+            "ಕಂಪನಿ"
+         ],
+         "BROKERAGEFIRM": [
+            "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆನ್ಸಿ"
+         ],
+         "SIMILARLISTINGS": [
+            "ನೀವು ಇಷ್ಟ ಮಾಡಬಹುದು"
+         ],
+         "SIGNUPAS": [
+            "ಮಾಹಿತಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+         ],
+         "LOADMORE": [
+            "ಇನ್ನಷ್ಟು ಲೋಡ್"
+         ],
+         "SEND": [
+            "ಕಳುಹಿಸು"
+         ],
+         "SENDEMAIL": [
+            "ಇಮೇಲ್ ಕಳುಹಿಸಿ"
+         ],
+         "IN": [
+            "ಭಾರತದ"
+         ],
+         "US": [
+            "ಯುಎಸ್ಎ"
+         ],
+         "CA": [
+            "ಕೆನಡಾದಲ್ಲಿ"
+         ],
+         "AR": [
+            "ಅರ್ಜೆಂಟೀನಾ"
+         ],
+         "CO": [
+            "ಕೊಲಂಬಿಯ"
+         ],
+         "BR": [
+            "ಬ್ರೆಜಿಲ್"
+         ],
+         "MX": [
+            "ಮೆಕ್ಸಿಕೋ"
+         ],
+         "USD": [
+            "ಅಮೆರಿಕನ್ ಡಾಲರ್"
+         ],
+         "CAD": [
+            "ಕೆನಡಿಯನ್ ಡಾಲರ್"
+         ],
+         "MXN": [
+            "ಮೆಕ್ಸಿಕನ್ ಪೆಸೊ"
+         ],
+         "BRL": [
+            "ಬ್ರೆಜಿಲಿಯನ್ ರಿಯಲ್"
+         ],
+         "ARS": [
+            "ರಾಂಡ್"
+         ],
+         "COP": [
+            "ಕೊಲಂಬಿಯಾದ ಪೆಸೊ"
+         ],
+         "INR": [
+            "ಭಾರತೀಯ ರೂಪಾಯಿ"
+         ],
+         "SITECAPTION": [
+            "ವಸತಿ ಹೂಡಿಕೆದಾರರಿಗೆ ಜಾಗತಿಕ ಹಬ್"
+         ],
+         "CAPTION": [
+            "ಇದಕ್ಕಾಗಿ ಹುಡುಕು…"
+         ],
+         "PROPERTYNULLRESULTSTITLE": [
+            "ಯಾವುದೇ ಪ್ರಾಪರ್ಟೀಸ್ ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+         ],
+         "REALTORNULLRESULTSTITLE": [
+            "ಇಲ್ಲ ರಿಯಾಲ್ಟರ್ಸ್ / ಬ್ರೋಕರ್ಗಳು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+         ],
+         "PROFESSIONALNULLRESULTSTITLE": [
+            "ಯಾವುದೇ ಸೇವೆ ಒದಗಿಸುವವರು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+         ],
+         "REALTORNULLRESULTSMESSAGE": [
+            "ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ರಿಯಾಲ್ಟರ್ಸ್ / ಬ್ರೋಕರ್ಗಳು ಲಭ್ಯವಿಲ್ಲ ಎಂದು ತೋರುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹುಡುಕಾಟ ಮಾನದಂಡವನ್ನು ವಿಸ್ತರಿಸಿ ಅಥವಾ ನಂತರ ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ."
+         ],
+         "PROFESSIONALNULLRESULTSMESSAGE": [
+            "ನಿಮ್ಮ ಹುಡುಕಾಟ ಮಾನದಂಡಗಳನ್ನು ಮಾಡಿಕೊಳ್ಳಲು ಯಾವುದೇ ಸೇವೆ ಒದಗಿಸುವವರು ಕಂಡುಬಂದಿಲ್ಲವೆಂದು ತೋರುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ವಿಸ್ತರಿಸಿ ಅಥವಾ ನಂತರ ಪರಿಶೀಲಿಸಿ."
+         ],
+         "PROPERTYNULLRESULTSMESSAGE": [
+            "ನಿಮ್ಮ ಹುಡುಕಾಟ ಮಾನದಂಡಗಳನ್ನು ಲಭ್ಯವಿದೆ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಕಂಡುಬಂದಿಲ್ಲವೆಂದು ತೋರುತ್ತಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ವಿಸ್ತರಿಸಿ ಅಥವಾ ನಂತರ ಪರಿಶೀಲಿಸಿ."
+         ],
+         "PROPERTYTOOMANYRESULTS": [
+            "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಮಾನದಂಡಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುವ ಹಲವಾರು ಗುಣಗಳನ್ನು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ಕುಗ್ಗಿಸುವ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+         ],
+         "PROFESSIONALTOOMANYRESULTS": [
+            "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕೆ ಮಾನದಂಡಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗುವ ಹಲವಾರು ಸೇವಾದಾರರು ಕಂಡುಬಂದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಶೋಧ ಮಾನದಂಡಕ್ಕೆ ಕುಗ್ಗಿಸುವ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+         ],
+         "BROKERAGEFIRMINFOCOLLAPSIBLE": [
+            "ವೃತ್ತಿಪರ ಸಾರಾಂಶ"
+         ],
+         "COMPANYINFOCOLLAPSIBLE": [
+            "ವೃತ್ತಿಪರ ಸಾರಾಂಶ"
+         ],
+         "PROFESSIONALSCOLLAPSIBLE": [
+            "ಅಸೋಸಿಯೇಟೆಡ್ ಸೇವೆ ಒದಗಿಸುವವ"
+         ],
+         "REALTORSCOLLAPSIBLE": [
+            "ಅಸೋಸಿಯೇಟೆಡ್ ರಿಯಾಲ್ಟರ್ಸ್ / ದಲ್ಲಾಳಿಗಳು"
+         ],
+         "ADDPROFESSIONAL": [
+            "ಒಂದು ಸೇವೆ ಒದಗಿಸುವವರನ್ನು ಸೇರಿಸಿ"
+         ],
+         "ADDREALTOR": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅನ್ನು ಸೇರಿಸಿ"
+         ],
+         "TERMSCONDITIONS": [
+            "ನಿಯಮಗಳು ಮತ್ತು ನಿಯಮಗಳು"
+         ],
+         "AUTHORIZEDPERSONNEL": [
+            "ಈ ಕಂಪನಿ ಮಾಹಿತಿ ನವೀಕರಿಸಲು ನನಗೆ ಅಧಿಕಾರ ಇದೆ"
+         ],
+         "TERMSCONDITIONSTITLE": [
+            "ನಾನು ಓದಿ ಒಪ್ಪಿಕೊಂಡಿದ್ದೇನೆ"
+         ],
+         "LISTINGPENDINGTITLE": [
+            "ನಿಮ್ಮ ಪಟ್ಟಿಗೆ ಬಾಕಿ ಉಳಿದಿರುವ ಅನುಮೋದನೆ ಇದೆ"
+         ],
+         "LISTINGACTIVETITLE": [
+            "ನಿಮ್ಮ ಜಾಹೀರಾತು ಸಕ್ರಿಯವಾಗಿದೆ"
+         ],
+         "LISTINGPENDINGDESCRIPTION": [
+            "ನಿಮ್ಮ ಆಸ್ತಿಯನ್ನು ಪಟ್ಟಿ ಮಾಡಿದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು. ನಿಮ್ಮ ವಿನಂತಿಯು ಆನ್ಲೈನ್ನಲ್ಲಿ ಪ್ರಕಟಗೊಳ್ಳುವ ಮೊದಲು ವಿಷಯವನ್ನು ಮಾಡರೇಶನ್ಗಾಗಿ ಕಾಯುತ್ತಿದೆ. ನಿಮ್ಮ ನೋಂದಾಯಿತ ಇಮೇಲ್ ಅನ್ನು ನಿಮ್ಮ ಪಟ್ಟಿಯ ಸ್ಥಿತಿಯನ್ನು ಮರುಪರಿಶೀಲಿಸುವಂತೆ ಪರಿಶೀಲಿಸಿ."
+         ],
+         "LISTINGACTIVEDESCRIPTION": [
+            "ನಿಮ್ಮ ಜಾಹೀರಾತನ್ನು ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸಮೃದ್ಧಗೊಳಿಸಬಹುದು. ನಿಮ್ಮ ಜಾಹೀರಾತನ್ನು ಮಾರ್ಪಡಿಸಲು ಕೆಳಗಿನ ಸಂಪಾದಿಸು ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "LISTINGCONFIRMATIONDESCRIPTION": [
+            "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಖಚಿತಪಡಿಸಿ ಮೊದಲು ನಿಮ್ಮ ಜಾಹೀರಾತು ಪೂರ್ವವೀಕ್ಷಣೆ. ಖಚಿತಪಡಿಸುವರು ಒಮ್ಮೆ, ಇದು ನಿಮ್ಮ ಜಾಹೀರಾತು ಪ್ರಕಟವಾಗಬಹುದು ಆನ್ಲೈನ್ ಕೆಲವು ನಿಮಿಷಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ."
+         ],
+         "MANDATORYMESSAGE": [
+            "ನೀವು ಅಗತ್ಯವಿರುವ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಮೌಲ್ಯಗಳನ್ನು ನಮೂದಿಸಿ ಕೆಳಗೆ ಹೈಲೈಟ್ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
+         ],
+         "LISTINGDRAFTMODE": [
+            "ಈ ಪುಟವು ನಿಮ್ಮ ಮುನ್ನೋಟ ಆಗಿದೆ. ಇದು ಇನ್ನೂ ಇತರ ಬಳಕೆದಾರರಿಗೆ ಗೋಚರಿಸುವುದಿಲ್ಲ"
+         ],
+         "PROPERTYEMAILMESSAGE": [
+            "ನನಗೆ ನಿಮ್ಮ ಪ್ರಾಪರ್ಟೀಯಲ್ಲಿ ಆಸಕ್ತಿ ಇದೆ"
+         ],
+         "PERSONEMAILMESSAGE": [
+            "ನಾನು ನಿಮ್ಮ ಸೇವೆಗಳನ್ನು ಪಡೆಯಲು ಬಯಸುತ್ತೇನೆ"
+         ],
+         "RSVPEMAILMESSAGE": [
+            "ನಾನು ಓಪನ್ ಹೌಸ್ನಲ್ಲಿ% s ನಲ್ಲಿ ಆಸ್ತಿಗೆ ಭೇಟಿ ನೀಡುತ್ತೇನೆ"
+         ],
+         "ENTERRSVPMESSAGE": [
+            "% S ಗೆ RSVP ಅನ್ನು ಕಳುಹಿಸಿ"
+         ],
+         "ENTEREMAILMESSAGE": [
+            "ಸಂದೇಶವನ್ನು% s ಗೆ ರಚಿಸಿ"
+         ],
+         "RESIDENTIALSUBTYPEINVALID": [
+            "ಅಮಾನ್ಯವಾದ ವಸತಿ ಆಸ್ತಿ ಉಪ ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "PROFESSIONINVALID": [
+            "ವೃತ್ತಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "UPLOADING": [
+            "ಅಪ್ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ !!!"
+         ],
+         "UPLOADSUCCESS": [
+            "ಯಶಸ್ವಿಯಾಗಿ ಅಪ್ಲೋಡ್ !!!"
+         ],
+         "MYPREFERENCES": [
+            "ನನ್ನ ಆಯ್ಕೆಗಳು"
+         ],
+         "MYCONTACTS": [
+            "ನನ್ನ ಸಂಪರ್ಕಗಳು"
+         ],
+         "NOTIFICATIONS": [
+            "ನನ್ನ ಅಧಿಸೂಚನೆಗಳು"
+         ],
+         "REMOVE": [
+            "ಆಸ್ತಿಯನ್ನು ಮಾರುಕಟ್ಟೆಗೆ ತೆಗೆದುಕೊಳ್ಳಿ"
+         ],
+         "EDIT": [
+            "ಸಂಪಾದಿಸಿ"
+         ],
+         "VIEW": [
+            "ನೋಟ"
+         ],
+         "ENTERLOCATION": [
+            "ಆಸ್ತಿ ಹೆಸರು / ವಿಳಾಸ / ಲ್ಯಾಂಡ್ಮಾರ್ಕ್ / ಲೋಕಾಲಿಟಿ ನಮೂದಿಸಿ"
+         ],
+         "PUBLISH": [
+            "ಪ್ರಕಟಿಸು"
+         ],
+         "NUMBEROFBEDROOMS": [
+            "ಮಲಗುವ ಕೋಣೆಗಳು ಸಂಖ್ಯೆ"
+         ],
+         "OFFLINEMESSAGE": [
+            "% S ಆಫ್ಲೈನ್ನಲ್ಲಿದೆ. ಇಮೇಲ್ ಕಳುಹಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "PROVIDESEARCHNAME": [
+            "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕಾಗಿ ಒಂದು ಹೆಸರನ್ನು ಒದಗಿಸಿ"
+         ],
+         "PERCENTAGEOFCOMPLETION": [
+            "ಪೂರ್ಣಗೊಂಡ ಸ್ಥಿತಿ"
+         ],
+         "FINANCIALCOMPLETIONGROUP": [
+            "ಹಣಕಾಸು"
+         ],
+         "LISTINGCOMPLETIONGROUP": [
+            "ಜಾಹೀರಾತು ಮಾಹಿತಿ"
+         ],
+         "PROPERTYCOMPLETIONGROUP": [
+            "ಆಸ್ತಿ ವಿವರಗಳು"
+         ],
+         "ADDITIONALCOMPLETIONGROUP": [
+            "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ"
+         ],
+         "MISSINGFIELDS": [
+            "ಕಾಣೆಯಾಗಿದೆ ಕ್ಷೇತ್ರಗಳು"
+         ],
+         "VIDEOSTABTITLE": [
+            "ನಿಮ್ಮ ವೀಡಿಯೊಗಳಿಗೆ URL ಅನ್ನು ಒದಗಿಸಿ"
+         ],
+         "TAGFILE": [
+            "ನಿಮ್ಮ ಫೋಟೋವನ್ನು ಲೇಬಲ್ ಮಾಡಿ"
+         ],
+         "SAVEEXIT": [
+            "ಡ್ರಾಫ್ಟ್ & ನಿರ್ಗಮಿಸಿ ಉಳಿಸಿ"
+         ],
+         "SENDINGEMAIL": [
+            "ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+         ],
+         "EMAILSENT": [
+            "ಇಮೇಲ್ ಕಳುಹಿಸಲಾಗಿದೆ"
+         ],
+         "PRIVACYPOLICY": [
+            "ಗೌಪ್ಯತಾ ನೀತಿ"
+         ],
+         "CAPTION1": [
+            "ಫ್ಲೈಯರ್ಸ್ ಮತ್ತು ಉಚಿತ ವರದಿಗಳನ್ನು ರಚಿಸಿ"
+         ],
+         "CAPTION2": [
+            "ಕೆಲವೇ ಕ್ಲಿಕ್ಗಳಲ್ಲಿ ರಿಟರ್ನ್ಸ್ ಅನ್ನು ವಿಶ್ಲೇಷಿಸಿ"
+         ],
+         "CAPTION3": [
+            "ಮೌಲ್ಯ ಸೇರಿಸು & ರಜೆ ಬಾಡಿಗೆಗಳ ಸ್ವಯಂ ಗುರುತಿಸುವಿಕೆ"
+         ],
+         "CAPTION4": [
+            "ಪ್ರಾಪರ್ಟೀಸ್ ಹೋಲಿಸಿ ವಿಶ್ಲೇಷಣೆ ಗ್ರಾಫ್ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"
+         ],
+         "CAPTION5": [
+            "ಪ್ರತಿ ಲೋಕಲಿಟಿಗಾಗಿ ವಿವರವಾದ ಜನಸಂಖ್ಯಾಶಾಸ್ತ್ರ"
+         ],
+         "CAPTION6": [
+            "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ವೃತ್ತಿಪರರೊಂದಿಗೆ ತಕ್ಷಣ ಸಂಪರ್ಕಿಸಿ"
+         ],
+         "PROFILECOMPLETION": [
+            "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ವೃದ್ಧಿಸಿಕೊಳ್ಳಿ"
+         ],
+         "USERCOMPLETIONGROUP": [
+            "ಪ್ರೊಫೈಲ್ ವಿವರಗಳು"
+         ],
+         "REALTORSANDBROKERSSEARCHOPTIONINFO": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ಗಳಿಗಾಗಿ ಹುಡುಕಿ"
+         ],
+         "INCOME_SPECIALIST": [
+            "ಆದಾಯ ಸ್ಪೆಷಲಿಸ್ಟ್"
+         ],
+         "WELCOME": [
+            "ಸ್ವಾಗತ"
+         ],
+         "LOGOUT": [
+            "ಲಾಗ್ ಔಟ್"
+         ],
+         "LEGAL": [
+            "ಕಾನೂನು"
+         ],
+         "LOGINHEADING": [
+            "ಲಾಗಿನ್ ಅಥವಾ ಸೈನ್ ಅಪ್"
+         ],
+         "RESIDENTIAL_LENDING": [
+            "ವಸತಿ ಸಾಲ"
+         ],
+         "COMMERCIAL_LENDING": [
+            "ವಾಣಿಜ್ಯ ಸಾಲ"
+         ],
+         "URBAN_PLANNING": [
+            "ನಗರ ಯೋಜನೆ / ಸಿವಿಲ್ ಇಂಜಿನಿಯರಿಂಗ್"
+         ],
+         "BACK_OFFICE_SPECIALIST": [
+            "ಬ್ಯಾಕ್ ಆಫೀಸ್ ಸ್ಪೆಷಲಿಸ್ಟ್"
+         ],
+         "OTHER_SPECIALTY": [
+            "ಇತರೆ"
+         ],
+         "COMMERCIAL_APPRAISER": [
+            "ವಾಣಿಜ್ಯ ಮೌಲ್ಯಮಾಪಕ"
+         ],
+         "GENERAL_APPRAISER": [
+            "ಸಾಮಾನ್ಯ ಮೌಲ್ಯಮಾಪಕ"
+         ],
+         "RESIDENTIAL_APPRAISER": [
+            "ವಸತಿ ಮೌಲ್ಯಮಾಪಕ"
+         ],
+         "PROPERTY_INSPECTOR": [
+            "ಆಸ್ತಿ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+         ],
+         "PROPERTY_MANAGER": [
+            "ಆಸ್ತಿ ವ್ಯವಸ್ಥಾಪಕ"
+         ],
+         "LICENSE": [
+            "ಪರವಾನಗಿ"
+         ],
+         "LICENSENUMBER": [
+            "ಪರವಾನಗಿ ಸಂಖ್ಯೆ"
+         ],
+         "LICENSEJURISDICTION": [
+            "ಪರವಾನಗಿ ನ್ಯಾಯಾಲಯ"
+         ],
+         "LICENSEISSUINGAUTHORITY": [
+            "ಪರವಾನಗಿ ನೀಡುವ ಅಧಿಕಾರ"
+         ],
+         "APPRENTICEINSPECTOR": [
+            "ಅಪ್ರೆಂಟಿಸ್ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+         ],
+         "AUCTIONEER": [
+            "ಹರಾಜುಗಾರ"
+         ],
+         "CERTIFIEDGENERALAPPRAISER": [
+            "ಸರ್ಟಿಫೈಡ್ ಜನರಲ್ ಮೌಲ್ಯಮಾಪಕ"
+         ],
+         "CERTIFIEDRESIDENTIALAPPRAISER": [
+            "ಪ್ರಮಾಣೀಕೃತ ವಸತಿ ಮೌಲ್ಯಮಾಪಕ"
+         ],
+         "LEASING_AGENT": [
+            "ಲೀಸಿಂಗ್ ಏಜೆಂಟ್"
+         ],
+         "LICENSEDAPPRAISER": [
+            "ಪರವಾನಗಿ ಪಡೆದ ಮೌಲ್ಯಮಾಪಕ"
+         ],
+         "LICENSEDINSPECTOR": [
+            "ಪರವಾನಗಿ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+         ],
+         "MORTGAGE_BROKER": [
+            "ಅಡಮಾನ ದಲ್ಲಾಳಿ"
+         ],
+         "REALESTATEBROKER": [
+            "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಬ್ರೋಕರ್"
+         ],
+         "REGISTEREDAPPRAISER": [
+            "ನೋಂದಾಯಿತ ಮೌಲ್ಯಮಾಪಕ"
+         ],
+         "REGISTEREDINSPECTOR": [
+            "ನೋಂದಾಯಿತ ಇನ್ಸ್ಪೆಕ್ಟರ್"
+         ],
+         "PROPERTYMANAGEMENT": [
+            "ಆಸ್ತಿ ನಿರ್ವಹಣೆ"
+         ],
+         "RENTALPROPERTYMANAGEMENT": [
+            "ಬಾಡಿಗೆ ಆಸ್ತಿ ನಿರ್ವಹಣೆ"
+         ],
+         "SALESPERSON": [
+            "ಮಾರಾಟಗಾರ"
+         ],
+         "APPRAISAL": [
+            "ಅಪ್ರೇಸಲ್"
+         ],
+         "LAND_DEVELOPMENT": [
+            "ಜಮೀನು ಅಭಿವೃದ್ಧಿ"
+         ],
+         "SECURITIESANDSYNDICATION": [
+            "ಭದ್ರತಾ ಮತ್ತು ಸಿಂಡಿಕೇಶನ್"
+         ],
+         "COUNSELING": [
+            "ಕೌನ್ಸೆಲಿಂಗ್"
+         ],
+         "RESEARCH": [
+            "ರಿಸರ್ಚ್"
+         ],
+         "SITEURL": [
+            "ಸೈಟ್ URL"
+         ],
+         "TWITTERHANDLE": [
+            "ಟ್ವಿಟರ್ ಹ್ಯಾಂಡಲ್"
+         ],
+         "FACEBOOK": [
+            "ಫೇಸ್ಬುಕ್ URL"
+         ],
+         "BLOG": [
+            "ಬ್ಲಾಗ್ URL"
+         ],
+         "LINKEDIN": [
+            "ಸಂದೇಶ URL ಅನ್ನು"
+         ],
+         "EMAILID": [
+            "ಇಮೇಲ್"
+         ],
+         "PASSWORD": [
+            "ಪಾಸ್ವರ್ಡ್"
+         ],
+         "FORGOTPASSWORD": [
+            "ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ ?"
+         ],
+         "SIGNUP": [
+            "ಸೈನ್ ಅಪ್"
+         ],
+         "REMEMBERME": [
+            "ನನ್ನನ್ನು ನೆನಪಿನಲ್ಲಿ ಇಡು"
+         ],
+         "PROPERTYIMAGEMISSING": [
+            "ಫೋಟೋಗಳಿಲ್ಲ"
+         ],
+         "PROFESSIONINFOCOLLAPSIBLE": [
+            "ವೃತ್ತಿ ಮಾಹಿತಿ"
+         ],
+         "CONTACTCOLLAPSIBLE": [
+            "ಸಂಪರ್ಕ ಮಾಹಿತಿ"
+         ],
+         "EXPERTISE": [
+            "ಪರಿಣಿತಿ ಪ್ರದೇಶಗಳು"
+         ],
+         "OTHERCONTACTNUMBERS": [
+            "ಇತರೆ ಸಂಪರ್ಕಿಸಿ ಸಂಖ್ಯೆಗಳು"
+         ],
+         "CONTACTNUMBERTYPE": [
+            "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಟೈಪ್"
+         ],
+         "CONTACTNUMBER": [
+            "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ"
+         ],
+         "WEBSITETYPE": [
+            "ವೆಬ್ ಸೈಟ್ ಪ್ರಕಾರ"
+         ],
+         "PROFESSIONALSINCE": [
+            "ವೃತ್ತಿಪರ ರಿಂದ"
+         ],
+         "AREAS": [
+            "ವಿವರಗಳಿವೆ ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ"
+         ],
+         "YEARSOFEXPERIENCE": [
+            "ವರ್ಷಗಳ ಅನುಭವ"
+         ],
+         "MAPSEARCHUSAGEINFO": [
+            "ನಿಮ್ಮ ನಗರ / ನೆರೆಹೊರೆ ಗುರುತಿಸಿ ಮತ್ತು ಗಡಿಗಳನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು ಸರ್ಕಲ್ / ಆಯತವನ್ನು ಸೆಳೆಯಿರಿ"
+         ],
+         "CHOOSELOCATIONONMAP": [
+            "ಮ್ಯಾಪ್ನಲ್ಲಿ ನಿಮ್ಮ ಮೆಚ್ಚಿನ ಸ್ಥಳವನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "FEEDBACKSENTFAIL": [
+            "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕಳುಹಿಸುವಲ್ಲಿ ಕೆಲವು ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ…"
+         ],
+         "FEEDBACKSENTSUCCESS": [
+            "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಧನ್ಯವಾದಗಳು. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ನಾವು ನಿಮಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತೇವೆ."
+         ],
+         "COULDNOTFETCHLOCATION": [
+            "ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ನಮಗೆ ತರಲಾಗಲಿಲ್ಲ"
+         ],
+         "NETOPERATINGINCOMETOOLTIP": [
+            "ನಿವ್ವಳ ಕಾರ್ಯಾಚರಣಾ ಆದಾಯ (ಎನ್ಒಐ) ಕಾರ್ಯಾಚರಣೆಗಳಿಂದ ಸಂಗ್ರಹಿಸಲಾದ ಎಲ್ಲಾ ಆದಾಯವನ್ನು ಒಳಗೊಂಡ ನಂತರ ಆಸ್ತಿಯಿಂದ ಉತ್ಪತ್ತಿಯಾಗುವ ವಾರ್ಷಿಕ ಆದಾಯ, ಮತ್ತು ಕಾರ್ಯಾಚರಣೆಗಳಿಂದ ಉಂಟಾದ ಎಲ್ಲಾ ವೆಚ್ಚಗಳನ್ನು ಕಡಿತಗೊಳಿಸುವುದು"
+         ],
+         "CAPRATETOOLTIP": [
+            "ಬಂಡವಾಳೀಕರಣ ದರ ಅಥವಾ ಕ್ಯಾಪ್ ದರವು, ನಿವ್ವಳ ಆಪರೇಟಿಂಗ್ ವರಮಾನದ (ಎನ್ಒಐ) ಆಸ್ತಿ ಸ್ವತ್ತಿನ ಮೌಲ್ಯಕ್ಕೆ ಅಥವಾ ಬೆಲೆ ಕೇಳುವುದು"
+         ],
+         "WIDGETMEDIANPRICE": [
+            "ಮಧ್ಯದ ಬೆಲೆಗಳು ಪಟ್ಟಿ ಮಾಡಲಾದ ಎಲ್ಲಾ ಗುಣಲಕ್ಷಣಗಳ ಕೇಳುವ ಬೆಲೆಗಳನ್ನು ಆಧರಿಸಿವೆ"
+         ],
+         "SYSTEMGENERATEDVALUENOTE": [
+            "ಗುರುತು ಜಾಗಗಳಲ್ಲಿ ಒದಗಿಸಲಾದ ಅಂದಾಜು ಮೌಲ್ಯಗಳನ್ನು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಮಾರುಕಟ್ಟೆ ಪರಿಸ್ಥಿತಿಗಳು, ಐತಿಹಾಸಿಕ ಡೇಟಾ ಮತ್ತು ಇತರ ಅಂಶಗಳ ಆಧಾರದ ಮೇಲೆ ಗಣನೆಯ ಮೂಲಕ ಲೆಕ್ಕಾಚಾರ ಮಾಡಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ."
+         ],
+         "RENTINCREMENTPERCENTAGETOOLTIP": [
+            "ಐತಿಹಾಸಿಕ ಮತ್ತು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಮಾರುಕಟ್ಟೆ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಬಾಡಿಗೆಗೆ ಅಂದಾಜು ವಾರ್ಷಿಕ ಹೆಚ್ಚಳವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "COSTBASISTOOLTIP": [
+            "ಕೇಳುವ ಬೆಲೆ ಮತ್ತು ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚಗಳನ್ನು ಪರಿಗಣಿಸುವ ಹೂಡಿಕೆಯ ವೆಚ್ಚದ ಆಧಾರವಾಗಿದೆ. ವೆಚ್ಚದ ಬೇಸಿಸ್ = ಬೆಲೆ + ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚವನ್ನು ಕೇಳುವುದು"
+         ],
+         "TOTALINVESTMENTCOSTTOOLTIP": [
+            "ಕೇಳುವ ಬೆಲೆ, ಮುಚ್ಚುವ ವೆಚ್ಚ ಮತ್ತು ಆರಂಭಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚಗಳನ್ನು ಪರಿಗಣಿಸುವ ಹೂಡಿಕೆಯ ವೆಚ್ಚದ ಆಧಾರವಾಗಿದೆ."
+         ],
+         "ANNUALTAXABLEINCOMETOOLTIP": [
+            "ಆಸ್ತಿಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವ ಎಲ್ಲಾ ಖರ್ಚುಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ವಾರ್ಷಿಕ ತೆರಿಗೆಯ ಆದಾಯವಾಗಿದೆ"
+         ],
+         "DEPRECIATIONPERCENTAGETOOLTIP": [
+            "ಸಾಮಾನ್ಯ ಉಡುಗೆ ಮತ್ತು ಕಣ್ಣೀರಿನ ಮತ್ತು ಪ್ರಮಾಣಿತ ಸವಕಳಿ ದರಗಳನ್ನು ಪರಿಗಣಿಸಿ ಆಸ್ತಿ ಮೌಲ್ಯದ ಅಂದಾಜು ವಾರ್ಷಿಕ ಸವಕಳಿ ಒದಗಿಸಿ"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP": [
+            "ಐತಿಹಾಸಿಕ ಮತ್ತು ಚಾಲ್ತಿಯಲ್ಲಿರುವ ಮಾರುಕಟ್ಟೆ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಆಸ್ತಿ ಮೌಲ್ಯದಲ್ಲಿ ಅಂದಾಜು ವಾರ್ಷಿಕ ಮೆಚ್ಚುಗೆಯನ್ನು ಒದಗಿಸಿ"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP": [
+            "ಇದು ಅಡಮಾನವಿಲ್ಲದ ಆರಂಭಿಕ ಹೂಡಿಕೆಯಾಗಿದ್ದು, ಬೆಲೆ ಕೇಳುವುದು, ವೆಚ್ಚಗಳು ಮತ್ತು ಸುಧಾರಣೆ ವೆಚ್ಚಗಳನ್ನು ಮುಚ್ಚುವುದು ಆರಂಭಿಕ ಹೂಡಿಕೆ ಇಲ್ಲದೆ ಅಡಮಾನ = ಕೇಳುವ ಬೆಲೆ + ಮುಚ್ಚುವ ವೆಚ್ಚ + ಆರಂಭಿಕ ಸುಧಾರಣೆ"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP": [
+            "ಆಸ್ತಿಯನ್ನು ಕಾಪಾಡಿಕೊಳ್ಳುವ ಎಲ್ಲಾ ಖರ್ಚುಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ವಾರ್ಷಿಕ ತೆರಿಗೆಯ ಆದಾಯವಾಗಿದೆ. ಮಾರ್ಟ್ಗೇಜ್ ಇಲ್ಲದೆ ವಾರ್ಷಿಕ ತೆರಿಗೆ ಆದಾಯ = ನೆಟ್ ಆಪರೇಟಿಂಗ್ ವರಮಾನ- ಸವಕಳಿ ಮೌಲ್ಯ"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGETOOLTIP": [
+            "ಅಡಮಾನವನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ಆರಂಭಿಕ ಹೂಡಿಕೆಯಾಗಿದೆ. ಆರಂಭಿಕ ಬಂಡವಾಳ = ಡೌನ್ ಪೇಮೆಂಟ್ + ಪ್ರಾಥಮಿಕ ಸುಧಾರಣೆ ವೆಚ್ಚಗಳು + ಮುಚ್ಚುವ ವೆಚ್ಚ"
+         ],
+         "COSTBASISWITHMORTGAGETOOLTIP": [
+            "ಸಾಲದ ಸೇವೆ ಉಚಿತ ನಗದು ಹರಿವು = ನೆಟ್ ಆಪರೇಟಿಂಗ್ ವರಮಾನ - ಸಾಲ ಸೇವೆ ಪರಿಗಣನೆಗೆ ತೆಗೆದುಕೊಳ್ಳುವ ನಂತರ ಇದು ಉಚಿತ ನಗದು ಹರಿವು"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP": [
+            "ಆಸ್ತಿಯನ್ನು ಕಾಪಾಡುವ ವೆಚ್ಚದಲ್ಲಿ ಎಲ್ಲಾ ಖರ್ಚುಗಳನ್ನು ಪರಿಗಣಿಸಿದ ನಂತರ ಇದು ವಾರ್ಷಿಕ ತೆರಿಗೆಯ ಆದಾಯವಾಗಿದೆ. ಟ್ಯಾಕ್ಸಬಲ್ ಕ್ಯಾಶ್ ಫ್ಲೋ = ವಾರ್ಷಿಕ ಫ್ರೀ ಕ್ಯಾಶ್ ಫ್ಲೋ-ಸವಕಳಿ ಮೌಲ್ಯ"
+         ],
+         "SALECLOSINGCOSTTOOLTIP": [
+            "ಆಯೋಗಗಳು, ಕೌಂಟಿ ಶುಲ್ಕಗಳು, ಇತ್ಯಾದಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಅಂದಾಜು ಮಾರಾಟ ಮುಚ್ಚುವಿಕೆಯನ್ನು ಒದಗಿಸಿ"
+         ],
+         "CLOSINGCOSTTOOLTIP": [
+            "ಆಯೋಗಗಳು, ಕೌಂಟಿ ಶುಲ್ಕಗಳು, ಇತ್ಯಾದಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಅಂದಾಜು ಖರೀದಿ ಮುಕ್ತಾಯದ ವೆಚ್ಚವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "INITIALIMPROVEMENTCOSTTOOLTIP": [
+            "ಖರೀದಿಸಿದ ನಂತರ ಆಸ್ತಿಯ ಸುಧಾರಣೆಗೆ ಅಗತ್ಯವಾದ ಬಂಡವಾಳ ಹೂಡಿಕೆಯನ್ನು ಒದಗಿಸಿ. ವಿಶಿಷ್ಟವಾಗಿ, ಮೌಲ್ಯದ ಗುಣಲಕ್ಷಣಗಳಿಗಾಗಿ ಇದು ಹೆಚ್ಚಾಗಿದೆ"
+         ],
+         "OWNERASSOCIATIONFEETOOLTIP": [
+            "ಮಾಲೀಕ ಸಂಘಕ್ಕೆ ಪಾವತಿಸಲು ವಾರ್ಷಿಕ ಶುಲ್ಕವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "EMICOSTTOOLTIP": [
+            "ಪ್ರಮಾಣಿತ ಬಡ್ಡಿದರಗಳು ಪರಿಗಣಿಸಿರುವ ಮಾಸಿಕ ಅಡಮಾನ ಮೊತ್ತವು ಇದು. ನಿಜವಾದ ಅಡಮಾನ ಮೊತ್ತ ಬ್ಯಾಂಕ್ ಮತ್ತು ಕ್ರೆಡಿಟ್ ಸ್ಕೋರ್ನಿಂದ ವಿಧಿಸಲಾದ ಬಡ್ಡಿಯ ದರವನ್ನು ಆಧರಿಸಿರುತ್ತದೆ"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP": [
+            "ಇದು ಒಟ್ಟು ಆರಂಭಿಕ ಹೂಡಿಕೆಯು ತೇಲುವ ವೆಚ್ಚವನ್ನು ಪರಿಗಣಿಸುತ್ತದೆ, ಪಾವತಿ ಕೆಳಗೆ, ಇತ್ಯಾದಿ"
+         ],
+         "CASHONCASHRETURNPERCENTAGETOOLTIP": [
+            "ಇದು ಆಸ್ತಿಯಲ್ಲಿ ಹೂಡಿರುವ ಹಣದ ಮೇಲೆ ಗಳಿಸಿದ ನಗದು ಆದಾಯವನ್ನು ಗಣನೆಗೆ ತೆಗೆದುಕೊಳ್ಳುವುದರ ಜೊತೆಗೆ ಲೆಕ್ಕಪರಿಶೋಧನೆಯ ಪ್ರಮಾಣವನ್ನು ತೆಗೆದುಕೊಳ್ಳುವ ಆದಾಯದ ದರವಾಗಿದೆ."
+         ],
+         "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP": [
+            "ಒಟ್ಟು ಪ್ರಾರಂಭಿಕ ಹೂಡಿಕೆಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಆಸ್ತಿಯಲ್ಲಿ ಹೂಡಿದ ಹಣದ ಮೇಲೆ ಗಳಿಸಿದ ನಗದು ಆದಾಯವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡುವ ರಿಟರ್ನ್ ದರ ಇದು."
+         ],
+         "HOMEFORSALESEARCHOPTIONINFO": [
+            "ಮಾರಾಟಕ್ಕೆ ಹೋಮ್ಸ್ಗಾಗಿ ಹುಡುಕಿ"
+         ],
+         "PROPERTYFORLEASESEARCHOPTIONINFO": [
+            ""
+         ],
+         "PROFESSIONALSEARCHOPTIONINFO": [
+            "ಕೊಳಾಯಿಗಾರರು, ವರ್ಣಚಿತ್ರಕಾರರು, ಗುತ್ತಿಗೆದಾರರು ನಂತಹ ವಸತಿ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತಿದ್ದ ಸೇವೆ ಒದಗಿಸುವವರು ಅಥವಾ ವೃತ್ತಿಪರರಿಗೆ ಹುಡುಕಾಟ"
+         ],
+         "LOCATIONPREFUSAGEINFO": [
+            "ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಆದ್ಯತೆಯ ಸ್ಥಾನಗಳನ್ನು ನಮೂದಿಸಿ ಮತ್ತು ಪರಿಧಿಯನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಲು ತ್ರಿಜ್ಯವನ್ನು ಹುಡುಕಿ"
+         ],
+         "CAPRATERANGETOOLTIP": [
+            "ಬಾಡಿಗೆ ಆದಾಯವನ್ನು ಈಗಾಗಲೇ ಉತ್ಪಾದಿಸುವ ಗುಣಲಕ್ಷಣಗಳನ್ನು ನೀವು ಹುಡುಕುತ್ತಿರುವಾಗ ಕ್ಯಾಪ್ ದರಕ್ಕೆ ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ವ್ಯಾಪ್ತಿಯ ಮೌಲ್ಯಗಳನ್ನು ಒದಗಿಸಿ"
+         ],
+         "INVESTMENTCATEGORIESTOOLTIP": [
+            "ನಿಮ್ಮ ಹುಡುಕಾಟಕ್ಕಾಗಿ ಹೂಡಿಕೆ ವರ್ಗವನ್ನು ಒದಗಿಸಿ ಕೋರ್: ಇದು ಹಣದುಬ್ಬರವಿಲ್ಲದ ನಗದು ಹರಿವಿನೊಂದಿಗೆ ಅನ್ಯವಲ್ಲದ, ಕಡಿಮೆ-ಅಪಾಯ / ಕಡಿಮೆ ಸಾಮರ್ಥ್ಯದ ರಿಟರ್ನ್ ಹೂಡಿಕೆಯಾಗಿದೆ. ಕೋರ್ ಪ್ಲಸ್: ಇದು ಮಧ್ಯಮ-ಅಪಾಯ / ಮಧ್ಯಮ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಿಂದಾಗಿ, ಇದು ಸುಧಾರಣೆಗಳ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ ಅಥವಾ ಇರಬಹುದು. ಮೌಲ್ಯ ಸೇರಿಸಲಾಗಿದೆ: ಇದು ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಅಪಾಯ / ಮಧ್ಯಮ-ದಿಂದ-ಹೆಚ್ಚಿನ-ಲಾಭದ ಹೂಡಿಕೆಯಾಗಿದ್ದು ಇದು ವರ್ಧನೆಗಳನ್ನು ಅಥವಾ ಬಂಡವಾಳದ ಒಳಹರಿವು ಅಥವಾ ಇತರ ಬದಲಾವಣೆಗಳಿಗೆ ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ಅಭಿವೃದ್ಧಿಯ ಅವಕಾಶ: ಇದು ಅಧಿಕ-ಅಪಾಯ / ಅಧಿಕ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಾಗಿದ್ದು, ಇದು ಹೆಚ್ಚಿನ ಮಟ್ಟದ ವರ್ಧನೆ ಅಥವಾ ಇತರ ಅಪಾಯಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ."
+         ],
+         "NUMBERONLY": [
+            "ದಯವಿಟ್ಟು ಮಾನ್ಯ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
+         ],
+         "MAXVALUE": [
+            "ಮಾನ್ಯ ಮೌಲ್ಯವನ್ನು ಕಡಿಮೆ ನಮೂದಿಸಿ"
+         ],
+         "MAXLENGTH": [
+            "ಅವಕಾಶ ಅಕ್ಷರಗಳ ಗರಿಷ್ಠ ಸಂಖ್ಯೆ"
+         ],
+         "MINLENGTH": [
+            "ಅಗತ್ಯವಿದೆ ಪಾತ್ರಗಳು ಕನಿಷ್ಟ ಸಂಖ್ಯೆಯಾಗಿದೆ"
+         ],
+         "EMAILIDREQUIRED": [
+            "ಇಮೇಲ್ ID ಅಗತ್ಯವಿದೆ"
+         ],
+         "EMAILPATTERNERROR": [
+            "ದಯವಿಟ್ಟು ಸರಿಯಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+         ],
+         "URLPATTERN": [
+            "ದಯವಿಟ್ಟು ಮಾನ್ಯ ವೆಬ್ಸೈಟ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+         ],
+         "DATE_EXCEPTION": [
+            "ಅಮಾನ್ಯವಾದ ದಿನಾಂಕ ನಿರ್ದಿಷ್ಟಪಡಿಸಿದ"
+         ],
+         "DECIMALUPTO4DIGIT": [
+            "ದಯವಿಟ್ಟು ಗರಿಷ್ಟ 4 ದಶಮಾಂಶ ಸ್ಥಾನಗಳೊಂದಿಗೆ ಮಾನ್ಯವಾದ ಸಂಖ್ಯೆಯನ್ನು ಒದಗಿಸಿ"
+         ],
+         "PROFILEPICTURE": [
+            "ಪ್ರೊಫೈಲ್ ಫೋಟೋ"
+         ],
+         "ADDPROFILEPIC": [
+            "ಪ್ರೊಫೈಲ್ ಫೋಟೋ ಸೇರಿಸಿ"
+         ],
+         "UPDATEPROFILEPIC": [
+            "ಪ್ರೊಫೈಲ್ ಫೋಟೋ ಬದಲಿಸಿ"
+         ],
+         "YOUHAVENOCOMPANIESTITLE": [
+            "ನೀವು ಪ್ರಸ್ತುತ ಕಂಪೆನಿಯೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ"
+         ],
+         "YOUHAVENOCOMPANIESMESSAGE": [
+            "ಹೊಸ ಕಂಪನಿಯೊಂದನ್ನು ನೋಂದಾಯಿಸಲು ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "YOUHAVENOLISTINGSTITLE": [
+            "ನೀವು ಯಾವುದೇ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಜಾಹಿರಾತು ಮಾಡಿಲ್ಲ"
+         ],
+         "YOUHAVENOLISTINGSMESSAGE": [
+            "ಮಾರಾಟ / ಬಾಡಿಗೆ ಆಸ್ತಿಯ ಗುಂಡಿಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "CONFIRMPASSWORDERROR": [
+            "ಗುಪ್ತಪದಗಳುತಾಳೆಯಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಮರುಪ್ರಯತ್ನಿಸಿ !!!"
+         ],
+         "PASSWORDCHANGESUCCESS": [
+            "ಪಾಸ್ವರ್ಡ್ ಬದಲಾಗಿದೆ !!!"
+         ],
+         "PREFERENCESSAVESUCCESS": [
+            "ಆದ್ಯತೆಗಳು ಉಳಿಸಲಾಗಿದೆ !!!"
+         ],
+         "PROFILESAVESUCCESS": [
+            "ಪ್ರೊಫೈಲ್ ಉಳಿಸಲಾಗಿದೆ !!!"
+         ],
+         "MYWISHLIST": [
+            "ನನ್ನ ವೀಕ್ಷಣೆ ಪಟ್ಟಿ"
+         ],
+         "REMOVEFROMWISHLIST": [
+            "ನನ್ನ ವೀಕ್ಷಣೆ ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಿ"
+         ],
+         "PHONENUMBERVIEWED": [
+            "ಯಾರಾದರೂ ನನ್ನ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ವೀಕ್ಷಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+         ],
+         "CHATINITIATED": [
+            "ಯಾರಾದರೂ ನನ್ನೊಂದಿಗೆ ಚಾಟ್ ಸಂವಾದವನ್ನು ಪ್ರಾರಂಭಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+         ],
+         "RSVPSENT": [
+            "ಯಾರಾದರೂ ಓಪನ್ ಹೌಸ್ಗಾಗಿ ಆರ್ಎಸ್ವಿಪಿ ಕಳುಹಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+         ],
+         "SAVEDSEARCHMATCH": [
+            "ನನ್ನ ಉಳಿಸಿದ ಹುಡುಕಾಟ ಮಾನದಂಡಕ್ಕೆ ಹೊಸ ಪಟ್ಟಿಗಳನ್ನು ಪೋಸ್ಟ್ ಮಾಡಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ"
+         ],
+         "LISTINGCREATED": [
+            "ಯಾರಾದರೂ ನನ್ನ ಪ್ರದೇಶಗಳಲ್ಲಿ ಒಂದು ಆಸ್ತಿಯನ್ನು ಪ್ರಕಟಿಸಿದಾಗ ನನಗೆ ಇಮೇಲ್ ಅಧಿಸೂಚನೆಯನ್ನು ಕಳುಹಿಸಿ & ಸ್ಥಳಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆ"
+         ],
+         "ENTERSAVEDSEARCHNOTIFICATIONDAYS": [
+            "ದಿನಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ"
+         ],
+         "SAVEDSEARCHNOTIFICATIONDAYS": [
+            "ದಿನಗಳ ನಂತರ ನಾವು ನಿಮಗೆ ಕಳುಹಿಸುವಿಕೆಯನ್ನು ನಿಲ್ಲಿಸಲು ಸೂಚನೆಗಳು ಹೊಂದಿಕೆ"
+         ],
+         "SAVEDON": [
+            "ಉಳಿಸಲಾಗಿದೆ"
+         ],
+         "YOUHAVENOWISHLISTTITLE": [
+            "ನಿಮ್ಮ ವಾಚ್ ಪಟ್ಟಿಯಲ್ಲಿ ನೀವು ಯಾವುದೇ ಪಟ್ಟಿಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+         ],
+         "YOUHAVENOWISHLISTMESSAGE": [
+            "ನಿಮ್ಮ ವಾಚ್ ಲಿಸ್ಟ್ಗೆ ಅದನ್ನು ಸೇರಿಸಲು ಲಿಸ್ಟ್ ಡಿಸ್ಪ್ಲೇನಲ್ಲಿ ಹಾರ್ಟ್ ಚಿಹ್ನೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "YOUHAVENOSEARCHESTITLE": [
+            "ನೀವು ಉಳಿಸಿದ ಹುಡುಕಾಟಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+         ],
+         "YOUHAVENOSEARCHESMESSAGE": [
+            "ಭವಿಷ್ಯದ ಉಲ್ಲೇಖಕ್ಕಾಗಿ ಅದನ್ನು ಉಳಿಸಲು ಆಸ್ತಿ ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳಲ್ಲಿ ಸೇವ್ ಹುಡುಕಾಟ ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ"
+         ],
+         "YOUHAVENONOTIFTITLE": [
+            "ನೀವು ಯಾವುದೇ ಸಂಪರ್ಕಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+         ],
+         "YOUHAVENONOTIFMESSAGE": [
+            "ನೀವು ಯಾರನ್ನಾದರೂ ಸಂಪರ್ಕಿಸಿ ಅಥವಾ ಯಾರಾದರೂ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿದಾಗ, ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಇಲ್ಲಿ ಗೋಚರಿಸುತ್ತವೆ"
+         ],
+         "ADDEDTOWISHLIST": [
+            "ವಾಚ್ ಲಿಸ್ಟ್ಗೆ ಸೇರಿಸಲಾಗಿದೆ"
+         ],
+         "ADDTOWISHLIST": [
+            "ವೀಕ್ಷಣೆಯ ಪಟ್ಟಿಗೆ ಸೇರಿಸು"
+         ],
+         "STATUSMESSAGE": [
+            "ಸ್ಥಿತಿ ಸಂದೇಶ"
+         ],
+         "ENRICHYOURPROFILEMSG": [
+            "ಸಂಭಾವ್ಯ ಹೂಡಿಕೆದಾರರಿಗೆ ನಿಮ್ಮ ಗೋಚರತೆಯನ್ನು ಸುಧಾರಿಸಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಉತ್ಕೃಷ್ಟಗೊಳಿಸಿ."
+         ],
+         "LICENSEREQUIRED": [
+            "ಪರವಾನಗಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ"
+         ],
+         "CURRENTPASSWORD": [
+            "ಪ್ರಸ್ತುತ ಗುಪ್ತಪದ"
+         ],
+         "NEWPASSWORD": [
+            "ಹೊಸ ಪಾಸ್ವರ್ಡ್"
+         ],
+         "CONFIRMPASSWORD": [
+            "ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ"
+         ],
+         "ENTERNAME": [
+            "ಹೆಸರು ನಮೂದಿಸಿ"
+         ],
+         "ENTERMOBILE": [
+            "ಮೊಬೈಲ್ ನಮೂದಿಸಿ"
+         ],
+         "NOTAMEMBER": [
+            "ಮಾಡಿರುವುದಿಲ್ಲ ಒಂದು ಸದಸ್ಯ?"
+         ],
+         "EMAILPHONE": [
+            "ಇಮೇಲ್ ID ಅಥವಾ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+         ],
+         "MEMBERLOGIN": [
+            "ಸದಸ್ಯ ಲಾಗಿನ್"
+         ],
+         "CREATEYOURACCOUNT": [
+            "ನಿಮ್ಮ ಖಾತೆ ರಚಿಸಿ"
+         ],
+         "MEMBER": [
+            "ಸದಸ್ಯ"
+         ],
+         "CHANGEPASSWORD": [
+            "ಗುಪ್ತಪದವನ್ನು ಬದಲಿಸಿ"
+         ],
+         "CHANGEPASSWORDDESCRIPTION": [
+            "ನಿಮ್ಮ ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "ADDWEBSITES": [
+            "ಒಂದು ವೆಬ್ ಸೈಟ್ ಸೇರಿಸಿ"
+         ],
+         "USERSREGISTRATIONINFOSCHEMATITLE": [
+            "ನಮ್ಮ ಸೈಟ್ ನೋಂದಾಯಿಸಿ"
+         ],
+         "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE": [
+            "ಒಂದು ಸೇವೆ ಪೂರೈಕೆದಾರರು ಅಥವಾ ಪ್ರೋಫೆಷನಲ್ ಎಂದು ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+         ],
+         "REALTORSREGISTRATIONINFOSCHEMATITLE": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಆಗಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ"
+         ],
+         "COMPANYREGISTRATIONINFOSCHEMATITLE": [
+            "ನಮ್ಮ ಸೈಟ್ ನಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿಯ ನೋಂದಣಿ"
+         ],
+         "VERIFYOTPHEADING": [
+            "OTP ಅನ್ನು ಪರಿಶೀಲಿಸಿ"
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE1": [
+            "ಹಲವಾರು ತಪ್ಪಾದ ಪಾಸ್ವರ್ಡ್ ಪ್ರಯತ್ನಗಳ ಕಾರಣ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ. OTP ಮರು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE2": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE1": [
+            "ನಿಮ್ಮ ಕೊನೆಯ ಭೇಟಿಯ ಸಮಯದಲ್ಲಿ ನೀವು ಸೈನ್ ಅಪ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿಲ್ಲ ಎಂದು ನಾವು ಗಮನಿಸುತ್ತೇವೆ. OTP ಮರು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE2": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE1": [
+            "ನಿಮ್ಮ ಕೊನೆಯ ಭೇಟಿಯ ಸಮಯದಲ್ಲಿ ನೀವು ಸೈನ್ ಅಪ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿಲ್ಲ ಎಂದು ನಾವು ಗಮನಿಸುತ್ತೇವೆ. OTP ಮರು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ ..."
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE2": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE1": [
+            "ಈ ಇಮೇಲ್ ಐಡಿ ನಿಮಗೆ ಸೇರಿದೆ ಎಂದು ನಾವು ದೃಢೀಕರಿಸಬೇಕಾಗಿದೆ"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE2": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE1": [
+            "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಲು ನಿಮ್ಮ ಇಮೇಲ್ ID ಅನ್ನು ನಾವು ಪರಿಶೀಲಿಸಬೇಕಾಗಿದೆ"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE2": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE2": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ಗೆ ಕಳುಹಿಸಲಾದ OTP ಅನ್ನು ಒದಗಿಸಿ"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE1": [
+            "ಈ ಇಮೇಲ್ ಐಡಿ ನಿಮಗೆ ಸೇರಿದೆ ಎಂದು ನಾವು ದೃಢೀಕರಿಸಬೇಕಾಗಿದೆ"
+         ],
+         "REGISTRATIONHEADING": [
+            "ಸೈನ್ ಅಪ್"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE1": [
+            "ನಿಮ್ಮ ಗುರುತನ್ನು ಒದಗಿಸಿ"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE2": [
+            "ನಿಮ್ಮನ್ನು ಗುರುತಿಸಲು ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು ಬಳಸಲಾಗುತ್ತದೆ ಮತ್ತು ಯಾರೊಂದಿಗೂ ಎಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಲಾಗುವುದಿಲ್ಲ"
+         ],
+         "LOGINDESCRIPTIONLINE1": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ ID ಯನ್ನು ಒದಗಿಸಿ"
+         ],
+         "LOGINDESCRIPTIONLINE2": [
+            "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಅಥವಾ ಸೈನ್ ಅಪ್ ರುಜುವಾತುಗಳಿಗಾಗಿ ನಿಮ್ಮನ್ನು ಕೇಳಲಾಗುತ್ತದೆ"
+         ],
+         "PASSWORDHEADING": [
+            "ಭದ್ರತಾ ತಪಾಸಣೆ"
+         ],
+         "PASSWORDDESCRIPTIONLINE1": [
+            "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಒದಗಿಸಿ"
+         ],
+         "PASSWORDDESCRIPTIONLINE2": [
+            "ನೀವು ಆನ್ಲೈನ್ನಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತೀರಿ ಮತ್ತು ಆನ್ಲೈನ್ನಲ್ಲಿರುವ ಇತರರೊಂದಿಗೆ ತಕ್ಷಣ ಸಂಪರ್ಕಿಸಬಹುದು"
+         ],
+         "FORGOTPASSWORDHEADING": [
+            "ಪಾಸ್ವರ್ಡ್ ಹೊಂದಿಸಿ"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE1": [
+            "ನಮ್ಮ ಸೈಟ್ಗೆ ಭವಿಷ್ಯದ ಪ್ರವೇಶಕ್ಕಾಗಿ ಪಾಸ್ವರ್ಡ್ ಒದಗಿಸಿ"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE2": [
+            "ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಪ್ರಬಲ ಮತ್ತು ಸುಲಭವಾದ ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಬಹುದು"
+         ],
+         "STATUSMESSAGETOOLTIP": [
+            "ನಿಮ್ಮ ಸಂಪರ್ಕ ಕಾರ್ಡ್ನಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುವ ಸಂಕ್ಷಿಪ್ತ ಸಂದೇಶವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "AREASSERVEDTOOLTIP": [
+            "ನೀವು ಸೇವೆಯನ್ನು ಪ್ರದೇಶಗಳಲ್ಲಿ ಅಥವಾ ಪ್ರದೇಶಗಳ ಪಟ್ಟಿ ಒದಗಿಸಿ. ನೀವು ನೆರೆಯ ಪ್ರದೇಶಗಳು ಈ ನಿಮ್ಮ ಗೋಚರತೆಯನ್ನು ಸುಧಾರಿಸುತ್ತದೆ ರಿಂದ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
+         ],
+         "PROFESSIONSTOOLTIP": [
+            "ನೀವು ಒದಗಿಸಿದ ಸೇವೆಗಳು ಪ್ರಕಾರವನ್ನು ಆರಿಸಿ"
+         ],
+         "EXPERTISETOOLTIP": [
+            "ಪರಿಣತಿ ಮತ್ತು ವಿಶೇಷ ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಪ್ರದೇಶಗಳಲ್ಲಿ ಒದಗಿಸಿ"
+         ],
+         "SPECIALTIESTOOLTIP": [
+            "ನಿಮ್ಮ ಸೂಕ್ತ ವಸತಿ ವಿಶೇಷ ಆಯ್ಕೆ"
+         ],
+         "BROKERAGEFIRMCOMPLETETOOLTIP": [
+            "ನಿಮ್ಮ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಸಂಸ್ಥೆ ಈಗಾಗಲೇ ನಮ್ಮೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಬಹುದು. ನಿಮ್ಮ ಕಂಪನಿ ಹೆಸರು ನಮ್ಮ ಡೇಟಾ ಲುಕಪ್. ಕಂಡುಬಂದಿಲ್ಲ, ನೀವು ಯಾವಾಗಲೂ ಇಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿ ನೋಂದಾಯಿಸಿಕೊಳ್ಳಬಹುದು."
+         ],
+         "COMPANYCOMPLETETOOLTIP": [
+            "ನಿಮ್ಮ ಕಂಪನಿ ಈಗಾಗಲೇ ನಮ್ಮೊಂದಿಗೆ ನೋಂದಾಯಿಸಲಾಗಬಹುದು. ನಿಮ್ಮ ಕಂಪನಿ ಹೆಸರು ನಮ್ಮ ಡೇಟಾ ಲುಕಪ್. ಕಂಡುಬಂದಿಲ್ಲ, ನೀವು ಯಾವಾಗಲೂ ಇಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿ ನೋಂದಾಯಿಸಿಕೊಳ್ಳಬಹುದು."
+         ],
+         "HAVECOMPANYTOOLTIP": [
+            "ನೀವು ಕಂಪನಿಯ ಸಂಬಂಧಿಸಿವೆ, ನೀವು ಇಲ್ಲಿ ನಿಮ್ಮ ಕಂಪನಿ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸುವ ಮೂಲಕ ಪ್ರಯೋಜನವನ್ನು ಪಡೆಯಬಹುದು"
+         ],
+         "HAVECOMPANY": [
+            "ಒಂದು ಕಂಪನಿ ಜೊತೆಗಿನ?"
+         ],
+         "BROKERAGEFIRMCOMPLETE": [
+            "ನಿಮ್ಮ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಏಜೆನ್ಸಿ ಹೆಸರು ನಮೂದಿಸಿ"
+         ],
+         "COMPANYCOMPLETE": [
+            "ನಿಮ್ಮ ಕಂಪನಿ ಹೆಸರು ನಮೂದಿಸಿ"
+         ],
+         "ADDCOMPANYCOLLAPSIBLE": [
+            "ನಿಮ್ಮ ಕಂಪನಿ ಸಿಗಲಿಲ್ಲವೇ?"
+         ],
+         "AREAREQUIRED": [
+            "ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ ಕನಿಷ್ಠ ಒಂದು ಪ್ರದೇಶ ಕಡ್ಡಾಯ"
+         ],
+         "COMPANYNAMEREQUIRED": [
+            "ಕಂಪೆನಿ ಹೆಸರು ಕಡ್ಡಾಯ"
+         ],
+         "CONTACTNUMBERTYPEREQUIRED": [
+            "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಟೈಪ್ ಕಡ್ಡಾಯ"
+         ],
+         "CONTACTNUMBERREQUIRED": [
+            "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಕಡ್ಡಾಯ"
+         ],
+         "NAMEREQUIRED": [
+            "ಹೆಸರು ಕಡ್ಡಾಯ"
+         ],
+         "MOBILENUMBERREQUIRED": [
+            "ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಕಡ್ಡಾಯ"
+         ],
+         "PASSWORDREQUIRED": [
+            "ಪಾಸ್ವರ್ಡ್ ಕಡ್ಡಾಯ"
+         ],
+         "REALTORINVALID": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "AREASMISSING": [
+            "ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ ಪ್ರದೇಶಗಳು ಕಡ್ಡಾಯ"
+         ],
+         "REALTORSINCEINVALID": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅಗತ್ಯವಿದೆ"
+         ],
+         "SPECIALTIESINVALID": [
+            "ವಿಶೇಷ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "CONTACTACTIONSMISSING": [
+            "ಕನಿಷ್ಠ ಒಂದು ಇಷ್ಟದ ಸಂಪರ್ಕಿಸಿ ಆಯ್ಕೆಯನ್ನು ಕಡ್ಡಾಯ"
+         ],
+         "CONTACTACTIONINVALID": [
+            "ಪ್ರಾಶಸ್ತ್ಯದ ಸಂಪರ್ಕಿಸಿ ಆಯ್ಕೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "PROFESSIONALINVALID": [
+            "ವೃತ್ತಿಪರ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "PROFESSIONSMISSING": [
+            "ಕನಿಷ್ಠ ಒಂದು ವೃತ್ತಿ ಅಗತ್ಯವಿದೆ"
+         ],
+         "MOBILEOREMAILMANDATORY": [
+            "ಇಮೇಲ್ ID ಅಥವಾ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಕನಿಷ್ಠ ಒಂದು ಕಡ್ಡಾಯ"
+         ],
+         "MOBILEOREMAILACTIONANYONENEEDED": [
+            "ಇಮೇಲ್ ID ಅಥವಾ ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಕನಿಷ್ಠ ಒಂದು ಆದ್ಯತೆ ಸಂಪರ್ಕ ಆಯ್ಕೆಯಾಗಿ ಹೊಂದಿಸಬೇಕು"
+         ],
+         "EXPIRED_PASSWORD": [
+            "ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮುಕ್ತಾಯಗೊಂಡಿದೆ. ಇದು ಮರುಹೊಂದಿಸಿ"
+         ],
+         "EMPTY_PASSWORD": [
+            "ಗುಪ್ತಪದಖಾಲಿಯಿದೆ"
+         ],
+         "USER_UNVERIFIED": [
+            "ಮುಂದಕ್ಕೆ ನಿಮ್ಮ OTP ಪರಿಶೀಲಿಸಿ"
+         ],
+         "USER_ACCOUNT_DISABLED": [
+            "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ನಮ್ಮ ಸಿಸ್ಟಮ್ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ"
+         ],
+         "USER_ACCOUNT_LOCKED": [
+            "ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಲಾಕ್ ಮಾಡಲಾಗಿದೆ. ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಲು"
+         ],
+         "USER_MOBILE_EXIST": [
+            "ನೀವು ಸರಬರಾಜು ಮಾಡಿದ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ಈಗಾಗಲೇ ನಮ್ಮ ವ್ಯವಸ್ಥೆಯನ್ನು ದಾಖಾಲಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಇನ್ನೊಂದು ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಪ್ರಯತ್ನಿಸಿ"
+         ],
+         "USER_EMAIL_EXIST": [
+            "ನೀವು ಸರಬರಾಜು ಮಾಡಿದ ಇಮೇಲ್ ID ಈಗಾಗಲೇ ನಮ್ಮ ವ್ಯವಸ್ಥೆಯನ್ನು ದಾಖಾಲಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಇನ್ನೊಂದು ಇಮೇಲ್ ಪ್ರಯತ್ನಿಸಿ"
+         ],
+         "USER_EMAIL_MOBILE_EXIST": [
+            "ನೀವು ಸರಬರಾಜು ಮಾಡಿದ ಇಮೇಲ್ ID ಮತ್ತು ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ಈಗಾಗಲೇ ನಮ್ಮ ವ್ಯವಸ್ಥೆಯನ್ನು ದಾಖಾಲಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೊಂದು ಇಮೇಲ್ ID ಅಥವಾ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಪ್ರಯತ್ನಿಸಿ"
+         ],
+         "TOKEN_NOT_FOUND": [
+            "OTP ಅನ್ನು ಅಮಾನ್ಯವಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ"
+         ],
+         "TOKEN_EXPIRED": [
+            "ನಿಮ್ಮ OTP ಮುಗಿದಿದೆ. ಒಂದು ಹೊಸ OTP ಸೃಷ್ಟಿಸಲು ಮಾಡಿ"
+         ],
+         "TOKEN_NOT_MATCHING": [
+            "OTP ಅನ್ನು ಅಮಾನ್ಯವಾಗಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ"
+         ],
+         "OLD_PASSWORD_NOT_SAME": [
+            "ಹಳೆಯ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "BAD_CREDENTIALS": [
+            "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "INVALID_USERNAME": [
+            "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "INVALID_USERID": [
+            "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "USER_NOT_FOUND": [
+            "ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್ವರ್ಡ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "BROKERAGE_FIRM_EXIST": [
+            "ಅದೇ ಹೆಸರಿನೊಂದಿಗೆ ಮತ್ತೊಂದು ಸಂಸ್ಥೆಯ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
+         ],
+         "COMPANY_EXIST": [
+            "ಅದೇ ಹೆಸರಿನ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ ಮತ್ತೊಂದು ಕಂಪನಿ"
+         ],
+         "BROKERAGE_FIRM_NOT_EXIST": [
+            "ಸಂಸ್ಥೆಯ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ"
+         ],
+         "COMPANY_NOT_EXIST": [
+            "ಕಂಪನಿ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ"
+         ],
+         "COMPANYINVALID": [
+            "ಕಂಪನಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "ADDOTHERCONTACTNUMBERS": [
+            "ಒಂದು ಸಂಪರ್ಕ ಸಂಖ್ಯೆ ಸೇರಿಸಿ"
+         ],
+         "ENTERAREA": [
+            "ನೀವು ಸೇವೆಯನ್ನು ಪ್ರದೇಶಗಳು ನಮೂದಿಸಿ"
+         ],
+         "ADDAREASSERVED": [
+            "ಕಾರ್ಯನಿರ್ವಹಿಸಿದ್ದಾರೆ ಒಬ್ಬ ಪ್ರಾದೇಶಿಕ ಸೇರಿಸಿ"
+         ],
+         "ENTEREXPERTISE": [
+            "ನಿಮ್ಮ ಪರಿಣತಿಯ ಕ್ಷೇತ್ರದಲ್ಲಿ ನಮೂದಿಸಿ"
+         ],
+         "ADDEXPERTISE": [
+            "ಪರಿಣಿತಿ ಒಂದು ಪ್ರದೇಶ ಸೇರಿಸಿ"
+         ],
+         "REGISTERCOMPANY": [
+            "ನನ್ನ ಕಂಪನಿ ನೋಂದಾಯಿಸಿ"
+         ],
+         "ROLETYPE": [
+            "ನಾನು ಒಬ್ಬ"
+         ],
+         "ROLE_CUSTOMER": [
+            "ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಇನ್ವೆಸ್ಟರ್"
+         ],
+         "ROLE_REALTOR": [
+            "ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್"
+         ],
+         "ROLE_PROFESSIONAL": [
+            "ವಸತಿ ಸೇವೆ ಒದಗಿಸುವವರು"
+         ],
+         "ENTEROTP": [
+            "ನಿಮ್ಮ ಇಮೇಲ್ ID ಗೆ ಕಳುಹಿಸಿದ OTP ಯನ್ನು ನಮೂದಿಸಿ"
+         ],
+         "USEREMAIL_EXIST": [
+            "ಈ ಇಮೇಲ್ ID ಹೊಂದಿರುವ ಬಳಕೆದಾರ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ. ದಯವಿಟ್ಟು ಪರ್ಯಾಯ ಇಮೇಲ್ ID ಅನ್ನು ಬಳಸಿ."
+         ],
+         "ROLETYPETOOLTIP": [
+            "ನೀವು ಹೂಡಿಕೆದಾರ ಅಥವಾ ಆಸ್ತಿ ಮಾಲೀಕರಾಗಿದ್ದರೆ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಇನ್ವೆಸ್ಟರ್ ಆಗಿ ಸೈನ್ ಅಪ್ ಮಾಡಿ. ನೀವು ರಿಯಾಲ್ಟರ್ / ಬ್ರೋಕರ್ ಅಥವಾ ರಿಯಲ್ ಎಸ್ಟೇಟ್ ಇಂಡಸ್ಟ್ರಿ ಸೇವೆ ಸಲ್ಲಿಸುವ ಸೇವೆ ಒದಗಿಸುವವರು / ವೃತ್ತಿಪರರಾಗಿದ್ದರೆ, ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿಗಾಗಿ ನಿಮ್ಮನ್ನು ಕೇಳಲಾಗುತ್ತದೆ."
+         ],
+         "PREVIEWSELECTEDFLOORPLANDOCS": [
+            "ಆಯ್ದ ಮಹಡಿ ಯೋಜನೆಗಳು ಮತ್ತು ಸಮೀಕ್ಷೆಗಳು"
+         ],
+         "FLOORPLANSGALLERY": [
+            "ಅಪ್ಲೋಡ್ ಮಾಡಿದ ಮಹಡಿ ಯೋಜನೆಗಳು ಮತ್ತು ಸಮೀಕ್ಷೆಗಳು"
+         ],
+         "BASICINFORMATION": [
+            "ಸ್ಥಳ"
+         ],
+         "PROPERTYDETAILS": [
+            "ವಿವರಗಳು"
+         ],
+         "LOCATEPROPERTYTIP": [
+            "ಕೆಳಗೆ ಪ್ರಾಪರ್ಟೀಸ್ ಆಯ್ಕೆ"
+         ],
+         "PROPERTYFOUND": [
+            "ನಿಮ್ಮ ಸ್ಥಳದಲ್ಲಿ ಪ್ರಾಪರ್ಟೀಸ್ ಹೊಂದಾಣಿಕೆ"
+         ],
+         "PROPERTYNOTFOUND": [
+            "ನಿಮ್ಮ ಆಸ್ತಿ ಸಿಗಲಿಲ್ಲ?"
+         ],
+         "SELFOWNED": [
+            "ಈ ಜಾಹೀರಾತು ಮಾಲಿಕರೇ?"
+         ],
+         "OWNEREMAILID": [
+            "ಜಾಹೀರಾತು ಮಾಲೀಕ ಇಮೇಲ್ ಐಡಿ"
+         ],
+         "OWNERMOBILENUMBER": [
+            "ಜಾಹೀರಾತು ಮಾಲೀಕ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+         ],
+         "OWNERNAME": [
+            "ಜಾಹೀರಾತು ಮಾಲೀಕರ ಹೆಸರು"
+         ],
+         "LISTINGCONFIRMATIONTITLE": [
+            "ಮುನ್ನೋಟ ನಿಮ್ಮ ಜಾಹೀರಾತು ಖಚಿತಪಡಿಸಲು"
+         ],
+         "MARKERDRAGPINMESSAGE": [
+            "ಸಂದರ್ಭದಲ್ಲಿ ನೀವು ನಿಮ್ಮ ವಿಳಾಸ ಹುಡುಕಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ, ಹತ್ತಿರದ ಲ್ಯಾಂಡ್ಮಾರ್ಕ್ ಅಥವಾ ಲೋಕಾಲಿಟಿ ನಮೂದಿಸಿ ತದನಂತರ ನಿಮ್ಮ ಆಸ್ತಿ ಸ್ಥಳ ಪಿನ್ ಎಳೆಯಿರಿ"
+         ],
+         "BASICINFOSCHEMATITLE": [
+            "ನಿಮ್ಮ ಆಸ್ತಿ ಪತ್ತೆ"
+         ],
+         "DROPIMAGETITLE": [
+            "ನಿಮ್ಮ ಫೈಲ್ಗಳನ್ನು ಇಲ್ಲಿ ಎಳೆದು ಬಿಡಿ. ನೀವು ಪ್ರತಿ ಬಾರಿಯೂ 10 ಫೈಲ್ಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಬಹುದು."
+         ],
+         "MEDIATITLE": [
+            "ನಿಮ್ಮ ಆಸ್ತಿ ಫೋಟೋಗಳನ್ನು ಅಪ್ಲೋಡ್"
+         ],
+         "OVERVIEWINFOSCHEMATITLE": [
+            "ನಿಮ್ಮ ಜಾಹೀರಾತು ಬಗ್ಗೆ ಮೂಲಭೂತ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಿ"
+         ],
+         "FINANCIALINFOSCHEMATITLE": [
+            "ಹಣಕಾಸಿನ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸಿ"
+         ],
+         "ADDITIONALINFOSCHEMATITLE": [
+            "ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ ಒದಗಿಸಿ"
+         ],
+         "PROPERTYINFOSCHEMATITLE": [
+            "ನಿಮ್ಮ ಆಸ್ತಿ ವಿವರಗಳು ಸಮೃದ್ಧಗೊಳಿಸಿ"
+         ],
+         "VALUEADDEDREASONTOOLTIP": [
+            "ಈ ಆಸ್ತಿಯ ಹೂಡಿಕೆ ವರ್ಗವನ್ನು ಮೌಲ್ಯ ಸೇರಿಸಿ ಮಾಡುವ ಪ್ರಾಥಮಿಕ ಕಾರಣ ಅಥವಾ ಅಂಶವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "RISKRETURNCATEGORYTOOLTIP": [
+            "ನಿರ್ಣಯಗಳನ್ನು ಮಾಡುವಲ್ಲಿ ಹೂಡಿಕೆದಾರರಿಗೆ ಸಹಾಯ ಮಾಡುವ ರಿಸ್ಕ್ ರಿಟರ್ನ್ ವಿಭಾಗದ ಆಸ್ತಿಯನ್ನು ಒದಗಿಸಿ. ಕೋರ್: ಊಹಿಸಲಾಗದ ನಗದು ಹರಿವಿನೊಂದಿಗೆ ಇದು ಒಂದು ಅಂದಾಜು ಮಾಡಲಾಗದ, ಕಡಿಮೆ-ಅಪಾಯದ / ಕಡಿಮೆ ಸಾಮರ್ಥ್ಯದ ರಿಟರ್ನ್ ಹೂಡಿಕೆಯಾಗಿದೆ. ಕೋರ್ ಪ್ಲಸ್: ಇದು ಮಧ್ಯಮ-ಅಪಾಯ / ಮಧ್ಯಮ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಿಂದಾಗಿ, ಇದು ಸುಧಾರಣೆಗಳ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ ಅಥವಾ ಇರಬಹುದು. ಮೌಲ್ಯ ಸೇರಿಸಲಾಗಿದೆ: ಇದು ಮಧ್ಯಮದಿಂದ ಹೆಚ್ಚಿನ ಅಪಾಯ / ಮಧ್ಯಮ-ದಿಂದ-ಹೆಚ್ಚಿನ-ಲಾಭದ ಹೂಡಿಕೆಯಾಗಿದ್ದು ಇದು ವರ್ಧನೆಗಳನ್ನು ಅಥವಾ ಬಂಡವಾಳದ ಒಳಹರಿವು ಅಥವಾ ಇತರ ಬದಲಾವಣೆಗಳಿಗೆ ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ಅವಕಾಶವಾದಿ: ಇದು ಅಧಿಕ-ಅಪಾಯ / ಅಧಿಕ-ಹಿಂತಿರುಗಿಸುವ ಹೂಡಿಕೆಯಾಗಿದ್ದು, ಇದು ಹೆಚ್ಚಿನ ಮಟ್ಟದ ವರ್ಧನೆ ಅಥವಾ ಇತರ ಅಪಾಯಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ."
+         ],
+         "DISTRESSEDTOOLTIP": [
+            "ಈ ಆಸ್ತಿ ತೊಂದರೆಗೀಡಾದ ಮತ್ತು ಸರಿಯಾದ ಸ್ಥಿತಿ ಎಂದು ಸೂಚಿಸುತ್ತದೆ"
+         ],
+         "PROPERTYNAMETOOLTIP": [
+            "ಆಸ್ತಿ ಎಷ್ಟು ಒಂದು ಅನನ್ಯ ಹೆಸರನ್ನು ಒದಗಿಸಿ, ಇತರರು ಸುಲಭವಾಗಿ ಗುರುತಿಸಬಹುದಾಗಿದೆ"
+         ],
+         "AREATOOLTIP": [
+            "ಆಸ್ತಿಯ ಜಾಗ ಒದಗಿಸುತ್ತವೆ. ನೀವು ಒಂದು ನಿವೇಶನ ಒಂದು ನಿರ್ಮಾಣ ಘಟಕವನ್ನು ಜಾಹೀರಾತು, ನಂತರ, ಈ ನಿವೇಶನ ಘಟಕದ ಪ್ರದೇಶದಲ್ಲಿ ಪ್ರಚಾರ ಇರಬೇಕು"
+         ],
+         "LOTAREATOOLTIP": [
+            "ಸ್ವತ್ತಿನ ಒಟ್ಟು ಕಥಾವಸ್ತುವಿನ ಪ್ರದೇಶ ಒದಗಿಸಿ"
+         ],
+         "ENDDATETOOLTIP": [
+            "ನಿಮ್ಮ ಜಾಹೀರಾತು ಕ್ರಿಯಾತ್ಮಕವಾಗಿ ಯಾವ ರವರೆಗೆ ದಿನಾಂಕವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "CONTACTACTIONSTOOLTIP": [
+            "ಸಂಪರ್ಕ ನಿಮ್ಮ ಆದ್ಯತೆ ಕ್ರಮದಲ್ಲಿ ಒದಗಿಸಿ. ಎಲ್ಲಾ ಸಂಭಾವ್ಯ ಸಂಪರ್ಕ ಆಯ್ಕೆಗಳನ್ನು ಶಕ್ತಗೊಳಿಸುವುದರಿಂದ ಸುಲಭವಾಗಿ ನೀವು ತಲುಪಲು ಇತರರು ಅನುಕೂಲ"
+         ],
+         "SELFOWNEDTOOLTIP": [
+            "ಈ ಜಾಹೀರಾತಿಗಾಗಿ ಮಾಲೀಕತ್ವವನ್ನು ವಿವರಗಳನ್ನು ಒದಗಿಸಿ. ಈ ನಿಮ್ಮಿಂದ, ನಂತರ, ಮಾಲೀಕರು ಮಾಹಿತಿ ಒದಗಿಸಲು"
+         ],
+         "AVAILABLEDATETOOLTIP": [
+            "ಆಸ್ತಿ ಅನುಭೋಗಕ್ಕೆ ಲಭ್ಯವಾಗಲಿರುವ ಮೂಲಕ ದಿನಾಂಕವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "DISCLOSEADDRESSTOOLTIP": [
+            "ಈ ಆಸ್ತಿಗಾಗಿ ವಿಳಾಸವನ್ನು ಬಹಿರಂಗಪಡಿಸಲು ಅಥವಾ ಮರೆಮಾಡಲು ನೀವು ಬಯಸುತ್ತೀರಾ ಎಂಬುದನ್ನು ಸೂಚಿಸಿ"
+         ],
+         "DISCLOSEPRICETOOLTIP": [
+            "ಈ ಪಟ್ಟಿಗಾಗಿ ಬೆಲೆ ಬಹಿರಂಗಪಡಿಸಲು ಅಥವಾ ಮರೆಮಾಡಲು ನೀವು ಬಯಸುತ್ತೀರಾ ಎಂಬುದನ್ನು ಸೂಚಿಸಿ"
+         ],
+         "CAPRATEKNOWNTOOLTIP": [
+            "ಆಸ್ತಿಯ ಕ್ಯಾಪ್ ದರ ಅಥವಾ ಪಟ್ಟಿ ಮಾಡಲಾದ ಯುನಿಟ್ ನಿಮಗೆ ತಿಳಿದಿದ್ದರೆ, ನೀವು ಅದನ್ನು ನೇರವಾಗಿ ನಮೂದಿಸಬಹುದು. ಇಲ್ಲದಿದ್ದರೆ, ಕ್ಯಾಪ್ ದರವನ್ನು ಲೆಕ್ಕಾಚಾರ ಮಾಡಲು ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಬಹುದು"
+         ],
+         "CAPRATETYPETOOLTIP": [
+            "ಕ್ಯಾಪ್ ದರವು ವಾಸ್ತವಿಕ ಅಥವಾ ಯೋಜಿತ ಆದಾಯದ ಆಧಾರದ ಮೇಲೆ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ"
+         ],
+         "GROSSRENTREVENUETOOLTIP": [
+            "ವಾರ್ಷಿಕ ಒಟ್ಟು ಬಾಡಿಗೆ ಆದಾಯ ಅಥವಾ ಪೊಟೆನ್ಟೈಲ್ ಬಾಡಿಗೆ ವರಮಾನವನ್ನು ಆಸ್ತಿ ಸಂಪೂರ್ಣವಾಗಿ ಆಕ್ರಮಿಸಿಕೊಂಡಿದೆ ಎಂದು ಊಹಿಸಿ"
+         ],
+         "VACANCYLOSSESTOOLTIP": [
+            "ಗುತ್ತಿಗೆ ಪಾವತಿಗಳ ಮೇಲೆ ಆಸ್ತಿಯನ್ನು ಅಥವಾ ಡೀಫಾಲ್ಟ್ ಅನ್ನು ಖಾಲಿ ಮಾಡುವ ಬಾಡಿಗೆದಾರರಿಂದ ವಾರ್ಷಿಕ ನಷ್ಟವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "MANAGEMENTANDLEASINGFEESTOOLTIP": [
+            "ಆಸ್ತಿ ನಿರ್ವಹಣೆ ಮತ್ತು ಲೀಸಿಂಗ್ಗಾಗಿ ವಾರ್ಷಿಕ ಶುಲ್ಕವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "PROPERTYINSURANCETOOLTIP": [
+            "ವಾರ್ಷಿಕ ಆಸ್ತಿ ವಿಮಾ ಮೊತ್ತವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "PROPERTYTAXESTOOLTIP": [
+            "ವಾರ್ಷಿಕ ಆಸ್ತಿ ತೆರಿಗೆ ಮೊತ್ತವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "PROPERTYMAINTENANCETOOLTIP": [
+            "ಆಸ್ತಿಯನ್ನು ನಿರ್ವಹಿಸಲು ವಾರ್ಷಿಕ ಖರ್ಚುಗಳನ್ನು ಒದಗಿಸಿ"
+         ],
+         "OTHEREXPENSESTOOLTIP": [
+            "ಎಲ್ಲಾ ಇತರ ಖರ್ಚುಗಳಿಗೆ ಒಟ್ಟು ವಾರ್ಷಿಕ ಮೊತ್ತವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "CALCULATEDCAPRATETOOLTIP": [
+            "ಬಂಡವಾಳೀಕರಣ ದರ ಅಥವಾ ಕ್ಯಾಪ್ ದರವು, ನಿವ್ವಳ ಆಪರೇಟಿಂಗ್ ವರಮಾನದ (ಎನ್ಒಐ) ಆಸ್ತಿ ಸ್ವತ್ತಿನ ಮೌಲ್ಯಕ್ಕೆ ಅಥವಾ ಬೆಲೆ ಕೇಳುವುದು"
+         ],
+         "COMMISSIONSPLITTOOLTIP": [
+            "ಕೊಳ್ಳುವವರ ದಳ್ಳಾಲಿ ಕಮಿಷನ್ ಶೇಕಡಾವಾರು ಒದಗಿಸಲು"
+         ],
+         "COMMISSIONPERCENTAGETOOLTIP": [
+            "ಖರೀದಿದಾರನನ್ನು ಪಾವತಿಸಲು ಎಂದು ಆಯೋಗದ ಶೇಕಡಾವಾರು ಒದಗಿಸಲು"
+         ],
+         "COMMISSIONAMOUNTTOOLTIP": [
+            "ಖರೀದಿದಾರನನ್ನು ಪಾವತಿಸಲು ಎಂದು ಆಯೋಗದ ಪ್ರಮಾಣದ ಒದಗಿಸಿ"
+         ],
+         "SPECIFICATIONSTOOLTIP": [
+            "ಕಟ್ಟಡ ಅಡಿಪಾಯ ಬಗ್ಗೆ ವಿವರಗಳನ್ನು ಸೇರಿದಂತೆ ವಿಶೇಷಣಗಳು ಒದಗಿಸಿ, ಕಟ್ಟಡ ಸಾಮಗ್ರಿಗಳನ್ನು ಬಳಸಿಕೊಂಡು, ಗಳಿಸಿತ್ತು ನೆಲೆವಸ್ತುಗಳ ಮತ್ತು ಪೀಠೋಪಕರಣಗಳ"
+         ],
+         "PRIMARYIDENTIFIERTOOLTIP": [
+            "ಆಸ್ತಿ ಗುರುತಿನ ಸಂಖ್ಯೆ ಒದಗಿಸಿ. ನಿರ್ಧಾರಗಳನ್ನು ಖರೀದಿ ಆಸ್ತಿ ಮೌಲ್ಯಮಾಪನ ಪ್ರಮುಖ ಇರುತ್ತದೆ."
+         ],
+         "HIGHLIGHTSTOOLTIP": [
+            "ವಾಸ್ತುವಿನ ಅನುಸರಣೆ, ಎದುರಿಸುತ್ತಿರುವ ದಿಕ್ಕಿನಲ್ಲಿ, ಗಾಳಿ, ಇತ್ಯಾದಿ ನಿಮ್ಮ ಆಸ್ತಿ ಪ್ರಮುಖ ಮುಖ್ಯಾಂಶಗಳು ಒದಗಿಸಿ"
+         ],
+         "MINDIVISIBLEAREATOOLTIP": [
+            "ಈ ಕಥಾವಸ್ತುವಿನ ಭಾಗಾಕಾರದಲ್ಲಿನ ಅವಕಾಶ ಚಿಕ್ಕ ಪ್ರದೇಶ ಒದಗಿಸಿ"
+         ],
+         "MAXDIVISIBLEAREATOOLTIP": [
+            "ಈ ಕಥಾವಸ್ತುವಿನ ವಿಭಾಗದಲ್ಲಿ ಅನುಮತಿಸುವ ದೊಡ್ಡ ಪ್ರದೇಶವನ್ನು ಒದಗಿಸಿ"
+         ],
+         "MAXCONTIGUOUSAREATOOLTIP": [
+            "ಈ ಕಥಾವಸ್ತುವಿನ ಭಾಗಾಕಾರದಲ್ಲಿನ ಅವಕಾಶ ದೊಡ್ಡ ನಿರಂತರ ಪ್ರದೇಶವನ್ನು ಒದಗಿಸಲು"
+         ],
+         "FIXTURESTOOLTIP": [
+            "ನಿಮ್ಮ ಘಟಕದಲ್ಲಿ ಪ್ರತಿ ಪಂದ್ಯದ ಅಥವಾ ಉಪಕರಣದ ವಿವರಗಳನ್ನು ಒದಗಿಸಿ"
+         ],
+         "PROPERTYNAMEREQUIRED": [
+            "ಆಸ್ತಿ ಹೆಸರು ಕಡ್ಡಾಯ"
+         ],
+         "PROPERTYSUBTYPEREQUIRED": [
+            "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ ಕಡ್ಡಾಯ"
+         ],
+         "PROPERTYTYPEREQUIRED": [
+            "ವರ್ಗ ಅಗತ್ಯವಿದೆ"
+         ],
+         "LINEONEREQUIRED": [
+            "ಸ್ಟ್ರೀಟ್ ವಿಳಾಸ ಕಡ್ಡಾಯ"
+         ],
+         "CITYREQUIRED": [
+            "ಸಿಟಿ ಕಡ್ಡಾಯ"
+         ],
+         "ZIPCODEREQUIRED": [
+            "ಪಿನ್ ಕೋಡ್ ಕಡ್ಡಾಯ"
+         ],
+         "LOCALITYREQUIRED": [
+            "ಲೋಕಾಲಿಟಿ ಕಡ್ಡಾಯ"
+         ],
+         "TITLEREQUIRED": [
+            "ಜಾಹೀರಾತು ಶೀರ್ಷಿಕೆ ಕಡ್ಡಾಯ"
+         ],
+         "LISTINGAREAREAMISSING": [
+            "ಪ್ರದೇಶ ಕಡ್ಡಾಯ"
+         ],
+         "PROPERTYLISTINGTYPEREQUIRED": [
+            "ಜಾಹೀರಾತು ಟೈಪ್ ಕಡ್ಡಾಯ"
+         ],
+         "STARTTIMEMISSING": [
+            "ಪ್ರಾರಂಭ ಸಮಯದ ಅಗತ್ಯವಿದೆ"
+         ],
+         "ENDTIMEMISSING": [
+            "ಎಂಡ್ ಸಮಯದ ಅಗತ್ಯವಿದೆ"
+         ],
+         "ENDTIMEINVALID": [
+            "ಎಂಡ್ ಟೈಮ್ ಕಡಿಮೆ ಅಥವಾ ಟೈಮ್ ಪ್ರಾರಂಭಿಸಿ ಸಮಾನವಾಗಿರಬೇಕು ಸಾಧ್ಯವಿಲ್ಲ"
+         ],
+         "OPENHOUSEENDDATEMINVALUE": [
+            "ಓಪನ್ ಹೌಸ್ ದಿನಾಂಕ ಮುಂಚಿತವಾಗಿರಬೇಕು ಸಾಧ್ಯವಿಲ್ಲ"
+         ],
+         "ENDDATEMINVALUE": [
+            "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ ಮುಂಚಿತವಾಗಿರಬೇಕು ಸಾಧ್ಯವಿಲ್ಲ"
+         ],
+         "ENDDATEMAXVALUE": [
+            "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ ಹೆಚ್ಚು ಹೆಚ್ಚಿರಬಾರದು"
+         ],
+         "ENDDATEREQUIRED": [
+            "ಜಾಹೀರಾತು ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ ಕಡ್ಡಾಯ"
+         ],
+         "GROSSRENTREVENUEREQUIRED": [
+            "ಒಟ್ಟು ಬಾಡಿಗೆ ಆದಾಯ ಅಗತ್ಯವಿದೆ"
+         ],
+         "DISCLOSEADDRESSREQUIRED": [
+            "ಪ್ರಕಟಣೆ ವಿಳಾಸ ಅಗತ್ಯವಿದೆ"
+         ],
+         "DISCLOSEPRICEREQUIRED": [
+            "ಪ್ರಕಟಣೆ ಬೆಲೆ ಅಗತ್ಯವಿದೆ"
+         ],
+         "SALEPRICEREQUIRED": [
+            "ಮಾರಾಟ ಬೆಲೆ ಕಡ್ಡಾಯ"
+         ],
+         "LEASEPRICEREQUIRED": [
+            "ಬಾಡಿಗೆ ಪ್ರಮಾಣ ಕಡ್ಡಾಯ"
+         ],
+         "PROPERTYLISTINGMISSING": [
+            "ಆಸ್ತಿ ಪಟ್ಟಿ ಕಡ್ಡಾಯ"
+         ],
+         "PROPERTYMISSING": [
+            "ಆಸ್ತಿ ಕಡ್ಡಾಯ"
+         ],
+         "SALEPRICEMISSING": [
+            "ಮಾರಾಟ ಬೆಲೆ ಕಡ್ಡಾಯ"
+         ],
+         "SALEPRICEINVALID": [
+            "ಮಾರಾಟ ಬೆಲೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "COMMISSIONSPLITINVALID": [
+            "ಖರೀದಿದಾರನ ಏಜೆಂಟ್ ಕಮಿಷನ್ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "SALECOMMISSIONINVALID": [
+            "ಆಯೋಗದ ಶೇಕಡಾವಾರು ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "LEASEPRICEMISSING": [
+            "ಲೀಸ್ ಬೆಲೆ ಕಡ್ಡಾಯ"
+         ],
+         "LEASEPRICEINVALID": [
+            "ಲೀಸ್ ಬೆಲೆ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "LEASEDEPOSITINVALID": [
+            "ಠೇವಣಿ ಮೊತ್ತ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "LEASETERMINVALID": [
+            "ಲೀಸ್ ಅವಧಿ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "LEASEMAINTENANCECHARGESINVALID": [
+            "ಮಾಸಿಕ ನಿರ್ವಹಣಾ ಶುಲ್ಕಗಳು ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "LEASECOMMISSIONINVALID": [
+            "ಆಯೋಗದ ಪ್ರಮಾಣ ಅಮಾನ್ಯವಾಗಿದೆ"
+         ],
+         "NUMBEROFBEDSREQUIRED": [
+            "ಬೆಡ್ಸ್ ಸಂಖ್ಯೆ ಅಗತ್ಯವಿದೆ"
+         ],
+         "NUMBEROFSEATSREQUIRED": [
+            "ಸಂಖ್ಯೆ ಆಸನಗಳು ಅಗತ್ಯವಿದೆ"
+         ],
+         "NUMBEROFBEDROOMSREQUIRED": [
+            "ಮಲಗುವ ಕೋಣೆಗಳು ಸಂಖ್ಯೆ ಅಗತ್ಯವಿದೆ"
+         ],
+         "LISITNGAREAREQUIRED": [
+            "ಪ್ರದೇಶ ಕಡ್ಡಾಯ"
+         ],
+         "ENDDATEMISSING": [
+            "ಎಕ್ಸ್ ಪೈರಿ ದಿನಾಂಕ ಅಗತ್ಯವಿದೆ"
+         ],
+         "OTHERSUBTYPEINVALID": [
+            "ಅಮಾನ್ಯವಾದ ಇತರೆ ಆಸ್ತಿ ಉಪ ಕೌಟುಂಬಿಕತೆ"
+         ],
+         "SUBTYPEMISSING": [
+            "ಆಸ್ತಿ ಕೌಟುಂಬಿಕತೆ ಕಡ್ಡಾಯ"
+         ],
+         "LISTINGTITLEMISSING": [
+            "ಜಾಹೀರಾತು ಶೀರ್ಷಿಕೆ ಅಗತ್ಯವಿದೆ"
+         ],
+         "LISTINGSALETYPEMISSING": [
+            "ಮೂಲಕ ಅಗತ್ಯವಿದೆ ದಿನಾಂಕ"
+         ],
+         "LISTINGTYPEMISSING": [
+            "ಜಾಹೀರಾತು ಟೈಪ್ ಅಗತ್ಯವಿದೆ"
+         ],
+         "TYPEMISSING": [
+            "ವರ್ಗ ಅಗತ್ಯವಿದೆ"
+         ],
+         "LEASETERMREQUIRED": [
+            "ಲೀಸ್ ಟರ್ಮ್ ಅಗತ್ಯವಿದೆ"
+         ],
+         "LEASETYPEREQUIRED": [
+            "ಲೀಸ್ ಕೌಟುಂಬಿಕತೆ ಅಗತ್ಯವಿದೆ"
+         ],
+         "LEASEAMOUNTREQUIRED": [
+            "ಲೀಸ್ ಮೊತ್ತ ಅಗತ್ಯವಿದೆ"
+         ],
+         "DISTRESSEDSTATUSREQUIRED": [
+            "ಸಂಕಟದ ಸ್ಥಿತಿ ಅಗತ್ಯವಿದೆ"
+         ],
+         "CREATEPROPERTY": [
+            "ಆಸ್ತಿ ಮಾಹಿತಿ ಒದಗಿಸಿ"
+         ],
+         "CONFIRMADDRESS": [
+            "ನಿಮ್ಮ ಆಸ್ತಿಯ ವಿಳಾಸವನ್ನು ಖಚಿತಪಡಿಸಿ"
+         ],
+         "MOVEMAP": [
+            "ಸರಿಸಿ ಅಥವಾ ಗುಣಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು ನಕ್ಷೆ ಎಳೆಯಿರಿ"
+         ],
+         "BACKTOPROPERTY": [
+            "ಹಿಂದಿನ ಹಂತ"
+         ],
+         "NOIMAGESUPLOADED": [
+            "ಯಾವುದೇ ಫೈಲ್ಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ"
+         ],
+         "PREVIEWSELECTEDDOCUMENTS": [
+            "ಆಯ್ದ ಡಾಕ್ಯುಮೆಂಟ್ಸ್"
+         ],
+         "PREVIEWSELECTEDIMAGES": [
+            "ಮುನ್ನೋಟ ಆಯ್ದ ಚಿತ್ರಗಳು"
+         ],
+         "CURRENTDEFAULT": [
+            "ಡೀಫಾಲ್ಟ್ ಫೋಟೋ"
+         ],
+         "SETASDEFAULT": [
+            "ಪೂರ್ವನಿಯೋಜಿತವಾಗಿಡು"
+         ],
+         "CONFIRMPROPERTY": [
+            "ಇದನ್ನು ಸ್ಥಾನ ಆಯ್ಕೆಮಾಡಿ"
+         ],
+         "NEXTTOFINANCIAL": [
+            "ಮುಂದಿನ ನಡೆ"
+         ],
+         "NEXTTOADDITIONAL": [
+            "ಮುಂದಿನ ನಡೆ"
+         ],
+         "BACKTOADDITIONAL": [
+            "ಹಿಂದಿನ ಹಂತ"
+         ],
+         "NEXTTOCREATEPROPERTY": [
+            "ಮುಂದಿನ ನಡೆ"
+         ],
+         "BACKTOADDRESS": [
+            "ಹಿಂದಿನ ಹಂತ"
+         ],
+         "ADDLEASERENEWALOPTIONS": [
+            "ಲೀಸ್ ನವೀಕರಣ ಆಯ್ಕೆಯನ್ನು ಸೇರಿಸಿ"
+         ],
+         "ADDHIGHLIGHTS": [
+            "ಮತ್ತೊಂದು ಹೈಲೈಟ್ ಸೇರಿಸಿ"
+         ],
+         "POSTONLINE": [
+            "ಪೋಸ್ಟ್ ಜಾಹೀರಾತು ಆನ್ಲೈನ್"
+         ],
+         "NEXTTOPROPERTY": [
+            "ಮುಂದಿನ ನಡೆ"
+         ],
+         "NEXTTOPHOTOS": [
+            "ಮುಂದಿನ ನಡೆ"
+         ],
+         "BACKTOFINANCIAL": [
+            "ಹಿಂದಿನ ಹಂತ"
+         ],
+         "SELECTEDBUILDINGUNIT": [
+            "ನಿಮ್ಮ ಘಟಕ ವಿವರಿಸಿ"
+         ],
+         "PROPERTYBUILDINGDETAILS": [
+            "ನಿಮ್ಮ ಕಟ್ಟಡ ವಿವರಿಸಿ"
+         ],
+         "APARTMENTDETAILS": [
+            "ನಿಮ್ಮ ವಸತಿ ಸಮುದಾಯ ವಿವರಿಸಿ"
+         ],
+         "PROPERTYLOTDETAILS": [
+            "ನಿಮ್ಮ ಕಥಾವಸ್ತು ವಿವರಿಸಿ"
+         ],
+         "ENTERHIGHLIGHTS": [
+            "ಆಸ್ತಿ ಮುಖ್ಯಾಂಶಗಳು ನಮೂದಿಸಿ"
+         ],
+         "ADDFIXTURES": [
+            "ಫಿಕ್ಸ್ಚರ್ ಸೇರಿಸಿ"
+         ],
+         "ENTERFIXTURES": [
+            "ಫಿಕ್ಸ್ಚರ್ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ"
+         ],
+         "ADDSPECIFICATIONS": [
+            "ಕಟ್ಟಡದ ವಿವರಣೆಯನ್ನು ಸೇರಿಸಿ"
+         ],
+         "ENTERSPECIFICATIONS": [
+            "ಕಟ್ಟಡ ವಿಶೇಷಣಗಳು ನಮೂದಿಸಿ"
+         ],
+         "ADDROOMS": [
+            "ಒಂದು ಕೊಠಡಿ ಸೇರಿಸಿ"
+         ],
+         "HOTELROOMDETAILS": [
+            "ನಿಮ್ಮ ರೂಮ್ Decsribe"
+         ],
+         "LOTDETAILSCOLLAPSIBLE": [
+            "ಕಥಾವಸ್ತು ಮಾಹಿತಿ (ನಾನು ಒಂದು ನಿರ್ದಿಷ್ಟ ಕಥಾವಸ್ತು ಪಟ್ಟಿಯನ್ನು ನಾನು)"
+         ],
+         "SELECTEDLOT": [
+            "ನಿಮ್ಮ ಕಥಾವಸ್ತು ವಿವರಿಸಿ"
+         ],
+         "MAXNOOFFILES": [
+            "ನೀವು 10 ಫೈಲ್ಗಳನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಬಹುದು"
+         ],
+         "UPLOADNOW": [
+            "ಈಗ ಅಪ್ಲೋಡ್"
+         ],
+         "SELECTFILESTOUPLOAD": [
+            "ಬ್ರೌಸ್ ಫೈಲ್ಸ್"
+         ],
+         "MINIMUM4IMAGESREQUIRED": [
+            "ಕನಿಷ್ಠ 4 ಫೋಟೋಗಳನ್ನು ಸೇರಿಸಿ"
+         ],
+         "LISTINGUPDATED": [
+            "ಪಟ್ಟಿ ನವೀಕರಿಸಲಾಗಿದೆ !!!"
+         ],
+         "LISTINGUPDATEFAILED": [
+            "ಪಟ್ಟಿಯನ್ನು ನವೀಕರಿಸಲಾಗಲಿಲ್ಲ !!! ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+         ],
+         "VIDEOTITLEPLACEHOLDER": [
+            "ನಿಮ್ಮ ವೀಡಿಯೊ ಶೀರ್ಷಿಕೆಯನ್ನು ಟೈಪ್ ಮಾಡಿ"
+         ],
+         "VIDEOURLPLACEHOLDER": [
+            "ನಿಮ್ಮ ವೀಡಿಯೊ URL ಟೈಪ್ ಮಾಡಿ ಅಥವಾ ಅಂಟಿಸಿ"
+         ],
+         "ASKINGPRICEPRICEREQUIRED": [
+            "ಕೇಳುವ ಬೆಲೆ ನಮೂದಿಸಿ"
+         ],
+         "ISRENTALPROPERTYTOOLTIP": [
+            "ಈ ಆಸ್ತಿ ಘಟಕವನ್ನು ಬಾಡಿಗೆಗೆ ನೀಡಲಾಗಿದೆಯೇ ಮತ್ತು ಸೂಕ್ತ ಹಣಕಾಸಿನ ಮಾಹಿತಿ ಎಂಬುದನ್ನು ಸೂಚಿಸಿ"
+         ],
+         "ISRENTALPROPERTY": [
+            "ಈ ಘಟಕವನ್ನು ಬಾಡಿಗೆಗೆ ನೀಡಲಾಗಿದೆಯೇ?"
+         ],
+         "RENTALAMOUNTREQUIRED": [
+            "ಲೀಸ್ ಮೊತ್ತ ಅಗತ್ಯವಿದೆ"
+         ],
+         "CONSTRUCTIONSTATUSYEARBUILTINVALID ": [
+            "ನಿರ್ಮಾಣ ಸ್ಥಿತಿ ಮತ್ತು ವರ್ಷದ ಸಂಯೋಜನೆಯು ಅಮಾನ್ಯವಾಗಿದೆ."
+         ],
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": ""
+         }
+      }
+   }
+}

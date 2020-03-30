@@ -1,0 +1,51 @@
+{
+  "staticUrl": "http://localhost:9052",
+  "api" : {
+    "prefix": "/api/v1",
+    "host": "service-dev.propshub.com",
+    "port" : "443",
+    "protocol" : "https"
+  },
+  "mapServer" : {
+    "path" : "http://localhost:7002"
+  },
+  "pdfServer" : {
+    "path" : "http://localhost:8081"
+  },
+  "imageRootPath" : "https://images.propshub.com",
+  "assetsPath" : "/static",
+  "metrosServed": ["dallas","phoenix","indianapolis","chicago","jacksonville","las-vegas","atlanta","orlando","san-antonio","philadelphia","baltimore", "washington"],
+  "searchStateCode": "TX[\\s|,]|AZ[\\s|,]|IN[\\s|,]|IL[\\s|,]|FL[\\s|,]|NV[\\s|,]|GA[\\s|,]|PA[\\s|,]|MD[\\s|,]|DC[\\s|,]",
+  "localeSettings" : {
+    "US" : {
+      "siteDomain" : "dev.propshub.com",
+      "chatNameSpace" : "http://localhost:5002",
+      "langauges" : [
+        {
+          "language" : "us_en",
+          "displyname" : "English",
+          "default" : true
+        }
+      ],
+      "sites" : [
+        {
+          "name" : "US",
+          "link" : "US",
+          "icon" : "country-flag us-flag"
+        }
+      ]
+    }
+  },
+  "listHubAnalytics" : {
+    "isEnableListHubAnalytics" : true,
+    "isReportListHubAnalytics" : true
+  },
+  "origin": "http://localhost:5002",
+  "google" : {
+    "clientId" : "257981987263-m0poph7qqsc48bonk2o5t3ai9o3s99qs.apps.googleusercontent.com"
+  },
+  "paypal" : {
+    "clientId" : "AZj16DhXq-ojUZK_74CRQN8CfIKqE6fp-0XO89sqn5_Hf9qqqpgXekgvAn8uRhf7aMp-eHKLtWsQ026O",
+    "secret" : "EN70PKUs4ldkZ9NggExiq0qrh8Isvg_RlJ88L-Tq_SVsmTKSpbHXKST8GBtDS4ErrtUP3W9PKDuuGwhG"
+  }
+}

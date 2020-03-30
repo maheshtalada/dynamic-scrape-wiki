@@ -1,0 +1,276 @@
+
+// TODO: checkout bootstrap 4.0 for the new smallest breakpoint width
+.bp-xsmall(@rules) {
+	@media screen and (min-width: @screen-xs) {
+		@rules();
+	}
+}
+
+.bp-small(@rules) {
+	@media screen and (min-width: @screen-sm-min) {
+		@rules();
+	}
+}
+
+.bp-medium(@rules) {
+	@media screen and (min-width: @screen-md-min) {
+		@rules();
+	}
+}
+
+.bp-large(@rules) {
+	@media screen and (min-width: @screen-lg-min) {
+		@rules();
+	}
+}
+
+.bp-custom(@rules, @customminwidth, @custommaxwidth) {
+	@media screen and (min-width: @customminwidth) and (max-width : @custommaxwidth){
+		@rules();
+	}
+}
+
+.bp-custom-min(@rules, @customminwidth) {
+	@media screen and (min-width: @customminwidth) {
+		@rules();
+	}
+}
+
+.bp-custom-max(@rules, @custommaxwidth) {
+	@media screen and (max-width : @custommaxwidth){
+		@rules();
+	}
+}
+
+.print(@rules) {
+	@media print {
+		@rules();
+	}
+}
+
+.clearfix() {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+.gradient-left-top-to-left-bottom(@start, @end) {
+	background: @start;
+	background: -webkit-linear-gradient(top, @start, @end);
+	background: -webkit-gradient(linear, left top, left bottom, from(@start), to(@end));
+	background: linear-gradient(to bottom, @start, @end);
+}
+
+.gradient-left-bottom-to-left-top(@start, @end) {
+	background: @start;
+	background: -webkit-linear-gradient(top, @start, @end);
+	background: -webkit-gradient(linear, left bottom, left top, from(@start), to(@end));
+	background: linear-gradient(to top, @start, @end);
+}
+
+.background-gradient-diagonal(@start, @end) {
+	background: @start;
+	background: -moz-linear-gradient(-45deg, @start 0%, @end 100%);
+	background: -webkit-linear-gradient(-45deg, @start 0%, @end 100%);
+	background: linear-gradient(135deg, @start 0%, @end 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@start', endColorstr='@end', GradientType=1);
+}
+
+.background-dark(@val) {
+	-webkit-filter: brightness(@val);
+	-moz-filter: brightness(@val);
+	-o-filter: brightness(@val);
+	-ms-filter: brightness(@val);
+}
+
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+	text-shadow: @string;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow: @string;
+	box-shadow: @string;
+}
+
+.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+	-webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+	-moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+	box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+.inner-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+	-webkit-box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+	-moz-box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+	box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+.box-sizing (@type: border-box) {
+	-webkit-box-sizing: @type;
+	-moz-box-sizing: @type;
+	box-sizing: @type;
+}
+
+.transition (@value1,@value2:X,...) {
+	@value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
+	-webkit-transition: @value;
+	-moz-transition: @value;
+	-ms-transition: @value;
+	-o-transition: @value;
+	transition: @value;
+}
+
+.transform (@value1,@value2:X,...) {
+	@value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
+	transform: @value;
+	-ms-transform: @value;
+	-webkit-transform: @value;
+	-o-transform: @value;
+	-moz-transform: @value;
+}
+
+.transform-style(@style:preserve-3d) {
+	transform-style: @style;
+	-webkit-transform-style: @style;
+	-moz-transform-style: @style;
+	-ms-transform-style: @style;
+}
+
+.backface-visibility-hidden {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.perspective(@amount: 1000px) {
+	perspective: @amount;
+	-webkit-perspective: @amount;
+	-moz-perspective: @amount;
+	-ms-perspective: @amount;
+}
+
+.icon-list-no-gutter(@columns:3, @borderColor:@color-base-mono-light) {
+	@nextColumn : @columns+1;
+	label {
+		border-top: 0;
+	}
+	&:first-child {
+		label {
+			border-top: 1px solid @borderColor;
+		}
+	}
+	.bp-small({
+		label {
+			border-right: 0;
+			border-top: 1px solid @borderColor;
+		}
+		&:nth-child(n+@{nextColumn}) {
+			label {
+				border-top: 0;
+			}
+		}
+		&:nth-child(@{columns}n) {
+			label {
+				border-right: 1px solid @borderColor;
+			}
+		}
+		&:last-child {
+			label {
+				border-right: 1px solid @borderColor;
+			}
+		}
+	});
+}
+.remove-tooltip {
+	&:before {
+		display: block;
+		content: 'Remove';
+		background-color: @color-base-primary-green;
+		color:@color-base-white;
+		padding: 16px;
+		font-size: 1.6rem;
+		position: absolute;
+		left: -35px;
+		top:25px;
+		z-index: 100;
+	}
+}
+
+.default-outline {
+	outline: 2px dotted @color-base-apple-green-alt-accesibility;
+}
+
+.default-box-shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mdl-style-shadow {
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.border-arrow-right-after-before(@bottom,@right) {
+	bottom: @bottom;
+	right: @right;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.border-arrow-right-after(@parent-box-color,@border-width,@margin-right) {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: @parent-box-color;
+	border-width: @border-width;
+	margin-right: @margin-right;
+}
+
+.border-arrow-before(@arrow-border-color,@border-width,@margin-left) {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: @arrow-border-color;
+	border-width: @border-width;
+	margin-left: @margin-left;
+}
+
+.arrow-up(@size, @color) {
+	width: 0;
+	height: 0;
+	border-left: @size solid transparent;
+	border-right: @size solid transparent;
+
+	border-bottom: @size solid @color;
+}
+
+.arrow-down(@size, @color) {
+	width: 0;
+	height: 0;
+	border-left: @size solid transparent;
+	border-right: @size solid transparent;
+
+	border-top: @size solid @color;
+}
+
+.arrow-right(@size, @color) {
+	width: 0;
+	height: 0;
+	border-top: @size solid transparent;
+	border-bottom: @size solid transparent;
+
+	border-left: @size solid @color;
+}
+
+.arrow-left(@size, @color) {
+	width: 0;
+	height: 0;
+	border-top: @size solid transparent;
+	border-bottom: @size solid transparent;
+
+	border-right: @size solid @color;
+}
+
+.max-width() {
+	max-width: @max-width;
+	margin: 0 auto;
+}

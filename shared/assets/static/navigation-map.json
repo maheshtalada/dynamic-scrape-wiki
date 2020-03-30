@@ -1,0 +1,45 @@
+{
+  "listingMap": [
+    {
+      "label": "BASICINFORMATION",
+      "steps": 1,
+      "link": "/profile/location/property-listing",
+      "canNavigate" : false
+    },
+    {
+      "label": "FINANCIALINFORMATION",
+      "steps": 2,
+      "link": "/profile/listing/property-listing/{listingid}",
+      "canNavigate" : true,
+      "navigationSteps" : [3,4,5,6]
+    },
+    {
+      "label": "PROPERTYDETAILS",
+      "steps": 3,
+      "link": "/profile/property/property-listing/{listingid}",
+      "canNavigate" : true,
+      "navigationSteps" : [2,4,5,6]
+    },
+    {
+      "label": "FINANCIALS",
+      "steps": 4,
+      "link": "/profile/financial/property-listing/{listingid}",
+      "canNavigate" : true,
+      "navigationSteps" : [2,3,5,6]
+    },
+    {
+      "label": "ADDITIONALDETAILS",
+      "steps": 5,
+      "link": "/profile/additional/property-listing/{listingid}",
+      "canNavigate" : true,
+      "navigationSteps" : [2,3,4,6]
+    },
+    {
+      "label": "PHOTOSVIDEOS",
+      "steps": 6,
+      "link": "/profile/media/property-listing/{listingid}",
+      "canNavigate" : true,
+      "navigationSteps" : [2,3,4,5]
+    }
+  ]
+}

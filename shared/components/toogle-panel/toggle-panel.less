@@ -1,0 +1,30 @@
+.toggle-panel {
+
+	.bp-small({
+		/*margin-top: 20px;*/
+		position: absolute;
+		top: 100%;
+		min-width: 180px;
+		text-align: left;
+		right:0;
+		left:auto;
+		z-index: @zindex-dropdown;
+		float: left;
+		font-size: 1.4rem;
+		background-color: @dropdown-bg;
+		border: 1px solid @dropdown-fallback-border; // IE8 fallback
+		/*border-radius: @border-radius-base;*/
+		.box-shadow(0 6px 12px rgba(0,0,0,.175));
+		background-clip: padding-box;
+		font-weight: normal;
+	});
+	&.position-top {
+		bottom: 0;
+		top: unset;
+	}
+
+	.dropdown-menu {
+		position: relative;
+	}
+
+}

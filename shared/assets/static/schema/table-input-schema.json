@@ -1,0 +1,968 @@
+{
+  "irrGraphsCalculationYears": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11
+  ],
+  "schemaCashOnCashReturn": {
+    "schemas": [
+      {
+        "type": "header",
+        "children": [
+          {
+            "label": "INVESTMENTGROUP",
+            "type": "header",
+            "children": [
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "ASKINGPRICE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.salePrice",
+                    "type": "text",
+                    "data": {
+                      "value": "175000"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "className": "user-given-value"
+                  },
+                  {
+                    "label": "CLOSINGCOST",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.closingCost",
+                    "type": "text",
+                    "data": {
+                      "value": "1750",
+                      "tooltip": "CLOSINGCOSTTOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.salePrice",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "ASKINGPRICECOSTREQUIRED",
+                          "value": "ASKINGPRICECOSTREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "className": "system-generated-value"
+                  },
+                  {
+                    "label": "INITIALIMPROVEMENTCOST",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.initialImprovementCost",
+                    "type": "text",
+                    "data": {
+                      "value": "0",
+                      "tooltip": "INITIALIMPROVEMENTCOSTTOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.salePrice",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "ASKINGPRICECOSTREQUIRED",
+                          "value": "ASKINGPRICECOSTREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "INCOMEGROUP",
+            "type": "header",
+            "children": [
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "GROSSRENTREVENUE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.grossRentRevenue",
+                    "type": "text",
+                    "data": {
+                      "value": "10536",
+                      "tooltip": "GROSSRENTREVENUETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "className": "system-generated-value"
+                  },
+                  {
+                    "label": "NETOPERATINGINCOME",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.netOperatingIncome",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "NETOPERATINGINCOMETOOLTIP",
+                      "formulaType": "netOperatingIncome"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^-?(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "grossRentRevenue": "cashoncashreturn.grossRentRevenue",
+                      "vacancyLosses": "cashoncashreturn.vacancyLosses",
+                      "managementFees": "cashoncashreturn.managementAndLeasingFees",
+                      "propertyInsurance": "cashoncashreturn.propertyInsurance",
+                      "propertyTaxes": "cashoncashreturn.propertyTaxes",
+                      "propertyMaintenance": "cashoncashreturn.propertyMaintenance",
+                      "ownerAssociationFee": "cashoncashreturn.ownerAssociationFee"
+                    },
+                    "className": "calculated-value"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "EXPENSEGROUP",
+            "type": "header",
+            "children": [
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "VACANCYLOSSES",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.vacancyLosses",
+                    "type": "text-calculator",
+                    "data": {
+                      "value": "439",
+                      "tooltip": "VACANCYLOSSESTOOLTIP",
+                      "formulaType": "vacancyLosses"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.grossRentRevenue",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "GROSSRENTREVENUEREQUIRED",
+                          "value": "GROSSRENTREVENUEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "cherrypickids": {
+                      "grossRentRevenue": "cashoncashreturn.grossRentRevenue"
+                    },
+                    "className": "system-generated-value"
+                  },
+                  {
+                    "label": "MANAGEMENTANDLEASINGFEES",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.managementAndLeasingFees",
+                    "type": "text-calculator",
+                    "data": {
+                      "value": "1062",
+                      "tooltip": "MANAGEMENTANDLEASINGFEESTOOLTIP",
+                      "formulaType": "managementAndLeasingFees"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.grossRentRevenue",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "GROSSRENTREVENUEREQUIRED",
+                          "value": "GROSSRENTREVENUEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "cherrypickids": {
+                      "grossRentRevenue": "cashoncashreturn.grossRentRevenue"
+                    },
+                    "className": "system-generated-value"
+                  },
+                  {
+                    "label": "PROPERTYTAXES",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.propertyTaxes",
+                    "type": "text",
+                    "data": {
+                      "value": "4213",
+                      "tooltip": "PROPERTYTAXESTOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.grossRentRevenue",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "GROSSRENTREVENUEREQUIRED",
+                          "value": "GROSSRENTREVENUEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "className": "system-generated-value"
+                  }
+                ]
+              },
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "PROPERTYINSURANCE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.propertyInsurance",
+                    "type": "text",
+                    "data": {
+                      "value": "735",
+                      "tooltip": "PROPERTYINSURANCETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.grossRentRevenue",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "GROSSRENTREVENUEREQUIRED",
+                          "value": "GROSSRENTREVENUEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "className": "system-generated-value"
+                  },
+                  {
+                    "label": "OWNERASSOCIATIONFEE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.ownerAssociationFee",
+                    "type": "text",
+                    "data": {
+                      "value": "3924",
+                      "tooltip": "OWNERASSOCIATIONFEETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.grossRentRevenue",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "GROSSRENTREVENUEREQUIRED",
+                          "value": "GROSSRENTREVENUEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "className": "user-given-value"
+                  },
+                  {
+                    "label": "PROPERTYMAINTENANCE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.propertyMaintenance",
+                    "type": "text",
+                    "data": {
+                      "value": "1286",
+                      "tooltip": "PROPERTYMAINTENANCETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.grossRentRevenue",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "GROSSRENTREVENUEREQUIRED",
+                          "value": "GROSSRENTREVENUEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "className": "system-generated-value"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "IRRGROUP",
+            "type": "header",
+            "children": [
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "DEPRECIATIONPERCENTAGE",
+                    "labelInfo": "PERCENTAGE",
+                    "id": "cashoncashreturn.depreciationPercentage",
+                    "type": "text",
+                    "data": {
+                      "value": "3",
+                      "tooltip": "DEPRECIATIONPERCENTAGETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      },
+                      {
+                        "type": "max-value",
+                        "message": "MAXVALUE",
+                        "value": "100"
+                      }
+                    ],
+                    "className": "system-generated-value"
+                  },
+                  {
+                    "label": "PROPERTYANNUALAPPRECIATIONPERCENTAGE",
+                    "labelInfo": "PERCENTAGE",
+                    "id": "cashoncashreturn.propertyAnnualAppreciationPercentage",
+                    "type": "text",
+                    "data": {
+                      "value": "3",
+                      "tooltip": "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      },
+                      {
+                        "type": "max-value",
+                        "message": "MAXVALUE",
+                        "value": "100"
+                      }
+                    ],
+                    "className": "system-generated-value"
+                  }
+                ]
+              },
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "RENTINCREMENTPERCENTAGE",
+                    "labelInfo": "PERCENTAGE",
+                    "id": "cashoncashreturn.rentIncrementPercentage",
+                    "type": "text",
+                    "data": {
+                      "value": "3",
+                      "tooltip": "RENTINCREMENTPERCENTAGETOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      },
+                      {
+                        "type": "max-value",
+                        "message": "MAXVALUE",
+                        "value": "100"
+                      }
+                    ],
+                    "className": "system-generated-value"
+                  },
+                  {
+                    "label": "SALECLOSINGCOST",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.saleClosingCost",
+                    "type": "text",
+                    "data": {
+                      "value": "14000",
+                      "tooltip": "SALECLOSINGCOSTTOOLTIP"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "className": "system-generated-value"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "RETURNGROUPWITHOUTMORTGAGE",
+            "type": "header",
+            "children": [
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "COSTBASIS",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.costBasis",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "COSTBASISTOOLTIP",
+                      "formulaType": "costBasis"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "askingPrice": "cashoncashreturn.salePrice",
+                      "initialImprovementCost": "cashoncashreturn.initialImprovementCost"
+                    },
+                    "className": "calculated-value"
+                  },
+                  {
+                    "label": "INITIALINVESTMENTWITHOUTMORTGAGE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.initialInvestmentWithoutMortgage",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP",
+                      "formulaType": "initialInvestmentWithoutMortgage"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "askingPrice": "cashoncashreturn.salePrice",
+                      "closingCost": "cashoncashreturn.closingCost",
+                      "initialImprovementCost": "cashoncashreturn.initialImprovementCost"
+                    },
+                    "className": "calculated-value"
+                  }
+                ]
+              },
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.annualTaxableIncomeWithoutMortgage",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP",
+                      "formulaType": "annualTaxableIncomeWithoutMortgage"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^-?(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "netOperatingIncome": "cashoncashreturn.netOperatingIncome",
+                      "depreciationPercentage": "cashoncashreturn.depreciationPercentage",
+                      "costBasis": "cashoncashreturn.costBasis"
+                    },
+                    "className": "calculated-value"
+                  },
+                  {
+                    "label": "CAPRATE",
+                    "labelInfo": "PERCENTAGE",
+                    "id": "cashoncashreturn.capRate",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "CAPRATETOOLTIP",
+                      "formulaType": "caprate"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^-?(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      },
+                      {
+                        "type": "max-value",
+                        "message": "MAXVALUE",
+                        "value": "100"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "netOperatingIncome": "cashoncashreturn.netOperatingIncome",
+                      "askingPrice": "cashoncashreturn.salePrice",
+                      "closingCost": "cashoncashreturn.closingCost",
+                      "initialImprovementCost": "cashoncashreturn.initialImprovementCost"
+                    },
+                    "className": "calculated-value"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "groupName": "financialinfo"
+      },
+      {
+        "type": "header",
+        "children": [
+          {
+            "label": "MORTGAGEGROUP",
+            "type": "header",
+            "children": [
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "DOWNPAYMENTPERCENTAGE",
+                    "labelInfo": "PERCENTAGE",
+                    "id": "cashoncashreturn.downPaymentPercentage",
+                    "type": "text-suggestion",
+                    "data": {
+                      "optionReference": "DOWNPAYMENTPERCENTAGEREFERENCEVALUES",
+                      "value": "100",
+                      "formulaType": "downPaymentPercentage",
+                      "observableFields": [
+                        "cashoncashreturn.downPaymentCost"
+                      ]
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      },
+                      {
+                        "type": "max-value",
+                        "message": "MAXVALUE",
+                        "value": "100"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.salePrice",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "ASKINGPRICEPRICEREQUIRED",
+                          "value": "ASKINGPRICEPRICEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "cherrypickids": {
+                      "downPaymentCost": "cashoncashreturn.downPaymentCost",
+                      "salePrice": "cashoncashreturn.salePrice"
+                    }
+                  },
+                  {
+                    "label": "DOWNPAYMENTCOST",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.downPaymentCost",
+                    "type": "text-calculator",
+                    "data": {
+                      "value": "175000",
+                      "formulaType": "downPaymentCost",
+                      "trackFieldUpdate": true
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.salePrice",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "ASKINGPRICEPRICEREQUIRED",
+                          "value": "ASKINGPRICEPRICEREQUIRED",
+                          "handler": "keytype"
+                        },
+                        {
+                          "type": "less-value",
+                          "message": "ASKINGPRICEPRICELESSTHAN",
+                          "value": "ASKINGPRICEPRICELESSTHAN",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "cherrypickids": {
+                      "downPaymentPercentage": "cashoncashreturn.downPaymentPercentage",
+                      "salePrice": "cashoncashreturn.salePrice"
+                    }
+                  },
+                  {
+                    "label": "EMICOST",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.emiCost",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "value": "0",
+                      "tooltip": "EMICOSTTOOLTIP",
+                      "formulaType": "emiCost"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "salePrice": "cashoncashreturn.salePrice",
+                      "loanInterestRate": "cashoncashreturn.loanInterestRate",
+                      "loanDuration": "cashoncashreturn.loanDuration",
+                      "downPaymentPercentage": "cashoncashreturn.downPaymentPercentage"
+                    },
+                    "className": "calculated-value"
+                  }
+                ]
+              },
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "LOANINTERESTRATE",
+                    "id": "cashoncashreturn.loanInterestRate",
+                    "type": "text-suggestion",
+                    "data": {
+                      "optionReference": "LOANINTERESTRATEREFERENCEVALUES",
+                      "value": "4.44"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      },
+                      {
+                        "type": "max-value",
+                        "message": "MAXVALUE",
+                        "value": "100"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.loanDuration",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "LOANDURATIONREQUIRED",
+                          "value": "LOANDURATIONREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "className": "system-generated-value",
+                    "dependentId": "cashoncashreturn.loanDuration"
+                  },
+                  {
+                    "label": "LOANDURATION",
+                    "labelInfo": "YEARS",
+                    "id": "cashoncashreturn.loanDuration",
+                    "type": "text-suggestion",
+                    "data": {
+                      "optionReference": "LOANDURATIONREFERENCEVALUES",
+                      "value": "30"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "NUMBERONLY",
+                        "value": "^[0-9]{0,9}$"
+                      }
+                    ],
+                    "dependableFields": {
+                      "id": "cashoncashreturn.loanInterestRate",
+                      "validation": [
+                        {
+                          "type": "required",
+                          "message": "LOANINTERESTRATEREQUIRED",
+                          "value": "LOANINTERESTRATEREQUIRED",
+                          "handler": "keytype"
+                        }
+                      ]
+                    },
+                    "dependentId": "cashoncashreturn.loanInterestRate"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "RETURNGROUPWITHMORTGAGE",
+            "type": "header",
+            "children": [
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "INITIALINVESTMENTWITHMORTGAGE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.initialInvestmentWithMortgage",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "INITIALINVESTMENTWITHMORTGAGETOOLTIP",
+                      "formulaType": "initialInvestmentWithMortgage"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "downPaymentCost": "cashoncashreturn.downPaymentCost",
+                      "closingCost": "cashoncashreturn.closingCost",
+                      "initialImprovementCost": "cashoncashreturn.initialImprovementCost"
+                    },
+                    "className": "calculated-value"
+                  },
+                  {
+                    "label": "ANNUALFREECASHFLOW",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.annualFreeCashFlow",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "COSTBASISWITHMORTGAGETOOLTIP",
+                      "formulaType": "annualFreeCashFlow"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^-?(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "netOperatingIncome": "cashoncashreturn.netOperatingIncome",
+                      "emiCost": "cashoncashreturn.emiCost"
+                    },
+                    "className": "calculated-value"
+                  }
+                ]
+              },
+              {
+                "type": "custom-group",
+                "children": [
+                  {
+                    "label": "ANNUALTAXABLEINCOMEWITHMORTGAGE",
+                    "labelInfo": "USD",
+                    "id": "cashoncashreturn.annualTaxableIncomeWithMortgage",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP",
+                      "formulaType": "annualTaxableIncomeWithMortgage"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^-?(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "annualFreeCashFlow": "cashoncashreturn.annualFreeCashFlow",
+                      "depreciationPercentage": "cashoncashreturn.depreciationPercentage",
+                      "costBasis": "cashoncashreturn.costBasis",
+                      "emiCost": "cashoncashreturn.emiCost",
+                      "downPaymentCost": "cashoncashreturn.downPaymentCost",
+                      "salePrice": "cashoncashreturn.salePrice",
+                      "loanInterestRate": "cashoncashreturn.loanInterestRate"
+                    },
+                    "className": "calculated-value"
+                  },
+                  {
+                    "label": "CASHONCASHRETURNPERCENTAGE",
+                    "labelInfo": "PERCENTAGE",
+                    "id": "cashoncashreturn.cashOnCashReturnPercentage",
+                    "type": "custom-formula-calculator",
+                    "data": {
+                      "tooltip": "CASHONCASHRETURNPERCENTAGETOOLTIP",
+                      "formulaType": "cashOnCashReturnPercentage"
+                    },
+                    "validation": [
+                      {
+                        "type": "pattern",
+                        "message": "DECIMALUPTO4DIGIT",
+                        "value": "^-?(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                      },
+                      {
+                        "type": "max-value",
+                        "message": "MAXVALUE",
+                        "value": "100"
+                      }
+                    ],
+                    "cherrypickids": {
+                      "initialInvestmentWithMortgage": "cashoncashreturn.initialInvestmentWithMortgage",
+                      "annualFreeCashFlow": "cashoncashreturn.annualFreeCashFlow"
+                    },
+                    "className": "calculated-value"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "groupName": "returninfo"
+      }
+    ],
+    "referenceData": {
+      "children": [
+        {
+          "id": "DOWNPAYMENTPERCENTAGEREFERENCEVALUES",
+          "option": [
+            {
+              "value": "5",
+              "label": "5"
+            },
+            {
+              "value": "10",
+              "label": "10"
+            },
+            {
+              "value": "20",
+              "label": "20"
+            },
+            {
+              "value": "25",
+              "label": "25"
+            },
+            {
+              "value": "30",
+              "label": "30"
+            },
+            {
+              "value": "50",
+              "label": "50"
+            },
+            {
+              "value": "100",
+              "label": "100"
+            }
+          ]
+        },
+        {
+          "id": "LOANINTERESTRATEREFERENCEVALUES",
+          "option": [
+            {
+              "value": "4.14",
+              "label": "4.14",
+              "dependentValue": "10"
+            },
+            {
+              "value": "4.19",
+              "label": "4.19",
+              "dependentValue": "15"
+            },
+            {
+              "value": "4.34",
+              "label": "4.34",
+              "dependentValue": "20"
+            },
+            {
+              "value": "4.44",
+              "label": "4.44",
+              "dependentValue": "30"
+            }
+          ]
+        },
+        {
+          "id": "LOANDURATIONREFERENCEVALUES",
+          "option": [
+            {
+              "value": "10",
+              "label": "10",
+              "dependentValue": "4.14"
+            },
+            {
+              "value": "15",
+              "label": "15",
+              "dependentValue": "4.19"
+            },
+            {
+              "value": "20",
+              "label": "20",
+              "dependentValue": "4.34"
+            },
+            {
+              "value": "30",
+              "label": "30",
+              "dependentValue": "4.44"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "status": "success"
+}

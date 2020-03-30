@@ -1,0 +1,195 @@
+.mobile-footer-options {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	background: @color-base-white;
+	z-index: 14;
+	height: @mobile-footer-options-height;
+	border-top: 1px solid @grey-600;
+	box-shadow: 0 0 10px 0 @grey-600;
+
+	&__close {
+		/*transition: height 1s ease-in-out;*/
+		visibility: hidden;
+		/*animation: slideInUp 0.2s;*/
+	}
+
+	&__open {
+		visibility: visible;
+		animation: slideInUp 0.3s;
+	}
+
+    &__option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        border-right: 1px solid @grey-600;
+		background: linear-gradient(-180deg, @color-background, @grey-300);
+		flex: 1;
+		flex-direction: column;
+		> i {
+			font-weight: 600;
+			font-size: 2rem;
+			color: @font-color-primary-white-background-color;
+		}
+
+		a {
+			/*color: @color-text;*/
+			text-decoration: none;
+			font-size: 1.1rem;
+			font-weight: 600;
+		}
+
+		> div , >button {
+			width: 100%;
+			text-align: center;
+		}
+
+		&:last-child {
+            border-right: none;    
+        }
+		&__more-btn,
+		>button,
+        .save-search__save-btn,
+        .search-sort-btn, 
+        .filter-option-btn, 
+        .search-icon-btn,
+        .contact-lead-realtors-option-btn,
+        .make-offer-btn,
+        .analyze-return-option-btn,
+        .social-share-wrap__share-btn,
+        .add-to-my-contacts__add-btn,
+        .my-searches__btn,
+        .save-analyze-returns__btn,
+        .returns__reset-btn,
+        .returns__pdp-link,
+        .portfolio__create-property__btn,
+        .portfolio__import__btn,
+        .create-article-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: transparent;
+            border: none;
+            padding: 5px;
+            color: @color-base-dark;
+			width: 100%;
+            span {
+                font-size: 1.1rem;
+                white-space: pre-wrap;
+                line-height: 1.2;
+                font-weight: 600;
+            }
+            i {
+                font-size: 2.4rem;
+                font-weight: 600;
+                color: @color-base-primary-green;
+                margin: 0;
+                &.pe-7s-analyze-returns,&.pe-7s-Phone-number,&.pe-7s-share-2 {
+                    font-weight: normal;
+                }
+            }
+            text-decoration: none;
+        }
+        .search-sort-btn {
+            .select-wrapper__select-btn__arrow-icon {
+                display: none;
+            }
+        }
+        .add-to-my-contacts {
+            .mdl-spinner {
+                left: 0;
+            }
+        }
+		.social-share-wrap {
+			.social-share {
+				z-index: 4;
+				position: static;
+				margin-top: 3px;
+				top: 0;
+				display: flex;
+				flex-direction: column;
+				visibility: visible;
+				padding: 0;
+				box-shadow: none;
+				background-color: transparent;
+				border: none;
+				min-width: 100px;
+				right: 0;
+			}
+		}
+		&__more-wrapper {
+			.btn-default:hover {
+				background-color: transparent;
+				border-color: transparent;
+			}
+			.dropdown-content {
+				bottom: @mobile-footer-options-height;
+				right: -20px;
+				left: unset;
+				top : unset;
+				width: auto;
+				white-space: nowrap;
+
+				li {
+					padding: 10px;
+					line-height: 1.5;
+					font-size: 1.6rem;
+
+					.option__icon {
+						margin-right: 5px;
+						font-size: 1.6rem;
+						font-weight: 600;
+					}
+				}
+
+				.option {
+					display: flex;
+					align-items: center;
+					font-weight: 600;
+					button {
+						font-weight: 600;
+						color: @font-color-primary-white-background-color;
+						display: flex;
+						align-items: center;
+						background: none;
+						border: none;
+						padding: 0;
+						flex-direction: row;
+						font-size: 1.6rem;
+						white-space: nowrap;
+						> i {
+							font-size: 1.6rem;
+							margin-right: 5px;
+							color: @font-color-primary-white-background-color;
+						}
+
+						span {
+							font-size: 1.6rem;
+							white-space: nowrap;
+						}
+					}
+
+					&__icon {
+						font-size: 2rem;
+						margin-right: 5px;
+						font-weight: 600;
+					}
+				}
+			}
+			.wishlist-wrapper {
+				position: relative;
+				top: unset;
+				left: unset;
+
+				&__btn {
+					padding: 0;
+					width: 100%;
+				}
+			}
+		}
+    }
+}

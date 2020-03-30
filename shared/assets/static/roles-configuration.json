@@ -1,0 +1,29 @@
+{
+  "roles" : [
+    {
+      "role" : "ROLE_CUSTOMER",
+      "role_id" : 100,
+      "name" : "OWNER"
+    },
+    {
+      "role" : "ROLE_PROFESSIONAL",
+      "role_id" : 200,
+      "name" : "PROFESSIONAL"
+    },
+    {
+      "role" : "ROLE_REALTOR",
+      "role_id" : 300,
+      "name" : "REALTOR"
+    },
+    {
+      "role" : "ROLE_PROPSHUB_MARKETING_USER",
+      "role_id" : 400,
+      "name" : "REALTOR"
+    },
+    {
+      "role" : "ROLE_PROPSHUB_ADMIN",
+      "role_id" : 500,
+      "name" : "REALTOR"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+.share-options {
+	text-align: right;
+}
+
+.btn-specific-style(@color) {
+	border-color: @color;
+	color: @color;
+}
+
+.social-share-wrap {
+	display: flex;
+	position: relative;
+	&__share-btn {
+		//color: @color-base-primary-green;
+		i {
+			margin-right: 5px;
+			font-size: 1.4rem;
+			font-weight: 600;
+		}
+		&.icon-only {
+			border: none;
+			outline: none;
+			span {
+				display: none;
+			}
+			i {
+				font-size: 1.8rem;
+				margin: 0;
+				color: @color-base-primary-green;
+			}
+		}
+		//span {
+		//	text-decoration: underline;
+		//}
+	}
+	.social-share {
+		z-index: 4;
+		position: absolute;
+		margin-top: 3px;
+		top: 100%;
+		display: flex;
+		flex-direction: column;
+		visibility: hidden;
+		height: 0;
+		padding: 0;
+		>* {
+			margin-bottom: 3px;
+		}
+		&.top {
+			margin: 0 0 3px 0;
+			bottom: 10px;
+			top: unset;
+		}
+		&.show {
+			animation: slideInDown 0.4s;
+			visibility: visible;
+			height: auto;
+			padding: 20px 20px 10px 10px;
+			width: 100px;
+			.social-share__close {
+				display: block;
+			}
+		}
+		.default-box-shadow();
+		background-color: @color-base-white;
+		border: 1px solid @grey-500;
+		min-width: 100px;
+		right: 0;
+		&__close {
+			padding: 0;
+			position: absolute;
+			top: 2px;
+			right: 2px;
+			color: @color-base-primary-green;
+			font-size: 2rem;
+			display: none;
+		}
+
+		&__network {
+			display: block;
+			margin-right: 5px;
+			overflow: hidden;
+			position: relative;
+			width: 100%;
+		}
+
+		&__share-button {
+			// cursor: pointer;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			.bp-xsmall({
+				width: 85px;
+			});
+			.bp-medium({
+				width: 62px;
+			});
+			&.btn i {
+				color: @color-base-white;
+				margin-right: 0;
+			}
+			&.facebook {
+				.btn-specific-style(@facebook-color);
+			}
+
+			&.twitter {
+				.btn-specific-style(@twitter-color);
+			}
+
+			&.google {
+				.btn-specific-style(@google-color);
+			}
+
+			&.linkedin {
+				.btn-specific-style(@linkedin-color);
+			}
+
+			&.pinterest {
+				.btn-specific-style(@pinterest-color);
+			}
+
+			&.whatsapp {
+				.btn-specific-style(@whatsapp-color);
+				.social-share__share-count {
+					font-size: 0.8rem;
+				}
+			}
+			.social-icon {
+				.bp-xsmall({
+					width: 30px;
+					height: 30px;
+				});
+				.bp-medium({
+					width: 20px;
+					height: 20px;
+				});
+				i {
+					.bp-xsmall({
+						font-size: 1.6rem;
+					});
+					.bp-medium({
+						font-size: 1.4rem;
+					})
+				}
+			}
+		}
+
+		&__share-count {
+			font-size: 1.2rem;
+			flex: 1;
+			background: @color-base-white;
+		}
+	}
+}

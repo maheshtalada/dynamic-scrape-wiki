@@ -1,0 +1,103 @@
+{
+  "topProperties" : [
+    {
+      "image": "static/images/properties/building.jpg",
+      "name": "Tangela Sternberg",
+      "address": "California, LA",
+      "price" : 200,
+      "type" : "Sale",
+      "location" : {
+        "lat": 41.97881,
+        "lng": -87.89289
+      }
+    },
+    {
+      "image": "static/images/properties/building2.jpg",
+      "name": "Claud Vogan",
+      "address": "California, LA",
+      "price": 100,
+      "type" : "Lease",
+      "location" : {
+        "lat": 41.98319,
+        "lng": -87.87238
+      }
+    },
+    {
+      "image": "static/images/properties/building3.jpg",
+      "name": "Valda Purdy",
+      "address": "California, LA",
+      "price": 500,
+      "type" : "Sale",
+      "location" : {
+        "lat": 41.98383,
+        "lng": -87.85122
+      }
+    },
+    {
+      "image": "static/images/properties/building4.jpg",
+      "name": "Max Simson",
+      "address": "California, LA",
+      "price": 100,
+      "type" : "Sale",
+      "location" : {
+        "lat": 41.982255,
+        "lng": -87.812154
+      }
+    },
+    {
+      "image": "static/images/properties/building5.jpg",
+      "name": " Tangela Sternberg",
+      "address": "California, LA",
+      "price": 100,
+      "type" : "Lease",
+      "location" : {
+        "lat": 41.971057,
+        "lng": -87.762072
+      }
+    },
+    {
+      "image": "static/images/properties/building6.jpg",
+      "name": "Max Simson",
+      "address": "California, LA",
+      "price": 100,
+      "type" : "Sale",
+      "location" : {
+        "lat": 41.960232,
+        "lng": -87.742105
+      }
+    },
+    {
+      "image": "static/images/properties/building7.jpg",
+      "name": "Bradly Danforth",
+      "address": "California, LA",
+      "price": 100,
+      "type" : "Sale",
+      "location" : {
+        "lat": 41.947378,
+        "lng": -87.719092
+      }
+    },
+    {
+      "image": "static/images/properties/building8.jpg",
+      "name": "Bradly Danforth",
+      "address": "California, LA",
+      "price": 100,
+      "type" : "Lease",
+      "location" : {
+        "lat": 41.943084,
+        "lng": -87.71623
+      }
+    },
+    {
+      "image": "static/images/properties/building9.jpg",
+      "name": "Bradly Danforth",
+      "address": "California, LA",
+      "price": 100,
+      "type" : "Sale",
+      "location" : {
+        "lat": 41.942159,
+        "lng": -87.715058
+      }
+    }
+  ]
+}

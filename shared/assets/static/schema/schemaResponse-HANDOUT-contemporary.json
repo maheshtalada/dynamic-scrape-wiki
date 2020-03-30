@@ -1,0 +1,226 @@
+{
+  "document": {
+    "author": "Propshub Inc",
+    "subject": "Testing for offer",
+    "title": "Testing for offer"
+  },
+  "pages": [
+    {
+      "type": "root",
+      "children": [
+        {
+          "type": "root",
+          "children": [
+            {
+              "type": "root",
+              "children": [
+                {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "content-grid",
+                      "data": {
+                        "value": 2200000,
+                        "configOptions": {
+                          "handler": "formatCurrency",
+                          "localeCode": "US"
+                        }
+                      },
+                      "classNames": [
+                        "pdf-schema__content__grid",
+                        "pdf-schema__content__grid__price-tag"
+                      ]
+                    },
+                    {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": 3,
+                            "configOptions": {
+                              "postFix": "Bed "
+                            }
+                          }
+                        },
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": 3,
+                            "configOptions": {
+                              "postFix": "Bath"
+                            }
+                          }
+                        },
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": "1450",
+                            "configOptions": {
+                              "handler": "formatNumber",
+                              "postFix": "SQFT"
+                            }
+                          },
+                          "translationRequired": true
+                        }
+                      ],
+                      "classNames": [
+                        "pdf-schema__content__grid",
+                        "pdf-schema__content__grid__bed-bath"
+                      ]
+                    },
+                    {
+                      "type": "content-grid",
+                      "data": {
+                        "value": "SINGLE_FAMILY_HOME"
+                      },
+                      "translationRequired": true
+                    },
+                    {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": "08/09/2019"
+                          }
+                        },
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": "08:00 AM"
+                          }
+                        },
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": "05:00 PM"
+                          }
+                        }
+                      ],
+                      "classNames": [
+                        "pdf-schema__open-house"
+                      ]
+                    },
+                    {
+                      "type": "content-list",
+                      "data": {
+                        "value": [
+                          "2 mi to Gompers Vocational School (School)",
+                          "2 mi to Landmark Theatres",
+                          "Harbor East (Movie Theater)",
+                          "3 mi to Mondawmin Mall (Shopping Mall)",
+                          "2 mi to The Johns Hopkins Hospital (Hospital)",
+                          "4 mi to Fort McHenry National Monument and Historic Shrine (Park)",
+                          "Barbeque Area",
+                          "Garden Area",
+                          "Lawn Area",
+                          "Swimming Pool"
+                        ]
+                      },
+                      "classNames": [
+                        "pdf-schema__content-list__property-highlights"
+                      ]
+                    }
+                  ],
+                  "classNames": [
+                    "pdf-schema__custom-handout-left-rail"
+                  ]
+                },
+                {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "image-gallery",
+                      "data": {
+                        "medias": [
+                          {
+                            "uri": "propshub/2091195/b7109d4f7d2f4345a5bd6d2e84aac288.png",
+                            "thumbnailUri": "propshub/2091195/thumbnail/b7109d4f7d2f4345a5bd6d2e84aac288.png",
+                            "primary": false,
+                            "removeFromStorage": false,
+                            "selected": false
+                          },
+                          {
+                            "uri": "propshub/2091195/4dfa5e8c44334aac9e37166c3ce6227e.png",
+                            "thumbnailUri": "propshub/2091195/thumbnail/4dfa5e8c44334aac9e37166c3ce6227e.png",
+                            "primary": false,
+                            "hashCode": "3.11662387E9",
+                            "removeFromStorage": false,
+                            "selected": false
+                          },
+                          {
+                            "uri": "propshub/2091195/a6c95ba020b947dcbf14417714107459.jpg",
+                            "thumbnailUri": "propshub/2091195/thumbnail/a6c95ba020b947dcbf14417714107459.jpg",
+                            "primary": false,
+                            "hashCode": "1.8324759E9",
+                            "removeFromStorage": false,
+                            "selected": false
+                          },
+                          {
+                            "uri": "propshub/2091195/09ddaeb1a755448da0986c686c0622e2.jpg",
+                            "thumbnailUri": "propshub/2091195/thumbnail/09ddaeb1a755448da0986c686c0622e2.jpg",
+                            "primary": false,
+                            "hashCode": "2.80756352E8",
+                            "removeFromStorage": false,
+                            "selected": false
+                          },
+                          {
+                            "uri": "propshub/2091195/186cb8942ae548f18c5f06c71e1a335b.jpg",
+                            "thumbnailUri": "propshub/2091195/thumbnail/186cb8942ae548f18c5f06c71e1a335b.jpg",
+                            "primary": false,
+                            "hashCode": "-4.7371295E9",
+                            "removeFromStorage": false,
+                            "selected": false
+                          },
+                          {
+                            "uri": "propshub/2091195/f9ead32549e04eea98ee32feb8f3916b.jpg",
+                            "thumbnailUri": "propshub/2091195/thumbnail/f9ead32549e04eea98ee32feb8f3916b.jpg",
+                            "primary": false,
+                            "hashCode": "4.6148306E9",
+                            "removeFromStorage": false,
+                            "selected": false
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "classNames": [
+                    "pdf-schema__custom-handout-right-rail"
+                  ]
+                }
+              ],
+              "classNames": [
+                "pdf-schema__multi-column"
+              ]
+            }
+          ],
+          "classNames": [
+            "pdf-schema__page__body"
+          ]
+        }
+      ],
+      "order": 1,
+      "classNames": [
+        "pdf-schema__page"
+      ]
+    }
+  ],
+  "header": {
+    "listingUrl": "/residential-investments/for-sale/maryland/baltimore/md-21201/single-family-home/property-listings/2091195",
+    "title": "320 North Eutaw Street, Baltimore, MD-21201"
+  },
+  "footer": {
+    "realtor": {
+      "siteurl": "/real-estate-agents-brokers/texas/fort-worth-dallas/residential-investments-income-specialist/rishi/realtor/45490",
+      "phone": "4082472899",
+      "name": "Rishi",
+      "photo": "propshub/45490/thumbnail/17eed4b532e248beb8d63a66aad14e5c.png",
+      "email": "geekyphp@gmail.com"
+    },
+    "subTitle": "Testing for offer",
+    "listingUrl": "/residential-investments/for-sale/maryland/baltimore/md-21201/single-family-home/property-listings/2091195"
+  },
+  "title": "320 North Eutaw Street, Baltimore, MD-21201",
+  "status": "success"
+}

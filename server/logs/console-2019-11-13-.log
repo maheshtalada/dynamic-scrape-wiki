@@ -1,0 +1,2148 @@
+2019-11-13T05:38:42.242Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:38:42.248Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:38:51.641Z - info: Api Request logData= { reqID: '0bec02e2-4a18-4f02-ad36-aadd7171913f',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-11-13T05:38:51.639Z' } class=service/BaseService.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:38:52.364Z - info: Api response : Success logData= { reqID: '0bec02e2-4a18-4f02-ad36-aadd7171913f',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-11-13T05:38:52.364Z' } class=service/BaseService.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:38:55.334Z - info: Api Request logData= { reqID: 'cc3efd3e-ace4-4476-afd9-27ed4da21814',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T05:38:55.333Z' } class=service/BaseService.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:38:55.998Z - info: Api response : Success logData= { reqID: 'cc3efd3e-ace4-4476-afd9-27ed4da21814',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T05:38:55.997Z' } class=service/BaseService.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:38:55.999Z - info: Api Request logData= { reqID: '5e0d67bd-e5df-4ba0-8a2e-ac9f38902552',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T05:38:55.998Z' } class=service/BaseService.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:38:56.557Z - info: Api response : Success logData= { reqID: '5e0d67bd-e5df-4ba0-8a2e-ac9f38902552',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T05:38:56.557Z' } class=service/BaseService.js, pid=27947, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:40:34.430Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=27981, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:40:34.436Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=27981, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:40:47.611Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=27988, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:40:47.616Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=27988, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:41:23.034Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28004, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:41:23.039Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28004, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:41:49.006Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28017, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:41:49.014Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28017, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:43:18.686Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:43:18.691Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:43:23.256Z - info: Api Request logData= { reqID: '698a03c5-ff9d-420d-9d79-f9fe213e6ec4',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T05:43:23.255Z' } class=service/BaseService.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:43:23.837Z - info: Api response : Success logData= { reqID: '698a03c5-ff9d-420d-9d79-f9fe213e6ec4',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T05:43:23.836Z' } class=service/BaseService.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:43:23.838Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVjQ5eDFwdkpSK3A1dlJzSWdheDd1OUdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.T2AQEaMEYY8IGEElx4LnTabdKZTChV25_VO0xAdiMmQ' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T05:43:23.838Z - info: Api Request logData= { reqID: '8a75cb79-ec76-4702-99c5-9494e395bc4f',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T05:43:23.838Z' } class=service/BaseService.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:43:24.450Z - info: Api response : Success logData= { reqID: '8a75cb79-ec76-4702-99c5-9494e395bc4f',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T05:43:24.450Z' } class=service/BaseService.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:43:24.461Z - info: Api Request logData= { reqID: '2e3d57cf-a6e2-40ee-909b-41db73b3632f',
+  endpoint: '/api/v1/property-listings/2859363',
+  method: 'get',
+  requestetime: '2019-11-13T05:43:24.461Z' } class=service/BaseService.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:43:25.370Z - info: Api response : Success logData= { reqID: '2e3d57cf-a6e2-40ee-909b-41db73b3632f',
+  endpoint: '/api/v1/property-listings/2859363',
+  method: 'get',
+  responsetime: '2019-11-13T05:43:25.370Z' } class=service/BaseService.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:43:54.291Z - info: Api Request logData= { reqID: '581815cd-a973-4aba-8ac0-f86088dac015',
+  endpoint: '/api/v1/property-listings/2859363',
+  method: 'get',
+  requestetime: '2019-11-13T05:43:54.291Z' } class=service/BaseService.js, pid=28046, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:43:55.482Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28062, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:43:55.488Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28062, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:43:59.809Z - info: Api Request logData= { reqID: 'c5345f6c-8a54-48e8-9ee0-12c97802319e',
+  endpoint: '/api/v1/property-listings/2859363',
+  method: 'get',
+  requestetime: '2019-11-13T05:43:59.808Z' } class=service/BaseService.js, pid=28062, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:44:00.701Z - info: Api response : Success logData= { reqID: 'c5345f6c-8a54-48e8-9ee0-12c97802319e',
+  endpoint: '/api/v1/property-listings/2859363',
+  method: 'get',
+  responsetime: '2019-11-13T05:44:00.701Z' } class=service/BaseService.js, pid=28062, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:44:35.179Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28080, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:44:35.184Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28080, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:44:47.042Z - info: Api Request logData= { reqID: '9769cb5c-e610-4822-9b43-89d8e6fa195b',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T05:44:47.040Z' } class=service/BaseService.js, pid=28080, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:44:47.908Z - info: Api response : Success logData= { reqID: '9769cb5c-e610-4822-9b43-89d8e6fa195b',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T05:44:47.907Z' } class=service/BaseService.js, pid=28080, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:46:19.954Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28114, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:46:19.960Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28114, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:46:24.178Z - info: Api Request logData= { reqID: '6ff8a7d7-ee71-417b-86c7-3d2132bd63dd',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T05:46:24.176Z' } class=service/BaseService.js, pid=28114, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:46:24.816Z - info: Api response : Success logData= { reqID: '6ff8a7d7-ee71-417b-86c7-3d2132bd63dd',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T05:46:24.815Z' } class=service/BaseService.js, pid=28114, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:46:24.817Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVlJuRHJEaXFSK1JGaUowYVQ0ajdrYzJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.uUCW1bkQUbAlGiKTv_s1jzIZodQ1w7Z_YJQn79Ql5UM' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28114, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T05:46:24.818Z - info: Api Request logData= { reqID: '9127597f-85dc-4abf-ba6b-68adc7fe0183',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T05:46:24.818Z' } class=service/BaseService.js, pid=28114, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:46:25.397Z - info: Api response : Success logData= { reqID: '9127597f-85dc-4abf-ba6b-68adc7fe0183',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T05:46:25.397Z' } class=service/BaseService.js, pid=28114, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:46:48.179Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28125, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:46:48.190Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28125, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:46:49.784Z - info: Api Request logData= { reqID: 'a8307a23-b53f-4f71-b754-5c30a0936c83',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T05:46:49.782Z' } class=service/BaseService.js, pid=28125, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:46:50.590Z - info: Api response : Success logData= { reqID: 'a8307a23-b53f-4f71-b754-5c30a0936c83',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T05:46:50.590Z' } class=service/BaseService.js, pid=28125, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:49:48.780Z - info: Api Request logData= { reqID: '993bc7d8-90f4-4085-a822-0f2e69216fde',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T05:49:48.780Z' } class=service/BaseService.js, pid=28125, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:49:50.512Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T05:49:50.517Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T05:49:50.801Z - info: Api Request logData= { reqID: 'cf4b5a08-a01e-4e46-ba85-a0463db04b8d',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T05:49:50.800Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:49:51.401Z - info: Api response : Success logData= { reqID: 'cf4b5a08-a01e-4e46-ba85-a0463db04b8d',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T05:49:51.400Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:49:51.402Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVndQT2tvWStIdEhRbU5IUHhnbzFhOG1OK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.hAS-fnP62QQ4XdaG4h0ZQfS5f1kjMl_0TxQ6uCkjlIA' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T05:49:51.402Z - info: Api Request logData= { reqID: '617d6699-e574-42ef-aaa4-56566e5b45f3',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T05:49:51.402Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:49:52.050Z - info: Api response : Success logData= { reqID: '617d6699-e574-42ef-aaa4-56566e5b45f3',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T05:49:52.049Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:49:53.255Z - info: Api Request logData= { reqID: '86cd21fd-f903-43f9-8f53-c3d489fdc672',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T05:49:53.255Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T05:49:54.200Z - info: Api response : Success logData= { reqID: '86cd21fd-f903-43f9-8f53-c3d489fdc672',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T05:49:54.200Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:02:18.168Z - info: Api Request logData= { reqID: '74605840-811f-4f2e-88eb-7d3e191c986f',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T06:02:18.168Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:02:18.925Z - info: Api response : Success logData= { reqID: '74605840-811f-4f2e-88eb-7d3e191c986f',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T06:02:18.925Z' } class=service/BaseService.js, pid=28176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:18:13.572Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28481, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:18:13.577Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28481, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:19:30.403Z - info: Api Request logData= { reqID: '425bb163-2086-49f8-a802-ce8ddbee46a3',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:19:30.401Z' } class=service/BaseService.js, pid=28481, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:19:30.953Z - info: Api response : Success logData= { reqID: '425bb163-2086-49f8-a802-ce8ddbee46a3',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:19:30.953Z' } class=service/BaseService.js, pid=28481, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:19:30.954Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkZDTVE2UThUQVpFZlcrYVJSOW82cUdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.XohRBW0m_BZvRt9o7z2QahD9_-asylXmIsu8fULqOao' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28481, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:19:30.954Z - info: Api Request logData= { reqID: '6ea2962c-02d3-4c53-9efa-92c84162b82e',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:19:30.954Z' } class=service/BaseService.js, pid=28481, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:19:31.432Z - info: Api response : Success logData= { reqID: '6ea2962c-02d3-4c53-9efa-92c84162b82e',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:19:31.432Z' } class=service/BaseService.js, pid=28481, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:19:33.470Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28505, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:19:33.475Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28505, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:19:38.036Z - info: Api Request logData= { reqID: 'd4800070-877d-41d0-a115-a764f5801547',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T06:19:38.035Z' } class=service/BaseService.js, pid=28505, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:19:38.924Z - info: Api response : Success logData= { reqID: 'd4800070-877d-41d0-a115-a764f5801547',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T06:19:38.923Z' } class=service/BaseService.js, pid=28505, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:20:25.476Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28522, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:20:25.481Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28522, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:20:27.839Z - info: Api Request logData= { reqID: '80477df2-1ca3-454d-8a97-e590502d9344',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T06:20:27.838Z' } class=service/BaseService.js, pid=28522, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:20:28.795Z - info: Api response : Success logData= { reqID: '80477df2-1ca3-454d-8a97-e590502d9344',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T06:20:28.795Z' } class=service/BaseService.js, pid=28522, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:21:02.305Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28536, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:21:02.310Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28536, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:21:05.430Z - info: Api Request logData= { reqID: 'c70f99c3-7b07-4365-b7d9-42d141adaf9c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T06:21:05.428Z' } class=service/BaseService.js, pid=28536, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:21:06.380Z - info: Api response : Success logData= { reqID: 'c70f99c3-7b07-4365-b7d9-42d141adaf9c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T06:21:06.379Z' } class=service/BaseService.js, pid=28536, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:21:27.630Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:21:27.636Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:21:28.969Z - info: Api Request logData= { reqID: '6d9b57c4-05a8-452c-a4a0-9726b8d343fd',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T06:21:28.967Z' } class=service/BaseService.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:21:29.933Z - info: Api response : Success logData= { reqID: '6d9b57c4-05a8-452c-a4a0-9726b8d343fd',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T06:21:29.932Z' } class=service/BaseService.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:40.432Z - info: Api Request logData= { reqID: '7a28b729-210b-4793-a293-dd1757e90304',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:22:40.432Z' } class=service/BaseService.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:40.954Z - info: Api response : Success logData= { reqID: '7a28b729-210b-4793-a293-dd1757e90304',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:22:40.954Z' } class=service/BaseService.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:40.955Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVnUybTh5eVRHSnVPNldhNkdubkg5K0dOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.bQPDWpI-VbXLd3Wlchy1ebAOY3LX8HRlaPYJOQ-vsUE' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:22:40.955Z - info: Api Request logData= { reqID: 'b8b28bd5-511d-4d45-b05b-87d5a069d418',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:22:40.955Z' } class=service/BaseService.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:41.511Z - info: Api response : Success logData= { reqID: 'b8b28bd5-511d-4d45-b05b-87d5a069d418',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:22:41.511Z' } class=service/BaseService.js, pid=28546, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:43.523Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:22:43.531Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:22:45.699Z - info: Api Request logData= { reqID: 'e457cc5b-d4de-4c2f-947b-cdc84040884b',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T06:22:45.698Z' } class=service/BaseService.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:46.632Z - info: Api response : Success logData= { reqID: 'e457cc5b-d4de-4c2f-947b-cdc84040884b',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T06:22:46.631Z' } class=service/BaseService.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:55.950Z - info: Api Request logData= { reqID: '85a5cc89-17bd-4e6e-a9bf-44a22abc282d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:22:55.950Z' } class=service/BaseService.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:56.872Z - info: Api response : Success logData= { reqID: '85a5cc89-17bd-4e6e-a9bf-44a22abc282d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:22:56.872Z' } class=service/BaseService.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:57.966Z - info: Api Request logData= { reqID: '990fa60a-0634-4001-b668-29c29ae15292',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:22:57.966Z' } class=service/BaseService.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:22:58.842Z - info: Api response : Success logData= { reqID: '990fa60a-0634-4001-b668-29c29ae15292',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:22:58.842Z' } class=service/BaseService.js, pid=28571, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:26:57.772Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28633, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:26:57.777Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28633, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:30:28.155Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:30:28.160Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:30:32.527Z - info: Api Request logData= { reqID: '20254441-2813-47f5-b666-b72710921af8',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:30:32.526Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:30:33.189Z - info: Api response : Success logData= { reqID: '20254441-2813-47f5-b666-b72710921af8',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:30:33.189Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:30:33.191Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVmpjS1dYWXAxMnRtclJjRHg3RzREdTJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.kQiKh4oCD5YzNo67BQkf67O08DnR4zZ9On0gy0ZkWzg' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:30:33.191Z - info: Api Request logData= { reqID: '98d94a31-bd76-4827-bf44-f7f050de0a42',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:30:33.191Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:30:33.801Z - info: Api response : Success logData= { reqID: '98d94a31-bd76-4827-bf44-f7f050de0a42',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:30:33.801Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:30:33.821Z - info: Api Request logData= { reqID: '1c7a9bde-d2ef-4c08-b7ba-1bacce906194',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:30:33.814Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:30:34.644Z - info: Api response : Success logData= { reqID: '1c7a9bde-d2ef-4c08-b7ba-1bacce906194',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:30:34.644Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:30:35.829Z - info: Api Request logData= { reqID: '19b6a723-0c8e-4ea5-91c3-1aa1317982f6',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:30:35.829Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:30:36.772Z - info: Api response : Success logData= { reqID: '19b6a723-0c8e-4ea5-91c3-1aa1317982f6',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:30:36.771Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:49.599Z - info: Api Request logData= { reqID: '88eb4132-16c9-40ac-8279-1d75508d6610',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:31:49.599Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:50.204Z - info: Api response : Success logData= { reqID: '88eb4132-16c9-40ac-8279-1d75508d6610',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:31:50.204Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:50.205Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVmNrbWVhOHBaM3k3SzNYTThEbUJEdDJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.XGd13AvYcNwofX7G7953KwF1W0kXozXI7oEAfcQCnhU' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:31:50.205Z - info: Api Request logData= { reqID: '204d97e2-fad7-461d-82b6-6ba79402dd1c',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:31:50.205Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:50.758Z - info: Api response : Success logData= { reqID: '204d97e2-fad7-461d-82b6-6ba79402dd1c',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:31:50.758Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:50.765Z - info: Api Request logData= { reqID: '96d408cf-b05f-46aa-9abb-e4f40e7d19c3',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:31:50.765Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:51.629Z - info: Api response : Success logData= { reqID: '96d408cf-b05f-46aa-9abb-e4f40e7d19c3',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:31:51.629Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:52.644Z - info: Api Request logData= { reqID: 'd4d9f2ef-4ee8-4fa7-9a9a-c0b2cbb0b522',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:31:52.644Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:31:53.575Z - info: Api response : Success logData= { reqID: 'd4d9f2ef-4ee8-4fa7-9a9a-c0b2cbb0b522',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:31:53.575Z' } class=service/BaseService.js, pid=28689, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:32:58.517Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:32:58.522Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:33:02.768Z - info: Api Request logData= { reqID: '1b6044fb-9241-4195-a3de-e7e7e9533185',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:33:02.768Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:33:03.435Z - info: Api response : Success logData= { reqID: '1b6044fb-9241-4195-a3de-e7e7e9533185',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:33:03.434Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:33:03.436Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVjVkeU5DaXlTdGszdkgxRTdta3lhRFdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.cBeSB_CwHbF-Pe92dFd7GZxu6_XEgzOvbYkU1LhryB0' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:33:03.436Z - info: Api Request logData= { reqID: 'e5fd39b9-dbbc-47df-938f-0120ab3f389a',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:33:03.436Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:33:04.029Z - info: Api response : Success logData= { reqID: 'e5fd39b9-dbbc-47df-938f-0120ab3f389a',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:33:04.029Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:33:04.042Z - info: Api Request logData= { reqID: 'e3ea56e5-9c9e-4538-81be-1969ac2f4356',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:33:04.042Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:33:04.951Z - info: Api response : Success logData= { reqID: 'e3ea56e5-9c9e-4538-81be-1969ac2f4356',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:33:04.951Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:33:06.207Z - info: Api Request logData= { reqID: '88bea6b7-9307-4944-9f2d-1567939779bb',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:33:06.207Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:33:06.998Z - info: Api response : Success logData= { reqID: '88bea6b7-9307-4944-9f2d-1567939779bb',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:33:06.998Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:49.929Z - info: Api Request logData= { reqID: '562e6a49-2a18-48c4-9d36-d1d19e9eb87f',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:37:49.929Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:50.555Z - info: Api response : Success logData= { reqID: '562e6a49-2a18-48c4-9d36-d1d19e9eb87f',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:37:50.555Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:50.556Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVnRSTU9paVh4algvQmlXRklhbDM0SDJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.ouIY0GAF6Bg6G2vYVBzfFM9uMAiRKczkIHUckYRki6k' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:37:50.556Z - info: Api Request logData= { reqID: '2b0e7861-62cf-4ecc-b3da-0f68673f646e',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:37:50.556Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:51.067Z - info: Api Request logData= { reqID: '46cd969a-cfe1-4d1c-87d1-94bac0dbb8ea',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:37:51.067Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:51.069Z - info: Api response : Success logData= { reqID: '2b0e7861-62cf-4ecc-b3da-0f68673f646e',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:37:51.069Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:51.082Z - info: Api Request logData= { reqID: '37cbb12f-1288-430b-ab79-76e1b80c9a88',
+  endpoint: '/api/v1/property-listings/2859363',
+  method: 'get',
+  requestetime: '2019-11-13T06:37:51.082Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:51.690Z - info: Api response : Success logData= { reqID: '46cd969a-cfe1-4d1c-87d1-94bac0dbb8ea',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:37:51.690Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:51.691Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVjQyMTRxTGU0cUY5QnVnTi9MYmZpMTJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.6b9nXibU2L1VnaeM1whGJPILEJU1vtzqkN3NSUP2mMs' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:37:51.691Z - info: Api Request logData= { reqID: 'aa39780b-315c-4dde-adcd-cce6111c2f8f',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:37:51.691Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:51.955Z - info: Api response : Success logData= { reqID: '37cbb12f-1288-430b-ab79-76e1b80c9a88',
+  endpoint: '/api/v1/property-listings/2859363',
+  method: 'get',
+  responsetime: '2019-11-13T06:37:51.954Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:37:52.195Z - info: Api response : Success logData= { reqID: 'aa39780b-315c-4dde-adcd-cce6111c2f8f',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:37:52.195Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:35.170Z - info: Api Request logData= { reqID: '0bc4d28d-8fe6-4b5d-b5d5-2470cd8133f8',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:40:35.170Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:35.734Z - info: Api response : Success logData= { reqID: '0bc4d28d-8fe6-4b5d-b5d5-2470cd8133f8',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:40:35.734Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:35.734Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVm85SmRwKzZ4dVk4SmFBSGY4WFJENm1OK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.O8tStsIb8xLxR8_v0XZOVuK_6qhVc_3TPKWTCzngX5o' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:40:35.735Z - info: Api Request logData= { reqID: 'f15ea858-9d27-43a5-9500-21803c56bc0b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:40:35.735Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:36.349Z - info: Api response : Success logData= { reqID: 'f15ea858-9d27-43a5-9500-21803c56bc0b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:40:36.349Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:36.356Z - info: Api Request logData= { reqID: '5eb0db17-295b-428f-bba4-c980eb5770d2',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/2628596',
+  method: 'get',
+  requestetime: '2019-11-13T06:40:36.356Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:37.272Z - info: Api response : Success logData= { reqID: '5eb0db17-295b-428f-bba4-c980eb5770d2',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/2628596',
+  method: 'get',
+  responsetime: '2019-11-13T06:40:37.272Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:37.889Z - info: Api Request logData= { reqID: 'bbb8bb12-ce29-4800-960b-eb6aae775410',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/2628596',
+  method: 'get',
+  requestetime: '2019-11-13T06:40:37.889Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:38.622Z - info: Api response : Success logData= { reqID: 'bbb8bb12-ce29-4800-960b-eb6aae775410',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/2628596',
+  method: 'get',
+  responsetime: '2019-11-13T06:40:38.622Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:39.050Z - info: Api Request logData= { reqID: '50761881-8ea0-46a4-854b-ee6fbf542e37',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  requestetime: '2019-11-13T06:40:39.048Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:39.935Z - info: Api response : Success logData= { reqID: '50761881-8ea0-46a4-854b-ee6fbf542e37',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  responsetime: '2019-11-13T06:40:39.935Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:42.034Z - info: Api Request logData= { reqID: '01a87c5d-eb68-4be6-a11f-5468cbda2009',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T06:40:42.034Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:40:42.826Z - info: Api response : Success logData= { reqID: '01a87c5d-eb68-4be6-a11f-5468cbda2009',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T06:40:42.826Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:46.859Z - info: Api Request logData= { reqID: 'e7bd2a0c-9008-4dcf-a00d-4423e2170f41',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:43:46.859Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:47.563Z - info: Api response : Success logData= { reqID: 'e7bd2a0c-9008-4dcf-a00d-4423e2170f41',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:43:47.563Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:47.563Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVm50dEQrNG5kUEM0eG5uZ2E5aTU0Y1dOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.zqdQ_VzXyuJsEJr9uFtgIa0c4rNjfMiGIYusY2BJskg' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:43:47.564Z - info: Api Request logData= { reqID: 'f67bf2de-66a7-4fc5-832c-6bf676f875c8',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:43:47.563Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:48.153Z - info: Api response : Success logData= { reqID: 'f67bf2de-66a7-4fc5-832c-6bf676f875c8',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:43:48.153Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:48.158Z - info: Api Request logData= { reqID: '519418a8-e276-4514-8065-702f0c645702',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:43:48.158Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:48.868Z - info: Api response : Success logData= { reqID: '519418a8-e276-4514-8065-702f0c645702',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:43:48.868Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:49.814Z - info: Api Request logData= { reqID: '27c2a9ca-32b5-48ab-b44f-d4d0c274cf14',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:43:49.814Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:50.476Z - info: Api Request logData= { reqID: 'cc4922db-bb2d-4b32-8875-83e17b2e57e1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:43:50.476Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:50.537Z - info: Api response : Success logData= { reqID: '27c2a9ca-32b5-48ab-b44f-d4d0c274cf14',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:43:50.537Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:51.329Z - info: Api response : Success logData= { reqID: 'cc4922db-bb2d-4b32-8875-83e17b2e57e1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:43:51.329Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:52.204Z - info: Api Request logData= { reqID: '5b219662-74ff-4798-885d-c672b9b5b6ca',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:43:52.204Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:43:52.954Z - info: Api response : Success logData= { reqID: '5b219662-74ff-4798-885d-c672b9b5b6ca',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:43:52.954Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:44:06.574Z - info: Api Request logData= { reqID: '3ec2abc6-24d2-4f4f-b929-c1d252da20c3',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:44:06.574Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:44:07.508Z - info: Api response : Success logData= { reqID: '3ec2abc6-24d2-4f4f-b929-c1d252da20c3',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:44:07.507Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:44:08.752Z - info: Api Request logData= { reqID: '092be650-5860-4391-b101-7606b3c9889a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:44:08.751Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:44:09.660Z - info: Api response : Success logData= { reqID: '092be650-5860-4391-b101-7606b3c9889a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:44:09.660Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:45:56.296Z - info: Api Request logData= { reqID: '2107b9fe-666a-47ab-afc3-40a52685d926',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:45:56.296Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:45:56.908Z - info: Api response : Success logData= { reqID: '2107b9fe-666a-47ab-afc3-40a52685d926',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:45:56.908Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:45:56.908Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVmxBOUhyeWM4ZVdSem9nbi9leHlDZVdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.OU2QgKVN7dGTqOpn51MFrtE40psZV-axxGWoTce1mHs' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:45:56.908Z - info: Api Request logData= { reqID: '1b96a302-a7ee-4a19-a0ab-3a725e9e0f99',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:45:56.908Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:45:57.491Z - info: Api response : Success logData= { reqID: '1b96a302-a7ee-4a19-a0ab-3a725e9e0f99',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:45:57.491Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:45:57.495Z - info: Api Request logData= { reqID: '0d2b7240-a249-4af8-9d41-ca18956a34b9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:45:57.495Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:45:58.413Z - info: Api response : Success logData= { reqID: '0d2b7240-a249-4af8-9d41-ca18956a34b9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:45:58.413Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:45:59.711Z - info: Api Request logData= { reqID: 'cefb14c2-6e79-4f17-8324-8e5624e553e1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:45:59.711Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:00.018Z - info: Api Request logData= { reqID: 'ceb7f71e-5252-4fef-b26d-a3fcc1586c6a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:46:00.018Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:00.665Z - info: Api response : Success logData= { reqID: 'cefb14c2-6e79-4f17-8324-8e5624e553e1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:46:00.664Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:00.972Z - info: Api response : Success logData= { reqID: 'ceb7f71e-5252-4fef-b26d-a3fcc1586c6a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:46:00.972Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:02.326Z - info: Api Request logData= { reqID: '1d43ad9f-d896-4d51-ba41-7902cb3ceb18',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:46:02.326Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:03.226Z - info: Api response : Success logData= { reqID: '1d43ad9f-d896-4d51-ba41-7902cb3ceb18',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:46:03.226Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:09.370Z - info: Api Request logData= { reqID: '8042278e-b3ac-4e89-a593-ebbbccd0e590',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:46:09.369Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:10.292Z - info: Api response : Success logData= { reqID: '8042278e-b3ac-4e89-a593-ebbbccd0e590',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:46:10.292Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:11.282Z - info: Api Request logData= { reqID: '25bf7655-040a-45ad-a378-b812de96b193',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:46:11.282Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:12.238Z - info: Api response : Success logData= { reqID: '25bf7655-040a-45ad-a378-b812de96b193',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:46:12.237Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:21.468Z - info: Api Request logData= { reqID: '3afae600-7a27-41fc-b962-3588e897304b',
+  endpoint: '/api/v1/property-listings/2628596',
+  method: 'get',
+  requestetime: '2019-11-13T06:46:21.467Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:46:22.376Z - info: Api response : Success logData= { reqID: '3afae600-7a27-41fc-b962-3588e897304b',
+  endpoint: '/api/v1/property-listings/2628596',
+  method: 'get',
+  responsetime: '2019-11-13T06:46:22.375Z' } class=service/BaseService.js, pid=28733, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:48:26.016Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28942, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:48:26.021Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28942, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:48:30.358Z - info: Api Request logData= { reqID: '7472b5ce-2629-4d9a-8a1d-679db0905329',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:48:30.358Z' } class=service/BaseService.js, pid=28942, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:48:30.996Z - info: Api response : Success logData= { reqID: '7472b5ce-2629-4d9a-8a1d-679db0905329',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:48:30.996Z' } class=service/BaseService.js, pid=28942, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:48:30.997Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVko4ZnlGMTZUd3lERy8zUVRNVFJmaVdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.oXplnlaekQ5jux6E9Mgy9Jv2VM1k2C59-UXIb7_daDc' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=28942, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:48:30.998Z - info: Api Request logData= { reqID: '3b7a6177-a2d9-4787-bc3b-1df1802cc303',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:48:30.998Z' } class=service/BaseService.js, pid=28942, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:48:31.507Z - info: Api response : Success logData= { reqID: '3b7a6177-a2d9-4787-bc3b-1df1802cc303',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:48:31.506Z' } class=service/BaseService.js, pid=28942, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:49:16.106Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28967, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:49:16.110Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28967, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:49:23.275Z - info: Api Request logData= { reqID: '0b8f3de2-eb0d-4df3-a0f7-ff80bbb7e046',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:49:23.274Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:49:24.153Z - info: Api response : Success logData= { reqID: '0b8f3de2-eb0d-4df3-a0f7-ff80bbb7e046',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:49:24.153Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:49:25.442Z - info: Api Request logData= { reqID: '5f0ad0df-c6d2-48a0-b3ba-b05b528097a9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:49:25.442Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:49:26.323Z - info: Api response : Success logData= { reqID: '5f0ad0df-c6d2-48a0-b3ba-b05b528097a9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:49:26.323Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:49:59.490Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28981, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:49:59.496Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28981, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:50:01.500Z - info: Api Request logData= { reqID: '0ea43628-ea7e-4fdc-a28a-b8ad8fdf6eac',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:50:01.499Z' } class=service/BaseService.js, pid=28981, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:50:02.377Z - info: Api response : Success logData= { reqID: '0ea43628-ea7e-4fdc-a28a-b8ad8fdf6eac',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:50:02.377Z' } class=service/BaseService.js, pid=28981, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:50:03.582Z - info: Api Request logData= { reqID: 'cf3b741a-fc73-4175-8ce1-961b8d59baa1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:50:03.582Z' } class=service/BaseService.js, pid=28981, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:50:04.491Z - info: Api response : Success logData= { reqID: 'cf3b741a-fc73-4175-8ce1-961b8d59baa1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:50:04.491Z' } class=service/BaseService.js, pid=28981, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:50:52.114Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28998, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:50:52.120Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28998, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:50:52.712Z - info: Api Request logData= { reqID: '4e6ecfb8-f429-40d0-be6b-9cc5c8364e19',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:50:52.711Z' } class=service/BaseService.js, pid=28998, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:50:53.590Z - info: Api response : Success logData= { reqID: '4e6ecfb8-f429-40d0-be6b-9cc5c8364e19',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:50:53.589Z' } class=service/BaseService.js, pid=28998, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:50:54.762Z - info: Api Request logData= { reqID: '17baf0de-f531-4294-ac36-74cf4cbf27f1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:50:54.762Z' } class=service/BaseService.js, pid=28998, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:50:55.516Z - info: Api response : Success logData= { reqID: '17baf0de-f531-4294-ac36-74cf4cbf27f1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:50:55.516Z' } class=service/BaseService.js, pid=28998, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:51:54.418Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29018, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:51:54.424Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29018, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:53:28.747Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29043, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:53:28.752Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29043, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:53:45.850Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29053, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:53:45.856Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29053, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:54:18.579Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:54:18.584Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:54:33.533Z - info: Api Request logData= { reqID: '542352d9-e01d-45eb-872c-bae4a2119bb1',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:54:33.532Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:34.246Z - info: Api response : Success logData= { reqID: '542352d9-e01d-45eb-872c-bae4a2119bb1',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:54:34.246Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:34.248Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkN2RHptak5BYWpnSTB3NWYyRzR0ZVdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.2UPp1FNO97K69xDnhezoyRmn4SmKDtARJoYnv7cxrho' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:54:34.248Z - info: Api Request logData= { reqID: '0087548d-0268-4f3d-94ce-5dad72ac7974',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:54:34.248Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:34.578Z - info: Api Request logData= { reqID: 'e6f644e8-f2e9-469b-8ec4-0d98d2fc7693',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:54:34.578Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:34.796Z - info: Api response : Success logData= { reqID: '0087548d-0268-4f3d-94ce-5dad72ac7974',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:54:34.795Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:34.808Z - info: Api Request logData= { reqID: 'fcc1a732-797d-4671-bbee-cc76988a5d94',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:54:34.808Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:35.107Z - info: Api response : Success logData= { reqID: 'e6f644e8-f2e9-469b-8ec4-0d98d2fc7693',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:54:35.106Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:35.107Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkN2RHptak5BYWpnSTB3NWYyRzR0ZVdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.2UPp1FNO97K69xDnhezoyRmn4SmKDtARJoYnv7cxrho' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:54:35.107Z - info: Api Request logData= { reqID: '36ea4bf6-3a63-4c4b-8c1f-7bd432fc7d71',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:54:35.107Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:35.584Z - info: Api response : Success logData= { reqID: 'fcc1a732-797d-4671-bbee-cc76988a5d94',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:54:35.584Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:35.625Z - info: Api response : Success logData= { reqID: '36ea4bf6-3a63-4c4b-8c1f-7bd432fc7d71',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:54:35.624Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:35.632Z - info: Api Request logData= { reqID: '839172b9-dd76-4d73-a60e-b34ae44a0622',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:54:35.631Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:36.424Z - info: Api response : Success logData= { reqID: '839172b9-dd76-4d73-a60e-b34ae44a0622',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:54:36.423Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:37.529Z - info: Api Request logData= { reqID: 'e33dc9ab-b266-4a18-a605-e8b5874e50f5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:54:37.528Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:54:38.396Z - info: Api response : Success logData= { reqID: 'e33dc9ab-b266-4a18-a605-e8b5874e50f5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:54:38.396Z' } class=service/BaseService.js, pid=29065, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:08.438Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:55:08.449Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:55:12.623Z - info: Api Request logData= { reqID: 'f7be39d0-9a56-4166-8c23-7846c946ef11',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:55:12.623Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:13.549Z - info: Api response : Success logData= { reqID: 'f7be39d0-9a56-4166-8c23-7846c946ef11',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:55:13.549Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:14.523Z - info: Api Request logData= { reqID: '07db9260-4e77-4cc5-86a6-371d0776c463',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:55:14.523Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:15.324Z - info: Api Request logData= { reqID: '49d6485d-d634-4b60-9387-d8d96bd8c67d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:55:15.323Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:15.331Z - info: Api response : Success logData= { reqID: '07db9260-4e77-4cc5-86a6-371d0776c463',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:55:15.331Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:16.212Z - info: Api response : Success logData= { reqID: '49d6485d-d634-4b60-9387-d8d96bd8c67d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:55:16.211Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:17.249Z - info: Api Request logData= { reqID: 'e8af5fe7-6038-4acc-a1bf-ebd8f76d9d6a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:55:17.249Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:55:18.156Z - info: Api response : Success logData= { reqID: 'e8af5fe7-6038-4acc-a1bf-ebd8f76d9d6a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:55:18.156Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:05.633Z - info: Api Request logData= { reqID: '1abaf3d0-8dd3-41a1-8f03-745d81583819',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:57:05.633Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:06.401Z - info: Api response : Success logData= { reqID: '1abaf3d0-8dd3-41a1-8f03-745d81583819',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:57:06.401Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:06.402Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVjB6ak1WTXBhU0Q3MkN6eG1RS2tCRDJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.jqaFXhgUsk_PUuexFLIa3escfzFr4dcbEf6G3hvyZLU' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:57:06.403Z - info: Api Request logData= { reqID: '03096784-9ab6-427c-afb4-e650e6d079f3',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:57:06.402Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:07.011Z - info: Api response : Success logData= { reqID: '03096784-9ab6-427c-afb4-e650e6d079f3',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:57:07.011Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:07.019Z - info: Api Request logData= { reqID: '1343f5b2-0c43-4dbd-bea5-759816e5cf81',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:57:07.019Z' } class=service/BaseService.js, pid=29082, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:08.938Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T06:57:08.943Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T06:57:13.189Z - info: Api Request logData= { reqID: '03128c40-1099-425e-8863-850875f9fd54',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T06:57:13.188Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:13.967Z - info: Api response : Success logData= { reqID: '03128c40-1099-425e-8863-850875f9fd54',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T06:57:13.967Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:13.969Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkdWY0ZEUHN1SENJQ1BoVVA2Qy92QzJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.A7m2c0f_pKInM6F8XYmounf0NYinyDelQ9vtMiht97U' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T06:57:13.969Z - info: Api Request logData= { reqID: '602c8bb1-7214-4c63-b1f5-62dbf87321e7',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T06:57:13.969Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:14.589Z - info: Api response : Success logData= { reqID: '602c8bb1-7214-4c63-b1f5-62dbf87321e7',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T06:57:14.589Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:14.602Z - info: Api Request logData= { reqID: 'da12899c-c9f3-43d2-87ab-d7244ae67f55',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:57:14.602Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:15.456Z - info: Api response : Success logData= { reqID: 'da12899c-c9f3-43d2-87ab-d7244ae67f55',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:57:15.456Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:16.724Z - info: Api Request logData= { reqID: '74652d72-f6a5-463d-87c7-77488488e736',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T06:57:16.724Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T06:57:17.668Z - info: Api response : Success logData= { reqID: '74652d72-f6a5-463d-87c7-77488488e736',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T06:57:17.668Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:22.373Z - info: Api Request logData= { reqID: '0439bba6-dfd4-461f-bed3-9f1b81a23b20',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:01:22.373Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:23.023Z - info: Api response : Success logData= { reqID: '0439bba6-dfd4-461f-bed3-9f1b81a23b20',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:01:23.023Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:23.024Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVlM1UVgzazluMEtnb3hXNUpDelFtSVdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.tWHY8I7QTauE8JIqP3V2URKcL1YKCoVPZom48Jtd2qQ' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:01:23.024Z - info: Api Request logData= { reqID: 'da1b8976-d460-4356-9b6d-1849220679e8',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:01:23.024Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:23.637Z - info: Api response : Success logData= { reqID: 'da1b8976-d460-4356-9b6d-1849220679e8',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:01:23.637Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:23.644Z - info: Api Request logData= { reqID: 'af160bb6-b1c5-44ae-a539-ce77a9ef651d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:01:23.644Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:24.483Z - info: Api response : Success logData= { reqID: 'af160bb6-b1c5-44ae-a539-ce77a9ef651d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:01:24.482Z' } class=service/BaseService.js, pid=29116, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:26.305Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:01:26.310Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:01:26.491Z - info: Api Request logData= { reqID: 'eaf68913-1776-4970-a507-d56fc183e4ba',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:01:26.490Z' } class=service/BaseService.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:27.429Z - info: Api response : Success logData= { reqID: 'eaf68913-1776-4970-a507-d56fc183e4ba',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:01:27.428Z' } class=service/BaseService.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:28.554Z - info: Api Request logData= { reqID: 'c8abe7de-221f-4d1c-8691-c3f32492a4f5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:01:28.554Z' } class=service/BaseService.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:01:29.404Z - info: Api response : Success logData= { reqID: 'c8abe7de-221f-4d1c-8691-c3f32492a4f5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:01:29.404Z' } class=service/BaseService.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:00.117Z - info: Api Request logData= { reqID: '8077ba53-5c62-4f60-81c0-677e5260cc85',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:02:00.116Z' } class=service/BaseService.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:01.017Z - info: Api response : Success logData= { reqID: '8077ba53-5c62-4f60-81c0-677e5260cc85',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:02:01.016Z' } class=service/BaseService.js, pid=29176, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:04.621Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:02:04.628Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:02:05.086Z - info: Api Request logData= { reqID: 'c98678c1-5cd3-4a28-9eb1-747bab0e414e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:02:05.085Z' } class=service/BaseService.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:06.035Z - info: Api response : Success logData= { reqID: 'c98678c1-5cd3-4a28-9eb1-747bab0e414e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:02:06.035Z' } class=service/BaseService.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:07.035Z - info: Api Request logData= { reqID: 'd355edc8-88c4-4492-8d72-349c19e76af0',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:02:07.035Z' } class=service/BaseService.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:07.900Z - info: Api response : Success logData= { reqID: 'd355edc8-88c4-4492-8d72-349c19e76af0',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:02:07.900Z' } class=service/BaseService.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:34.810Z - info: Api Request logData= { reqID: 'fc5d7cec-194c-4197-b4cf-4552f95082f5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:02:34.810Z' } class=service/BaseService.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:35.662Z - info: Api response : Success logData= { reqID: 'fc5d7cec-194c-4197-b4cf-4552f95082f5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:02:35.661Z' } class=service/BaseService.js, pid=29190, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:38.351Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29203, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:02:38.357Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29203, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:02:39.047Z - info: Api Request logData= { reqID: 'dec7e24d-e338-4bf4-a523-ba8b134c329f',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:02:39.046Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:39.932Z - info: Api response : Success logData= { reqID: 'dec7e24d-e338-4bf4-a523-ba8b134c329f',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:02:39.931Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:40.955Z - info: Api Request logData= { reqID: '9fc186eb-3703-4a22-955c-c611d6c89883',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:02:40.955Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:02:41.802Z - info: Api response : Success logData= { reqID: '9fc186eb-3703-4a22-955c-c611d6c89883',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:02:41.802Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:00.276Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:03:00.281Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:03:01.905Z - info: Api Request logData= { reqID: '46f410e5-ec20-42f6-8364-d89f0eee2f7d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:01.904Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:02.665Z - info: Api response : Success logData= { reqID: '46f410e5-ec20-42f6-8364-d89f0eee2f7d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:02.665Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:03.827Z - info: Api Request logData= { reqID: '5ab1d4e9-996a-436e-8dd6-5a1f3defc45e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:03.827Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:04.221Z - info: Api Request logData= { reqID: 'f6793231-b340-4227-9a76-1561c6229cfa',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:04.220Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:04.625Z - info: Api response : Success logData= { reqID: '5ab1d4e9-996a-436e-8dd6-5a1f3defc45e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:04.625Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:04.947Z - info: Api response : Success logData= { reqID: 'f6793231-b340-4227-9a76-1561c6229cfa',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:04.947Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:05.990Z - info: Api Request logData= { reqID: '487c5f73-432e-42c7-9072-c1abaf96464a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:05.990Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:06.862Z - info: Api response : Success logData= { reqID: '487c5f73-432e-42c7-9072-c1abaf96464a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:06.861Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:07.443Z - info: Api Request logData= { reqID: '99b0d11f-775f-4a26-9818-00873d00540d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:07.443Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:08.398Z - info: Api response : Success logData= { reqID: '99b0d11f-775f-4a26-9818-00873d00540d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:08.398Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:09.277Z - info: Api Request logData= { reqID: 'e20939f8-249d-44fc-a0e5-1fac372acdf4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:09.277Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:10.242Z - info: Api response : Success logData= { reqID: 'e20939f8-249d-44fc-a0e5-1fac372acdf4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:10.242Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:34.879Z - info: Api Request logData= { reqID: 'fa060744-a46e-4a1e-9e8d-ebf2eef13d47',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:34.878Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:35.740Z - info: Api response : Success logData= { reqID: 'fa060744-a46e-4a1e-9e8d-ebf2eef13d47',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:35.740Z' } class=service/BaseService.js, pid=29213, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:37.396Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:03:37.401Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:03:38.079Z - info: Api Request logData= { reqID: 'badbaefb-a9bf-4091-87f3-264009a0b4a8',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:38.078Z' } class=service/BaseService.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:39.017Z - info: Api response : Success logData= { reqID: 'badbaefb-a9bf-4091-87f3-264009a0b4a8',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:39.017Z' } class=service/BaseService.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:40.024Z - info: Api Request logData= { reqID: '185f481a-983f-4841-89c9-e8980439d46e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:03:40.024Z' } class=service/BaseService.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:03:40.963Z - info: Api response : Success logData= { reqID: '185f481a-983f-4841-89c9-e8980439d46e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:03:40.962Z' } class=service/BaseService.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:04:25.108Z - info: Api Request logData= { reqID: '9d37dcde-5c9c-4bf4-9b1c-6f9b36555984',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:04:25.107Z' } class=service/BaseService.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:04:25.920Z - info: Api response : Success logData= { reqID: '9d37dcde-5c9c-4bf4-9b1c-6f9b36555984',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:04:25.920Z' } class=service/BaseService.js, pid=29226, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:04:29.816Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:04:29.822Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:04:30.309Z - info: Api Request logData= { reqID: 'a90f430a-ed98-4f99-8f3a-a63741f2e9cc',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:04:30.308Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:04:31.144Z - info: Api response : Success logData= { reqID: 'a90f430a-ed98-4f99-8f3a-a63741f2e9cc',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:04:31.144Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:04:32.129Z - info: Api Request logData= { reqID: '0fbce64c-457b-4b48-9781-7dd94f56ba89',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:04:32.129Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:04:33.040Z - info: Api response : Success logData= { reqID: '0fbce64c-457b-4b48-9781-7dd94f56ba89',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:04:33.040Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:16.713Z - info: Api Request logData= { reqID: 'cc97d2a5-d8c8-441c-8962-3b822ea5ee33',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:06:16.713Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:17.249Z - info: Api response : Success logData= { reqID: 'cc97d2a5-d8c8-441c-8962-3b822ea5ee33',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:06:17.249Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:17.250Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVnpSSFBybnFiU09pOVNDUkU1L2RrZW1OK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.0KkBFDpctmRpdgnrMaJsUlCl7Z76cQTGhEosNB9YxN0' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:06:17.250Z - info: Api Request logData= { reqID: '59f4cff2-a57d-4356-a6cb-44652db215f7',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:06:17.250Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:17.749Z - info: Api response : Success logData= { reqID: '59f4cff2-a57d-4356-a6cb-44652db215f7',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:06:17.749Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:17.759Z - info: Api Request logData= { reqID: '76397326-a9a5-4a4e-be5a-747e6ec1ac2e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:06:17.759Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:18.557Z - info: Api response : Success logData= { reqID: '76397326-a9a5-4a4e-be5a-747e6ec1ac2e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:06:18.556Z' } class=service/BaseService.js, pid=29244, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:20.828Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:06:20.842Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:06:21.273Z - info: Api Request logData= { reqID: '7c62c893-f9a4-4d17-82ea-e7505701ee6b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:06:21.272Z' } class=service/BaseService.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:21.840Z - info: Api Request logData= { reqID: 'bc9bc4a5-e17f-4448-a7a5-3facf82caeae',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:06:21.840Z' } class=service/BaseService.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:22.148Z - info: Api response : Success logData= { reqID: '7c62c893-f9a4-4d17-82ea-e7505701ee6b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:06:22.148Z' } class=service/BaseService.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:22.683Z - info: Api response : Success logData= { reqID: 'bc9bc4a5-e17f-4448-a7a5-3facf82caeae',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:06:22.683Z' } class=service/BaseService.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:23.715Z - info: Api Request logData= { reqID: '5a362769-078a-405c-975f-5c0f76935c78',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:06:23.715Z' } class=service/BaseService.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:06:24.442Z - info: Api response : Success logData= { reqID: '5a362769-078a-405c-975f-5c0f76935c78',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:06:24.441Z' } class=service/BaseService.js, pid=29276, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:12.438Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:09:12.443Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:09:15.763Z - info: Api Request logData= { reqID: '7856c357-d1fe-44f0-9694-f24d8366ed77',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:09:15.762Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:16.307Z - info: Api response : Success logData= { reqID: '7856c357-d1fe-44f0-9694-f24d8366ed77',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:09:16.307Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:16.308Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVnExSHNRSWV3bGE1Ri9wR1Q1RnJVWjJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.4bXZ9ChR7X2IteVpRZgocTkgTzZ1Xjay8uJhJsy54IU' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:09:16.308Z - info: Api Request logData= { reqID: '711a075c-9850-4890-ba91-b1e2a121aa59',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:09:16.308Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:16.942Z - info: Api Request logData= { reqID: 'e1836e4c-32e4-4f38-bbee-0b2c1e180e20',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:09:16.942Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:16.951Z - info: Api response : Success logData= { reqID: '711a075c-9850-4890-ba91-b1e2a121aa59',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:09:16.950Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:16.962Z - info: Api Request logData= { reqID: '3848c0e3-733e-4bf7-a74b-1b24cd0192b5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:09:16.961Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:17.465Z - info: Api response : Success logData= { reqID: 'e1836e4c-32e4-4f38-bbee-0b2c1e180e20',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:09:17.465Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:17.466Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVjlUMm4wZE54NllGejZVRnpUODFWaUdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.0GjZKAc8JEYrczsPGVHbAmTP_H_ho529Pby6sv0ozcQ' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:09:17.466Z - info: Api Request logData= { reqID: '3a3c8e85-db4d-4214-abde-deaf560850b2',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:09:17.466Z' } class=service/BaseService.js, pid=29317, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:18.903Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:09:18.908Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:09:19.927Z - info: Api Request logData= { reqID: 'a818e02d-dd2a-448d-b1e6-a3657bfa2062',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:09:19.926Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:20.537Z - info: Api response : Success logData= { reqID: 'a818e02d-dd2a-448d-b1e6-a3657bfa2062',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:09:20.537Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:20.538Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVm5sdkdlWW9VZ0VwUjNWemZLalVmOVdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.P1OE2ZfLE0AGSSdKkHizmrKoCy6ZoWDrCr9hfegzDnY' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:09:20.538Z - info: Api Request logData= { reqID: '5bd4ad7b-75c9-4902-b292-4f608be78e60',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:09:20.538Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:21.048Z - info: Api response : Success logData= { reqID: '5bd4ad7b-75c9-4902-b292-4f608be78e60',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:09:21.048Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:21.060Z - info: Api Request logData= { reqID: '513ff365-5b3f-481b-87c8-4f19aa7e83b2',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:09:21.059Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:21.972Z - info: Api response : Success logData= { reqID: '513ff365-5b3f-481b-87c8-4f19aa7e83b2',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:09:21.972Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:23.193Z - info: Api Request logData= { reqID: 'd78e4ce8-cf06-4697-9b4c-e84943dbfcc1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:09:23.192Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:09:24.120Z - info: Api response : Success logData= { reqID: 'd78e4ce8-cf06-4697-9b4c-e84943dbfcc1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:09:24.120Z' } class=service/BaseService.js, pid=29323, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:23.852Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:11:23.857Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29356, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:11:34.000Z - info: Api Request logData= { reqID: 'd2aac985-7d9b-4418-9a6b-c490e6160b72',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:11:34.000Z' } class=service/BaseService.js, pid=29356, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:36.018Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:11:36.028Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:11:37.241Z - info: Api Request logData= { reqID: '989c3b55-ee5d-4861-8776-ba24a5617cb7',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:11:37.240Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:37.927Z - info: Api response : Success logData= { reqID: '989c3b55-ee5d-4861-8776-ba24a5617cb7',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:11:37.926Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:37.928Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVk9pQm91Q1E5eXZrTnEvOExua2MxSm1OK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.iKEQtKcSCtd-uzNW5l_dtJ7IRgxfEwTzaJizkdJwWbI' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:11:37.928Z - info: Api Request logData= { reqID: 'de3311be-aa64-4b1f-8775-92d289ff6f36',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:11:37.928Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:38.606Z - info: Api response : Success logData= { reqID: 'de3311be-aa64-4b1f-8775-92d289ff6f36',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:11:38.606Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:38.619Z - info: Api Request logData= { reqID: '0655eea5-2fed-473c-b014-bd57ff80d4c2',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:11:38.619Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:39.400Z - info: Api response : Success logData= { reqID: '0655eea5-2fed-473c-b014-bd57ff80d4c2',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:11:39.400Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:40.725Z - info: Api Request logData= { reqID: '65bc2b49-efc4-47f3-b8e9-87dcdde9c03b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:11:40.725Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:11:41.476Z - info: Api response : Success logData= { reqID: '65bc2b49-efc4-47f3-b8e9-87dcdde9c03b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:11:41.476Z' } class=service/BaseService.js, pid=29362, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:38.916Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:14:38.921Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:14:43.258Z - info: Api Request logData= { reqID: 'cd840b89-51e7-4321-9b97-079b39610f68',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:14:43.257Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:43.960Z - info: Api response : Success logData= { reqID: 'cd840b89-51e7-4321-9b97-079b39610f68',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:14:43.960Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:43.961Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVjcyamFIQ2Zubng2NlZLSlIwaGIxR21OK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.Rg_j0DOArBzRvw-NHEUPEuF1j7uE7-8adIaoeShUUjM' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:14:43.961Z - info: Api Request logData= { reqID: '5fb92383-7f75-4916-9419-57dfbb4c113e',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:14:43.961Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:44.549Z - info: Api response : Success logData= { reqID: '5fb92383-7f75-4916-9419-57dfbb4c113e',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:14:44.549Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:44.565Z - info: Api Request logData= { reqID: '70ce33b5-3462-4b84-8f4a-70845c5e5d91',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:14:44.565Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:45.470Z - info: Api response : Success logData= { reqID: '70ce33b5-3462-4b84-8f4a-70845c5e5d91',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:14:45.470Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:46.925Z - info: Api Request logData= { reqID: '468369f6-1e59-49f0-86b3-510f4efad217',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:14:46.925Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:14:47.755Z - info: Api response : Success logData= { reqID: '468369f6-1e59-49f0-86b3-510f4efad217',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:14:47.755Z' } class=service/BaseService.js, pid=29409, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:15:13.256Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29422, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:15:13.262Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29422, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:15:22.845Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29429, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:15:22.854Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29429, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:15:31.686Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29436, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:15:31.692Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29436, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:15:31.930Z - info: Api Request logData= { reqID: 'd8e8578b-a196-41c7-b69a-c5cd7cc463b6',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:15:31.929Z' } class=service/BaseService.js, pid=29436, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:15:32.884Z - info: Api response : Success logData= { reqID: 'd8e8578b-a196-41c7-b69a-c5cd7cc463b6',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:15:32.884Z' } class=service/BaseService.js, pid=29436, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:15:34.189Z - info: Api Request logData= { reqID: '50a97d87-29f6-4534-a070-55a6c78820ea',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:15:34.189Z' } class=service/BaseService.js, pid=29436, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:15:35.138Z - info: Api response : Success logData= { reqID: '50a97d87-29f6-4534-a070-55a6c78820ea',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:15:35.138Z' } class=service/BaseService.js, pid=29436, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:17:56.736Z - info: Api Request logData= { reqID: '36962751-a5a3-4462-bdaf-37e47c50b58a',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:17:56.735Z' } class=service/BaseService.js, pid=29436, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:17:58.356Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:17:58.361Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:17:58.492Z - info: Api Request logData= { reqID: '81bcd153-0c8c-4576-9c8c-b14d86ad3c7e',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:17:58.492Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:17:59.116Z - info: Api response : Success logData= { reqID: '81bcd153-0c8c-4576-9c8c-b14d86ad3c7e',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:17:59.115Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:17:59.117Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkRSL1oyTmtSRWVtak1DZlI1SGZDdTJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.FF5DbyExcK6DwaavhIGHofSSKuqTKclE06IEEfdGPDA' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:17:59.118Z - info: Api Request logData= { reqID: 'b3af4c65-2391-4b95-9ced-776cea4608b4',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:17:59.117Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:17:59.727Z - info: Api response : Success logData= { reqID: 'b3af4c65-2391-4b95-9ced-776cea4608b4',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:17:59.727Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:17:59.740Z - info: Api Request logData= { reqID: '8ce09a2a-37dc-4393-abd0-886e53a9be3f',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:17:59.740Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:00.540Z - info: Api response : Success logData= { reqID: '8ce09a2a-37dc-4393-abd0-886e53a9be3f',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:18:00.540Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:01.866Z - info: Api Request logData= { reqID: '5737a55c-e73b-402c-a66f-bfa57775866c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:18:01.866Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:02.802Z - info: Api response : Success logData= { reqID: '5737a55c-e73b-402c-a66f-bfa57775866c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:18:02.802Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:56.504Z - info: Api Request logData= { reqID: '3cc3285e-fe8b-40a7-bc8b-0afd4173eda7',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:18:56.504Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:57.076Z - info: Api response : Success logData= { reqID: '3cc3285e-fe8b-40a7-bc8b-0afd4173eda7',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:18:57.076Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:57.076Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVmNuSjB3NmE2OXgyT1EraFpBZEFKN0dOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.IYsFGrL3cQLAiG_eSnN0prpMVrnO_QVMmecpNJBJetg' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:18:57.077Z - info: Api Request logData= { reqID: '956b2227-a6ba-49d0-8cb9-045984f43eb9',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:18:57.077Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:57.687Z - info: Api response : Success logData= { reqID: '956b2227-a6ba-49d0-8cb9-045984f43eb9',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:18:57.687Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:57.694Z - info: Api Request logData= { reqID: 'd5824217-41f2-4446-8019-00f101a38045',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:18:57.694Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:58.610Z - info: Api response : Success logData= { reqID: 'd5824217-41f2-4446-8019-00f101a38045',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:18:58.610Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:18:59.462Z - info: Api Request logData= { reqID: '9325f9ad-812e-4247-83e6-3a492324190e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:18:59.462Z' } class=service/BaseService.js, pid=29475, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:19:00.917Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29496, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:19:00.922Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29496, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:19:01.548Z - info: Api Request logData= { reqID: 'f4f620dd-33de-40fb-90d0-1f8169064a89',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:19:01.548Z' } class=service/BaseService.js, pid=29496, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:19:02.503Z - info: Api response : Success logData= { reqID: 'f4f620dd-33de-40fb-90d0-1f8169064a89',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:19:02.503Z' } class=service/BaseService.js, pid=29496, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:19:03.768Z - info: Api Request logData= { reqID: 'ee53b2f1-ef6b-491d-98f0-83a224601c9c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:19:03.768Z' } class=service/BaseService.js, pid=29496, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:19:04.655Z - info: Api response : Success logData= { reqID: 'ee53b2f1-ef6b-491d-98f0-83a224601c9c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:19:04.655Z' } class=service/BaseService.js, pid=29496, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:09.728Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:21:09.735Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:21:10.108Z - info: Api Request logData= { reqID: '1a28b4e6-4040-41b3-85d7-e3f9785b3f84',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:21:10.108Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:10.719Z - info: Api response : Success logData= { reqID: '1a28b4e6-4040-41b3-85d7-e3f9785b3f84',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:21:10.718Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:10.720Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkgvQURvM1dWRGllYkxIRjRjUnZLR0dOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.MXVbT2sMgTxWOi6L5x6-UKrMAmjIEHtwgHioZHv533g' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:21:10.720Z - info: Api Request logData= { reqID: '7d682187-0903-4a4d-ba24-555329a2158b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:21:10.720Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:11.328Z - info: Api response : Success logData= { reqID: '7d682187-0903-4a4d-ba24-555329a2158b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:21:11.328Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:11.341Z - info: Api Request logData= { reqID: 'a7dee8ef-3c5b-4886-9443-5928061519d1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:21:11.341Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:12.250Z - info: Api response : Success logData= { reqID: 'a7dee8ef-3c5b-4886-9443-5928061519d1',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:21:12.250Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:13.348Z - info: Api Request logData= { reqID: '59724030-4fa1-48df-8157-3b2d45b8a048',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:21:13.348Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:14.297Z - info: Api response : Success logData= { reqID: '59724030-4fa1-48df-8157-3b2d45b8a048',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:21:14.297Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:15.300Z - info: Api Request logData= { reqID: 'c3fffc07-e484-4eda-becf-1db78a23b81a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:21:15.300Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:16.168Z - info: Api response : Success logData= { reqID: 'c3fffc07-e484-4eda-becf-1db78a23b81a',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:21:16.168Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:17.102Z - info: Api Request logData= { reqID: '2366beee-8d40-4c66-b1e7-472de4b4b2ff',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:21:17.102Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:21:17.944Z - info: Api response : Success logData= { reqID: '2366beee-8d40-4c66-b1e7-472de4b4b2ff',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:21:17.944Z' } class=service/BaseService.js, pid=29534, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:11.595Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29589, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:25:11.600Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29589, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:25:23.702Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:25:23.710Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:25:31.543Z - info: Api Request logData= { reqID: '7bce398e-5d10-4a17-9604-9afab7dfc3ce',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:25:31.542Z' } class=service/BaseService.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:32.152Z - info: Api response : Success logData= { reqID: '7bce398e-5d10-4a17-9604-9afab7dfc3ce',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:25:32.152Z' } class=service/BaseService.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:32.153Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVks0VEFsZlJaNFZMUzdPOWI2cW1aZVdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.l_2ArON3y51njaiAu1a94Tp0JSwEMpj-PWV2RInpD7s' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:25:32.153Z - info: Api Request logData= { reqID: '440fc151-ca57-4d52-9cdb-165ebb4317bb',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:25:32.153Z' } class=service/BaseService.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:32.767Z - info: Api response : Success logData= { reqID: '440fc151-ca57-4d52-9cdb-165ebb4317bb',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:25:32.767Z' } class=service/BaseService.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:32.780Z - info: Api Request logData= { reqID: '3f143664-228a-45df-b821-f1e0b4a65985',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:25:32.780Z' } class=service/BaseService.js, pid=29598, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:34.221Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:25:34.228Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:25:34.442Z - info: Api Request logData= { reqID: 'baedfa33-addc-4fb3-bf1a-2591cceaf862',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:25:34.441Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:35.020Z - info: Api response : Success logData= { reqID: 'baedfa33-addc-4fb3-bf1a-2591cceaf862',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:25:35.020Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:35.021Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVndsOEJSQ043aXdEWHd1bkpUNE5vWEdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.sEIhpyzzk_tsgKTy_FNjpkHm7ncZ0WAsfuAYebaoRWs' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:25:35.022Z - info: Api Request logData= { reqID: 'cb0ff0b5-14d2-497d-86f0-9fff71b38025',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:25:35.022Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:35.522Z - info: Api response : Success logData= { reqID: 'cb0ff0b5-14d2-497d-86f0-9fff71b38025',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:25:35.522Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:35.537Z - info: Api Request logData= { reqID: '91ca74dc-5e72-499c-9acb-a34f3ea54bb5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:25:35.537Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:36.355Z - info: Api response : Success logData= { reqID: '91ca74dc-5e72-499c-9acb-a34f3ea54bb5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:25:36.355Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:37.691Z - info: Api Request logData= { reqID: '6c1033d6-87b3-4dac-ba39-4db3207e3095',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:25:37.691Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:39.155Z - info: Api response : Success logData= { reqID: '6c1033d6-87b3-4dac-ba39-4db3207e3095',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:25:39.155Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:56.294Z - info: Api Request logData= { reqID: '53bcd586-2391-4f8b-b678-5c52c90dbab9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:25:56.294Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:57.224Z - info: Api Request logData= { reqID: '2c445d30-0699-4384-89c4-d8e160cdf73f',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:25:57.224Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:57.237Z - info: Api response : Success logData= { reqID: '53bcd586-2391-4f8b-b678-5c52c90dbab9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:25:57.237Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:25:58.162Z - info: Api response : Success logData= { reqID: '2c445d30-0699-4384-89c4-d8e160cdf73f',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:25:58.161Z' } class=service/BaseService.js, pid=29604, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:00.457Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:26:00.466Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:26:02.423Z - info: Api Request logData= { reqID: '809c101a-889c-41f4-8826-ab434dc70678',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:26:02.422Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:03.386Z - info: Api response : Success logData= { reqID: '809c101a-889c-41f4-8826-ab434dc70678',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:26:03.386Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:04.349Z - info: Api Request logData= { reqID: '7678798a-fbbd-4f55-8234-637aa0bb5e0b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:26:04.349Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:05.228Z - info: Api response : Success logData= { reqID: '7678798a-fbbd-4f55-8234-637aa0bb5e0b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:26:05.228Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:25.084Z - info: Api Request logData= { reqID: '8de6fcba-ff91-404a-9eac-e0192cfe5b1e',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  requestetime: '2019-11-13T07:26:25.084Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:26.130Z - info: Api response : Success logData= { reqID: '8de6fcba-ff91-404a-9eac-e0192cfe5b1e',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  responsetime: '2019-11-13T07:26:26.129Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:27.329Z - info: Api Request logData= { reqID: '881f0da4-b511-4cac-b967-b7ea3e386997',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T07:26:27.329Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:28.201Z - info: Api response : Success logData= { reqID: '881f0da4-b511-4cac-b967-b7ea3e386997',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T07:26:28.201Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:57.369Z - info: Api Request logData= { reqID: '1cdc419e-4f03-4850-a8a0-ec95ff0fba2b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:26:57.369Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:58.276Z - info: Api response : Success logData= { reqID: '1cdc419e-4f03-4850-a8a0-ec95ff0fba2b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:26:58.276Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:59.232Z - info: Api Request logData= { reqID: 'c0a28ebd-85a0-4736-a873-fea9f9838fcf',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:26:59.232Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:59.631Z - info: Api Request logData= { reqID: 'bc9059ad-278c-4a28-a0c4-b38c0f0f8fc9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:26:59.630Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:26:59.972Z - info: Api response : Success logData= { reqID: 'c0a28ebd-85a0-4736-a873-fea9f9838fcf',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:26:59.972Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:27:00.343Z - info: Api response : Success logData= { reqID: 'bc9059ad-278c-4a28-a0c4-b38c0f0f8fc9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:27:00.343Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:27:01.087Z - info: Api Request logData= { reqID: 'd0553ab8-99f6-4b5e-a674-e23d96b3616d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:27:01.087Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:27:01.960Z - info: Api response : Success logData= { reqID: 'd0553ab8-99f6-4b5e-a674-e23d96b3616d',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:27:01.960Z' } class=service/BaseService.js, pid=29618, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:28:16.042Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29655, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:28:16.047Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29655, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:28:51.301Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:28:51.306Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:29:52.224Z - info: Api Request logData= { reqID: '003adf5f-0a2a-4b1a-aa5e-b705684f19eb',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:29:52.223Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:29:52.876Z - info: Api response : Success logData= { reqID: '003adf5f-0a2a-4b1a-aa5e-b705684f19eb',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:29:52.876Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:29:52.877Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVk9IR1QxYmJQMmp2QWRVemxkcnBheTJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.FAPdRMZToxkAOt3aSC1WlHR1IckQypffqF016C9i8Uc' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:29:52.877Z - info: Api Request logData= { reqID: '5e03cf36-14ed-45b4-8266-7581fba31f61',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:29:52.877Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:29:53.475Z - info: Api response : Success logData= { reqID: '5e03cf36-14ed-45b4-8266-7581fba31f61',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:29:53.474Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:29:54.078Z - info: Api Request logData= { reqID: '0e008a97-cda6-48e7-86be-bc5b96439ed9',
+  endpoint: '/api/v1/property-listings/2628596',
+  method: 'get',
+  requestetime: '2019-11-13T07:29:54.078Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:29:55.028Z - info: Api response : Success logData= { reqID: '0e008a97-cda6-48e7-86be-bc5b96439ed9',
+  endpoint: '/api/v1/property-listings/2628596',
+  method: 'get',
+  responsetime: '2019-11-13T07:29:55.028Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:30:02.606Z - info: Api Request logData= { reqID: 'ddc7302d-213c-4da3-8a58-c5c679891cec',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  requestetime: '2019-11-13T07:30:02.605Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:30:03.523Z - info: Api response : Success logData= { reqID: 'ddc7302d-213c-4da3-8a58-c5c679891cec',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  responsetime: '2019-11-13T07:30:03.523Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:13.699Z - info: Api Request logData= { reqID: '1e26de1f-aff9-4169-a7ea-8ae10b00bc60',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:31:13.698Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:14.349Z - info: Api response : Success logData= { reqID: '1e26de1f-aff9-4169-a7ea-8ae10b00bc60',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:31:14.349Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:14.349Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkNQYThQRDRtczdBUm5Rbzd2Umc2MzJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.IHcp71ReJIDgdk03aOA1jpS--6CntG-00-owrOVo6UY' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:31:14.349Z - info: Api Request logData= { reqID: '7bf308b3-c13a-4a95-b1eb-58ae22c90d56',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:31:14.349Z' } class=service/BaseService.js, pid=29669, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:16.078Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T07:31:16.084Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T07:31:16.599Z - info: Api Request logData= { reqID: 'daafecbb-c09e-4be2-92f7-f5883bb3c742',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:31:16.598Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:17.255Z - info: Api response : Success logData= { reqID: 'daafecbb-c09e-4be2-92f7-f5883bb3c742',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:31:17.255Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:17.256Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkthcWhCWW01ZW5SZ1dXRGV3cHozbkdOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.SeJ-3Kgj5faA5afGt1ArosaNjGfelH5i9u0vLEqIXkA' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:31:17.257Z - info: Api Request logData= { reqID: '738b904a-1593-4bf8-a7ec-393a35b5c0af',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:31:17.257Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:17.870Z - info: Api response : Success logData= { reqID: '738b904a-1593-4bf8-a7ec-393a35b5c0af',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:31:17.870Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:17.881Z - info: Api Request logData= { reqID: 'd5ff5274-9ceb-457c-92d2-bbc6a0eb0753',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  requestetime: '2019-11-13T07:31:17.881Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:31:18.799Z - info: Api response : Success logData= { reqID: 'd5ff5274-9ceb-457c-92d2-bbc6a0eb0753',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  responsetime: '2019-11-13T07:31:18.798Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:33:58.136Z - info: Api Request logData= { reqID: '002cd6b1-026d-47f5-8664-96349a4d1005',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T07:33:58.136Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:33:58.746Z - info: Api response : Success logData= { reqID: '002cd6b1-026d-47f5-8664-96349a4d1005',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T07:33:58.746Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:33:58.747Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVmxYbmhYRmVCV0xTNU96YWZPUVRWTDJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.BgzgiZEC0-IYthWOKMfkppJNfhRzPvFWltUWDRyurtw' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T07:33:58.747Z - info: Api Request logData= { reqID: 'a2ace7d1-a3c3-460e-bf7d-647e27d0863c',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T07:33:58.747Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:33:59.360Z - info: Api response : Success logData= { reqID: 'a2ace7d1-a3c3-460e-bf7d-647e27d0863c',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T07:33:59.360Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:33:59.365Z - info: Api Request logData= { reqID: 'a36cd65a-fe63-46a3-9a72-a510ccc65cf4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:33:59.365Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:34:00.286Z - info: Api response : Success logData= { reqID: 'a36cd65a-fe63-46a3-9a72-a510ccc65cf4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:34:00.286Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:34:01.448Z - info: Api Request logData= { reqID: '3e84f84e-11dd-423b-9723-6d077083eaa4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T07:34:01.448Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:34:02.332Z - info: Api response : Success logData= { reqID: '3e84f84e-11dd-423b-9723-6d077083eaa4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T07:34:02.331Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:55:51.007Z - info: Api Request logData= { reqID: '5be81801-9e0a-4b79-9a4e-d2f5c35a6ac0',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T07:55:51.007Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T07:55:51.744Z - info: Api response : Success logData= { reqID: '5be81801-9e0a-4b79-9a4e-d2f5c35a6ac0',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T07:55:51.744Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:11:10.792Z - info: Api Request logData= { reqID: 'c5f60dfe-f263-4f18-9ba0-58cb7407dad7',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T11:11:10.792Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:11:11.442Z - info: Api response : Success logData= { reqID: 'c5f60dfe-f263-4f18-9ba0-58cb7407dad7',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T11:11:11.442Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:11:11.443Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVjg5SUpERHlKTW5DdlBLcUVzeEx3U0dOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.ssQie42Ujrw7cY4XrnLjSCzsFVAgxdb46W5gllz4RNI' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T11:11:11.443Z - info: Api Request logData= { reqID: '5ca184ea-e1ab-4445-be62-1f689ed88685',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T11:11:11.443Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:11:12.065Z - info: Api response : Success logData= { reqID: '5ca184ea-e1ab-4445-be62-1f689ed88685',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T11:11:12.065Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:11:12.069Z - info: Api Request logData= { reqID: '2bd02b6f-68c9-4c81-8cd6-264e76cb5525',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  requestetime: '2019-11-13T11:11:12.069Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:11:13.034Z - info: Api response : Success logData= { reqID: '2bd02b6f-68c9-4c81-8cd6-264e76cb5525',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  responsetime: '2019-11-13T11:11:13.034Z' } class=service/BaseService.js, pid=29706, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:15:39.091Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=30929, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:15:39.096Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=30929, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:15:53.087Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=30938, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:15:53.097Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=30938, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:16:11.844Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=30947, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:16:11.849Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=30947, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:16:41.996Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=30962, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:16:42.004Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=30962, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:16:52.646Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:16:52.651Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:16:55.012Z - info: Api Request logData= { reqID: '97abbc56-85ea-46e6-8b5b-d26f2fb6ebf1',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-11-13T11:16:55.011Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:55.686Z - info: Api response : Success logData= { reqID: '97abbc56-85ea-46e6-8b5b-d26f2fb6ebf1',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-11-13T11:16:55.686Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:55.688Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVng1OXR0YXlSVXlsYklLWHovNDJBR0dOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.RuJ07WfI0R2sC5D7AW36hRWf5xD6TtboygZ-43PWjhM' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.outh
+2019-11-13T11:16:55.688Z - info: Api Request logData= { reqID: '903b309d-6667-4edc-b8a7-501e2b174f5b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-11-13T11:16:55.688Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:56.288Z - info: Api response : Success logData= { reqID: '903b309d-6667-4edc-b8a7-501e2b174f5b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-11-13T11:16:56.288Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:56.301Z - info: Api Request logData= { reqID: '7a4f70d7-cb3a-4ef6-ae67-6c63a59fce5c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:16:56.301Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:57.108Z - info: Api response : Success logData= { reqID: '7a4f70d7-cb3a-4ef6-ae67-6c63a59fce5c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:16:57.108Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:57.505Z - info: Api Request logData= { reqID: '60548e78-0443-4070-abe4-b6d6b49e2b3b',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  requestetime: '2019-11-13T11:16:57.504Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:58.270Z - info: Api response : Success logData= { reqID: '60548e78-0443-4070-abe4-b6d6b49e2b3b',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  responsetime: '2019-11-13T11:16:58.270Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:58.341Z - info: Api Request logData= { reqID: '32f3f61b-78ce-42fd-a083-b1d3a4c55b6c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:16:58.341Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:16:58.991Z - info: Api response : Success logData= { reqID: '32f3f61b-78ce-42fd-a083-b1d3a4c55b6c',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:16:58.991Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:18:57.127Z - info: Api Request logData= { reqID: '2708be95-6043-43d0-a3a7-9a34c80553ef',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  requestetime: '2019-11-13T11:18:57.127Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:18:57.946Z - info: Api response : Success logData= { reqID: '2708be95-6043-43d0-a3a7-9a34c80553ef',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  responsetime: '2019-11-13T11:18:57.946Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:21:43.030Z - info: Api Request logData= { reqID: 'c175df3e-14b2-47b4-9d5e-03173549ab00',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  requestetime: '2019-11-13T11:21:43.029Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:21:43.943Z - info: Api response : Success logData= { reqID: 'c175df3e-14b2-47b4-9d5e-03173549ab00',
+  endpoint: '/api/v1/property-listings/2862479',
+  method: 'get',
+  responsetime: '2019-11-13T11:21:43.943Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:21:53.521Z - info: Api Request logData= { reqID: '398b37e4-ec1a-4ad3-8e81-c9fe4a37f41f',
+  endpoint: '/api/v1/property-listings/2806795',
+  method: 'get',
+  requestetime: '2019-11-13T11:21:53.521Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:21:54.238Z - info: Api response : Success logData= { reqID: '398b37e4-ec1a-4ad3-8e81-c9fe4a37f41f',
+  endpoint: '/api/v1/property-listings/2806795',
+  method: 'get',
+  responsetime: '2019-11-13T11:21:54.238Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:22:02.713Z - info: Api Request logData= { reqID: '8a1dd8a9-bcc5-4d32-892e-11651f38e7ce',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T11:22:02.713Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:22:03.606Z - info: Api response : Success logData= { reqID: '8a1dd8a9-bcc5-4d32-892e-11651f38e7ce',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T11:22:03.606Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:22:04.944Z - info: Api Request logData= { reqID: 'f477516a-e3a5-453a-85c2-20a98579e0a3',
+  endpoint: '/api/v1/property-listings/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:22:04.944Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:22:05.465Z - info: Api response : Success logData= { reqID: 'f477516a-e3a5-453a-85c2-20a98579e0a3',
+  endpoint: '/api/v1/property-listings/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:22:05.465Z' } class=service/BaseService.js, pid=30970, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:25:38.195Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31097, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:25:38.200Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31097, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:27:27.244Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31128, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:27:27.248Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31128, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:27:36.713Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:27:36.718Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:27:36.919Z - info: Api Request logData= { reqID: 'bad5a7e0-6e10-48ce-acf2-88cdd99c26bc',
+  endpoint: '/api/v1/property-listings/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:27:36.918Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:27:37.854Z - info: Api response : Success logData= { reqID: 'bad5a7e0-6e10-48ce-acf2-88cdd99c26bc',
+  endpoint: '/api/v1/property-listings/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:27:37.854Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:29:42.427Z - info: Api Request logData= { reqID: '9fd4b3c8-2441-435b-9dc1-f5d3d0e1c9d1',
+  endpoint: '/api/v1/property-listings/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:29:42.427Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:29:43.298Z - info: Api response : Success logData= { reqID: '9fd4b3c8-2441-435b-9dc1-f5d3d0e1c9d1',
+  endpoint: '/api/v1/property-listings/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:29:43.298Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:29:44.203Z - info: Api Request logData= { reqID: '139e42cd-3e18-4698-a9bc-88637b007312',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:29:44.203Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:29:45.042Z - info: Api response : Success logData= { reqID: '139e42cd-3e18-4698-a9bc-88637b007312',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:29:45.042Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:29:45.465Z - info: Api Request logData= { reqID: '851107a7-3085-4a2f-990a-d8a1a0394cf5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:29:45.464Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:29:46.269Z - info: Api response : Success logData= { reqID: '851107a7-3085-4a2f-990a-d8a1a0394cf5',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:29:46.269Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:31:28.748Z - info: Api Request logData= { reqID: '5d43814b-768e-4ed2-b41f-832254a93fc4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:31:28.748Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:31:29.457Z - info: Api response : Success logData= { reqID: '5d43814b-768e-4ed2-b41f-832254a93fc4',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:31:29.456Z' } class=service/BaseService.js, pid=31134, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:31:31.498Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:31:31.503Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:31:32.400Z - info: Api Request logData= { reqID: '1408564b-cc30-4573-8260-69edaafd405e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:31:32.399Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:31:33.181Z - info: Api response : Success logData= { reqID: '1408564b-cc30-4573-8260-69edaafd405e',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:31:33.181Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:31:34.194Z - info: Api Request logData= { reqID: '7f4b8418-6e8d-44cf-a55c-33d01267a402',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:31:34.194Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:31:34.924Z - info: Api response : Success logData= { reqID: '7f4b8418-6e8d-44cf-a55c-33d01267a402',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:31:34.923Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:01.662Z - info: Api Request logData= { reqID: 'e698250d-2a2a-4250-9624-8b181138c2b5',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T11:32:01.662Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:02.494Z - info: Api response : Success logData= { reqID: 'e698250d-2a2a-4250-9624-8b181138c2b5',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T11:32:02.494Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:37.746Z - info: Api Request logData= { reqID: '967a59a8-f863-4e7c-b888-9ae4293907b8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T11:32:37.746Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:38.491Z - info: Api response : Success logData= { reqID: '967a59a8-f863-4e7c-b888-9ae4293907b8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T11:32:38.491Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:39.833Z - info: Api Request logData= { reqID: 'd7ad14f9-1d34-47ce-81f6-2695b0cd0e31',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:32:39.833Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:40.665Z - info: Api response : Success logData= { reqID: 'd7ad14f9-1d34-47ce-81f6-2695b0cd0e31',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:32:40.665Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:41.280Z - info: Api Request logData= { reqID: '669d7499-55e1-4c07-9a5f-267b56185bb9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:32:41.280Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:32:42.124Z - info: Api response : Success logData= { reqID: '669d7499-55e1-4c07-9a5f-267b56185bb9',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:32:42.124Z' } class=service/BaseService.js, pid=31197, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:33:17.678Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T11:33:17.683Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T11:33:22.024Z - info: Api Request logData= { reqID: '7d5beb38-612d-4ead-bbf2-dbf164eba8bf',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:33:22.024Z' } class=service/BaseService.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:33:22.856Z - info: Api response : Success logData= { reqID: '7d5beb38-612d-4ead-bbf2-dbf164eba8bf',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:33:22.856Z' } class=service/BaseService.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:33:23.604Z - info: Api Request logData= { reqID: 'd545893b-7961-4041-8b1f-07e13a56fa5b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  requestetime: '2019-11-13T11:33:23.604Z' } class=service/BaseService.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:33:24.264Z - info: Api response : Success logData= { reqID: 'd545893b-7961-4041-8b1f-07e13a56fa5b',
+  endpoint: '/api/v1/gateway/analyze-returns/property-listing/1455826',
+  method: 'get',
+  responsetime: '2019-11-13T11:33:24.264Z' } class=service/BaseService.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:38:46.998Z - info: Api Request logData= { reqID: '3a355b71-84fa-4f03-ab4c-1744b0993ff4',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T11:38:46.998Z' } class=service/BaseService.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T11:38:47.746Z - info: Api response : Success logData= { reqID: '3a355b71-84fa-4f03-ab4c-1744b0993ff4',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T11:38:47.745Z' } class=service/BaseService.js, pid=31231, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T12:02:34.239Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31568, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T12:02:34.244Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31568, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T12:03:10.095Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31583, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T12:03:10.100Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31583, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T12:03:22.734Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31594, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T12:03:22.741Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31594, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T12:03:24.051Z - info: Api Request logData= { reqID: '2f0de97c-c77c-4385-a197-55d69f5a7c2b',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  requestetime: '2019-11-13T12:03:24.050Z' } class=service/BaseService.js, pid=31594, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T12:03:24.790Z - info: Api response : Success logData= { reqID: '2f0de97c-c77c-4385-a197-55d69f5a7c2b',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  responsetime: '2019-11-13T12:03:24.789Z' } class=service/BaseService.js, pid=31594, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T12:03:47.862Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31610, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T12:03:47.867Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31610, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T12:07:44.734Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31671, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T12:07:44.739Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31671, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T12:08:16.685Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=31684, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2019-11-13T12:08:16.691Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=31684, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2019-11-13T12:20:51.021Z - info: Api Request logData= { reqID: '037ca650-c8e0-4d13-90e0-4b12c7fa6dfb',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-11-13T12:20:51.020Z' } class=service/BaseService.js, pid=31684, host=Maheshs-MacBook-Pro-2.local, category=api.server
+2019-11-13T12:20:51.855Z - info: Api response : Success logData= { reqID: '037ca650-c8e0-4d13-90e0-4b12c7fa6dfb',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-11-13T12:20:51.854Z' } class=service/BaseService.js, pid=31684, host=Maheshs-MacBook-Pro-2.local, category=api.server

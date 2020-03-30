@@ -1,0 +1,37 @@
+.schema__list-tabs {
+
+	&__read-content {
+		.schema__radio__short>.schema__value--edit .schema__radio__group {
+			width: auto;
+		}
+
+		.schema__radio>.schema__value--edit label {
+			border: none !important;
+		}
+
+		.schema__radio__group {
+			border-bottom: 2px solid @color-base-primary-green;
+		}
+		.schema__radio__item {
+			width: 130px;
+			margin-right: 2px;
+		}
+
+		& >.schema__label {
+			margin-bottom: 0;
+			.schema__radio__item input:checked+label:after {
+				display: none !important;
+			}
+
+			.schema__radio__item input:checked+label{
+				background-color : @color-base-primary-green;
+			}
+		}
+
+		& >.schema__value {
+
+		}
+
+	}
+
+}

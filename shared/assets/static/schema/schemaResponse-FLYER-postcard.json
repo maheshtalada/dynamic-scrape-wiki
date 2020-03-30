@@ -1,0 +1,191 @@
+{
+    "document": {
+        "author": "Propshub Inc",
+        "subject": "listing title test",
+        "title": "listing title test"
+    },
+    "pages": [
+        {
+            "type": "page",
+            "children": [
+                {
+                    "type": "page-body",
+                    "children": [
+                        {
+                            "type": "hero-image",
+                            "data": {
+                                "value": "propshub/841973/bdf7aa3d345f4ac29a2152eb87314439.jpg"
+                            }
+                        },
+                        {
+                            "type": "multi-column",
+                            "children": [
+                                {
+                                    "type": "hero-left-rail",
+                                    "children": [
+                                        {
+                                            "type": "hero-price-tag",
+                                            "children": [
+                                                {
+                                                    "type": "content-text-value",
+                                                    "data": {
+                                                        "value": "123456",
+                                                        "configOptions": {
+                                                            "handler": "formatCurrency",
+                                                            "localeCode": "US"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "bed-bath",
+                                            "children": [
+                                                {
+                                                    "type": "content-text-value",
+                                                    "data": {
+                                                        "value": 2,
+                                                        "configOptions": {
+                                                            "postFix": "Bed "
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "content-text-value",
+                                                    "data": {
+                                                        "value": 2,
+                                                        "configOptions": {
+                                                            "postFix": "Bath"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "content-text-value",
+                                            "data": {
+                                                "value": "Single Family Home"
+                                            },
+                                            "translationRequired": true
+                                        },
+                                        {
+                                            "type": "content-text-value",
+                                            "data": {
+                                                "value": "1234",
+                                                "configOptions": {
+                                                    "handler": "formatNumber",
+                                                    "postFix": "Sq Ft"
+                                                }
+                                            },
+                                            "translationRequired": true
+                                        },
+                                        {
+                                            "type": "property-highlights",
+                                            "children": [
+                                                {
+                                                    "type": "content-text-value-list",
+                                                    "data": {
+                                                        "value": [
+                                                            "1 mi to Graduate School USA (School)",
+                                                            "2 mi to Landmark's Magnolia Theatre (Movie Theater)",
+                                                            "2 mi to West Village (Shopping Mall)",
+                                                            "1 mi to Baylor University Medical Center (Hospital)",
+                                                            "1 mi to Dealey Plaza (Park)"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "hero-main-rail",
+                                    "children": [
+                                        {
+                                            "label": "listing title test",
+                                            "type": "header",
+                                            "data": {
+                                                "value": "listing summary test"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "label": "LISTINGOVERVIEW",
+                            "type": "section",
+                            "children": [
+                                {
+                                    "label": "Sale Information",
+                                    "type": "styled-list",
+                                    "children": [
+                                        {
+                                            "label": "Price",
+                                            "type": "content-text-value",
+                                            "data": {
+                                                "value": "123456",
+                                                "configOptions": {
+                                                    "handler": "formatCurrency",
+                                                    "localeCode": "US"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "Property Information",
+                                    "type": "styled-list",
+                                    "children": [
+                                        {
+                                            "label": "Property Name",
+                                            "type": "content-text-value",
+                                            "data": {
+                                                "value": "2012, Commerce Street"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "Unit Information",
+                                    "type": "styled-list",
+                                    "children": [
+                                        {
+                                            "label": "Bedrooms",
+                                            "type": "content-text-value",
+                                            "data": {
+                                                "value": 2
+                                            }
+                                        },
+                                        {
+                                            "label": "Bathrooms",
+                                            "type": "content-text-value",
+                                            "data": {
+                                                "value": 2
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "order": 1
+        }
+    ],
+    "header": {
+        "listingUrl": "/residential-investments/for-sale/texas/dallas/tx-75201/single-family-home/property-listings/841973",
+        "title": "2012, Commerce Street, Dallas, TX-75201"
+    },
+    "footer": {
+        "realtor": {
+            "siteurl": "/real-estate-agents-brokers/texas/fort-worth-dallas/residential-investments/test-realtor/realtor/39771",
+            "name": "test realtor",
+            "photo": "propshub/39771/thumbnail/fc263dfb849d4dbe8337ebb95220af89.png",
+            "email": "testrealtor@yopmail.com"
+        },
+        "subTitle": "listing title test",
+        "listingUrl": "/residential-investments/for-sale/texas/dallas/tx-75201/single-family-home/property-listings/841973"
+    }
+}

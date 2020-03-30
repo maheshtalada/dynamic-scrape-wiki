@@ -1,0 +1,1138 @@
+{
+  "owner": {
+    "id": "7214",
+    "creationDate": 1511416642305,
+    "name": "Larry Colgrove",
+    "roles": [
+      "ROLE_REALTOR"
+    ],
+    "currentUserStatus": "AUTOREGISTERED",
+    "allowedContactActions": [
+      "EMAIL",
+      "TELEPHONE"
+    ],
+    "areasServed": [
+      {
+        "googleText": "Gordon",
+        "cityName": "Gordon",
+        "region": "Palo Pinto",
+        "locality": "Gordon",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.6327601,
+          "lon": -98.28290059999999
+        }
+      },
+      {
+        "googleText": "ARLINGTON",
+        "cityName": "Arlington",
+        "region": "Tarrant",
+        "locality": "ARLINGTON",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.7287238,
+          "lon": -97.09386289999999
+        }
+      },
+      {
+        "googleText": "MEADOWCREEK",
+        "cityName": "Fort Worth",
+        "region": "Tarrant",
+        "locality": "MEADOWCREEK",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.6095309,
+          "lon": -97.36861859999999
+        }
+      },
+      {
+        "googleText": "N RICHLAND HILLS-NORTH OF 820",
+        "cityName": "North Richland Hills",
+        "region": "Tarrant",
+        "locality": "N RICHLAND HILLS-NORTH OF 820",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.8633515,
+          "lon": -97.2333677
+        }
+      },
+      {
+        "googleText": "Dallas",
+        "cityName": "Dallas",
+        "region": "Dallas",
+        "locality": "Dallas",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.7592996,
+          "lon": -96.69006549999999
+        }
+      },
+      {
+        "googleText": "Little Elm",
+        "cityName": "Little Elm",
+        "region": "Denton",
+        "locality": "Little Elm",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 33.1689135,
+          "lon": -96.92788449999999
+        }
+      },
+      {
+        "googleText": "DUNCANVILLE",
+        "cityName": "Cedar Hill",
+        "region": "Dallas",
+        "locality": "DUNCANVILLE",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.6288442,
+          "lon": -96.9573382
+        }
+      },
+      {
+        "googleText": "DESOTO",
+        "cityName": "DeSoto",
+        "region": "Dallas",
+        "locality": "DESOTO",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.5859628,
+          "lon": -96.8708946
+        }
+      },
+      {
+        "googleText": "Seagoville",
+        "cityName": "Seagoville",
+        "region": "Dallas",
+        "locality": "Seagoville",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.65185750000001,
+          "lon": -96.537899
+        }
+      },
+      {
+        "googleText": "IRVING",
+        "cityName": "Irving",
+        "region": "Dallas",
+        "locality": "IRVING",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.8243164,
+          "lon": -97.00274639999999
+        }
+      },
+      {
+        "googleText": "SHERMAN",
+        "cityName": "Sherman",
+        "region": "Grayson",
+        "locality": "SHERMAN",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 33.6318024,
+          "lon": -96.5994688
+        }
+      },
+      {
+        "googleText": "ROCKWALL COUNTY",
+        "cityName": "Heath",
+        "region": "Rockwall",
+        "locality": "ROCKWALL COUNTY",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.8210882,
+          "lon": -96.494271
+        }
+      },
+      {
+        "googleText": "Denton and part of Corinth",
+        "cityName": "Denton",
+        "region": "Denton",
+        "locality": "Denton and part of Corinth",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 33.2395177,
+          "lon": -97.07987229999999
+        }
+      },
+      {
+        "googleText": "MESQUITE",
+        "cityName": "Mesquite",
+        "region": "Dallas",
+        "locality": "MESQUITE",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.796716,
+          "lon": -96.6426298
+        }
+      },
+      {
+        "googleText": "PLANO",
+        "cityName": "Plano",
+        "region": "Collin",
+        "locality": "PLANO",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 33.0511395,
+          "lon": -96.71522189999999
+        }
+      },
+      {
+        "googleText": "LANCASTER",
+        "cityName": "Lancaster",
+        "region": "Dallas",
+        "locality": "LANCASTER",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.6063016,
+          "lon": -96.798408
+        }
+      },
+      {
+        "googleText": "SACHSE/ROWLETT",
+        "cityName": "Sachse",
+        "region": "Dallas",
+        "locality": "SACHSE/ROWLETT",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.9753738,
+          "lon": -96.582155
+        }
+      }
+    ],
+    "websites": [
+      {
+        "websiteURLType": "SITEURL",
+        "url": "http://www.dealmakerrealestate.com"
+      }
+    ],
+    "profileURL": "/real-estate-agents-brokers/texas/gordon-arlington/residential-investments/larry-colgrove/realtor/7214",
+    "specialties": [
+      "RESIDENTIAL_INVESTMENTS"
+    ],
+    "companyID": "7213",
+    "canChat": false
+  },
+  "photoSchema": {
+    "schemas": [
+      {
+        "type": "list",
+        "children": [
+          {
+            "type": "custom-carousel",
+            "data": {
+              "medias": [
+                {
+                  "uri": "NTREIS/13842164/1?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/2?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/3?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/4?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/5?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/6?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/7?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/8?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/9?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                },
+                {
+                  "uri": "NTREIS/13842164/10?lm=20180609T005458",
+                  "primary": false,
+                  "removeFromStorage": false
+                }
+              ],
+              "mediaType": "photos"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "externalLinkSchema": {
+    "schemas": [
+      {
+        "type": "list",
+        "children": [
+          {
+            "type": "custom-external-links",
+            "data": {
+              "medias": [
+                {
+                  "title": "Virtual Tour",
+                  "uri": "https://www.propertypanorama.com/instaview/ntreis/13842164",
+                  "primary": false,
+                  "removeFromStorage": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "detailSchema": {
+    "schemas": [
+      {
+        "type": "list",
+        "children": [
+          {
+            "type": "card-large",
+            "children": [
+              {
+                "label": "DETAILS",
+                "type": "header",
+                "children": [
+                  {
+                    "label": "TITLE",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "RES-Single Family, Traditional - Dallas, TX"
+                    }
+                  },
+                  {
+                    "label": "SUMMARY",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "Comfortable starter home with large back yard.  Several updates about 5 years ago including roof and attic insulation.   Sale is as-is."
+                    }
+                  },
+                  {
+                    "label": "LOCATIONDIRECTION",
+                    "type": "content-grid",
+                    "data": {
+                      "value": "From Lake June Rd, go north on N Masters Dr, right on Oak Gate Ln"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "groupName": "about-card"
+      },
+      {
+        "type": "list",
+        "children": [
+          {
+            "type": "card-wrapper",
+            "children": [
+              {
+                "type": "card",
+                "children": [
+                  {
+                    "label": "PROPERTYCOLLAPSIBLE",
+                    "type": "header",
+                    "children": [
+                      {
+                        "label": "PROPERTYSUBTYPE",
+                        "type": "content-grid",
+                        "data": {
+                          "value": "SINGLE_FAMILY_HOME",
+                          "configOptions": {
+                            "translationRequired": true
+                          }
+                        }
+                      },
+                      {
+                        "label": "PRIMARYIDENTIFIER",
+                        "type": "content-grid",
+                        "data": {
+                          "value": "00672100070140000"
+                        }
+                      },
+                      {
+                        "label": "NUMBEROFPARKINGLOTS",
+                        "type": "content-grid",
+                        "data": {
+                          "value": 1
+                        }
+                      },
+                      {
+                        "label": "PARKINGTYPES",
+                        "type": "content-grid",
+                        "data": {
+                          "value": [
+                            "Garage - Attached"
+                          ],
+                          "configOptions": {
+                            "handler": "flattenWithOutTranslations"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "card",
+                "children": [
+                  {
+                    "label": "SELECTEDBUILDINGCOLLAPSIBLE",
+                    "type": "header",
+                    "children": [
+                      {
+                        "label": "CONSTRUCTIONSTATUS",
+                        "type": "content-grid",
+                        "data": {
+                          "value": "EXISTING",
+                          "configOptions": {
+                            "translationRequired": true
+                          }
+                        }
+                      },
+                      {
+                        "label": "YEARBUILT",
+                        "type": "content-grid",
+                        "data": {
+                          "value": 1982
+                        }
+                      },
+                      {
+                        "label": "NUMBEROFSTORIES",
+                        "type": "content-grid",
+                        "data": {
+                          "value": 1
+                        }
+                      },
+                      {
+                        "label": "LOTAREA",
+                        "type": "content-grid",
+                        "data": {
+                          "value": "0.18",
+                          "configOptions": {
+                            "handler": "formatNumber",
+                            "postFix": "ACRE"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "card",
+                "children": [
+                  {
+                    "label": "SELECTEDBUILDINGUNITCOLLAPSIBLE",
+                    "type": "header",
+                    "children": [
+                      {
+                        "label": "BEDROOM",
+                        "type": "content-grid",
+                        "data": {
+                          "value": 3
+                        }
+                      },
+                      {
+                        "label": "FULLBATHROOM",
+                        "type": "content-grid",
+                        "data": {
+                          "value": 2
+                        }
+                      },
+                      {
+                        "label": "PATIO",
+                        "type": "content-grid",
+                        "data": {
+                          "value": 1
+                        }
+                      },
+                      {
+                        "label": "PORCH",
+                        "type": "content-grid",
+                        "data": {
+                          "value": 1
+                        }
+                      },
+                      {
+                        "label": "FIXTURES",
+                        "type": "content-grid",
+                        "data": {
+                          "value": [
+                            "Dishwasher",
+                            "Oven"
+                          ],
+                          "configOptions": {
+                            "handler": "flattenWithOutTranslations"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "card",
+                "children": [
+                  {
+                    "label": "APARTMENTDETAILSCOLLAPSIBLE",
+                    "type": "header",
+                    "children": [
+                      {
+                        "type": "content-text-list",
+                        "data": {
+                          "value": [
+                            "Cooling System(s) : Central A/C",
+                            "Exterior Type(s) : Brick",
+                            "Heating System(s) : Central Furnace",
+                            "Floor Type(s) : Carpet",
+                            "Roof Type(s) : Composition Shingle",
+                            "Valuted Ceiling"
+                          ]
+                        }
+                      },
+                      {
+                        "type": "content-text-list",
+                        "data": {
+                          "value": [
+                            "Architecture Style : New Traditional"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "groupName": "about-card-wrapper"
+      }
+    ]
+  },
+  "propertyListing": {
+    "id": "548576",
+    "createdByUserId": "7214",
+    "creationDate": 1528502837706,
+    "ownedByUserId": "7214",
+    "title": "RES-Single Family, Traditional - Dallas, TX",
+    "listingArea": 1110,
+    "listingAreaUOM": "SQFT",
+    "type": "FORSALE",
+    "saleType": "BYAGENT",
+    "selfOwned": false,
+    "allowedContactActions": [
+      "EMAIL",
+      "TELEPHONE",
+      "CHAT"
+    ],
+    "propertyID": "548577",
+    "property": {
+      "id": "548577",
+      "createdByUserId": "7214",
+      "creationDate": 1528502837704,
+      "name": "10627 Oak Gate Lane",
+      "address": {
+        "lineOne": "10627 Oak Gate Lane",
+        "region": "Dallas",
+        "locality": "SOUTHEAST DALLAS",
+        "city": "Dallas",
+        "stateCode": "TX",
+        "zipCode": "75217",
+        "country": "US",
+        "geometry": {
+          "lat": 32.7426306,
+          "lon": -96.6409611
+        },
+        "subdivision": "Heritage Place",
+        "neighbourhood": "Southeast Dallas",
+        "tractCode": "011900",
+        "blockGroupCode": "6",
+        "countyAnsiCode": "113"
+      },
+      "formattedAddress": "10627 Oak Gate Lane, Dallas, TX-75217",
+      "type": "RESIDENTIAL",
+      "subType": "SINGLE_FAMILY_HOME",
+      "primaryIdentifier": "00672100070140000",
+      "highlights": [
+        "Architecture Style : New Traditional"
+      ],
+      "building": {
+        "numberOfStories": 1,
+        "constructionStatus": "EXISTING",
+        "yearBuilt": 1982,
+        "specifications": [
+          "Cooling System(s) : Central A/C",
+          "Exterior Type(s) : Brick",
+          "Heating System(s) : Central Furnace",
+          "Floor Type(s) : Carpet",
+          "Roof Type(s) : Composition Shingle",
+          "Valuted Ceiling"
+        ],
+        "lotArea": 0.18,
+        "lotAreaUOM": "ACRE"
+      },
+      "propertyURL": "/commercial-properties/-dallas-tx-75217/residential/single-family-home/properties/548577",
+      "locationDirection": "From Lake June Rd, go north on N Masters Dr, right on Oak Gate Ln",
+      "numberOfParkingLots": 1,
+      "parkingTypes": [
+        "Garage - Attached"
+      ],
+      "schoolDistrict": "Dallas ISD",
+      "schools": [
+        {
+          "name": "Florence",
+          "lowestGradeLevel": "6",
+          "highestGradeLevel": "8"
+        },
+        {
+          "name": "Samuell",
+          "lowestGradeLevel": "9",
+          "highestGradeLevel": "12"
+        },
+        {
+          "name": "Runyon",
+          "lowestGradeLevel": "PK",
+          "highestGradeLevel": "5"
+        }
+      ]
+    },
+    "selectedUnit": {
+      "rooms": [
+        {
+          "roomType": "BEDROOM",
+          "numberOfRooms": 3
+        },
+        {
+          "roomType": "FULLBATHROOM",
+          "numberOfRooms": 2
+        },
+        {
+          "roomType": "PATIO",
+          "numberOfRooms": 1
+        },
+        {
+          "roomType": "PORCH",
+          "numberOfRooms": 1
+        }
+      ],
+      "numberOfBedRooms": 3,
+      "numberOfWashRooms": 2,
+      "fixtures": [
+        "Dishwasher",
+        "Oven"
+      ]
+    },
+    "status": "ACTIVE",
+    "salePrice": {
+      "askingPrice": 119000,
+      "disclosePrice": true,
+      "propertyFinancials": {
+        "calculatedCapRate": 5.95,
+        "predictedGrossRentRevenue": 1195
+      }
+    },
+    "listingURL": "/residential-investments/for-sale/texas/dallas/tx-75217/single-family-home/property-listings/548576",
+    "summary": "Comfortable starter home with large back yard.  Several updates about 5 years ago including roof and attic insulation.   Sale is as-is.",
+    "disclaimer": "Copyright © 2018 North Texas Real Estate Information Systems, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified.",
+    "legalDescription": "HERITAGE PLACE BLK 7/6721 LT 14 VOL88102/0084",
+    "interiorImages": [
+      {
+        "uri": "NTREIS/13842164/1?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/2?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/3?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/4?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/5?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/6?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/7?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/8?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/9?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      },
+      {
+        "uri": "NTREIS/13842164/10?lm=20180609T005458",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "externalLinks": [
+      {
+        "title": "Virtual Tour",
+        "uri": "https://www.propertypanorama.com/instaview/ntreis/13842164",
+        "primary": false,
+        "removeFromStorage": false
+      }
+    ],
+    "indexTime": 1528503037977,
+    "mlsListing": {
+      "mlsId": "NTREIS",
+      "mlsName": "North Texas Real Estate Information Systems, Inc.",
+      "mlsNumber": "13842164",
+      "listingKey": "3yd-NTREIS-13842164",
+      "listingUrl": "http://listings.listhub.net/pages/NTREIS/13842164/?channel=propshub",
+      "providerCategory": "Broker",
+      "providerName": "Dealmaker Realty",
+      "providerUrl": "http://www.ntreis.net",
+      "propertyType": "Residential",
+      "propertySubType": "Single Family Detached",
+      "lastModificationDate": 1531850261000,
+      "creationDate": null
+    },
+    "usageCategory": "RESIDENTIAL"
+  },
+  "medianPriceSchema": {
+    "schemas": [
+      {
+        "type": "list",
+        "children": [
+          {
+            "label": "WIDGETMEDIANPRICE",
+            "type": "card-wrapper",
+            "children": [
+              {
+                "label": "MEDIANSALEPRICEANALYSIS",
+                "type": "card",
+                "children": [
+                  {
+                    "id": "medianSaleSubdivisionAndSchoolDistrictPrice",
+                    "type": "chart",
+                    "data": {
+                      "graphType": "horizontal-bar",
+                      "chartID": "medianSaleSubdivisionAndSchoolDistrictPrice-chartid",
+                      "legendID": "medianSaleSubdivisionAndSchoolDistrictPrice-legendid",
+                      "dataset": {
+                        "labels": [
+                          "RESIDENTIAL",
+                          "SUBTYPEAREABEDROOM",
+                          "SUBTYPEBEDROOM",
+                          "CURRENTPROPERTY"
+                        ],
+                        "datasets": [
+                          {
+                            "label": "MEDIANSALESUBDIVISIONANDSCHOOLDISTRICTPRICESTATS",
+                            "data": [
+                              119900,
+                              119900,
+                              124450,
+                              119000
+                            ],
+                            "backgroundColor": "rgb(75, 192, 192)",
+                            "borderColor": "rgb(75, 192, 192)",
+                            "borderWidth": 1
+                          }
+                        ],
+                        "options": {
+                          "displayValue": true,
+                          "axisLabels": {},
+                          "configOptions": {
+                            "xAxes": {
+                              "handler": "formatCurrencyUnit",
+                              "handlerOptions": {
+                                "precisions": 1
+                              }
+                            },
+                            "dataLabels": {
+                              "handler": "formatCurrencyUnit",
+                              "handlerOptions": {
+                                "precisions": 1
+                              }
+                            }
+                          },
+                          "dataLabels": {
+                            "align": "center",
+                            "anchor": "center",
+                            "color": "#ffffff"
+                          },
+                          "tooltips": {
+                            "enabled": false
+                          }
+                        }
+                      }
+                    },
+                    "dataType": "chart"
+                  }
+                ]
+              },
+              {
+                "label": "MEDIANLEASEPRICEANALYSIS",
+                "type": "card",
+                "children": [
+                  {
+                    "id": "medianLeaseSubdivisionAndSchoolDistrictPrice",
+                    "type": "chart",
+                    "data": {
+                      "graphType": "horizontal-bar",
+                      "chartID": "medianLeaseSubdivisionAndSchoolDistrictPrice-chartid",
+                      "legendID": "medianLeaseSubdivisionAndSchoolDistrictPrice-legendid",
+                      "dataset": {
+                        "labels": [
+                          "RESIDENTIAL",
+                          "SUBTYPEAREABEDROOM",
+                          "SUBTYPEBEDROOM"
+                        ],
+                        "datasets": [
+                          {
+                            "label": "MEDIANLEASESUBDIVISIONANDSCHOOLDISTRICTPRICESTATS",
+                            "data": [
+                              1235,
+                              1195,
+                              1195
+                            ],
+                            "backgroundColor": "rgb(11,151,214)",
+                            "borderColor": "rgb(11,151,214)",
+                            "borderWidth": 1
+                          }
+                        ],
+                        "options": {
+                          "displayValue": true,
+                          "axisLabels": {},
+                          "configOptions": {
+                            "xAxes": {
+                              "handler": "formatCurrency"
+                            },
+                            "dataLabels": {
+                              "handler": "formatCurrency"
+                            }
+                          },
+                          "dataLabels": {
+                            "align": "center",
+                            "anchor": "center",
+                            "color": "#ffffff"
+                          },
+                          "tooltips": {
+                            "enabled": false
+                          }
+                        }
+                      }
+                    },
+                    "dataType": "chart"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tabs": [
+    "overview",
+    "details",
+    "map",
+    "streetView",
+    "similarProperties",
+    "medianPrice",
+    "demographics",
+    "schools"
+  ],
+  "standardDeviation": {
+    "min": 100000,
+    "max": 174900,
+    "avg": 119900,
+    "stdDeviation": 22149.91,
+    "stdDeviationUpperBound": 186349.72999999998,
+    "stdDeviationLowerBound": 53450.270000000004,
+    "modeLowerBound": 114980,
+    "modeUpperBound": 122470.01
+  },
+  "preferredProfessional": {
+    "total": 6,
+    "data": [
+      {
+        "id": "11442",
+        "name": "Kristopher Franks",
+        "photo": "propshub/11442/thumbnail/bc20428a682142869404a9a154d0b0a8.png",
+        "statecode": "tx",
+        "profileurl": "/real-estate-agents-brokers/texas/fort-worth-saginaw/residential-investments-property-management/kristopher-franks/realtor/11442",
+        "profession": "realtor",
+        "contactactions": [
+          "email",
+          "telephone"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "43039",
+        "name": "Real Realtor",
+        "statecode": "tx",
+        "profileurl": "/real-estate-agents-brokers/texas/dallas-fort-worth/residential-investments-property-management/real-realtor/realtor/43039",
+        "profession": "realtor",
+        "contactactions": [
+          "email",
+          "telephone",
+          "chat"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "46541",
+        "name": "test loan",
+        "statecode": "tx",
+        "profileurl": "/residential-investments/loan-officer/texas/dallas-fort-worth/test-loan/professional/46541",
+        "profession": "loan_officer",
+        "contactactions": [
+          "email",
+          "telephone",
+          "chat"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "46631",
+        "name": "test insurance agent",
+        "statecode": "tx",
+        "profileurl": "/residential-investments/insurance-agent/texas/dallas/test-insurance-agent/professional/46631",
+        "profession": "insurance_agent",
+        "contactactions": [
+          "email",
+          "chat"
+        ],
+        "canChat": false
+      }
+    ],
+    "totalpage": 2
+  },
+  "schoolSchema": {
+    "schemas": [
+      {
+        "type": "list",
+        "children": [
+          {
+            "type": "card-large",
+            "children": [
+              {
+                "label": "School District",
+                "labelPostfix": ":",
+                "type": "content",
+                "data": {
+                  "value": "Dallas Isd"
+                }
+              },
+              {
+                "id": "schools",
+                "type": "data-grid",
+                "data": {
+                  "dataset": {
+                    "labels": [
+                      "SCHOOLNAME",
+                      "ZIPCODE",
+                      "SCHOOLTYPE",
+                      "LOWESTGRADE",
+                      "HIGHESTGRADE",
+                      "WEBSITE"
+                    ],
+                    "datasets": [
+                      {
+                        "SCHOOLNAME": "John W Runyon El",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/runyon"
+                      },
+                      {
+                        "SCHOOLNAME": "W W Samuell H S",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "09",
+                        "HIGHESTGRADE": "12",
+                        "WEBSITE": "www.dallasisd.org/Page/1542"
+                      },
+                      {
+                        "SCHOOLNAME": "Fred F Florence Middle",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "06",
+                        "HIGHESTGRADE": "08",
+                        "WEBSITE": "www.dallasisd.org/florence"
+                      },
+                      {
+                        "SCHOOLNAME": "Pleasant Grove El",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/pleasantgrove"
+                      },
+                      {
+                        "SCHOOLNAME": "Balch Springs Middle",
+                        "ZIPCODE": "75180",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "06",
+                        "HIGHESTGRADE": "08",
+                        "WEBSITE": "www.dallasisd.org/balchsprings"
+                      },
+                      {
+                        "SCHOOLNAME": "Edward Titche El",
+                        "ZIPCODE": "75227",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/titche"
+                      },
+                      {
+                        "SCHOOLNAME": "William M Anderson El",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/domain/2125"
+                      },
+                      {
+                        "SCHOOLNAME": "C A Tatum Jr El",
+                        "ZIPCODE": "75227",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "KG",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/tatum"
+                      },
+                      {
+                        "SCHOOLNAME": "Annie Webb Blanton El",
+                        "ZIPCODE": "75227",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/blanton"
+                      },
+                      {
+                        "SCHOOLNAME": "Gilbert Cuellar Sr El",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/cuellar"
+                      },
+                      {
+                        "SCHOOLNAME": "Julius Dorsey El",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/Domain/504"
+                      },
+                      {
+                        "SCHOOLNAME": "John Q Adams El",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/jqadams"
+                      },
+                      {
+                        "SCHOOLNAME": "B H Macon El",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "PK",
+                        "HIGHESTGRADE": "05",
+                        "WEBSITE": "www.dallasisd.org/macon"
+                      },
+                      {
+                        "SCHOOLNAME": "Ann Richards Middle",
+                        "ZIPCODE": "75227",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "06",
+                        "HIGHESTGRADE": "08",
+                        "WEBSITE": "www.dallasisd.org/annrichards"
+                      },
+                      {
+                        "SCHOOLNAME": "H Grady Spruce H S",
+                        "ZIPCODE": "75217",
+                        "SCHOOLTYPE": "Regular School",
+                        "LOWESTGRADE": "09",
+                        "HIGHESTGRADE": "12",
+                        "WEBSITE": "www.dallasisd.org/spruce"
+                      }
+                    ]
+                  }
+                },
+                "dataType": "data-grid"
+              },
+              {
+                "label": "SOURCE",
+                "labelPostfix": ":",
+                "type": "card-footer",
+                "data": {
+                  "value": "WIDGETSCHOOLFOOTER"
+                },
+                "translationRequired": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "status": "success"
+}

@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	/*background-color: @color-base-core-grey-dark;*/
+	min-height: 100%;
+	height: 100%;
+	font-size: @font-size-base;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: hidden!important;
+	.print({
+		background-color: @color-base-white;
+	});
+
+}
+
+
+.no-scroll, .no-scroll body {
+	overflow: hidden;
+}
+
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: @color-base-primary-grey-dark;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	header,footer {
+		.print({
+			display: none;
+		})
+	}
+
+}
+
+main {
+	position: relative;
+}
+
+.js .hide--js {
+	display: none;
+}
+
+.no-js .hide--no-js {
+	display: none;
+}
+
+ html.lte8 body[style] {
+	font-size: none !important;
+}
+
+.lte8 main, body {
+
+	font-size: 1.4rem;
+}
+
+:focus {
+	.default-outline();
+}
+
+a {
+	color: @color-base-primary-grey-dark
+}
+
+a.link-color {
+	color: @blue;
+}
+
+a:hover {
+	cursor: pointer;
+	color: @color-base-primary-green;
+}
+
+a.no-underline {
+	text-decoration: none;
+}
+
+/*a, a:active, a:focus, button,button:active,button:focus {
+	outline: none;
+}*/

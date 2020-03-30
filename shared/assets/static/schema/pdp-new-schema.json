@@ -1,0 +1,975 @@
+{
+  "tabs": [
+    "overview",
+    "map",
+    "media",
+    "medianprice",
+    "schools",
+    "demographics"
+  ],
+  "owner": {
+    "id": "21549",
+    "creationDate": 1513680504573,
+    "name": "Scott A Jarson",
+    "roles": [
+      "ROLE_REALTOR"
+    ],
+    "currentUserStatus": "AUTOREGISTERED",
+    "allowedContactActions": [
+      "EMAIL",
+      "TELEPHONE"
+    ],
+    "areasServed": [
+      {
+        "googleText": "Phoenix",
+        "cityName": "Phoenix",
+        "region": "Maricopa",
+        "locality": "Phoenix",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.481878,
+          "lon": -112.069692
+        }
+      },
+      {
+        "googleText": "Scottsdale",
+        "cityName": "Scottsdale",
+        "region": "Maricopa",
+        "locality": "Scottsdale",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.795443,
+          "lon": -111.879526
+        }
+      },
+      {
+        "googleText": "Paradise Valley",
+        "cityName": "Paradise Valley",
+        "region": "Maricopa",
+        "locality": "Paradise Valley",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.580854,
+          "lon": -111.954643
+        }
+      },
+      {
+        "googleText": "Cave Creek",
+        "cityName": "Cave Creek",
+        "region": "Maricopa",
+        "locality": "Cave Creek",
+        "stateCode": "AZ",
+        "country": "US",
+        "geometry": {
+          "lat": 33.856533,
+          "lon": -111.97067
+        }
+      }
+    ],
+    "websites": [
+      {
+        "websiteURLType": "SITEURL",
+        "url": "http://www.azarchitecture.com"
+      }
+    ],
+    "companyID": "21547",
+    "profileURL": "/real-estate-agents-residential-investments/scott-a-jarson/realtor/21549",
+    "specialties": [
+      "RESIDENTIAL_INVESTMENTS"
+    ],
+    "canChat": false
+  },
+  "overviewSchema": {
+    "schemas": [{
+      "type": "list",
+      "children": [{
+        "type": "card-large",
+        "children": [{
+          "label": "ABOUT",
+          "type": "header",
+          "children": [{
+            "label": "TITLE",
+            "type": "content-grid",
+            "data": {
+              "value": "apartment for sale"
+            }
+          }, {
+            "label": "SUMMARY",
+            "type": "content-grid",
+            "data": {
+              "value": "Apartment for sale in high-rise close to downtown Dallas.\n"
+            }
+          }, {
+            "label": "AREA",
+            "type": "content-grid",
+            "data": {
+              "value": "1300",
+              "configOptions": {
+                "handler": "formatNumber",
+                "postFix": "SQFT"
+              }
+            }
+          }
+          ]
+        }
+        ]
+      }
+      ],
+      "groupName": "about-card"
+    }, {
+      "type": "list",
+      "children": [{
+        "type": "card-wrapper",
+        "children": [{
+          "type": "card",
+          "children": [{
+            "label": "FORSALEDETAILS",
+            "type": "header",
+            "children": [{
+              "label": "COMMISSIONSPLIT",
+              "type": "content-grid",
+              "data": {
+                "value": "2",
+                "configOptions": {
+                  "postFix": "%"
+                }
+              }
+            }, {
+              "label": "DISTRESSED",
+              "type": "content-grid",
+              "data": {
+                "value": false,
+                "configOptions": {
+                  "handler": "booleanToYesNo"
+                }
+              }
+            }, {
+              "label": "ONGROUNDLEASE",
+              "type": "content-grid",
+              "data": {
+                "value": false,
+                "configOptions": {
+                  "handler": "booleanToYesNo"
+                }
+              }
+            }, {
+              "label": "GROSSRENTREVENUE",
+              "type": "content-grid",
+              "data": {
+                "value": "2000",
+                "configOptions": {
+                  "handler": "formatCurrency",
+                  "localeCode": "US"
+                }
+              }
+            }, {
+              "label": "PROPERTYINSURANCE",
+              "type": "content-grid",
+              "data": {
+                "value": "400",
+                "configOptions": {
+                  "handler": "formatCurrency",
+                  "localeCode": "US"
+                }
+              }
+            }, {
+              "label": "PROPERTYTAXES",
+              "type": "content-grid",
+              "data": {
+                "value": "250",
+                "configOptions": {
+                  "handler": "formatCurrency",
+                  "localeCode": "US"
+                }
+              }
+            }, {
+              "label": "PROPERTYMAINTENANCE",
+              "type": "content-grid",
+              "data": {
+                "value": "50",
+                "configOptions": {
+                  "handler": "formatCurrency",
+                  "localeCode": "US"
+                }
+              }
+            }, {
+              "label": "OWNERASSOCIATIONFEE",
+              "type": "content-grid",
+              "data": {
+                "value": "25",
+                "configOptions": {
+                  "handler": "formatCurrency",
+                  "localeCode": "US"
+                }
+              }
+            }
+            ]
+          }
+          ]
+        }, {
+          "type": "card",
+          "children": [{
+            "label": "PROPERTYCOLLAPSIBLE",
+            "type": "header",
+            "children": [{
+              "label": "PROPERTYNAME",
+              "type": "content-grid",
+              "data": {
+                "value": "1810, Jackson Street"
+              }
+            }, {
+              "label": "PROPERTYTYPE",
+              "type": "content-grid",
+              "data": {
+                "value": "RESIDENTIAL",
+                "configOptions": {
+                  "translationRequired": true
+                }
+              }
+            }, {
+              "label": "PROPERTYSUBTYPE",
+              "type": "content-grid",
+              "data": {
+                "value": "SINGLE_FAMILY_HOME",
+                "configOptions": {
+                  "translationRequired": true
+                }
+              }
+            }, {
+              "label": "PRIMARYIDENTIFIER",
+              "type": "content-grid",
+              "data": {
+                "value": "DT1234-324-334"
+              }
+            }, {
+              "label": "LOCATIONDIRECTION",
+              "type": "content-grid",
+              "data": {
+                "value": "Take Mowry Avenue exit and head north. Take the 2nd left onto Central Avenue. Property is on the left"
+              }
+            }, {
+              "label": "NUMBEROFPARKINGLOTS",
+              "type": "content-grid",
+              "data": {
+                "value": 2
+              }
+            }, {
+              "label": "PARKINGTYPES",
+              "type": "content-grid",
+              "data": {
+                "value": [
+                  "covered"
+                ],
+                "configOptions": {
+                  "handler": "flattenWithOutTranslations"
+                }
+              }
+            }
+            ]
+          }
+          ]
+        }, {
+          "type": "card",
+          "children": [{
+            "label": "SELECTEDBUILDINGCOLLAPSIBLE",
+            "type": "header",
+            "children": [{
+              "label": "BUILDINGCLASS",
+              "type": "content-grid",
+              "data": {
+                "value": "B"
+              }
+            }, {
+              "label": "CONSTRUCTIONSTATUS",
+              "type": "content-grid",
+              "data": {
+                "value": "EXISTING",
+                "configOptions": {
+                  "translationRequired": true
+                }
+              }
+            }, {
+              "label": "YEARBUILT",
+              "type": "content-grid",
+              "data": {
+                "value": 2010
+              }
+            }, {
+              "label": "NUMBEROFSTORIES",
+              "type": "content-grid",
+              "data": {
+                "value": 10
+              }
+            }, {
+              "label": "NUMBEROFUNITS",
+              "type": "content-grid",
+              "data": {
+                "value": 5
+              }
+            }, {
+              "label": "NUMBEROFELEVATORS",
+              "type": "content-grid",
+              "data": {
+                "value": 2
+              }
+            }, {
+              "label": "LOTAREA",
+              "type": "content-grid",
+              "data": {
+                "value": "20000",
+                "configOptions": {
+                  "handler": "formatNumber",
+                  "postFix": "SQFT"
+                }
+              }
+            }
+            ]
+          }
+          ]
+        }, {
+          "type": "card",
+          "children": [{
+            "label": "SELECTEDBUILDINGUNITCOLLAPSIBLE",
+            "type": "header",
+            "children": [{
+              "label": "NUMBEROFROOMS",
+              "type": "content-grid",
+              "data": {
+                "value": 6
+              }
+            }, {
+              "label": "NUMBEROFBEDROOMS",
+              "type": "content-grid",
+              "data": {
+                "value": 3
+              }
+            }, {
+              "label": "NUMBEROFWASHROOMS",
+              "type": "content-grid",
+              "data": {
+                "value": 2
+              }
+            }, {
+              "label": "FLOORNUMBER",
+              "type": "content-grid",
+              "data": {
+                "value": 8
+              }
+            }, {
+              "label": "FURNISHEDSTATUS",
+              "type": "content-grid",
+              "data": {
+                "value": "SEMI_FURNISHED",
+                "configOptions": {
+                  "translationRequired": true
+                }
+              }
+            }, {
+              "label": "FIXTURES",
+              "type": "content-grid",
+              "data": {
+                "value": [
+                  "Central AC, bio metric access, security"
+                ],
+                "configOptions": {
+                  "handler": "flattenWithOutTranslations"
+                }
+              }
+            }
+            ]
+          }
+          ]
+        }, {
+          "type": "card",
+          "children": [{
+            "label": "BUILDINGROOMDETAILS",
+            "type": "header",
+            "children": [{
+              "label": "BEDROOM",
+              "type": "content-grid",
+              "data": {
+                "value": 3
+              }
+            }, {
+              "label": "KITCHEN",
+              "type": "content-grid",
+              "data": {
+                "value": 1
+              }
+            }, {
+              "label": "DININGROOM",
+              "type": "content-grid",
+              "data": {
+                "value": 1
+              }
+            }, {
+              "label": "LIVINGROOM",
+              "type": "content-grid",
+              "data": {
+                "value": 1
+              }
+            }, {
+              "label": "BATHROOM",
+              "type": "content-grid",
+              "data": {
+                "value": 2
+              }
+            }
+            ]
+          }
+          ]
+        }, {
+          "type": "card",
+          "children": [{
+            "label": "APARTMENTDETAILSCOLLAPSIBLE",
+            "type": "header",
+            "children": [{
+              "label": "AMENITIES",
+              "type": "content-grid",
+              "data": {
+                "value": [
+                  "CLUBHOUSE",
+                  "SWIMMINGPOOL",
+                  "GYM",
+                  "WIREDFORAUTOMATION"
+                ],
+                "configOptions": {
+                  "handler": "flattenWithTranslations",
+                  "localeCode": "US"
+                }
+              }
+            }, {
+              "label": "FEATURES",
+              "type": "content-grid",
+              "data": {
+                "value": [
+                  "Reception Area, Swimming pool, club house",
+                  "Covered car park"
+                ],
+                "configOptions": {
+                  "handler": "flattenWithOutTranslations"
+                }
+              }
+            }, {
+              "label": "HIGHLIGHTS",
+              "type": "content-grid",
+              "data": {
+                "value": [
+                  "1 mi to Graduate School USA (School)",
+                  "2 mi to The Magnolia Theatre (Movie theater)",
+                  "2 mi to West Village (Shopping mall)",
+                  "2 mi to Baylor University Medical Center (Hospital)",
+                  "1 mi to Dealey Plaza (Park)"
+                ],
+                "configOptions": {
+                  "handler": "flattenWithOutTranslations"
+                }
+              }
+            }
+            ]
+          }
+          ]
+        }, {
+          "type": "card",
+          "children": [{
+            "label": "LEGAL",
+            "type": "header",
+            "children": [{
+              "label": "DISCLAIMER",
+              "type": "content-grid",
+              "data": {
+                "value": "This is test data"
+              }
+            }
+            ]
+          }
+          ]
+        }
+        ]
+      }
+      ],
+      "groupName": "about-card-wrapper"
+    }
+    ]
+  },
+  "propertyListing": {
+    "id": "98874",
+    "createdByUserId": "14224",
+    "creationDate": 1513160573805,
+    "ownedByUserId": "14224",
+    "title": "apartment for sale",
+    "listingArea": 1300,
+    "listingAreaUOM": "SQFT",
+    "type": "FORSALE",
+    "saleType": "BYOWNER",
+    "selfOwned": false,
+    "allowedContactActions": [
+      "EMAIL",
+      "TELEPHONE",
+      "CHAT"
+    ],
+    "propertyID": "99554",
+    "property": {
+      "id": "99554",
+      "createdByUserId": "14224",
+      "creationDate": 1513228801664,
+      "name": "1810, Jackson Street",
+      "discloseAddress": true,
+      "address": {
+        "lineOne": "1810, Jackson Street",
+        "lineTwo": "",
+        "region": "Dallas County",
+        "locality": "Downtown",
+        "city": "Dallas",
+        "stateCode": "TX",
+        "zipCode": "75201",
+        "country": "US",
+        "geometry": {
+          "lat": 32.7795359,
+          "lon": -96.79556830000001
+        }
+      },
+      "formattedAddress": "1810, Jackson Street, Dallas, TX-75201",
+      "type": "RESIDENTIAL",
+      "subType": "SINGLE_FAMILY_HOME",
+      "primaryIdentifier": "DT1234-324-334",
+      "highlights": [
+        "1 mi to Graduate School USA (School)",
+        "2 mi to The Magnolia Theatre (Movie theater)",
+        "2 mi to West Village (Shopping mall)",
+        "2 mi to Baylor University Medical Center (Hospital)",
+        "1 mi to Dealey Plaza (Park)"
+      ],
+      "building": {
+        "numberOfStories": 10,
+        "numberOfUnits": 5,
+        "numberOfElevators": 2,
+        "constructionStatus": "EXISTING",
+        "yearBuilt": 2010,
+        "buildingClass": "B",
+        "onGroundLease": false,
+        "specifications": [
+          "Reception Area, Swimming pool, club house",
+          "Covered car park"
+        ],
+        "lotArea": 20000,
+        "lotAreaUOM": "SQFT"
+      },
+      "apartmentDetails": {
+        "utilities": [
+          "CLUBHOUSE",
+          "SWIMMINGPOOL",
+          "GYM",
+          "WIREDFORAUTOMATION"
+        ]
+      },
+      "propertyURL": "/commercial-properties-dallas-tx-75201/residential/singlefamilyhome/properties/99554",
+      "locationDirection": "Take Mowry Avenue exit and head north. Take the 2nd left onto Central Avenue. Property is on the left",
+      "numberOfParkingLots": 2,
+      "parkingTypes": [
+        "covered"
+      ]
+    },
+    "selectedUnit": {
+      "rooms": [{
+        "roomType": "BEDROOM",
+        "numberOfRooms": 3
+      }, {
+        "roomType": "KITCHEN",
+        "numberOfRooms": 1
+      }, {
+        "roomType": "DININGROOM",
+        "numberOfRooms": 1
+      }, {
+        "roomType": "LIVINGROOM",
+        "numberOfRooms": 1
+      }, {
+        "roomType": "BATHROOM",
+        "numberOfRooms": 2
+      }
+      ],
+      "numberOfBedRooms": 3,
+      "numberOfWashRooms": 2,
+      "numberOfRooms": 6,
+      "floorNumber": 8,
+      "furnishedStatus": "SEMI_FURNISHED",
+      "fixtures": [
+        "Central AC, bio metric access, security"
+      ],
+      "facingDirection": "NORTH"
+    },
+    "status": "ACTIVE",
+    "salePrice": {
+      "disclosePrice": false,
+      "propertyFinancials": {
+        "grossRentRevenue": 2000,
+        "propertyInsurance": 400,
+        "propertyTaxes": 250,
+        "propertyMaintenance": 50,
+        "ownerAssociationFee": 25
+      },
+      "commissionSplit": 2
+    },
+    "listingURL": "/residential/sale/single-family-home-dallas-tx-75201/property-listings/98874",
+    "endDate": "13/06/2018",
+    "summary": "Apartment for sale in high-rise close to downtown Dallas.\n",
+    "disclaimer": "This is test data",
+    "legalDescription": "This is test data",
+    "interiorImages": [{
+      "uri": "propshub/98874/9a5efbf3e047433f86b9493ed5123aeb.jpg",
+      "thumbnailUri": "propshub/98874/thumbnail/9a5efbf3e047433f86b9493ed5123aeb.jpg",
+      "primary": false,
+      "hashCode": "4.00923802E9",
+      "removeFromStorage": false
+    }, {
+      "uri": "propshub/98874/27bf5fe9b15941e184daa499eb1d8a85.jpg",
+      "thumbnailUri": "propshub/98874/thumbnail/27bf5fe9b15941e184daa499eb1d8a85.jpg",
+      "primary": false,
+      "hashCode": "4.5996585E9",
+      "removeFromStorage": false
+    }, {
+      "uri": "propshub/98874/e35f2bdd6d3c46cfa6056ea484dad89f.jpg",
+      "thumbnailUri": "propshub/98874/thumbnail/e35f2bdd6d3c46cfa6056ea484dad89f.jpg",
+      "primary": false,
+      "hashCode": "4.8537416E9",
+      "removeFromStorage": false
+    }, {
+      "uri": "propshub/98874/93d9e69dd0c4458787ce97e9b373abc1.jpg",
+      "thumbnailUri": "propshub/98874/thumbnail/93d9e69dd0c4458787ce97e9b373abc1.jpg",
+      "primary": false,
+      "hashCode": "-8.4345887E9",
+      "removeFromStorage": false
+    }
+    ],
+    "videoLinks": [{
+      "title": "#D View of Floorplan",
+      "uri": "https://www.youtube.com/embed/u8XdPJ5WqCI?showinfo=0",
+      "primary": false,
+      "removeFromStorage": false
+    }
+    ],
+    "externalLinks": [{
+      "title": "Apartment Listing",
+      "uri": "//www.google.com",
+      "primary": false,
+      "removeFromStorage": false
+    }
+    ],
+    "openHouseTimes": [{
+      "date": "17/02/2018",
+      "startTime": "08:00 AM",
+      "endTime": "05:00 PM"
+    }
+    ],
+    "distressed": false,
+    "documents": [{
+      "title": "Apartment listing.docx",
+      "uri": "propshub/98874/61c07bf9d7974348a3fec6c38b509c79.docx",
+      "primary": false,
+      "removeFromStorage": false
+    }
+    ],
+    "indexTime": 1513229400179,
+    "usageCategory": "RESIDENTIAL"
+  },
+  "medianPriceSchema": {
+    "schemas": [{
+      "type": "list",
+      "children": [{
+        "label": "WIDGETMEDIANPRICE",
+        "labelInfo": "75201",
+        "type": "card",
+        "children": [{
+          "label": "MEDIANLEASEPRICEANALYSIS",
+          "type": "header",
+          "translationRequired": true
+        }, {
+          "label": "MEDIANLEASEPRICE",
+          "labelPostfix": ":",
+          "type": "content",
+          "data": {
+            "value": "2100"
+          }
+        }
+        ]
+      }
+      ]
+    }
+    ]
+  },
+  "mediaSchema": {
+    "schemas": [{
+      "type": "list",
+      "children": [{
+        "id": "mediaTab",
+        "type": "list",
+        "subtype": "list-tabs-read-content",
+        "data": {
+          "optionReference": "PROPERTYREFERENCEVALUES",
+          "value": "photos"
+        },
+        "tabs": [{
+          "id": "photos",
+          "type": "list",
+          "children": [{
+            "type": "custom-carousel",
+            "data": {
+              "medias": [{
+                "uri": "propshub/98874/9a5efbf3e047433f86b9493ed5123aeb.jpg",
+                "thumbnailUri": "propshub/98874/thumbnail/9a5efbf3e047433f86b9493ed5123aeb.jpg",
+                "primary": false,
+                "hashCode": "4.00923802E9",
+                "removeFromStorage": false
+              }, {
+                "uri": "propshub/98874/27bf5fe9b15941e184daa499eb1d8a85.jpg",
+                "thumbnailUri": "propshub/98874/thumbnail/27bf5fe9b15941e184daa499eb1d8a85.jpg",
+                "primary": false,
+                "hashCode": "4.5996585E9",
+                "removeFromStorage": false
+              }, {
+                "uri": "propshub/98874/e35f2bdd6d3c46cfa6056ea484dad89f.jpg",
+                "thumbnailUri": "propshub/98874/thumbnail/e35f2bdd6d3c46cfa6056ea484dad89f.jpg",
+                "primary": false,
+                "hashCode": "4.8537416E9",
+                "removeFromStorage": false
+              }, {
+                "uri": "propshub/98874/93d9e69dd0c4458787ce97e9b373abc1.jpg",
+                "thumbnailUri": "propshub/98874/thumbnail/93d9e69dd0c4458787ce97e9b373abc1.jpg",
+                "primary": false,
+                "hashCode": "-8.4345887E9",
+                "removeFromStorage": false
+              }
+              ],
+              "mediaType": "photos"
+            }
+          }
+          ],
+          "tabValue": "photos"
+        }, {
+          "id": "videos",
+          "type": "list",
+          "children": [{
+            "type": "custom-carousel",
+            "data": {
+              "medias": [{
+                "title": "#D View of Floorplan",
+                "uri": "https://www.youtube.com/embed/u8XdPJ5WqCI?showinfo=0",
+                "primary": false,
+                "removeFromStorage": false
+              }
+              ],
+              "mediaType": "videos"
+            }
+          }
+          ],
+          "tabValue": "videos"
+        }, {
+          "id": "documents",
+          "type": "list",
+          "children": [{
+            "type": "custom-carousel",
+            "data": {
+              "medias": [{
+                "title": "Apartment listing.docx",
+                "uri": "propshub/98874/61c07bf9d7974348a3fec6c38b509c79.docx",
+                "primary": false,
+                "removeFromStorage": false
+              }
+              ],
+              "mediaType": "documents"
+            }
+          }
+          ],
+          "tabValue": "documents"
+        }, {
+          "id": "externalLinks",
+          "type": "list",
+          "children": [{
+            "type": "custom-external-links",
+            "data": {
+              "medias": [{
+                "title": "Apartment Listing",
+                "uri": "//www.google.com",
+                "primary": false,
+                "removeFromStorage": false
+              }
+              ]
+            }
+          }
+          ],
+          "tabValue": "externalLinks"
+        }
+        ]
+      }
+      ]
+    }
+    ],
+    "referenceData": {
+      "children": [{
+        "id": "PROPERTYREFERENCEVALUES",
+        "option": [{
+          "value": "videos",
+          "label": "VIDEOS"
+        }, {
+          "value": "documents",
+          "label": "DOCUMENTS"
+        }, {
+          "value": "externalLinks",
+          "label": "EXTERNALLINKS"
+        }, {
+          "value": "photos",
+          "label": "PHOTOS"
+        }
+        ]
+      }
+      ]
+    }
+  },
+  "schoolSchema": {
+    "schemas": [{
+      "type": "list",
+      "children": [{
+        "label": "WIDGETSCHOOL",
+        "type": "card-large",
+        "children": [{
+          "id": "schools",
+          "type": "data-grid",
+          "data": {
+            "dataset": {
+              "labels": [
+                "SCHOOLNAME",
+                "ZIPCODE",
+                "SCHOOLTYPE",
+                "LOWESTGRADE",
+                "HIGHESTGRADE",
+                "WEBSITE"
+              ],
+              "datasets": [{
+                "SCHOOLNAME": "HOSPITAL/HOMEBOUND",
+                "ZIPCODE": "75201",
+                "SCHOOLTYPE": "Alternative Education School",
+                "LOWESTGRADE": "PK",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": null
+              }, {
+                "SCHOOLNAME": "MAYA ANGELOU H S",
+                "ZIPCODE": "75204",
+                "SCHOOLTYPE": "Alternative Education School",
+                "LOWESTGRADE": "07",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": "www.dallasisd.org/domain/641"
+              }, {
+                "SCHOOLNAME": "FIRST BAPTIST ACADEMY DALLAS",
+                "ZIPCODE": "75201",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "PK",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": null
+              }, {
+                "SCHOOLNAME": "PEGASUS CHARTER H S",
+                "ZIPCODE": "75201",
+                "SCHOOLTYPE": "Alternative Education School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": "www.pegasuscharter.org"
+              }, {
+                "SCHOOLNAME": "DR WRIGHT L LASSITER JR EARLY COLLEGE H S",
+                "ZIPCODE": "75202",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "09",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": "www.dallasisd.org/lassiter"
+              }, {
+                "SCHOOLNAME": "UPLIFT LUNA PREPARATORY SECONDARY SCHOOL",
+                "ZIPCODE": "75226",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "06",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": "www.uplifteducation.org/northhillsprep"
+              }, {
+                "SCHOOLNAME": "UPLIFT LUNA PREPARATORY PRI",
+                "ZIPCODE": "75202",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "KG",
+                "HIGHESTGRADE": "05",
+                "WEBSITE": "www.uplifteducation.org/northhillsprep"
+              }, {
+                "SCHOOLNAME": "NOTRE DAME SCHOOL",
+                "ZIPCODE": "75204",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "UG",
+                "HIGHESTGRADE": "UG",
+                "WEBSITE": null
+              }, {
+                "SCHOOLNAME": "KENNEDY-CURRY MIDDLE",
+                "ZIPCODE": "75241",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "06",
+                "HIGHESTGRADE": "08",
+                "WEBSITE": "www.dallasisd.org/Page/2616"
+              }, {
+                "SCHOOLNAME": "CORNERSTONE CROSSROADS ACADEMY",
+                "ZIPCODE": "75215",
+                "SCHOOLTYPE": "Private",
+                "LOWESTGRADE": "9",
+                "HIGHESTGRADE": "12",
+                "WEBSITE": null
+              }, {
+                "SCHOOLNAME": "WILLIAM B TRAVIS ACDMY/VNGRD FOR ACADEMICALLY TAG",
+                "ZIPCODE": "75204",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "04",
+                "HIGHESTGRADE": "05",
+                "WEBSITE": "www.dallasisd.org/Page/2480"
+              }, {
+                "SCHOOLNAME": "WILLIAM B TRAVIS ACAD/VANGRD FOR ACADEMICALLY TAG",
+                "ZIPCODE": "75204",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "06",
+                "HIGHESTGRADE": "08",
+                "WEBSITE": "www.dallasisd.org/travis"
+              }, {
+                "SCHOOLNAME": "J W RAY LEARNING CENTER",
+                "ZIPCODE": "75204",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "PK",
+                "HIGHESTGRADE": "05",
+                "WEBSITE": "www.dallasisd.org/jwray"
+              }, {
+                "SCHOOLNAME": "BILLY EARL DADE MIDDLE",
+                "ZIPCODE": "75215",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "06",
+                "HIGHESTGRADE": "08",
+                "WEBSITE": "www.dallasisd.org/dade"
+              }, {
+                "SCHOOLNAME": "EAST GRAND PREPARATORY ACADEMY",
+                "ZIPCODE": "75223",
+                "SCHOOLTYPE": "Regular School",
+                "LOWESTGRADE": "PK",
+                "HIGHESTGRADE": "06",
+                "WEBSITE": "www.cityscapeschools.org"
+              }
+              ]
+            }
+          },
+          "dataType": "data-grid"
+        }, {
+          "label": "SOURCE",
+          "labelPostfix": ":",
+          "type": "card-footer",
+          "data": {
+            "value": "WIDGETSCHOOLFOOTER"
+          },
+          "translationRequired": true
+        }
+        ]
+      }
+      ]
+    }
+    ]
+  }
+}

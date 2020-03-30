@@ -1,0 +1,115 @@
+.data-grid {
+	// &__table-wrap {
+	// 	width: 500px;
+	// 	overflow-x: scroll;
+	// }
+	border: 1px solid @grey-300;
+	&__data-item-block {
+		width: 25%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		word-break: break-word;
+		font-size: 1.4rem;
+		.bp-xsmall({
+			width: 100%;
+		});
+		.bp-medium({
+			width: 25%;
+		});
+		&__action-item {
+			margin-right: 5px;
+			display: inline-block;
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+		margin-right: 10px;
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+	&__column-headers {
+		list-style-type: none;
+		display: inline-flex;
+		justify-content: space-between;
+		width: 100%;
+		border-bottom: 1px solid @grey-400;
+		padding: 5px 10px;
+		.bp-xsmall({
+			flex-direction: column;
+		});
+		.bp-medium({
+			flex-direction: row;
+		});
+		&__header {
+			color: @color-base-primary-blue-black;
+			font-weight: 700;
+		}
+	}
+	&__data-rows {
+		list-style-type: none;
+		&__row {
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+			padding: 5px 10px;
+			border-bottom: 1px solid @grey-300;
+			box-shadow: 0px 2px 0px 1px @color-base-white inset;
+			&:nth-child(even) {
+				.bp-xsmall({
+					background-color: @color-base-white;
+				});
+				.bp-small({
+				background-color: @grid-row-grey;
+				});
+			}
+			&:nth-child(odd) {
+				background-color: @grey-100;
+			}
+			&__data-list {
+				list-style-type: none;
+				display : inline-flex;
+				justify-content: space-between;
+				width: 100%;
+				.bp-xsmall({
+					flex-direction: column;
+				});
+				.bp-medium({
+					flex-direction: row;
+				});
+				&__item {
+					a {
+						text-decoration: underline;
+						&:hover {
+							color: @color-base-apple-green-alt-accesibility;
+						}
+					}
+				}
+				&__data-item-with-header {
+					display: flex;
+					&__header {
+						width: 35%;
+						padding-right: 7px;
+						margin-right: 7px;
+						border-right: 1px solid @grey-400;
+						font-weight: 600;
+						padding: 2px 7px 2px 0;
+						line-height: normal;
+					}
+					&__value {
+						flex: 1;
+						line-height: normal;
+						padding: 2px 0;
+					}
+					border-bottom: 1px solid @grey-400;
+					&:last-child {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+	}
+}

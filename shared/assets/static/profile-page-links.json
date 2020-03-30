@@ -1,0 +1,124 @@
+{
+  "profilePageLinks" : [
+    {
+      "name": "profile",
+      "label": "MYPROFILE",
+      "route": "/profile",
+      "icon": "pe-7s-id",
+      "activeSections": ["profile"],
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "listings",
+      "label": "MYLISTINGS",
+      "route": "/profile/listings",
+      "icon": "pe-7s-menu",
+      "activeSections": ["listings","flyer","location","listing","property","financial","additional","media"],
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "portfolio",
+      "label": "MYPORTFOLIO",
+      "route": "/profile/portfolio",
+      "icon": "pe-7s-home",
+      "activeSections": ["portfolio","create-property"],
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "searches",
+      "label": "MYSEARCHES",
+      "route": "/profile/searches",
+      "icon" : "pe-7s-search",
+      "activeSections": ["searches"],
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "wishlist",
+      "label": "MYWISHLIST",
+      "route": "/profile/wishlist",
+      "icon": "pe-7s-like",
+      "activeSections": ["wishlist"],
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "returns",
+      "label": "MYRETURNS",
+      "route": "/profile/returns",
+      "icon": "pe-7s-analyze-returns",
+      "activeSections": ["returns"],
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "mycontacts",
+      "label": "MYCONTACTS",
+      "route": "/profile/mycontacts",
+      "icon" : "pe-7s-users",
+      "activeSections": ["mycontacts"],
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "blogs",
+      "label": "MYARTICLES",
+      "route": "/profile/blogs",
+      "activeSections": ["blogs"],
+      "icon": "pe-7s-note",
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "logout",
+      "label": "LOGOUT",
+      "route": "/",
+      "icon": "pe-7s-power",
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "changepassword",
+      "label": "CHANGEPASSWORD",
+      "route": "/profile/changepassword",
+      "icon": "pe-7s-lock",
+      "hidden" : true,
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "name": "preferences",
+      "label": "MYPREFERENCES",
+      "route": "/profile/preferences",
+      "icon": "pe-7s-config",
+      "hidden": true,
+      "userRoles": [100,200,300,400,500]
+    },
+    {
+      "names": ["articles","questions"],
+      "label": "MYCONTENT",
+      "route": "/profile/blogs",
+      "icon": "pe-7s-news-paper",
+      "userRoles": [100,200,300,400,500],
+      "id": 2,
+      "hidden" : true,
+      "children" : [
+        {
+          "name": "articles",
+          "label": "MYARTICLES",
+          "route": "/profile/blogs",
+          "icon": "pe-7s-news-paper",
+          "userRoles": [100,200,300,400,500]
+        },
+        {
+          "name": "questions",
+          "label": "MYQUESTIONS",
+          "route": "/profile/questions",
+          "icon": "pe-7s-ribbon",
+          "userRoles": [100,200,300,400,500]
+        }
+      ]
+    },
+    {
+      "name": "company",
+      "label": "MYCOMPANY",
+      "route": "/profile/company",
+      "icon": "pe-7s-office",
+      "hidden" : true,
+      "userRoles": [200,300,400,500]
+    }
+  ]
+}

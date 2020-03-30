@@ -1,0 +1,348 @@
+{
+  "Peopleschema": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "label": "EXPERTISE",
+          "id": "personremovable0",
+          "type": "list",
+          "subtype": "list-removable-single",
+          "classNames": [
+            "schema__list",
+            "schema__list__removable-single",
+            "schema__list__removable-single__custom-btn"
+          ],
+          "isButton": true,
+          "children": [
+            {
+              "type": "custom-multi-group",
+              "children": [
+                {
+                  "label": "name",
+                  "id": "people.person(1).name",
+                  "type": "text",
+                  "classNames": [
+                    "schema__text",
+                    "schema__name"
+                  ],
+                  "data": {
+                    "value": "Robert S. Nelson"
+                  }
+                },
+                {
+                  "label": "phone",
+                  "id": "people.person(1).phone",
+                  "type": "text",
+                  "classNames": [
+                    "schema__text",
+                    "schema__phone"
+                  ],
+                  "data": {
+                    "value": "(718)997-9500"
+                  }
+                },
+                {
+                  "label": "email",
+                  "id": "people.person(1).email",
+                  "type": "text",
+                  "classNames": [
+                    "schema__text",
+                    "schema__email"
+                  ],
+                  "data": {
+                    "value": ""
+                  }
+                },
+                {
+                  "label": "roles",
+                  "id": "people.person(1).roles",
+                  "type": "text",
+                  "classNames": [
+                    "schema__text",
+                    "schema__roles"
+                  ],
+                  "data": {
+                    "value": [
+                      "Chief Executive Officer",
+                      "CEO"
+                    ]
+                  }
+                },
+                {
+                  "label": "fullAddresses",
+                  "id": "people.person(1).fullAddresses",
+                  "type": "text",
+                  "classNames": [
+                    "schema__text",
+                    "schema__fullAddresses"
+                  ],
+                  "data": {
+                    "value": [
+                      "11835 Queens Blvd Forest Hills, NY 11375"
+                    ]
+                  }
+                },
+                {
+                  "label": "status",
+                  "id": "people.person(1).status",
+                  "type": "text",
+                  "classNames": [
+                    "schema__text",
+                    "schema__status"
+                  ],
+                  "data": {
+                    "value": "Active"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ADD PERSON",
+          "id": "ADDPERSON",
+          "type": "clone",
+          "data": {
+            "key": 2
+          },
+          "children": [
+            {
+              "label": "EXPERTISE",
+              "id": "personremovable",
+              "type": "list",
+              "subtype": "list-removable-single",
+              "classNames": [
+                "schema__list",
+                "schema__list__removable-single",
+                "schema__list__removable-single__custom-btn"
+              ],
+              "isButton": true,
+              "children": [
+                {
+                  "type": "custom-multi-group",
+                  "children": [
+                    {
+                      "label": "name",
+                      "id": "people.person(*).name",
+                      "type": "text",
+                      "classNames": [
+                        "schema__text",
+                        "schema__name"
+                      ]
+                    },
+                    {
+                      "label": "phone",
+                      "id": "people.person(*).phone",
+                      "type": "text",
+                      "classNames": [
+                        "schema__text",
+                        "schema__phone"
+                      ]
+                    },
+                    {
+                      "label": "email",
+                      "id": "people.person(*).email",
+                      "type": "text",
+                      "classNames": [
+                        "schema__text",
+                        "schema__email"
+                      ]
+                    },
+                    {
+                      "label": "roles",
+                      "id": "people.person(*).roles",
+                      "type": "text",
+                      "classNames": [
+                        "schema__text",
+                        "schema__roles"
+                      ]
+                    },
+                    {
+                      "label": "fullAddresses",
+                      "id": "people.person(*).address",
+                      "type": "text",
+                      "classNames": [
+                        "schema__text",
+                        "schema__fullAddresses"
+                      ]
+                    },
+                    {
+                      "label": "status",
+                      "id": "people.person(*).status",
+                      "type": "text",
+                      "classNames": [
+                        "schema__text",
+                        "schema__status"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "CompanySchema" : [
+    {
+      "type": "header",
+      "children": [
+        {
+          "type": "custom-multi-group",
+          "children": [
+            {
+              "label": "name",
+              "id": "details.company(1).name",
+              "type": "text",
+              "classNames": [
+                "schema__text",
+                "schema__name"
+              ],
+              "data": {
+                "value": "Robert S. Nelson"
+              }
+            },
+            {
+              "label": "phone",
+              "id": "details.company(1).phone",
+              "type": "text",
+              "classNames": [
+                "schema__text",
+                "schema__phone"
+              ],
+              "data": {
+                "value": "(718)997-9500"
+              }
+            },
+            {
+              "label": "fullAddresses",
+              "id": "details.company(1).fullAddresses",
+              "type": "text",
+              "classNames": [
+                "schema__text",
+                "schema__fullAddresses"
+              ],
+              "data": {
+                "value": [
+                  "11835 Queens Blvd Forest Hills, NY 11375"
+                ]
+              }
+            },
+            {
+              "label": "status",
+              "id": "details.company(1).status",
+              "type": "text",
+              "classNames": [
+                "schema__text",
+                "schema__status"
+              ],
+              "data": {
+                "value": "Active"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "editschema": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "type": "custom-multi-group",
+          "children": [
+            {
+              "label": "TRANSACTIONDATE",
+              "id": "property.incomeandexpense.transactionDate",
+              "type": "date",
+              "data": {
+                "format": "MM/DD/YYYY"
+              }
+            },
+            {
+              "label": "TYPE",
+              "id": "property.incomeandexpense.type",
+              "type": "dropdown",
+              "data": {
+                "optionReference": "contactnumbertype"
+              }
+            },
+            {
+              "label": "SUBTYPE",
+              "id": "property.incomeandexpense.subType",
+              "type": "text"
+            },
+            {
+              "label": "DESCRIPTION",
+              "labelInfo": "USD",
+              "id": "property.incomeandexpense.description",
+              "type": "text"
+            },
+            {
+              "label": "AMOUNT",
+              "labelInfo": "USD",
+              "id": "property.incomeandexpense.amount",
+              "type": "text"
+            },
+            {
+              "label": "EXCLUDE",
+              "id": "property.incomeandexpense.isIncludedForComputation",
+              "type": "switcher",
+              "data" : {
+                "isReverse" : true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "contactnumbertype",
+        "option": [
+          {
+            "value": "RENTAL_INCOME",
+            "label": "RENTAL_INCOME"
+          },
+          {
+            "value": "OTHER_INCOME",
+            "label": "OTHER_INCOME"
+          },
+          {
+            "value": "MANAGEMENT_FEE",
+            "label": "MANAGEMENT_FEE"
+          },
+          {
+            "value": "LEASING_FEE",
+            "label": "LEASING_FEE"
+          },
+          {
+            "value": "PROPERTY_TAXES",
+            "label": "PROPERTY_TAXES"
+          },
+          {
+            "value": "INSURANCE",
+            "label": "INSURANCE"
+          },
+          {
+            "value": "HOA_FEE",
+            "label": "HOA_FEE"
+          },
+          {
+            "value": "MAINTENANCE",
+            "label": "MAINTENANCE"
+          },
+          {
+            "value": "OTHER_EXPENSES",
+            "label": "OTHER_EXPENSES"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+2019-09-30T08:30:24.025Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48381, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:30:24.034Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48381, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:30:33.063Z - info: Api Request logData= { reqID: '54ba3c2e-388a-4137-8f19-833cce474855',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:30:33.061Z' } class=service/BaseService.js, pid=48381, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:30:33.823Z - info: Api response : Success logData= { reqID: '54ba3c2e-388a-4137-8f19-833cce474855',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:30:33.822Z' } class=service/BaseService.js, pid=48381, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:30:52.001Z - info: Api Request logData= { reqID: 'c22932b4-0101-465d-9910-82c490c433e8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:30:52.001Z' } class=service/BaseService.js, pid=48381, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:30:52.747Z - info: Api response : Success logData= { reqID: 'c22932b4-0101-465d-9910-82c490c433e8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:30:52.747Z' } class=service/BaseService.js, pid=48381, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:31:36.161Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48405, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:31:36.167Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48405, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:31:41.611Z - info: Api Request logData= { reqID: '8ef7ff4f-09a5-4580-ba84-5331a5b1fdee',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:31:41.610Z' } class=service/BaseService.js, pid=48405, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:31:42.375Z - info: Api response : Success logData= { reqID: '8ef7ff4f-09a5-4580-ba84-5331a5b1fdee',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:31:42.375Z' } class=service/BaseService.js, pid=48405, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:31:57.779Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48416, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:31:57.784Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48416, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:32:03.600Z - info: Api Request logData= { reqID: '429b0947-f180-4a8b-9820-17a7966deec7',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:32:03.599Z' } class=service/BaseService.js, pid=48416, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:32:04.282Z - info: Api response : Success logData= { reqID: '429b0947-f180-4a8b-9820-17a7966deec7',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:32:04.281Z' } class=service/BaseService.js, pid=48416, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:32:46.486Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48433, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:32:46.491Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48433, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:32:48.778Z - info: Api Request logData= { reqID: '22f1306b-3329-41d7-bfd8-0f1e7f9be287',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:32:48.776Z' } class=service/BaseService.js, pid=48433, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:32:49.608Z - info: Api response : Success logData= { reqID: '22f1306b-3329-41d7-bfd8-0f1e7f9be287',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:32:49.607Z' } class=service/BaseService.js, pid=48433, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:33:56.282Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48453, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:33:56.287Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48453, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:33:59.500Z - info: Api Request logData= { reqID: '98ac2f20-9ca5-4840-a124-5ba836e092c8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:33:59.499Z' } class=service/BaseService.js, pid=48453, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:34:00.415Z - info: Api response : Success logData= { reqID: '98ac2f20-9ca5-4840-a124-5ba836e092c8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:34:00.415Z' } class=service/BaseService.js, pid=48453, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:34:47.775Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48470, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:34:47.783Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48470, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:34:58.223Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48479, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:34:58.228Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48479, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:34:59.982Z - info: Api Request logData= { reqID: 'ccc035cf-a0a2-4709-af33-b9c5b902b47e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:34:59.980Z' } class=service/BaseService.js, pid=48479, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:35:00.937Z - info: Api response : Success logData= { reqID: 'ccc035cf-a0a2-4709-af33-b9c5b902b47e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:35:00.937Z' } class=service/BaseService.js, pid=48479, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:37:20.452Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48518, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:37:20.460Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48518, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:37:51.506Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48527, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:37:51.513Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48527, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:37:53.660Z - info: Api Request logData= { reqID: '409c9980-2433-4fb1-9e2a-ffcbcc252143',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:37:53.659Z' } class=service/BaseService.js, pid=48527, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:37:54.614Z - info: Api response : Success logData= { reqID: '409c9980-2433-4fb1-9e2a-ffcbcc252143',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:37:54.613Z' } class=service/BaseService.js, pid=48527, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:38:56.663Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48547, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:38:56.668Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48547, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:38:58.784Z - info: Api Request logData= { reqID: '5208fe65-476f-4280-9151-f8376aa0cf89',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:38:58.783Z' } class=service/BaseService.js, pid=48547, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:39:00.563Z - info: Api response : Success logData= { reqID: '5208fe65-476f-4280-9151-f8376aa0cf89',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:39:00.563Z' } class=service/BaseService.js, pid=48547, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:39:47.913Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48565, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:39:47.925Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48565, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:40:14.610Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48578, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:40:14.615Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48578, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:40:25.201Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48583, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:40:25.210Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48583, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:40:27.242Z - info: Api Request logData= { reqID: 'aa7f1164-0749-4176-911b-c357a841d40e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:40:27.240Z' } class=service/BaseService.js, pid=48583, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:40:27.940Z - info: Api response : Success logData= { reqID: 'aa7f1164-0749-4176-911b-c357a841d40e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:40:27.939Z' } class=service/BaseService.js, pid=48583, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:40:31.014Z - info: Api Request logData= { reqID: 'a93dc28d-6214-4de8-a444-e93e2ea43b1c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:40:31.013Z' } class=service/BaseService.js, pid=48583, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:40:31.770Z - info: Api response : Success logData= { reqID: 'a93dc28d-6214-4de8-a444-e93e2ea43b1c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:40:31.770Z' } class=service/BaseService.js, pid=48583, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:43:32.375Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48629, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:43:32.386Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48629, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:43:37.933Z - info: Api Request logData= { reqID: '30e5a2b7-3557-428b-a8ea-510128a7656a',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:43:37.932Z' } class=service/BaseService.js, pid=48629, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:43:38.793Z - info: Api response : Success logData= { reqID: '30e5a2b7-3557-428b-a8ea-510128a7656a',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:43:38.793Z' } class=service/BaseService.js, pid=48629, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:43:57.011Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48641, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:43:57.016Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48641, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:44:02.493Z - info: Api Request logData= { reqID: '9a824984-4a97-4ec1-9d4c-fb6860faff41',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:44:02.492Z' } class=service/BaseService.js, pid=48641, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:44:03.370Z - info: Api response : Success logData= { reqID: '9a824984-4a97-4ec1-9d4c-fb6860faff41',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:44:03.370Z' } class=service/BaseService.js, pid=48641, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:45:59.255Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48674, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:45:59.262Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48674, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:46:08.203Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48679, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:46:08.209Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48679, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:46:10.656Z - info: Api Request logData= { reqID: 'f4a77a97-ef1e-465c-ac0a-d60f6da7f21c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:46:10.654Z' } class=service/BaseService.js, pid=48679, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:46:11.581Z - info: Api response : Success logData= { reqID: 'f4a77a97-ef1e-465c-ac0a-d60f6da7f21c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:46:11.581Z' } class=service/BaseService.js, pid=48679, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:46:16.106Z - info: Api Request logData= { reqID: '266247de-6027-40aa-b48e-7602f05e38e4',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:46:16.106Z' } class=service/BaseService.js, pid=48679, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:46:16.769Z - info: Api response : Success logData= { reqID: '266247de-6027-40aa-b48e-7602f05e38e4',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:46:16.769Z' } class=service/BaseService.js, pid=48679, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:47:21.466Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48703, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:47:21.474Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48703, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:47:35.204Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48715, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:47:35.217Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48715, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:47:46.025Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48724, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:47:46.034Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48724, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:47:51.218Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48728, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:47:51.223Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48728, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:47:53.815Z - info: Api Request logData= { reqID: '7597ef30-6a81-46fa-96d5-f3034333976a',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:47:53.813Z' } class=service/BaseService.js, pid=48728, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:47:54.702Z - info: Api response : Success logData= { reqID: '7597ef30-6a81-46fa-96d5-f3034333976a',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:47:54.701Z' } class=service/BaseService.js, pid=48728, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:48:53.737Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48746, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:48:53.744Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48746, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:48:55.732Z - info: Api Request logData= { reqID: 'ac748dd4-8b47-44b2-b610-a038c2717fc5',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:48:55.730Z' } class=service/BaseService.js, pid=48746, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:48:56.482Z - info: Api response : Success logData= { reqID: 'ac748dd4-8b47-44b2-b610-a038c2717fc5',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:48:56.482Z' } class=service/BaseService.js, pid=48746, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:51:19.492Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48783, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:51:19.500Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48783, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:51:26.614Z - info: Api Request logData= { reqID: '72068068-3dee-44e6-b3c4-3b34b1b088d2',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:51:26.612Z' } class=service/BaseService.js, pid=48783, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:51:27.519Z - info: Api response : Success logData= { reqID: '72068068-3dee-44e6-b3c4-3b34b1b088d2',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:51:27.518Z' } class=service/BaseService.js, pid=48783, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:52:31.686Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48805, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:52:31.697Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48805, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:54:17.383Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48833, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:54:17.393Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48833, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:55:21.915Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48852, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:55:21.929Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48852, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:55:26.008Z - info: Api Request logData= { reqID: '5417b30e-5149-46db-a38f-c7360c27e04d',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:55:26.007Z' } class=service/BaseService.js, pid=48852, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:55:26.921Z - info: Api response : Success logData= { reqID: '5417b30e-5149-46db-a38f-c7360c27e04d',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:55:26.921Z' } class=service/BaseService.js, pid=48852, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:56:05.055Z - info: Api Request logData= { reqID: '2a30ec5d-a700-46bf-b68e-fd796f7fc365',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:56:05.054Z' } class=service/BaseService.js, pid=48852, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:56:05.933Z - info: Api response : Success logData= { reqID: '2a30ec5d-a700-46bf-b68e-fd796f7fc365',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:56:05.933Z' } class=service/BaseService.js, pid=48852, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:56:59.524Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48882, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:56:59.594Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48882, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:57:05.111Z - info: Api Request logData= { reqID: 'ca538a14-0421-438d-a018-5551ac59736a',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T08:57:05.109Z' } class=service/BaseService.js, pid=48882, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:57:06.045Z - info: Api response : Success logData= { reqID: 'ca538a14-0421-438d-a018-5551ac59736a',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T08:57:06.045Z' } class=service/BaseService.js, pid=48882, host=Maheshs-MBP-2, category=api.server
+2019-09-30T08:58:14.090Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48904, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:58:14.101Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48904, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T08:59:36.277Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48933, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T08:59:36.294Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48933, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:00:06.657Z - info: Api Request logData= { reqID: '93d7be4a-ebdd-4665-9137-b8b1c3c7dac3',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T09:00:06.655Z' } class=service/BaseService.js, pid=48933, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:00:07.517Z - info: Api response : Success logData= { reqID: '93d7be4a-ebdd-4665-9137-b8b1c3c7dac3',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T09:00:07.517Z' } class=service/BaseService.js, pid=48933, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:01:01.521Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=48961, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:01:01.531Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=48961, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:01:04.592Z - info: Api Request logData= { reqID: 'd8887ec8-3fbe-4750-827d-36561f7b666b',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T09:01:04.590Z' } class=service/BaseService.js, pid=48961, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:01:05.467Z - info: Api response : Success logData= { reqID: 'd8887ec8-3fbe-4750-827d-36561f7b666b',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T09:01:05.467Z' } class=service/BaseService.js, pid=48961, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:05:14.124Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49035, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:05:14.132Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49035, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:05:25.706Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49045, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:05:25.714Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49045, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:05:28.580Z - info: Api Request logData= { reqID: '4d72e088-05db-40ed-abfc-1d9f488fcbc6',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T09:05:28.578Z' } class=service/BaseService.js, pid=49045, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:05:29.261Z - info: Api response : Success logData= { reqID: '4d72e088-05db-40ed-abfc-1d9f488fcbc6',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T09:05:29.261Z' } class=service/BaseService.js, pid=49045, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:06:10.832Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49063, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:06:10.840Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49063, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:06:16.387Z - info: Api Request logData= { reqID: '02128b55-076d-42eb-b79b-109aba2ba860',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T09:06:16.386Z' } class=service/BaseService.js, pid=49063, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:06:17.069Z - info: Api response : Success logData= { reqID: '02128b55-076d-42eb-b79b-109aba2ba860',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T09:06:17.069Z' } class=service/BaseService.js, pid=49063, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:06:26.771Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49077, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:06:26.778Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49077, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:06:32.935Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49084, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:06:32.943Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49084, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:06:35.049Z - info: Api Request logData= { reqID: '9e99783f-3c3f-48d4-baa4-b0d9671e296c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T09:06:35.048Z' } class=service/BaseService.js, pid=49084, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:06:35.823Z - info: Api response : Success logData= { reqID: '9e99783f-3c3f-48d4-baa4-b0d9671e296c',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T09:06:35.822Z' } class=service/BaseService.js, pid=49084, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:10:08.454Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49137, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:10:08.459Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49137, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:11:32.689Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49161, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:11:32.697Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49161, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T09:11:36.238Z - info: Api Request logData= { reqID: '5ae82ffb-4ccd-492e-8e63-d348431416bc',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-30T09:11:36.237Z' } class=service/BaseService.js, pid=49161, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:11:37.085Z - info: Api response : Success logData= { reqID: '5ae82ffb-4ccd-492e-8e63-d348431416bc',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-30T09:11:37.085Z' } class=service/BaseService.js, pid=49161, host=Maheshs-MBP-2, category=api.server
+2019-09-30T09:14:42.536Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=49222, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T09:14:42.545Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=49222, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T11:12:01.610Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=50789, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T11:12:01.615Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=50789, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T13:35:53.144Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=52677, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T13:35:53.150Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=52677, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T13:37:34.872Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=52704, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T13:37:34.880Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=52704, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T14:51:18.509Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=53709, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T14:51:18.521Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=53709, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T14:51:23.398Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=53712, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T14:51:23.404Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=53712, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T14:52:17.414Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=53730, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T14:52:17.423Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=53730, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T14:57:11.452Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=53797, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T14:57:11.458Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=53797, host=Maheshs-MBP-2, category=api.redis
+2019-09-30T16:14:18.847Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=54768, host=Maheshs-MBP-2, category=ui.server
+2019-09-30T16:14:18.851Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=54768, host=Maheshs-MBP-2, category=api.redis

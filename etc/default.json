@@ -1,0 +1,89 @@
+{
+    "apiPrefix": "/api/v1",
+    "endpoints": {
+        "company" : {
+            "list" : {
+                "get" : {
+                    "listcompanies" : "/companies",
+                    "company" : "/company/{id}",
+                    "rungrabber" : "/rungrabber/{id}"
+                }
+            },
+            "schema" : {
+                 "post" : {
+                     "people" : "/company/{id}/people"
+                 }
+            }
+        },
+        "people" : {
+            "list" : {
+                "get" : {
+                    "listpeople" : "/people",
+                    "person" : "/people/{id}"
+                }
+            }
+        }
+    },
+    "gtmcode": "GTM-MRT9RJW",
+    "distanceunit":"mi",
+    "gmap" :{
+        "key" : "AIzaSyCOzoFwNL6d-jh0riKCUxUnz2olx3y0rIE",
+        "v" : "3.36",
+        "libraries":"places,geometry,drawing"
+    },
+    "localeSettings" : {
+        "US" : {
+            "langauges" : [
+                {
+                    "language" : "us_en",
+                    "displyname" : "English",
+                    "default" : true
+                }
+            ],
+            "sites" : [
+                {
+                    "name" : "US",
+                    "link" : "US",
+                    "icon" : "country-flag us-flag"
+                }
+            ],
+            "requestHeaderCode" : "us",
+            "languageDirectory" : "us",
+            "localeString" : "en-US",
+            "locationSearchRegion" : "us",
+            "siteLogo" : "logo_us.png",
+            "searchRadiusUnits" : "mi",
+            "currencyFormat" : "USD",
+            "siteDomain" : "dev.propshub.com",
+            "currencySymbol" : "$",
+            "flagImgClass" : "us-flag",
+            "dateFormat" : "MM/DD/YYYY",
+            "showFormattedAddress" : true,
+            "mobileNumberFormatCheck": "^[0-9]{3}\\-[0-9]{3}\\-[0-9]{4}$",
+            "dialingCode": "+1",
+            "chatNameSpace" : "http://localhost:5002",
+            "earthRadius" : 3959
+        }
+    },
+    "cdndsn" : {
+        "images" : "//images.propshub.com",
+        "assets" : "//assets.propshub.com"
+    },
+    "isEnableListHubAnalytics" : false,
+    "listHubAnalytics" : {
+        "isEnableListHubAnalytics" : false,
+        "isReportListHubAnalytics" : false,
+        "listHubMetricId" : "M-4361"
+    },
+    "cookies" : {
+        "isSecure" : false
+    },
+    "paypal" : {
+        "host" : "https://api.sandbox.paypal.com/",
+        "authend" : "sandbox",
+        "scopes" : "openid%20profile%20email%20address%20https%3A%2F%2Furi.paypal.com%2Fservices%2Fpaypalattributes"
+    },
+    "google" : {
+        "clientId" : "257981987263-b9hgls50genavpgb7vumrji8k3bb1c9e.apps.googleusercontent.com"
+    }
+}

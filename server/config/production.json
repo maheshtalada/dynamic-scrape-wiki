@@ -1,0 +1,48 @@
+{
+  "api" : {
+    "prefix": "/api/v1",
+    "host": "172.31.20.146",
+    "port" : "8004",
+    "protocol" : "http",
+    "api-base" : "http://propshub-apigateway.us-east-1.elasticbeanstalk.com"
+  },
+  "redis" : {
+    "host" : "propshub-redis.jaiziy.0001.use1.cache.amazonaws.com",
+    "ttl" : 3600,
+    "cookiettl" : 3600,
+    "wipe" : 3600
+  },
+  "pdfbaseurl" : "https://propshub.com",
+  "logging" : {
+    "level" : "info",
+    "filemaxsize" : 1000000,
+    "silent" : false,
+    "filePath" : "/var/log/nodeapi/"
+  },
+  "cookies" : {
+    "isSecure" : true
+  },
+  "csp" : {
+    "hosts": {
+      "connect" : [
+        "wss://chat.propshub.com",
+        "ws://chat.propshub.com",
+        "*.google-analytics.com",
+        "*.google.com"
+      ],
+      "scripts" : [
+        "*.google-analytics.com",
+        "*.google.com",
+        "*.listhub.net",
+        "*.facebook.net",
+        "*.googletagmanager.com",
+        "'unsafe-eval'"
+      ],
+      "common": [
+        "*.propshub.com",
+        "*.googleapis.com",
+        "wss://chat.propshub.com"
+      ]
+    }
+  }
+}

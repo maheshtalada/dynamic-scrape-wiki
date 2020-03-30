@@ -1,0 +1,131 @@
+{
+  "schemas": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "type": "custom-multi-group",
+          "children": [
+            {
+              "label": "EXPENSEDATE",
+              "id": "expense.date(1)",
+              "type": "date",
+              "data": {
+                "value": ""
+              }
+            },
+            {
+              "label": "EXPENSETYPE",
+              "id": "expense.type(1)",
+              "type": "dropdown",
+              "data": {
+                "optionReference": "contactnumbertype"
+              }
+            },
+            {
+              "label": "DESCRIPTION",
+              "id": "expense.description(1)",
+              "type": "text"
+            },
+            {
+              "label": "AMOUNT",
+              "labelInfo": "USD",
+              "id": "expense.amount(1)",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "label": "ADDEXPENSE",
+          "id": "ADDEXPENSE",
+          "type": "clone",
+          "data": {
+            "tooltip": "EXPENSETOOLTIP",
+            "key": "2"
+          },
+          "children": [
+            {
+              "label": "EXPERTISE",
+              "id": "expenseremovable",
+              "type": "list",
+              "subtype": "list-removable-single",
+              "children": [
+                {
+                  "type": "custom-multi-group",
+                  "children": [
+                    {
+                      "label": "EXPENSEDATE",
+                      "id": "expense.date(*)",
+                      "type": "date"
+                    },
+                    {
+                      "label": "EXPENSETYPE",
+                      "id": "expense.type(*)",
+                      "type": "dropdown",
+                      "data": {
+                        "optionReference": "contactnumbertype"
+                      }
+                    },
+                    {
+                      "label": "DESCRIPTION",
+                      "id": "expense.description(*)",
+                      "type": "text"
+                    },
+                    {
+                      "label": "AMOUNT",
+                      "labelInfo": "USD",
+                      "id": "expense.amount(*)",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groupName": "financialinfo"
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "contactnumbertype",
+        "option": [
+          {
+            "value": "VACANCYLOSSES",
+            "label": "VACANCYLOSSES"
+          },
+          {
+            "value": "MANAGEMENTFEES",
+            "label": "MANAGEMENTFEES"
+          },
+          {
+            "value": "LEASINGFEES",
+            "label": "LEASINGFEES"
+          },
+          {
+            "value": "PROPERTYTAXES",
+            "label": "PROPERTYTAXES"
+          },
+          {
+            "value": "PROPERTYINSURANCE",
+            "label": "PROPERTYINSURANCE"
+          },
+          {
+            "value": "OWNERASSOCIATIONFEE",
+            "label": "OWNERASSOCIATIONFEE"
+          },
+          {
+            "value": "PROPERTYMAINTENANCE",
+            "label": "PROPERTYMAINTENANCE"
+          },
+          {
+            "value": "OTHER",
+            "label": "OTHER"
+          }
+        ]
+      }
+    ]
+  }
+}

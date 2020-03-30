@@ -1,0 +1,615 @@
+{
+  "schemas":[
+    {
+      "label":"PROPERTYDETAILS",
+      "type":"header",
+      "tooltip": "Lorum ipsum doller sit Lorum ipsum doller sit .",
+      "children":[
+        {
+          "tooltip": "Outside",
+          "label": "Choose Listing Type",
+          "conditionaliseElement": "",
+          "data": {
+            "optionReference": "PropertyListingType",
+            "tooltip": "Inside"
+          },
+          "subtype": "list-tabs-multi-select",
+          "type": "list",
+          "id": ".testid",
+          "tabs": [
+            {
+              "label": "SALEDETAILS",
+              "id": "propertylisting1.salePrice",
+              "type": "list",
+              "tabValue": "FORSALE",
+              "children": [
+                {
+                  "label": "ASKINGPRICE",
+                  "id": "propertylisting1.salePrice.askingPrice",
+                  "type": "text"
+                },
+                {
+                  "label": "CAPRATE",
+                  "id": "propertylisting1.salePrice.capRate",
+                  "type": "text"
+                },
+                {
+                  "label": "COMMISSIONSPLIT",
+                  "id": "propertylisting1.salePrice.commissionSplit",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "label": "LEASEDETAILS",
+              "id": "propertylisting1.leasePrice",
+              "type": "list",
+              "tabValue": "FORLEASE",
+              "children": [
+                {
+                  "label": "PRICE",
+                  "id": "propertylisting1.leasePrice.price",
+                  "type": "text"
+                },
+                {
+                  "label": "DEPOSITPRICE",
+                  "id": "propertylisting1.leasePrice.despositPrice",
+                  "type": "text"
+                },
+                {
+                  "label": "LEASEFREQUENCY",
+                  "id": "propertylisting1.leasePrice.leaseFrequency",
+                  "type": "text",
+                  "data": {
+                    "optionReference": "Frequency"
+                  }
+                },
+                {
+                  "label": "LEASETERM",
+                  "id": "propertylisting1.leasePrice.leaseTerm",
+                  "type": "text"
+                },
+                {
+                  "label": "LOCKINPERIOD",
+                  "id": "propertylisting1.leasePrice.lockInPeriod",
+                  "type": "text"
+                },
+                {
+                  "label": "LEASETERMFREQUENCY",
+                  "id": "propertylisting1.leasePrice.leaseTermFrequency",
+                  "type": "text",
+                  "data": {
+                    "optionReference": "Frequency"
+                  }
+                },
+                {
+                  "label": "COMMISSIONSPLIT",
+                  "id": "propertylisting1.leasePrice.commissionSplit",
+                  "type": "text"
+                }
+              ]
+            },
+            {
+              "label": "BIDDETAILS",
+              "id": "propertylisting1.bidPrice",
+              "type": "list",
+              "tabValue": "FORAUCTION",
+              "children": [
+                {
+                  "label": "BIDSTARTPRICE",
+                  "id": "propertylisting1.bidPrice.bidStartPrice",
+                  "type": "text"
+                },
+                {
+                  "label": "DEPOSIT",
+                  "id": "propertylisting1.bidPrice.depositAmount",
+                  "type": "text"
+                },
+                {
+                  "label": "DAYSFORFULLPAYMENT",
+                  "id": "propertylisting1.bidPrice.daysForFullPayment",
+                  "type": "text"
+                },
+                {
+                  "label": "BIDSTARTDATE",
+                  "id": "propertylisting1.bidPrice.bidStartDate",
+                  "type": "text"
+                },
+                {
+                  "label": "BIDENDDATE",
+                  "id": "propertylisting1.bidPrice.bidEndDate",
+                  "type": "text"
+                },
+                {
+                  "label": "COMMISIONSPLIT",
+                  "id": "propertylisting1.bidPrice.commissionSplit",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tooltip": "Listing type is",
+          "conditionaliseElement": "",
+          "data": {
+            "label": "collapseable component",
+            "openIcon" : "pe-7s-plus",
+            "closeIcon" : "pe-7s-less",
+            "value" : "false"
+          },
+          "subtype": "list-tabs-collapse",
+          "type": "list",
+          "id": ".CaseDetails.application_business.listingtype",
+          "tabs": [
+            {
+              "label": "SALEDETAILS",
+              "id": "propertylisting.salePrice",
+              "type": "list",
+              "tabValue": "true",
+              "children": [
+                {
+                  "label": "ASKINGPRICE",
+                  "id": "propertylisting.salePrice.askingPrice",
+                  "type": "text",
+                  "data" : {
+                    "value" : "text",
+                    "writeMode" : "false"
+                  }
+                },
+                {
+                  "label": "CAPRATE",
+                  "id": "propertylisting.salePrice.capRate",
+                  "type": "text"
+                },
+                {
+                  "label": "COMMISSIONSPLIT",
+                  "id": "propertylisting.salePrice.commissionSplit",
+                  "type": "text"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groupName":"property"
+    }
+  ],
+  "referenceData":{
+    "children":[
+      {
+        "id":"ONGROUNDLEASEREFERENCEVALUES",
+        "option":[
+          {
+            "value":"true",
+            "label":"YES"
+          },
+          {
+            "value":"false",
+            "label":"NO"
+          }
+        ]
+      },
+      {
+        "id":"collapseref",
+        "option":[
+          {
+            "value":"true",
+            "icon":"pe-7s-angle-up-circle"
+          },
+          {
+            "value":"false",
+            "icon":"pe-7s-angle-down-circle"
+          }
+        ]
+      },
+      {
+        "id":"BuildingConstructionStatus",
+        "option":[
+          {
+            "value":"EXISTING",
+            "label":"EXISTING"
+          },
+          {
+            "value":"NEW",
+            "label":"NEW"
+          },
+          {
+            "value":"NEWLYRENOVATED",
+            "label":"NEWLYRENOVATED"
+          },
+          {
+            "value":"UNDERCONSTRUCTION",
+            "label":"UNDERCONSTRUCTION"
+          },
+          {
+            "value":"PROPOSED",
+            "label":"PROPOSED"
+          }
+        ]
+      },
+      {
+        "id":"BuildingClass",
+        "option":[
+          {
+            "value":"A",
+            "label":"A"
+          },
+          {
+            "value":"B",
+            "label":"B"
+          },
+          {
+            "value":"C",
+            "label":"C"
+          },
+          {
+            "value":"OTHER",
+            "label":"OTHER"
+          }
+        ]
+      },
+      {
+        "id":"BuildingUnitType",
+        "option":[
+          {
+            "value":"OFFICE",
+            "label":"OFFICE"
+          },
+          {
+            "value":"STORE",
+            "label":"STORE"
+          },
+          {
+            "value":"RESTAURANT",
+            "label":"RESTAURANT"
+          },
+          {
+            "value":"BAR",
+            "label":"BAR"
+          }
+        ]
+      },
+      {
+        "id": "PropertyListingType",
+        "option": [
+          {
+            "value": "FORSALE",
+            "label": "FORSALE"
+          },
+          {
+            "value": "FORLEASE",
+            "label": "FORLEASE"
+          },
+          {
+            "value": "FORAUCTION",
+            "label": "FORAUCTION"
+          }
+        ]
+      },
+      {
+        "id":"RetailStoreCategory",
+        "option":[
+          {
+            "value":"NEWCARDEALERS",
+            "label":"NEWCARDEALERS"
+          },
+          {
+            "value":"USEDCARDEALERS",
+            "label":"USEDCARDEALERS"
+          },
+          {
+            "value":"RECREATIONALVEHICLEDEALERS",
+            "label":"RECREATIONALVEHICLEDEALERS"
+          },
+          {
+            "value":"MOTORCYCLEANDBOATDEALERS",
+            "label":"MOTORCYCLEANDBOATDEALERS"
+          },
+          {
+            "value":"AUTOPARTSANDACCESSORIES",
+            "label":"AUTOPARTSANDACCESSORIES"
+          },
+          {
+            "value":"TIREDEALERS",
+            "label":"TIREDEALERS"
+          },
+          {
+            "value":"FURNITURESTORES",
+            "label":"FURNITURESTORES"
+          },
+          {
+            "value":"FLOORCOVERINGSTORES",
+            "label":"FLOORCOVERINGSTORES"
+          },
+          {
+            "value":"OTHERHOMEFURNISHINGSTORES",
+            "label":"OTHERHOMEFURNISHINGSTORES"
+          },
+          {
+            "value":"APPLIANCESANDELECTRONICSSTORES",
+            "label":"APPLIANCESANDELECTRONICSSTORES"
+          },
+          {
+            "value":"COMPUTERSTORES",
+            "label":"COMPUTERSTORES"
+          },
+          {
+            "value":"CAMERAANDPHOTOGRAPHYSTORES",
+            "label":"CAMERAANDPHOTOGRAPHYSTORES"
+          },
+          {
+            "value":"HOMECENTERS",
+            "label":"HOMECENTERS"
+          },
+          {
+            "value":"PAINTANDWALLPAPERSTORES",
+            "label":"PAINTANDWALLPAPERSTORES"
+          },
+          {
+            "value":"HARDWARESTORES",
+            "label":"HARDWARESTORES"
+          },
+          {
+            "value":"OTHERBUILDINGMATERIALSSTORES",
+            "label":"OTHERBUILDINGMATERIALSSTORES"
+          },
+          {
+            "value":"OUTDOORPOWEREQUIPMENTSTORES",
+            "label":"OUTDOORPOWEREQUIPMENTSTORES"
+          },
+          {
+            "value":"NURSERYANDGARDENSTORES",
+            "label":"NURSERYANDGARDENSTORES"
+          },
+          {
+            "value":"GROCERYSTORES",
+            "label":"GROCERYSTORES"
+          },
+          {
+            "value":"CONVENIENCESTORES",
+            "label":"CONVENIENCESTORES"
+          },
+          {
+            "value":"MEATMARKETS",
+            "label":"MEATMARKETS"
+          },
+          {
+            "value":"FISHANDSEAFOODMARKETS",
+            "label":"FISHANDSEAFOODMARKETS"
+          },
+          {
+            "value":"FRUITANDVEGETABLEMARKETS",
+            "label":"FRUITANDVEGETABLEMARKETS"
+          },
+          {
+            "value":"OTHERSPECIALTYFOODMARKETS",
+            "label":"OTHERSPECIALTYFOODMARKETS"
+          },
+          {
+            "value":"LIQUORSTORES",
+            "label":"LIQUORSTORES"
+          },
+          {
+            "value":"PHARMACYANDDRUGSTORES",
+            "label":"PHARMACYANDDRUGSTORES"
+          },
+          {
+            "value":"COSMETICSANDBEAUTYSTORES",
+            "label":"COSMETICSANDBEAUTYSTORES"
+          },
+          {
+            "value":"OPTICALGOODSSTORES",
+            "label":"OPTICALGOODSSTORES"
+          },
+          {
+            "value":"OTHERHEALTHANDPERSONALCARESTORES",
+            "label":"OTHERHEALTHANDPERSONALCARESTORES"
+          },
+          {
+            "value":"GASOLINESTATIONSWITHCONVENIENCESTORES",
+            "label":"GASOLINESTATIONSWITHCONVENIENCESTORES"
+          },
+          {
+            "value":"GASOLINESTATIONSWOCONVENIENCESTORES",
+            "label":"GASOLINESTATIONSWOCONVENIENCESTORES"
+          },
+          {
+            "value":"MENSCLOTHINGSTORES",
+            "label":"MENSCLOTHINGSTORES"
+          },
+          {
+            "value":"WOMENSCLOTHINGSTORES",
+            "label":"WOMENSCLOTHINGSTORES"
+          },
+          {
+            "value":"CHILDRENSANDINFANTSCLOTHINGSTORES",
+            "label":"CHILDRENSANDINFANTSCLOTHINGSTORES"
+          },
+          {
+            "value":"FAMILYCLOTHINGSTORES",
+            "label":"FAMILYCLOTHINGSTORES"
+          },
+          {
+            "value":"CLOTHINGACCESSORYSTORES",
+            "label":"CLOTHINGACCESSORYSTORES"
+          },
+          {
+            "value":"OTHERAPPARELSTORES",
+            "label":"OTHERAPPARELSTORES"
+          },
+          {
+            "value":"SHOESTORES",
+            "label":"SHOESTORES"
+          },
+          {
+            "value":"JEWELRYSTORES",
+            "label":"JEWELRYSTORES"
+          },
+          {
+            "value":"LUGGAGESTORES",
+            "label":"LUGGAGESTORES"
+          },
+          {
+            "value":"SPORTINGGOODSSTORES",
+            "label":"SPORTINGGOODSSTORES"
+          },
+          {
+            "value":"HOBBYTOYANDGAMESTORES",
+            "label":"HOBBYTOYANDGAMESTORES"
+          },
+          {
+            "value":"SEWINGANDNEEDLECRAFTSTORES",
+            "label":"SEWINGANDNEEDLECRAFTSTORES"
+          },
+          {
+            "value":"MUSICALINSTRUMENTSTORES",
+            "label":"MUSICALINSTRUMENTSTORES"
+          },
+          {
+            "value":"BOOKSTORES",
+            "label":"BOOKSTORES"
+          },
+          {
+            "value":"RECORDTAPEANDCDSTORES",
+            "label":"RECORDTAPEANDCDSTORES"
+          },
+          {
+            "value":"DEPARTMENTSTORES",
+            "label":"DEPARTMENTSTORES"
+          },
+          {
+            "value":"WAREHOUSESUPERSTORES",
+            "label":"WAREHOUSESUPERSTORES"
+          },
+          {
+            "value":"OTHERGENERALMERCHANDISESTORES",
+            "label":"OTHERGENERALMERCHANDISESTORES"
+          },
+          {
+            "value":"FLORISTS",
+            "label":"FLORISTS"
+          },
+          {
+            "value":"OFFICEANDSTATIONARYSTORES",
+            "label":"OFFICEANDSTATIONARYSTORES"
+          },
+          {
+            "value":"GIFTANDSOUVENIRSTORES",
+            "label":"GIFTANDSOUVENIRSTORES"
+          },
+          {
+            "value":"USEDMERCHANDISESTORES",
+            "label":"USEDMERCHANDISESTORES"
+          },
+          {
+            "value":"PETANDPETSUPPLYSTORES",
+            "label":"PETANDPETSUPPLYSTORES"
+          },
+          {
+            "value":"ARTDEALERS",
+            "label":"ARTDEALERS"
+          },
+          {
+            "value":"MOBILEHOMEDEALERS",
+            "label":"MOBILEHOMEDEALERS"
+          },
+          {
+            "value":"OTHERMISCELLANEOUSRETAILSTORES",
+            "label":"OTHERMISCELLANEOUSRETAILSTORES"
+          },
+          {
+            "value":"MAILORDERANDCATALOGSTORES",
+            "label":"MAILORDERANDCATALOGSTORES"
+          },
+          {
+            "value":"VENDINGMACHINES",
+            "label":"VENDINGMACHINES"
+          },
+          {
+            "value":"FUELDEALERS",
+            "label":"FUELDEALERS"
+          },
+          {
+            "value":"OTHERDIRECTSELLINGESTABLISHMENTS",
+            "label":"OTHERDIRECTSELLINGESTABLISHMENTS"
+          },
+          {
+            "value":"HOTELSANDOTHERTRAVELACCOMMODATIONS",
+            "label":"HOTELSANDOTHERTRAVELACCOMMODATIONS"
+          },
+          {
+            "value":"RVPARKS",
+            "label":"RVPARKS"
+          },
+          {
+            "value":"ROOMINGANDBOARDINGHOUSES",
+            "label":"ROOMINGANDBOARDINGHOUSES"
+          },
+          {
+            "value":"FULLSERVICERESTAURANTS",
+            "label":"FULLSERVICERESTAURANTS"
+          },
+          {
+            "value":"LIMITEDSERVICERESTAURANTS",
+            "label":"LIMITEDSERVICERESTAURANTS"
+          },
+          {
+            "value":"SPECIALFOODSERVICESANDCATERING",
+            "label":"SPECIALFOODSERVICESANDCATERING"
+          },
+          {
+            "value":"DRINKINGPLACES",
+            "label":"DRINKINGPLACES"
+          }
+        ]
+      },
+      {
+        "id":"RetailStoreLayout",
+        "option":[
+          {
+            "value":"STRAIGHTPLAN",
+            "label":"STRAIGHTPLAN"
+          },
+          {
+            "value":"PATHWAYPLAN",
+            "label":"PATHWAYPLAN"
+          },
+          {
+            "value":"DIAGONALPLAN",
+            "label":"DIAGONALPLAN"
+          },
+          {
+            "value":"CURVEDPLAN",
+            "label":"CURVEDPLAN"
+          },
+          {
+            "value":"VARIEDPLAN",
+            "label":"VARIEDPLAN"
+          },
+          {
+            "value":"GEOMETRICPLAN",
+            "label":"GEOMETRICPLAN"
+          },
+          {
+            "value":"OTHERPLAN",
+            "label":"OTHERPLAN"
+          }
+        ]
+      },
+      {
+        "id":"FURNISHEDREFERENCEVALUES",
+        "option":[
+          {
+            "value":"true",
+            "label":"YES"
+          },
+          {
+            "value":"false",
+            "label":"NO"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3603 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "MEDIANLEASEPRICEANALYSIS": [
+            "விலை ஒப்பீடு கேட்கிறது"
+         ],
+         "MEDIANSALEPRICEANALYSIS": [
+            "கணக்கிடப்பட்ட வாடகை"
+         ],
+         "SUBTYPEBEDROOM": [
+            "ஒத்த சதுர காட்சிகளுடன்"
+         ],
+         "SUBTYPEAREA": [
+            "அதே படுக்கையறைகள்"
+         ],
+         "NON_REFUNDABLE_PET_FEE": [
+            "திரும்பப்பெறாத வாடகைக்கு கட்டணம்"
+         ],
+         "CUMPRINCIPALPAID": [
+            "குவிண்டுவல் முதன்மையான பணம்"
+         ],
+         "CUMAPPRECIATION": [
+            "சம்மந்தமான பாராட்டு"
+         ],
+         "CUMCASHFLOW": [
+            "கம்யூலட்டல் காசு பாய்ச்சல்"
+         ],
+         "SHOWRENTALPROPERTY": [
+            "வாடகைக்கு வைக்கப்பட்ட அலகுகள்?"
+         ],
+         "RENTALPROPERTY": [
+            "வாடகைக்கு எடுத்த யூனிட்"
+         ],
+         "MEDIANPRICESTATS": [
+            "விலை பகுப்பாய்வு"
+         ],
+         "MEDIANCURRENTPRICE": [
+            "இந்த சொத்து"
+         ],
+         "MEDIANLOWPRICE": [
+            "குறைந்த"
+         ],
+         "MEDIANMARKETPRICE": [
+            "சந்தை"
+         ],
+         "MEDIANHIGHPRICE": [
+            "உயர்"
+         ],
+         "BACK": [
+            "மீண்டும்"
+         ],
+         "ACREAGE": [
+            "ஆக்ரியேஜ்"
+         ],
+         "SQUAREFOOTAGE": [
+            "சதுர காட்சிகள்"
+         ],
+         "IRRGROUP": [
+            "மதிப்பு இயக்கிகள்"
+         ],
+         "YEAR": [
+            "ஆண்டு"
+         ],
+         "RATEOFRETURN": [
+            "விகிதம்"
+         ],
+         "INTERNALRATEOFRETURNWITHMORTGAGE": [
+            "திரும்புவதற்கான உள் விகிதம்"
+         ],
+         "INTERNALRATEOFRETURN": [
+            "உள்ளக விகிதம்"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGE": [
+            "ஆண்டு விலை மதிப்பீடு"
+         ],
+         "RENTINCREMENTPERCENTAGE": [
+            "ஆண்டு வாடகை அதிகரிப்பு"
+         ],
+         "SALECLOSINGCOST": [
+            "விற்பனை மூடல் செலவு"
+         ],
+         "CALCULATERETURN": [
+            "பகுப்பாய்வு ரிட்டர்ன்ஸ்"
+         ],
+         "INVESTMENTGROUP": [
+            "மதிப்பிடப்பட்ட முதலீடு"
+         ],
+         "MORTGAGEGROUP": [
+            "மதிப்பிடப்பட்ட அடமானம்"
+         ],
+         "INCOMEGROUP": [
+            "வருடாந்திர வருமானம் கணக்கிடப்படுகிறது"
+         ],
+         "EXPENSEGROUP": [
+            "கணக்கிடப்பட்ட வருடாந்திர செலவுகள்"
+         ],
+         "RETURNGROUPWITHOUTMORTGAGE": [
+            "மதிப்பிடப்பட்ட வருவாய்கள்"
+         ],
+         "RETURNGROUPWITHMORTGAGE": [
+            "மதிப்பிடப்பட்ட லீவரேஜ் ரிட்டர்ன்ஸ்"
+         ],
+         "ASKINGPRICE": [
+            "கேட்கும் விலை"
+         ],
+         "CLOSINGCOST": [
+            "செலவு முடிவடைகிறது"
+         ],
+         "INITIALIMPROVEMENTCOST": [
+            "ஆரம்ப மேம்பாட்டு செலவு"
+         ],
+         "DOWNPAYMENTPERCENTAGE": [
+            "கீழே கொடுப்பனவு சதவீதம்"
+         ],
+         "DOWNPAYMENTCOST": [
+            "கீழே கொடுப்பது"
+         ],
+         "EMICOST": [
+            "மாதாந்திர அடமானம்"
+         ],
+         "LOANINTERESTRATE": [
+            "கடன் வட்டி விகிதம்"
+         ],
+         "LOANDURATION": [
+            "அடைப்பதற்கான"
+         ],
+         "DEPRECIATIONPERCENTAGE": [
+            "தேய்மானம்"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGE": [
+            "ஆரம்ப முதலீடு"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGE": [
+            "ஆரம்ப முதலீடு"
+         ],
+         "TOTALINVESTMENTCOST": [
+            "செலவு அடிப்படையில்"
+         ],
+         "COSTBASIS": [
+            "மொத்த செலவு அடிப்படை"
+         ],
+         "ANNUALFREECASHFLOW": [
+            "இலவச காசுப் பாய்ச்சல்"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGE": [
+            "வரிக்குதிரை பணப்பாய்வு"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE": [
+            "வரிக்குதிரை பணப்பாய்வு"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGE": [
+            "மொத்த முதலீட்டு முதலீடு"
+         ],
+         "CASHONCASHRETURNPERCENTAGE": [
+            "ரொக்க நிதியில் ரொக்கம்"
+         ],
+         "APPROXCALCVALUENOTE": [
+            "உண்மையான மதிப்புகள் மாறுபடலாம்"
+         ],
+         "ALLPROPERTIES": [
+            "அனைத்து பண்புகள்"
+         ],
+         "CURRENTPROPERTY": [
+            "இந்த சொத்து"
+         ],
+         "MEDIANSALEPRICEXAXIS": [
+            "சராசரி விற்பனை விலை (USD)"
+         ],
+         "MEDIANSALEPRICEYAXIS": [
+            "பகுப்பு"
+         ],
+         "MEDIANLEASEPRICEXAXIS": [
+            "சராசரி வாடகை"
+         ],
+         "MEDIANLEASEPRICEYAXIS": [
+            "பகுப்பு"
+         ],
+         "MEDIANLEASEPRICESTATS": [
+            "சராசரி விலை"
+         ],
+         "MEDIANSALEPRICESTATS": [
+            "சராசரி விலை"
+         ],
+         "DAILY": [
+            "ஒரு நாளைக்கு"
+         ],
+         "WEEK": [
+            "வாரத்திற்கு"
+         ],
+         "MONTH": [
+            "ஒரு மாதம்"
+         ],
+         "ANNUALLY": [
+            "ஓராண்டுக்கு"
+         ],
+         "SCHOOLDISTRICT": [
+            "பள்ளி மாவட்டம்"
+         ],
+         "RELIGIOUS_FACILITY": [
+            "மத வசதி"
+         ],
+         "GENERATEREPORT": [
+            "முழு ஃப்ளையர் உருவாக்கவும்"
+         ],
+         "GENERATEFLYER": [
+            "ஃப்ளையர் உருவாக்கவும்"
+         ],
+         "DEPOSITS": [
+            "வைப்பு"
+         ],
+         "ADDDEPOSITS": [
+            "வைப்புகளைச் சேர்க்கவும்"
+         ],
+         "DEPOSITTYPE": [
+            "வைப்பு வகை"
+         ],
+         "SECURITY_DEPOSIT": [
+            "பாதுகாப்பு வைப்பு"
+         ],
+         "PET_DEPOSIT": [
+            "பெட் வைப்பு"
+         ],
+         "KEY_DEPOSIT": [
+            "முக்கிய வைப்பு"
+         ],
+         "CLEANING_DEPOSIT": [
+            "துப்புரவு துப்புரவு"
+         ],
+         "MATCHINGADDRESSES": [
+            "பொருத்தமான முகவரிகள்"
+         ],
+         "MATCHINGPROPERTIES": [
+            "பொருத்தமான பண்புகள்"
+         ],
+         "MONDAY": [
+            "திங்கள்"
+         ],
+         "TUESDAY": [
+            "செவ்வாய்க்கிழமை"
+         ],
+         "WEDNESDAY": [
+            "புதன்கிழமை"
+         ],
+         "THURSDAY": [
+            "வியாழக்கிழமை"
+         ],
+         "FRIDAY": [
+            "வெள்ளி"
+         ],
+         "SATURDAY": [
+            "சனிக்கிழமை"
+         ],
+         "SUNDAY": [
+            "ஞாயிறு"
+         ],
+         "TOMORROW": [
+            "நாளை"
+         ],
+         "TODAY": [
+            "இன்று"
+         ],
+         "COMING": [
+            "வரும்"
+         ],
+         "BUYING": [
+            "வாங்குதல்"
+         ],
+         "SELLING": [
+            "விற்பனை"
+         ],
+         "REALTORS": [
+            "Realtors / Brokers"
+         ],
+         "PROPERTY_MANAGEMENT": [
+            "சொத்து மேலாண்மை"
+         ],
+         "FORECLOSURE": [
+            "மீட்பு"
+         ],
+         "LOTAREAUOM": [
+            "அலகு"
+         ],
+         "LAUNDRYROOM": [
+            "சலவை அறை"
+         ],
+         "LIBRARY": [
+            "நூலகம்"
+         ],
+         "MEDIAROOM": [
+            "மீடியா அறை"
+         ],
+         "MOTHERINLAW": [
+            "சட்டத்தில் அம்மா"
+         ],
+         "RECREATIONALROOM": [
+            "பொழுதுபோக்கு அறை"
+         ],
+         "SITTINGROOM": [
+            "உட்கார்ந்த அறை"
+         ],
+         "STORAGE": [
+            "சேமிப்பு"
+         ],
+         "UTILITY": [
+            "பயன்பாட்டு"
+         ],
+         "WALKINCLOSET": [
+            "வாக்கின் க்ளோசெட்"
+         ],
+         "WETBAR": [
+            "வெட் பார்"
+         ],
+         "ATRIUM": [
+            "ஊற்றறை"
+         ],
+         "ATTIC": [
+            "அட்டிக்"
+         ],
+         "DEN": [
+            "டென்"
+         ],
+         "FAMILYROOM": [
+            "குடும்ப அறையில்"
+         ],
+         "FIREPLACE": [
+            "தீ இடம்"
+         ],
+         "FOYER": [
+            "முன்அறை"
+         ],
+         "GREENHOUSE": [
+            "கிரீன் ஹவுஸ்"
+         ],
+         "GUESTROOM": [
+            "விருந்தினர் அறை"
+         ],
+         "NORTH": [
+            "வடக்கு"
+         ],
+         "SOUTH": [
+            "தெற்கு"
+         ],
+         "EAST": [
+            "கிழக்கு"
+         ],
+         "WEST": [
+            "மேற்கு"
+         ],
+         "NORTHEAST": [
+            "வட கிழக்கு"
+         ],
+         "NORTHWEST": [
+            "வடமேற்கு"
+         ],
+         "SOUTHEAST": [
+            "தென் கிழக்கு"
+         ],
+         "SOUTHWEST": [
+            "தென் மேற்கு"
+         ],
+         "PARKINGTYPES": [
+            "பார்க்கிங் வகைகள்"
+         ],
+         "ADDPARKINGTYPES": [
+            "பார்க்கிங் வகைகளைச் சேர்க்கவும்"
+         ],
+         "LEASEPRICEUOM": [
+            "அலகு"
+         ],
+         "CHARACTERS": [
+            "எழுத்துக்கள்"
+         ],
+         "FLOORNUMBER": [
+            "மாடி எண்"
+         ],
+         "FACINGDIRECTION": [
+            "எதிர்கொள்ளும் இயக்கம்"
+         ],
+         "LESS": [
+            "குறைவான"
+         ],
+         "MORE": [
+            "மேலும்"
+         ],
+         "TIME_SHARE": [
+            "நேரம் பகிர்வு"
+         ],
+         "CABIN": [
+            "கேபின்"
+         ],
+         "MLSNUMBER": [
+            "MLS எண்"
+         ],
+         "MLSID": [
+            "எம்எல்எஸ்"
+         ],
+         "MLSLISTINGURL": [
+            "மூல இணைப்பு பட்டியல்"
+         ],
+         "MLSPROPERTYTYPE": [
+            "பகுப்பு (ஆதாரத்திலிருந்து)"
+         ],
+         "MLSPROPERTYSUBTYPE": [
+            "சொத்து வகை (மூலத்திலிருந்து)"
+         ],
+         "MLSINFORMATION": [
+            "எம்எல்எஸ் தகவல்"
+         ],
+         "LISTINGAREAUOM": [
+            "அலகு"
+         ],
+         "YOURADHERE": [
+            "உங்கள் விளம்பரம் இங்கே"
+         ],
+         "LOCATIONDIRECTION": [
+            "திசைகள்"
+         ],
+         "ACRE": [
+            "ஏக்கர்"
+         ],
+         "MAXIMIZE": [
+            "பெருக்குங்கள்"
+         ],
+         "INCOME": [
+            "வருமான"
+         ],
+         "SELECTALL": [
+            "அனைத்தையும் தெரிவுசெய்"
+         ],
+         "NAMEUNDISCLOSED": [
+            "தெரியாத சொத்து பெயர்"
+         ],
+         "ADDRESSUNDISCLOSED": [
+            "தெரியாத முகவரி"
+         ],
+         "PRICEUNDISCLOSED": [
+            "தெரியாத விலை"
+         ],
+         "LIKES": [
+            "தோட்"
+         ],
+         "FLOORPLAN": [
+            "மாடி திட்டங்கள் மற்றும் ஆய்வுகள்"
+         ],
+         "COMMERCIAL_PROPERTIES": [
+            "வணிக பண்புகள்"
+         ],
+         "RESIDENTIAL_INVESTMENTS": [
+            "குடியிருப்பு முதலீடுகள்"
+         ],
+         "ROOM": [
+            "அறை தகவல்"
+         ],
+         "ROLE": [
+            "பங்கு"
+         ],
+         "LEGALDESCRIPTION": [
+            "விளக்கம்"
+         ],
+         "DISCLAIMER": [
+            "மறுப்பு"
+         ],
+         "LIVINGAREA": [
+            "வாழும் பகுதி"
+         ],
+         "LIVINGROOM": [
+            "வாழ்க்கை அறை"
+         ],
+         "STUDY": [
+            "ஆய்வு"
+         ],
+         "KITCHEN": [
+            "சமையலறை"
+         ],
+         "DININGROOM": [
+            "சாப்பிடும் அல்லது உணவருந்தும் அறை"
+         ],
+         "PATIO": [
+            "கம்பி வலை"
+         ],
+         "PORCH": [
+            "தாழ்வாரம்"
+         ],
+         "DECK": [
+            "டெக்"
+         ],
+         "GARAGE": [
+            "கேரேஜ்"
+         ],
+         "WORKSHOP": [
+            "பட்டறை"
+         ],
+         "BASEMENT": [
+            "பேஸ்மெண்ட்"
+         ],
+         "BEDROOM": [
+            "படுக்கை அறை"
+         ],
+         "BATHROOM": [
+            "குளியலறை"
+         ],
+         "FULLBATHROOM": [
+            "முழு குளியலறை"
+         ],
+         "HALFBATHROOM": [
+            "அரை குளியலறை"
+         ],
+         "QUARTERBATHROOM": [
+            "காலாண்டு குளியலறை"
+         ],
+         "THREEQUARTERBATHROOM": [
+            "மூன்று காலாண்டு குளியலறை"
+         ],
+         "BARBEQUEAREA": [
+            "பார்பெக்யூ பகுதி"
+         ],
+         "DISABLEDACCESS": [
+            "முடக்கப்பட்டது அணுகல்"
+         ],
+         "LAWNAREA": [
+            "புல்வெளி பகுதி"
+         ],
+         "WIREDFORAUTOMATION": [
+            "தன்னியக்கத்திற்காக கம்பி"
+         ],
+         "DRAFT": [
+            "வரைவு"
+         ],
+         "PENDING_APPROVAL": [
+            "உள்ளடக்க மதிப்பீடு நிலுவையில் உள்ளது"
+         ],
+         "PENDING_CONTENT_APPROVAL": [
+            "உள்ளடக்க ஒப்புதல் நிலுவையில் உள்ளது"
+         ],
+         "ACTIVE": [
+            "செயலில்"
+         ],
+         "REJECTED": [
+            "நிராகரிக்கப்பட்டது"
+         ],
+         "EXPIRED": [
+            "காலாவதியான"
+         ],
+         "CLOSED": [
+            "மூடப்பட்ட"
+         ],
+         "CLICKTOVIEWPROFILE": [
+            "சுயவிவரத்தைக் காட்டு இங்கே கிளிக் செய்க"
+         ],
+         "CHOOSEONMAP": [
+            "வரைபடத்தில் தேர்வுசெய்யவும்"
+         ],
+         "CLOSEMAP": [
+            "வரைபடத்தை மூடு"
+         ],
+         "HOMEFORSALESEARCHHEADER": [
+            "விற்பனைக்கு வீடுகளைக் கண்டுபிடி"
+         ],
+         "FORLEASESEARCHHEADER": [
+            "குத்தகை / வாடகைக்கான பண்புகள் கண்டுபிடிக்கவும்"
+         ],
+         "PROFESSIONALSEARCHHEADER": [
+            "சேவை வழங்குநர்கள் அல்லது நிபுணர்களைக் கண்டறியவும்"
+         ],
+         "REALTORSEARCHHEADER": [
+            "விருப்பமான ரியல் எஸ்டேட் முகவர் / தரகர்கள்"
+         ],
+         "HOMEFORSALE": [
+            "முதலீடு"
+         ],
+         "HIGHESTCAPRATE": [
+            "காப் விகிதம் (குறைந்த அளவுக்கு)"
+         ],
+         "LOWESTCAPRATE": [
+            "காப் விகிதம்"
+         ],
+         "CAPRATERANGE": [
+            "காப்பி விகிதம் (%)"
+         ],
+         "INVESTEMENTCATEGORIES": [
+            "முதலீட்டு வகைகள்"
+         ],
+         "PREFERREDLOCATION": [
+            "விருப்பமான இடம்"
+         ],
+         "PREFERREDLOCATIONS": [
+            "விருப்பமான இடங்கள்"
+         ],
+         "MINIMUM": [
+            "குறைந்தபட்ச"
+         ],
+         "MAXIMUM": [
+            "அதிகபட்ச"
+         ],
+         "CORE": [
+            "கோர் - குறைந்த இடர் / திரும்ப"
+         ],
+         "COREPLUS": [
+            "கோர் ப்ளஸ் - நடுத்தர இடர் / ரிட்டர்ன்"
+         ],
+         "VALUEADDED": [
+            "மதிப்பு சேர்க்கவும்"
+         ],
+         "DEVELOPMENTOPPORTUNITY": [
+            "அபிவிருத்தி வாய்ப்பு"
+         ],
+         "CAPITALCONSTRAINTS": [
+            "மூலதன கட்டுப்பாடுகள்"
+         ],
+         "ENVIRONMENTPROBLEMS": [
+            "சுற்றுச்சூழல் சிக்கல்கள்"
+         ],
+         "MANAGEMENTPROBLEMS": [
+            "மேலாண்மை சிக்கல்கள்"
+         ],
+         "NEEDSSTRUCTURIALIMPROVEMENTS": [
+            "ஒழுங்குமுறை மேம்பாடுகள் தேவை"
+         ],
+         "NEEDSINETRIORIMPROVEMENTS": [
+            "உள்துறை மேம்பாடுகள் தேவை"
+         ],
+         "OPERATIONALPROBLEMS": [
+            "செயல்பாட்டு சிக்கல்கள்"
+         ],
+         "OTHERVALUEADDED": [
+            "பிற மதிப்பு சேர்க்கவும்"
+         ],
+         "RISKRETURNCATEGORY": [
+            "முதலீட்டு பிரிவு"
+         ],
+         "VALUEADDEDREASON": [
+            "காரணம்"
+         ],
+         "ALLBILLSPAID": [
+            "அனைத்து பில்ஸ் கட்டணமும்"
+         ],
+         "METEREDUNITS": [
+            "தனித்தனியாக அளவிடப்பட்ட அலகுகள்"
+         ],
+         "SOMEBILLSPAID": [
+            "பணம் சில பில்"
+         ],
+         "MULTIFAMILYHOUSINGTYPE": [
+            "பயன்பாட்டு பில்கள்"
+         ],
+         "PAIDUTILITIES": [
+            "கட்டண பயன்பாடுகள்"
+         ],
+         "CURRENTRENT": [
+            "தற்போதைய வாடகை"
+         ],
+         "SECURITYDEPOSIT": [
+            "பாதுகாப்பு வைப்பு"
+         ],
+         "NUMBEROFUNITS": [
+            "அலகுகள் எண்ணிக்கை"
+         ],
+         "ADD": [
+            "கூட்டு"
+         ],
+         "DEMOGRAPHICS": [
+            "விளக்கப்படங்கள்"
+         ],
+         "WIDGETPOPULATION": [
+            "மக்கள்தொகை புள்ளிவிபரம்"
+         ],
+         "WIDGETFMRDATA": [
+            "நியாயமான சந்தை வாடகை புள்ளியியல்"
+         ],
+         "WIDGETHOUSING": [
+            "வீட்டு புள்ளிவிவரம்"
+         ],
+         "WIDGETMEDIANINCOME": [
+            "வருமான புள்ளிவிபரம்"
+         ],
+         "WIDGETOCCUPATION": [
+            "தொழில் புள்ளிவிவரம்"
+         ],
+         "WIDGETINCOMESLAB": [
+            "வருமான வீழ்ச்சி புள்ளிவிபரம்"
+         ],
+         "WIDGETTRANSPORTATION": [
+            "வேலை புள்ளியியல்"
+         ],
+         "WIDGETSCHOOL": [
+            "அருகில் உள்ள பள்ளிகள்"
+         ],
+         "WIDGETVIOLENTCRIME": [
+            "வன்முறை குற்ற விகிதம் புள்ளிவிபரம்"
+         ],
+         "WIDGETPROPERTYCRIME": [
+            "சொத்து குற்ற விகிதம் புள்ளிவிபரம்"
+         ],
+         "WIDGETDISASTERDATA": [
+            "சமீபத்திய கூட்டாட்சி அவசரநிலைகள்"
+         ],
+         "SOURCE": [
+            "மூல"
+         ],
+         "WIDGETFMRFOOTER": [
+            "வீடமைப்பு மற்றும் நகர்ப்புற மேம்பாட்டுத் திணைக்களம்"
+         ],
+         "WIDGETCENSUSFOOTER": [
+            "அமெரிக்க கணக்கெடுப்பு பணியகம்"
+         ],
+         "WIDGETSCHOOLFOOTER": [
+            "யு.எஸ். கல்வித் துறை"
+         ],
+         "WIDGETCRIMEFOOTER": [
+            "பெடரல் பீரோ ஆஃப் இன்வெஸ்டிகேஷன்"
+         ],
+         "WIDGETDISASTERDATAFOOTER": [
+            "மத்திய அவசர மேலாண்மை நிறுவனம்"
+         ],
+         "WIDGETEMPLOYMENTGROWTH": [
+            "வேலைவாய்ப்பு வளர்ச்சி புள்ளிவிபரம்"
+         ],
+         "WIDGETETHNICITY": [
+            "மக்கள்தொகை இனம் புள்ளிவிபரம்"
+         ],
+         "WIDGETPOPULATIONGROWTH": [
+            "வேலைவாய்ப்பு புள்ளிவிபரம்"
+         ],
+         "WIDGETPROPERTYTAX": [
+            "சொத்து வரி புள்ளிவிபரம்"
+         ],
+         "TOTALPOPULATION": [
+            "மொத்த மக்கள் தொகை"
+         ],
+         "MEDIANAGE": [
+            "சராசரி வயது"
+         ],
+         "WHITE": [
+            "வெள்ளை"
+         ],
+         "BLACK": [
+            "பிளாக்"
+         ],
+         "ASIAN": [
+            "ஆசிய"
+         ],
+         "AMERICAN": [
+            "அமெரிக்க இந்தியர்"
+         ],
+         "HISPANICPERCENTAGE": [
+            "ஹிஸ்பானிக் மக்கள் தொகை"
+         ],
+         "EMPTY": [
+            "அனைத்து"
+         ],
+         "OTHER": [
+            "மற்ற"
+         ],
+         "MALEFEMALERATIO": [
+            "ஆண் / பெண் விகிதம்"
+         ],
+         "FAIRMARKETRENT": [
+            "நியாயமான சந்தை வாடகை"
+         ],
+         "FMRDATAXAXIS": [
+            "ஆண்டு"
+         ],
+         "FMRDATAYAXIS": [
+            "சந்தை வாடகை"
+         ],
+         "EFFICIENTAPARTMENTPRICE": [
+            "திறன்"
+         ],
+         "ONEBHKAPARTMENTPRICE": [
+            "ஒற்றை படுக்கையறை"
+         ],
+         "TWOBHKAPARTMENTPRICE": [
+            "இரட்டை படுக்கையறை"
+         ],
+         "THREEBHKAPARTMENTPRICE": [
+            "மூன்று படுக்கையறை"
+         ],
+         "FOURBHKAPARTMENTPRICE": [
+            "நான்கு படுக்கையறை"
+         ],
+         "UNKNOWN": [
+            "தெரியாத"
+         ],
+         "TOTALUNITS": [
+            "அலகுகள் மொத்த எண்ணிக்கை"
+         ],
+         "OCCUPIEDUNIT": [
+            "ஆக்கிரமிக்கப்பட்ட அலகுகள்"
+         ],
+         "RENTEDUNIT": [
+            "வாடகைக்கு வைக்கப்பட்ட அலகுகள்"
+         ],
+         "OCCUPIEDRENTEDUNITXAXIS": [
+            "ஆண்டு"
+         ],
+         "OCCUPIEDRENTEDUNITYAXIS": [
+            "அலகுகளின் சதவீதம்"
+         ],
+         "POPULATIONGROWTHYAXIS": [
+            "மக்கள் தொகை"
+         ],
+         "POPULATIONGROWTH": [
+            "மொத்த மக்கள் தொகை"
+         ],
+         "POPULATIONGROWTHXAXIS": [
+            "ஆண்டு"
+         ],
+         "EMPLOYEMENTGROWTHYAXIS": [
+            "வேலை செய்யும் மக்கள் தொகை"
+         ],
+         "EMPLOYEMENTGROWTH": [
+            "பணியமர்த்தப்பட்ட மக்கள் தொகை"
+         ],
+         "EMPLOYEMENTGROWTHXAXIS": [
+            "ஆண்டு"
+         ],
+         "OTHEROCCUPATION": [
+            "பிற தொழில்"
+         ],
+         "EMPLOYEDPERCENTAGE": [
+            "பணியமர்த்தப்பட்ட மக்கள் தொகை"
+         ],
+         "MEDIANPROPERTYTAX": [
+            "சராசரி சொத்து வரி"
+         ],
+         "MEDIANPROPERTYTAXYAXIS": [
+            "ஆண்டு"
+         ],
+         "MEDIANPROPERTYTAXXAXIS": [
+            "சொத்து வரி செலுத்துதல்"
+         ],
+         "MEDIANINCOME": [
+            "சராசரி வருமானம்"
+         ],
+         "MEDIANINCOMEXAXIS": [
+            "ஆண்டு"
+         ],
+         "MEDIANINCOMEYAXIS": [
+            "வருமான"
+         ],
+         "MANAGEMENTOCCUPATION": [
+            "மேலாண்மை"
+         ],
+         "SERVICEOCCUPATION": [
+            "சேவை"
+         ],
+         "SALESOCCUPATION": [
+            "விற்பனை"
+         ],
+         "CONSTRUCTIONOCCUPATION": [
+            "கட்டுமான"
+         ],
+         "PRODUCTIONOCCUPATION": [
+            "உற்பத்தி"
+         ],
+         "INCOMESLAB": [
+            "மொத்த மக்கள் தொகை"
+         ],
+         "INCOMESLABXAXIS": [
+            "இன்மை ஸ்லாப்"
+         ],
+         "INCOMESLABYAXIS": [
+            "மக்கள் தொகை"
+         ],
+         "BELOWFIFTEENTHOUSANDINCOME": [
+            "<15 கி"
+         ],
+         "FIFTEENTOTHIRTYTHOUSANDINCOME": [
+            "15K - 30K"
+         ],
+         "THIRTYTOFIFTYTHOUSANDINCOME": [
+            "30K - 50K"
+         ],
+         "FIFTYTOSEVENTYFIVEHOUSANDINCOME": [
+            "50K - 75K"
+         ],
+         "SEVENTYFIVETOHUNDREDTHOUSANDINCOME": [
+            "75K - 100K"
+         ],
+         "HUNDREDTOONEFIFTYTHOUSANDINCOME": [
+            "100K - 150K"
+         ],
+         "ONEFIFTYABOVETHOUSANDINCOME": [
+            "> 150 கி"
+         ],
+         "MEANTRAVELTIME": [
+            "வேலை செய்யவேண்டிய சராசரி காலம்"
+         ],
+         "TRANSPORTATIONMEANS": [
+            "போக்குவரத்துக்கான வழி"
+         ],
+         "TRANSPORTATIONMEANSXAXIS": [
+            "மக்கள்தொகை சதவீதம்"
+         ],
+         "TRANSPORTATIONMEANSYAXIS": [
+            "போக்குவரத்து விருப்பம்"
+         ],
+         "PEOPLEDROVEALONE": [
+            "தனியாக ஓட்டி"
+         ],
+         "PEOPLECARPOOLED": [
+            "கார் பூல்"
+         ],
+         "PEOPLEUSEDPUBLICTRANSPORTATION": [
+            "பொது இடமாற்றம்"
+         ],
+         "PEOPLEUSEDBICYCLEORWALKED": [
+            "சைக்கிள் ஓட்டுதல் அல்லது நடைபயிற்சி"
+         ],
+         "PEOPLEUSEDOTHERTRANSPORTATION": [
+            "மற்ற போக்குவரத்து"
+         ],
+         "PEOPLEWORKEDATHOME": [
+            "வீட்டு வேலை"
+         ],
+         "SCHOOLNAME": [
+            "பள்ளி பெயர்"
+         ],
+         "LOWESTGRADE": [
+            "குறைந்த தரம்"
+         ],
+         "HIGHESTGRADE": [
+            "மிக உயர்ந்த தரம்"
+         ],
+         "SCHOOLTYPE": [
+            "பள்ளி வகை"
+         ],
+         "VIOLENTCRIMEDATA": [
+            "வன்முறை குற்ற விகிதம்"
+         ],
+         "VIOLENTCRIMEDATAXAXIS": [
+            "ஆண்டு"
+         ],
+         "VIOLENTCRIMEDATAYAXIS": [
+            "குற்ற விகிதம் (100,000 மக்களுக்கு)"
+         ],
+         "PROPERTYCRIMEDATA": [
+            "சொத்து குற்ற விகிதம்"
+         ],
+         "PROPERTYCRIMEDATAXAXIS": [
+            "ஆண்டு"
+         ],
+         "PROPERTYCRIMEDATAYAXIS": [
+            "குற்ற விகிதம் (100,000 மக்களுக்கு)"
+         ],
+         "INCIDENTTITLE": [
+            "சம்பவம்"
+         ],
+         "INCIDENTTYPE": [
+            "சம்பவம் வகை"
+         ],
+         "IHPROGRAMDECLARED": [
+            "இடைக்கால வீடு?"
+         ],
+         "IAPROGRAMDECLARED": [
+            "தனிப்பட்ட உதவி?"
+         ],
+         "PAPROGRAMDECLARED": [
+            "பொது உதவி?"
+         ],
+         "HMPROGRAMDECLARED": [
+            "தீங்கு தணிப்பு?"
+         ],
+         "INCIDENTBEGINDATE": [
+            "சம்பவம் தேதி"
+         ],
+         "TAGNAME": [
+            "புகைப்பட லேபிள்"
+         ],
+         "RENAMEFILE": [
+            "உங்கள் ஆவணத்தை மறுபெயரிடு"
+         ],
+         "FILENAME": [
+            "ஆவணத்தின் பெயர்"
+         ],
+         "VIDEOTITLE": [
+            "வீடியோ தலைப்பு"
+         ],
+         "VIDEOURL": [
+            "வீடியோ URL"
+         ],
+         "CLOSE": [
+            "நெருக்கமான"
+         ],
+         "MINIMIZE": [
+            "குறைத்தல்"
+         ],
+         "COMMENTS": [
+            "கருத்துக்கள்"
+         ],
+         "FEEDBACKCONTENTMESSAGE": [
+            "இங்கே உங்கள் கருத்துக்களைத் தட்டச்சு செய்க ..."
+         ],
+         "SITEFEEDBACKHEADER": [
+            "தள கருத்துக்களை அனுப்புக"
+         ],
+         "SENDSITEFEEDBACK": [
+            "கருத்தினை அனுப்பவும்"
+         ],
+         "READMORE": [
+            "மேலும் படிக்க ..."
+         ],
+         "SEARCHBYPROPERTY": [
+            "சொத்து கண்டுபிடிக்க"
+         ],
+         "SEARCHBYREALTOR": [
+            "Realtor / Broker ஐ தேடுங்கள்"
+         ],
+         "QUESTION": [
+            "கேள்வி"
+         ],
+         "OFFLINE": [
+            "ஆஃப்லைன்"
+         ],
+         "SAVING": [
+            "சேமிப்பு !!!"
+         ],
+         "SAVED": [
+            "சேமிக்கப்பட்டது !!!"
+         ],
+         "YEARS": [
+            "வருடங்கள்"
+         ],
+         "MONTHS": [
+            "மாதங்கள்"
+         ],
+         "WEEKS": [
+            "வாரங்கள்"
+         ],
+         "DAYS": [
+            "நாட்களில்"
+         ],
+         "MASTERLEASE": [
+            "மாஸ்டர் லீஸ்"
+         ],
+         "SUBLEASE": [
+            "துணை குத்தகை"
+         ],
+         "TYPING": [
+            "% S தட்டச்சு செய்கிறார் ..."
+         ],
+         "NEWMESSAGES": [
+            "புதிய செய்தி (கள்)"
+         ],
+         "DEFAULTCHATMESSAGE": [
+            "இங்கே உங்களது செய்தியை தட்டச்சு செய்யுங்கள்…"
+         ],
+         "MOREACTIONS": [
+            "மேலும் செயல்கள்"
+         ],
+         "ACTIONS": [
+            "செயல்கள்"
+         ],
+         "THUMBNAIL": [
+            "புகைப்பட"
+         ],
+         "LEFT": [
+            "இடது"
+         ],
+         "RIGHT": [
+            "வலது"
+         ],
+         "ROTATE": [
+            "சுழற்று"
+         ],
+         "ZOOM": [
+            "பெரிதாக்கு"
+         ],
+         "RSVP": [
+            "பதிலைச்"
+         ],
+         "SEEALL": [
+            "அனைத்தையும் பார்"
+         ],
+         "EXISTING": [
+            "இருக்கும்"
+         ],
+         "NEW": [
+            "புதிய"
+         ],
+         "NEWLYRENOVATED": [
+            "புதிதாக புதுப்பிக்கப்பட்டு"
+         ],
+         "UNDERCONSTRUCTION": [
+            "கட்டுமானத்தில்"
+         ],
+         "PROPOSED": [
+            "தொடங்க உள்ள"
+         ],
+         "ARCHITECT": [
+            "கட்டட வடிவமைப்பாளர்"
+         ],
+         "HOMETELEPHONE": [
+            "வீட்டு தொலைபேசி"
+         ],
+         "OFFICETELEPHONE": [
+            "அலுவலக தொலைபேசி"
+         ],
+         "MOBILE": [
+            "கைபேசி"
+         ],
+         "AUCTION": [
+            "ஏலம்"
+         ],
+         "BANKOWNED": [
+            "வங்கி சொந்தமான"
+         ],
+         "ELECTRICITYBACKUP": [
+            "மின்சார காப்பு"
+         ],
+         "BYBUILDER": [
+            "பில்டர் மூலம்"
+         ],
+         "BYOWNER": [
+            "உரிமையாளர்"
+         ],
+         "BYAGENT": [
+            "முகவர் மூலம்"
+         ],
+         "BYBANK": [
+            "வங்கி மூலம்"
+         ],
+         "NEWCONSTRUCTION": [
+            "புதிய கட்டுமான"
+         ],
+         "FORSALE": [
+            "விற்பனைக்கு"
+         ],
+         "FORLEASE": [
+            "குத்தகை / வாடகைக்கு"
+         ],
+         "FORAUCTION": [
+            "ஏலம்"
+         ],
+         "LAND": [
+            "நிலம்"
+         ],
+         "RESIDENTIAL": [
+            "வீட்டு"
+         ],
+         "TWIN_HOME": [
+            "இரட்டை முகப்பு"
+         ],
+         "LOFT_STYLE": [
+            "லோஃப்ட் பாலேடு அபார்ட்மென்ட்"
+         ],
+         "GARDEN_HOME_SINGLE_UNIT": [
+            "கார்டன் ஹோம்"
+         ],
+         "GARDEN_HOME_1_4_UNITS": [
+            "கார்டன் முகப்பு 1 முதல் 4 அலகுகள்"
+         ],
+         "CONDO_SINGLE_UNIT": [
+            "கோண்டோ"
+         ],
+         "CONDO_1_4_UNITS": [
+            "காண்டோ 1 முதல் 4 அலகுகள்"
+         ],
+         "TOWNHOME_1_4_UNITS": [
+            "டவுன் முகப்பு 1 முதல் 4 அலகுகள்"
+         ],
+         "OTHER_RESIDENTIAL": [
+            "பிற குடியிருப்பு"
+         ],
+         "TRIPLEX": [
+            "டிரிப்லக்ஸ்"
+         ],
+         "QUADRUPLEX": [
+            "குவாட்ரப்லக்ஸ்"
+         ],
+         "MOBILE_HOME": [
+            "நடமாடும் வீடுகளில்"
+         ],
+         "DUPLEX": [
+            "டூப்ளக்ஸ்"
+         ],
+         "DUPLEX_SINGLE_UNIT": [
+            "டூப்ளக்ஸ்"
+         ],
+         "TOWNHOME_SINGLE_UNIT": [
+            "townhome"
+         ],
+         "DUPLEX_2_UNITS": [
+            "இரட்டை 2 அலகுகள்"
+         ],
+         "SINGLE_FAMILY_HOME_PORTFOLIO": [
+            "ஒற்றை குடும்ப முகப்பு - சேவை"
+         ],
+         "TOWN_HOME": [
+            "டவுன் ஹோம்"
+         ],
+         "GARDEN_HOME": [
+            "கார்டன் ஹோம்"
+         ],
+         "CONGREGATE_HOUSING": [
+            "வீடமைப்பு கூட்டம்"
+         ],
+         "ASSISTED_LIVING": [
+            "உதவியில் வாழும் வாழ்க்கை"
+         ],
+         "SINGLE_FAMILY_HOME": [
+            "ஒற்றை குடும்ப முகப்பு"
+         ],
+         "TOWN_HOUSE": [
+            "டவுன் வீடு"
+         ],
+         "GARDEN_LOW_RISE": [
+            "தனிபட்ட வீடு"
+         ],
+         "INDEPENDENT_HOUSE": [
+            "தனிபட்ட வீடு"
+         ],
+         "MULTI_FAMILY_APARTMENT": [
+            "பல குடும்ப அபார்ட்மென்ட்"
+         ],
+         "RESIDENTIAL_APARTMENT": [
+            "குடியிருப்பு அடுக்குமாடி குடியிருப்பு"
+         ],
+         "APARTMENT": [
+            "குடியிருப்புகள்"
+         ],
+         "ROW_HOUSE": [
+            "வரிசை வீடு"
+         ],
+         "PG_ACCOMMODATION": [
+            "விருந்தினர் இடவசதி"
+         ],
+         "HOTEL_AND_LODGING": [
+            "ஹோட்டல் மற்றும் தங்குமிடம்"
+         ],
+         "SERVICED_APARTMENT": [
+            "சேவையுடன் கூடிய குடியிருப்புகள்"
+         ],
+         "CONDO": [
+            "வரிசை வீடு"
+         ],
+         "RESTAURANT": [
+            "உணவகம்"
+         ],
+         "PETROL_BUNK": [
+            "பெட்ரோல் பங்க்"
+         ],
+         "ENTERTAINMENT": [
+            "பொழுதுபோக்கு"
+         ],
+         "THEATRE": [
+            "திரை அரங்கம்"
+         ],
+         "CAFE": [
+            "கஃபே"
+         ],
+         "BAR": [
+            "மது அருந்தகம் "
+         ],
+         "ELECTRICITY": [
+            "மின்சாரம்"
+         ],
+         "TELEPHONE": [
+            "தொலைபேசி"
+         ],
+         "WATER": [
+            "நீர்"
+         ],
+         "GAS": [
+            "எரிவாயு"
+         ],
+         "CABLE": [
+            "கேபிள்"
+         ],
+         "INTERNET": [
+            "இணையம்"
+         ],
+         "WIFI": [
+            "வை ஃபை"
+         ],
+         "POWERBACKUP": [
+            "மின்சார காப்பு"
+         ],
+         "CLIMATECONTROL": [
+            "வானிலை கட்டுப்பாடு"
+         ],
+         "AIRCONDITION": [
+            "குளிர் சாதனம்"
+         ],
+         "ELEVATORS": [
+            "மின் தூக்கி"
+         ],
+         "WASTEDISPOSAL": [
+            "கழிவகற்றல்"
+         ],
+         "VIDEOSURVEILLANCE": [
+            "வீடியோ கண்காணிப்பு"
+         ],
+         "CAFETERIA": [
+            "சிற்றுண்டியகம்"
+         ],
+         "SECURITY": [
+            "பாதுகாப்பு"
+         ],
+         "GYM": [
+            "உடற்பயிற்சி கூடம்"
+         ],
+         "CLUBHOUSE": [
+            "பொழுதுபோக்கு கூடம்"
+         ],
+         "CHILDCARE": [
+            "சிறுவர் பராமரிப்பு"
+         ],
+         "RECREATIONAREA": [
+            "பொழுதுபோக்கு பகுதி"
+         ],
+         "CONFERENCEROOM": [
+            "கூடும் அறை"
+         ],
+         "MAINTENANCESTAFF": [
+            "பராமரிப்பு ஊழியர்கள்"
+         ],
+         "SMOKINGZONE": [
+            "புகை மண்டலம்"
+         ],
+         "QUICKSEARCH": [
+            "விரைவு தேடல்"
+         ],
+         "NAME": [
+            "பெயர்"
+         ],
+         "OTP": [
+            "ஒரு நேர கடவுச்சொல்"
+         ],
+         "SENDOTP": [
+            "ஓடிபி அனுப்பவும்"
+         ],
+         "RESENDOTP": [
+            "மீண்டும் அனுப்பவும் ஓடிபி"
+         ],
+         "HOME": [
+            "வீடு"
+         ],
+         "SUMMARY": [
+            "தொகுப்பு"
+         ],
+         "MYSEARCHES": [
+            "என் தேடல்கள்"
+         ],
+         "FILTERS": [
+            "வடிகட்டிகள்"
+         ],
+         "SHOW": [
+            "காட்டவும்"
+         ],
+         "SAVEASDRAFT": [
+            "வரைவாக சேமி"
+         ],
+         "MAP": [
+            "வரைபடம்"
+         ],
+         "SAVE": [
+            "சேமிக்கவும்"
+         ],
+         "SUBMIT": [
+            "சமர்ப்பிக்கவும்"
+         ],
+         "FIND": [
+            "கண்டுபிடிக்கவும்"
+         ],
+         "CLEAR": [
+            "தெளிவு"
+         ],
+         "HIDE": [
+            "மறை"
+         ],
+         "RADIUS": [
+            "ஆரம்"
+         ],
+         "CLEARALL": [
+            "தெளிவு"
+         ],
+         "SORT": [
+            "வரிசைப்படுத்தவும்"
+         ],
+         "VIEWONMAP": [
+            "வரைபடத்தில் காட்டு"
+         ],
+         "ADDRESS": [
+            "முகவரி"
+         ],
+         "PROPERTYNAME": [
+            "சொத்தின் பெயர்"
+         ],
+         "PROPERTYTYPE": [
+            "பகுப்பு"
+         ],
+         "PROPERTYSUBTYPE": [
+            "சொத்து வகை்"
+         ],
+         "AREA": [
+            "பகுதி"
+         ],
+         "LOTAREA": [
+            "பகுதி ப்ளாட்"
+         ],
+         "PROPERTYDESCRIPTION": [
+            "சொத்து விளக்கம்"
+         ],
+         "HIGHLIGHTS": [
+            "சிறப்பம்சங்கள்"
+         ],
+         "CANCEL": [
+            "ரத்து"
+         ],
+         "OK": [
+            "சரி"
+         ],
+         "PHOTOS": [
+            "புகைப்படங்கள்"
+         ],
+         "ADDITIONALDOCUMENTS": [
+            "ஆவணங்கள்"
+         ],
+         "ADDVIDEOLINKS": [
+            "வீடியோக்கள்"
+         ],
+         "PROPERTYLISTINGTYPE": [
+            "விளம்பரம் வகை"
+         ],
+         "ADDITIONALDETAILS": [
+            "கூடுதல் தகவல்"
+         ],
+         "FINANCIALINFORMATION": [
+            "கண்ணோட்டம்"
+         ],
+         "FINANCIALS": [
+            "நிதிநிலை"
+         ],
+         "PRICERANGE": [
+            "விலை"
+         ],
+         "AREARANGE": [
+            "பகுதி (Sq Ft)"
+         ],
+         "MYPROFILE": [
+            "என் சுயவிவரம்"
+         ],
+         "MOBILENUMBER": [
+            "கைபேசி எண்"
+         ],
+         "MYCOMPANY": [
+            "என் நிறுவனம்"
+         ],
+         "MYLISTINGS": [
+            "என் விளம்பரங்கள்"
+         ],
+         "ABOUTUS": [
+            "எங்களை பற்றி"
+         ],
+         "CONTACTUS": [
+            "எங்களை தொடர்பு கொள்க"
+         ],
+         "FAQ": [
+            "அடிக்கடி கேட்கப்படும் கேள்விகள்"
+         ],
+         "TITLE": [
+            "விளம்பரம் தலைப்பு"
+         ],
+         "PROPERTYLISTINGSALETYPE": [
+            "பதிவிட்டவர்"
+         ],
+         "ENDDATE": [
+            "விளம்பரம் காலாவதியாகும் தேதி"
+         ],
+         "STATUS": [
+            "நிலைமை"
+         ],
+         "DISTRESSED": [
+            "இடர்பாடு ?"
+         ],
+         "DISTRESSEDSTATUS": [
+            "இடர்பாடு் நிலைமை"
+         ],
+         "SALEPRICE": [
+            "நிதி தகவல்"
+         ],
+         "LEASEPRICE": [
+            "வாடகை தகவல்"
+         ],
+         "BIDPRICE": [
+            "ஏலம் தகவல்"
+         ],
+         "BIDSTARTPRICE": [
+            "ஏலம் தொடக்க விலை"
+         ],
+         "DEPOSITAMOUNT": [
+            "பாதுகாப்பு வைப்பு"
+         ],
+         "DAYSFORFULLPAYMENT": [
+            "முழு கட்டணத்திற்கான நாட்கள்"
+         ],
+         "BIDSTARTDATE": [
+            "ஏலம் தொடக்க தேதி"
+         ],
+         "BIDENDDATE": [
+            "ஏலம் முடிவு தேதி"
+         ],
+         "COMMISSIONSPLIT": [
+            "வாங்குபவர் முகவர் கமிஷன்"
+         ],
+         "COMMISSIONPERCENTAGE": [
+            "தரகு சதவீதம்"
+         ],
+         "COMMISSIONAMOUNT": [
+            "தரகு கட்டணங்கள்"
+         ],
+         "PERSQUAREFEET": [
+            "சதுர அடிக்கு"
+         ],
+         "BASERATEPERSQUAREFEET": [
+            "அடிப்படை விகிதம் ஒரு Sq அடி"
+         ],
+         "RATEPERSQUAREFEET": [
+            "சதுர அடிக்கு ஒரு விகிதம்"
+         ],
+         "DISCLOSEADDRESS": [
+            "முகவரி வெளிப்படுத்த வேண்டுமா?"
+         ],
+         "DISCLOSEPRICE": [
+            "விலை வெளியிட வேண்டுமா?"
+         ],
+         "PRICE": [
+            "விலை"
+         ],
+         "DESPOSITAMOUNT": [
+            "வைப்புத்தொகை"
+         ],
+         "LEASEPERIOD": [
+            "ஆண்டுகளில் குத்தகை காலம்"
+         ],
+         "LEASETERM": [
+            "குத்தகை காலம்"
+         ],
+         "LEASETERMUOM": [
+            "அலகு"
+         ],
+         "SALETYPE": [
+            "பதிவிட்டவர்"
+         ],
+         "CAPRATEKNOWN": [
+            "காப்பி விகிதத்தை கணக்கிடுகிறீர்களா?"
+         ],
+         "CAPRATETYPE": [
+            "நிதி வகை"
+         ],
+         "ACTUAL": [
+            "உண்மையான"
+         ],
+         "PROFORMA": [
+            "புரோ-ஒப்படைப்புக்கான"
+         ],
+         "GROSSRENTREVENUE": [
+            "மொத்த வாடகை வருவாய்"
+         ],
+         "VACANCYLOSSES": [
+            "காலியிட இழப்புகள்"
+         ],
+         "OWNERASSOCIATIONFEE": [
+            "உரிமையாளர்கள் சங்கம் கட்டணம்"
+         ],
+         "MANAGEMENTANDLEASINGFEES": [
+            "மேலாண்மை மற்றும் குத்தகை கட்டணம்"
+         ],
+         "PROPERTYINSURANCE": [
+            "சொத்து காப்பீடு"
+         ],
+         "PROPERTYTAXES": [
+            "சொத்து வரிகள்"
+         ],
+         "PROPERTYMAINTENANCE": [
+            "சொத்து பராமரிப்பு செலவுகள்"
+         ],
+         "OTHEREXPENSES": [
+            "இதர செலவுகள்"
+         ],
+         "CALCULATEANDAPPLY": [
+            "விண்ணப்பிக்கவும்"
+         ],
+         "CALCULATENETOPERATINGINCOME": [
+            "கணக்கிட"
+         ],
+         "NETOPERATINGINCOME": [
+            "நிகர இயக்க வருமானம்"
+         ],
+         "CALCULATEDCAPRATE": [
+            "காப் மதிப்பீடு"
+         ],
+         "CAPRATE": [
+            "காப் மதிப்பீடு"
+         ],
+         "DELETE": [
+            "அகற்று"
+         ],
+         "IMAGEURLS": [
+            "புகைப்படங்கள்"
+         ],
+         "PRIMARYIDENTIFIER": [
+            "சொத்து அடையாள எண்"
+         ],
+         "TOTALAREA": [
+            "மொத்த பகுதி"
+         ],
+         "DESCRIPTION": [
+            "விளக்கம்"
+         ],
+         "AMENITIES": [
+            "வசதிகள்"
+         ],
+         "UTILITIES": [
+            "பயன்பாடுகள்"
+         ],
+         "CONDITIONS": [
+            "நிபந்தனைகள்"
+         ],
+         "LINEONE": [
+            "தெரு முகவரி"
+         ],
+         "LINETWO": [
+            "மைல்கல்"
+         ],
+         "REGION": [
+            "பகுதி"
+         ],
+         "LOCALITY": [
+            "இடம்"
+         ],
+         "CITY": [
+            "நகரம்"
+         ],
+         "STATE": [
+            "மாநிலம்"
+         ],
+         "ZIPCODE": [
+            "அஞ்சல் குறியீடு"
+         ],
+         "COUNTRY": [
+            "நாடு"
+         ],
+         "CURRENCY": [
+            "நாணயம்"
+         ],
+         "COMPANYNAME": [
+            "நிறுவனத்தின் பெயர்"
+         ],
+         "CONTACTNUMBERS": [
+            "தொடர்பு எண்கள்"
+         ],
+         "WEBSITE": [
+            "வலைத்தளம்"
+         ],
+         "WEBSITES": [
+            "வலை தளம்"
+         ],
+         "COMPANYTYPE": [
+            "நிறுவனத்தின் வகை"
+         ],
+         "SAVEDSEARCHPREFERENCES": [
+            "போட்டி அறிவிப்பு விருப்பத்தேர்வுகள்"
+         ],
+         "CONTACTPREFERENCES": [
+            "தொடர்பு விருப்பங்கள்"
+         ],
+         "CONTENTPREFERENCES": [
+            "புதிய உள்ளடக்க அறிவிப்பு விருப்பத்தேர்வுகள்"
+         ],
+         "AREASSERVED": [
+            "பணியாற்றிய பகுதிகள்"
+         ],
+         "SPECIALTIES": [
+            "சிறப்பு அம்சங்கள்"
+         ],
+         "ABOUT": [
+            "பற்றி"
+         ],
+         "YEAROFINCEPTION": [
+            "தொடங்கிய ஆண்டு"
+         ],
+         "MINDIVISIBLEAREA": [
+            "குறைந்தபட்ச பிரிக்கக்கூடிய உள்துறை பகுதி"
+         ],
+         "MAXDIVISIBLEAREA": [
+            "அதிகபட்ச பிரிக்கக்கூடிய உள்துறை பகுதி"
+         ],
+         "MAXCONTIGUOUSAREA": [
+            "அதிகபட்ச உட்புகு உள்துறை பகுதி"
+         ],
+         "YEARBUILT": [
+            "கட்டப்பட் ஆண்டு"
+         ],
+         "NUMBEROFROOMS": [
+            "அறைகள் எண்ணிக்கை"
+         ],
+         "NUMBEROFSTORIES": [
+            "அடுக்கு எண்ணிக்கை"
+         ],
+         "NUMBEROFPARKINGLOTS": [
+            "வாகனம் நிறுத்தும் இடம்கள் எண்ணிக்கை"
+         ],
+         "CONSTRUCTIONSTATUS": [
+            "கட்டுமான நிலை"
+         ],
+         "LEASEAMOUNT": [
+            "குத்தகை அளவு"
+         ],
+         "EXPENSEAMOUNT": [
+            "செலவு"
+         ],
+         "EXPENSETYPE": [
+            "செலவு வகை"
+         ],
+         "LEASEENDDATE": [
+            "இறுதி தேதி குத்தகைக்கு"
+         ],
+         "ROOMTYPE": [
+            "அறையின் வகை"
+         ],
+         "NUMBEROFWASHROOMS": [
+            "குளியலறை எண்ணிக்கை"
+         ],
+         "FURNISHEDSTATUS": [
+            "உள் வசதியுடன் ?"
+         ],
+         "UNFURNISHED": [
+            "உள் வசதி இல்லை"
+         ],
+         "SEMI_FURNISHED": [
+            "பாதி உள் வசதி"
+         ],
+         "FURNISHED": [
+            "முழு உள் வசதியுடன்"
+         ],
+         "DISTANCE": [
+            "ஆரம் தேடு"
+         ],
+         "BUILDINGAGE": [
+            "கட்டிடம் வயது (ஆண்டுகள்)"
+         ],
+         "POSTEDBY": [
+            "பதிவிட்டவர்"
+         ],
+         "PROPERTIESFOUND": [
+            "காணப்படும் சொத்துகள்"
+         ],
+         "BYRELAVANCE": [
+            "சம்பந்தம் மூலம்"
+         ],
+         "HIGHESTAREA": [
+            "பகுதி (மிகக் குறைந்தது)"
+         ],
+         "LOWESTAREA": [
+            "பகுதி (உயர்விலிருந்து உயர்வு)"
+         ],
+         "HIGHESTPRICE": [
+            "விலை (அதிகதிலிருந்து குறைவு வரை)"
+         ],
+         "LOWESTPRICE": [
+            "விலை (குறைவிலிருந்து அதிகம் வரை)"
+         ],
+         "GRID": [
+            "கட்டம்"
+         ],
+         "CHAT": [
+            "அரட்டை"
+         ],
+         "EMAIL": [
+            "மின்னஞ்சல்"
+         ],
+         "SHARE": [
+            "பகிர்"
+         ],
+         "LOGIN": [
+            "உள் நுழை"
+         ],
+         "FEATUREDREALTORS": [
+            "சிறப்பு ரியல் எஸ்டேட் முகவர்"
+         ],
+         "FEATUREDPROPERTIES": [
+            "சிறப்பு சொத்துகள்"
+         ],
+         "LOCATION": [
+            "இடம்"
+         ],
+         "INTERACTIVEMAP": [
+            "ஊடாடும் வரைபடம்"
+         ],
+         "MOREDETAILS": [
+            "கூடுதல் தகவல்கள்"
+         ],
+         "RESIDENTIAL_LAND": [
+            "வீட்டு நிலம்"
+         ],
+         "VILLA": [
+            "வில்லா"
+         ],
+         "STORE": [
+            "கடை"
+         ],
+         "LAUNDRY": [
+            "சலவை சேவைகள்"
+         ],
+         "SCHOOL": [
+            "பள்ளி"
+         ],
+         "SPA": [
+            "ஸ்பா"
+         ],
+         "CATEGORIES": [
+            "வகைகள்"
+         ],
+         "CATEGORY": [
+            "பகுப்பு"
+         ],
+         "FIXTURES": [
+            "பொருத்தப்பட்ட"
+         ],
+         "CLICKTOSEE": [
+            "அருகிலுள்ள இடங்களைக் காண கிளிக் செய்யவும்"
+         ],
+         "INTERCOM": [
+            "இண்டர்காம்"
+         ],
+         "VIDEOCONFERENCE": [
+            "வீடியோ கான்பரன்சிங்"
+         ],
+         "LAN": [
+            "உள் பகுதி நெட்வொர்க்"
+         ],
+         "ENTRYSECURITY": [
+            "நுழைவு பாதுகாப்பு"
+         ],
+         "BIOMETRICACCESS": [
+            "பயோமெட்ரிக் பாதுகாப்பு"
+         ],
+         "CHILDRENPLAYAREA": [
+            "குழந்தைகள் விடையாட்டு மைதானம்"
+         ],
+         "GARDENAREA": [
+            "தோட்டம்"
+         ],
+         "SWIMMINGPOOL": [
+            "நீச்சல் குளம்"
+         ],
+         "JOGGINGTRACK": [
+            "மெதுவோட்ட பாதை"
+         ],
+         "INDOORSPORTS": [
+            "உள்ளரங்க விளையாட்டு"
+         ],
+         "OUTDOORSPORTS": [
+            "வெளிப்புற விளையாட்டு"
+         ],
+         "DEPARTMENTSTORE": [
+            "பல்பொருள் அங்காடி"
+         ],
+         "DETAILS": [
+            "விவரங்கள்"
+         ],
+         "FEATURES": [
+            "வசதிகள்"
+         ],
+         "SPECIFICATIONS": [
+            "விருப்பம்"
+         ],
+         "FORLEASEDETAILS": [
+            "குத்தகை தகவல்"
+         ],
+         "FORSALEDETAILS": [
+            "விற்பனை தகவல்"
+         ],
+         "PRICEDETAILS": [
+            "விலை விவரம்"
+         ],
+         "BUILDINGROOMDETAILS": [
+            "அறை விபரங்கள்"
+         ],
+         "ROOMS": [
+            "மனை"
+         ],
+         "AIRPORT": [
+            "விமான"
+         ],
+         "HOSPITAL": [
+            "மருத்துவமனையில்"
+         ],
+         "BUSSTATION": [
+            "பேருந்து நிலையம்"
+         ],
+         "POLICE": [
+            "காவல் நிலையம்"
+         ],
+         "POSTOFFICE": [
+            "அஞ்சல் அலுவலகம்"
+         ],
+         "SUBWAYSTATION": [
+            "சுரங்க ரயில் நிலையம்"
+         ],
+         "TRAINSTATION": [
+            "தொடர் வண்டி நிலையம்"
+         ],
+         "SHOPPINGMALL": [
+            "பேரங்காடி"
+         ],
+         "PARKING": [
+            "பார்க்கிங்"
+         ],
+         "ATM": [
+            "ஏடிஎம்"
+         ],
+         "LODGING": [
+            "உறைவிடம்"
+         ],
+         "REALESTATEAGENCY": [
+            "ரியல் எஸ்டேட் முகவர்"
+         ],
+         "BANK": [
+            "வங்கி"
+         ],
+         "CREATELISTING": [
+            "விற்க / வாடகை சொத்து"
+         ],
+         "PHOTOSVIDEOS": [
+            "புகைப்படங்கள் மற்றும் ஆவணங்கள்"
+         ],
+         "FINISH": [
+            "பினிஷ்"
+         ],
+         "SELECTEDBUILDINGUNITCOLLAPSIBLE": [
+            "பிரிவு தகவல்"
+         ],
+         "PROPERTYCOLLAPSIBLE": [
+            "சொத்து தகவல்"
+         ],
+         "SELECTEDLOTDETAILSCOLLAPSIBLE": [
+            "ப்ளாட் தகவல்"
+         ],
+         "SELECTEDBUILDINGCOLLAPSIBLE": [
+            "கட்டிடம் தகவல்"
+         ],
+         "BUILDINGDETAILSCOLLAPSIBLE": [
+            "கட்டிடம் தகவல்"
+         ],
+         "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE": [
+            "கூடுதல் விவரங்கள்"
+         ],
+         "APARTMENTDETAILSCOLLAPSIBLE": [
+            "வசதிகள்"
+         ],
+         "ROOMSCOLLAPSIBLE": [
+            "அறை தகவல்"
+         ],
+         "SECURITYSTAFF": [
+            "பாதுகாப்பு ஊழியர்கள்"
+         ],
+         "MAINTENANCECHARGES": [
+            "மாதாந்திர பராமரிப்பு கட்டணங்கள்"
+         ],
+         "RENTALAMOUNT": [
+            "வாடகை தொகை"
+         ],
+         "COVEREDPARKING": [
+            "மூடப்பட்ட பார்க்கிங்"
+         ],
+         "YES": [
+            "ஆமாம்"
+         ],
+         "NO": [
+            "இல்லை"
+         ],
+         "UNITTYPE": [
+            "அலகு வகை"
+         ],
+         "CONFIRM": [
+            "உறுதிப்படுத்தவும்"
+         ],
+         "AVAILABLEDATE": [
+            "உடைமை தேதி"
+         ],
+         "WELCOMETO": [
+            "வரவேற்கிறோம்"
+         ],
+         "ADDNEW": [
+            "புதிதாக சேர்க்கவும்"
+         ],
+         "LOCATEME": [
+            "எனது இடத்தைப் பயன்படுத்து"
+         ],
+         "ENTERPREFEREDLOCATION": [
+            "முகவரி / லாண்ட்மார்க் / தெரு முகவரி சேர்க்கவும்"
+         ],
+         "REGISTER": [
+            "பதிவு"
+         ],
+         "ACTIVELISTINGS": [
+            "சமீபத்திய விளம்பரங்கள்"
+         ],
+         "CLEARSEARCH": [
+            "தெளிவு"
+         ],
+         "SEARCHBYPROPERTYNAME": [
+            "சொத்து பெயர் / தெரு முகவரி"
+         ],
+         "SEARCHBYREALTORNAME": [
+            "Realtor / Broker பெயர்"
+         ],
+         "SEARCHBYPROFESSIONALNAME": [
+            "சேவை வழங்குநர் பெயர்"
+         ],
+         "SEARCH": [
+            "தேடல்"
+         ],
+         "DOCUMENTSGALLERY": [
+            "பதிவேற்றப்பட்ட ஆவணங்கள்"
+         ],
+         "PHOTOSGALLERY": [
+            "புகைப்படங்கள் தொகுப்பு"
+         ],
+         "PROPERTY": [
+            "சொத்து"
+         ],
+         "UNIT": [
+            "அலகு"
+         ],
+         "PROPSHUBREGISTRATION": [
+            "2018 Propshub அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை"
+         ],
+         "CALLUS": [
+            "எங்களை அழைப்புக்கு"
+         ],
+         "EMAILUS": [
+            "எங்களை மின்னஞ்சல்"
+         ],
+         "SIGNIN": [
+            "உள் நுழை"
+         ],
+         "SETTINGS": [
+            "அமைப்புகள்"
+         ],
+         "BACKTO": [
+            "மீண்டும்"
+         ],
+         "POSTEDON": [
+            "posted On"
+         ],
+         "LIST": [
+            "பட்டியல்"
+         ],
+         "SAVESEARCH": [
+            "சேமி தேடல்"
+         ],
+         "NEWLYLISTED": [
+            "மிக சமீபத்தில் வெளியிட்டது"
+         ],
+         "NEXT": [
+            "அடுத்த"
+         ],
+         "ALL": [
+            "அனைத்து"
+         ],
+         "IMAGES": [
+            "புகைப்படங்கள்"
+         ],
+         "BACKTOMAP": [
+            "முந்தைய படி"
+         ],
+         "PREVIOUS": [
+            "முந்தைய"
+         ],
+         "LOADINGDATA": [
+            "வேலை !!!"
+         ],
+         "GAS_STATION": [
+            "பெட்ரோல் பங்க்"
+         ],
+         "GASSTATION": [
+            "பெட்ரோல் பங்க்"
+         ],
+         "CITYLOCATION": [
+            "பெருநகரம் அல்லது இருப்பிட"
+         ],
+         "TONS": [
+            "டன்கள்"
+         ],
+         "YRS": [
+            "வருடங்கள்"
+         ],
+         "MI": [
+            "மைல்கள்"
+         ],
+         "KM": [
+            "கிலோமீட்டர்கள்"
+         ],
+         "PERCENTAGE": [
+            "சதவிதம்"
+         ],
+         "FT": [
+            "அடி"
+         ],
+         "AMOUNT": [
+            "தொகை"
+         ],
+         "SQFT": [
+            "சதுர அடி"
+         ],
+         "AGENT": [
+            "முகவர்"
+         ],
+         "HELP": [
+            "ஒரு கேள்வி கேள்"
+         ],
+         "TYPE": [
+            "வகை"
+         ],
+         "PROPERTYFORSALE": [
+            "விற்பனை பண்புகள்"
+         ],
+         "PROPERTYFORLEASE": [
+            "வாடகை"
+         ],
+         "REALTORSANDBROKERS": [
+            "நிலவிற்பனையாளர்கள்"
+         ],
+         "MORESEARCHOPTIONS": [
+            "மேலும் விருப்பங்கள்"
+         ],
+         "VACATIONRENTAL": [
+            "விடுமுறை வாடகை"
+         ],
+         "REALTOR": [
+            "Realtor / Broker"
+         ],
+         "PROFESSIONAL": [
+            "சேவை வழங்குபவர்கள்"
+         ],
+         "PHONE": [
+            "தொலைபேசி எண்"
+         ],
+         "OWNER": [
+            "பதிவிட்டவர்"
+         ],
+         "CONTACTACTIONS": [
+            "தொடர்பு விருப்பங்கள்"
+         ],
+         "STARTTIME": [
+            "ஹவர் தொடக்க நேரம் பார்வையிடுவது"
+         ],
+         "ENDTIME": [
+            "ஹவர் முடிவு நேரம் பார்வையிடுவது"
+         ],
+         "ADDOPENHOUSETIME": [
+            "மற்றொரு தேதி சேர்"
+         ],
+         "HOURS": [
+            "நேரம் தேர்வு"
+         ],
+         "OPENHOUSEDATE": [
+            "திறந்த ஹவுஸ் தேதி"
+         ],
+         "SCHEDULEOPENHOUSE": [
+            "திறந்த ஹவுஸ் அட்டவணை"
+         ],
+         "OPENHOUSETIMES": [
+            "திறந்த ஹவுஸ் அட்டவணை"
+         ],
+         "INDIVIDUAL": [
+            "தனிப்பட்ட"
+         ],
+         "COMPANY": [
+            "நிறுவனம்"
+         ],
+         "BROKERAGEFIRM": [
+            "ரியல் எஸ்டேட் ஏஜென்சி"
+         ],
+         "SIMILARLISTINGS": [
+            "நீயும் விரும்புவாய்"
+         ],
+         "SIGNUPAS": [
+            "போன்ற பதிவு"
+         ],
+         "LOADMORE": [
+            "அதிகமாக ஏற்று"
+         ],
+         "SEND": [
+            "அனுப்பு"
+         ],
+         "SENDEMAIL": [
+            "மின்னஞ்சல் அனுப்பு"
+         ],
+         "IN": [
+            "இந்தியா"
+         ],
+         "US": [
+            "அமெரிக்கா"
+         ],
+         "CA": [
+            "கனடா"
+         ],
+         "AR": [
+            "அர்ஜென்டீனா"
+         ],
+         "CO": [
+            "கொலம்பியா"
+         ],
+         "BR": [
+            "பிரேசில்"
+         ],
+         "MX": [
+            "மெக்ஸிக்கோ"
+         ],
+         "USD": [
+            "அமெரிக்க டாலர்"
+         ],
+         "CAD": [
+            "கனடிய டாலர்"
+         ],
+         "MXN": [
+            "மெக்சிகன் பெசோ"
+         ],
+         "BRL": [
+            "பிரேசிலியன் ரியல்"
+         ],
+         "ARS": [
+            "அர்ஜென்டினா பெசோ"
+         ],
+         "COP": [
+            "கொலம்பிய பெசோ"
+         ],
+         "INR": [
+            "இந்திய ரூபாய்"
+         ],
+         "SITECAPTION": [
+            "ரியல் எஸ்டேட் முதலீட்டாளர்களுக்கான உலகளாவிய மையம்"
+         ],
+         "CAPTION": [
+            "தேடுக ..."
+         ],
+         "PROPERTYNULLRESULTSTITLE": [
+            "இல்லை பண்புகள் உள்ளன. தயவு செய்து மீண்டும் முயற்சிக்கவும்."
+         ],
+         "REALTORNULLRESULTSTITLE": [
+            "இல்லை தரகர்கள் / தரகர்கள் இல்லை. தயவு செய்து மீண்டும் முயற்சிக்கவும்."
+         ],
+         "PROFESSIONALNULLRESULTSTITLE": [
+            "இல்லை சேவை வழங்குனர்கள் உள்ளன. தயவு செய்து மீண்டும் முயற்சிக்கவும்."
+         ],
+         "REALTORNULLRESULTSMESSAGE": [
+            "உங்கள் தேடுதலுக்கான உரிமையாளர்கள் / ப்ரோக்கர்கள் கிடைக்கவில்லை எனத் தெரிகிறது. தயவு செய்து உங்கள் தேடலின் அளவை விரிவாக்கவும் அல்லது பின்னர் சரிபார்க்கவும்."
+         ],
+         "PROFESSIONALNULLRESULTSMESSAGE": [
+            "உங்கள் தேடல் நெறிமுறைக்கு எந்த சேவை வழங்குநர்கள் எதுவும் இல்லாததுபோல் தெரிகிறது. உங்கள் தேடல் நிபந்தனையுடன் விரிவுபடுத்த அல்லது பின்னர் வந்து சரிபார்க்கவும்."
+         ],
+         "PROPERTYNULLRESULTSMESSAGE": [
+            "உங்கள் தேடல் நெறிமுறைக்கு எந்த பண்புகள் எதுவும் இல்லாததுபோல் தெரிகிறது. உங்கள் தேடல் நிபந்தனையுடன் விரிவுபடுத்த அல்லது பின்னர் வந்து சரிபார்க்கவும்."
+         ],
+         "PROPERTYTOOMANYRESULTS": [
+            "உங்கள் தேடலுக்கு நிபந்தனையுடன் ஒத்துப்போகும் பல பண்புகள் காணப்படும். உங்கள் தேடல் நிபந்தனையுடன் அதிகரிக்கவும், மீண்டும் முயற்சிக்கவும்."
+         ],
+         "PROFESSIONALTOOMANYRESULTS": [
+            "உங்கள் தேடலுக்கு நிபந்தனையுடன் ஒத்துப்போகும் பல சேவை வழங்குநர்கள் கண்டறியப்பட்டது. உங்கள் தேடல் நிபந்தனையுடன் அதிகரிக்கவும், மீண்டும் முயற்சிக்கவும்."
+         ],
+         "BROKERAGEFIRMINFOCOLLAPSIBLE": [
+            "தொழில்முறை சுருக்கம்"
+         ],
+         "COMPANYINFOCOLLAPSIBLE": [
+            "தொழில்முறை சுருக்கம்"
+         ],
+         "PROFESSIONALSCOLLAPSIBLE": [
+            "தொடர்புடைய சேவை வழங்குனர்கள்"
+         ],
+         "REALTORSCOLLAPSIBLE": [
+            "தொடர்புடைய பதிப்பாளர்கள் / தரகர்கள்"
+         ],
+         "ADDPROFESSIONAL": [
+            "ஒரு சேவை வழங்குநரைச் சேர்"
+         ],
+         "ADDREALTOR": [
+            "ஒரு பதிலாள் / தரகர் சேர்க்கவும்"
+         ],
+         "TERMSCONDITIONS": [
+            "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+         ],
+         "AUTHORIZEDPERSONNEL": [
+            "இந்த கம்பனியின் தகவலை புதுப்பிக்க எனக்கு அதிகாரம் உள்ளது"
+         ],
+         "TERMSCONDITIONSTITLE": [
+            "நான் அதை படித்தேன் எனக்கு சம்மதம்"
+         ],
+         "LISTINGPENDINGTITLE": [
+            "உங்கள் பட்டியல் ஒப்புதல் நிலுவையில் உள்ளது"
+         ],
+         "LISTINGACTIVETITLE": [
+            "உங்கள் விளம்பரம் செயலில் உள்ளது"
+         ],
+         "LISTINGPENDINGDESCRIPTION": [
+            "உங்கள் சொத்து பட்டியலுக்கு நன்றி. உங்கள் கோரிக்கை ஆன்லைனில் வெளியிடப்படுவதற்கு முன்பே உள்ளடக்க மதிப்பீட்டிற்காக காத்திருக்கிறது. தயவு செய்து உங்கள் பதிவு செய்த மின்னஞ்சலை சரிபார்க்கவும்."
+         ],
+         "LISTINGACTIVEDESCRIPTION": [
+            "எப்போது வேண்டுமானாலும் உங்கள் விளம்பரத்தை மேம்படுத்தலாம். உங்கள் விளம்பரத்தை மாற்ற கீழே உள்ள திருத்த பொத்தானை கிளிக் செய்யவும்"
+         ],
+         "LISTINGCONFIRMATIONDESCRIPTION": [
+            "உங்கள் உறுதிபடுத்துவதற்கு முன் உங்கள் விளம்பரம் முன்னோட்டத்தை கொள்ளவும். நீங்கள் உறுதிப்படுத்தியதும், அது உங்கள் விளம்பரம் ஆன்லைனில் வெளியிடப்பட்ட பெற ஒரு சில நிமிடங்கள் எடுக்கும்."
+         ],
+         "MANDATORYMESSAGE": [
+            "நீங்கள் தேவையான அனைத்து துறைகள் மதிப்புகளை நுழைய கீழே குறிப்பு என்று உறுதிசெய்யவும்"
+         ],
+         "LISTINGDRAFTMODE": [
+            "இந்தப் பக்கம், நீங்கள் முன்னோட்டத்தைச் உள்ளது. அது பிற பார்வையாளர்கள் காணும்படி இருக்க இன்னும் மாட்டேன்"
+         ],
+         "PROPERTYEMAILMESSAGE": [
+            "நான் உங்கள் சொத்து ஆர்வமாக இருக்கிறேன்"
+         ],
+         "PERSONEMAILMESSAGE": [
+            "நான் உங்கள் சேவைகளைப் பெற விரும்புகிறேன்"
+         ],
+         "RSVPEMAILMESSAGE": [
+            "% S இல் ஓபன் ஹவுஸில் உள்ள சொத்துக்களை நான் பார்க்கிறேன்"
+         ],
+         "ENTERRSVPMESSAGE": [
+            "% S க்கு RSVP ஐ அனுப்பவும்"
+         ],
+         "ENTEREMAILMESSAGE": [
+            "% S க்கு செய்தியை எழுதுக"
+         ],
+         "RESIDENTIALSUBTYPEINVALID": [
+            "தவறான வீட்டு சொத்து சப் வகை"
+         ],
+         "PROFESSIONINVALID": [
+            "தொழில் தவறானது"
+         ],
+         "UPLOADING": [
+            "பதிவேற்றுகிறது !!!"
+         ],
+         "UPLOADSUCCESS": [
+            "வெற்றிகரமாக பதிவேற்றம் செய்யப்பட்டது !!!"
+         ],
+         "MYPREFERENCES": [
+            "எனது விருப்பங்கள்"
+         ],
+         "MYCONTACTS": [
+            "எனது தொடர்புகள்"
+         ],
+         "NOTIFICATIONS": [
+            "எனது அறிவிப்புகள்"
+         ],
+         "REMOVE": [
+            "சொத்து இனிய சந்தை"
+         ],
+         "EDIT": [
+            "தொகு"
+         ],
+         "VIEW": [
+            "காண்க"
+         ],
+         "ENTERLOCATION": [
+            "சொத்து பெயர் / முகவரி / தனித்துவமான / இருப்பிடத்தைத் உள்ளிடவும்"
+         ],
+         "PUBLISH": [
+            "வெளியிடு"
+         ],
+         "NUMBEROFBEDROOMS": [
+            "படுக்கையறைகள் எண்ணிக்கை"
+         ],
+         "OFFLINEMESSAGE": [
+            "% S ஆஃப்லைனில் உள்ளது. மின்னஞ்சலை அனுப்ப இங்கு கிளிக் செய்க"
+         ],
+         "PROVIDESEARCHNAME": [
+            "உங்கள் தேடலுக்கு ஒரு பெயரை வழங்கவும்"
+         ],
+         "PERCENTAGEOFCOMPLETION": [
+            "நிறைவு நிலை"
+         ],
+         "FINANCIALCOMPLETIONGROUP": [
+            "நிதிநிலை"
+         ],
+         "LISTINGCOMPLETIONGROUP": [
+            "விளம்பரம் தகவல்"
+         ],
+         "PROPERTYCOMPLETIONGROUP": [
+            "சொத்து விவரங்கள்"
+         ],
+         "ADDITIONALCOMPLETIONGROUP": [
+            "கூடுதல் தகவல்"
+         ],
+         "MISSINGFIELDS": [
+            "காணாத புலங்கள்"
+         ],
+         "VIDEOSTABTITLE": [
+            "உங்கள் வீடியோக்களுக்கான URL ஐ வழங்கவும்"
+         ],
+         "TAGFILE": [
+            "உங்கள் புகைப்படத்தை லேபிளிடுங்கள்"
+         ],
+         "SAVEEXIT": [
+            "வரைவு & வெளியேறு சேமிக்க"
+         ],
+         "SENDINGEMAIL": [
+            "மின்னஞ்சல் அனுப்புகிறது ..."
+         ],
+         "EMAILSENT": [
+            "மின்னஞ்சல் அனுப்பப்பட்டது"
+         ],
+         "PRIVACYPOLICY": [
+            "தனியுரிமை கொள்கை"
+         ],
+         "CAPTION1": [
+            "இலவச ஃபிளையர்கள் மற்றும் அறிக்கைகள் உருவாக்குதல்"
+         ],
+         "CAPTION2": [
+            "ஒரு சில கிளிக்குகளில் ஆராய்ந்து பாருங்கள்"
+         ],
+         "CAPTION3": [
+            "மதிப்பு சேர்க்க & விடுமுறை வாடகைகளின் வாகன அடையாளம்"
+         ],
+         "CAPTION4": [
+            "பண்புகள் ஒப்பிடுவதற்கு விலை பகுப்பாய்வு வரைபடங்கள் காண்க"
+         ],
+         "CAPTION5": [
+            "ஒவ்வொரு பகுதியின் விரிவான புள்ளிவிவரங்கள்"
+         ],
+         "CAPTION6": [
+            "உடனடியாக ரியல் எஸ்டேட் நிபுணர்களுடன் இணைக"
+         ],
+         "PROFILECOMPLETION": [
+            "உங்கள் சுயவிவரத்தை மேம்படுத்தவும்"
+         ],
+         "USERCOMPLETIONGROUP": [
+            "சுயவிவர விவரங்கள்"
+         ],
+         "REALTORSANDBROKERSSEARCHOPTIONINFO": [
+            "ரியல் எஸ்டேட் முகவர்"
+         ],
+         "INCOME_SPECIALIST": [
+            "வருமான நிபுணர்"
+         ],
+         "WELCOME": [
+            "வரவேற்கிறோம்"
+         ],
+         "LOGOUT": [
+            "வெளியேறு"
+         ],
+         "LEGAL": [
+            "சட்டம்"
+         ],
+         "LOGINHEADING": [
+            "புகுபதிகை அல்லது பதிவு செய்யவும்"
+         ],
+         "RESIDENTIAL_LENDING": [
+            "வீட்டு கடன்"
+         ],
+         "COMMERCIAL_LENDING": [
+            "வணிக கடன்"
+         ],
+         "URBAN_PLANNING": [
+            "நகர திட்டமிடல் / சிவில் பொறியியல்"
+         ],
+         "BACK_OFFICE_SPECIALIST": [
+            "பின் அலுவலகம் சிறப்பு"
+         ],
+         "OTHER_SPECIALTY": [
+            "மற்ற"
+         ],
+         "COMMERCIAL_APPRAISER": [
+            "வணிக மதிப்பீடு"
+         ],
+         "GENERAL_APPRAISER": [
+            "பொது மதிப்பீடு"
+         ],
+         "RESIDENTIAL_APPRAISER": [
+            "வீட்டு மதிப்பீடு"
+         ],
+         "PROPERTY_INSPECTOR": [
+            "சொத்து இன்ஸ்பெக்டர்"
+         ],
+         "PROPERTY_MANAGER": [
+            "சொத்து மேலாளர்"
+         ],
+         "LICENSE": [
+            "உரிமம்"
+         ],
+         "LICENSENUMBER": [
+            "உரிம எண்"
+         ],
+         "LICENSEJURISDICTION": [
+            "உரிமம் Jurisdiction"
+         ],
+         "LICENSEISSUINGAUTHORITY": [
+            "உரிமம் வழங்கும் ஆணையம்"
+         ],
+         "APPRENTICEINSPECTOR": [
+            "பயிற்சி இன்ஸ்பெக்டர்"
+         ],
+         "AUCTIONEER": [
+            "ஏல நிறுவனம்"
+         ],
+         "CERTIFIEDGENERALAPPRAISER": [
+            "சான்றளிக்கப்பட்ட பொது மதிப்பீடு"
+         ],
+         "CERTIFIEDRESIDENTIALAPPRAISER": [
+            "சான்றளிக்கப்பட்ட வீட்டு மதிப்பீடு"
+         ],
+         "LEASING_AGENT": [
+            "குத்தகை முகவர்"
+         ],
+         "LICENSEDAPPRAISER": [
+            "உரிமம் பெற்ற மதிப்பீடு"
+         ],
+         "LICENSEDINSPECTOR": [
+            "உரிமம் பெற்ற இன்ஸ்பெக்டர்"
+         ],
+         "MORTGAGE_BROKER": [
+            "அடமான தரகர்கள்"
+         ],
+         "REALESTATEBROKER": [
+            "நிலத்தரகர்"
+         ],
+         "REGISTEREDAPPRAISER": [
+            "பதிவு செய்யப்பட்ட மதிப்பீட்டாளர்"
+         ],
+         "REGISTEREDINSPECTOR": [
+            "பதிவுசெய்யப்பட்ட இன்ஸ்பெக்டர்"
+         ],
+         "PROPERTYMANAGEMENT": [
+            "சொத்து மேலாண்மை"
+         ],
+         "RENTALPROPERTYMANAGEMENT": [
+            "வாடகை சொத்து மேலாண்மை"
+         ],
+         "SALESPERSON": [
+            "விற்பனையாளர்"
+         ],
+         "APPRAISAL": [
+            "மதிப்பீடு"
+         ],
+         "LAND_DEVELOPMENT": [
+            "நில அபிவிருத்தி"
+         ],
+         "SECURITIESANDSYNDICATION": [
+            "பத்திரங்கள் மற்றும் சிண்டிகேஷன்"
+         ],
+         "COUNSELING": [
+            "ஆலோசனை"
+         ],
+         "RESEARCH": [
+            "ஆராய்ச்சி"
+         ],
+         "SITEURL": [
+            "வலைத்தளம்"
+         ],
+         "TWITTERHANDLE": [
+            "ட்விட்டர் வலைத்தளம்"
+         ],
+         "FACEBOOK": [
+            "பேஸ்புக் வலைத்தளம்"
+         ],
+         "BLOG": [
+            "வலைப்பதிவு வலைத்தளம்"
+         ],
+         "LINKEDIN": [
+            "சென்டர் URL ஐ"
+         ],
+         "EMAILID": [
+            "மின்னஞ்சல் முகவரி"
+         ],
+         "PASSWORD": [
+            "கடவுச்சொல்"
+         ],
+         "FORGOTPASSWORD": [
+            "கடவுச்சொல் மறந்து விட்டீர்களா ?"
+         ],
+         "SIGNUP": [
+            "பதிவு செய்க"
+         ],
+         "REMEMBERME": [
+            "என்னை ஞாபகம் வைத்து கொள்"
+         ],
+         "PROPERTYIMAGEMISSING": [
+            "புகைப்படங்கள் இல்லை"
+         ],
+         "PROFESSIONINFOCOLLAPSIBLE": [
+            "தொழில்பணித் தகவல்"
+         ],
+         "CONTACTCOLLAPSIBLE": [
+            "தொடர்பு தகவல்"
+         ],
+         "EXPERTISE": [
+            "நிபுணத்துவம் பகுதிகள்"
+         ],
+         "OTHERCONTACTNUMBERS": [
+            "மற்ற தொடர்பு எண்கள்"
+         ],
+         "CONTACTNUMBERTYPE": [
+            "தொடர்பு எண் வகை"
+         ],
+         "CONTACTNUMBER": [
+            "தொடர்பு எண்"
+         ],
+         "WEBSITETYPE": [
+            "வலை தளம் வகை"
+         ],
+         "PROFESSIONALSINCE": [
+            "தொழில்முறை என்பதால்"
+         ],
+         "AREAS": [
+            "இடங்களில் சேவைக்கான"
+         ],
+         "YEARSOFEXPERIENCE": [
+            "அனுபவம் வருடங்கள்"
+         ],
+         "MAPSEARCHUSAGEINFO": [
+            "உங்கள் நகரத்தை / சுற்றுப்புறத்தை கண்டுபிடித்து வரம்பு வரையறுக்க ஒரு வட்டம் / செவ்வகத்தை வரையவும்"
+         ],
+         "CHOOSELOCATIONONMAP": [
+            "வரைபடத்தில் உங்கள் விருப்பமான இடத்தை குறிப்பிடுவதற்கு இங்கே கிளிக் செய்க"
+         ],
+         "FEEDBACKSENTFAIL": [
+            "உங்கள் கருத்துக்களை அனுப்புவதில் சிக்கல் ஏற்பட்டது. தயவு செய்து மீண்டும் முயற்சிக்கவும்…"
+         ],
+         "FEEDBACKSENTSUCCESS": [
+            "உங்கள் கருத்துக்கு நன்றி. சீக்கிரம் உங்களிடம் நாங்கள் பதிலளிக்கிறோம்."
+         ],
+         "COULDNOTFETCHLOCATION": [
+            "உங்கள் இருப்பிடத்தை எங்களால் பெற முடியவில்லை"
+         ],
+         "NETOPERATINGINCOMETOOLTIP": [
+            "நிகர இயக்க வருமானம் (NOI) வருடாந்த வருமானம் சொத்துடனிலிருந்து சேகரிக்கப்பட்ட வருமானம் உட்பட, வருடாந்த வருமானம், மற்றும் நடவடிக்கைகளிலிருந்து அனைத்து செலவினங்களையும் கழித்தல்"
+         ],
+         "CAPRATETOOLTIP": [
+            "மூலதன விகிதம் அல்லது தொப்பி விகிதம், சொத்து சொத்து மதிப்பு அல்லது கேட்கும் விலைக்கான நிகர இயக்க வருவாய் (NOI)"
+         ],
+         "WIDGETMEDIANPRICE": [
+            "மத்தியதர விலைகள் பட்டியலிடப்பட்டுள்ள அனைத்து சொத்துக்களின் விலைகளையும் அடிப்படையாகக் கொண்டவை"
+         ],
+         "SYSTEMGENERATEDVALUENOTE": [
+            "குறிப்பிடத்தக்க புலங்களில் வழங்கப்பட்ட மதிப்பிடப்பட்ட மதிப்புகள் தற்போதைய சந்தை நிலைமைகள், வரலாற்று தரவு மற்றும் பிற காரணிகளின் அடிப்படையில் அமைந்தால் கணக்கிடப்படும் என்பதை நினைவில் கொள்க."
+         ],
+         "RENTINCREMENTPERCENTAGETOOLTIP": [
+            "வரலாற்று மற்றும் நடைமுறையில் இருக்கும் சந்தை நிலைமைகள் குறித்து மதிப்பீடு செய்யப்படும் ஆண்டு வருடாந்திர அதிகரிப்புகளை வழங்குதல்"
+         ],
+         "COSTBASISTOOLTIP": [
+            "இது முதலீட்டிற்கான செலவின அடிப்படையாகும், இது கேட்டு விலை மற்றும் ஆரம்ப மேம்பாட்டு செலவினங்களை கருத்தில் கொள்ளும். செலவு அடிப்படை = கேட்கும் விலை + ஆரம்ப மேம்பாட்டு செலவு"
+         ],
+         "TOTALINVESTMENTCOSTTOOLTIP": [
+            "இது முதலீட்டிற்கான செலவின அடிப்படையாகும், இது கேட்கும் விலை, மூடுதல் செலவு மற்றும் ஆரம்ப மேம்பாட்டு செலவுகள் ஆகியவற்றை கருத்தில் கொள்ளும்."
+         ],
+         "ANNUALTAXABLEINCOMETOOLTIP": [
+            "சொத்துக்களை பராமரிப்பதில் ஏற்படும் செலவினங்களை கணக்கில் எடுத்துக் கொண்டபின் வருடாந்திர வரி வருவாய் வருமானம் இது"
+         ],
+         "DEPRECIATIONPERCENTAGETOOLTIP": [
+            "சாதாரண உடைகள் மற்றும் கண்ணீர் மற்றும் நிலையான தேய்மான விகிதங்கள் கருத்தில் சொத்து மதிப்பு மதிப்பிடப்பட்ட ஆண்டு தேய்மானத்தை வழங்கும்"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP": [
+            "வரலாற்று மற்றும் நிலவும் சந்தை நிலைமைகள் கருத்தில் உள்ள சொத்து மதிப்பு மதிப்பிடப்பட்ட ஆண்டு பாராட்டுக்களை வழங்கவும்"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP": [
+            "அடமானம் இல்லாமல் ஆரம்ப முதலீடு இது கேட்கும் விலை, மூடுவது செலவுகள் மற்றும் மேம்பாட்டு செலவுகள் ஆரம்ப முதலீடு இல்லாமல் அடமானம் = கேட்கும் விலை + மூடல் செலவு + ஆரம்ப முன்னேற்றம்"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP": [
+            "சொத்துக்களை பராமரிப்பதில் ஏற்படும் செலவினங்களை கணக்கில் எடுத்துக் கொண்ட பிறகு வருடாந்திர வரிவிலக்கு வருவாய் இது. அடமானம் இல்லாமல் வருடாந்திர வரிவிலக்கு வருமானம் = நிகர இயக்க வருவாய் - தேய்மானம் மதிப்பு"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGETOOLTIP": [
+            "அடமானம் கருத்தில் எடுத்துக் கொள்ளப்பட்ட பிறகு இது ஆரம்ப முதலீடு ஆகும். தொடக்க முதலீடு = டவுன் கொடுப்பனவு + ஆரம்ப மேம்பாட்டு செலவுகள் + மூடல் செலவு"
+         ],
+         "COSTBASISWITHMORTGAGETOOLTIP": [
+            "இது இலவச பணப் பாய்ச்சல் ஆகும். இது கடனைச் செலுத்துவதற்குப் பிறகு இலவச பணப் பாய்வு = நிகர இயக்க வருவாய் - கடன் சேவை"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP": [
+            "இது வரி வருமானம் காசுப் பாய்ச்சல் = வருடாந்திர இலவச காசுப் பாய்ச்சல்-தேய்மான மதிப்பை பராமரிப்பதில் ஏற்படும் செலவினங்களை கணக்கில் எடுத்துக் கொண்ட பிறகு வருடாந்திர வரிவிலக்கு வருமானம்."
+         ],
+         "SALECLOSINGCOSTTOOLTIP": [
+            "கமிஷன் கவுன்சிலிங், கவுண்டி கட்டணங்கள், முதலியவற்றை மதிப்பீடு செய்யுங்கள்"
+         ],
+         "CLOSINGCOSTTOOLTIP": [
+            "கமிஷன்கள், கவுண்டி கட்டணம், முதலியன கருத்தில் கொள்முதல் செய்யப்படும் கொள்முதல் விலைக் கட்டணத்தை வழங்குதல்"
+         ],
+         "INITIALIMPROVEMENTCOSTTOOLTIP": [
+            "கொள்முதல் செய்த பின்னர் சொத்துக்களை மேம்படுத்துவதற்கு தேவையான மூலதன முதலீட்டை வழங்கவும். பொதுவாக, இது மதிப்பு சேர்க்கப்பட்ட பண்புகளுக்கு அதிகமானது"
+         ],
+         "OWNERASSOCIATIONFEETOOLTIP": [
+            "உரிமையாளர் சங்கத்திற்கு செலுத்த வேண்டிய வருடாந்திர கட்டணத்தை வழங்குதல்"
+         ],
+         "EMICOSTTOOLTIP": [
+            "இது நிலையான வட்டி விகிதங்களை கருத்தில் கொண்டு மதிப்பிடப்பட்ட மாதாந்திர அடமான தொகை ஆகும். வங்கி மற்றும் கிரெடிட் ஸ்கோர் மூலம் வசூலிக்கப்படும் வட்டி விகிதத்தின் அடிப்படையில் உண்மையான அடமான தொகை மாறுபடும்"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP": [
+            "இது க்ளோசிங் செலவுகள், கட்டணம் செலுத்துதல், முதலியவற்றைக் கருத்தில் கொண்டு ஆரம்ப முதலீடு ஆகும்"
+         ],
+         "CASHONCASHRETURNPERCENTAGETOOLTIP": [
+            "இது அடமான தொகையை கணக்கில் எடுத்துக் கொள்ளும் சொத்தில் முதலீடு செய்யப்பட்ட பணத்தில் சம்பாதித்த ரொக்க வருவாயைக் கணக்கிடும் வீத வீதமாகும்."
+         ],
+         "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP": [
+            "மொத்த முதலீட்டு முதலீட்டோடு தொடர்புடைய சொத்துகளில் முதலீடு செய்யப்பட்ட பணத்தில் சம்பாதித்த ரொக்க வருவாயைக் கணக்கிடும் வீதத்தின் வீதமாகும் இது."
+         ],
+         "HOMEFORSALESEARCHOPTIONINFO": [
+            "விற்பனைக்கு வீடுகளுக்கான தேடல்"
+         ],
+         "PROPERTYFORLEASESEARCHOPTIONINFO": [
+            ""
+         ],
+         "PROFESSIONALSEARCHOPTIONINFO": [
+            "சேவை வழங்குனர்கள் அல்லது வல்லுநர் சித்தரிக்கப்பட்டனர், ஓவியர்கள், ஒப்பந்ததாரர்கள் போன்ற ரியல் எஸ்டேட் சேவை தேடல்"
+         ],
+         "LOCATIONPREFUSAGEINFO": [
+            "வரம்புகளை வரையறுக்க ஒன்று அல்லது அதற்கு மேற்பட்ட விருப்பமான இடங்கள் மற்றும் தேடல் ஆரம் சேர்க்கவும்"
+         ],
+         "CAPRATERANGETOOLTIP": [
+            "ஏற்கனவே வாடகை வருவாயை உருவாக்கும் பண்புகளை நீங்கள் தேடுகிறீர்கள் என்றால், தொப்பி விகிதத்திற்கான மேல் மற்றும் கீழ் வரம்பு மதிப்புகள் வழங்கவும்"
+         ],
+         "INVESTMENTCATEGORIESTOOLTIP": [
+            "உங்கள் தேடலுக்கான முதலீட்டுப் பகுதியை வழங்கவும்: இது முன்கூட்டப்படாத, குறைவான அபாயகரமான / குறைவான அபாயகரமான முதலீடு ஆகும். கோர் ப்ளஸ்: இது ஒரு மிதமான-அபாய / மிதமான-வருவாய் முதலீடு ஆகும், இது மேம்பாடுகள் தேவைப்படக்கூடாது. மதிப்பு சேர்க்கப்பட்டது: இது ஒரு நடுத்தர முதல் உயர்-ஆபத்து / நடுத்தர-உயர்-உயர் முதலீட்டு முதலீடு ஆகும், இது மேம்பாடுகள் அல்லது மூலதன ஊடுபாதை அல்லது பிற மாற்றங்கள் தேவைப்படுகிறது. அபிவிருத்தி வாய்ப்பு: இது அதிக அபாயகரமான / உயர்தர முதலீடு ஆகும், இது அதிக அளவு விரிவாக்கம் அல்லது பிற அபாயங்கள் தேவைப்படுகிறது."
+         ],
+         "NUMBERONLY": [
+            "தயவுசெய்து செல்லுபடியாகும் எண்ணை நுழைய"
+         ],
+         "MAXVALUE": [
+            "சரியான மதிப்பை குறைவாக நுழைய"
+         ],
+         "MAXLENGTH": [
+            "எழுத்துக்கள் அதிகபட்ச அனுமதிக்கப்படுவதில்லை"
+         ],
+         "MINLENGTH": [
+            "எழுத்துக்கள் குறைந்தபட்ச எண் தேவையான"
+         ],
+         "EMAILIDREQUIRED": [
+            "மின்னஞ்சல் ஐடி தேவை"
+         ],
+         "EMAILPATTERNERROR": [
+            "தயவுசெய்து செல்லுபடியாகும் மின்னஞ்சல் முகவரியை உள்ளிடவும்"
+         ],
+         "URLPATTERN": [
+            "சரியான வலைத்தள முகவரியை உள்ளிடவும்"
+         ],
+         "DATE_EXCEPTION": [
+            "தவறான தேதி குறிப்பிட்ட"
+         ],
+         "DECIMALUPTO4DIGIT": [
+            "அதிகபட்சம் 4 தசம இடங்கள் கொண்ட சரியான எண்ணை வழங்கவும்"
+         ],
+         "PROFILEPICTURE": [
+            "சுயவிவரப் புகைப்படம்"
+         ],
+         "ADDPROFILEPIC": [
+            "சுயவிவரப் புகைப்படத்தைச் சேர்க்கவும்"
+         ],
+         "UPDATEPROFILEPIC": [
+            "சுயவிவர புகைப்படத்தை மாற்றுக"
+         ],
+         "YOUHAVENOCOMPANIESTITLE": [
+            "நீங்கள் தற்போது நிறுவனத்துடன் இணைக்கப்படவில்லை"
+         ],
+         "YOUHAVENOCOMPANIESMESSAGE": [
+            "ஒரு புதிய நிறுவனத்தை பதிவு செய்ய பொத்தானை கிளிக் செய்யவும்"
+         ],
+         "YOUHAVENOLISTINGSTITLE": [
+            "நீங்கள் ஏதேனும் பண்புகள் விளம்பரப்படுத்தப்படவில்லை"
+         ],
+         "YOUHAVENOLISTINGSMESSAGE": [
+            "வாடகை / வாடகை சொத்து வாங்க பொத்தானை கிளிக் செய்யவும்"
+         ],
+         "CONFIRMPASSWORDERROR": [
+            "கடவுச்சொற்கள் பொருந்தவில்லை. மீண்டும் முயற்சிக்கவும் !!!"
+         ],
+         "PASSWORDCHANGESUCCESS": [
+            "கடவுச்சொல் மாற்றப்பட்டது !!!"
+         ],
+         "PREFERENCESSAVESUCCESS": [
+            "விருப்பங்கள் சேமிக்கப்பட்டது !!!"
+         ],
+         "PROFILESAVESUCCESS": [
+            "சுயவிவரம் சேமிக்கப்பட்டது !!!"
+         ],
+         "MYWISHLIST": [
+            "என் பார்வை பட்டியல்"
+         ],
+         "REMOVEFROMWISHLIST": [
+            "எனது Watch List இலிருந்து நீக்கு"
+         ],
+         "PHONENUMBERVIEWED": [
+            "யாராவது எனது தொலைபேசி எண்ணைக் காணும்போது எனக்கு மின்னஞ்சல் அறிவிப்பை அனுப்பவும்"
+         ],
+         "CHATINITIATED": [
+            "என்னுடன் ஒரு அரட்டை உரையாடலை யாராவது ஆரம்பித்தால் எனக்கு மின்னஞ்சல் அறிவிப்பு அனுப்பவும்"
+         ],
+         "RSVPSENT": [
+            "என் ஓபன் ஹவுஸில் யாரோ ஒரு RSVP ஐ அனுப்பும்போது எனக்கு மின்னஞ்சல் அறிவிப்பு அனுப்பவும்"
+         ],
+         "SAVEDSEARCHMATCH": [
+            "புதிய பட்டியல்கள் எனது சேமித்த தேடலுடன் பொருந்தும் போது எனக்கு மின்னஞ்சல் அறிவிப்பு அனுப்பவும்"
+         ],
+         "LISTINGCREATED": [
+            "யாராவது என் பகுதிகள் மற்றும் இடங்களில் ஒரு சொத்து விளம்பரம் போது எனக்கு ஒரு மின்னஞ்சல் அறிவிப்பு அனுப்பவும்"
+         ],
+         "ENTERSAVEDSEARCHNOTIFICATIONDAYS": [
+            "நாட்கள் எண்ணிக்கை உள்ளிடவும்"
+         ],
+         "SAVEDSEARCHNOTIFICATIONDAYS": [
+            "நாட்கள் கழித்து, நாங்கள் உங்களுக்கு அறிவிப்புகளை அனுப்புவதை நிறுத்த வேண்டும்"
+         ],
+         "SAVEDON": [
+            "சேமித்த"
+         ],
+         "YOUHAVENOWISHLISTTITLE": [
+            "உங்கள் கண்காணிப்பு பட்டியலில் நீங்கள் பட்டியல்கள் இல்லை"
+         ],
+         "YOUHAVENOWISHLISTMESSAGE": [
+            "உங்கள் பார்வையாளர் பட்டியலில் சேர்க்கும் பட்டியலிலுள்ள இதழை சின்னத்தில் சொடுக்கவும்"
+         ],
+         "YOUHAVENOSEARCHESTITLE": [
+            "உங்களிடம் சேமித்த தேடல்கள் இல்லை"
+         ],
+         "YOUHAVENOSEARCHESMESSAGE": [
+            "எதிர்கால குறிப்புக்கு சேமிப்பதற்கான சொத்து தேடல் முடிவுகளில் சேமி தேடல் பொத்தான் மீது சொடுக்கவும்"
+         ],
+         "YOUHAVENONOTIFTITLE": [
+            "உங்களிடம் தொடர்பு இல்லை"
+         ],
+         "YOUHAVENONOTIFMESSAGE": [
+            "நீங்கள் யாரையாவது தொடர்பு கொள்ளும்போதோ அல்லது யாரையாவது தொடர்பு கொள்ளும்போதெல்லாம், உங்கள் தொடர்புகள் இங்கு காணலாம்"
+         ],
+         "ADDEDTOWISHLIST": [
+            "பட்டியல் பார்க்க சேர்க்கப்பட்டது"
+         ],
+         "ADDTOWISHLIST": [
+            "கண்காணிப்பு பட்டியலில் சேர்க்க"
+         ],
+         "STATUSMESSAGE": [
+            "நிலை செய்தி"
+         ],
+         "ENRICHYOURPROFILEMSG": [
+            "சாத்தியமான முதலீட்டாளர்களுக்கு உங்கள் தெரிவுநிலையை மேம்படுத்த உங்கள் சுயவிவரத்தை மேம்படுத்தவும்."
+         ],
+         "LICENSEREQUIRED": [
+            "உரிம எண்ணை உள்ளிடவும்"
+         ],
+         "CURRENTPASSWORD": [
+            "தற்போதைய கடவுச்சொல்"
+         ],
+         "NEWPASSWORD": [
+            "புதிய கடவுச்சொல்"
+         ],
+         "CONFIRMPASSWORD": [
+            "கடவுச்சொல்லை உறுதிப்படுத்துக"
+         ],
+         "ENTERNAME": [
+            "பெயர் சேர்க்கவும்"
+         ],
+         "ENTERMOBILE": [
+            "கைபேசி எண் சேர்க்கவும்"
+         ],
+         "NOTAMEMBER": [
+            "உறுப்பினர் அல்ல ?"
+         ],
+         "EMAILPHONE": [
+            "மின்னஞ்சல் ஐடி அல்லது கைபேசி எண்"
+         ],
+         "MEMBERLOGIN": [
+            "உறுப்பினர் உள்நுழைவு"
+         ],
+         "CREATEYOURACCOUNT": [
+            "உங்கள் கணக்கு உருவாக்கு"
+         ],
+         "MEMBER": [
+            "உறுப்பினர்"
+         ],
+         "CHANGEPASSWORD": [
+            "கடவுச்சொல்லை மாற்று"
+         ],
+         "CHANGEPASSWORDDESCRIPTION": [
+            "உங்கள் புதிய கடவுச்சொல்லை வழங்கவும்"
+         ],
+         "ADDWEBSITES": [
+            "ஒரு வலை தள சேர்"
+         ],
+         "USERSREGISTRATIONINFOSCHEMATITLE": [
+            "எங்கள் தளத்தில் பதிவு"
+         ],
+         "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE": [
+            "ஒரு சேவை வழங்குநர் அல்லது Professional போன்ற பதிவு"
+         ],
+         "REALTORSREGISTRATIONINFOSCHEMATITLE": [
+            "ஒரு பதிலாள் / தரகர் என பதிவு செய்யுங்கள்"
+         ],
+         "COMPANYREGISTRATIONINFOSCHEMATITLE": [
+            "எங்கள் தளத்தில் உங்கள் நிறுவனத்தின் பதிவு"
+         ],
+         "VERIFYOTPHEADING": [
+            "சிவகாசி சரிபார்க்கவும்"
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE1": [
+            "பல தவறான கடவுச்சொல் முயற்சிகள் காரணமாக உங்கள் கணக்கு பூட்டப்பட்டது. OTP ஐ மீண்டும் அனுப்புகிறது ..."
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE2": [
+            "உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்ட OTP ஐ வழங்கவும்"
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE1": [
+            "உங்கள் கடந்த வருகையின் போது நீங்கள் பதிவு பெறுவதை முடிக்கவில்லை என்பதை நாங்கள் கவனிக்கிறோம். OTP ஐ மீண்டும் அனுப்புகிறது ..."
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE2": [
+            "உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்ட OTP ஐ வழங்கவும்"
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE1": [
+            "உங்கள் கடந்த வருகையின் போது நீங்கள் பதிவு பெறுவதை முடிக்கவில்லை என்பதை நாங்கள் கவனிக்கிறோம். OTP ஐ மீண்டும் அனுப்புகிறது ..."
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE2": [
+            "உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்ட OTP ஐ வழங்கவும்"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE1": [
+            "இந்த மின்னஞ்சல் ஐடி உங்களுக்கு சொந்தமானது என்பதை உறுதிப்படுத்த வேண்டும்"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE2": [
+            "உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்ட OTP ஐ வழங்கவும்"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE1": [
+            "உங்கள் கடவுச்சொல்லை மீட்டமைக்க, உங்கள் மின்னஞ்சல் ஐடி சரிபார்க்க வேண்டும்"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE2": [
+            "உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்ட OTP ஐ வழங்கவும்"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE2": [
+            "உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்ட OTP ஐ வழங்கவும்"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE1": [
+            "இந்த மின்னஞ்சல் ஐடி உங்களுக்கு சொந்தமானது என்பதை உறுதிப்படுத்த வேண்டும்"
+         ],
+         "REGISTRATIONHEADING": [
+            "பதிவு செய்யவும்"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE1": [
+            "உங்கள் அடையாளத்தை வழங்கவும்"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE2": [
+            "உங்களை அடையாளம் காண உங்கள் தகவல் பயன்படுத்தப்படும் மற்றும் வேறு எவருடனும் பகிரப்படாது"
+         ],
+         "LOGINDESCRIPTIONLINE1": [
+            "உங்கள் மின்னஞ்சல் ஐடி வழங்கவும்"
+         ],
+         "LOGINDESCRIPTIONLINE2": [
+            "உங்கள் கடவுச்சொல் அல்லது பதிவு பெறுதல் சான்றுகளுக்கு நீங்கள் கேட்கப்படுவீர்கள்"
+         ],
+         "PASSWORDHEADING": [
+            "பாதுகாப்பு சோதனை"
+         ],
+         "PASSWORDDESCRIPTIONLINE1": [
+            "உங்கள் கடவுச்சொல்லை வழங்கவும்"
+         ],
+         "PASSWORDDESCRIPTIONLINE2": [
+            "ஆன்லைனில் நீங்கள் தோன்றும் மேலும் ஆன்லைனில் இருக்கும் மற்றவர்களுடன் உடனடியாக இணைக்க முடியும்"
+         ],
+         "FORGOTPASSWORDHEADING": [
+            "கடவுச்சொல்லை அமை"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE1": [
+            "எங்கள் தளத்தில் வருங்கால உள்நுழைவுக்கான கடவுச்சொல்லை வழங்கவும்"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE2": [
+            "நீங்கள் வலுவான மற்றும் நினைவில் எளிதாக இது ஒரு கடவுச்சொல்லை தேர்வு செய்யலாம்"
+         ],
+         "STATUSMESSAGETOOLTIP": [
+            "உங்கள் தொடர்பு கார்டில் காண்பிக்கப்படும் சுருக்கமான செய்தியை வழங்கவும்"
+         ],
+         "AREASSERVEDTOOLTIP": [
+            "நீங்கள் பணியாற்றும் பகுதிகளில் அல்லது பகுதிகளில் பட்டியலில் வழங்கவும். நீங்கள் அதே அண்டை பகுதிகளில் உள்ளடக்கிய இந்த உங்கள் தன்மை மேம்படுத்த என்பதால் உறுதி"
+         ],
+         "PROFESSIONSTOOLTIP": [
+            "உங்களால் வழங்கப்பட்ட சேவைகளை வகை தேர்வு"
+         ],
+         "EXPERTISETOOLTIP": [
+            "நிபுணத்துவம் மற்றும் சிறப்பு முதன்மையான துறைகளில் சிறப்பாக வழங்குகிறார்கள்"
+         ],
+         "SPECIALTIESTOOLTIP": [
+            "உங்கள் அதற்கான ரியல் எஸ்டேட் சிறப்பு தேர்வு"
+         ],
+         "BROKERAGEFIRMCOMPLETETOOLTIP": [
+            "உங்கள் ரியல் எஸ்டேட் நிறுவனம் ஏற்கனவே எங்களுடன் வழக்கு தொடுக்கலாம். உங்கள் நிறுவனத்தின் பெயர் எங்கள் தரவு தேடு. இல்லை என்றால், நீங்கள் எப்போதும் இங்கே உங்கள் நிறுவனத்தின் பதிவு செய்யலாம்."
+         ],
+         "COMPANYCOMPLETETOOLTIP": [
+            "உங்கள் நிறுவனம் ஏற்கனவே எங்களுடன் வழக்கு தொடுக்கலாம். உங்கள் நிறுவனத்தின் பெயர் எங்கள் தரவு தேடு. இல்லை என்றால், நீங்கள் எப்போதும் இங்கே உங்கள் நிறுவனத்தின் பதிவு செய்யலாம்."
+         ],
+         "HAVECOMPANYTOOLTIP": [
+            "நீங்கள் ஒரு நிறுவனத்தின் இணைக்கப்படாமல் இருந்தால், நீங்கள் இங்கே உங்கள் நிறுவனத்தின் தகவல் வழங்குவதன் மூலம் நன்மை அடைய முடியும்"
+         ],
+         "HAVECOMPANY": [
+            "ஒரு நிறுவனத்தின் தொடர்புடைய?"
+         ],
+         "BROKERAGEFIRMCOMPLETE": [
+            "உங்கள் ரியல் எஸ்டேட் ஏஜென்சி பெயர் சேர்க்கவும்"
+         ],
+         "COMPANYCOMPLETE": [
+            "உங்கள் நிறுவனத்தின் பெயர் சேர்க்கவும்"
+         ],
+         "ADDCOMPANYCOLLAPSIBLE": [
+            "உங்கள் நிறுவனத்தின் கிடைக்கவில்லையா?"
+         ],
+         "AREAREQUIRED": [
+            "குறைந்தது ஒரு சேவைப் பகுதி கட்டாயமாகும்"
+         ],
+         "COMPANYNAMEREQUIRED": [
+            "நிறுவனத்தின் பெயர் கட்டாயமாகும்"
+         ],
+         "CONTACTNUMBERTYPEREQUIRED": [
+            "தொடர்பு எண் வகை கட்டாயமாகும்"
+         ],
+         "CONTACTNUMBERREQUIRED": [
+            "தொடர்பு எண் கட்டாயமாகும்"
+         ],
+         "NAMEREQUIRED": [
+            "பெயர் கட்டாயமாகும்"
+         ],
+         "MOBILENUMBERREQUIRED": [
+            "கைபேசி எண் கட்டாயமாகும்"
+         ],
+         "PASSWORDREQUIRED": [
+            "கடவுச்சொல் கட்டாயமாகும்"
+         ],
+         "REALTORINVALID": [
+            "மறுபெயர் / தரகர் செல்லாதது"
+         ],
+         "AREASMISSING": [
+            "சேவைக்கான பகுதிகள் கட்டாயமாகும்"
+         ],
+         "REALTORSINCEINVALID": [
+            "புரோக்கர் / ப்ரோக்கர் தேவை"
+         ],
+         "SPECIALTIESINVALID": [
+            "சிறப்பு தவறானது"
+         ],
+         "CONTACTACTIONSMISSING": [
+            "குறைந்தது ஒரு விருப்பமான தொடர்பு விருப்பம் கட்டாயமாகும்"
+         ],
+         "CONTACTACTIONINVALID": [
+            "விருப்பமான தொடர்பு விருப்பம் தவறானது"
+         ],
+         "PROFESSIONALINVALID": [
+            "தொழில்முறை தவறானது"
+         ],
+         "PROFESSIONSMISSING": [
+            "குறைந்தது ஒரு தொழில் தேவை"
+         ],
+         "MOBILEOREMAILMANDATORY": [
+            "மின்னஞ்சல் ஐடி அல்லது கைபேசி எண் குறைந்தது ஒரு கட்டாயமாகும்"
+         ],
+         "MOBILEOREMAILACTIONANYONENEEDED": [
+            "மின்னஞ்சல் ஐடி அல்லது தொலைபேசி எண் குறைந்தது ஒரு விரும்பப்படுகிறது தொடர்பு விருப்பமாக அமைக்கப்பட வேண்டும்"
+         ],
+         "EXPIRED_PASSWORD": [
+            "உங்கள் கடவுச்சொல் காலாவதியானது. அது மீட்டமைத்திடுக"
+         ],
+         "EMPTY_PASSWORD": [
+            "கடவுச்சொல் காலியாக உள்ளது"
+         ],
+         "USER_UNVERIFIED": [
+            "மேலும் தொடர உங்கள் OTP சரிபார்க்கவும்"
+         ],
+         "USER_ACCOUNT_DISABLED": [
+            "உங்கள் கணக்கு முடக்கப்பட்டது. எங்கள் அமைப்பு நிர்வாகி தொடர்பு கொள்ளவும்"
+         ],
+         "USER_ACCOUNT_LOCKED": [
+            "உங்கள் கணக்கு பூட்டப்பட்டுள்ளது. உங்கள் கடவுச்சொல்லை மாற்றியமைக்கவும்"
+         ],
+         "USER_MOBILE_EXIST": [
+            "நீங்கள் வழங்கிய மொபைல் எண் முன்பே எங்கள் அமைப்பில் பதிவு செய்யப்பட்டுள்ளது. மற்றொரு மொபைல் எண் முயற்சிக்கவும்"
+         ],
+         "USER_EMAIL_EXIST": [
+            "நீங்கள் வழங்கிய மின்னஞ்சல் ஐடி ஏற்கனவே எங்கள் அமைப்பில் பதிவு செய்யப்பட்டுள்ளது. மற்றொரு மின்னஞ்சல் ஐடி முயற்சிக்கவும்"
+         ],
+         "USER_EMAIL_MOBILE_EXIST": [
+            "மின்னஞ்சல் ஐடி மற்றும் நீங்கள் வழங்கிய மொபைல் எண் முன்பே எங்கள் அமைப்பில் பதிவு செய்யப்பட்டுள்ளது. மற்றொரு மின்னஞ்சல் ஐடி அல்லது மொபைல் எண்ணை முயற்சிக்கவும்"
+         ],
+         "TOKEN_NOT_FOUND": [
+            "சிவகாசி தவறானது. தயவு செய்து மீண்டும் முயற்சிக்கவும்"
+         ],
+         "TOKEN_EXPIRED": [
+            "உங்கள் OTP காலாவதியானது. தயவுசெய்து புதிய OTP உருவாக்க"
+         ],
+         "TOKEN_NOT_MATCHING": [
+            "சிவகாசி தவறானது. தயவு செய்து மீண்டும் முயற்சிக்கவும்"
+         ],
+         "OLD_PASSWORD_NOT_SAME": [
+            "பழைய கடவுச்சொல் தவறானது"
+         ],
+         "BAD_CREDENTIALS": [
+            "பயனர் பெயர் அல்லது கடவுச்சொல் தவறானது"
+         ],
+         "INVALID_USERNAME": [
+            "பயனர் பெயர் அல்லது கடவுச்சொல் தவறானது"
+         ],
+         "INVALID_USERID": [
+            "பயனர் பெயர் அல்லது கடவுச்சொல் தவறானது"
+         ],
+         "USER_NOT_FOUND": [
+            "பயனர் பெயர் அல்லது கடவுச்சொல் தவறானது"
+         ],
+         "BROKERAGE_FIRM_EXIST": [
+            "அதே பெயருடன் மற்றொரு தரகு நிறுவனமான உள்ளது"
+         ],
+         "COMPANY_EXIST": [
+            "அதே பெயரில் உள்ளது மற்றொரு நிறுவனம்"
+         ],
+         "BROKERAGE_FIRM_NOT_EXIST": [
+            "தரகு நிறுவனமான இல்லை"
+         ],
+         "COMPANY_NOT_EXIST": [
+            "நிறுவனத்தின் இல்லை"
+         ],
+         "COMPANYINVALID": [
+            "நிறுவனம் தவறானது"
+         ],
+         "ADDOTHERCONTACTNUMBERS": [
+            "ஒரு தொடர்பு எண் சேர்"
+         ],
+         "ENTERAREA": [
+            "நீங்கள் பணியாற்றும் பகுதிகளில் நுழைய"
+         ],
+         "ADDAREASSERVED": [
+            "சேவைக்கான ஒரு பகுதி சேர்"
+         ],
+         "ENTEREXPERTISE": [
+            "நிபுணத்துவம் பெற்ற துறைகளில் நுழைய"
+         ],
+         "ADDEXPERTISE": [
+            "நிபுணத்துவம் ஒரு பகுதி சேர்"
+         ],
+         "REGISTERCOMPANY": [
+            "என் நிறுவனம் பதிவு"
+         ],
+         "ROLETYPE": [
+            "நான் ஒரு"
+         ],
+         "ROLE_CUSTOMER": [
+            "ரியல் எஸ்டேட் முதலீட்டாளர்"
+         ],
+         "ROLE_REALTOR": [
+            "Realtor / Broker"
+         ],
+         "ROLE_PROFESSIONAL": [
+            "ரியல் எஸ்டேட் சேவை வழங்குநர்"
+         ],
+         "ENTEROTP": [
+            "OTP ஐ உங்கள் மின்னஞ்சல் ID க்கு அனுப்பவும்"
+         ],
+         "USEREMAIL_EXIST": [
+            "இந்த மின்னஞ்சல் முகவரியுடன் ஒரு பயனர் ஏற்கனவே உள்ளது. மாற்று மின்னஞ்சல் ஐடியைப் பயன்படுத்தவும்."
+         ],
+         "ROLETYPETOOLTIP": [
+            "ஒரு முதலீட்டாளர் அல்லது சொத்து உரிமையாளர் என்றால் ஒரு ரியல் எஸ்டேட் முதலீட்டாளராக பதிவு செய்க. நீங்கள் ரியல் எஸ்டேட் தொழில் நிறுவனத்திற்கு வழங்குவதில் ஒரு ரியல் எஸ்டேட் / ப்ரோக்கர் அல்லது ஒரு சேவை வழங்குநர் / நிபுணர் என்றால், கூடுதல் தகவலுக்காக நீங்கள் கேட்கப்படுவீர்கள்."
+         ],
+         "PREVIEWSELECTEDFLOORPLANDOCS": [
+            "தேர்ந்தெடுக்கப்பட்ட மாடி திட்டங்கள் மற்றும் ஆய்வுகள்"
+         ],
+         "FLOORPLANSGALLERY": [
+            "பதிவேற்றப்பட்ட மாடி திட்டங்கள் மற்றும் ஆய்வுகள்"
+         ],
+         "BASICINFORMATION": [
+            "இருப்பிடம்"
+         ],
+         "PROPERTYDETAILS": [
+            "விவரங்கள்"
+         ],
+         "LOCATEPROPERTYTIP": [
+            "கீழே அபவுட்"
+         ],
+         "PROPERTYFOUND": [
+            "உங்கள் இருப்பிடத்தில் பண்புகள் மேட்சிங்"
+         ],
+         "PROPERTYNOTFOUND": [
+            "உங்கள் சொத்து கண்டுபிடிக்க முடியவில்லை?"
+         ],
+         "SELFOWNED": [
+            "இந்த விளம்பரம் சொந்தமானதா?"
+         ],
+         "OWNEREMAILID": [
+            "விளம்பரம் உரிமையாளர் மின்னஞ்சல் ஐடியை"
+         ],
+         "OWNERMOBILENUMBER": [
+            "விளம்பரம் உரிமையாளர் கைபேசி எண்"
+         ],
+         "OWNERNAME": [
+            "விளம்பரம் உரிமையாளர் பெயர்"
+         ],
+         "LISTINGCONFIRMATIONTITLE": [
+            "முன்னோட்டம் மற்றும் உங்கள் விளம்பரம் உறுதிப்படுத்த"
+         ],
+         "MARKERDRAGPINMESSAGE": [
+            "உங்கள் முகவரி கண்டுபிடிக்க முடியவில்லை வழக்கில், அருகில் உள்ள தனித்துவமான அல்லது அனுப்பியவர் நுழைய பின்னர் உங்கள் சொத்து இடம் பொருத்து இழுத்து"
+         ],
+         "BASICINFOSCHEMATITLE": [
+            "உங்கள் சொத்து கண்டுபிடித்து"
+         ],
+         "DROPIMAGETITLE": [
+            "இங்கே இழுத்து உங்கள் கோப்புகளை இங்கே விடுங்கள். ஒவ்வொரு முறையும் நீங்கள் 10 கோப்புகளை பதிவேற்றலாம்."
+         ],
+         "MEDIATITLE": [
+            "உங்கள் சொத்து க்கான புகைப்படங்கள் அப்லோட்"
+         ],
+         "OVERVIEWINFOSCHEMATITLE": [
+            "பற்றி உங்கள் விளம்பரம் அடிப்படைத் தகவலை வழங்கவும்"
+         ],
+         "FINANCIALINFOSCHEMATITLE": [
+            "நிதித் தகவலை வழங்கவும்"
+         ],
+         "ADDITIONALINFOSCHEMATITLE": [
+            "கூடுதல் விவரம்"
+         ],
+         "PROPERTYINFOSCHEMATITLE": [
+            "உங்கள் சொத்து விவரங்கள் வளப்படுத்த"
+         ],
+         "VALUEADDEDREASONTOOLTIP": [
+            "இந்த சொத்து முதலீட்டு வகை ஒரு மதிப்பு சேர்க்க செய்கிறது முதன்மை காரணியாக அல்லது காரணி வழங்கும்"
+         ],
+         "RISKRETURNCATEGORYTOOLTIP": [
+            "முதலீட்டாளர்கள் முடிவெடுப்பதில் உதவுகின்ற சொத்துக்களின் அபாயகரமான பகுதியை வழங்குதல். கோர்: இது கணிக்கமுடியாத, குறைந்த அபாயம் / குறைவான சாத்தியமான வருவாய் முதலீட்டு யூகங்களைக் கொண்டது. கோர் ப்ளஸ்: இது ஒரு மிதமான-அபாய / மிதமான-வருவாய் முதலீடு ஆகும், இது மேம்பாடுகள் தேவைப்படக்கூடாது. மதிப்பு சேர்க்கப்பட்டது: இது ஒரு நடுத்தர முதல் உயர்-ஆபத்து / நடுத்தர-உயர்-உயர் முதலீட்டு முதலீடு ஆகும், இது மேம்பாடுகள் அல்லது மூலதன ஊடுபாதை அல்லது பிற மாற்றங்கள் தேவைப்படுகிறது. வாய்ப்புள்ள: இது அதிக அபாயம் / அதிக வருவாய் முதலீடு ஆகும், இது அதிக அளவு மேம்பாடு அல்லது பிற ஆபத்துக்களைத் தேவை."
+         ],
+         "DISTRESSEDTOOLTIP": [
+            "இந்த சொத்து இக்கட்டான நிலை மற்றும் அதற்கான நிலை என்பதைக் குறிக்கும்"
+         ],
+         "PROPERTYNAMETOOLTIP": [
+            "என்று சொத்து ஒரு தனிப்பட்ட பெயரை வழங்குக மற்றவர் யாரும் எளிதில் அது அடையாளம்"
+         ],
+         "AREATOOLTIP": [
+            "சொத்து பகுதியில் வழங்கவும். நீங்கள் ஒரு சதி அல்லது ஒரு கட்டடத்தின் அலகு விளம்பரம் என்றால், இந்த விளம்பரப்படுத்தப்பட்டது சதி அல்லது அலகு பகுதியில் இருக்க வேண்டும்"
+         ],
+         "LOTAREATOOLTIP": [
+            "சொத்து மொத்த சதி பகுதியை வழங்குவதற்காக"
+         ],
+         "ENDDATETOOLTIP": [
+            "உங்கள் விளம்பரம் சுறுசுறுப்பாக இருக்க வேண்டும் வரை தேதியை வழங்கவும்"
+         ],
+         "CONTACTACTIONSTOOLTIP": [
+            "தொடர்பின் உங்கள் விருப்பமான முறையில் வழங்கவும். சாத்தியமான அனைத்து தொடர்பு விருப்பங்களுக்கு இயக்குவதால் எளிதாக நீங்கள் அடைய மற்றவர்கள் எளிதாக்கும்"
+         ],
+         "SELFOWNEDTOOLTIP": [
+            "இந்த விளம்பரம் உரிமைத் விவரங்களை வழங்கவும். இந்த நீங்கள் என்றால் சொந்தமானது அல்ல, பின்னர், உரிமையாளர் தகவல்களை வழங்க"
+         ],
+         "AVAILABLEDATETOOLTIP": [
+            "சொத்து குடியேறத் கிடைக்கும் இதன் மூலம் தேதியை வழங்கவும்"
+         ],
+         "DISCLOSEADDRESSTOOLTIP": [
+            "நீங்கள் இந்த சொத்துக்கான முகவரியை வெளிப்படுத்த அல்லது மறைக்க விரும்புகிறீர்களா என்பதைக் குறிக்கவும்"
+         ],
+         "DISCLOSEPRICETOOLTIP": [
+            "இந்த பட்டியலுக்கான விலையை வெளிப்படுத்த அல்லது மறைக்க விரும்புகிறீர்களா என்பதைக் குறிக்கவும்"
+         ],
+         "CAPRATEKNOWNTOOLTIP": [
+            "சொத்து அல்லது யூனிட் காப்பி விகிதம் பட்டியலிடப்பட்டால், நீங்கள் நேரடியாக அதை உள்ளிடலாம். இல்லையென்றால், காப்பி விகிதத்தை கணக்கிட உதவும்"
+         ],
+         "CAPRATETYPETOOLTIP": [
+            "காப் விகிதம் உண்மையான அல்லது திட்டமிட்ட வருவாயை அடிப்படையாகக் கொண்டதா என்பதைக் குறிக்கவும்"
+         ],
+         "GROSSRENTREVENUETOOLTIP": [
+            "ஆண்டு முழுவதும் மொத்த வாடகை வருவாய் அல்லது Potentail வாடகை வருமானம் சொத்து முழுமையாக ஆக்கிரமிக்கப்பட்ட என்று கருதி"
+         ],
+         "VACANCYLOSSESTOOLTIP": [
+            "சொத்துக்களை காலிசெய்தல் அல்லது குத்தூசி கொடுப்பனவுகளுக்கு இடமாற்றம் செய்வதன் காரணமாக வருடாந்த இழப்பீடுகளை வழங்குதல்"
+         ],
+         "MANAGEMENTANDLEASINGFEESTOOLTIP": [
+            "சொத்து மேலாண்மை மற்றும் குத்தகைக்கு வருடாந்த கட்டணங்கள் வழங்குதல்"
+         ],
+         "PROPERTYINSURANCETOOLTIP": [
+            "வருடாந்திர சொத்து காப்பீடு தொகை"
+         ],
+         "PROPERTYTAXESTOOLTIP": [
+            "வருடாந்த சொத்து வரி தொகை வழங்கவும்"
+         ],
+         "PROPERTYMAINTENANCETOOLTIP": [
+            "சொத்துக்களை பராமரிக்க வருடாந்திர செலவினங்களை வழங்குதல்"
+         ],
+         "OTHEREXPENSESTOOLTIP": [
+            "எல்லா பிற செலவினங்களுக்கும் மொத்த வருடாந்திர தொகை வழங்கவும்"
+         ],
+         "CALCULATEDCAPRATETOOLTIP": [
+            "மூலதன விகிதம் அல்லது தொப்பி விகிதம், சொத்து சொத்து மதிப்பு அல்லது கேட்கும் விலைக்கான நிகர இயக்க வருவாய் (NOI)"
+         ],
+         "COMMISSIONSPLITTOOLTIP": [
+            "வாங்குபவர் முகவர் கமிஷன் சதவீதம் வழங்கவும்"
+         ],
+         "COMMISSIONPERCENTAGETOOLTIP": [
+            "வாங்குபவர் செலுத்த வேண்டும் என்று கமிஷன் சதவீதம் வழங்கவும்"
+         ],
+         "COMMISSIONAMOUNTTOOLTIP": [
+            "வாங்குபவர் செலுத்த வேண்டும் என்று கமிஷன் தொகையை வழங்குவதற்கு"
+         ],
+         "SPECIFICATIONSTOOLTIP": [
+            "அடித்தளத்தை பற்றி விவரங்கள் உட்பட குறிப்புகள் கட்டிட வழங்கவும், கட்டிடம் பொருட்கள் பயன்படுத்தப்படலாம், பூச்சு, பொருத்தப்பட்ட மற்றும் அலங்காரங்களுக்கு"
+         ],
+         "PRIMARYIDENTIFIERTOOLTIP": [
+            "சொத்து அடையாள எண் வழங்கவும். இந்த முடிவுகளை வாங்கும் சொத்து மதிப்பிடுவதற்கான இன்றியமையாததாக இருக்கும்."
+         ],
+         "HIGHLIGHTSTOOLTIP": [
+            "வாஸ்து இணக்கத்திற்காக எதிர்கொள்ளும் திசையில், காற்றோட்டம், போன்ற உங்கள் சொத்து முக்கிய சிறப்பம்சங்கள் வழங்கவும்"
+         ],
+         "MINDIVISIBLEAREATOOLTIP": [
+            "இந்த சதி பிரிவு அனுமதி சிறிய பகுதியைக் வழங்கவும்"
+         ],
+         "MAXDIVISIBLEAREATOOLTIP": [
+            "இத்திட்டத்தின் பிரிவில் அனுமதிக்கப்பட்ட மிகப்பெரிய பகுதி வழங்கவும்"
+         ],
+         "MAXCONTIGUOUSAREATOOLTIP": [
+            "இந்த சதி பிரிவு அனுமதி மிகப்பெரிய எல்லை பகுதியை வழங்குவதற்காக"
+         ],
+         "FIXTURESTOOLTIP": [
+            "உங்கள் அலகு கிடைக்கும் ஒவ்வொரு அங்கமாகி அல்லது பயன்பாட்டின் விபரங்களை வழங்கவும்"
+         ],
+         "PROPERTYNAMEREQUIRED": [
+            "சொத்து பெயர் கட்டாயமாகும்"
+         ],
+         "PROPERTYSUBTYPEREQUIRED": [
+            "சொத்து வகை கட்டாயமாகும்"
+         ],
+         "PROPERTYTYPEREQUIRED": [
+            "வகை தேவை"
+         ],
+         "LINEONEREQUIRED": [
+            "தெரு முகவரி கட்டாயமாகும்"
+         ],
+         "CITYREQUIRED": [
+            "பெருநகரம் கட்டாயமாகும்"
+         ],
+         "ZIPCODEREQUIRED": [
+            "முள் குறியீடு கட்டாயமாகும்"
+         ],
+         "LOCALITYREQUIRED": [
+            "வட்டாரத்தின் கட்டாயமாகும்"
+         ],
+         "TITLEREQUIRED": [
+            "விளம்பரம் தலைப்பு கட்டாயமாகும்"
+         ],
+         "LISTINGAREAREAMISSING": [
+            "பகுதி கட்டாயமாகும்"
+         ],
+         "PROPERTYLISTINGTYPEREQUIRED": [
+            "விளம்பரம் வகை கட்டாயமாகும்"
+         ],
+         "STARTTIMEMISSING": [
+            "தொடக்க நேரம் தேவைப்படுகிறது"
+         ],
+         "ENDTIMEMISSING": [
+            "முடிவு நேரம் தேவைப்படுகிறது"
+         ],
+         "ENDTIMEINVALID": [
+            "முடிவு நேரம் குறைவாக அல்லது நேரம் தொடங்க சமமாக இருக்க முடியாது"
+         ],
+         "OPENHOUSEENDDATEMINVALUE": [
+            "ஓபன் ஹவுஸ் தேதி முன்னதாக இருக்க முடியாது"
+         ],
+         "ENDDATEMINVALUE": [
+            "விளம்பரம் காலாவதியாகும் தேதி முன்னதாக இருக்க முடியாது"
+         ],
+         "ENDDATEMAXVALUE": [
+            "விளம்பரம் காலாவதியாகும் தேதி அதிகமாக இருக்கக் கூடாது முடியும்"
+         ],
+         "ENDDATEREQUIRED": [
+            "விளம்பரம் காலாவதியாகும் தேதி கட்டாயமாகும்"
+         ],
+         "GROSSRENTREVENUEREQUIRED": [
+            "மொத்த வாடகை வருவாய் தேவை"
+         ],
+         "DISCLOSEADDRESSREQUIRED": [
+            "முகவரி"
+         ],
+         "DISCLOSEPRICEREQUIRED": [
+            "விலக்கு தேவைப்படுகிறது"
+         ],
+         "SALEPRICEREQUIRED": [
+            "விற்பனை விலை கட்டாயமாகும்"
+         ],
+         "LEASEPRICEREQUIRED": [
+            "வாடகை தொகை கட்டாயமாகும்"
+         ],
+         "PROPERTYLISTINGMISSING": [
+            "சொத்து பட்டியல் கட்டாயமாகும்"
+         ],
+         "PROPERTYMISSING": [
+            "சொத்து கட்டாயமாகும்"
+         ],
+         "SALEPRICEMISSING": [
+            "விற்பனை விலை கட்டாயமாகும்"
+         ],
+         "SALEPRICEINVALID": [
+            "விற்பனை விலை தவறானது"
+         ],
+         "COMMISSIONSPLITINVALID": [
+            "வாங்குபவர் முகவர் கமிஷன் தவறானது"
+         ],
+         "SALECOMMISSIONINVALID": [
+            "ஆணைக்குழு சதவீதம் தவறானது"
+         ],
+         "LEASEPRICEMISSING": [
+            "லீஸ் விலை கட்டாயமாகும்"
+         ],
+         "LEASEPRICEINVALID": [
+            "லீஸ் விலை தவறானது"
+         ],
+         "LEASEDEPOSITINVALID": [
+            "வைப்புத்தொகை தொகை தவறானது"
+         ],
+         "LEASETERMINVALID": [
+            "லீஸ் கால தவறானது"
+         ],
+         "LEASEMAINTENANCECHARGESINVALID": [
+            "மாதாந்திர பராமரிப்பு கட்டணங்கள் தவறானது"
+         ],
+         "LEASECOMMISSIONINVALID": [
+            "ஆணைக்குழு தொகை தவறானது"
+         ],
+         "NUMBEROFBEDSREQUIRED": [
+            "படுக்கைகள் எண்ணிக்கை தேவைப்படுகிறது"
+         ],
+         "NUMBEROFSEATSREQUIRED": [
+            "இருக்கைகள் எண்ணிக்கை தேவைப்படுகிறது"
+         ],
+         "NUMBEROFBEDROOMSREQUIRED": [
+            "படுக்கையறைகள் எண்ணிக்கை தேவைப்படுகிறது"
+         ],
+         "LISITNGAREAREQUIRED": [
+            "பகுதி கட்டாயமாகும்"
+         ],
+         "ENDDATEMISSING": [
+            "காலாவதியாகும் தேதி தேவை"
+         ],
+         "OTHERSUBTYPEINVALID": [
+            "தவறான மற்ற சொத்து சப் வகை"
+         ],
+         "SUBTYPEMISSING": [
+            "சொத்து வகை கட்டாயமாகும்"
+         ],
+         "LISTINGTITLEMISSING": [
+            "விளம்பரம் தலைப்பு தேவைப்படுகிறது"
+         ],
+         "LISTINGSALETYPEMISSING": [
+            "தேவைப்படுகிறது மூலம் வெளியிட்டது"
+         ],
+         "LISTINGTYPEMISSING": [
+            "விளம்பரம் வகை தேவைப்படுகிறது"
+         ],
+         "TYPEMISSING": [
+            "வகை தேவை"
+         ],
+         "LEASETERMREQUIRED": [
+            "குத்தகை கால தேவைப்படுகிறது"
+         ],
+         "LEASETYPEREQUIRED": [
+            "குத்தகை வகை தேவை"
+         ],
+         "LEASEAMOUNTREQUIRED": [
+            "குத்தகை அளவு தேவைப்படுகிறது"
+         ],
+         "DISTRESSEDSTATUSREQUIRED": [
+            "தடையேற்படுத்தும் நிலைமை தேவைப்படுகிறது"
+         ],
+         "CREATEPROPERTY": [
+            "சொத்து தகவலை வழங்கவும்"
+         ],
+         "CONFIRMADDRESS": [
+            "உங்கள் சொத்துரிமை முகவரியை உறுதிசெய்யவும்"
+         ],
+         "MOVEMAP": [
+            "நகர்த்தவும் அல்லது பண்புகள் கண்டறிவதற்கு வரைபடத்திற்கு இழுத்து"
+         ],
+         "BACKTOPROPERTY": [
+            "முந்தைய படி"
+         ],
+         "NOIMAGESUPLOADED": [
+            "எந்த கோப்புகளும் பதிவேற்றப்படவில்லை"
+         ],
+         "PREVIEWSELECTEDDOCUMENTS": [
+            "தேர்ந்தெடுக்கப்பட்ட ஆவணங்கள்"
+         ],
+         "PREVIEWSELECTEDIMAGES": [
+            "முன்னோட்டம் தேர்ந்தெடுக்கப்பட்ட புகைப்படங்கள்"
+         ],
+         "CURRENTDEFAULT": [
+            "இயல்புநிலை புகைப்பட"
+         ],
+         "SETASDEFAULT": [
+            "இயல்புநிலைக்கு அமை"
+         ],
+         "CONFIRMPROPERTY": [
+            "இதை இருப்பிட தேர்ந்தெடுக்கவும்"
+         ],
+         "NEXTTOFINANCIAL": [
+            "அடுத்த அடி"
+         ],
+         "NEXTTOADDITIONAL": [
+            "அடுத்த அடி"
+         ],
+         "BACKTOADDITIONAL": [
+            "முந்தைய படி"
+         ],
+         "NEXTTOCREATEPROPERTY": [
+            "அடுத்த அடி"
+         ],
+         "BACKTOADDRESS": [
+            "முந்தைய படி"
+         ],
+         "ADDLEASERENEWALOPTIONS": [
+            "குத்தகை குத்தகை புதுப்பிப்பு விருப்பத்தை சேர்க்கவும்"
+         ],
+         "ADDHIGHLIGHTS": [
+            "மற்றொரு சிறப்பம்சமாக சேர்க்கவும்"
+         ],
+         "POSTONLINE": [
+            "போஸ்ட் விளம்பரம் ஆன்லைன்"
+         ],
+         "NEXTTOPROPERTY": [
+            "அடுத்த அடி"
+         ],
+         "NEXTTOPHOTOS": [
+            "அடுத்த அடி"
+         ],
+         "BACKTOFINANCIAL": [
+            "முந்தைய படி"
+         ],
+         "SELECTEDBUILDINGUNIT": [
+            "உங்கள் யூனிட் விவரியுங்கள்"
+         ],
+         "PROPERTYBUILDINGDETAILS": [
+            "உங்கள் கட்டிடம் விவரியுங்கள்"
+         ],
+         "APARTMENTDETAILS": [
+            "உங்கள் வீட்டு சமூக விவரியுங்கள்"
+         ],
+         "PROPERTYLOTDETAILS": [
+            "உங்கள் ப்ளாட் விவரியுங்கள்"
+         ],
+         "ENTERHIGHLIGHTS": [
+            "சொத்து ஹைலைட்ஸ் உள்ளிடவும்"
+         ],
+         "ADDFIXTURES": [
+            "ஒரு இணைப்பு சேர்"
+         ],
+         "ENTERFIXTURES": [
+            "இணைப்பு விவரங்களை உள்ளிடுக"
+         ],
+         "ADDSPECIFICATIONS": [
+            "ஒரு கட்டிட குறிப்பைச் சேர்க்கவும்"
+         ],
+         "ENTERSPECIFICATIONS": [
+            "கட்டிடம் விருப்பம் சேர்க்கவும்"
+         ],
+         "ADDROOMS": [
+            "ஒரு அறை சேர்"
+         ],
+         "HOTELROOMDETAILS": [
+            "உங்கள் அறை Decsribe"
+         ],
+         "LOTDETAILSCOLLAPSIBLE": [
+            "ப்ளாட் தகவல் (நான் ஒரு குறிப்பிட்ட சதி பட்டியல் நான்)"
+         ],
+         "SELECTEDLOT": [
+            "உங்கள் ப்ளாட் விவரியுங்கள்"
+         ],
+         "MAXNOOFFILES": [
+            "10 கோப்புகள் வரை நீங்கள் பதிவேற்றலாம்"
+         ],
+         "UPLOADNOW": [
+            "இப்போது பதிவேற்ற"
+         ],
+         "SELECTFILESTOUPLOAD": [
+            "பண்ணவும் கோப்புகள்"
+         ],
+         "MINIMUM4IMAGESREQUIRED": [
+            "குறைந்தது 4 புகைப்படங்களைச் சேர்க்கவும்"
+         ],
+         "LISTINGUPDATED": [
+            "பட்டியல் புதுப்பிக்கப்பட்டது !!!"
+         ],
+         "LISTINGUPDATEFAILED": [
+            "பட்டியலிட முடியவில்லை! தயவு செய்து மீண்டும் முயற்சிக்கவும்."
+         ],
+         "VIDEOTITLEPLACEHOLDER": [
+            "உங்கள் வீடியோ தலைப்பு தட்டச்சு"
+         ],
+         "VIDEOURLPLACEHOLDER": [
+            "உங்கள் வீடியோ URL ஐ தட்டச்சு செய்க அல்லது ஒட்டுக"
+         ],
+         "ASKINGPRICEPRICEREQUIRED": [
+            "கேட்கும் விலை உள்ளிடவும்"
+         ],
+         "ISRENTALPROPERTYTOOLTIP": [
+            "இந்த சொத்து அலகு வாடகைக்கு விட்டதா மற்றும் அதற்கான நிதித் தகவல் என்பதைக் குறிக்கவும்"
+         ],
+         "ISRENTALPROPERTY": [
+            "இந்த அலகு வாடகைக்கு விட்டதா?"
+         ],
+         "RENTALAMOUNTREQUIRED": [
+            "குத்தகை அளவு தேவைப்படுகிறது"
+         ],
+         "CONSTRUCTIONSTATUSYEARBUILTINVALID ": [
+            "கட்டுமான நிலை மற்றும் ஆண்டு ஒருங்கிணைப்பு தவறானது."
+         ],
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": ""
+         }
+      }
+   }
+}

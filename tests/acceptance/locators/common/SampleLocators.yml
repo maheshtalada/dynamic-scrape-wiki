@@ -1,0 +1,50 @@
+HeaderNavigation:
+  SiteMenu: '.hamburger-icon button'
+  LoginLink: '[data-automation-selector="login"]'
+  RegisterLink: '[class="js-profile-switch"]'
+  ProfileName: '[class="profile"]'
+  SiteSwitchDropDown: '[class="js-profile-switch"]'
+  LanguageSwitchDropDown: '[class="js-profile-switch"]'
+  RegisterMenuOptions: '[class="signup-menu-items"]'
+  UserTypeOwner: '[class="signup-menu-items"] [class="table-items-table"] tr:nth-of-type(1) td [class="table-item-link"]'
+  UserTypeOwnerText: '[class="signup-menu-items"] [class="table-items-table"] tr:nth-of-type(1) td [class="table-item-link"] [class="table-item-link__name"]'
+  UserTypeRealtor: '[class="signup-menu-items"] [class="table-items-table"] tr:nth-of-type(2) td [class="table-item-link"]'
+  UserTypeProfessional: '[class="signup-menu-items"] [class="table-items-table"] tr:nth-of-type(3) td [class="table-item-link"]'
+
+LocationSearchAutocomplete:
+  AutocompleteInputBox: '[class="autocomplete-wrapper"] input'
+  AutocompleteResults: '[class="autocomplete-wrapper"] [class="autocomplete-menu"]'
+  MatchingAddressResults: '[data-item-type="MATCHINGADDRESSES"]'
+  MatchingPropertiesResults: '[data-item-type="MATCHINGPROPERTIES"]'
+  FirstMatchingAddress:
+  FirstMatchingProperty:
+
+Modal:
+  ModalDataWrapper: '[class="rrm-holder"]'
+
+LoginModal:
+  username: '[id="textfield-EmailIDorMobileNumber"]'
+  password: '[id="textfield-Password"]'
+  LoginButton: '[class="login-screen__inputs-wrap"] >div:nth-of-type(4) button'
+
+HomePage:
+  ForSaleSearchOption : '[class="search-options-tabs-wrapper__tabs"] li:nth-of-type(1)'
+  ForLeaseSearchOption : '[class="search-options-tabs-wrapper__tabs"] li:nth-of-type(2)'
+  RealtorSearchOption : '[class="search-options-tabs-wrapper__tabs"] li:nth-of-type(3)'
+  ProfessionalSearchOption : '[class="search-options-tabs-wrapper__tabs"] li:nth-of-type(4)'
+  CreateListingLink:
+  CreateArticleLink:
+  AskTheExpertsLink:
+
+RegisterUser:
+  username: '[data-automation-selector="user.name.value"] input'
+  mobilenumber: '[data-automation-selector="user.mobileNumber.value"] input'
+  emailid: '[data-automation-selector="user.emailId.value"] input'
+  password: '[data-automation-selector="user.password.value"] input'
+  termsandconditions: '[class="mdl-icon-toggle__input"]'
+  SignUpButton: '[class="linear-navigation__button-wrapper"] >div:nth-of-type(4) button'
+  PageTitle: '[data-automation-selector="ssj-section-title"]'
+
+VerifyOTP:
+  otp: '[class="mdl-textfield__input"] input'
+  VerifyOtpButton: '[class="btn-primary"] >div:nth-of-type(4) button'

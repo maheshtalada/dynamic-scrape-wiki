@@ -1,0 +1,29 @@
+.investor-wizard-page {
+	background: @color-base-white;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	position: relative;
+	.bp-xsmall({
+		min-height: ~"calc(100vh - (@{mobile-header-fixed-height} + 116px))";
+		padding: 10px 20px 55px;
+	});
+	.bp-small({
+		min-height: ~"calc(100vh - (@{desktop-header-fixed-height} + 62px))";
+		padding: 20px;
+	});
+	.investor-wizard {
+		.wizard__step-container {
+			.bp-xsmall({
+				min-height: 200px;
+			});
+			.bp-small({
+				min-height: 250px;
+			});
+		}
+	}
+
+	&.pdf-wizard-page {
+		padding: 0;
+	}
+
+}

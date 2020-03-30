@@ -1,0 +1,37 @@
+
+.schema__card-wrapper {
+	width: 100%;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	 > .schema__value {
+		 display: flex;
+		 flex-wrap: wrap;
+		 margin: -@card-margin;
+	 }
+	.schema__card {
+		display: inline-block;
+		float: left;
+		background: @color-base-white;
+		border: 1px solid @border-color;
+		border-radius: 2px;
+		padding: 10px;
+		margin: @card-margin;
+		.bp-xsmall({
+			width: 100%;
+		});
+
+		.bp-small({
+			width: ~"calc(50% - (@{card-margin} + @{card-margin}))";
+		});
+
+		.bp-medium({
+			width: ~"calc(50% - (@{card-margin} + @{card-margin}))";
+		});
+
+		/*.bp-large({
+			width: ~"calc(33% - (@{card-margin} + @{card-margin}))";
+		});*/
+
+	}
+}

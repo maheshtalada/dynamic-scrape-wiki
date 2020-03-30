@@ -1,0 +1,3603 @@
+{
+   "domain": "messages",
+   "locale_data": {
+      "messages": {
+         "MEDIANLEASEPRICEANALYSIS": [
+            "ధర పోలిక కోరుతూ"
+         ],
+         "MEDIANSALEPRICEANALYSIS": [
+            "అంచనా అద్దె"
+         ],
+         "SUBTYPEBEDROOM": [
+            "ఇలాంటి స్క్వేర్ ఫుటేజ్తో"
+         ],
+         "SUBTYPEAREA": [
+            "అదే బెడ్ రూములు"
+         ],
+         "NON_REFUNDABLE_PET_FEE": [
+            "కాని తిరిగి చెల్లించలేని పెట్ రుసుము"
+         ],
+         "CUMPRINCIPALPAID": [
+            "సంచిత ప్రిన్సిపల్ చెల్లింపు"
+         ],
+         "CUMAPPRECIATION": [
+            "సమ్మేళన అప్రిసియేషన్"
+         ],
+         "CUMCASHFLOW": [
+            "సంచిత క్యాష్ ఫ్లో"
+         ],
+         "SHOWRENTALPROPERTY": [
+            "అద్దె యూనిట్లు?"
+         ],
+         "RENTALPROPERTY": [
+            "అద్దె యూనిట్"
+         ],
+         "MEDIANPRICESTATS": [
+            "ధర విశ్లేషణ"
+         ],
+         "MEDIANCURRENTPRICE": [
+            "ఈ ఆస్తి"
+         ],
+         "MEDIANLOWPRICE": [
+            "తక్కువ"
+         ],
+         "MEDIANMARKETPRICE": [
+            "మార్కెట్"
+         ],
+         "MEDIANHIGHPRICE": [
+            "అధిక"
+         ],
+         "BACK": [
+            "తిరిగి"
+         ],
+         "ACREAGE": [
+            "విస్తీర్ణం"
+         ],
+         "SQUAREFOOTAGE": [
+            "స్క్వేర్ ఫుటేజ్"
+         ],
+         "IRRGROUP": [
+            "విలువ డ్రైవర్లు"
+         ],
+         "YEAR": [
+            "ఇయర్"
+         ],
+         "RATEOFRETURN": [
+            "తిరుగు రేటు"
+         ],
+         "INTERNALRATEOFRETURNWITHMORTGAGE": [
+            "లీవర్జెడ్ ఇంటర్నల్ రేట్ అఫ్ రిటర్న్"
+         ],
+         "INTERNALRATEOFRETURN": [
+            "అంతర్గత రేట్ అఫ్ రిటర్న్"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGE": [
+            "వార్షిక ధర అప్రిసియేషన్"
+         ],
+         "RENTINCREMENTPERCENTAGE": [
+            "వార్షిక అద్దె పెరుగుదల"
+         ],
+         "SALECLOSINGCOST": [
+            "అమ్మకానికి ముగింపు ధర"
+         ],
+         "CALCULATERETURN": [
+            "రిటర్న్స్ విశ్లేషించండి"
+         ],
+         "INVESTMENTGROUP": [
+            "అంచనా పెట్టుబడులు"
+         ],
+         "MORTGAGEGROUP": [
+            "అంచనా వేయబడిన తనఖా"
+         ],
+         "INCOMEGROUP": [
+            "అంచనా వార్షిక ఆదాయం"
+         ],
+         "EXPENSEGROUP": [
+            "అంచనా వార్షిక వ్యయాలు"
+         ],
+         "RETURNGROUPWITHOUTMORTGAGE": [
+            "అంచనా రిటర్న్స్"
+         ],
+         "RETURNGROUPWITHMORTGAGE": [
+            "అంచనావేయబడిన లీవరేజ్ రిటర్న్స్"
+         ],
+         "ASKINGPRICE": [
+            "అడిగే ధర"
+         ],
+         "CLOSINGCOST": [
+            "ముగింపు ముగింపు"
+         ],
+         "INITIALIMPROVEMENTCOST": [
+            "ప్రారంభ అభివృద్ధి వ్యయం"
+         ],
+         "DOWNPAYMENTPERCENTAGE": [
+            "డౌన్ చెల్లింపు శాతం"
+         ],
+         "DOWNPAYMENTCOST": [
+            "డౌన్ చెల్లింపు"
+         ],
+         "EMICOST": [
+            "నెలవారీ తనఖా"
+         ],
+         "LOANINTERESTRATE": [
+            "రుణ వడ్డీ రేటు"
+         ],
+         "LOANDURATION": [
+            "పదవీకాలం"
+         ],
+         "DEPRECIATIONPERCENTAGE": [
+            "అరుగుదల"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGE": [
+            "ప్రారంభ పెట్టుబడి"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGE": [
+            "ప్రారంభ పెట్టుబడి"
+         ],
+         "TOTALINVESTMENTCOST": [
+            "బేసిస్ ఖర్చు"
+         ],
+         "COSTBASIS": [
+            "మొత్తం ఖర్చు బేసిస్"
+         ],
+         "ANNUALFREECASHFLOW": [
+            "ఉచిత నగదు ప్రవాహం"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGE": [
+            "పన్ను పరిధిలోకి వచ్చే నగదు ప్రవాహం"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGE": [
+            "పన్ను పరిధిలోకి వచ్చే నగదు ప్రవాహం"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGE": [
+            "మొత్తం ప్రారంభ పెట్టుబడి"
+         ],
+         "CASHONCASHRETURNPERCENTAGE": [
+            "నగదు తిరిగి నగదు"
+         ],
+         "APPROXCALCVALUENOTE": [
+            "అసలు విలువలు మారవచ్చు"
+         ],
+         "ALLPROPERTIES": [
+            "అన్ని గుణాలు"
+         ],
+         "CURRENTPROPERTY": [
+            "ఈ ఆస్తి"
+         ],
+         "MEDIANSALEPRICEXAXIS": [
+            "మీడియన్ అమ్మకానికి ధర (USD)"
+         ],
+         "MEDIANSALEPRICEYAXIS": [
+            "వర్గం"
+         ],
+         "MEDIANLEASEPRICEXAXIS": [
+            "మధ్యస్థ అద్దె"
+         ],
+         "MEDIANLEASEPRICEYAXIS": [
+            "వర్గం"
+         ],
+         "MEDIANLEASEPRICESTATS": [
+            "మధ్యస్థ ధర"
+         ],
+         "MEDIANSALEPRICESTATS": [
+            "మధ్యస్థ ధర"
+         ],
+         "DAILY": [
+            "రోజుకు"
+         ],
+         "WEEK": [
+            "వారానికి"
+         ],
+         "MONTH": [
+            "ఒక నెలకి"
+         ],
+         "ANNUALLY": [
+            "ఏడాదికి"
+         ],
+         "SCHOOLDISTRICT": [
+            "పాఠశాల జిల్లా"
+         ],
+         "RELIGIOUS_FACILITY": [
+            "మత సౌకర్యం"
+         ],
+         "GENERATEREPORT": [
+            "పూర్తి ఫ్లైయర్ను ఉత్పత్తి చేయండి"
+         ],
+         "GENERATEFLYER": [
+            "ఫ్లైయర్ సృష్టించండి"
+         ],
+         "DEPOSITS": [
+            "డిపాజిట్లు"
+         ],
+         "ADDDEPOSITS": [
+            "డిపాజిట్లు జోడించండి"
+         ],
+         "DEPOSITTYPE": [
+            "డిపాజిట్ పద్ధతి"
+         ],
+         "SECURITY_DEPOSIT": [
+            "ముందస్తుగా రక్షణకై జమ చేసుకొనే రొక్కము"
+         ],
+         "PET_DEPOSIT": [
+            "పెట్ డిపాజిట్"
+         ],
+         "KEY_DEPOSIT": [
+            "కీ డిపాజిట్"
+         ],
+         "CLEANING_DEPOSIT": [
+            "డిపాజిట్ క్లీనింగ్"
+         ],
+         "MATCHINGADDRESSES": [
+            "సరిపోలే చిరునామాలు"
+         ],
+         "MATCHINGPROPERTIES": [
+            "సరిపోలే గుణాలు"
+         ],
+         "MONDAY": [
+            "సోమవారం"
+         ],
+         "TUESDAY": [
+            "మంగళవారం"
+         ],
+         "WEDNESDAY": [
+            "బుధవారం"
+         ],
+         "THURSDAY": [
+            "గురువారం"
+         ],
+         "FRIDAY": [
+            "శుక్రవారం"
+         ],
+         "SATURDAY": [
+            "శనివారం"
+         ],
+         "SUNDAY": [
+            "ఆదివారం"
+         ],
+         "TOMORROW": [
+            "రేపు"
+         ],
+         "TODAY": [
+            "నేడు"
+         ],
+         "COMING": [
+            "రానున్న"
+         ],
+         "BUYING": [
+            "కొనుగోలు"
+         ],
+         "SELLING": [
+            "సెల్లింగ్"
+         ],
+         "REALTORS": [
+            "లు / బ్రోకర్ లు"
+         ],
+         "PROPERTY_MANAGEMENT": [
+            "ఆస్తి నిర్వహణ"
+         ],
+         "FORECLOSURE": [
+            "ఫోర్క్లోజర్"
+         ],
+         "LOTAREAUOM": [
+            "యూనిట్"
+         ],
+         "LAUNDRYROOM": [
+            "లాండ్రీ గది"
+         ],
+         "LIBRARY": [
+            "లైబ్రరీ"
+         ],
+         "MEDIAROOM": [
+            "మీడియా రూమ్"
+         ],
+         "MOTHERINLAW": [
+            "అత్తయ్య"
+         ],
+         "RECREATIONALROOM": [
+            "వినోద గది"
+         ],
+         "SITTINGROOM": [
+            "కూర్చునే గధి"
+         ],
+         "STORAGE": [
+            "నిల్వ"
+         ],
+         "UTILITY": [
+            "వినియోగ"
+         ],
+         "WALKINCLOSET": [
+            "వాలిన్ క్లోసెట్"
+         ],
+         "WETBAR": [
+            "వెట్ బార్"
+         ],
+         "ATRIUM": [
+            "కర్ణిక"
+         ],
+         "ATTIC": [
+            "అట్టిక్"
+         ],
+         "DEN": [
+            "డెన్"
+         ],
+         "FAMILYROOM": [
+            "కుటుంబ గది"
+         ],
+         "FIREPLACE": [
+            "ఫైర్ ప్లేస్"
+         ],
+         "FOYER": [
+            "హాలులోకి"
+         ],
+         "GREENHOUSE": [
+            "గ్రీన్ హౌస్"
+         ],
+         "GUESTROOM": [
+            "అతిథి గది"
+         ],
+         "NORTH": [
+            "ఉత్తర"
+         ],
+         "SOUTH": [
+            "దక్షిణ"
+         ],
+         "EAST": [
+            "తూర్పు"
+         ],
+         "WEST": [
+            "వెస్ట్"
+         ],
+         "NORTHEAST": [
+            "నార్త్ ఈస్ట్"
+         ],
+         "NORTHWEST": [
+            "వాయువ్యం"
+         ],
+         "SOUTHEAST": [
+            "సౌత్ ఈస్ట్"
+         ],
+         "SOUTHWEST": [
+            "సౌత్ వెస్ట్"
+         ],
+         "PARKINGTYPES": [
+            "పార్కింగ్ రకాలు"
+         ],
+         "ADDPARKINGTYPES": [
+            "పార్కింగ్ రకాలను జోడించండి"
+         ],
+         "LEASEPRICEUOM": [
+            "యూనిట్"
+         ],
+         "CHARACTERS": [
+            "అక్షరాలు"
+         ],
+         "FLOORNUMBER": [
+            "అంతస్తు సంఖ్య"
+         ],
+         "FACINGDIRECTION": [
+            "ముఖంగా దర్శకత్వం"
+         ],
+         "LESS": [
+            "తక్కువ"
+         ],
+         "MORE": [
+            "మరింత"
+         ],
+         "TIME_SHARE": [
+            "సమయం భాగస్వామ్యం"
+         ],
+         "CABIN": [
+            "క్యాబిన్"
+         ],
+         "MLSNUMBER": [
+            "MLS సంఖ్య"
+         ],
+         "MLSID": [
+            "MLS"
+         ],
+         "MLSLISTINGURL": [
+            "మూల లింక్ జాబితా"
+         ],
+         "MLSPROPERTYTYPE": [
+            "వర్గం (మూలం నుండి)"
+         ],
+         "MLSPROPERTYSUBTYPE": [
+            "ఆస్తి రకం (మూలం నుండి)"
+         ],
+         "MLSINFORMATION": [
+            "MLS సమాచారం"
+         ],
+         "LISTINGAREAUOM": [
+            "యూనిట్"
+         ],
+         "YOURADHERE": [
+            "ఇక్కడ మీ ప్రకటన"
+         ],
+         "LOCATIONDIRECTION": [
+            "ఆదేశాలు"
+         ],
+         "ACRE": [
+            "Acres"
+         ],
+         "MAXIMIZE": [
+            "పెంచుకోండి"
+         ],
+         "INCOME": [
+            "ఆదాయపు"
+         ],
+         "SELECTALL": [
+            "అన్ని ఎంచుకోండి"
+         ],
+         "NAMEUNDISCLOSED": [
+            "వివరింపబడని ఆస్తి పేరు"
+         ],
+         "ADDRESSUNDISCLOSED": [
+            "తెలియపట్టని చిరునామా"
+         ],
+         "PRICEUNDISCLOSED": [
+            "అస్పష్టమైన ధర"
+         ],
+         "LIKES": [
+            "ఇష్టాలు"
+         ],
+         "FLOORPLAN": [
+            "అంతస్తు ప్రణాళికలు మరియు సర్వేలు"
+         ],
+         "COMMERCIAL_PROPERTIES": [
+            "వాణిజ్య గుణాలు"
+         ],
+         "RESIDENTIAL_INVESTMENTS": [
+            "నివాస పెట్టుబడులు"
+         ],
+         "ROOM": [
+            "గది సమాచారం"
+         ],
+         "ROLE": [
+            "పాత్ర"
+         ],
+         "LEGALDESCRIPTION": [
+            "వివరణ"
+         ],
+         "DISCLAIMER": [
+            "తనది కాదను వ్యక్తి"
+         ],
+         "LIVINGAREA": [
+            "లివింగ్ ఏరియా"
+         ],
+         "LIVINGROOM": [
+            "లివింగ్ రూమ్"
+         ],
+         "STUDY": [
+            "స్టడీ"
+         ],
+         "KITCHEN": [
+            "కిచెన్"
+         ],
+         "DININGROOM": [
+            "డైనింగ్ రూమ్"
+         ],
+         "PATIO": [
+            "డాబా"
+         ],
+         "PORCH": [
+            "పోర్చ్"
+         ],
+         "DECK": [
+            "డెక్"
+         ],
+         "GARAGE": [
+            "గ్యారేజ్"
+         ],
+         "WORKSHOP": [
+            "వర్క్షాప్"
+         ],
+         "BASEMENT": [
+            "బేస్మెంట్"
+         ],
+         "BEDROOM": [
+            "బెడ్"
+         ],
+         "BATHROOM": [
+            "మూత్రశాల"
+         ],
+         "FULLBATHROOM": [
+            "పూర్తి బాత్రూమ్"
+         ],
+         "HALFBATHROOM": [
+            "హాఫ్ బాత్రూమ్"
+         ],
+         "QUARTERBATHROOM": [
+            "క్వార్టర్ బాత్రూమ్"
+         ],
+         "THREEQUARTERBATHROOM": [
+            "మూడు క్వార్టర్ మూత్రశాల"
+         ],
+         "BARBEQUEAREA": [
+            "బార్బెక్యూ ప్రాంతం"
+         ],
+         "DISABLEDACCESS": [
+            "డిసేబుల్ యాక్సెస్"
+         ],
+         "LAWNAREA": [
+            "లాన్ ఏరియా"
+         ],
+         "WIREDFORAUTOMATION": [
+            "ఆటోమేషన్ కోసం వైర్డు"
+         ],
+         "DRAFT": [
+            "డ్రాఫ్ట్"
+         ],
+         "PENDING_APPROVAL": [
+            "పెండింగ్ కంటెంట్ మోడరేషన్"
+         ],
+         "PENDING_CONTENT_APPROVAL": [
+            "కంటెంట్ ఆమోదం పెండింగ్లో ఉంది"
+         ],
+         "ACTIVE": [
+            "Active"
+         ],
+         "REJECTED": [
+            "తిరస్కరించబడిన"
+         ],
+         "EXPIRED": [
+            "గడువు"
+         ],
+         "CLOSED": [
+            "ముగించబడినది"
+         ],
+         "CLICKTOVIEWPROFILE": [
+            "ప్రొఫైల్ చూడండి ఇక్కడ క్లిక్ చేయండి"
+         ],
+         "CHOOSEONMAP": [
+            "మ్యాప్లో ఎంచుకోండి"
+         ],
+         "CLOSEMAP": [
+            "మ్యాప్ను మూసివేయి"
+         ],
+         "HOMEFORSALESEARCHHEADER": [
+            "అమ్మకానికి హోమ్స్ కనుగొను"
+         ],
+         "FORLEASESEARCHHEADER": [
+            "అద్దె / అద్దె కోసం గుణాలు కనుగొనండి"
+         ],
+         "PROFESSIONALSEARCHHEADER": [
+            "సర్వీస్ ప్రొవైడర్స్ లేదా ప్రొఫెషనల్స్ను కనుగొనండి"
+         ],
+         "REALTORSEARCHHEADER": [
+            "ఇష్టపడే లు / బ్రోకర్లను కనుగొనండి"
+         ],
+         "HOMEFORSALE": [
+            "పెట్టుబడి"
+         ],
+         "HIGHESTCAPRATE": [
+            "క్యాప్ రేట్ సంభావ్యత (తక్కువ నుండి తక్కువ)"
+         ],
+         "LOWESTCAPRATE": [
+            "క్యాప్ రేట్ సంభావ్యత (తక్కువ స్థాయికి)"
+         ],
+         "CAPRATERANGE": [
+            "క్యాప్ రేట్ సంభావ్యత (%)"
+         ],
+         "INVESTEMENTCATEGORIES": [
+            "పెట్టుబడి వర్గాలు"
+         ],
+         "PREFERREDLOCATION": [
+            "కోరుకొనే ప్రదేశం"
+         ],
+         "PREFERREDLOCATIONS": [
+            "ఇష్టపడే స్థానాలు"
+         ],
+         "MINIMUM": [
+            "కనీస"
+         ],
+         "MAXIMUM": [
+            "గరిష్ఠ"
+         ],
+         "CORE": [
+            "కోర్ - తక్కువ రిస్క్ / రిటర్న్"
+         ],
+         "COREPLUS": [
+            "కోర్ ప్లస్ - మీడియం రిస్క్ / రిటర్న్"
+         ],
+         "VALUEADDED": [
+            "విలువ జోడించండి"
+         ],
+         "DEVELOPMENTOPPORTUNITY": [
+            "అభివృద్ధి అవకాశం"
+         ],
+         "CAPITALCONSTRAINTS": [
+            "రాజధాని పరిమితులు"
+         ],
+         "ENVIRONMENTPROBLEMS": [
+            "పర్యావరణ సమస్యలు"
+         ],
+         "MANAGEMENTPROBLEMS": [
+            "నిర్వహణ సమస్యలు"
+         ],
+         "NEEDSSTRUCTURIALIMPROVEMENTS": [
+            "స్ట్రక్చర్యల్ మెరుగుదలలు అవసరం"
+         ],
+         "NEEDSINETRIORIMPROVEMENTS": [
+            "అంతర్గత మెరుగుదలలు అవసరం"
+         ],
+         "OPERATIONALPROBLEMS": [
+            "కార్యాచరణ సమస్యలు"
+         ],
+         "OTHERVALUEADDED": [
+            "ఇతర విలువ జోడించు"
+         ],
+         "RISKRETURNCATEGORY": [
+            "ఇన్వెస్ట్మెంట్ వర్గం"
+         ],
+         "VALUEADDEDREASON": [
+            "కారణము"
+         ],
+         "ALLBILLSPAID": [
+            "అన్ని బిల్లులు చెల్లించబడ్డాయి"
+         ],
+         "METEREDUNITS": [
+            "విడిగా యూనిట్లు"
+         ],
+         "SOMEBILLSPAID": [
+            "చెల్లించిన కొన్ని బిల్లులు"
+         ],
+         "MULTIFAMILYHOUSINGTYPE": [
+            "యుటిలిటీ బిల్లులు"
+         ],
+         "PAIDUTILITIES": [
+            "చెల్లించిన యుటిలిటీస్"
+         ],
+         "CURRENTRENT": [
+            "ప్రస్తుత అద్దె"
+         ],
+         "SECURITYDEPOSIT": [
+            "ముందస్తుగా రక్షణకై జమ చేసుకొనే రొక్కము"
+         ],
+         "NUMBEROFUNITS": [
+            "యూనిట్ల సంఖ్య"
+         ],
+         "ADD": [
+            "చేర్చు"
+         ],
+         "DEMOGRAPHICS": [
+            "జనాభా"
+         ],
+         "WIDGETPOPULATION": [
+            "జనాభా గణాంకాలు"
+         ],
+         "WIDGETFMRDATA": [
+            "ఫెయిర్ మార్కెట్ రేంజ్ స్టాటిస్టిక్స్"
+         ],
+         "WIDGETHOUSING": [
+            "హౌసింగ్ స్టాటిస్టిక్స్"
+         ],
+         "WIDGETMEDIANINCOME": [
+            "ఆదాయం గణాంకాలు"
+         ],
+         "WIDGETOCCUPATION": [
+            "వృత్తి గణాంకాలు"
+         ],
+         "WIDGETINCOMESLAB": [
+            "ఆదాయం స్లాబ్ గణాంకాలు"
+         ],
+         "WIDGETTRANSPORTATION": [
+            "వర్క్ గణాంకాలు పని చేయండి"
+         ],
+         "WIDGETSCHOOL": [
+            "సమీప పాఠశాలలు"
+         ],
+         "WIDGETVIOLENTCRIME": [
+            "హింసాత్మక నేర రేటు గణాంకాలు"
+         ],
+         "WIDGETPROPERTYCRIME": [
+            "ఆస్తి క్రైమ్ రేట్ గణాంకాలు"
+         ],
+         "WIDGETDISASTERDATA": [
+            "ఇటీవలి ఫెడరల్ అత్యవసర పరిస్థితులు"
+         ],
+         "SOURCE": [
+            "మూల"
+         ],
+         "WIDGETFMRFOOTER": [
+            "హౌసింగ్ అండ్ అర్బన్ డెవలప్మెంట్ యొక్క US డిపార్ట్మెంట్"
+         ],
+         "WIDGETCENSUSFOOTER": [
+            "US సెన్సస్ బ్యూరో"
+         ],
+         "WIDGETSCHOOLFOOTER": [
+            "US డిపార్ట్మెంట్ ఆఫ్ ఎడ్యుకేషన్"
+         ],
+         "WIDGETCRIMEFOOTER": [
+            "ఫెడరల్ బ్యూరో ఆఫ్ ఇన్వెస్టిగేషన్"
+         ],
+         "WIDGETDISASTERDATAFOOTER": [
+            "ఫెడరల్ ఎమర్జెన్సీ మేనేజ్మెంట్ ఏజెన్సీ"
+         ],
+         "WIDGETEMPLOYMENTGROWTH": [
+            "ఉపాధి వృద్ధి గణాంకాలు"
+         ],
+         "WIDGETETHNICITY": [
+            "జనాభా మానవజాతి గణాంకాలు"
+         ],
+         "WIDGETPOPULATIONGROWTH": [
+            "ఎంప్లాయిడ్ పాపులేషన్ స్టాటిస్టిక్స్"
+         ],
+         "WIDGETPROPERTYTAX": [
+            "ఆస్తి పన్ను గణాంకాలు"
+         ],
+         "TOTALPOPULATION": [
+            "మొత్తం జనాభా"
+         ],
+         "MEDIANAGE": [
+            "మధ్యయుగం వయసు"
+         ],
+         "WHITE": [
+            "వైట్"
+         ],
+         "BLACK": [
+            "బ్లాక్"
+         ],
+         "ASIAN": [
+            "ఆసియా"
+         ],
+         "AMERICAN": [
+            "అమెరికన్ ఇండియన్"
+         ],
+         "HISPANICPERCENTAGE": [
+            "హిస్పానిక్ జనాభా"
+         ],
+         "EMPTY": [
+            "అన్ని"
+         ],
+         "OTHER": [
+            "ఇతర"
+         ],
+         "MALEFEMALERATIO": [
+            "పురుషుడు / అవివాహిత నిష్పత్తి"
+         ],
+         "FAIRMARKETRENT": [
+            "ఫెయిర్ మార్కెట్ అద్దె"
+         ],
+         "FMRDATAXAXIS": [
+            "ఇయర్"
+         ],
+         "FMRDATAYAXIS": [
+            "మార్కెట్ అద్దె"
+         ],
+         "EFFICIENTAPARTMENTPRICE": [
+            "సామర్థ్యం"
+         ],
+         "ONEBHKAPARTMENTPRICE": [
+            "సింగిల్ బెడ్"
+         ],
+         "TWOBHKAPARTMENTPRICE": [
+            "డబుల్ బెడ్ రూమ్"
+         ],
+         "THREEBHKAPARTMENTPRICE": [
+            "మూడు బెడ్ రూమ్"
+         ],
+         "FOURBHKAPARTMENTPRICE": [
+            "నాలుగు బెడ్ రూమ్"
+         ],
+         "UNKNOWN": [
+            "తెలియని"
+         ],
+         "TOTALUNITS": [
+            "మొత్తం యూనిట్ల సంఖ్య"
+         ],
+         "OCCUPIEDUNIT": [
+            "ఆక్రమిత యూనిట్లు"
+         ],
+         "RENTEDUNIT": [
+            "అద్దె యూనిట్లు"
+         ],
+         "OCCUPIEDRENTEDUNITXAXIS": [
+            "ఇయర్"
+         ],
+         "OCCUPIEDRENTEDUNITYAXIS": [
+            "యూనిట్ల శాతం"
+         ],
+         "POPULATIONGROWTHYAXIS": [
+            "జనాభా"
+         ],
+         "POPULATIONGROWTH": [
+            "మొత్తం జనాభా"
+         ],
+         "POPULATIONGROWTHXAXIS": [
+            "ఇయర్"
+         ],
+         "EMPLOYEMENTGROWTHYAXIS": [
+            "ఉపాధి జనాభా శాతం"
+         ],
+         "EMPLOYEMENTGROWTH": [
+            "ఉపాధి జనాభా"
+         ],
+         "EMPLOYEMENTGROWTHXAXIS": [
+            "ఇయర్"
+         ],
+         "OTHEROCCUPATION": [
+            "ఇతర వృత్తి"
+         ],
+         "EMPLOYEDPERCENTAGE": [
+            "ఉపాధి జనాభా"
+         ],
+         "MEDIANPROPERTYTAX": [
+            "మధ్యస్థ ఆస్తి పన్ను"
+         ],
+         "MEDIANPROPERTYTAXYAXIS": [
+            "ఇయర్"
+         ],
+         "MEDIANPROPERTYTAXXAXIS": [
+            "ఆస్తి పన్ను చెల్లింపు"
+         ],
+         "MEDIANINCOME": [
+            "మధ్యస్థ ఆదాయం"
+         ],
+         "MEDIANINCOMEXAXIS": [
+            "ఇయర్"
+         ],
+         "MEDIANINCOMEYAXIS": [
+            "ఆదాయపు"
+         ],
+         "MANAGEMENTOCCUPATION": [
+            "మేనేజ్మెంట్"
+         ],
+         "SERVICEOCCUPATION": [
+            "సర్వీస్"
+         ],
+         "SALESOCCUPATION": [
+            "అమ్మకాలు"
+         ],
+         "CONSTRUCTIONOCCUPATION": [
+            "నిర్మాణం"
+         ],
+         "PRODUCTIONOCCUPATION": [
+            "ఉత్పత్తి"
+         ],
+         "INCOMESLAB": [
+            "మొత్తం జనాభా"
+         ],
+         "INCOMESLABXAXIS": [
+            "ఇన్నోమ్ స్లాబ్"
+         ],
+         "INCOMESLABYAXIS": [
+            "జనాభా"
+         ],
+         "BELOWFIFTEENTHOUSANDINCOME": [
+            "<15 కే"
+         ],
+         "FIFTEENTOTHIRTYTHOUSANDINCOME": [
+            "15K - 30K"
+         ],
+         "THIRTYTOFIFTYTHOUSANDINCOME": [
+            "30K - 50K"
+         ],
+         "FIFTYTOSEVENTYFIVEHOUSANDINCOME": [
+            "50K - 75K"
+         ],
+         "SEVENTYFIVETOHUNDREDTHOUSANDINCOME": [
+            "75K - 100K"
+         ],
+         "HUNDREDTOONEFIFTYTHOUSANDINCOME": [
+            "100K - 150K"
+         ],
+         "ONEFIFTYABOVETHOUSANDINCOME": [
+            "> 150 కి"
+         ],
+         "MEANTRAVELTIME": [
+            "పని చేయడానికి మీన్ కమ్యూట్ టైమ్"
+         ],
+         "TRANSPORTATIONMEANS": [
+            "రవాణా మార్గాలు"
+         ],
+         "TRANSPORTATIONMEANSXAXIS": [
+            "జనాభా శాతం"
+         ],
+         "TRANSPORTATIONMEANSYAXIS": [
+            "రవాణా ఎంపిక"
+         ],
+         "PEOPLEDROVEALONE": [
+            "ఒంటరిగా డ్రోవ్"
+         ],
+         "PEOPLECARPOOLED": [
+            "కార్ పూల్డ్"
+         ],
+         "PEOPLEUSEDPUBLICTRANSPORTATION": [
+            "పబ్లిక్ ట్రాన్స్పోర్షన్"
+         ],
+         "PEOPLEUSEDBICYCLEORWALKED": [
+            "సైకిల్ లేదా వాకింగ్"
+         ],
+         "PEOPLEUSEDOTHERTRANSPORTATION": [
+            "ఇతర రవాణా"
+         ],
+         "PEOPLEWORKEDATHOME": [
+            "ఇంట్లో పనిచేశారు"
+         ],
+         "SCHOOLNAME": [
+            "పాఠశాల పేరు"
+         ],
+         "LOWESTGRADE": [
+            "అత్యల్ప గ్రేడ్"
+         ],
+         "HIGHESTGRADE": [
+            "అత్యధిక గ్రేడ్"
+         ],
+         "SCHOOLTYPE": [
+            "స్కూల్ పద్ధతి"
+         ],
+         "VIOLENTCRIMEDATA": [
+            "హింసాత్మక నేర రేటు"
+         ],
+         "VIOLENTCRIMEDATAXAXIS": [
+            "ఇయర్"
+         ],
+         "VIOLENTCRIMEDATAYAXIS": [
+            "క్రైమ్ రేట్ (100,000 జనాభాకు)"
+         ],
+         "PROPERTYCRIMEDATA": [
+            "ఆస్తి క్రైమ్ రేట్"
+         ],
+         "PROPERTYCRIMEDATAXAXIS": [
+            "ఇయర్"
+         ],
+         "PROPERTYCRIMEDATAYAXIS": [
+            "క్రైమ్ రేట్ (100,000 జనాభాకు)"
+         ],
+         "INCIDENTTITLE": [
+            "సంఘటన"
+         ],
+         "INCIDENTTYPE": [
+            "సంఘటన రకం"
+         ],
+         "IHPROGRAMDECLARED": [
+            "తాత్కాలిక హౌసింగ్?"
+         ],
+         "IAPROGRAMDECLARED": [
+            "వ్యక్తిగత సహాయం?"
+         ],
+         "PAPROGRAMDECLARED": [
+            "ప్రజా సహాయం"
+         ],
+         "HMPROGRAMDECLARED": [
+            "హాజరు తగ్గింపు?"
+         ],
+         "INCIDENTBEGINDATE": [
+            "సంఘటన తేదీ"
+         ],
+         "TAGNAME": [
+            "ఫోటో లేబుల్"
+         ],
+         "RENAMEFILE": [
+            "మీ పత్రానికి పేరు మార్చండి"
+         ],
+         "FILENAME": [
+            "పత్రం పేరు"
+         ],
+         "VIDEOTITLE": [
+            "వీడియో శీర్షిక"
+         ],
+         "VIDEOURL": [
+            "వీడియో URL"
+         ],
+         "CLOSE": [
+            "Close"
+         ],
+         "MINIMIZE": [
+            "తగ్గించడానికి"
+         ],
+         "COMMENTS": [
+            "వ్యాఖ్యలు"
+         ],
+         "FEEDBACKCONTENTMESSAGE": [
+            "ఇక్కడ మీ అభిప్రాయాన్ని టైప్ చెయ్యండి ..."
+         ],
+         "SITEFEEDBACKHEADER": [
+            "సైట్ అభిప్రాయాన్ని పంపండి"
+         ],
+         "SENDSITEFEEDBACK": [
+            "అభిప్రాయాన్ని పంపండి"
+         ],
+         "READMORE": [
+            "ఇంకా చదవండి…"
+         ],
+         "SEARCHBYPROPERTY": [
+            "ఆస్తి కనుగొనండి"
+         ],
+         "SEARCHBYREALTOR": [
+            "రియాలిటర్ / బ్రోకర్ ను కనుగొనండి"
+         ],
+         "QUESTION": [
+            "ప్రశ్న"
+         ],
+         "OFFLINE": [
+            "ఆఫ్లైన్"
+         ],
+         "SAVING": [
+            "సేవ్ చేస్తోంది !!!"
+         ],
+         "SAVED": [
+            "సేవ్ చెయ్యబడింది !!!"
+         ],
+         "YEARS": [
+            "ఇయర్స్"
+         ],
+         "MONTHS": [
+            "నెలల"
+         ],
+         "WEEKS": [
+            "వారాలు"
+         ],
+         "DAYS": [
+            "రోజులు"
+         ],
+         "MASTERLEASE": [
+            "మాస్టర్ లీజ్"
+         ],
+         "SUBLEASE": [
+            "సబ్ లీజ్"
+         ],
+         "TYPING": [
+            "% S టైప్ చేస్తోంది ..."
+         ],
+         "NEWMESSAGES": [
+            "కొత్త సందేశం (లు)"
+         ],
+         "DEFAULTCHATMESSAGE": [
+            "ఇక్కడ మీ సందేశాన్ని టైప్ చేయండి ..."
+         ],
+         "MOREACTIONS": [
+            "మరిన్ని చర్యలు"
+         ],
+         "ACTIONS": [
+            "చర్యలు"
+         ],
+         "THUMBNAIL": [
+            "ఫోటో"
+         ],
+         "LEFT": [
+            "ఎడమ"
+         ],
+         "RIGHT": [
+            "కుడి"
+         ],
+         "ROTATE": [
+            "రొటేట్"
+         ],
+         "ZOOM": [
+            "జూమ్"
+         ],
+         "RSVP": [
+            "RSVP"
+         ],
+         "SEEALL": [
+            "అన్నింటిని చూడు"
+         ],
+         "EXISTING": [
+            "ఇప్పటికే"
+         ],
+         "NEW": [
+            "న్యూ"
+         ],
+         "NEWLYRENOVATED": [
+            "కొత్తగా పునర్మించిన"
+         ],
+         "UNDERCONSTRUCTION": [
+            "అండర్ కన్స్ట్రక్షన్"
+         ],
+         "PROPOSED": [
+            "ప్రతిపాదిత"
+         ],
+         "ARCHITECT": [
+            "ఆర్కిటెక్ట్"
+         ],
+         "HOMETELEPHONE": [
+            "హోమ్ టెలిఫోన్"
+         ],
+         "OFFICETELEPHONE": [
+            "ఆఫీసు టెలిఫోన్"
+         ],
+         "MOBILE": [
+            "మొబైల్"
+         ],
+         "AUCTION": [
+            "వేలం"
+         ],
+         "BANKOWNED": [
+            "బ్యాంక్ ఆధ్వర్యంలోని"
+         ],
+         "ELECTRICITYBACKUP": [
+            "విద్యుత్ బ్యాకప్"
+         ],
+         "BYBUILDER": [
+            "బిల్డర్ ద్వారా"
+         ],
+         "BYOWNER": [
+            "యజమాని ద్వారా"
+         ],
+         "BYAGENT": [
+            "ఏజెంట్ ద్వారా"
+         ],
+         "BYBANK": [
+            "బ్యాంక్ ద్వారా"
+         ],
+         "NEWCONSTRUCTION": [
+            "కొత్త నిర్మాణం"
+         ],
+         "FORSALE": [
+            "అమ్మకానీకి వుంది"
+         ],
+         "FORLEASE": [
+            "అద్దె / అద్దెకు"
+         ],
+         "FORAUCTION": [
+            "వేలం కోసం"
+         ],
+         "LAND": [
+            "భూమి"
+         ],
+         "RESIDENTIAL": [
+            "రెసిడెన్షియల్"
+         ],
+         "TWIN_HOME": [
+            "ట్విన్ హోమ్"
+         ],
+         "LOFT_STYLE": [
+            "లోఫ్ట్ శైలి అపార్ట్మెంట్"
+         ],
+         "GARDEN_HOME_SINGLE_UNIT": [
+            "గార్డెన్ హోమ్"
+         ],
+         "GARDEN_HOME_1_4_UNITS": [
+            "గార్డెన్ హోమ్ 1 నుండి 4 యూనిట్లు"
+         ],
+         "CONDO_SINGLE_UNIT": [
+            "కాండో"
+         ],
+         "CONDO_1_4_UNITS": [
+            "కాండో 1 నుండి 4 యూనిట్లు"
+         ],
+         "TOWNHOME_1_4_UNITS": [
+            "టౌన్ హోం 1 నుండి 4 యూనిట్లు"
+         ],
+         "OTHER_RESIDENTIAL": [
+            "ఇతర నివాస"
+         ],
+         "TRIPLEX": [
+            "ట్రిపుల్"
+         ],
+         "QUADRUPLEX": [
+            "క్వాడ్రుప్లెక్స్"
+         ],
+         "MOBILE_HOME": [
+            "మొబైల్ హోమ్"
+         ],
+         "DUPLEX": [
+            "డ్యూప్లెక్స్"
+         ],
+         "DUPLEX_SINGLE_UNIT": [
+            "డ్యూప్లెక్స్"
+         ],
+         "TOWNHOME_SINGLE_UNIT": [
+            "townhome"
+         ],
+         "DUPLEX_2_UNITS": [
+            "ద్వంద్వ 2 యూనిట్లు"
+         ],
+         "SINGLE_FAMILY_HOME_PORTFOLIO": [
+            "సింగిల్ ఫ్యామిలీ హోం - పోర్ట్ఫోలియో"
+         ],
+         "TOWN_HOME": [
+            "టౌన్ హోమ్"
+         ],
+         "GARDEN_HOME": [
+            "గార్డెన్ హోమ్"
+         ],
+         "CONGREGATE_HOUSING": [
+            "హౌసింగ్ సమితి"
+         ],
+         "ASSISTED_LIVING": [
+            "సహాయక జీవన"
+         ],
+         "SINGLE_FAMILY_HOME": [
+            "ఒకే కుటుంబ హోమ్"
+         ],
+         "TOWN_HOUSE": [
+            "టౌన్ హౌస్"
+         ],
+         "GARDEN_LOW_RISE": [
+            "రూమ్ హౌస్"
+         ],
+         "INDEPENDENT_HOUSE": [
+            "ఇండిపెండెంట్ హౌస్"
+         ],
+         "MULTI_FAMILY_APARTMENT": [
+            "మల్టీ ఫ్యామిలీ అపార్ట్మెంట్"
+         ],
+         "RESIDENTIAL_APARTMENT": [
+            "నివాస అపార్ట్మెంట్"
+         ],
+         "APARTMENT": [
+            "అపార్ట్ మెంట్"
+         ],
+         "ROW_HOUSE": [
+            "వరస ఇల్లు"
+         ],
+         "PG_ACCOMMODATION": [
+            "పేయింగ్ గెస్ట్"
+         ],
+         "HOTEL_AND_LODGING": [
+            "హోటల్ మరియు లాడ్జింగ్"
+         ],
+         "SERVICED_APARTMENT": [
+            "సర్వీస్డ్ అపార్ట్ మెంట్"
+         ],
+         "CONDO": [
+            "వరస ఇల్లు"
+         ],
+         "RESTAURANT": [
+            "రెస్టారెంట్"
+         ],
+         "PETROL_BUNK": [
+            "పెట్రోల్ బంక్"
+         ],
+         "ENTERTAINMENT": [
+            "వినోదం"
+         ],
+         "THEATRE": [
+            "థియేటర్"
+         ],
+         "CAFE": [
+            "కేఫ్"
+         ],
+         "BAR": [
+            "బార్"
+         ],
+         "ELECTRICITY": [
+            "విద్యుత్"
+         ],
+         "TELEPHONE": [
+            "టెలిఫోన్"
+         ],
+         "WATER": [
+            "నీటి"
+         ],
+         "GAS": [
+            "గ్యాస్"
+         ],
+         "CABLE": [
+            "తీగలతో చేసిన తాడు"
+         ],
+         "INTERNET": [
+            "ఇంటర్నెట్"
+         ],
+         "WIFI": [
+            "వైఫై"
+         ],
+         "POWERBACKUP": [
+            "పవర్ బ్యాకప్"
+         ],
+         "CLIMATECONTROL": [
+            "వాతావరణ నియంత్రణ"
+         ],
+         "AIRCONDITION": [
+            "ఎయిర్ కండిషన్"
+         ],
+         "ELEVATORS": [
+            "ఎలివేటర్లు"
+         ],
+         "WASTEDISPOSAL": [
+            "వేస్ట్ పరోహరణ"
+         ],
+         "VIDEOSURVEILLANCE": [
+            "వీడియో నిఘా"
+         ],
+         "CAFETERIA": [
+            "ఫలహారశాల"
+         ],
+         "SECURITY": [
+            "సెక్యూరిటీ"
+         ],
+         "GYM": [
+            "వ్యాయామశాల"
+         ],
+         "CLUBHOUSE": [
+            "క్లబ్ హౌస్"
+         ],
+         "CHILDCARE": [
+            "చైల్డ్ కేర్"
+         ],
+         "RECREATIONAREA": [
+            "వినోద ప్రదేశం"
+         ],
+         "CONFERENCEROOM": [
+            "సమావేశ మందిరం"
+         ],
+         "MAINTENANCESTAFF": [
+            "మేంటెనెన్స్ స్టాఫ్"
+         ],
+         "SMOKINGZONE": [
+            "ధూమపానం జోన్"
+         ],
+         "QUICKSEARCH": [
+            "శీఘ్ర శోధన"
+         ],
+         "NAME": [
+            "పేరు"
+         ],
+         "OTP": [
+            "వన్ టైమ్ పాస్వర్డ్"
+         ],
+         "SENDOTP": [
+            "OTP పంపండి"
+         ],
+         "RESENDOTP": [
+            "Re పంపండి వన్ టైమ్ పాస్వర్డ్"
+         ],
+         "HOME": [
+            "హోమ్"
+         ],
+         "SUMMARY": [
+            "సారాంశం"
+         ],
+         "MYSEARCHES": [
+            "నా శోధనలు"
+         ],
+         "FILTERS": [
+            "వడపోతలు"
+         ],
+         "SHOW": [
+            "షో"
+         ],
+         "SAVEASDRAFT": [
+            "ప్రతిగా భద్రపరచుము"
+         ],
+         "MAP": [
+            "మ్యాప్"
+         ],
+         "SAVE": [
+            "సేవ్"
+         ],
+         "SUBMIT": [
+            "సమర్పించండి"
+         ],
+         "FIND": [
+            "కనుగొనండి"
+         ],
+         "CLEAR": [
+            "ప్రశాంతంగా"
+         ],
+         "HIDE": [
+            "దాచు"
+         ],
+         "RADIUS": [
+            "వ్యాసార్ధం"
+         ],
+         "CLEARALL": [
+            "అన్ని క్లియర్"
+         ],
+         "SORT": [
+            "క్రమీకరించు"
+         ],
+         "VIEWONMAP": [
+            "మ్యాప్లో వీక్షించండి"
+         ],
+         "ADDRESS": [
+            "చిరునామా"
+         ],
+         "PROPERTYNAME": [
+            "ఆస్తి పేరు"
+         ],
+         "PROPERTYTYPE": [
+            "వర్గం"
+         ],
+         "PROPERTYSUBTYPE": [
+            "ఆస్థి రకం"
+         ],
+         "AREA": [
+            "ఏరియా"
+         ],
+         "LOTAREA": [
+            "ప్లాట్ ఏరియా"
+         ],
+         "PROPERTYDESCRIPTION": [
+            "సంపత్తి వివరణ"
+         ],
+         "HIGHLIGHTS": [
+            "ముఖ్యాంశాలు"
+         ],
+         "CANCEL": [
+            "రద్దు"
+         ],
+         "OK": [
+            "అలాగే"
+         ],
+         "PHOTOS": [
+            "ఫోటోలు"
+         ],
+         "ADDITIONALDOCUMENTS": [
+            "పత్రాలు"
+         ],
+         "ADDVIDEOLINKS": [
+            "వీడియోలు"
+         ],
+         "PROPERTYLISTINGTYPE": [
+            "ప్రకటన రకం"
+         ],
+         "ADDITIONALDETAILS": [
+            "అదనపు సమాచారం"
+         ],
+         "FINANCIALINFORMATION": [
+            "అవలోకనం"
+         ],
+         "FINANCIALS": [
+            "ఆర్ధిక సంబంధమైనవి"
+         ],
+         "PRICERANGE": [
+            "ధర"
+         ],
+         "AREARANGE": [
+            "ప్రాంతం (Sq అడుగులు)"
+         ],
+         "MYPROFILE": [
+            "నా జీవన వివరణ"
+         ],
+         "MOBILENUMBER": [
+            "మొబైల్ నంబర్"
+         ],
+         "MYCOMPANY": [
+            "నా కంపెనీ"
+         ],
+         "MYLISTINGS": [
+            "నా జాబితాలు"
+         ],
+         "ABOUTUS": [
+            "మా గురించి"
+         ],
+         "CONTACTUS": [
+            "మమ్మల్ని సంప్రదించండి"
+         ],
+         "FAQ": [
+            "తరచుగా అడుగు ప్రశ్నలు"
+         ],
+         "TITLE": [
+            "ప్రకటన శీర్షిక"
+         ],
+         "PROPERTYLISTINGSALETYPE": [
+            "ద్వారా పోస్ట్"
+         ],
+         "ENDDATE": [
+            "ప్రకటన గడువు తేదీ"
+         ],
+         "STATUS": [
+            "స్థితి"
+         ],
+         "DISTRESSED": [
+            "నష్టాల్లో"
+         ],
+         "DISTRESSEDSTATUS": [
+            "నష్టాల్లో స్థితి"
+         ],
+         "SALEPRICE": [
+            "ఆర్ధిక సమాచారం"
+         ],
+         "LEASEPRICE": [
+            "అద్దె సమాచారం"
+         ],
+         "BIDPRICE": [
+            "బిడ్ ధర"
+         ],
+         "BIDSTARTPRICE": [
+            "బిడ్ ప్రారంభ ధర"
+         ],
+         "DEPOSITAMOUNT": [
+            "ముందస్తుగా రక్షణకై జమ చేసుకొనే రొక్కము"
+         ],
+         "DAYSFORFULLPAYMENT": [
+            "పూర్తి చెల్లింపు రోజులు"
+         ],
+         "BIDSTARTDATE": [
+            "బిడ్ ప్రారంభ తేదీ"
+         ],
+         "BIDENDDATE": [
+            "బిడ్ ముగింపు తేదీ"
+         ],
+         "COMMISSIONSPLIT": [
+            "కొనుగోలుదారు ఏజెంట్ కమిషన్"
+         ],
+         "COMMISSIONPERCENTAGE": [
+            "కమిషన్ శాతం"
+         ],
+         "COMMISSIONAMOUNT": [
+            "కమిషన్ ఛార్జీలు"
+         ],
+         "PERSQUAREFEET": [
+            "స్క్వేర్ ఫీట్ కి"
+         ],
+         "BASERATEPERSQUAREFEET": [
+            "SQ ఫెట్కు బేస్ రేట్"
+         ],
+         "RATEPERSQUAREFEET": [
+            "స్క్వేర్ ఫీట్కు రేట్ చేయండి"
+         ],
+         "DISCLOSEADDRESS": [
+            "చిరునామాను బహిర్గతం చేయాలా?"
+         ],
+         "DISCLOSEPRICE": [
+            "ధరను బహిర్గతం చేయాలా?"
+         ],
+         "PRICE": [
+            "ధర"
+         ],
+         "DESPOSITAMOUNT": [
+            "డిపాజిట్"
+         ],
+         "LEASEPERIOD": [
+            "ఇయర్స్ లో లీజు కాలం"
+         ],
+         "LEASETERM": [
+            "లీజ్ టర్మ్"
+         ],
+         "LEASETERMUOM": [
+            "యూనిట్"
+         ],
+         "SALETYPE": [
+            "ద్వారా పోస్ట్"
+         ],
+         "CAPRATEKNOWN": [
+            "కాప్ రేట్ ను లెక్కించాలా?"
+         ],
+         "CAPRATETYPE": [
+            "ఆర్థిక పద్ధతి"
+         ],
+         "ACTUAL": [
+            "అసలు"
+         ],
+         "PROFORMA": [
+            "ప్రో- ఫారం"
+         ],
+         "GROSSRENTREVENUE": [
+            "స్థూల అద్దె ఆదాయం"
+         ],
+         "VACANCYLOSSES": [
+            "ఖాళీల నష్టం"
+         ],
+         "OWNERASSOCIATIONFEE": [
+            "యజమానులు అసోసియేషన్ ఫీజులు"
+         ],
+         "MANAGEMENTANDLEASINGFEES": [
+            "నిర్వహణ మరియు లీజింగ్ ఫీజులు"
+         ],
+         "PROPERTYINSURANCE": [
+            "ఆస్తి భీమా"
+         ],
+         "PROPERTYTAXES": [
+            "ఆస్తి పన్నులు"
+         ],
+         "PROPERTYMAINTENANCE": [
+            "ఆస్తి నిర్వహణ ఖర్చులు"
+         ],
+         "OTHEREXPENSES": [
+            "ఇతర ఖర్చులు"
+         ],
+         "CALCULATEANDAPPLY": [
+            "వర్తించు"
+         ],
+         "CALCULATENETOPERATINGINCOME": [
+            "లెక్కించు"
+         ],
+         "NETOPERATINGINCOME": [
+            "నికర ఆపరేటింగ్ ఆదాయం"
+         ],
+         "CALCULATEDCAPRATE": [
+            "టోపీ రేటు"
+         ],
+         "CAPRATE": [
+            "టోపీ రేటు"
+         ],
+         "DELETE": [
+            "తొలగించు"
+         ],
+         "IMAGEURLS": [
+            "ఫోటోలు"
+         ],
+         "PRIMARYIDENTIFIER": [
+            "ఆస్తి గుర్తింపు సంఖ్య"
+         ],
+         "TOTALAREA": [
+            "మొత్తం ప్రదేశం"
+         ],
+         "DESCRIPTION": [
+            "వివరణ"
+         ],
+         "AMENITIES": [
+            "సదుపాయాలు"
+         ],
+         "UTILITIES": [
+            "యుటిలిటీస్"
+         ],
+         "CONDITIONS": [
+            "పరిస్థితులు"
+         ],
+         "LINEONE": [
+            "చిరునామా"
+         ],
+         "LINETWO": [
+            "ల్యాండ్మార్క్"
+         ],
+         "REGION": [
+            "ప్రాంతం"
+         ],
+         "LOCALITY": [
+            "లొక్యాలిటీ"
+         ],
+         "CITY": [
+            "సిటీ"
+         ],
+         "STATE": [
+            "రాష్ట్రం"
+         ],
+         "ZIPCODE": [
+            "మెయిలింగ్ జిప్ కోడ్"
+         ],
+         "COUNTRY": [
+            "దేశం"
+         ],
+         "CURRENCY": [
+            "కరెన్సీ"
+         ],
+         "COMPANYNAME": [
+            "కంపెనీ పేరు"
+         ],
+         "CONTACTNUMBERS": [
+            "సంప్రదించండి సంఖ్యలు"
+         ],
+         "WEBSITE": [
+            "వెబ్సైట్"
+         ],
+         "WEBSITES": [
+            "వెబ్ సైట్లు"
+         ],
+         "COMPANYTYPE": [
+            "సంస్థ టైప్"
+         ],
+         "SAVEDSEARCHPREFERENCES": [
+            "నోటిఫికేషన్ ప్రాధాన్యతలను మ్యాచ్"
+         ],
+         "CONTACTPREFERENCES": [
+            "సంప్రదింపు ప్రాధాన్యతలు"
+         ],
+         "CONTENTPREFERENCES": [
+            "క్రొత్త కంటెంట్ నోటిఫికేషన్ ప్రాధాన్యతలు"
+         ],
+         "AREASSERVED": [
+            "ప్రాంతాలు తినటానికి"
+         ],
+         "SPECIALTIES": [
+            "స్పెషాలిటీస్"
+         ],
+         "ABOUT": [
+            "గురించి"
+         ],
+         "YEAROFINCEPTION": [
+            "ఆరంభము ఇయర్"
+         ],
+         "MINDIVISIBLEAREA": [
+            "కనీస విభజన అంతర్గత ప్రాంతం"
+         ],
+         "MAXDIVISIBLEAREA": [
+            "గరిష్ట విభజన అంతర్గత ప్రాంతం"
+         ],
+         "MAXCONTIGUOUSAREA": [
+            "గరిష్ఠ సంచలనాత్మక ఇంటీరియర్ ప్రాంతం"
+         ],
+         "YEARBUILT": [
+            "బిల్ట్ ఇయర్"
+         ],
+         "NUMBEROFROOMS": [
+            "రూములు సంఖ్య"
+         ],
+         "NUMBEROFSTORIES": [
+            "అంతస్థులు"
+         ],
+         "NUMBEROFPARKINGLOTS": [
+            "పార్కింగ్ సంఖ్య"
+         ],
+         "CONSTRUCTIONSTATUS": [
+            "కట్టడం యొక్క స్థితి"
+         ],
+         "LEASEAMOUNT": [
+            "అద్దె మొత్తం"
+         ],
+         "EXPENSEAMOUNT": [
+            "ఖర్చుల"
+         ],
+         "EXPENSETYPE": [
+            "ఖర్చు రకం"
+         ],
+         "LEASEENDDATE": [
+            "ముగింపు తేదీ అద్దెకు ఇవ్వండి"
+         ],
+         "ROOMTYPE": [
+            "గది రకం"
+         ],
+         "NUMBEROFWASHROOMS": [
+            "బాత్ రూములు సంఖ్య"
+         ],
+         "FURNISHEDSTATUS": [
+            "అమర్చిన?"
+         ],
+         "UNFURNISHED": [
+            "పొందుపరచలేదు"
+         ],
+         "SEMI_FURNISHED": [
+            "సెమీ అమర్చిన"
+         ],
+         "FURNISHED": [
+            "అమర్చిన"
+         ],
+         "DISTANCE": [
+            "శోధన వ్యాసార్థం"
+         ],
+         "BUILDINGAGE": [
+            "బిల్డింగ్ ఏజ్ (ఇయర్స్)"
+         ],
+         "POSTEDBY": [
+            "ద్వారా పోస్ట్"
+         ],
+         "PROPERTIESFOUND": [
+            "గుణాలు దొరకలేదు"
+         ],
+         "BYRELAVANCE": [
+            "ఔచిత్యం ద్వారా"
+         ],
+         "HIGHESTAREA": [
+            "ప్రాంతం (తక్కువ నుండి తక్కువ)"
+         ],
+         "LOWESTAREA": [
+            "ప్రాంతం (తక్కువ నుండి తక్కువ)"
+         ],
+         "HIGHESTPRICE": [
+            "ధర (తక్కువ హై)"
+         ],
+         "LOWESTPRICE": [
+            "ధర (హై Low)"
+         ],
+         "GRID": [
+            "గ్రిడ్"
+         ],
+         "CHAT": [
+            "చాట్"
+         ],
+         "EMAIL": [
+            "ఇమెయిల్"
+         ],
+         "SHARE": [
+            "వాటా"
+         ],
+         "LOGIN": [
+            "లాగిన్"
+         ],
+         "FEATUREDREALTORS": [
+            "ఫీచర్ రియల్ ఎశ్త్రేట్ ఎజెంట్"
+         ],
+         "FEATUREDPROPERTIES": [
+            "ఫీచర్ గుణాలు"
+         ],
+         "LOCATION": [
+            "స్థానం"
+         ],
+         "INTERACTIVEMAP": [
+            "ఇంటరాక్టివ్ మ్యాప్"
+         ],
+         "MOREDETAILS": [
+            "మరిన్ని వివరాలు"
+         ],
+         "RESIDENTIAL_LAND": [
+            "రెసిడెన్షియల్ లాండ్"
+         ],
+         "VILLA": [
+            "విల్లా"
+         ],
+         "STORE": [
+            "స్టోర్"
+         ],
+         "LAUNDRY": [
+            "లాండ్రీ"
+         ],
+         "SCHOOL": [
+            "స్కూల్"
+         ],
+         "SPA": [
+            "స్పా"
+         ],
+         "CATEGORIES": [
+            "వర్గం"
+         ],
+         "CATEGORY": [
+            "వర్గం"
+         ],
+         "FIXTURES": [
+            "ఫిక్స్చర్స్"
+         ],
+         "CLICKTOSEE": [
+            "సమీప ప్రదేశాలు చూడడానికి క్లిక్ చెయ్యండి"
+         ],
+         "INTERCOM": [
+            "ఇంటర్కమ్"
+         ],
+         "VIDEOCONFERENCE": [
+            "వీడియో కాన్ఫరెన్స్"
+         ],
+         "LAN": [
+            "లోకల్ ఏరియా నెట్వర్క్"
+         ],
+         "ENTRYSECURITY": [
+            "ఎంట్రీ సెక్యూరిటీ"
+         ],
+         "BIOMETRICACCESS": [
+            "బయోమెట్రిక్ యాక్సెస్"
+         ],
+         "CHILDRENPLAYAREA": [
+            "పిల్లలు ఏరియా ప్లే"
+         ],
+         "GARDENAREA": [
+            "గార్డెన్ ఏరియా"
+         ],
+         "SWIMMINGPOOL": [
+            "ఈత కొలను"
+         ],
+         "JOGGINGTRACK": [
+            "జాగింగ్ ట్రాక్"
+         ],
+         "INDOORSPORTS": [
+            "ఇండోర్ క్రీడలు"
+         ],
+         "OUTDOORSPORTS": [
+            "అవుట్డోర్ క్రీడలు"
+         ],
+         "DEPARTMENTSTORE": [
+            "డిపార్ట్మెంట్ స్టోర్"
+         ],
+         "DETAILS": [
+            "వివరాలు"
+         ],
+         "FEATURES": [
+            "సదుపాయాలు"
+         ],
+         "SPECIFICATIONS": [
+            "లక్షణాలు"
+         ],
+         "FORLEASEDETAILS": [
+            "లీజ్ ఇన్ఫర్మేషన్"
+         ],
+         "FORSALEDETAILS": [
+            "అమ్మకానికి సమాచారం"
+         ],
+         "PRICEDETAILS": [
+            "ధర వివరాలు"
+         ],
+         "BUILDINGROOMDETAILS": [
+            "రూమ్ వివరాలు"
+         ],
+         "ROOMS": [
+            "రూములు"
+         ],
+         "AIRPORT": [
+            "విమానాశ్రయం"
+         ],
+         "HOSPITAL": [
+            "హాస్పిటల్"
+         ],
+         "BUSSTATION": [
+            "బస్ స్టేషన్"
+         ],
+         "POLICE": [
+            "పోలీసు స్టేషన్"
+         ],
+         "POSTOFFICE": [
+            "తపాలా కార్యాలయము"
+         ],
+         "SUBWAYSTATION": [
+            "సొరంగరైలు నిలుచు స్థానము"
+         ],
+         "TRAINSTATION": [
+            "రైల్వే నిలయం"
+         ],
+         "SHOPPINGMALL": [
+            "షాపింగ్ మాల్"
+         ],
+         "PARKING": [
+            "పార్కింగ్"
+         ],
+         "ATM": [
+            "ATM"
+         ],
+         "LODGING": [
+            "లాడ్జింగ్"
+         ],
+         "REALESTATEAGENCY": [
+            "రియల్ ఎస్టేట్ ఏజెన్సీ"
+         ],
+         "BANK": [
+            "బ్యాంక్"
+         ],
+         "CREATELISTING": [
+            "సెల్ / Rent ఆస్తి"
+         ],
+         "PHOTOSVIDEOS": [
+            "ఫోటోలు మరియు పత్రాలు"
+         ],
+         "FINISH": [
+            "ముగించు"
+         ],
+         "SELECTEDBUILDINGUNITCOLLAPSIBLE": [
+            "యూనిట్ సమాచారం"
+         ],
+         "PROPERTYCOLLAPSIBLE": [
+            "ఆస్తి సమాచారం"
+         ],
+         "SELECTEDLOTDETAILSCOLLAPSIBLE": [
+            "ప్లాట్ సమాచారం"
+         ],
+         "SELECTEDBUILDINGCOLLAPSIBLE": [
+            "బిల్డింగ్ ఇన్ఫర్మేషన్"
+         ],
+         "BUILDINGDETAILSCOLLAPSIBLE": [
+            "బిల్డింగ్ ఇన్ఫర్మేషన్"
+         ],
+         "ADDITIONALPROPERTYDETAILSCOLLAPSIBLE": [
+            "అదనపు వివరాలు"
+         ],
+         "APARTMENTDETAILSCOLLAPSIBLE": [
+            "సదుపాయాలు"
+         ],
+         "ROOMSCOLLAPSIBLE": [
+            "గది సమాచారం"
+         ],
+         "SECURITYSTAFF": [
+            "సెక్యూరిటీ సిబ్బంది"
+         ],
+         "MAINTENANCECHARGES": [
+            "మంత్లీ నిర్వహణ ఛార్జీలు"
+         ],
+         "RENTALAMOUNT": [
+            "అద్దె సొమ్ము"
+         ],
+         "COVEREDPARKING": [
+            "కవర్ పార్కింగ్"
+         ],
+         "YES": [
+            "అవును"
+         ],
+         "NO": [
+            "తోబుట్టువుల"
+         ],
+         "UNITTYPE": [
+            "యూనిట్ రకం"
+         ],
+         "CONFIRM": [
+            "నిర్ధారించండి"
+         ],
+         "AVAILABLEDATE": [
+            "పొసెషన్ తేదీ"
+         ],
+         "WELCOMETO": [
+            "స్వాగతం"
+         ],
+         "ADDNEW": [
+            "కొత్తది జత పరచండి"
+         ],
+         "LOCATEME": [
+            "నా స్థానం ఉపయోగించండి"
+         ],
+         "ENTERPREFEREDLOCATION": [
+            "లొకేషన్ / ల్యాండ్మార్క్ / స్ట్రీట్ అడ్రస్ ను ఎంటర్ చెయ్యండి"
+         ],
+         "REGISTER": [
+            "నమోదు"
+         ],
+         "ACTIVELISTINGS": [
+            "ఇటీవలి ప్రకటనలు"
+         ],
+         "CLEARSEARCH": [
+            "ప్రశాంతంగా"
+         ],
+         "SEARCHBYPROPERTYNAME": [
+            "ఆస్తి పేరు / వీధి చిరునామా"
+         ],
+         "SEARCHBYREALTORNAME": [
+            "లు / బ్రోకర్ పేరు"
+         ],
+         "SEARCHBYPROFESSIONALNAME": [
+            "సర్వీస్ ప్రొవైడర్ పేరు"
+         ],
+         "SEARCH": [
+            "శోధన"
+         ],
+         "DOCUMENTSGALLERY": [
+            "అప్లోడ్ చేసిన పత్రాలు"
+         ],
+         "PHOTOSGALLERY": [
+            "ఫోటోలు గ్యాలరీ"
+         ],
+         "PROPERTY": [
+            "ఆస్తి"
+         ],
+         "UNIT": [
+            "యూనిట్"
+         ],
+         "PROPSHUBREGISTRATION": [
+            "2018 Propshub అన్ని హక్కులూ ప్రత్యేకించుకోవడమైనది, సర్వస్వామ్య రక్షితం"
+         ],
+         "CALLUS": [
+            "మా కాల్"
+         ],
+         "EMAILUS": [
+            "మాకు ఇమెయిల్ చేయండి"
+         ],
+         "SIGNIN": [
+            "లాగిన్"
+         ],
+         "SETTINGS": [
+            "సెట్టింగులు"
+         ],
+         "BACKTO": [
+            "తిరిగి"
+         ],
+         "POSTEDON": [
+            "పోస్ట్ చేసిన తేదీ"
+         ],
+         "LIST": [
+            "జాబితా"
+         ],
+         "SAVESEARCH": [
+            "శోధన సేవ్"
+         ],
+         "NEWLYLISTED": [
+            "ఇటీవల పోస్ట్"
+         ],
+         "NEXT": [
+            "తరువాత"
+         ],
+         "ALL": [
+            "అన్ని"
+         ],
+         "IMAGES": [
+            "ఫోటోలు"
+         ],
+         "BACKTOMAP": [
+            "మునుపటి దశ"
+         ],
+         "PREVIOUS": [
+            "మునుపటి"
+         ],
+         "LOADINGDATA": [
+            "వర్కింగ్ !!!"
+         ],
+         "GAS_STATION": [
+            "పెట్రోల్ బంక్"
+         ],
+         "GASSTATION": [
+            "పెట్రోల్ బంక్"
+         ],
+         "CITYLOCATION": [
+            "నగరం లేక ప్రదేశం"
+         ],
+         "TONS": [
+            "టన్నుల"
+         ],
+         "YRS": [
+            "ఇయర్స్"
+         ],
+         "MI": [
+            "మైల్స్"
+         ],
+         "KM": [
+            "కిలోమీటర్లు"
+         ],
+         "PERCENTAGE": [
+            "శాతం"
+         ],
+         "FT": [
+            "Feet"
+         ],
+         "AMOUNT": [
+            "మొత్తం"
+         ],
+         "SQFT": [
+            "చదరపు అడుగు"
+         ],
+         "AGENT": [
+            "ఏజెంట్"
+         ],
+         "HELP": [
+            "ఒక ప్రశ్న అడగండి"
+         ],
+         "TYPE": [
+            "రకం"
+         ],
+         "PROPERTYFORSALE": [
+            "అమ్మకానికి కోసం లక్షణాలు"
+         ],
+         "PROPERTYFORLEASE": [
+            "అద్దెకు"
+         ],
+         "REALTORSANDBROKERS": [
+            "లు"
+         ],
+         "MORESEARCHOPTIONS": [
+            "మరిన్ని ఎంపికలు"
+         ],
+         "VACATIONRENTAL": [
+            "సెలవు అద్దె"
+         ],
+         "REALTOR": [
+            "రియాలిటర్ / బ్రోకర్"
+         ],
+         "PROFESSIONAL": [
+            "సర్వీస్ ప్రొవైడర్లు"
+         ],
+         "PHONE": [
+            "ఫోను నంబరు"
+         ],
+         "OWNER": [
+            "ద్వారా పోస్ట్"
+         ],
+         "CONTACTACTIONS": [
+            "సంప్రదించండి ప్రాధాన్యతలు"
+         ],
+         "STARTTIME": [
+            "సందర్శించడం అవర్ ప్రారంభం సమయం"
+         ],
+         "ENDTIME": [
+            "సందర్శించడం అవర్ ముగింపు సమయం"
+         ],
+         "ADDOPENHOUSETIME": [
+            "మరో తేదీ జోడించండి"
+         ],
+         "HOURS": [
+            "సమయం ఎంచుకోండి"
+         ],
+         "OPENHOUSEDATE": [
+            "ఓపెన్ హౌస్ తేది"
+         ],
+         "SCHEDULEOPENHOUSE": [
+            "ఓపెన్ హౌస్ షెడ్యూల్"
+         ],
+         "OPENHOUSETIMES": [
+            "ఓపెన్ హౌస్ షెడ్యూల్"
+         ],
+         "INDIVIDUAL": [
+            "వ్యక్తిగత"
+         ],
+         "COMPANY": [
+            "కంపెనీ"
+         ],
+         "BROKERAGEFIRM": [
+            "రియల్ ఎస్టేట్ ఏజెన్సీ"
+         ],
+         "SIMILARLISTINGS": [
+            "మీకు ఇది కూడా నచ్చవచ్చు"
+         ],
+         "SIGNUPAS": [
+            "వంటి సైన్ అప్"
+         ],
+         "LOADMORE": [
+            "మరిన్ని లోడ్"
+         ],
+         "SEND": [
+            "పంపండి"
+         ],
+         "SENDEMAIL": [
+            "ఈ మెయిల్ పంపించండి"
+         ],
+         "IN": [
+            "భారతదేశం"
+         ],
+         "US": [
+            "USA"
+         ],
+         "CA": [
+            "కెనడా"
+         ],
+         "AR": [
+            "అర్జెంటీనా"
+         ],
+         "CO": [
+            "కొలంబియా"
+         ],
+         "BR": [
+            "బ్రెజిల్"
+         ],
+         "MX": [
+            "మెక్సికో"
+         ],
+         "USD": [
+            "సంయుక్త డాలర్"
+         ],
+         "CAD": [
+            "కెనడియన్ డాలర్"
+         ],
+         "MXN": [
+            "మెక్సికన్ పెసో"
+         ],
+         "BRL": [
+            "బ్రెజిలియన్ రియల్"
+         ],
+         "ARS": [
+            "అర్జెంటీనా పెసో"
+         ],
+         "COP": [
+            "కొలంబియన్ పెసో"
+         ],
+         "INR": [
+            "భారత రూపాయి"
+         ],
+         "SITECAPTION": [
+            "రియల్ ఎస్టేట్ ఇన్వెస్టర్స్ కోసం గ్లోబల్ హబ్"
+         ],
+         "CAPTION": [
+            "దాని కోసం వెతుకు…"
+         ],
+         "PROPERTYNULLRESULTSTITLE": [
+            "తోబుట్టువుల గుణాలు దొరకలేదు. మళ్ళి ప్రయత్నించండి."
+         ],
+         "REALTORNULLRESULTSTITLE": [
+            "లు లేవు. మళ్ళి ప్రయత్నించండి."
+         ],
+         "PROFESSIONALNULLRESULTSTITLE": [
+            "తోబుట్టువుల సర్వీస్ ప్రొవైడర్స్ దొరకలేదు. మళ్ళి ప్రయత్నించండి."
+         ],
+         "REALTORNULLRESULTSMESSAGE": [
+            "మీ శోధన ప్రమాణాలకు అందుబాటులో ఉన్న రియల్టర్ లు / బ్రోకర్లు లేనట్లు కనిపిస్తోంది. దయచేసి మీ శోధన ప్రమాణాన్ని విస్తృతం చేయండి లేదా తరువాత తనిఖీ చేయండి."
+         ],
+         "PROFESSIONALNULLRESULTSMESSAGE": [
+            "మీ శోధన ప్రమాణం కోసం ఎలాంటి సర్వీసు ప్రొవైడర్స్ లేనట్లు ఉంది. సెర్చ్ క్రైటీరియాను విస్తృతం లేదా తర్వాత తిరిగి తనిఖీ చేయండి."
+         ],
+         "PROPERTYNULLRESULTSMESSAGE": [
+            "మీ శోధన ప్రమాణం కోసం ఎలాంటి లక్షణాలు లేనట్లు ఉంది. సెర్చ్ క్రైటీరియాను విస్తృతం లేదా తర్వాత తిరిగి తనిఖీ చేయండి."
+         ],
+         "PROPERTYTOOMANYRESULTS": [
+            "మేము మీ శోధన ప్రమాణానికి సరిపోలే చాలా లక్షణాలు కనిపిస్తాయి. సెర్చ్ క్రైటీరియాను ఇరుకైన, మళ్ళీ ప్రయత్నించండి."
+         ],
+         "PROFESSIONALTOOMANYRESULTS": [
+            "మేము మీ శోధన ప్రమాణానికి సరిపోలే చాలా సర్వీసు ప్రొవైడర్స్ దొరకలేదు. సెర్చ్ క్రైటీరియాను ఇరుకైన, మళ్ళీ ప్రయత్నించండి."
+         ],
+         "BROKERAGEFIRMINFOCOLLAPSIBLE": [
+            "వృత్తి సారాంశం"
+         ],
+         "COMPANYINFOCOLLAPSIBLE": [
+            "వృత్తి సారాంశం"
+         ],
+         "PROFESSIONALSCOLLAPSIBLE": [
+            "సంబంధం సర్వీస్ ప్రొవైడర్స్"
+         ],
+         "REALTORSCOLLAPSIBLE": [
+            "అసోసియేటెడ్ లు / బ్రోకర్ లు"
+         ],
+         "ADDPROFESSIONAL": [
+            "ఒక సర్వీస్ ప్రొవైడర్ జోడించండి"
+         ],
+         "ADDREALTOR": [
+            "ఒక రియాలిటర్ / బ్రోకర్ జోడించండి"
+         ],
+         "TERMSCONDITIONS": [
+            "నిబంధనలు మరియు షరతులు"
+         ],
+         "AUTHORIZEDPERSONNEL": [
+            "ఈ కంపెనీ సమాచారాన్ని నవీకరించడానికి నాకు అధికారం ఉంది"
+         ],
+         "TERMSCONDITIONSTITLE": [
+            "నేను చదివి అంగీకరిస్తున్నాను"
+         ],
+         "LISTINGPENDINGTITLE": [
+            "మీ జాబితా ఆమోదం పెండింగ్లో ఉంది"
+         ],
+         "LISTINGACTIVETITLE": [
+            "మీ ప్రకటన సక్రియంగా ఉంది"
+         ],
+         "LISTINGPENDINGDESCRIPTION": [
+            "మీ ఆస్తి జాబితాకు ధన్యవాదాలు. మీ అభ్యర్థన ఆన్లైన్లో ప్రచురించడానికి ముందు కంటెంట్ మోడరేషన్ కోసం వేచి ఉంది. దయచేసి మీ జాబితా యొక్క స్థితిని పరిగణనలోకి తీసుకున్న మీ నమోదిత ఇమెయిల్ను తనిఖీ చేయండి."
+         ],
+         "LISTINGACTIVEDESCRIPTION": [
+            "మీరు ఎప్పుడైనా మీ ప్రకటనను మెరుగుపరచవచ్చు. మీ ప్రకటనని సవరించడానికి దిగువ సవరించు బటన్పై క్లిక్ చేయండి"
+         ],
+         "LISTINGCONFIRMATIONDESCRIPTION": [
+            "మీ కన్ఫర్మ్ ముందు మీ ప్రకటన పరిదృశ్యం దయచేసి. ఒకసారి మీరు నిర్ధారించాలి, అది మీ ప్రకటన ఆన్లైన్ ప్రచురణ కోసం కొన్ని నిమిషాలు పడుతుంది."
+         ],
+         "MANDATORYMESSAGE": [
+            "దయచేసి మీరు అన్ని అవసరమైన ఖాళీలను కోసం విలువలను ఎంటర్ క్రింద హైలైట్ నిర్ధారించడానికి"
+         ],
+         "LISTINGDRAFTMODE": [
+            "ఈ పేజీ మీ ప్రివ్యూ కోసం. ఇది ఇంకా ఇతర వినియోగదారులకు కనిపించవు"
+         ],
+         "PROPERTYEMAILMESSAGE": [
+            "నేను మీ ఆస్తిని కోనేందుకు ఆసక్తితో ఉన్నాను"
+         ],
+         "PERSONEMAILMESSAGE": [
+            "నేను మీ సేవలను పొందాలనుకుంటున్నాను"
+         ],
+         "RSVPEMAILMESSAGE": [
+            "నేను% s లో ఓపెన్ హౌస్ సమయంలో ఆస్తిని సందర్శించండి"
+         ],
+         "ENTERRSVPMESSAGE": [
+            "RSVP ని% s కు పంపు"
+         ],
+         "ENTEREMAILMESSAGE": [
+            "సందేశాన్ని% s కు కంపోజ్ చేయండి"
+         ],
+         "RESIDENTIALSUBTYPEINVALID": [
+            "చెల్లని నివాస ఆస్థి సబ్ టైప్"
+         ],
+         "PROFESSIONINVALID": [
+            "వృత్తి చెల్లదు"
+         ],
+         "UPLOADING": [
+            "అప్లోడ్ చేస్తోంది !!!"
+         ],
+         "UPLOADSUCCESS": [
+            "విజయవంతంగా అప్లోడ్ !!!"
+         ],
+         "MYPREFERENCES": [
+            "నా ప్రాధాన్యతలు"
+         ],
+         "MYCONTACTS": [
+            "నా సంపర్కాలు"
+         ],
+         "NOTIFICATIONS": [
+            "నా నోటిఫికేషన్లు"
+         ],
+         "REMOVE": [
+            "ఆస్తి ఆఫ్ మార్కెట్ ను తీసుకోండి"
+         ],
+         "EDIT": [
+            "మార్చు"
+         ],
+         "VIEW": [
+            "చూడండి"
+         ],
+         "ENTERLOCATION": [
+            "ఆస్తి పేరు / చిరునామా / ల్యాండ్మార్క్ / లొక్యాలిటీ ఎంటర్"
+         ],
+         "PUBLISH": [
+            "ప్రచురించు"
+         ],
+         "NUMBEROFBEDROOMS": [
+            "బెడ్ రూములు"
+         ],
+         "OFFLINEMESSAGE": [
+            "% S ఆఫ్లైన్లో ఉంది. ఒక ఇమెయిల్ పంపేందుకు ఇక్కడ క్లిక్ చేయండి"
+         ],
+         "PROVIDESEARCHNAME": [
+            "మీ శోధన కోసం ఒక పేరును అందించండి"
+         ],
+         "PERCENTAGEOFCOMPLETION": [
+            "పూర్తి స్థితి"
+         ],
+         "FINANCIALCOMPLETIONGROUP": [
+            "ఆర్ధిక సంబంధమైనవి"
+         ],
+         "LISTINGCOMPLETIONGROUP": [
+            "ప్రకటన సమాచారం"
+         ],
+         "PROPERTYCOMPLETIONGROUP": [
+            "ఆస్తి వివరాలు"
+         ],
+         "ADDITIONALCOMPLETIONGROUP": [
+            "అదనపు సమాచారం"
+         ],
+         "MISSINGFIELDS": [
+            "కనిపించని ఫీల్డ్స్"
+         ],
+         "VIDEOSTABTITLE": [
+            "మీ వీడియోల కోసం URL ను అందించండి"
+         ],
+         "TAGFILE": [
+            "మీ ఫోటోను లేబుల్ చేయండి"
+         ],
+         "SAVEEXIT": [
+            "చిత్తుప్రతి & నిష్క్రమించు సేవ్"
+         ],
+         "SENDINGEMAIL": [
+            "ఇమెయిల్ పంపుతోంది ..."
+         ],
+         "EMAILSENT": [
+            "ఇమెయిల్ పంపిన"
+         ],
+         "PRIVACYPOLICY": [
+            "గోప్యతా విధానం"
+         ],
+         "CAPTION1": [
+            "ఉచితంగా ఫ్లైయర్స్ మరియు రిపోర్ట్స్ రూపొందించండి"
+         ],
+         "CAPTION2": [
+            "కేవలం కొన్ని క్లిక్ల్లో రిటర్న్స్ విశ్లేషించండి"
+         ],
+         "CAPTION3": [
+            "విలువ జోడించు యొక్క ఆటో గుర్తింపు & సెలవు అద్దెలు"
+         ],
+         "CAPTION4": [
+            "లక్షణాలను సరిపోల్చడానికి ధర విశ్లేషణ గ్రాఫ్స్ చూడండి"
+         ],
+         "CAPTION5": [
+            "ప్రతి ప్రాంతం కోసం వివరణాత్మక జనాభా"
+         ],
+         "CAPTION6": [
+            "తక్షణమే రియల్ ఎస్టేట్ ప్రొఫెషనల్స్ తో కనెక్ట్ అవ్వండి"
+         ],
+         "PROFILECOMPLETION": [
+            "మీ ప్రొఫైల్ను మెరుగుపరుస్తుంది"
+         ],
+         "USERCOMPLETIONGROUP": [
+            "ప్రొఫైల్ వివరాలు"
+         ],
+         "REALTORSANDBROKERSSEARCHOPTIONINFO": [
+            "రియల్ ఎస్టేట్ / బ్రోకర్ల కోసం శోధించండి"
+         ],
+         "INCOME_SPECIALIST": [
+            "ఆదాయం స్పెషలిస్ట్"
+         ],
+         "WELCOME": [
+            "స్వాగతం"
+         ],
+         "LOGOUT": [
+            "లాగౌట్"
+         ],
+         "LEGAL": [
+            "చట్టపరమైన"
+         ],
+         "LOGINHEADING": [
+            "లాగిన్ లేదా సైన్ అప్ చేయండి"
+         ],
+         "RESIDENTIAL_LENDING": [
+            "రెసిడెన్షియల్ లెండింగ్"
+         ],
+         "COMMERCIAL_LENDING": [
+            "కమర్షియల్ లెండింగ్"
+         ],
+         "URBAN_PLANNING": [
+            "అర్బన్ ప్లానింగ్ / సివిల్ ఇంజనీరింగ్"
+         ],
+         "BACK_OFFICE_SPECIALIST": [
+            "బ్యాక్ ఆఫీస్ స్పెషలిస్ట్"
+         ],
+         "OTHER_SPECIALTY": [
+            "ఇతర"
+         ],
+         "COMMERCIAL_APPRAISER": [
+            "వాణిజ్య విలువ కట్టువాడు"
+         ],
+         "GENERAL_APPRAISER": [
+            "జనరల్ అప్రైసజర్"
+         ],
+         "RESIDENTIAL_APPRAISER": [
+            "నివాస విలువ నిర్ధారకుడు"
+         ],
+         "PROPERTY_INSPECTOR": [
+            "ఆస్తి ఇన్స్పెక్టర్"
+         ],
+         "PROPERTY_MANAGER": [
+            "ఆస్తి మేనేజర్"
+         ],
+         "LICENSE": [
+            "లైసెన్సు"
+         ],
+         "LICENSENUMBER": [
+            "లైసెన్స్ సంఖ్య"
+         ],
+         "LICENSEJURISDICTION": [
+            "లైసెన్స్ జర్సిడక్షన్"
+         ],
+         "LICENSEISSUINGAUTHORITY": [
+            "లైసెన్స్ జారీ అధికారం"
+         ],
+         "APPRENTICEINSPECTOR": [
+            "అప్రెంటీస్ ఇన్స్పెక్టర్"
+         ],
+         "AUCTIONEER": [
+            "వేలంపాట"
+         ],
+         "CERTIFIEDGENERALAPPRAISER": [
+            "సర్టిఫైడ్ జనరల్ అప్రైసజర్"
+         ],
+         "CERTIFIEDRESIDENTIALAPPRAISER": [
+            "సర్టిఫైడ్ నివాస అప్రసింజర్"
+         ],
+         "LEASING_AGENT": [
+            "లీజింగ్ ఏజెంట్"
+         ],
+         "LICENSEDAPPRAISER": [
+            "లైసెన్స్ అప్రైజర్"
+         ],
+         "LICENSEDINSPECTOR": [
+            "లైసెన్స్ ఇన్స్పెక్టర్"
+         ],
+         "MORTGAGE_BROKER": [
+            "తనఖా బ్రోకర్"
+         ],
+         "REALESTATEBROKER": [
+            "హౌసింగ్ బ్రోకర్"
+         ],
+         "REGISTEREDAPPRAISER": [
+            "రిజిస్టర్ అప్రసిస్"
+         ],
+         "REGISTEREDINSPECTOR": [
+            "రిజిస్టర్ ఇన్స్పెక్టర్"
+         ],
+         "PROPERTYMANAGEMENT": [
+            "ఆస్తి నిర్వహణ"
+         ],
+         "RENTALPROPERTYMANAGEMENT": [
+            "అద్దె ఆస్తి నిర్వహణ"
+         ],
+         "SALESPERSON": [
+            "విక్రేతను"
+         ],
+         "APPRAISAL": [
+            "అంచనా"
+         ],
+         "LAND_DEVELOPMENT": [
+            "భూమి అభివృద్ధి"
+         ],
+         "SECURITIESANDSYNDICATION": [
+            "సెక్యూరిటీస్ అండ్ సిండికేషన్"
+         ],
+         "COUNSELING": [
+            "కౌన్సెలింగ్"
+         ],
+         "RESEARCH": [
+            "రీసెర్చ్"
+         ],
+         "SITEURL": [
+            "సైట్ URL"
+         ],
+         "TWITTERHANDLE": [
+            "ట్విట్టర్ హ్యాండిల్"
+         ],
+         "FACEBOOK": [
+            "Facebook URL ని"
+         ],
+         "BLOG": [
+            "బ్లాగు URL"
+         ],
+         "LINKEDIN": [
+            "లింక్డ్ఇన్ URL"
+         ],
+         "EMAILID": [
+            "ఇమెయిల్ ID"
+         ],
+         "PASSWORD": [
+            "పాస్వర్డ్"
+         ],
+         "FORGOTPASSWORD": [
+            "పాస్వర్డ్ మరిచిపోయారా ?"
+         ],
+         "SIGNUP": [
+            "చేరడం"
+         ],
+         "REMEMBERME": [
+            "నన్ను గుర్తు పెట్టుకో"
+         ],
+         "PROPERTYIMAGEMISSING": [
+            "ఫోటోలు లేవు"
+         ],
+         "PROFESSIONINFOCOLLAPSIBLE": [
+            "ఉద్యోగ సమాచారం"
+         ],
+         "CONTACTCOLLAPSIBLE": [
+            "సంప్రదింపు సమాచారం"
+         ],
+         "EXPERTISE": [
+            "నిపుణత ప్రాంతాలు"
+         ],
+         "OTHERCONTACTNUMBERS": [
+            "ఇతర సంప్రదించండి సంఖ్యలు"
+         ],
+         "CONTACTNUMBERTYPE": [
+            "సంప్రదించండి నంబర్ రకం"
+         ],
+         "CONTACTNUMBER": [
+            "సంప్రదించండి సంఖ్య"
+         ],
+         "WEBSITETYPE": [
+            "వెబ్ సైట్ టైప్"
+         ],
+         "PROFESSIONALSINCE": [
+            "వృత్తి నుండి"
+         ],
+         "AREAS": [
+            "పరిసరాలు తినటానికి"
+         ],
+         "YEARSOFEXPERIENCE": [
+            "ఎన్నో సంవత్సరాల అనుభవం"
+         ],
+         "MAPSEARCHUSAGEINFO": [
+            "మీ నగరాన్ని / పరిసర ప్రాంతాన్ని గుర్తించి, సరిహద్దులను నిర్వచించడానికి సర్కిల్ / దీర్ఘచతురస్రాన్ని గీయండి"
+         ],
+         "CHOOSELOCATIONONMAP": [
+            "మ్యాప్లో మీ ఇష్టపడే స్థానాన్ని పేర్కొనడానికి ఇక్కడ క్లిక్ చేయండి"
+         ],
+         "FEEDBACKSENTFAIL": [
+            "మీ అభిప్రాయాన్ని పంపడంలో సమస్య ఉంది. మళ్ళి ప్రయత్నించండి…"
+         ],
+         "FEEDBACKSENTSUCCESS": [
+            "మీ అభిప్రాయం తెలియచేసినందుకు ధన్యవాదములు. వీలైనంత త్వరగా మేము మీకు ప్రతిస్పందిస్తాము."
+         ],
+         "COULDNOTFETCHLOCATION": [
+            "మేము మీ స్థానాన్ని పొందలేకపోయాము"
+         ],
+         "NETOPERATINGINCOMETOOLTIP": [
+            "నికర ఆదాయం (NOI) అనేది ఆస్తి ద్వారా సేకరించబడిన వార్షిక ఆదాయం, కార్యకలాపాలు నుండి సేకరించిన మొత్తం ఆదాయంతో సహా, మరియు అన్ని కార్యకలాపాలకు సంబంధించిన ఖర్చులను తగ్గించడం"
+         ],
+         "CAPRATETOOLTIP": [
+            "క్యాపిటలైజేషన్ రేటు లేదా టోపీ రేటు, ఆస్తి విలువ లేదా ఆస్క్ ధరకు నికర ఆపరేటింగ్ ఆదాయం నిష్పత్తి (NOI)"
+         ],
+         "WIDGETMEDIANPRICE": [
+            "మధ్యగత ధరలు జాబితా అన్ని లక్షణాలు అడిగి ధరలు ఆధారంగా"
+         ],
+         "SYSTEMGENERATEDVALUENOTE": [
+            "దయచేసి గుర్తించబడిన క్షేత్రాల్లో అందించిన అంచనా విలువలను ప్రస్తుత మార్కెట్ పరిస్థితులు, చారిత్రక సమాచారం మరియు ఇతర కారకాల ఆధారంగా సిస్టమ్ లెక్కించబడుతుంది."
+         ],
+         "RENTINCREMENTPERCENTAGETOOLTIP": [
+            "చారిత్రక మరియు ప్రబలమైన మార్కెట్ పరిస్థితులను పరిశీలిస్తున్న అద్దెకు సంబంధించిన వార్షిక పెరుగుదలని అందించండి"
+         ],
+         "COSTBASISTOOLTIP": [
+            "ఇది అడల్ట్ ధర మరియు ప్రాధమిక మెరుగుదల వ్యయాలను పరిగణనలోకి తీసుకునే పెట్టుబడి యొక్క ఖర్చు ఆధారంగా ఉంటుంది. ఖర్చు బేసిస్ = ప్రైస్ అడుగుతూ + ప్రారంభ అభివృద్ధి ఖర్చు"
+         ],
+         "TOTALINVESTMENTCOSTTOOLTIP": [
+            "ఇది అడుగుతున్న ధర, ముగింపు ఖర్చు మరియు ప్రారంభ మెరుగుదల వ్యయాలను పరిగణనలోకి తీసుకునే పెట్టుబడి యొక్క ఖర్చు ఆధారంగా ఉంటుంది."
+         ],
+         "ANNUALTAXABLEINCOMETOOLTIP": [
+            "ఇది ఆస్తిని నిర్వహించడానికి అన్ని ఖర్చులు పరిగణనలోకి తీసుకున్న తర్వాత వార్షిక పన్ను చెల్లించే ఆదాయం"
+         ],
+         "DEPRECIATIONPERCENTAGETOOLTIP": [
+            "సాధారణ దుస్తులు మరియు కన్నీటి మరియు ప్రామాణిక తరుగుదల రేట్లు పరిగణనలోకి ఆస్తి విలువ అంచనా వార్షిక తరుగుదల అందించండి"
+         ],
+         "PROPERTYANNUALAPPRECIATIONPERCENTAGETOOLTIP": [
+            "చారిత్రక మరియు ప్రబలమైన మార్కెట్ పరిస్థితులను పరిశీలిస్తున్న ఆస్తి విలువలో వార్షిక మెప్పును అంచనా వేయండి"
+         ],
+         "INITIALINVESTMENTWITHOUTMORTGAGETOOLTIP": [
+            "ఇది తనఖా లేకుండానే ప్రారంభ పెట్టుబడులను పరిగణనలోకి తీసుకుంటుంది, ఇది అడిగే ధర, ముగింపు వ్యయాలు మరియు మెరుగుదల వ్యయాలు మొదటగా పెట్టుబడులు మినహేజ్ లేకుండా ప్రాక్టికల్ ఇన్వెస్ట్మెంట్ - ప్రైసింగ్ ధర + ముగింపు ధర + ప్రారంభ మెరుగుదల"
+         ],
+         "ANNUALTAXABLEINCOMEWITHOUTMORTGAGETOOLTIP": [
+            "ఈ ఆస్తి నిర్వహణకు సంబంధించిన అన్ని ఖర్చులు పరిగణనలోకి తీసుకున్న తర్వాత వార్షిక పన్ను చెల్లించే ఆదాయం. తనఖా = నికర ఆదాయం ఆదాయం - తరుగుదల విలువ లేకుండా వార్షిక పన్ను రాబడి ఆదాయం"
+         ],
+         "INITIALINVESTMENTWITHMORTGAGETOOLTIP": [
+            "తనఖా పరిగణనలోకి తీసుకున్న తర్వాత ఇది ప్రారంభ పెట్టుబడి. ప్రారంభ ఇన్వెస్ట్మెంట్ = డౌన్ చెల్లింపు + ప్రారంభ మెరుగుదల ఖర్చులు + మూసివేయడం ఖర్చు"
+         ],
+         "COSTBASISWITHMORTGAGETOOLTIP": [
+            "ఇది రుణ సేవ పరిగణనలోకి తీసుకున్న తర్వాత ఉచిత నగదు ప్రవాహం. ఉచిత నగదు ప్రవాహం = నికర ఆదాయం ఆదాయం - ఋణ సేవ"
+         ],
+         "ANNUALTAXABLEINCOMEWITHMORTGAGETOOLTIP": [
+            "ఈ ఆస్తి పన్నుచెల్లింపు నగదు ప్రవాహం నిర్వహించడం నగదు అన్ని ఖర్చులు పరిగణనలోకి తీసుకున్న తర్వాత వార్షిక పన్ను పరిధిలోకి వచ్చే ఆదాయం = వార్షిక ఉచిత నగదు ప్రవాహం-తరుగుదల విలువ"
+         ],
+         "SALECLOSINGCOSTTOOLTIP": [
+            "కమీషన్లు, కౌంటీ ఫీజులు, మొదలైనవి అంచనా వేయడానికి మూల్యాంకనం చేయడం"
+         ],
+         "CLOSINGCOSTTOOLTIP": [
+            "కమీషన్లు, కౌన్సిల్ ఫీజులు, మొదలైనవి పరిగణనలోకి తీసుకున్న అంచనా కొనుగోలు ముగింపు ధరను అందించండి"
+         ],
+         "INITIALIMPROVEMENTCOSTTOOLTIP": [
+            "కొనుగోలు తర్వాత ఆస్తిపై మెరుగుదలలు చేయడానికి అవసరమైన పెట్టుబడిని అందించండి. సాధారణంగా, విలువ జోడించిన లక్షణాలకు ఇది ఎక్కువ"
+         ],
+         "OWNERASSOCIATIONFEETOOLTIP": [
+            "యజమాని సంఘానికి చెల్లించాల్సిన వార్షిక రుసుము అందించండి"
+         ],
+         "EMICOSTTOOLTIP": [
+            "ఇది ప్రామాణిక వడ్డీ రేట్లను పరిశీలిస్తున్న నెలవారీ తనఖా మొత్తం. బ్యాంకు మరియు క్రెడిట్ స్కోర్ వసూలు చేసిన వడ్డీ రేటు ఆధారంగా అసలు తనఖా మొత్తం మారుతుంది"
+         ],
+         "TOTALINVESTMENTCOSTWITHMORTGAGETOOLTIP": [
+            "ఇది వసూలు ఖర్చులు, చెల్లింపు, మొదలైనవి పరిగణనలోకి మొత్తం ప్రారంభ పెట్టుబడి"
+         ],
+         "CASHONCASHRETURNPERCENTAGETOOLTIP": [
+            "ఇది తనఖా మొత్తాన్ని పరిగణనలోకి తీసుకునే ఆస్తిలో నగదు నగదు సంపాదించిన నగదు ఆదాయాన్ని లెక్కించే రాబడి రేటు."
+         ],
+         "CASHONCASHRETURNPERCENTAGEWITHMORTGAGETOOLTIP": [
+            "ఇది మొత్తం ప్రారంభ పెట్టుబడులకు సంబంధించి ఒక ఆస్తిలో పెట్టుబడి పెట్టబడిన నగదుపై సంపాదించిన నగదు ఆదాయాన్ని లెక్కించే రేటు తిరిగి."
+         ],
+         "HOMEFORSALESEARCHOPTIONINFO": [
+            "అమ్మకానికి కోసం హోమ్స్ కోసం శోధించండి"
+         ],
+         "PROPERTYFORLEASESEARCHOPTIONINFO": [
+            ""
+         ],
+         "PROFESSIONALSEARCHOPTIONINFO": [
+            "ప్లంబర్లు, చిత్రకారులు, కాంట్రాక్టర్లు వంటి రియల్ ఎస్టేట్ అందిస్తోంది సర్వీస్ ప్రొవైడర్స్ లేదా ప్రొఫెషనల్స్ కోసం శోధన"
+         ],
+         "LOCATIONPREFUSAGEINFO": [
+            "సరిహద్దులను నిర్వచించడానికి ఒకటి లేదా ఎక్కువ ప్రాధాన్యత స్థానాలు మరియు శోధన వ్యాసార్థాన్ని నమోదు చేయండి"
+         ],
+         "CAPRATERANGETOOLTIP": [
+            "మీరు ఇప్పటికే అద్దె ఆదాయం ఉత్పత్తి లక్షణాలు కోసం చూస్తున్న సందర్భంలో కేప్ రేట్ కోసం ఎగువ మరియు తక్కువ శ్రేణి విలువలు అందించండి"
+         ],
+         "INVESTMENTCATEGORIESTOOLTIP": [
+            "మీ శోధన కోసం ఇన్వెస్ట్మెంట్ కేటగిరిని అందించండి కోర్: ఇది ఊహాజనిత నగదు ప్రవాహాలతో అస్పష్టమైన, తక్కువ-ప్రమాద / తక్కువ-సంభావ్య తిరిగి పెట్టుబడి. కోర్ ప్లస్: ఇది ఒక మోస్తరు-ప్రమాదం / మధ్యస్థ-రాబడి పెట్టుబడి. విలువ చేర్చబడింది: ఇది మీడియం-టు-హై-రిస్క్ / మీడియం-టు-హై-రిటర్న్ ఇన్వెస్ట్మెంట్, ఇది విస్తరింపులు లేదా మూలధన ప్రవాహం లేదా ఇతర మార్పులకు అవసరం. అభివృద్ధి అవకాశ: ఇది అధిక-ప్రమాద / అధిక-రాబడి పెట్టుబడులను పెంచుతుంది, ఇది అధిక స్థాయి విస్తరణ లేదా ఇతర ప్రమాదాలకు అవసరం."
+         ],
+         "NUMBERONLY": [
+            "చెల్లుబాటు అయ్యే సంఖ్యను నమోదు చేయండి"
+         ],
+         "MAXVALUE": [
+            "కంటే తక్కువ ఒక చెల్లుబాటు అయ్యే విలువను నమోదు చేయండి"
+         ],
+         "MAXLENGTH": [
+            "అనుమతి అక్షరాల గరిష్ఠ సంఖ్య"
+         ],
+         "MINLENGTH": [
+            "అక్షరాలు కనీస సంఖ్య అవసరం"
+         ],
+         "EMAILIDREQUIRED": [
+            "ఇమెయిల్ ID అవసరం"
+         ],
+         "EMAILPATTERNERROR": [
+            "ఒక చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి"
+         ],
+         "URLPATTERN": [
+            "ఒక చెల్లుబాటు అయ్యే వెబ్ చిరునామాను నమోదు చేయండి"
+         ],
+         "DATE_EXCEPTION": [
+            "చెల్లని తేదీ పేర్కొన్న"
+         ],
+         "DECIMALUPTO4DIGIT": [
+            "దయచేసి గరిష్టంగా 4 దశాంశ స్థానాలతో చెల్లుబాటు అయ్యే సంఖ్యను అందించండి"
+         ],
+         "PROFILEPICTURE": [
+            "ప్రొఫైల్ ఫోటో"
+         ],
+         "ADDPROFILEPIC": [
+            "ప్రొఫైల్ ఫోటోను జోడించు"
+         ],
+         "UPDATEPROFILEPIC": [
+            "ప్రొఫైల్ ఫోటోను మార్చండి"
+         ],
+         "YOUHAVENOCOMPANIESTITLE": [
+            "మీరు ప్రస్తుతం కంపెనీతో అనుబంధించబడలేదు"
+         ],
+         "YOUHAVENOCOMPANIESMESSAGE": [
+            "కొత్త కంపెనీని నమోదు చేయడానికి బటన్పై క్లిక్ చేయండి"
+         ],
+         "YOUHAVENOLISTINGSTITLE": [
+            "మీరు ఏ గుణాలను ప్రచారం చేయలేదు"
+         ],
+         "YOUHAVENOLISTINGSMESSAGE": [
+            "సెల్ / అమ్మకపు ఆస్తి బటన్ క్లిక్ చేయండి"
+         ],
+         "CONFIRMPASSWORDERROR": [
+            "గుత్త పదములు సరి పోవట్లేదు. దయచేసి మళ్ళీ ప్రయత్నించండి !!!"
+         ],
+         "PASSWORDCHANGESUCCESS": [
+            "పాస్వర్డ్ మార్చబడింది !!!"
+         ],
+         "PREFERENCESSAVESUCCESS": [
+            "ప్రాధాన్యతలు సేవ్ చెయ్యబడ్డాయి !!!"
+         ],
+         "PROFILESAVESUCCESS": [
+            "ప్రొఫైల్ సేవ్ చెయ్యబడింది !!!"
+         ],
+         "MYWISHLIST": [
+            "నా వాచ్ జాబితా"
+         ],
+         "REMOVEFROMWISHLIST": [
+            "నా వాచ్ జాబితా నుండి తీసివేయండి"
+         ],
+         "PHONENUMBERVIEWED": [
+            "ఎవరైనా నా ఫోన్ నంబర్ను చూసినప్పుడు నాకు ఇమెయిల్ నోటిఫికేషన్ పంపండి"
+         ],
+         "CHATINITIATED": [
+            "నాతో చాట్ సంభాషణను ఎవరైనా ప్రారంభించినప్పుడు నాకు ఇమెయిల్ నోటిఫికేషన్ పంపండి"
+         ],
+         "RSVPSENT": [
+            "నా ఓపెన్ హౌస్ కోసం ఎవరైనా RSVP ను పంపినప్పుడు నాకు ఇమెయిల్ నోటిఫికేషన్ పంపండి"
+         ],
+         "SAVEDSEARCHMATCH": [
+            "క్రొత్త జాబితాలు నా సేవ్ చేయబడిన శోధన ప్రమాణంతో సరిపోలడంతో నాకు ఇమెయిల్ నోటిఫికేషన్ పంపండి"
+         ],
+         "LISTINGCREATED": [
+            "నా ప్రాంతాలు లో ఒక ఆస్తి ప్రచారం చేసినప్పుడు నాకు ఒక ఇమెయిల్ నోటిఫికేషన్ పంపించండి & ప్రాంతాలు అందించారు"
+         ],
+         "ENTERSAVEDSEARCHNOTIFICATIONDAYS": [
+            "రోజుల సంఖ్యను నమోదు చేయండి"
+         ],
+         "SAVEDSEARCHNOTIFICATIONDAYS": [
+            "మేము మీకు నోటిఫికేషన్లను పంపుతాము"
+         ],
+         "SAVEDON": [
+            "సేవ్ చేయబడింది"
+         ],
+         "YOUHAVENOWISHLISTTITLE": [
+            "మీరు మీ వాచ్ లిస్ట్లో జాబితాలను కలిగి లేరు"
+         ],
+         "YOUHAVENOWISHLISTMESSAGE": [
+            "లిస్ట్ డిస్ప్లేలో హార్ట్ సింబల్ పై క్లిక్ చేయండి"
+         ],
+         "YOUHAVENOSEARCHESTITLE": [
+            "మీకు సేవ్ చేయబడిన శోధనలు లేవు"
+         ],
+         "YOUHAVENOSEARCHESMESSAGE": [
+            "సంపద శోధన ఫలితాల్లో సేవ్ శోధన బటన్ పై క్లిక్ చేసి భవిష్యత్ సూచన కోసం దీన్ని సేవ్ చెయ్యండి"
+         ],
+         "YOUHAVENONOTIFTITLE": [
+            "మీకు పరిచయాలు లేవు"
+         ],
+         "YOUHAVENONOTIFMESSAGE": [
+            "ఎవరైనా మిమ్మల్ని సంప్రదించినప్పుడు లేదా ఎవరైనా మిమ్మల్ని సంప్రదించినప్పుడు, మీ పరిచయాలు ఇక్కడ కనిపిస్తాయి"
+         ],
+         "ADDEDTOWISHLIST": [
+            "జాబితాను చూడటానికి జోడించబడింది"
+         ],
+         "ADDTOWISHLIST": [
+            "వీక్షణ జాబితాకు చేర్చండి"
+         ],
+         "STATUSMESSAGE": [
+            "స్థితి సందేశం"
+         ],
+         "ENRICHYOURPROFILEMSG": [
+            "సంభావ్య పెట్టుబడిదారులకు మీ దృశ్యమానతను మెరుగుపరచడానికి దయచేసి మీ ప్రొఫైల్ను మెరుగుపరచండి."
+         ],
+         "LICENSEREQUIRED": [
+            "లైసెన్స్ సంఖ్యను నమోదు చేయండి"
+         ],
+         "CURRENTPASSWORD": [
+            "ప్రస్తుత పాస్వర్డ్"
+         ],
+         "NEWPASSWORD": [
+            "కొత్త పాస్వర్డ్"
+         ],
+         "CONFIRMPASSWORD": [
+            "పాస్వర్డ్ని నిర్ధారించండి"
+         ],
+         "ENTERNAME": [
+            "పేరు నమోదు"
+         ],
+         "ENTERMOBILE": [
+            "మొబైల్ ఎంటర్"
+         ],
+         "NOTAMEMBER": [
+            "ఒక సభ్యుడు?"
+         ],
+         "EMAILPHONE": [
+            "ఇమెయిల్ ID లేదా మొబైల్ నంబర్"
+         ],
+         "MEMBERLOGIN": [
+            "సభ్యుడి ప్రవేశం"
+         ],
+         "CREATEYOURACCOUNT": [
+            "మీ ఖాతా సృష్టించు"
+         ],
+         "MEMBER": [
+            "సభ్యుడు"
+         ],
+         "CHANGEPASSWORD": [
+            "పాస్వర్డ్ మార్చండి"
+         ],
+         "CHANGEPASSWORDDESCRIPTION": [
+            "మీ కొత్త పాస్వర్డ్ను అందించండి"
+         ],
+         "ADDWEBSITES": [
+            "ఒక వెబ్ సైట్ ను జోడించు"
+         ],
+         "USERSREGISTRATIONINFOSCHEMATITLE": [
+            "మా సైట్ లో నమోదు"
+         ],
+         "PROFESSIONALSREGISTRATIONINFOSCHEMATITLE": [
+            "ఒక సర్వీస్ ప్రొవైడర్ లేదా ప్రొఫెషనల్ గా సైన్ అప్ చేయండి"
+         ],
+         "REALTORSREGISTRATIONINFOSCHEMATITLE": [
+            "రియల్టర్ / బ్రోకర్గా సైన్ అప్ చేయండి"
+         ],
+         "COMPANYREGISTRATIONINFOSCHEMATITLE": [
+            "మా సైట్ లో మీ కంపెనీ నమోదు"
+         ],
+         "VERIFYOTPHEADING": [
+            "OTP నిర్ధారించండి"
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE1": [
+            "చాలా తప్పు పాస్వర్డ్ ప్రయత్నాల కారణంగా మీ ఖాతా లాక్ చెయ్యబడింది. OTP ను మళ్లీ పంపుతోంది ..."
+         ],
+         "VERIFYOTPACCOUNTLOCKEDLINE2": [
+            "మీ ఇమెయిల్కు పంపబడిన OTP ని అందించండి"
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE1": [
+            "మీ గత సందర్శన సమయంలో మీరు సైన్ అప్ ప్రాసెస్ను పూర్తి చేయలేదని గమనించండి. OTP ను మళ్లీ పంపుతోంది ..."
+         ],
+         "VERIFYOTPUSERUNVERIFIEDLINE2": [
+            "మీ ఇమెయిల్కు పంపబడిన OTP ని అందించండి"
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE1": [
+            "మీ గత సందర్శన సమయంలో మీరు సైన్ అప్ ప్రాసెస్ను పూర్తి చేయలేదని గమనించండి. OTP ను మళ్లీ పంపుతోంది ..."
+         ],
+         "VERIFYOTPEMPTYPASSWORDLINE2": [
+            "మీ ఇమెయిల్కు పంపబడిన OTP ని అందించండి"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE1": [
+            "ఈ ఇమెయిల్ ఐడి మీకు చెందినదని మేము నిర్ధారించాలి"
+         ],
+         "VERIFYOTPAUTOREGISTEREDLINE2": [
+            "మీ ఇమెయిల్కు పంపబడిన OTP ని అందించండి"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE1": [
+            "మీ పాస్వర్డ్ను రీసెట్ చేయడానికి మేము మీ ఇమెయిల్ ID ని ధృవీకరించాలి"
+         ],
+         "VERIFYOTPFORGOTPASSWORDLINE2": [
+            "మీ ఇమెయిల్కు పంపబడిన OTP ని అందించండి"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE2": [
+            "మీ ఇమెయిల్కు పంపబడిన OTP ని అందించండి"
+         ],
+         "VERIFYOTPDESCRIPTIONLINE1": [
+            "ఈ ఇమెయిల్ ఐడి మీకు చెందినదని మేము నిర్ధారించాలి"
+         ],
+         "REGISTRATIONHEADING": [
+            "చేరడం"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE1": [
+            "మీ గుర్తింపును అందించండి"
+         ],
+         "REGISTRATIONDESCRIPTIONLINE2": [
+            "మీ సమాచారాన్ని గుర్తించడం కోసం ఉపయోగించబడుతుంది మరియు ఎవరితోనూ ఎప్పటికీ భాగస్వామ్యం చేయబడదు"
+         ],
+         "LOGINDESCRIPTIONLINE1": [
+            "మీ ఇమెయిల్ ID ను అందించండి"
+         ],
+         "LOGINDESCRIPTIONLINE2": [
+            "మీరు మీ పాస్వర్డ్ లేదా సైన్ అప్ ఆధారాల కోసం ప్రాంప్ట్ చేయబడతారు"
+         ],
+         "PASSWORDHEADING": [
+            "భద్రత తనిఖీ"
+         ],
+         "PASSWORDDESCRIPTIONLINE1": [
+            "మీ పాస్వర్డ్ను అందించండి"
+         ],
+         "PASSWORDDESCRIPTIONLINE2": [
+            "మీరు ఆన్లైన్లో కనిపిస్తారు మరియు ఆన్లైన్లో ఉన్న ఇతరులతో తక్షణమే కనెక్ట్ చేయవచ్చు"
+         ],
+         "FORGOTPASSWORDHEADING": [
+            "పాస్వర్డ్ను సెట్ చేయండి"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE1": [
+            "మా సైట్కు భవిష్యత్ లాగిన్ కోసం పాస్వర్డ్ను అందించండి"
+         ],
+         "FORGOTPASSWORDDESCRIPTIONLINE2": [
+            "మీరు గుర్తుంచుకోవడానికి బలమైన మరియు సులభంగా ఉండే పాస్వర్డ్ను ఎంచుకోవచ్చు"
+         ],
+         "STATUSMESSAGETOOLTIP": [
+            "మీ సంప్రదింపు కార్డ్లో ప్రదర్శించబడే క్లుప్తమైన సందేశాన్ని అందించండి"
+         ],
+         "AREASSERVEDTOOLTIP": [
+            "మీరు ద్వారా సేవలు ప్రాంతాల్లో లేదా ప్రాంతాల జాబితా అందించడానికి. మీరు అలాగే పొరుగు ప్రాంతాల్లో ఈ మీ దృష్టి గోచరత మెరుగుపరచడానికి ఉంటుంది నుండి నిర్ధారించడానికి"
+         ],
+         "PROFESSIONSTOOLTIP": [
+            "మీరు అందించిన సేవలు రకం ఎంచుకోండి"
+         ],
+         "EXPERTISETOOLTIP": [
+            "నైపుణ్యం మరియు ప్రత్యేకతలు మీ ప్రాధమిక రంగాలలో అందించండి"
+         ],
+         "SPECIALTIESTOOLTIP": [
+            "మీ తగిన రియల్ ఎస్టేట్ ప్రత్యేకతలు ఎంచుకోండి"
+         ],
+         "BROKERAGEFIRMCOMPLETETOOLTIP": [
+            "మీ రియల్ ఎస్టేట్ ఏజెన్సీ ఇప్పటికే మాతో నమోదయి ఉండవచ్చు. మీ కంపెనీ పేరు తో మా డేటా వెతికే. దొరకలేదు ఉంటే, మీరు ఎల్లప్పుడూ ఇక్కడ మీ కంపెనీ నమోదు చేయవచ్చు."
+         ],
+         "COMPANYCOMPLETETOOLTIP": [
+            "మీ కంపెనీ ఇప్పటికే మాతో నమోదయి ఉండవచ్చు. మీ కంపెనీ పేరు తో మా డేటా వెతికే. దొరకలేదు ఉంటే, మీరు ఎల్లప్పుడూ ఇక్కడ మీ కంపెనీ నమోదు చేయవచ్చు."
+         ],
+         "HAVECOMPANYTOOLTIP": [
+            "మీరు ఒక సంస్థ సంబంధం ఉంటే, మీరు ఇక్కడ మీ కంపెనీ సమాచారం అందించడం ద్వారా లబ్ది చేకూర్చే"
+         ],
+         "HAVECOMPANY": [
+            "ఒక కంపెనీతో సంబంధం?"
+         ],
+         "BROKERAGEFIRMCOMPLETE": [
+            "మీ రియల్ ఎస్టేట్ ఏజెన్సీ పేరు ఎంటర్"
+         ],
+         "COMPANYCOMPLETE": [
+            "మీ కంపెనీ పేరు నమోదు చేయండి"
+         ],
+         "ADDCOMPANYCOLLAPSIBLE": [
+            "మీ కంపెనీ కనుక్కోలేకపోయాము?"
+         ],
+         "AREAREQUIRED": [
+            "కనీసం ఒక సేవ అందించే ప్రాంతం తప్పనిసరి"
+         ],
+         "COMPANYNAMEREQUIRED": [
+            "కంపెనీ పేరు తప్పనిసరి"
+         ],
+         "CONTACTNUMBERTYPEREQUIRED": [
+            "సంప్రదించండి సంఖ్య టైప్ తప్పనిసరి"
+         ],
+         "CONTACTNUMBERREQUIRED": [
+            "సంప్రదించండి సంఖ్య తప్పనిసరి"
+         ],
+         "NAMEREQUIRED": [
+            "పేరు తప్పనిసరి"
+         ],
+         "MOBILENUMBERREQUIRED": [
+            "మొబైల్ నంబర్ తప్పనిసరి"
+         ],
+         "PASSWORDREQUIRED": [
+            "పాస్వర్డ్ తప్పనిసరి"
+         ],
+         "REALTORINVALID": [
+            "లు / బ్రోకర్ చెల్లనిది"
+         ],
+         "AREASMISSING": [
+            "తినటానికి ప్రాంతాలు తప్పనిసరి"
+         ],
+         "REALTORSINCEINVALID": [
+            "లు / బ్రోకర్ అవసరం"
+         ],
+         "SPECIALTIESINVALID": [
+            "ప్రత్యేక చెల్లదు"
+         ],
+         "CONTACTACTIONSMISSING": [
+            "కనీసం ఒక ఇష్టపడే సంప్రదించండి ఎంపిక తప్పనిసరి"
+         ],
+         "CONTACTACTIONINVALID": [
+            "ఇష్టపడే సంప్రదించండి ఎంపిక చెల్లదు"
+         ],
+         "PROFESSIONALINVALID": [
+            "వృత్తి చెల్లదు"
+         ],
+         "PROFESSIONSMISSING": [
+            "కనీసం ఒక వృత్తి అవసరం"
+         ],
+         "MOBILEOREMAILMANDATORY": [
+            "కనీసం ఇమెయిల్ ID లేదా మొబైల్ నంబర్ ఒకటి తప్పనిసరి"
+         ],
+         "MOBILEOREMAILACTIONANYONENEEDED": [
+            "కనీసం ఇమెయిల్ ID లేదా టెలిఫోన్ సంఖ్య ఒకటి ప్రాధాన్యం పరిచయం ఎంపికగా సెట్ చేయాలి"
+         ],
+         "EXPIRED_PASSWORD": [
+            "మీ పాస్వర్డ్ గడువు ముగిసింది. దాన్ని రీసెట్ చేయండి"
+         ],
+         "EMPTY_PASSWORD": [
+            "పాస్వర్డ్ ఖాళీగా ఉంది"
+         ],
+         "USER_UNVERIFIED": [
+            "దయచేసి మరింత ముందుకు మీ OTP ధ్రువీకరించడం"
+         ],
+         "USER_ACCOUNT_DISABLED": [
+            "మీ ఖాతా నిలిపివేయబడింది. దయచేసి మా సిస్టము నిర్వాహకుని సంప్రదించండి"
+         ],
+         "USER_ACCOUNT_LOCKED": [
+            "మీ ఖాతా లాక్. దయచేసి మీ పాస్వర్డ్ను రీసెట్"
+         ],
+         "USER_MOBILE_EXIST": [
+            "మీరు పంపిణీ చేసిన మొబైల్ నంబర్ ఇప్పటికే మా సిస్టమ్ లో నమోదు చెయ్యబడింది. దయచేసి వేరొక మొబైల్ నంబర్ ప్రయత్నించండి"
+         ],
+         "USER_EMAIL_EXIST": [
+            "మీరు పంపిణీ చేసిన ఇమెయిల్ ID ఇప్పటికే మా సిస్టమ్ లో నమోదు చెయ్యబడింది. దయచేసి మరొక ఇమెయిల్ ID ప్రయత్నించండి"
+         ],
+         "USER_EMAIL_MOBILE_EXIST": [
+            "మీరు పంపిణీ చేసిన ఇమెయిల్ ID మరియు మొబైల్ నంబర్ ఇప్పటికే మా సిస్టమ్ లో నమోదు చెయ్యబడింది. దయచేసి మరొక ఇమెయిల్ ID లేదా మొబైల్ నంబర్ ప్రయత్నించండి"
+         ],
+         "TOKEN_NOT_FOUND": [
+            "OTP చెల్లదు. మళ్ళి ప్రయత్నించండి"
+         ],
+         "TOKEN_EXPIRED": [
+            "మీ OTP గడువు ముగిసింది. ఒక కొత్త ఒటిపి ఉత్పత్తి దయచేసి"
+         ],
+         "TOKEN_NOT_MATCHING": [
+            "OTP చెల్లదు. మళ్ళి ప్రయత్నించండి"
+         ],
+         "OLD_PASSWORD_NOT_SAME": [
+            "పాత పాస్వర్డ్ చెల్లదు"
+         ],
+         "BAD_CREDENTIALS": [
+            "వినియోగదారు పేరు లేదా పాస్వర్డ్ చెల్లదు"
+         ],
+         "INVALID_USERNAME": [
+            "వినియోగదారు పేరు లేదా పాస్వర్డ్ చెల్లదు"
+         ],
+         "INVALID_USERID": [
+            "వినియోగదారు పేరు లేదా పాస్వర్డ్ చెల్లదు"
+         ],
+         "USER_NOT_FOUND": [
+            "వినియోగదారు పేరు లేదా పాస్వర్డ్ చెల్లదు"
+         ],
+         "BROKERAGE_FIRM_EXIST": [
+            "అదే పేరుతో మరొక బ్రోకరేజ్ సంస్థ ఉంది"
+         ],
+         "COMPANY_EXIST": [
+            "అదే పేరుతో ఉంది తో మరో కంపెనీ"
+         ],
+         "BROKERAGE_FIRM_NOT_EXIST": [
+            "బ్రోకరేజ్ సంస్థ ఉనికిలో లేదు"
+         ],
+         "COMPANY_NOT_EXIST": [
+            "సంస్థ ఉనికిలో లేదు"
+         ],
+         "COMPANYINVALID": [
+            "కంపెనీ చెల్లదు"
+         ],
+         "ADDOTHERCONTACTNUMBERS": [
+            "ఒక సంప్రదించండి సంఖ్య చేర్చు"
+         ],
+         "ENTERAREA": [
+            "మీరు తినటానికి ప్రాంతాలు ఎంటర్"
+         ],
+         "ADDAREASSERVED": [
+            "తినటానికి ప్రాంత జోడించండి"
+         ],
+         "ENTEREXPERTISE": [
+            "నిపుణత మీ ప్రాంతాలు ఎంటర్"
+         ],
+         "ADDEXPERTISE": [
+            "నిపుణత ప్రాంత జోడించండి"
+         ],
+         "REGISTERCOMPANY": [
+            "నా కంపెనీ నమోదు"
+         ],
+         "ROLETYPE": [
+            "నేను ఒక"
+         ],
+         "ROLE_CUSTOMER": [
+            "రియల్ ఎస్టేట్ ఇన్వెస్టర్"
+         ],
+         "ROLE_REALTOR": [
+            "రియాలిటర్ / బ్రోకర్"
+         ],
+         "ROLE_PROFESSIONAL": [
+            "రియల్ ఎస్టేట్ సర్వీస్ ప్రొవైడర్"
+         ],
+         "ENTEROTP": [
+            "మీ ఇమెయిల్ ID కు పంపబడిన OTP ను ఎంటర్ చెయ్యండి"
+         ],
+         "USEREMAIL_EXIST": [
+            "ఈ ఇమెయిల్ ID తో ఇప్పటికే ఉన్న ఒక యూజర్ ఇప్పటికే ఉన్నారు. ప్రత్యామ్నాయ ఇమెయిల్ ID ని ఉపయోగించండి."
+         ],
+         "ROLETYPETOOLTIP": [
+            "మీరు ఒక ఇన్వెస్టర్ లేదా ఆస్తి యజమాని అయితే రియల్ ఎస్టేట్ ఇన్వెస్టర్గా సైన్ అప్ చేయండి. మీరు రియల్టర్ / బ్రోకర్ లేదా రియల్ ఎస్టేట్ ఇండస్ట్రీకి సేవ అందించే సర్వీస్ ప్రొవైడర్ / ప్రొఫెషనల్ అయితే, అదనపు సమాచారం కోసం మీరు ప్రాంప్ట్ చేయబడతారు."
+         ],
+         "PREVIEWSELECTEDFLOORPLANDOCS": [
+            "ఎంచుకున్న అంతస్తు ప్రణాళికలు మరియు సర్వేలు"
+         ],
+         "FLOORPLANSGALLERY": [
+            "అప్లోడ్ చేయబడిన అంతస్తు ప్రణాళికలు మరియు సర్వేలు"
+         ],
+         "BASICINFORMATION": [
+            "స్థానం"
+         ],
+         "PROPERTYDETAILS": [
+            "వివరాలు"
+         ],
+         "LOCATEPROPERTYTIP": [
+            "క్రింద ప్రాపర్టీలలో ఎంచుకోవాలంటే"
+         ],
+         "PROPERTYFOUND": [
+            "మీ స్థానం వద్ద గుణాలు సరిపోలే"
+         ],
+         "PROPERTYNOTFOUND": [
+            "మీ ఆస్తి కనుగొనేందుకు లేదు?"
+         ],
+         "SELFOWNED": [
+            "మీరు ఈ ప్రకటన సొంతం?"
+         ],
+         "OWNEREMAILID": [
+            "ప్రకటన యజమాని టపా"
+         ],
+         "OWNERMOBILENUMBER": [
+            "ప్రకటన యజమాని మొబైల్ నంబర్"
+         ],
+         "OWNERNAME": [
+            "ప్రకటన యజమాని పేరు"
+         ],
+         "LISTINGCONFIRMATIONTITLE": [
+            "ప్రివ్యూ మరియు మీ ప్రకటన నిర్ధారించడానికి"
+         ],
+         "MARKERDRAGPINMESSAGE": [
+            "ఒకవేళ మీరు మీ చిరునామా కనుగొనేందుకు పోతున్నాము, సమీప ల్యాండ్మార్క్ లేదా లొక్యాలిటీ ఎంటర్ ఆపై మీ ఆస్తి స్థానానికి పిన్ లాగండి"
+         ],
+         "BASICINFOSCHEMATITLE": [
+            "మీ ఆస్తి గుర్తించండి"
+         ],
+         "DROPIMAGETITLE": [
+            "ఇక్కడికి డ్రాగ్ మరియు డ్రాప్ చేయండి. మీరు ప్రతి సారి 10 ఫైళ్ళను అప్ లోడ్ చెయ్యవచ్చు."
+         ],
+         "MEDIATITLE": [
+            "మీ ఆస్తి కోసం ఫోటోలు అప్లోడ్"
+         ],
+         "OVERVIEWINFOSCHEMATITLE": [
+            "మీ ప్రకటన గురించి ప్రాథమిక సమాచారాన్ని అందించండి"
+         ],
+         "FINANCIALINFOSCHEMATITLE": [
+            "ఆర్ధిక సమాచారం అందించండి"
+         ],
+         "ADDITIONALINFOSCHEMATITLE": [
+            "అదనపు సమాచారం అందించండి"
+         ],
+         "PROPERTYINFOSCHEMATITLE": [
+            "సంపన్నం మీ ఆస్తి వివరాలు"
+         ],
+         "VALUEADDEDREASONTOOLTIP": [
+            "ఈ ఆస్తి యొక్క పెట్టుబడి వర్గం ఒక విలువ జోడించు చేస్తుంది ప్రాథమిక కారణం లేదా కారకాన్ని అందించండి"
+         ],
+         "RISKRETURNCATEGORYTOOLTIP": [
+            "నిర్ణయం తీసుకోవడంలో పెట్టుబడిదారులకు సహాయపడే ఆస్తి యొక్క రిస్క్ రిటర్న్ వర్గాన్ని అందించండి. కోర్: ఇది ఊహాజనిత నగదు ప్రవాహాలతో అస్పష్టమైన, తక్కువ-ప్రమాద / తక్కువ-సంభావ్య తిరిగి పెట్టుబడి. కోర్ ప్లస్: ఇది ఒక మోస్తరు-ప్రమాదం / మధ్యస్థ-రాబడి పెట్టుబడి. విలువ చేర్చబడింది: ఇది మీడియం-టు-హై-రిస్క్ / మీడియం-టు-హై-రిటర్న్ ఇన్వెస్ట్మెంట్, ఇది విస్తరింపులు లేదా మూలధన ప్రవాహం లేదా ఇతర మార్పులకు అవసరం. అవకాశవాదం: ఇది అధిక-ప్రమాద / అధిక-రాబడి పెట్టుబడులను పెంచుతుంది, ఇది అధిక స్థాయి విస్తరణ లేదా ఇతర ప్రమాదానికి అవసరమవుతుంది."
+         ],
+         "DISTRESSEDTOOLTIP": [
+            "ఈ ఆస్తి నష్టాల్లో మరియు తగిన స్థితి లేదో సూచించడానికి"
+         ],
+         "PROPERTYNAMETOOLTIP": [
+            "తద్వారా ఆస్తి కోసం ఒక ఏకైక పేరు అందించండి, ఇతరులు సులభంగా గుర్తించే"
+         ],
+         "AREATOOLTIP": [
+            "ప్రాపర్టీ యొక్క ప్రాంతం అందించండి. మీరు ఒక ప్లాట్లు లేదా ఒక భవనం యూనిట్ ప్రకటనలు వున్నట్లయితే, అప్పుడు, ఈ ప్రచారం ప్లాట్లు లేదా యూనిట్ ప్రాంతంలో ఉండాలి"
+         ],
+         "LOTAREATOOLTIP": [
+            "ఆస్తి మొత్తం ప్లాట్లు ప్రాంతం అందించండి"
+         ],
+         "ENDDATETOOLTIP": [
+            "తేదీ మీ ప్రకటన చురుకుగా ఉండాలి, వరకు అందించండి"
+         ],
+         "CONTACTACTIONSTOOLTIP": [
+            "పరిచయం యొక్క మీ ప్రాధాన్యత మోడ్ అందించండి. అన్ని సాధ్యం పరిచయం ఎంపికలు ప్రారంభించడం వలన సులభంగా మీరు చేరుకోవడానికి ఇతరులు సులభతరం చేస్తుంది"
+         ],
+         "SELFOWNEDTOOLTIP": [
+            "ఈ ప్రకటన కోసం యాజమాన్యం వివరాలు అందించండి. ఈ మీరు స్వంతం కాదు ఉంటే, అప్పుడు, యజమాని సమాచారాన్ని అందించడానికి"
+         ],
+         "AVAILABLEDATETOOLTIP": [
+            "ప్రాపర్టీ గదుల కోసం అందుబాటులో ఉంటుంది ఇది ద్వారా తేదీ అందించండి"
+         ],
+         "DISCLOSEADDRESSTOOLTIP": [
+            "మీరు ఈ ఆస్తి కోసం చిరునామాను బహిర్గతం చేయాలా లేదా దాచుకోవాలో లేదో సూచించండి"
+         ],
+         "DISCLOSEPRICETOOLTIP": [
+            "మీరు ఈ జాబితా కోసం ధరను బహిర్గతం లేదా దాచు చేయాలనుకుంటున్నారా అని సూచించండి"
+         ],
+         "CAPRATEKNOWNTOOLTIP": [
+            "జాబితా చేయబడిన ఆస్తి లేదా యూనిట్ యొక్క క్యాప్ రేట్ మీకు తెలిస్తే, మీరు నేరుగా దాన్ని నమోదు చేయవచ్చు. లేకపోతే, మీరు క్యాప్ రేట్ను లెక్కించడంలో మీకు సహాయపడవచ్చు"
+         ],
+         "CAPRATETYPETOOLTIP": [
+            "క్యాప్ రేట్ వాస్తవ లేదా ప్రోత్సాహక ఆదాయంపై ఆధారపడి ఉందో లేదో సూచించండి"
+         ],
+         "GROSSRENTREVENUETOOLTIP": [
+            "వార్షిక మొత్తం అద్దె రెవెన్యూ లేదా Potentail అద్దె ఆదాయం ఆస్తి పూర్తిగా ఆక్రమించిన ఊహిస్తూ"
+         ],
+         "VACANCYLOSSESTOOLTIP": [
+            "ఆస్తి వెల్లడించడం లేదా అద్దె చెల్లింపులపై డిఫాల్ట్ చేయడం వల్ల అద్దెదారులకు వార్షిక నష్టాలను అందించండి"
+         ],
+         "MANAGEMENTANDLEASINGFEESTOOLTIP": [
+            "ఆస్తి నిర్వహణ మరియు లీజుకు వార్షిక రుసుము అందించండి"
+         ],
+         "PROPERTYINSURANCETOOLTIP": [
+            "వార్షిక ఆస్తి భీమా మొత్తాన్ని అందజేయండి"
+         ],
+         "PROPERTYTAXESTOOLTIP": [
+            "వార్షిక ఆస్తి పన్ను మొత్తంను అందించండి"
+         ],
+         "PROPERTYMAINTENANCETOOLTIP": [
+            "ఆస్తుల నిర్వహణ కోసం వార్షిక వ్యయాలను అందించండి"
+         ],
+         "OTHEREXPENSESTOOLTIP": [
+            "అన్ని ఇతర ఖర్చులకు మొత్తం వార్షిక మొత్తాన్ని అందజేయండి"
+         ],
+         "CALCULATEDCAPRATETOOLTIP": [
+            "క్యాపిటలైజేషన్ రేటు లేదా టోపీ రేటు, ఆస్తి విలువ లేదా ఆస్క్ ధరకు నికర ఆపరేటింగ్ ఆదాయం నిష్పత్తి (NOI)"
+         ],
+         "COMMISSIONSPLITTOOLTIP": [
+            "కొనుగోలుదారు ఏజెంట్ కమిషన్ శాతం అందించండి"
+         ],
+         "COMMISSIONPERCENTAGETOOLTIP": [
+            "కొనుగోలుదారు చెల్లించాల్సి ఉంటుంది అని కమిషన్ శాతం అందించండి"
+         ],
+         "COMMISSIONAMOUNTTOOLTIP": [
+            "కొనుగోలుదారు చెల్లించాల్సి ఉంటుంది అని కమిషన్ మొత్తం అందించండి"
+         ],
+         "SPECIFICATIONSTOOLTIP": [
+            "నిర్మాణ పునాది గురించి వివరాలు సహా లక్షణాలు అందించండి, నిర్మాణ వస్తువులు ఉపయోగిస్తారు, ముగింపు, మ్యాచ్లను మరియు అలంకరణలు"
+         ],
+         "PRIMARYIDENTIFIERTOOLTIP": [
+            "ఆస్తి గుర్తింపు సంఖ్య అందించండి. ఈ నిర్ణయాలు కొనుగోలు కోసం ఆస్తి మూల్యాంకనం కోసం కీలక ఉంటుంది."
+         ],
+         "HIGHLIGHTSTOOLTIP": [
+            "వాస్తు సమ్మతి, ఎదుర్కొంటున్న దిశ, వెంటిలేషన్, మొదలైనవి మీ ఆస్తి కీ ముఖ్యాంశాలు అందించండి"
+         ],
+         "MINDIVISIBLEAREATOOLTIP": [
+            "ఈ ప్లాట్లు విభజన లో అనుమతించబడవు చిన్న ప్రాంతంలో అందించండి"
+         ],
+         "MAXDIVISIBLEAREATOOLTIP": [
+            "ఈ ప్లాట్ డివిజన్లో అనుమతించబడిన అతి పెద్ద ప్రాంతాన్ని అందించండి"
+         ],
+         "MAXCONTIGUOUSAREATOOLTIP": [
+            "అతిపెద్ద ఉపస్థిత విస్తీర్ణం ఈ ప్లాట్లు విభజన లో అనుమతించబడవు అందించండి"
+         ],
+         "FIXTURESTOOLTIP": [
+            "మీ యూనిట్లో అందుబాటులో ఉన్న ప్రతి ఆటగాడు లేదా ఉపకరణాల వివరాలను అందించండి"
+         ],
+         "PROPERTYNAMEREQUIRED": [
+            "ఆస్తి పేరు తప్పనిసరి"
+         ],
+         "PROPERTYSUBTYPEREQUIRED": [
+            "ఆస్థి రకం తప్పనిసరి"
+         ],
+         "PROPERTYTYPEREQUIRED": [
+            "వర్గం అవసరం"
+         ],
+         "LINEONEREQUIRED": [
+            "వీధి చిరునామా తప్పనిసరి"
+         ],
+         "CITYREQUIRED": [
+            "సిటీ తప్పనిసరి"
+         ],
+         "ZIPCODEREQUIRED": [
+            "పిన్ కోడ్ తప్పనిసరి"
+         ],
+         "LOCALITYREQUIRED": [
+            "లొక్యాలిటీ తప్పనిసరి"
+         ],
+         "TITLEREQUIRED": [
+            "ప్రకటన శీర్షిక తప్పనిసరి"
+         ],
+         "LISTINGAREAREAMISSING": [
+            "ఏరియా తప్పనిసరి"
+         ],
+         "PROPERTYLISTINGTYPEREQUIRED": [
+            "ప్రకటన రకం తప్పనిసరి"
+         ],
+         "STARTTIMEMISSING": [
+            "ప్రారంభ సమయం అవసరం"
+         ],
+         "ENDTIMEMISSING": [
+            "ముగింపు సమయం అవసరం"
+         ],
+         "ENDTIMEINVALID": [
+            "ముగింపు సమయం కంటే తక్కువ లేదా సమయం ప్రారంభం సమాన ఉండకూడదు"
+         ],
+         "OPENHOUSEENDDATEMINVALUE": [
+            "ఓపెన్ హౌస్ తేదీ కంటే ముందు ఉండకూడదు"
+         ],
+         "ENDDATEMINVALUE": [
+            "ప్రకటన గడువు తేదీ కంటే ముందు ఉండకూడదు"
+         ],
+         "ENDDATEMAXVALUE": [
+            "ప్రకటన గడువు తేదీ కన్నా ఎక్కువ ఉండకూడదు"
+         ],
+         "ENDDATEREQUIRED": [
+            "ప్రకటన గడువు తేదీ తప్పనిసరి"
+         ],
+         "GROSSRENTREVENUEREQUIRED": [
+            "స్థూల అద్దె ఆదాయం అవసరం"
+         ],
+         "DISCLOSEADDRESSREQUIRED": [
+            "బహిర్గతం చిరునామా అవసరం"
+         ],
+         "DISCLOSEPRICEREQUIRED": [
+            "బహిర్గతం ధర అవసరం"
+         ],
+         "SALEPRICEREQUIRED": [
+            "అమ్మకానికి ధర తప్పనిసరి"
+         ],
+         "LEASEPRICEREQUIRED": [
+            "అద్దె మొత్తంపై తప్పనిసరి"
+         ],
+         "PROPERTYLISTINGMISSING": [
+            "ప్రోపర్టీ లిస్టింగ్ తప్పనిసరి"
+         ],
+         "PROPERTYMISSING": [
+            "ఆస్తి తప్పనిసరి"
+         ],
+         "SALEPRICEMISSING": [
+            "అమ్మకానికి ధర తప్పనిసరి"
+         ],
+         "SALEPRICEINVALID": [
+            "అమ్మకానికి ధర చెల్లదు"
+         ],
+         "COMMISSIONSPLITINVALID": [
+            "కొనుగోలుదారు ఏజెంట్ కమిషన్ చెల్లదు"
+         ],
+         "SALECOMMISSIONINVALID": [
+            "కమిషన్ శాతం చెల్లదు"
+         ],
+         "LEASEPRICEMISSING": [
+            "లీజ్ ధర తప్పనిసరి"
+         ],
+         "LEASEPRICEINVALID": [
+            "లీజ్ ధర చెల్లదు"
+         ],
+         "LEASEDEPOSITINVALID": [
+            "డిపాజిట్ మొత్తం చెల్లదు"
+         ],
+         "LEASETERMINVALID": [
+            "లీజ్ టర్మ్ చెల్లదు"
+         ],
+         "LEASEMAINTENANCECHARGESINVALID": [
+            "మంత్లీ నిర్వహణ ఛార్జీలు చెల్లదు"
+         ],
+         "LEASECOMMISSIONINVALID": [
+            "కమిషన్ మొత్తం చెల్లదు"
+         ],
+         "NUMBEROFBEDSREQUIRED": [
+            "పడకలు సంఖ్య అవసరం"
+         ],
+         "NUMBEROFSEATSREQUIRED": [
+            "సంఖ్య సీట్లు అవసరం"
+         ],
+         "NUMBEROFBEDROOMSREQUIRED": [
+            "బెడ్ సంఖ్య అవసరం"
+         ],
+         "LISITNGAREAREQUIRED": [
+            "ఏరియా తప్పనిసరి"
+         ],
+         "ENDDATEMISSING": [
+            "గడువు తేదీ అవసరం"
+         ],
+         "OTHERSUBTYPEINVALID": [
+            "చెల్లని ఇతర ఆస్తి సబ్ టైప్"
+         ],
+         "SUBTYPEMISSING": [
+            "ఆస్థి రకం తప్పనిసరి"
+         ],
+         "LISTINGTITLEMISSING": [
+            "ప్రకటన శీర్షిక అవసరం"
+         ],
+         "LISTINGSALETYPEMISSING": [
+            "అవసరం ద్వారా పోస్ట్"
+         ],
+         "LISTINGTYPEMISSING": [
+            "ప్రకటన రకం అవసరం"
+         ],
+         "TYPEMISSING": [
+            "వర్గం అవసరం"
+         ],
+         "LEASETERMREQUIRED": [
+            "అద్దె టర్మ్ అవసరం"
+         ],
+         "LEASETYPEREQUIRED": [
+            "అద్దె పద్ధతి అవసరం"
+         ],
+         "LEASEAMOUNTREQUIRED": [
+            "లీజు మొత్తం అవసరం"
+         ],
+         "DISTRESSEDSTATUSREQUIRED": [
+            "నష్టాల్లో స్థితి అవసరం"
+         ],
+         "CREATEPROPERTY": [
+            "ఆస్తి సమాచారం అందించండి"
+         ],
+         "CONFIRMADDRESS": [
+            "మీ ఆస్తి యొక్క చిరునామా నిర్ధారించండి"
+         ],
+         "MOVEMAP": [
+            "తరలించు లేదా అస్తుల మ్యాప్ డ్రాగ్"
+         ],
+         "BACKTOPROPERTY": [
+            "మునుపటి దశ"
+         ],
+         "NOIMAGESUPLOADED": [
+            "ఏ ఫైల్లు అప్లోడ్ చేయబడలేదు"
+         ],
+         "PREVIEWSELECTEDDOCUMENTS": [
+            "ఎంచుకున్న పత్రాలు"
+         ],
+         "PREVIEWSELECTEDIMAGES": [
+            "ప్రివ్యూ ఎంపిక చేసిన ఛాయాచిత్రాలు"
+         ],
+         "CURRENTDEFAULT": [
+            "డిఫాల్ట్ ఫోటో"
+         ],
+         "SETASDEFAULT": [
+            "ఎధావిధిగా ఉంచు"
+         ],
+         "CONFIRMPROPERTY": [
+            "ఈ స్థానాన్ని ఎంచుకోండి"
+         ],
+         "NEXTTOFINANCIAL": [
+            "తరువాత ప్రక్రియ"
+         ],
+         "NEXTTOADDITIONAL": [
+            "తరువాత ప్రక్రియ"
+         ],
+         "BACKTOADDITIONAL": [
+            "మునుపటి దశ"
+         ],
+         "NEXTTOCREATEPROPERTY": [
+            "తరువాత ప్రక్రియ"
+         ],
+         "BACKTOADDRESS": [
+            "మునుపటి దశ"
+         ],
+         "ADDLEASERENEWALOPTIONS": [
+            "లీజు పునరుద్ధరణ ఎంపికను జోడించండి"
+         ],
+         "ADDHIGHLIGHTS": [
+            "మరొక హైలైట్ జోడించండి"
+         ],
+         "POSTONLINE": [
+            "పోస్ట్ ప్రకటన ఆన్లైన్"
+         ],
+         "NEXTTOPROPERTY": [
+            "తరువాత ప్రక్రియ"
+         ],
+         "NEXTTOPHOTOS": [
+            "తరువాత ప్రక్రియ"
+         ],
+         "BACKTOFINANCIAL": [
+            "మునుపటి దశ"
+         ],
+         "SELECTEDBUILDINGUNIT": [
+            "మీ యూనిట్ వివరించండి"
+         ],
+         "PROPERTYBUILDINGDETAILS": [
+            "మీ బిల్డింగ్ వివరించండి"
+         ],
+         "APARTMENTDETAILS": [
+            "మీ రెసిడెన్షియల్ కమ్యూనిటీ వివరించండి"
+         ],
+         "PROPERTYLOTDETAILS": [
+            "మీ ప్లాట్ వివరించండి"
+         ],
+         "ENTERHIGHLIGHTS": [
+            "ఆస్తి ముఖ్యాంశాలు ఎంటర్"
+         ],
+         "ADDFIXTURES": [
+            "ఒక ఫిల్టర్ను జోడించండి"
+         ],
+         "ENTERFIXTURES": [
+            "ఫిక్స్చర్ వివరాలను నమోదు చేయండి"
+         ],
+         "ADDSPECIFICATIONS": [
+            "బిల్డింగ్ స్పెసిఫికేషన్ను జోడించండి"
+         ],
+         "ENTERSPECIFICATIONS": [
+            "బిల్డింగ్ లక్షణాలు ఎంటర్"
+         ],
+         "ADDROOMS": [
+            "ఒక రూమ్ జోడించండి"
+         ],
+         "HOTELROOMDETAILS": [
+            "మీ రూమ్ Decsribe"
+         ],
+         "LOTDETAILSCOLLAPSIBLE": [
+            "ప్లాట్ సమాచారం (నేను ఒక నిర్దిష్ట ప్లాట్ am జాబితా)"
+         ],
+         "SELECTEDLOT": [
+            "మీ ప్లాట్ వివరించండి"
+         ],
+         "MAXNOOFFILES": [
+            "మీరు 10 ఫైల్లు అప్ లోడ్ చెయ్యవచ్చు"
+         ],
+         "UPLOADNOW": [
+            "ఇప్పుడు అప్లోడ్"
+         ],
+         "SELECTFILESTOUPLOAD": [
+            "బ్రౌజ్ ఫైళ్ళు"
+         ],
+         "MINIMUM4IMAGESREQUIRED": [
+            "కనీసం 4 ఫోటోలను జోడించండి"
+         ],
+         "LISTINGUPDATED": [
+            "లిస్టింగ్ నవీకరించబడింది!"
+         ],
+         "LISTINGUPDATEFAILED": [
+            "లిస్టింగ్ నవీకరించబడలేదు! దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి."
+         ],
+         "VIDEOTITLEPLACEHOLDER": [
+            "మీ వీడియో శీర్షికను టైప్ చేయండి"
+         ],
+         "VIDEOURLPLACEHOLDER": [
+            "మీ వీడియో URL ను టైప్ చేయండి లేదా అతికించండి"
+         ],
+         "ASKINGPRICEPRICEREQUIRED": [
+            "అడుగుతున్న ధరని నమోదు చేయండి"
+         ],
+         "ISRENTALPROPERTYTOOLTIP": [
+            "ఈ ఆస్తి యూనిట్ అద్దెకు తీసుకున్నారా లేదా తగిన ఆర్థిక సమాచారం అని సూచిస్తుంది"
+         ],
+         "ISRENTALPROPERTY": [
+            "ఈ యూనిట్ అద్దెకు తీసుకున్నారా?"
+         ],
+         "RENTALAMOUNTREQUIRED": [
+            "లీజు మొత్తం అవసరం"
+         ],
+         "CONSTRUCTIONSTATUSYEARBUILTINVALID ": [
+            "నిర్మాణం స్థితి మరియు ఇయర్ కలయిక చెల్లనిది."
+         ],
+         "": {
+            "domain": "messages",
+            "plural_forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+            "lang": ""
+         }
+      }
+   }
+}

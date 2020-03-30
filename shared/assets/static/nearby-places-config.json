@@ -1,0 +1,79 @@
+{
+  "COMMON" : [
+    {
+      "label" : "SCHOOL",
+      "type"  : "school",
+      "icon-class" : "map-icon-school"
+    },
+    {
+      "label" : "AIRPORT",
+      "type"  : "airport",
+      "icon-class" : "map-icon-airport"
+    },
+    {
+      "label" : "TRAINSTATION",
+      "type"  : "train_station",
+      "icon-class" : "map-icon-train-station"
+    },
+    {
+      "label" : "BUSSTATION",
+      "type"  : "bus_station",
+      "icon-class" : "map-icon-bus-station"
+    },
+    {
+      "label" : "HOSPITAL",
+      "type"  : "hospital",
+      "icon-class" : "map-icon-hospital"
+    },
+    {
+      "label" : "POLICE",
+      "type"  : "police",
+      "icon-class" : "map-icon-police"
+    },
+    {
+      "label" : "GASSTATION",
+      "type"  : "gas_station",
+      "icon-class" : "map-icon-gas-station"
+    },
+    {
+      "label" : "BANK",
+      "type"  : "bank",
+      "icon-class" : "map-icon-bank"
+    },
+    {
+      "label" : "PHARMACY",
+      "type"  : "pharmacy",
+      "icon-class" : "map-icon-pharmacy"
+    },
+    {
+      "label" : "ATM",
+      "type"  : "atm",
+      "icon-class" : "map-icon-atm"
+    },
+    {
+      "label" : "PARKING",
+      "type"  : "parking",
+      "icon-class" : "map-icon-parking"
+    },
+    {
+      "label" : "SHOPPINGMALL",
+      "type"  : "shopping_mall",
+      "icon-class" : "map-icon-shopping-mall"
+    },
+    {
+      "label" : "RESTAURANT",
+      "type"  : "restaurant",
+      "icon-class" : "map-icon-restaurant"
+    },
+    {
+      "label" : "PARK",
+      "type"  : "park",
+      "icon-class" : "map-icon-park"
+    }
+  ],
+  "OFFICE" : [],
+  "HOTEL" : [],
+  "RESIDENTIAL" : [],
+  "RETAIL" : [],
+  "OTHER" : []
+}

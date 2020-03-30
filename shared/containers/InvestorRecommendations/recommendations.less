@@ -1,0 +1,47 @@
+.recommendations-page {
+    padding: @quicksearch-height 10px 72px 0;
+    min-height: ~"calc(100vh - @{desktop-header-fixed-height})";
+    position: relative;
+    .footer-main {
+        position: absolute;
+        bottom: 0;
+    }
+    .recommendations__wrap {
+        margin-top: 15px;
+        .recommendations {
+            display: flex;
+            padding-left: 10px;
+            .bp-xsmall({
+                width: 100%;
+                flex-wrap: wrap;
+            });
+            .bp-medium({
+                width: ~"calc(100% - 300px)";
+            });
+            .recommendation {
+                .bp-xsmall({
+                    width: 100%;
+                    min-width: unset;
+                    padding: 0;
+                    max-width: none;
+                });
+                .bp-small({
+                    width: 33%;
+                    min-width: 320px;
+                    padding: 0 10px 0 0;
+                    max-width: 370px;
+                });
+            }
+            .hpanel {
+                margin-bottom: 10px;
+            }
+            .panel-body {
+                padding: 10px;
+                min-height: 250px;
+            }
+        }
+        .ad-slots {
+            width: 300px;
+        }
+    }
+}

@@ -1,0 +1,440 @@
+{
+  "schemas": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "label": "ADDAREASSERVED",
+          "id": "realtor.areasServed",
+          "type": "text-google-place",
+          "data": {
+            "tooltip": "AREASSERVEDTOOLTIP",
+            "key": 3
+          },
+          "validation": [
+            {
+              "type": "required",
+              "message": "ADDAREASSERVEDREQUIRED",
+              "value": "ADDAREASSERVEDREQUIRED"
+            }
+          ],
+          "conditionalId": "conditionalId.realtor.areasServed",
+          "children" : [
+            {
+              "id" : "realtor.areasServed(1).googleText",
+              "type" : "pill",
+              "data" : {
+                "value": "Los Altos"
+              },
+              "children": [
+                {
+                  "id": "realtor.areasServed(1).cityName",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "Los Altos"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(1).region",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "Santa Clara County"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(1).locality",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "Los Altos"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(1).stateCode",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "CA"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(1).country",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "US"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(1).geometry",
+                  "type": "list",
+                  "children": [
+                    {
+                      "id": "realtor.areasServed(1).geometry.lat",
+                      "type": "text-hidden",
+                      "data": {
+                        "value": "37.385"
+                      }
+                    },
+                    {
+                      "id": "realtor.areasServed(1).geometry.lon",
+                      "type": "text-hidden",
+                      "data": {
+                        "value": "-122.114"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id" : "realtor.areasServed(2).googleText",
+              "type" : "pill",
+              "data" : {
+                "value": "Los Angeles"
+              },
+              "children": [
+                {
+                  "id": "realtor.areasServed(2).cityName",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "Los Angeles"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(2).region",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "Los Angeles County"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(2).locality",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "Los Angeles"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(2).stateCode",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "CA"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(2).country",
+                  "type": "text-hidden",
+                  "data": {
+                    "value": "US"
+                  }
+                },
+                {
+                  "id": "realtor.areasServed(2).geometry",
+                  "type": "list",
+                  "children": [
+                    {
+                      "id": "realtor.areasServed(2).geometry.lat",
+                      "type": "text-hidden",
+                      "data": {
+                        "value": "34.052"
+                      }
+                    },
+                    {
+                      "id": "realtor.areasServed(2).geometry.lon",
+                      "type": "text-hidden",
+                      "data": {
+                        "value": "-118.244"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pillCloneChild": {
+              "id" : "realtor.areasServed(*).googleText",
+              "type" : "pill",
+              "data" : {
+                "value" : ""
+              },
+              "children" : [
+                {
+                  "id": "realtor.areasServed(*).cityName",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(*).region",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(*).locality",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(*).stateCode",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(*).country",
+                  "type": "text-hidden"
+                },
+                {
+                  "id": "realtor.areasServed(*).geometry",
+                  "type": "list",
+                  "children": [
+                    {
+                      "id": "realtor.areasServed(*).geometry.lat",
+                      "type": "text-hidden"
+                    },
+                    {
+                      "id": "realtor.areasServed(*).geometry.lon",
+                      "type": "text-hidden"
+                    }
+                  ]
+                }
+              ]
+          }
+
+        },
+        {
+          "label": "SPECIALTIES",
+          "id" : "realtor.specialties",
+          "type" : "select-pills",
+          "data" : {
+            "optionReference": "specialtytype",
+            "tooltip": "SPECIALTIESTOOLTIP",
+            "isAddNewPill": true,
+            "key" : 4
+          },
+          "validation": [
+            {
+              "type": "required",
+              "message": "SPECIALTIESREQUIRED",
+              "value": "SPECIALTIESREQUIRED"
+            }
+          ],
+          "conditionalId": "conditionalId.realtor.specialties",
+          "children" : [
+            {
+              "id" : "realtor.specialties(1)",
+              "type" : "pill",
+              "data" : {
+                "value" : "pill1"
+              }
+            },
+            {
+              "id" : "realtor.specialties(2)",
+              "type" : "pill",
+              "data" : {
+                "value" : "pill2"
+              }
+            },
+            {
+              "id" : "realtor.specialties(3)",
+              "type" : "pill",
+              "data" : {
+                "value" : "pill3"
+              }
+            }
+          ],
+          "pillCloneChild" : {
+            "id" : "realtor.specialties(*)",
+            "type" : "pill",
+            "data" : {
+              "value" : ""
+            }
+          }
+        }
+      ],
+      "groupName": "areasinfo"
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "specialtytype",
+        "option": [
+          {
+            "value": "INCOME_SPECIALIST",
+            "label": "INCOME_SPECIALIST"
+          },
+          {
+            "value": "COMMERCIAL_PROPERTIES",
+            "label": "COMMERCIAL_PROPERTIES"
+          },
+          {
+            "value": "RESIDENTIAL_INVESTMENTS",
+            "label": "RESIDENTIAL_INVESTMENTS"
+          },
+          {
+            "value": "PROPERTY_MANAGEMENT",
+            "label": "PROPERTY_MANAGEMENT"
+          },
+          {
+            "value": "RESIDENTIAL_LENDING",
+            "label": "RESIDENTIAL_LENDING"
+          },
+          {
+            "value": "COMMERCIAL_LENDING",
+            "label": "COMMERCIAL_LENDING"
+          },
+          {
+            "value": "FARM_AND_LAND",
+            "label": "FARM_AND_LAND"
+          },
+          {
+            "value": "INDUSTRIAL",
+            "label": "INDUSTRIAL"
+          },
+          {
+            "value": "LAND_DEVELOPMENT",
+            "label": "LAND_DEVELOPMENT"
+          },
+          {
+            "value": "APPRAISAL",
+            "label": "APPRAISAL"
+          },
+          {
+            "value": "URBAN_PLANNING",
+            "label": "URBAN_PLANNING"
+          },
+          {
+            "value": "LEGAL",
+            "label": "LEGAL"
+          },
+          {
+            "value": "BACK_OFFICE_SPECIALIST",
+            "label": "BACK_OFFICE_SPECIALIST"
+          },
+          {
+            "value": "RESEARCH",
+            "label": "RESEARCH"
+          },
+          {
+            "value": "OTHER_SPECIALTY",
+            "label": "OTHER_SPECIALTY"
+          }
+        ]
+      },
+      {
+        "id": "license",
+        "option": [
+          {
+            "value": "AUCTIONEER",
+            "label": "AUCTIONEER"
+          },
+          {
+            "value": "CERTIFIEDGENERALAPPRAISER",
+            "label": "CERTIFIEDGENERALAPPRAISER"
+          },
+          {
+            "value": "CERTIFIEDRESIDENTIALAPPRAISER",
+            "label": "CERTIFIEDRESIDENTIALAPPRAISER"
+          },
+          {
+            "value": "LEASINGAGENT",
+            "label": "LEASING_AGENT"
+          },
+          {
+            "value": "LICENSEDAPPRAISER",
+            "label": "LICENSEDAPPRAISER"
+          },
+          {
+            "value": "LICENSEDINSPECTOR",
+            "label": "LICENSEDINSPECTOR"
+          },
+          {
+            "value": "MORTGAGEBROKER",
+            "label": "MORTGAGE_BROKER"
+          },
+          {
+            "value": "PROPERTYMANAGEMENT",
+            "label": "PROPERTYMANAGEMENT"
+          },
+          {
+            "value": "REALESTATEBROKER",
+            "label": "REALESTATEBROKER"
+          },
+          {
+            "value": "REGISTEREDAPPRAISER",
+            "label": "REGISTEREDAPPRAISER"
+          },
+          {
+            "value": "REGISTEREDINSPECTOR",
+            "label": "REGISTEREDINSPECTOR"
+          },
+          {
+            "value": "RENTALPROPERTYMANAGEMENT",
+            "label": "RENTALPROPERTYMANAGEMENT"
+          },
+          {
+            "value": "SALESPERSON",
+            "label": "SALESPERSON"
+          },
+          {
+            "value": "OTHER",
+            "label": "OTHER"
+          }
+        ]
+      },
+      {
+        "id": "contactnumbertype",
+        "option": [
+          {
+            "value": "HOMETELEPHONE",
+            "label": "HOMETELEPHONE"
+          },
+          {
+            "value": "OFFICETELEPHONE",
+            "label": "OFFICETELEPHONE"
+          },
+          {
+            "value": "MOBILE",
+            "label": "MOBILE"
+          }
+        ]
+      },
+      {
+        "id": "websitetype",
+        "option": [
+          {
+            "value": "SITEURL",
+            "label": "SITEURL"
+          },
+          {
+            "value": "TWITTERHANDLE",
+            "label": "TWITTERHANDLE"
+          },
+          {
+            "value": "LINKEDIN",
+            "label": "LINKEDIN"
+          },
+          {
+            "value": "FACEBOOK",
+            "label": "FACEBOOK"
+          },
+          {
+            "value": "BLOG",
+            "label": "BLOG"
+          }
+        ]
+      }
+    ]
+  },
+  "schemaInfos": [
+    {
+      "description": null,
+      "icon": null
+    },
+    {
+      "description": "AREASINFOGROUPDESCRIPTION",
+      "icon": "Icon_Areas_Served"
+    },
+    {
+      "description": "PROFESSIONINFOGROUPDESCRIPTION",
+      "icon": "Icon_User_Info"
+    },
+    {
+      "description": "CONTACTINFOGROUPDESCRIPTION",
+      "icon": "Icon_Contact_Info"
+    }
+  ]
+}

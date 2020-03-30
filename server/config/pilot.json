@@ -1,0 +1,21 @@
+{
+  "api" : {
+    "prefix": "/api/v1",
+    "host": "172.31.20.146",
+    "port" : "8004",
+    "protocol" : "http",
+    "api-base" : "http://propshub-apigateway.us-east-1.elasticbeanstalk.com"
+  },
+  "redis" : {
+    "host" : "propshub-redis.mi5qwx.0001.use1.cache.amazonaws.com"
+  },
+  "logging" : {
+    "level" : "info",
+    "filemaxsize" : 1000000,
+    "silent" : false,
+    "filePath" : "/var/log/nodeapi/"
+  },
+  "cookies" : {
+    "isSecure" : true
+  }
+}

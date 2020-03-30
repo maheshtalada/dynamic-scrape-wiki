@@ -1,0 +1,84 @@
+@md-checkbox-margin: 16px 0;
+@md-checkbox-checked-color: @button-secondary-background-color-light-green;
+@md-checkbox-border-color: rgba(0, 0, 0, 0.54);
+
+@md-checkbox-size: 14px;
+@md-checkbox-padding: 4px;
+
+@md-checkmark-width: 2px;
+@md-checkmark-color: @font-dark-grey;
+
+@keyframes ripple {
+	0% {
+		box-shadow: 0px 0px 0px 1px rgba(10, 154, 141, 0.0);
+	}
+	50% {
+		box-shadow: 0px 0px 0px @md-radio-ripple-size rgba(10, 154, 141, 0.1);
+	}
+	100% {
+		box-shadow: 0px 0px 0px @md-radio-ripple-size rgba(10, 154, 141, 0);
+	}
+}
+
+.mdl-checkbox-group {
+	position: relative;
+	//margin: @md-checkbox-margin;
+
+	label {
+		cursor: pointer;
+		position: relative;
+		padding-left: 20px;
+		display: block;
+		&:before, &:after {
+			content: "";
+			position: absolute;
+			left:0;
+			top: 0;
+		}
+
+		&:before {
+			// box
+			width: @md-checkbox-size;
+			height: @md-checkbox-size;
+			background: #fff;
+			border: 2px solid @md-checkbox-border-color;
+			border-radius: 2px;
+			cursor: pointer;
+			transition: background .3s;
+			top: 5px;
+		}
+
+		&:after {
+			// checkmark
+		}
+	}
+
+	input[type="checkbox"] {
+		outline: 0;
+		margin-right: @md-checkbox-size - 10px;
+		display: none;
+		&:checked {
+			+ label:before{
+				background: @md-checkbox-checked-color;
+				animation: ripple 0.2s linear forwards;
+				border:none;
+			}
+			+ label:after {
+
+				@md-checkmark-size: 10px;
+
+				transform: rotate(-45deg);
+
+				top: 8px;
+				left: 2px;
+				width: @md-checkmark-size;
+				height: @md-checkmark-size / 2;
+
+				border: @md-checkmark-width solid @md-checkmark-color;
+				border-top-style: none;
+				border-right-style: none;
+			}
+		}
+	}
+
+}

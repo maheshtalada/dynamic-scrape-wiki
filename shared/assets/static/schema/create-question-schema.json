@@ -1,0 +1,407 @@
+{
+  "schema": {
+    "schemas": [
+      {
+        "type": "header",
+        "children": [
+          {
+            "label": "AREASSERVED",
+            "id": "AREASSERVED",
+            "type": "list",
+            "data": {
+              "tooltip": "AREASSERVEDTOOLTIP"
+            },
+            "children": [
+              {
+                "id": "user.areasServed(1)",
+                "type": "list",
+                "children": [
+                  {
+                    "label": "ENTERAREA",
+                    "id": "user.areasServed(1).googleText",
+                    "type": "text-google-place",
+                    "validation": [
+                      {
+                        "type": "required",
+                        "message": "AREAREQUIRED",
+                        "value": "AREAREQUIRED"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "user.areasServed(1).cityName",
+                    "type": "text-hidden"
+                  },
+                  {
+                    "id": "user.areasServed(1).region",
+                    "type": "text-hidden"
+                  },
+                  {
+                    "id": "user.areasServed(1).locality",
+                    "type": "text-hidden"
+                  },
+                  {
+                    "id": "user.areasServed(1).stateCode",
+                    "type": "text-hidden"
+                  },
+                  {
+                    "id": "user.areasServed(1).country",
+                    "type": "text-hidden"
+                  },
+                  {
+                    "id": "user.areasServed(1).geometry",
+                    "type": "list",
+                    "children": [
+                      {
+                        "id": "user.areasServed(1).geometry.lat",
+                        "type": "text-hidden"
+                      },
+                      {
+                        "id": "user.areasServed(1).geometry.lon",
+                        "type": "text-hidden"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "ADDAREASSERVED",
+            "id": "ADDAREASSERVED",
+            "type": "clone",
+            "data": {
+              "tooltip": "AREASSERVEDTOOLTIP",
+              "key": "2"
+            },
+            "children": [
+              {
+                "id": "areasservedremovable",
+                "type": "list",
+                "subtype": "list-removable-single",
+                "children": [
+                  {
+                    "label": "AREASSERVED",
+                    "id": "user.areasServed(*)",
+                    "type": "list",
+                    "children": [
+                      {
+                        "label": "ENTERAREA",
+                        "id": "user.areasServed(*).googleText",
+                        "type": "text-google-place",
+                        "validation": [
+                          {
+                            "type": "required",
+                            "message": "AREAREQUIRED",
+                            "value": "AREAREQUIRED"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "user.areasServed(*).cityName",
+                        "type": "text-hidden"
+                      },
+                      {
+                        "id": "user.areasServed(*).region",
+                        "type": "text-hidden"
+                      },
+                      {
+                        "id": "user.areasServed(*).locality",
+                        "type": "text-hidden"
+                      },
+                      {
+                        "id": "user.areasServed(*).stateCode",
+                        "type": "text-hidden"
+                      },
+                      {
+                        "id": "user.areasServed(*).country",
+                        "type": "text-hidden"
+                      },
+                      {
+                        "id": "user.areasServed(*).geometry",
+                        "type": "list",
+                        "children": [
+                          {
+                            "id": "user.areasServed(*).geometry.lat",
+                            "type": "text-hidden"
+                          },
+                          {
+                            "id": "user.areasServed(*).geometry.lon",
+                            "type": "text-hidden"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "SPECIALTIES",
+            "id": "user.specialties",
+            "type": "multi-select-pills",
+            "data": {
+              "optionReference": "specialtytype",
+              "tooltip": "SPECIALTIESTOOLTIP",
+              "isAddNewPill": false,
+              "value" : [
+                "INCOME_SPECIALIST",
+                "PROPERTY_MANAGEMENT"
+              ]
+            },
+            "validation": [
+              {
+                "type": "required",
+                "message": "SPECIALTIESREQUIRED",
+                "value": "SPECIALTIESREQUIRED"
+              }
+            ],
+            "conditionalId": "conditionalId.user.specialties"
+          },
+          {
+            "label": "AMENITIES",
+            "id": "propertylisting.property.apartmentDetails.utilities",
+            "type": "list",
+            "subtype": "list-columns-no-gutter",
+            "data": {
+              "columns": "3",
+              "loop": true
+            },
+            "children": [
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(0)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "BARBEQUEAREA",
+                  "optionValue": "BARBEQUEAREA"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(1)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "CHILDCARE",
+                  "optionValue": "CHILDCARE"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(2)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "CLUBHOUSE",
+                  "optionValue": "CLUBHOUSE"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(3)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "CHILDRENPLAYAREA",
+                  "optionValue": "CHILDRENPLAYAREA"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(4)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "DISABLEDACCESS",
+                  "optionValue": "DISABLEDACCESS"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(5)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "GARDENAREA",
+                  "optionValue": "GARDENAREA"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(6)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "LAWNAREA",
+                  "optionValue": "LAWNAREA"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(7)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "SWIMMINGPOOL",
+                  "optionValue": "SWIMMINGPOOL"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(8)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "GYM",
+                  "optionValue": "GYM"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(9)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "JOGGINGTRACK",
+                  "optionValue": "JOGGINGTRACK"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(10)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "INTERCOM",
+                  "optionValue": "INTERCOM"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(11)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "INDOORSPORTS",
+                  "optionValue": "INDOORSPORTS"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(12)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "OUTDOORSPORTS",
+                  "optionValue": "OUTDOORSPORTS"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(13)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "DEPARTMENTSTORE",
+                  "optionValue": "DEPARTMENTSTORE"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(14)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "SPA",
+                  "optionValue": "SPA"
+                }
+              },
+              {
+                "id": "propertylisting.property.apartmentDetails.utilities(15)",
+                "type": "options",
+                "subtype": "checkbox-icon-values",
+                "data": {
+                  "label": "WIREDFORAUTOMATION",
+                  "optionValue": "WIREDFORAUTOMATION"
+                }
+              }
+            ]
+          }
+        ],
+        "groupName": "user-register"
+      }
+    ],
+    "referenceData": {
+      "children": [
+        {
+          "id": "roletype",
+          "option": [
+            {
+              "value": "ROLE_CUSTOMER",
+              "label": "ROLE_CUSTOMER"
+            },
+            {
+              "value": "ROLE_REALTOR",
+              "label": "ROLE_REALTOR"
+            }
+          ]
+        },
+        {
+          "id": "specialtytype",
+          "option": [
+            {
+              "value": "INCOME_SPECIALIST",
+              "label": "INCOME_SPECIALIST"
+            },
+            {
+              "value": "COMMERCIAL_PROPERTIES",
+              "label": "COMMERCIAL_PROPERTIES"
+            },
+            {
+              "value": "RESIDENTIAL_INVESTMENTS",
+              "label": "RESIDENTIAL_INVESTMENTS"
+            },
+            {
+              "value": "PROPERTY_MANAGEMENT",
+              "label": "PROPERTY_MANAGEMENT"
+            },
+            {
+              "value": "RESIDENTIAL_LENDING",
+              "label": "RESIDENTIAL_LENDING"
+            },
+            {
+              "value": "COMMERCIAL_LENDING",
+              "label": "COMMERCIAL_LENDING"
+            },
+            {
+              "value": "FARM_AND_LAND",
+              "label": "FARM_AND_LAND"
+            },
+            {
+              "value": "INDUSTRIAL",
+              "label": "INDUSTRIAL"
+            },
+            {
+              "value": "LAND_DEVELOPMENT",
+              "label": "LAND_DEVELOPMENT"
+            },
+            {
+              "value": "APPRAISAL",
+              "label": "APPRAISAL"
+            },
+            {
+              "value": "URBAN_PLANNING",
+              "label": "URBAN_PLANNING"
+            },
+            {
+              "value": "LEGAL",
+              "label": "LEGAL"
+            },
+            {
+              "value": "BACK_OFFICE_SPECIALIST",
+              "label": "BACK_OFFICE_SPECIALIST"
+            },
+            {
+              "value": "RESEARCH",
+              "label": "RESEARCH"
+            },
+            {
+              "value": "OTHER_SPECIALTY",
+              "label": "OTHER_SPECIALTY"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "userstatus": "USER_NOT_FOUND",
+  "status": "success"
+}

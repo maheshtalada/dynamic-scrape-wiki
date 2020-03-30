@@ -1,0 +1,64 @@
+{
+  "staticUrl": "http://localhost:9052",
+  "api" : {
+    "prefix": "/api/v1",
+    "host": "service-dev.propshub.com",
+    "port" : "443",
+    "protocol" : "https"
+  },
+  "mapServer" : {
+    "path" : "https://maps-dev.propshub.com"
+  },
+  "pdfServer" : {
+    "path" : "https://report-dev.propshub.com"
+  },
+  "imageRootPath" : "https://images.propshub.com",
+  "assetsPath" : "/static",
+  "metrosServed": ["dallas","phoenix","indianapolis","chicago","jacksonville","las-vegas","atlanta","orlando","san-antonio","philadelphia","baltimore", "washington"],
+  "searchStateCode": "TX[\\s|,]|AZ[\\s|,]|IN[\\s|,]|IL[\\s|,]|FL[\\s|,]|NV[\\s|,]|GA[\\s|,]|PA[\\s|,]|MD[\\s|,]|DC[\\s|,]",
+  "localeSettings" : {
+    "US" : {
+      "siteDomain" : "dev.propshub.com",
+      "chatNameSpace" : "https://chat-dev.propshub.com",
+      "langauges" : [
+        {
+          "language" : "us_en",
+          "displyname" : "English",
+          "default" : true
+        }
+      ],
+      "sites" : [
+        {
+          "name" : "US",
+          "link" : "US",
+          "icon" : "country-flag us-flag"
+        }
+      ],
+      "requestHeaderCode" : "us",
+      "languageDirectory" : "us",
+      "localeString" : "en-US",
+      "locationSearchRegion" : "us",
+      "siteLogo" : "logo_us.png",
+      "searchRadiusUnits" : "mi",
+      "currencyFormat" : "USD",
+      "currencySymbol" : "$",
+      "flagImgClass" : "us-flag",
+      "dateFormat" : "MM/DD/YYYY",
+      "showFormattedAddress" : true,
+      "mobileNumberFormatCheck": "^[0-9]{3}\\-[0-9]{3}\\-[0-9]{4}$",
+      "dialingCode": "+1",
+      "earthRadius" : 3959
+    }
+  },
+  "origin": "https://dev.propshub.com",
+  "cookies" : {
+    "isSecure" : true
+  },
+  "google" : {
+    "clientId" : "257981987263-u6j5gqnfnstr8ihjumvc0qi88ru1nodk.apps.googleusercontent.com"
+  },
+  "paypal" : {
+    "clientId" : "AZiZ-JCWPQ6ZB9mUIKPQMNEo_wrX9xwy1h9pijgO96S6nLV4PPG2z-zAjibf_lwTLTsdeAtZyUUj7TUe",
+    "secret" : "EJ1a2PQ6bWmXB5-gC9r8hg9Sny2DC5cIZI-gsfX841oSr7-V69wXE2g2GnFb93LsOdCO2xk9eyJ7Aq54"
+  }
+}

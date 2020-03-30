@@ -1,0 +1,259 @@
+{
+  "endpoints": {
+    "home": "/home",
+    "search" : "/search/property-listing/{type}/{location}/{term}",
+    "professionsearch" : "/search/{type}",
+    "contentsearch" : "/gateway/search/{type}",
+    "suggestions" : "/search/property-listing/suggest",
+    "propertylisting" : "/property-listings/{id}",
+    "ownerlistings" : "/search/property-listing/owner/{id}",
+    "firmlistings" : "/search/property-listing/brokerage-firm/{id}",
+    "professional" : "/gateway/professional/{id}",
+    "realtor" : "/real-estate-agents/{id}",
+    "company" : "/company/{id}",
+    "brokeragefirm" : "/real-estate-agencies/{id}",
+    "clientLogin" : "/oauth/token",
+    "clientLogout" : "/logout",
+    "resetpassword" : "/user-profile/resetpassword",
+    "verifyotp" : "/gateway/users/verify",
+    "verifyemailtoken" : "/user-profile/reset-password/verify",
+    "setpasswordviaemail" : "/user-profile/reset-password",
+    "changepassword" : "/user-profile/changepassword",
+    "useraccount": "/users/account",
+    "locateproperty" : "/search/property/latlon",
+    "getpropertybuilding" : "/schema/listing/basic/propertydetail",
+    "getlocationschema" : "/property-listings/schema/basic",
+    "savelocationschema" : "/property-listings/basic",
+    "getfinancialschema" : "/property-listings/schema/financial",
+    "savefinancialschema" : "/property-listings/financial",
+    "getoverviewschema" : "/property-listings/schema/overview",
+    "saveoverviewschema" : "/property-listings/overview",
+    "getadditionalschema" : "/property-listings/schema/additionalinfo",
+    "saveadditionalschema" : "/property-listings/additionalinfo",
+    "getpropertyschema" : "/property-listings/schema/properties",
+    "savepropertyschema" : "/property-listings/properties",
+    "getlistingmedia" : "/property-listings/{listingid}/medias",
+    "savelistingimages" : "/property-listings/{listingid}/medias",
+    "deletelistingimages" : "/property-listings/{listingid}/medias/delete",
+    "savelistingdefaultimage" : "/property-listings/{listingid}/medias/default",
+    "savelistingimagetags" : "/property-listings/{listingid}/medias/tag",
+    "editlistingmedia" : "/property-listings/{listingid}/medias/edit",
+    "getuserregistrationschema": "/schema/person/{usertype}",
+    "getcompanyregistrationschema": "/schema/company",
+    "savecompanyschema" : "/{companytype}",
+    "getusercompany" : "/gateway/users/account/company",
+    "getuserlisting" : "/gateway/users/account/listing",
+    "getuserreturns" : "/gateway/users/account/analyze-return",
+    "deletesavedreturn": "/gateway/users/account/analyze-return/{id}/delete",
+    "listingconfirmation" : "/property-listings/{listingid}/status",
+    "contactactions" : "/gateway/contact/{id}",
+    "postcontactaction" : "/gateway/contact",
+    "similarlistings": "/search/property-listing/similar-listing/{id}",
+    "getarticleschema" : "/schema/content/article",
+    "savequestion" : "/gateway/questions",
+    "getquestion" : "/gateway/questions/{id}",
+    "saveanswer" : "/gateway/answers",
+    "getanswers" : "/gateway/questions/{id}/answers",
+    "deleteanswers" : "/gateway/answers/{id}/delete",
+    "getquestionsbyid" : "/questions/user",
+    "savearticle" : "/gateway/news-articles/{status}",
+    "getarticle" : "/gateway/news-articles/{id}",
+    "savearticlereviews" : "/gateway/news-articles/{id}/reviews",
+    "getarticlereviews" : "/news-articles/{id}/reviews",
+    "getarticlebyid" : "/news-articles/user",
+    "getusernotifications" : "/gateway/users/account/contact-action",
+    "getarticletags": "/gateway/news-articles/{id}/tag",
+    "savearticletags": "/gateway/news-articles/{id}/tag",
+    "saveprofileimage": "/gateway/users/account/profile-photo",
+    "deleteprofileimage": "/users/account/profile-photo/delete",
+    "getuserarticles": "/gateway/users/account/article",
+    "userprofileedit": "/gateway/users/account/edit",
+    "userprofilepassword": "/users/account/changepassword",
+    "deleteprofilepic": "/users/account/profile-photo/delete",
+    "getcompanyeditschema": "/schema/company?id={id}",
+    "getarticleeditschema": "/schema/content/article?id={id}",
+    "savearticlelikes": "/gateway/news-articles/{id}/likes",
+    "savecomments" : "/gateway/comments",
+    "deletecomments" : "/gateway/comments/{commentid}/delete",
+    "getcomments" : "/gateway/comments/content/{contentid}",
+    "getnotificationpreferences": "/gateway/users/account/notification-preference",
+    "savepropertysearch": "/saved-search",
+    "getusersearches": "/gateway/users/account/saved-search",
+    "addtowishlist": "/users/account/property-wishlist",
+    "deletesavedsearch": "/saved-search/{id}/delete",
+    "deleteuserlisting": "/property-listings/{id}/delete",
+    "deletearticle": "/gateway/news-articles/{id}/delete",
+    "getuserwishlist": "/gateway/users/account/property-wishlist",
+    "deletewishlistitem": "/users/account/property-wishlist/delete",
+    "removearticle": "/gateway/news-articles/{id}/status",
+    "getarticlesandquestions" : "/gateway/home/content",
+    "articlelike": "/gateway/news-articles/{articleid}/like",
+    "getquestioneditschema": "/schema/content/question?id={id}",
+    "deletequestion": "/gateway/questions/{id}/delete",
+    "getuserquestions": "/gateway/users/account/question",
+    "getpropertydemographics" : "/property-listings/schema/demographic-data",
+    "getanalyzereturns": "/gateway/analyze-returns/property-listing/{listingid}",
+    "getanalyzereturnszestimate": "/gateway/analyze-returns/z-estimate",
+    "saveanalyzereturns": "/gateway/analyze-returns/property-listing/{listingid}",
+    "getquestionmatches" : "/search/content/question/match",
+    "getuserlocation" : "/location",
+    "userlookup" : "/user-profile/lookup",
+    "getsignupschema" : "/schema/users?emailid={emailid}",
+    "savesignupschema" : "/gateway/users/register",
+    "savesignupschemausers" : "/users",
+    "savesignupschemaprofessionals" : "/professionals",
+    "savesignupschemarealtors" : "/realtors",
+    "saveuserschema" : "/{usertype}",
+    "shareviaemail": "/gateway/contact/share",
+    "addtomycontacts": "/gateway/users/account/add-contact",
+    "makeanoffer": "/property-listings/offer",
+    "leadrealtors": "/search/preferred-professional",
+    "getinvestmentrecommendations" : "/recommendation/property-listing",
+    "propertyimages" : "/property-listings/{id}/images",
+    "propertyhighlights" : "/property-listings/{id}/highlights",
+    "popularlistings": "/search/popular/property-listing",
+    "userunsubscribe": "/user-profile/unsubscribe",
+    "getuserproperties": "/gateway/my-property/user",
+    "getmypropertydetails": "/schema/my-property/basic",
+    "savemypropertydetails": "/gateway/my-property/basic",
+    "getmypropertypurchasedetails": "/schema/my-property/purchase",
+    "savemypropertypurchasedetails": "/gateway/my-property/purchase",
+    "removeproperty": "/gateway/my-property/{id}/delete",
+    "getmypropertyreview": "/gateway/my-property/{id}/analyze-return",
+    "savepropertycashflow" : "/gateway/my-property/{id}/cashflow/add",
+    "getpropertycashflow" : "/gateway/my-property/{id}/cashflow",
+    "deletepropertycashflow" : "/gateway/my-property/{id}/cashflow/{cashflowid}/delete",
+    "updatepropertycashflow" : "/gateway/my-property/{id}/cashflow/{cashflowid}/update",
+    "saveproperties" : "/gateway/my-property",
+    "pdfcontactinfo" : "/property-listings/{id}/pdf",
+    "fileshareviaemail": "/gateway/contact/share-file",
+    "importcontacts": "/gateway/users/account/import-contact",
+    "tenantstartschema": "/gateway/rental-applications/schema",
+    "tenantstartschemasave": "/gateway/rental-applications",
+    "tenantinfoschema": "/gateway/rental-applications/schema/tenant/basic",
+    "tenantinfoschemasave": "/gateway/rental-applications/tenant/basic",
+    "tenantincomeschema": "/gateway/rental-applications/schema/tenant/employment",
+    "tenantincomeschemasave": "/gateway/rental-applications/tenant/employment",
+    "tenantresidencesschema": "/gateway/rental-applications/schema/tenant/residence",
+    "tenantresidencesschemasave": "/gateway/rental-applications/tenant/residence",
+    "tenanthouseholdschema": "/gateway/rental-applications/schema/tenant/house-hold",
+    "tenanthouseholdschemasave": "/gateway/rental-applications/tenant/house-hold",
+    "tenantdisclosuresschema": "/gateway/rental-applications/schema/tenant/disclosure",
+    "tenantdisclosuresschemasave": "/gateway/rental-applications/tenant/disclosure",
+    "tenantconfirmdetails": "/gateway/rental-applications/{id}/validate",
+    "tenantconfirmsave": "/gateway/rental-applications/{id}/confirm",
+    "tenantpaymentfailsave": "/gateway/rental-applications/{id}/payment-failure",
+    "getuserapplications" : "/gateway/rental-applications/user",
+    "getuserpayments" : "/gateway/users/account/payment",
+    "tenantapplicationdetails": "/gateway/rental-applications/{id}/review",
+    "tenantapplicationreview" : "/gateway/rental-applications/close",
+    "mediaupload": "/aws/upload",
+    "mediaedit": "/aws/edit",
+    "gettenantdocuments": "/gateway/rental-applications/tenant/media-details",
+    "savetenantdocuments": "/gateway/rental-applications/tenant/media/upload",
+    "edittenantdocuments": "/gateway/rental-applications/tenant/media/edit",
+    "downloadtenantmedia" : "/gateway/rental-applications/tenant/media",
+    "getbloglist" : "/gateway/search/content",
+    "brokarageunsubscribe" : "/real-estate-agencies/unsubscribe",
+    "email" : {
+      "contact" : {
+        "post" : {
+          "listingcontact" : "/property-listings/{listingid}/contact"
+        }
+      }
+    },
+    "pdf" : {
+      "customization" : {
+        "get" : {
+          "pdftemplatedata" : "/gateway/pdf/listing/{id}/template"
+        },
+        "post" : {
+          "template" : "/gateway/pdf/listing/{id}/template",
+          "heroimage" : "/gateway/pdf/listing/{id}/hero-image",
+          "thumbnail" : "/gateway/pdf/listing/{id}/thumbnail",
+          "highlight" : "/gateway/pdf/listing/{id}/highlight",
+          "disclosure" : "/gateway/pdf/listing/{id}/disclosure"
+        }
+      },
+      "pdfdata" : {
+        "get" : {
+          "customization" : "/gateway/pdf/listing/{id}",
+          "campaign" : "/gateway/pdf/listing/{id}/campaign"
+        }
+      }
+    },
+    "brokaragefirm" : {
+      "upload" : {
+        "post" : {
+          "officelogo" : "/property-listings/{id}/medias/office-logo"
+        }
+      }
+    }
+  },
+  "redis" : {
+    "host" : "localhost",
+    "port" : "6379",
+    "name" : "sid",
+    "ttl" : 50,
+    "cookiettl" : 50,
+    "wipe" : 50
+  },
+  "distanceunit":"mi",
+  "auth" : {
+    "encryption-key": "",
+    "encryption-type": "aes-128-cbc"
+  },
+  "logging" : {
+    "filePath" : "./server/logs/",
+    "file" : "console-@@DATE@@-.log",
+    "filemaxsize" : 1000000,
+    "level" : "debug",
+    "silent" : false
+  },
+  "cookies" : {
+    "isSecure" : false
+  },
+  "csp" : {
+    "isEnableCSP" : "true",
+    "hosts" : {
+      "fonts" : [
+        "*.gstatic.com"
+      ],
+      "images" : [
+        "*.google-analytics.com",
+        "*.listhub.net",
+        "*.gstatic.com",
+        "*.googletagmanager.com",
+        "*.zillowstatic.com",
+        "*.zillow.com",
+        "*.ggpht.com",
+        "*.googleusercontent.com",
+        "*.doubleclick.net",
+        "*.facebook.com",
+        "*.paypal.com"
+      ],
+      "scripts" : [
+        "*.google-analytics.com",
+        "*.google.com",
+        "*.listhub.net",
+        "*.facebook.net",
+        "*.googletagmanager.com"
+      ],
+      "frames" : [
+        "*.youtube.com",
+        "*.google.com",
+        "*.facebook.com"
+      ],
+      "connect" : [
+        "*.google.com",
+        "*.facebook.com"
+      ],
+      "styles" : [],
+      "common" : [
+        "*.propshub.com",
+        "*.googleapis.com"
+      ]
+    }
+  }
+
+}

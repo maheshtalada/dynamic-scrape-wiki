@@ -1,0 +1,18 @@
+{
+  "schemas": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "id": "propertylisting.id",
+          "type": "text",
+          "data": {
+            "value": "3675"
+          }
+        }
+      ],
+      "groupName": "additionalinfo"
+    }
+  ],
+  "referenceData": {}
+}

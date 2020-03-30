@@ -1,0 +1,112 @@
+
+.schema__checkbox {
+	> .schema__value--edit {
+		input {
+			width:1px;
+			height: 1px;
+			opacity: 0.0;
+			position: absolute;
+			bottom: -1px;
+			left: -1px;
+		}
+		.schema__checkbox__item {
+			position: relative;
+			vertical-align: middle;
+			text-align: center;
+			font-size: 1.8rem;
+			color: @color-base-core-green;
+		}
+		label {
+			width: 100%;
+			line-height: 58px;
+			display: block;
+			border: 1px solid @color-base-mono-light;
+			cursor: pointer;
+			background-color: @color-base-mono-lightest;
+			&:hover {
+				background-color: @color-base-mono-lighter;
+			}
+
+			.icon-propshub {
+				color:@color-base-core-green-alt;
+			}
+
+		}
+		input:checked + label {
+			/*border-color: @color-base-apple-green;*/
+			background-color: @color-base-apple-green;
+			color: @color-base-mono-lightest;
+			border-color: #f7f7f7;
+			.icon(small_tick);
+			&:before {
+				position: absolute;
+				top: 15px;
+				right: 12px;
+				font-size: 1.2rem;
+			}
+			&:hover {
+				border-color: #f7f7f7;
+				background-color: @color-base-apple-green;
+			}
+
+			.icon-propshub {
+				color: inherit;
+			}
+		}
+		input:focus + label:after {
+			.default-outline();
+			position: absolute;
+			z-index: 1;
+			border:1px solid @color-base-apple-green;
+			content: "";
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+		&.schema__value--error {
+			label {
+				border-color: @color-base-secondary-red;
+				color: @color-base-secondary-red;
+			}
+		}
+	}
+	&__values {
+		&__item {
+			height: inherit;
+		}
+	}
+}
+
+.schema__checkbox__icon {
+	> .schema__value--edit {
+		.schema__checkbox__item {
+			width: 100%;
+		}
+		label {
+			width: 100%;
+			height: inherit;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			line-height: normal;
+			padding:10px 0;
+			flex-direction: column;
+			text-align: center;
+			i {
+				font-size: 3.2rem;
+				display: block;
+				margin-bottom:10px;
+			}
+			span {
+				display: block;
+			}
+		}
+	}
+}
+
+.schema__checkbox__icon__short {
+	.bp-small({
+		width: 26%;
+	});
+}

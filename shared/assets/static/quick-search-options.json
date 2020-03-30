@@ -1,0 +1,54 @@
+{
+  "options" : [
+    {
+      "name": "INVESTMENTPROPERTIES",
+      "value": "forinvest",
+      "route" : "/search/property/",
+      "searchboxplaceholder": "ENTERLOCATION"
+    },
+    {
+      "name": "HOMEFORSALE",
+      "value": "forsale",
+      "route" : "/search/property/",
+      "searchboxplaceholder": "ENTERLOCATION"
+    },
+    {
+      "name": "PROPERTYFORLEASE",
+      "value": "forlease",
+      "route" : "/search/property/",
+      "searchboxplaceholder": "ENTERLOCATION"
+    },
+    {
+      "name": "REALTOR",
+      "value": "realtor",
+      "route" : "/search/",
+      "searchboxplaceholder": "ENTERLOCATION"
+    },
+    {
+      "name": "PROFESSIONAL",
+      "value": "professional",
+      "route" : "/search/",
+      "searchboxplaceholder": "ENTERLOCATION"
+    },
+    {
+      "name": "CONTENT",
+      "value": "content",
+      "route" : "/search/",
+      "searchboxplaceholder": "TYPEYOURKEYWORDS"
+    }
+  ],
+  "other_services" : [
+    {
+      "name": "REALTOR",
+      "link": "realtor"
+    },
+    {
+      "name": "PROFESSIONAL",
+      "link": "professional"
+    }
+  ]
+}
+
+
+
+

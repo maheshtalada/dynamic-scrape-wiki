@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="19" lines-covered="13" line-rate="0.6842" branches-valid="5" branches-covered="3" branch-rate="0.6" timestamp="1539166131081" complexity="0" version="0.1">
+  <sources>
+    <source>/Users/maheshtalada/propshub_UI</source>
+  </sources>
+  <packages>
+    <package name="shared" line-rate="0.7778" branch-rate="0.6">
+      <classes>
+        <class name="config.js" filename="shared/config.js" line-rate="0.7778" branch-rate="0.6">
+          <methods>
+          </methods>
+          <lines>
+            <line number="8" hits="2" branch="false"/>
+            <line number="9" hits="2" branch="true" condition-coverage="66.66666666666666% (2/3)"/>
+            <line number="11" hits="2" branch="true" condition-coverage="50% (1/2)"/>
+            <line number="12" hits="0" branch="false"/>
+            <line number="15" hits="2" branch="false"/>
+            <line number="16" hits="2" branch="false"/>
+            <line number="17" hits="0" branch="false"/>
+            <line number="19" hits="2" branch="false"/>
+            <line number="20" hits="2" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="shared.components.client-header" line-rate="0" branch-rate="1">
+      <classes>
+        <class name="client-header.js" filename="shared/components/client-header/client-header.js" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="19" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="shared.components.common.logo" line-rate="0" branch-rate="1">
+      <classes>
+        <class name="logo.js" filename="shared/components/common/logo/logo.js" line-rate="0" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="0" signature="()V">
+              <lines>
+                <line number="31" hits="0"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="32" hits="0" branch="false"/>
+            <line number="33" hits="0" branch="false"/>
+            <line number="34" hits="0" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="shared.components.common.title" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="title.js" filename="shared/components/common/title/title.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="1" signature="()V">
+              <lines>
+                <line number="16" hits="1"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="1" branch="false"/>
+            <line number="18" hits="1" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="shared.utils" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="app-constants.js" filename="shared/utils/app-constants.js" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="20" signature="()V">
+              <lines>
+                <line number="85" hits="20"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="86" hits="20" branch="false"/>
+            <line number="87" hits="20" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="tests.unit.setup" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="setupEnzyme.js" filename="tests/unit/setup/setupEnzyme.js" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="4" hits="3" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

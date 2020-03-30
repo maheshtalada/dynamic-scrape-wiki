@@ -1,0 +1,78 @@
+/*.simple-tabs {
+    width: 100%;
+    border-bottom: 1px solid @grey-600;
+    &__tabs-wrap {
+        position: relative;
+        top: 1px;
+        &__tab-btn {
+            padding: 5px 10px;
+            .bp-xsmall({
+                font-size: 1.4rem;
+            });
+            .bp-small({
+                font-size: 1.5rem;
+            });
+            &.active {
+                border: 1px solid @grey-600;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-bottom: none;
+                background: @color-base-white;
+                color: @color-base-primary-green;
+                font-weight: 700;
+            }
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                color: @color-base-primary-green;
+            }
+        }
+    }
+}*/
+
+.simple-tabs {
+    // width: 100%;
+    margin-bottom: 10px;
+    &__tabs-wrap {
+        &__tab-btn {
+            padding: 5px 10px;
+            position: relative;
+            min-width: 85px;
+            .bp-xsmall({
+                font-size: 1.4rem;
+            });
+            .bp-small({
+                font-size: 1.5rem;
+            });
+            border: 1px solid @grey-500;
+            border-right: none;
+            &.active {
+                // border: 1px solid @grey-600;
+                background: @color-base-primary-green2;
+                color: @color-base-white;
+                font-weight: 700;
+                border-color: @color-base-primary-green2;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: ~"calc(50% - 7px)";
+                    top: 30px;
+                    .arrow-down(10px,@color-base-primary-green2);
+                }
+                &:hover {
+                    color: @color-base-white;
+                }
+            }
+            &:last-child {
+                border-right: 1px solid @grey-500;
+            }
+            // &:focus {
+            //     outline: none;
+            // }
+            &:hover {
+                color: @color-base-primary-green;
+            }
+        }
+    }
+}

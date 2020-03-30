@@ -1,0 +1,39 @@
+{
+  "api" : {
+    "prefix": "/api/v1",
+    "host": "107.23.243.248",
+    "port" : "8004",
+    "protocol" : "http",
+    "api-base" : "http://localhost:5002"
+  },
+  "pdfbaseurl" : "http://localhost:5002",
+  "csp" : {
+    "hosts": {
+      "scripts" : [
+        "*.google-analytics.com",
+        "*.google.com",
+        "*.listhub.net",
+        "*.facebook.net",
+        "*.googletagmanager.com",
+        "*.paypal.com"
+      ],
+      "connect" : [
+        "ws://localhost:9052",
+        "*.google.com",
+        "*.facebook.com",
+        "*.google-analytics.com",
+        "*.paypal.com"
+      ],
+      "common": [
+        "*.propshub.com",
+        "*.googleapis.com",
+        "http://localhost:9052",
+        "http://localhost:6002",
+        "http://localhost:7002",
+        "https://*.paypal.com",
+        "https://*.paypalobjects.com",
+        "https://www.sandbox.paypal.com"
+      ]
+    }
+  }
+}

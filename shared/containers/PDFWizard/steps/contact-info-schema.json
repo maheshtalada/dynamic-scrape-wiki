@@ -1,0 +1,338 @@
+{
+    "schemas": [
+        {
+            "type": "header",
+            "children": [
+                {
+                    "type": "custom-group",
+                    "children": [
+                        {
+                            "label": "SHOWPRICE",
+                            "id": "pdf.showPrice",
+                            "type": "list",
+                            "subtype": "list-tabs",
+                            "data": {
+                                "optionReference": "SHOWPRICEREFERENCEVALUES",
+                                "value": "true"
+                            },
+                            "tabs": [
+                                {
+                                    "id": "showPriceTab",
+                                    "type": "list",
+                                    "children": [
+                                        {
+                                            "label": "RENTALAMOUNT",
+                                            "id": "pdf.leasePrice",
+                                            "type": "text",
+                                            "data": {
+                                                "value": "1300"
+                                            },
+                                            "validation": [
+                                                {
+                                                    "type": "required",
+                                                    "message": "RENTALAMOUNTREQUIRED",
+                                                    "value": "RENTALAMOUNTREQUIRED"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "tabValue": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "SHOWADDRESS",
+                            "id": "pdf.showAddress",
+                            "type": "list",
+                            "subtype": "list-tabs",
+                            "data": {
+                                "optionReference": "SHOWADDRESSREFERENCEVALUES",
+                                "value": "true"
+                            },
+                            "tabs": [
+                                {
+                                    "id": "showAddressTab",
+                                    "type": "list",
+                                    "children": [
+                                        {
+                                            "label": "ADDRESS",
+                                            "id": "pdf.formattedAddress",
+                                            "type": "text",
+                                            "data": {
+                                                "value": "2306, Pacific Avenue, Dallas, TX-75201"
+                                            },
+                                            "validation": [
+                                                {
+                                                    "type": "required",
+                                                    "message": "ADDRESSREQUIRED",
+                                                    "value": "ADDRESSREQUIRED"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "tabValue": "true"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "SHOWOPENHOUSE",
+                    "id": "pdf.showOpenHouse",
+                    "type": "list",
+                    "subtype": "list-tabs",
+                    "data": {
+                        "optionReference": "SHOWMYINFOREFERENCEVALUES",
+                        "value": "true"
+                    },
+                    "tabs": [
+                        {
+                            "id": "showOpenHouseTab",
+                            "type": "list",
+                            "children": [
+                                {
+                                    "id": "propertylisting.openHouseTimes",
+                                    "type": "list",
+                                    "children": [
+                                        {
+                                            "type": "custom-group",
+                                            "children": [
+                                                {
+                                                    "label": "OPENHOUSEDATE",
+                                                    "id": "propertylisting.openHouseTimes.date",
+                                                    "type": "date",
+                                                    "data": {
+                                                        "value": "02/28/2019",
+                                                        "format": "MM/DD/YYYY"
+                                                    },
+                                                    "validation": [
+                                                        {
+                                                            "type": "minDate",
+                                                            "message": "OPENHOUSEENDDATEMINVALUE",
+                                                            "value": "25/02/2019"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "label": "STARTTIME",
+                                                    "id": "propertylisting.openHouseTimes.startTime",
+                                                    "type": "text-time",
+                                                    "data": {
+                                                        "value": "08:00 AM"
+                                                    }
+                                                },
+                                                {
+                                                    "label": "ENDTIME",
+                                                    "id": "propertylisting.openHouseTimes.endTime",
+                                                    "type": "text-time",
+                                                    "data": {
+                                                        "value": "05:00 PM"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "tabValue": "true"
+                        }
+                    ]
+                },
+                {
+                    "label": "SHOWMYINFO",
+                    "id": "pdf.showMyInfo",
+                    "type": "list",
+                    "subtype": "list-tabs",
+                    "data": {
+                        "optionReference": "SHOWMYINFOREFERENCEVALUES",
+                        "value": "true"
+                    },
+                    "tabs": [
+                        {
+                            "id": "showMyInfoTab",
+                            "type": "list",
+                            "children": [
+                                {
+                                    "type": "custom-group",
+                                    "children": [
+                                        {
+                                            "label": "NAME",
+                                            "id": "pdf.name",
+                                            "type": "text",
+                                            "data": {
+                                                "value": "test realtor"
+                                            },
+                                            "validation": [
+                                                {
+                                                    "type": "required",
+                                                    "message": "NAMEREQUIRED",
+                                                    "value": "NAMEREQUIRED"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "EMAILID",
+                                            "id": "pdf.email",
+                                            "type": "text",
+                                            "data": {
+                                                "value": "testrealtor@yopmail.com"
+                                            }
+                                        },
+                                        {
+                                            "label": "PHONENUMBER",
+                                            "id": "pdf.mobileNumber",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "SHOWPROFILEPIC",
+                                    "id": "pdf.showProfilePic",
+                                    "type": "list",
+                                    "subtype": "list-tabs",
+                                    "data": {
+                                        "optionReference": "SHOWPROFILEPICREFERENCEVALUES",
+                                        "value": "false"
+                                    },
+                                    "tabs": [
+                                        {
+                                            "id": "showProfilePicTab",
+                                            "type": "profile-pic",
+                                            "tabValue": "true"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "tabValue": "true"
+                        }
+                    ]
+                },
+                {
+                    "label": "SHOWMYBROKERAGEFIRMINFO",
+                    "id": "pdf.showBrokerageFirmInfo",
+                    "type": "list",
+                    "subtype": "list-tabs",
+                    "data": {
+                        "optionReference": "SHOWBROKERAGEFIRMINFOREFERENCEVALUES",
+                        "value": "false"
+                    },
+                    "tabs": [
+                        {
+                            "id": "showBrokerageFirmInfoTab",
+                            "type": "list",
+                            "children": [
+                                {
+                                    "type": "custom-group",
+                                    "children": [
+                                        {
+                                            "label": "NAME",
+                                            "id": "pdf.brokereageFirmName",
+                                            "type": "text",
+                                            "validation": [
+                                                {
+                                                    "type": "required",
+                                                    "message": "NAMEREQUIRED",
+                                                    "value": "NAMEREQUIRED"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "EMAILID",
+                                            "id": "pdf.brokereageFirmEmail",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "label": "PHONENUMBER",
+                                            "id": "pdf.brokereageFirmMobileNumber",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "SHOWLOGO",
+                                    "id": "pdf.showLogo",
+                                    "type": "switcher",
+                                    "data": {
+                                        "value": "false"
+                                    }
+                                }
+                            ],
+                            "tabValue": "true"
+                        }
+                    ]
+                }
+            ],
+            "groupName": "pdfinfo"
+        }
+    ],
+    "referenceData": {
+        "children": [
+            {
+                "id": "SHOWPROFILEPICREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            },
+            {
+                "id": "SHOWPRICEREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            },
+            {
+                "id": "SHOWADDRESSREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            },
+            {
+                "id": "SHOWMYINFOREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            },
+            {
+                "id": "SHOWBROKERAGEFIRMINFOREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": "success"
+}

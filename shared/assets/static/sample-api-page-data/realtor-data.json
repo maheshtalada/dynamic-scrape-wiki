@@ -1,0 +1,412 @@
+{
+  "realtor": {
+    "id": "11442",
+    "creationDate": 1511417837009,
+    "photo": {
+      "uri": "propshub/11442/bc20428a682142869404a9a154d0b0a8.png",
+      "thumbnailUri": "propshub/11442/thumbnail/bc20428a682142869404a9a154d0b0a8.png",
+      "primary": false,
+      "removeFromStorage": false
+    },
+    "name": "Kristopher Franks",
+    "passwordChangetime": 1531802216927,
+    "roles": [
+      "ROLE_REALTOR"
+    ],
+    "currentUserStatus": "VERIFIED",
+    "allowedContactActions": [
+      "EMAIL",
+      "TELEPHONE"
+    ],
+    "areasServed": [
+      {
+        "googleText": "REMINGTON POINT",
+        "cityName": "Fort Worth",
+        "region": "Tarrant",
+        "locality": "REMINGTON POINT",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.84,
+          "lon": -97.38
+        },
+        "primary": true
+      },
+      {
+        "googleText": "SAGINAW/HIGHLAND STATION",
+        "cityName": "Saginaw",
+        "region": "Tarrant",
+        "locality": "SAGINAW/HIGHLAND STATION",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.86,
+          "lon": -97.38
+        }
+      },
+      {
+        "googleText": "OAKLAWN",
+        "cityName": "Dallas",
+        "region": "Dallas",
+        "locality": "OAKLAWN",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.78,
+          "lon": -96.8
+        }
+      },
+      {
+        "googleText": "EULESS-SOUTH OF 183",
+        "cityName": "Euless",
+        "region": "Tarrant",
+        "locality": "EULESS-SOUTH OF 183",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.84,
+          "lon": -97.11
+        }
+      },
+      {
+        "googleText": "SANSOM PARK/SHADY OAKS MANOR",
+        "cityName": "Sansom Park",
+        "region": "Tarrant",
+        "locality": "SANSOM PARK/SHADY OAKS MANOR",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.806,
+          "lon": -97.4
+        }
+      },
+      {
+        "googleText": "McKinney Area",
+        "cityName": "McKinney",
+        "region": "Collin",
+        "locality": "McKinney Area",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 33.218,
+          "lon": -96.718
+        }
+      },
+      {
+        "googleText": "IRVING",
+        "cityName": "Irving",
+        "region": "Dallas",
+        "locality": "IRVING",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.9,
+          "lon": -96.955
+        }
+      },
+      {
+        "googleText": "N RICHLAND HILLS-NORTH OF 820",
+        "cityName": "North Richland Hills",
+        "region": "Tarrant",
+        "locality": "N RICHLAND HILLS-NORTH OF 820",
+        "stateCode": "TX",
+        "country": "US",
+        "geometry": {
+          "lat": 32.874,
+          "lon": -97.209
+        }
+      }
+    ],
+    "license": "REALESTATEBROKER",
+    "licenseNumber": "0586589",
+    "licenseJurisdiction": "Texas ",
+    "licenseIssuingAuthority": "TREC",
+    "websites": [
+      {
+        "websiteURLType": "SITEURL",
+        "url": "http://www.krisfranksrealty.com"
+      }
+    ],
+    "about": "I am your local expert in income producing properties - both residential or commercial.  Please give me a call!",
+    "profileURL": "/real-estate-agents-brokers/texas/fort-worth-saginaw/residential-investments-property-management/kristopher-franks/realtor/11442",
+    "preferredProfessional": true,
+    "specialties": [
+      "RESIDENTIAL_INVESTMENTS",
+      "PROPERTY_MANAGEMENT",
+      "INCOME_SPECIALIST",
+      "COMMERCIAL_PROPERTIES"
+    ],
+    "brokerageFirm": {
+      "id": "11441",
+      "creationDate": 1511417836946,
+      "name": "Kristopher Del Franks",
+      "address": {
+        "lineOne": "1605 Skyline Dr.",
+        "locality": "Fort Worth",
+        "city": "Fort Worth",
+        "stateCode": "TX",
+        "country": "US"
+      },
+      "contactNumbers": [
+        {
+          "contactNumberType": "OFFICETELEPHONE",
+          "number": "8177205500"
+        }
+      ],
+      "areasServed": [
+        {
+          "googleText": "Fort Worth",
+          "cityName": "Fort Worth",
+          "locality": "Fort Worth",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 32.75,
+            "lon": -97.33000183
+          }
+        },
+        {
+          "googleText": "SAGINAW/HIGHLAND STATION",
+          "cityName": "Saginaw",
+          "region": "Tarrant",
+          "locality": "SAGINAW/HIGHLAND STATION",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 32.8635579,
+            "lon": -97.3765782
+          }
+        },
+        {
+          "googleText": "OAKLAWN",
+          "cityName": "Dallas",
+          "region": "Dallas",
+          "locality": "OAKLAWN",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 32.7783902,
+            "lon": -96.80122639999999
+          }
+        },
+        {
+          "googleText": "EULESS-SOUTH OF 183",
+          "cityName": "Euless",
+          "region": "Tarrant",
+          "locality": "EULESS-SOUTH OF 183",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 32.8351306,
+            "lon": -97.10802489999999
+          }
+        },
+        {
+          "googleText": "SANSOM PARK/SHADY OAKS MANOR",
+          "cityName": "Sansom Park",
+          "region": "Tarrant",
+          "locality": "SANSOM PARK/SHADY OAKS MANOR",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 32.8058531,
+            "lon": -97.40001389999999
+          }
+        },
+        {
+          "googleText": "McKinney Area",
+          "cityName": "McKinney",
+          "region": "Collin",
+          "locality": "McKinney Area",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 33.2182497,
+            "lon": -96.7178904
+          }
+        },
+        {
+          "googleText": "IRVING",
+          "cityName": "Irving",
+          "region": "Dallas",
+          "locality": "IRVING",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 32.8998395,
+            "lon": -96.95451349999999
+          }
+        },
+        {
+          "googleText": "N RICHLAND HILLS-NORTH OF 820",
+          "cityName": "North Richland Hills",
+          "region": "Tarrant",
+          "locality": "N RICHLAND HILLS-NORTH OF 820",
+          "stateCode": "TX",
+          "country": "US",
+          "geometry": {
+            "lat": 32.873639,
+            "lon": -97.2094877
+          }
+        }
+      ],
+      "profileURL": "/real-estate-agents-brokers/texas/fort-worth-saginaw/residential-investments/kristopher-del-franks/brokerage-firm/11441",
+      "specialties": [
+        "RESIDENTIAL_INVESTMENTS"
+      ]
+    },
+    "companyID": "11441",
+    "canChat": false
+  },
+  "metaData": {
+    "title": "Kristopher Franks - Real Estate Agent | Fort Worth-Saginaw | PropsHub",
+    "description": "Kristopher Franks is a Real Estate Agent serving Fort Worth and Saginaw. Kristopher Franks specializes in residential investments, property management, income specialist, commercial properties. Kristopher Franks has realestatebroker license# 0586589.",
+    "keywords": "kristopher franksrealtor, real estate agent, fort worth, saginaw, dallas, euless, sansom park, mckinney, irving, north richland hills, residential investments, property management, income specialist, commercial properties, realestatebroker, 0586589, real estate agent, realtor, broker, brokerage firm, chat, email, contact, call, view phone number"
+  },
+  "propertyListings": {
+    "total": 3,
+    "data": [
+      {
+        "id": "698180",
+        "listingtype": "forlease",
+        "price": 1650,
+        "rpsf": 0.990990990990991,
+        "showrpsf": false,
+        "image": "NTREIS/13912294/1?lm=20180811T200913",
+        "locality": "saginaw/highland-station",
+        "geometry": {
+          "lat": 32.8680587,
+          "lon": -97.3868383
+        },
+        "propertytype": "residential",
+        "subtype": "single_family_home",
+        "area": 1665,
+        "age": 14,
+        "bedroom": 3,
+        "washroom": 3,
+        "constructionstatus": "existing",
+        "listingurl": "/residential-investments/for-rent/texas/saginaw/tx-76179/single-family-home/property-listings/698180",
+        "formattedaddress": "641 Crystal Brook Drive, Saginaw, TX-76179",
+        "showprice": true,
+        "zipcode": "76179",
+        "city": "saginaw",
+        "lotarea": 6098.400000000001,
+        "creationtime": 1534018151000
+      },
+      {
+        "id": "687073",
+        "listingtype": "forlease",
+        "price": 1450,
+        "rpsf": 0.9897610921501706,
+        "showrpsf": false,
+        "image": "NTREIS/13908042/1?lm=20180811T200914",
+        "locality": "remington-point",
+        "geometry": {
+          "lat": 32.8423874,
+          "lon": -97.3815451
+        },
+        "propertytype": "residential",
+        "subtype": "condo",
+        "area": 1465,
+        "age": 13,
+        "bedroom": 4,
+        "washroom": 3,
+        "constructionstatus": "existing",
+        "listingurl": "/residential-investments/for-rent/texas/fort-worth/tx-76179/condo/property-listings/687073",
+        "formattedaddress": "5652 Giddyup Lane, Fort Worth, TX-76179",
+        "showprice": true,
+        "zipcode": "76179",
+        "city": "fort-worth",
+        "lotarea": 2178,
+        "creationtime": 1533600623810
+      },
+      {
+        "id": "472007",
+        "listingtype": "forlease",
+        "price": 4900,
+        "rpsf": 1.6404419149648477,
+        "showrpsf": false,
+        "image": "NTREIS/13838432/1?lm=20180509T183331",
+        "locality": "freeport/hackberry",
+        "geometry": {
+          "lat": 32.8998395,
+          "lon": -96.95451349999999
+        },
+        "propertytype": "residential",
+        "subtype": "condo",
+        "area": 2987,
+        "age": 10,
+        "bedroom": 3,
+        "washroom": 4,
+        "constructionstatus": "existing",
+        "listingurl": "/residential-investments/for-rent/texas/irving/tx-75039/condo/property-listings/472007",
+        "formattedaddress": "566 Via Amalfi, Irving, TX-75039",
+        "showprice": true,
+        "zipcode": "75039",
+        "rentalcategory": "luxuryrental",
+        "city": "irving",
+        "lotarea": 662983.2000000001,
+        "creationtime": 1525897203780
+      }
+    ],
+    "totalpage": 1
+  },
+  "preferredProfessional": {
+    "total": 6,
+    "data": [
+      {
+        "id": "11442",
+        "name": "Kristopher Franks",
+        "photo": "propshub/11442/thumbnail/bc20428a682142869404a9a154d0b0a8.png",
+        "statecode": "tx",
+        "profileurl": "/real-estate-agents-brokers/texas/fort-worth-saginaw/residential-investments-property-management/kristopher-franks/realtor/11442",
+        "profession": "realtor",
+        "contactactions": [
+          "email",
+          "telephone"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "43039",
+        "name": "Real Realtor",
+        "statecode": "tx",
+        "profileurl": "/real-estate-agents-brokers/texas/dallas-fort-worth/residential-investments-property-management/real-realtor/realtor/43039",
+        "profession": "realtor",
+        "contactactions": [
+          "email",
+          "telephone",
+          "chat"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "46541",
+        "name": "test loan",
+        "statecode": "tx",
+        "profileurl": "/residential-investments/loan-officer/texas/dallas-fort-worth/test-loan/professional/46541",
+        "profession": "loan_officer",
+        "contactactions": [
+          "email",
+          "telephone",
+          "chat"
+        ],
+        "canChat": false
+      },
+      {
+        "id": "46631",
+        "name": "test insurance agent",
+        "statecode": "tx",
+        "profileurl": "/residential-investments/insurance-agent/texas/dallas/test-insurance-agent/professional/46631",
+        "profession": "insurance_agent",
+        "contactactions": [
+          "email",
+          "chat"
+        ],
+        "canChat": false
+      }
+    ],
+    "totalpage": 2
+  },
+  "status": "success"
+}

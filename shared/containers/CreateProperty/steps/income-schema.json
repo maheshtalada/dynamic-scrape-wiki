@@ -1,0 +1,205 @@
+{
+    "addschema": [
+      {
+        "type": "header",
+        "children": [
+          {
+            "type": "custom-multi-group",
+            "children": [
+              {
+                "label": "LEASESTARTDATE",
+                "id": "property.income(1).startDate",
+                "type": "date",
+                "data": {
+                  "value": "",
+                  "format": "MM/DD/YYYY"
+                },
+                "validation":[  
+                  {  
+                     "type":"required",
+                     "message":"LEASESTARTDATEREQUIRED",
+                     "value":"LEASESTARTDATEREQUIRED"
+                  }
+               ]
+              },
+              {
+                "label": "LEASEENDDATE",
+                "id": "property.income(1).endDate",
+                "type": "date",
+                "data": {
+                  "value": "",
+                  "format": "MM/DD/YYYY"
+                },
+                "validation":[  
+                  {  
+                     "type":"required",
+                     "message":"LEASEENDDATEREQUIRED",
+                     "value":"LEASEENDDATEREQUIRED"
+                  }
+               ]
+              },
+              {
+                "label": "TENANTNAME",
+                "id": "property.income(1).tenantName",
+                "type": "text"
+              },
+              {
+                "label": "MONTHLYRENTREVENUE",
+                "labelInfo": "USD",
+                "id": "property.income(1).monthlyRent",
+                "type": "text",
+                "validation":[  
+                  {  
+                     "type":"required",
+                     "message":"MONTHLYRENTTREQUIRED",
+                     "value":"MONTHLYRENTTREQUIRED"
+                  },
+                  {  
+                     "type":"pattern",
+                     "message":"DECIMALUPTO4DIGIT",
+                     "value":"^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                  }
+               ]
+              }
+            ]
+          },
+          {
+            "label": "ADDINCOME",
+            "id": "ADDINCOME",
+            "type": "clone",
+            "data": {
+              "key": "2"
+            },
+            "children": [
+              {
+                "label": "EXPERTISE",
+                "id": "incomeremovable",
+                "type": "list",
+                "subtype": "list-removable-single",
+                "children": [
+                  {
+                    "type": "custom-multi-group",
+                    "children": [
+                      {
+                        "label": "LEASESTARTDATE",
+                        "id": "property.income(*).startDate",
+                        "type": "date",
+                        "data" : {
+                          "format": "MM/DD/YYYY"
+                        },
+                        "validation":[  
+                          {  
+                             "type":"required",
+                             "message":"LEASESTARTDATEREQUIRED",
+                             "value":"LEASESTARTDATEREQUIRED"
+                          }
+                       ]
+                      },
+                      {
+                        "label": "LEASEENDDATE",
+                        "id": "property.income(*).endDate",
+                        "type": "date",
+                        "data" : {
+                          "format": "MM/DD/YYYY"
+                        },
+                        "validation":[  
+                          {  
+                             "type":"required",
+                             "message":"LEASEENDDATEREQUIRED",
+                             "value":"LEASEENDDATEREQUIRED"
+                          }
+                       ]
+                      },
+                      {
+                        "label": "TENANTNAME",
+                        "id": "property.income(*).tenantName",
+                        "type": "text"
+                      },
+                      {
+                        "label": "MONTHLYRENTREVENUE",
+                        "labelInfo": "USD",
+                        "id": "property.income(*).monthlyRent",
+                        "type": "text",
+                        "validation":[  
+                          {  
+                             "type":"required",
+                             "message":"MONTHLYRENTTREQUIRED",
+                             "value":"MONTHLYRENTTREQUIRED"
+                          },
+                          {  
+                             "type":"pattern",
+                             "message":"DECIMALUPTO4DIGIT",
+                             "value":"^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                          }
+                       ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "groupName": "financialinfo"
+      }
+    ],
+    "editschema": [
+      {
+        "type": "header",
+        "children": [
+          {
+            "type": "custom-multi-group",
+            "children": [
+              {
+                "label": "LEASESTARTDATE",
+                "id": "property.income(1).startDate",
+                "type": "date",
+                "validation":[  
+                  {  
+                     "type":"required",
+                     "message":"LEASESTARTDATEREQUIRED",
+                     "value":"LEASESTARTDATEREQUIRED"
+                  }
+               ]
+              },
+              {
+                "label": "LEASEENDDATE",
+                "id": "property.income(1).endDate",
+                "type": "date",
+                "validation":[  
+                  {  
+                     "type":"required",
+                     "message":"LEASEENDDATEREQUIRED",
+                     "value":"LEASEENDDATEREQUIRED"
+                  }
+               ]
+              },
+              {
+                "label": "TENANTNAME",
+                "id": "property.income(1).tenantName",
+                "type": "text"
+              },
+              {
+                "label": "AMOUNT",
+                "labelInfo": "USD",
+                "id": "property.income(1).monthlyRent",
+                "type": "text",
+                "validation":[  
+                  {  
+                     "type":"required",
+                     "message":"MONTHLYRENTTREQUIRED",
+                     "value":"MONTHLYRENTTREQUIRED"
+                  },
+                  {  
+                     "type":"pattern",
+                     "message":"DECIMALUPTO4DIGIT",
+                     "value":"^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                  }
+               ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

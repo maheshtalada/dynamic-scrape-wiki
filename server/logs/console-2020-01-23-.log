@@ -1,0 +1,82 @@
+2020-01-23T09:12:41.785Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:12:41.790Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=api.redis
+2020-01-23T09:13:05.561Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:13:08.063Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:13:08.740Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:32.993Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:33.639Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:34.574Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:34.912Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:35.159Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:35.366Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:35.671Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:36.053Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:37.161Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:37.527Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:37.756Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:37.973Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:38.824Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:39.184Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:39.446Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:39.709Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:39.975Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:40.516Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:40.995Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:41.366Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:41.684Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:41.932Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:42.148Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:42.528Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:43.153Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:24:44.139Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:26:23.782Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:26:25.513Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:26:25.922Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:26:26.507Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:26:26.779Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:29:18.246Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:29:19.634Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:29:19.950Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:29:20.464Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:29:21.049Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server
+2020-01-23T09:29:32.864Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/mobilenet/model.json' } class=middleware/SSRMiddleware.js, pid=13356, host=Maheshs-MacBook-Pro-2.local, category=ui.server

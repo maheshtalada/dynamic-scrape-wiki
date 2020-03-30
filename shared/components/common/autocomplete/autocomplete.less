@@ -1,0 +1,115 @@
+.autocomplete-wrapper {
+	width: 88%;
+	display: flex;
+	align-items: center;
+	&.no-search-input {
+		animation: shake 0.2s;
+		animation-timing-function : linear;
+	}
+	.pe-7s-search {
+		font-size: 2.5rem;
+		font-weight: 600;
+		padding-left: 5px;
+	}
+	.autocomplete-widget {
+		width: 100%;
+	}
+	.autocomplete-menu {
+		position: absolute;
+		top: 53px;
+		background: @color-base-white;
+		border-radius: 5px;
+		border: solid 1px @grey-500;
+		width: 100%;
+		z-index: 2;
+		left: -12px;
+		min-height: 205px; // to cover up below metros served
+		&__item-status {
+			padding: 6px;
+			background: rgb(238, 238, 238);
+			font-weight: 600;
+			.search-term {
+				color: @color-base-primary-green;
+			}
+		}
+
+		.item-price {
+			font-size: 1.5rem;
+			letter-spacing: .4px;
+			color:@color-base-primary-green-alt-accesibility;
+			font-weight: 800;
+		}
+
+		&__item {
+			padding: 2px 6px;
+			cursor: default;
+			font-size: 1.7rem;
+			&.highlight {
+				color: @color-base-white;
+				background: @button-secondary-background-color-light-green;
+				padding: 2px 6px;
+				cursor: pointer;
+				i, .item-price {
+					color: @color-base-white !important;
+				}
+			}
+			i {
+				font-weight: 600;
+				font-size: 1.5rem;
+				margin-right: 5px;
+				color: @color-base-primary-green;
+			}
+		}
+		&__no-matches-found {
+			.metros-served-note {
+				padding: 6px;
+				a {
+					color: inherit;
+					text-decoration: none;
+					&:hover {
+						color: @color-base-primary-green;
+					}
+				}
+				ul {
+					margin: 0 0 10px 25px;
+					display: flex;
+					flex-wrap: wrap;
+					li {
+						width: 48%;
+						margin-right: 10px;
+					}
+					a {
+						text-decoration: underline;
+					}
+				}
+				p {
+					margin-bottom: 0;
+				}
+				.expand-other-metros {
+					display: none;
+				}
+			}
+		}
+		&__google-icon {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+	}
+	input {
+		width: 100%;
+		height: 40px;
+		border: none;
+		padding: 0 10px;
+		&:focus {
+			outline: none;
+		}
+	}
+	.no-location-error {
+		position: absolute;
+		left: 0;
+		top: 100%;
+		margin: 7px 0;
+		animation: slideInDown 0.4s;
+	}
+}

@@ -1,0 +1,218 @@
+2019-09-27T06:02:40.853Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=35267, host=Maheshs-MBP-2, category=ui.server
+2019-09-27T06:02:40.858Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=35267, host=Maheshs-MBP-2, category=api.redis
+2019-09-27T06:02:59.233Z - info: Api Request logData= { reqID: 'dcdb53f1-62e4-40cf-a57e-763361e1be9e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-27T06:02:59.232Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:03:00.129Z - info: Api response : Success logData= { reqID: 'dcdb53f1-62e4-40cf-a57e-763361e1be9e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-27T06:03:00.129Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:03:08.544Z - info: Api Request logData= { reqID: 'b097ca4b-81f6-424f-a738-4c2fb49e85d3',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-09-27T06:03:08.544Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:03:09.037Z - info: Api response : Success logData= { reqID: 'b097ca4b-81f6-424f-a738-4c2fb49e85d3',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-09-27T06:03:09.036Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:03:14.593Z - info: Api Request logData= { reqID: 'c9f261ab-6c07-4e9b-aeb9-6f8ac6ae5720',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-27T06:03:14.593Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:03:15.203Z - info: Api response : Success logData= { reqID: 'c9f261ab-6c07-4e9b-aeb9-6f8ac6ae5720',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-27T06:03:15.202Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:03:15.203Z - info: Api Request logData= { reqID: '15a2e667-1513-4a00-9247-c22576795107',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-27T06:03:15.203Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:03:15.794Z - info: Api response : Success logData= { reqID: '15a2e667-1513-4a00-9247-c22576795107',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-27T06:03:15.794Z' } class=service/BaseService.js, pid=35267, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:10.119Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=35362, host=Maheshs-MBP-2, category=ui.server
+2019-09-27T06:09:10.127Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=35362, host=Maheshs-MBP-2, category=api.redis
+2019-09-27T06:09:11.884Z - info: Api Request logData= { reqID: '4d78a343-f9d2-4656-b5b8-4cce5b00ae54',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-27T06:09:11.883Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:12.473Z - info: Api response : Success logData= { reqID: '4d78a343-f9d2-4656-b5b8-4cce5b00ae54',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-27T06:09:12.473Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:12.474Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVkF0QUVFemFkdWVzYmRhQlFsZ0VKdG1OK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.g5CD5-Eh7HjVmCel3ggDZSd4mpRA3a7UKo89Rl2MXgs' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=35362, host=Maheshs-MBP-2, category=api.outh
+2019-09-27T06:09:12.475Z - info: Api Request logData= { reqID: 'a9fc2f0b-157b-45b1-b439-f56f9a7222b1',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-27T06:09:12.474Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:13.084Z - info: Api response : Success logData= { reqID: 'a9fc2f0b-157b-45b1-b439-f56f9a7222b1',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-27T06:09:13.084Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:14.106Z - info: Api Request logData= { reqID: '7b9d7c3b-7903-46d7-a018-c5b5e929708f',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-27T06:09:14.106Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:15.030Z - info: Api response : Success logData= { reqID: '7b9d7c3b-7903-46d7-a018-c5b5e929708f',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-27T06:09:15.030Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:23.422Z - info: Api Request logData= { reqID: '9e88bdad-2756-4a7d-b9c4-e10c0c8daac9',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-27T06:09:23.422Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:24.079Z - info: Api response : Success logData= { reqID: '9e88bdad-2756-4a7d-b9c4-e10c0c8daac9',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-27T06:09:24.079Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:09:59.507Z - info: Api Request logData= { reqID: '4f8252bb-12fc-4886-8928-81f7b600009c',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-09-27T06:09:59.507Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:00.087Z - info: Api response : Success logData= { reqID: '4f8252bb-12fc-4886-8928-81f7b600009c',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-09-27T06:10:00.087Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:04.584Z - info: Api Request logData= { reqID: '3fbff242-6268-419c-87e6-be33e25d5833',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-27T06:10:04.584Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:05.230Z - info: Api response : Success logData= { reqID: '3fbff242-6268-419c-87e6-be33e25d5833',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-27T06:10:05.230Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:05.230Z - info: Api Request logData= { reqID: 'd1b5964a-3925-4fb5-bfc8-83e8847412a5',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-27T06:10:05.230Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:05.823Z - info: Api response : Success logData= { reqID: 'd1b5964a-3925-4fb5-bfc8-83e8847412a5',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-27T06:10:05.823Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:41.637Z - info: Api Request logData= { reqID: '73a81b2a-b933-46e3-9305-a965a2634071',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-27T06:10:41.636Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:42.345Z - info: Api response : Success logData= { reqID: '73a81b2a-b933-46e3-9305-a965a2634071',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-27T06:10:42.345Z' } class=service/BaseService.js, pid=35362, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:55.033Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=35395, host=Maheshs-MBP-2, category=ui.server
+2019-09-27T06:10:55.039Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=35395, host=Maheshs-MBP-2, category=api.redis
+2019-09-27T06:10:56.568Z - info: Api Request logData= { reqID: 'd530524b-ab72-4b25-8180-7c2a9cc0d146',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-27T06:10:56.567Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:10:57.435Z - info: Api response : Success logData= { reqID: 'd530524b-ab72-4b25-8180-7c2a9cc0d146',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-27T06:10:57.435Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:11:06.182Z - info: Api Request logData= { reqID: '49b761e2-4155-45f3-939c-4fd94d3598bb',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-09-27T06:11:06.181Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:11:06.700Z - info: Api response : Success logData= { reqID: '49b761e2-4155-45f3-939c-4fd94d3598bb',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-09-27T06:11:06.700Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:11:13.523Z - info: Api Request logData= { reqID: 'b858d9b5-8018-4288-b700-67bc97ebb119',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-27T06:11:13.523Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:11:14.216Z - info: Api response : Success logData= { reqID: 'b858d9b5-8018-4288-b700-67bc97ebb119',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-27T06:11:14.216Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:11:14.216Z - info: Api Request logData= { reqID: 'c465acc1-72bc-4d9e-837c-b9a9fc5e1b6d',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-27T06:11:14.216Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:11:14.943Z - info: Api response : Success logData= { reqID: 'c465acc1-72bc-4d9e-837c-b9a9fc5e1b6d',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-27T06:11:14.943Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:27:54.961Z - info: Api Request logData= { reqID: '0e57f99f-1f8c-4fa0-9fe9-4d08cda26a5f',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-27T06:27:54.960Z' } class=service/BaseService.js, pid=35395, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:27:56.469Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=35636, host=Maheshs-MBP-2, category=ui.server
+2019-09-27T06:27:56.475Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=35636, host=Maheshs-MBP-2, category=api.redis
+2019-09-27T06:28:00.307Z - info: Api Request logData= { reqID: '9ba7e0b5-c636-403b-be4f-6063143d8131',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-27T06:28:00.306Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:28:00.866Z - info: Api response : Success logData= { reqID: '9ba7e0b5-c636-403b-be4f-6063143d8131',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-27T06:28:00.865Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:28:00.867Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVm9STFlmdVJwZ1crQ1ZqM1JYZ09LUDJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.8eZXGomsDctL4zEtNo6nhiGPutJ5qoVq63hzynJ572w' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=35636, host=Maheshs-MBP-2, category=api.outh
+2019-09-27T06:28:00.867Z - info: Api Request logData= { reqID: '75915e58-0528-460e-b164-c51b1ab38a10',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-27T06:28:00.867Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:28:01.476Z - info: Api response : Success logData= { reqID: '75915e58-0528-460e-b164-c51b1ab38a10',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-27T06:28:01.476Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:28:02.839Z - info: Api Request logData= { reqID: '9ecd93ce-a9ab-4980-8f5e-9196231186ee',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  requestetime: '2019-09-27T06:28:02.839Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:28:03.729Z - info: Api response : Success logData= { reqID: '9ecd93ce-a9ab-4980-8f5e-9196231186ee',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/bounds',
+  method: 'get',
+  responsetime: '2019-09-27T06:28:03.729Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:51:55.517Z - info: Api Request logData= { reqID: 'e3a3f39a-97b9-43c6-929a-19d586c750cc',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  requestetime: '2019-09-27T06:51:55.517Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T06:51:56.108Z - info: Api response : Success logData= { reqID: 'e3a3f39a-97b9-43c6-929a-19d586c750cc',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  responsetime: '2019-09-27T06:51:56.108Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T10:27:36.893Z - info: Api Request logData= { reqID: '7afcb6dd-ea04-4265-a251-f670f74bd3c5',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-27T10:27:36.891Z' } class=service/BaseService.js, pid=35636, host=Maheshs-MBP-2, category=api.server
+2019-09-27T10:27:38.589Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=38137, host=Maheshs-MBP-2, category=ui.server
+2019-09-27T10:27:38.594Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=38137, host=Maheshs-MBP-2, category=api.redis
+2019-09-27T10:28:28.535Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=38153, host=Maheshs-MBP-2, category=ui.server
+2019-09-27T10:28:28.540Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=38153, host=Maheshs-MBP-2, category=api.redis
+2019-09-27T11:59:45.132Z - info: Api Request logData= { reqID: '496f1d1b-2d89-414e-8cfc-61bea8432e28',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  requestetime: '2019-09-27T11:59:45.131Z' } class=service/BaseService.js, pid=38153, host=Maheshs-MBP-2, category=api.server
+2019-09-27T11:59:45.711Z - info: Api response : Success logData= { reqID: '496f1d1b-2d89-414e-8cfc-61bea8432e28',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  responsetime: '2019-09-27T11:59:45.711Z' } class=service/BaseService.js, pid=38153, host=Maheshs-MBP-2, category=api.server
+2019-09-27T11:59:47.135Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/apple-touch-icon-precomposed.png' } class=middleware/SSRMiddleware.js, pid=38153, host=Maheshs-MBP-2, category=ui.server
+2019-09-27T11:59:47.189Z - error: SSR Rendering failed logData= { error: 'route not matched',
+  location: '/apple-touch-icon.png' } class=middleware/SSRMiddleware.js, pid=38153, host=Maheshs-MBP-2, category=ui.server

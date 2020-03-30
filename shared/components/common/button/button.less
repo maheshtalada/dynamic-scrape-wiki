@@ -1,0 +1,108 @@
+.btn {
+	border-radius: 3px;
+}
+
+.float-e-margins .btn {
+	margin-bottom: 5px;
+}
+
+.btn {
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 1.3rem;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	i {
+		font-weight: 600;
+		margin-right: 5px;
+	}
+}
+
+.btn-primary {
+	background-color: @color-secondary-background;
+	color:@font-dark-grey;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: lighten(@color-secondary-background, 6%);
+	border-color: @color-secondary-background;
+	color: @color-base-white  ;
+}
+.btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-image: none;
+}
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+	/*background-color: darken(@color-base-primary-green, 6%);
+	border-color: @color-base-primary-green;*/
+	color : @color-base-white;
+	border-color: @color-base-gray;
+	background-color: @color-base-gray;
+}
+
+.btn-shadow-hover {
+	background-color: @color-shadow-green;
+	border-color: @color-base-mono-light;
+	color: @color-base-apple-green-alt;
+	padding: 6px 9px;
+}
+
+.btn-default {
+	background-color: @color-base-white;
+	border-color: @color-base-secondary-grey-light;
+	color: @color-base-primary-grey-dark;
+}
+.btn-default:hover, .btn-default:focus, .open .dropdown-toggle.btn-default {
+	background-color: @color-base-white;
+	border-color: @color-fore-primary-green-alt;
+	color: @color-base-primary-green;
+}
+.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active {
+	color : @color-text;
+	border-color: @color-base-gray;
+	background-color: @grey-200;
+}
+.btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background-image: none;
+}
+
+.btn-outline {
+	color: inherit;
+	background-color: transparent;
+	transition: all .5s;
+}
+
+.btn-xs {
+	border-radius: 3px;
+	font-size: 11px;
+	line-height: 1.5;
+	padding: 1px 7px;
+}
+
+.btn-sm {
+	border-radius: 3px;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	padding: 1px 7px;
+}
+
+.btn-l {
+	font-size: 1.7rem;
+	padding: 10px 20px;
+}
+
+.btn-xl {
+	font-size: 2rem;
+	padding: 15px 30px;
+}

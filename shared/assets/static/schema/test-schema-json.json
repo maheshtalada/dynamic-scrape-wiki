@@ -1,0 +1,626 @@
+{
+  "schemas": [
+    {
+      "type": "header",
+      "children": [
+        {
+          "id": "propertylisting.id",
+          "type": "text-hidden",
+          "data": {
+            "value": "3675"
+          }
+        },
+        {
+          "id": "propertylisting.ownedByUserId",
+          "type": "text-hidden",
+          "data": {
+            "value": "2"
+          }
+        },
+        {
+          "label": "CONTACTACTIONS",
+          "id": "propertylisting.allowedContactActions",
+          "type": "list",
+          "data": {
+            "tooltip": "CONTACTACTIONSTOOLTIP"
+          },
+          "children": [
+            {
+              "id": "propertylisting.allowedContactActions",
+              "type": "list",
+              "subtype": "list-columns-no-gutter",
+              "data": {
+                "columns": "3",
+                "loop": true
+              },
+              "children": [
+                {
+                  "id": "propertylisting.allowedContactActions(0)",
+                  "type": "options",
+                  "subtype": "checkbox-icon-values",
+                  "data": {
+                    "value": "EMAIL",
+                    "icon": "mail",
+                    "label": "EMAIL",
+                    "optionValue": "EMAIL"
+                  }
+                },
+                {
+                  "id": "propertylisting.allowedContactActions(1)",
+                  "type": "options",
+                  "subtype": "checkbox-icon-values",
+                  "data": {
+                    "icon": "phone",
+                    "label": "TELEPHONE",
+                    "optionValue": "TELEPHONE"
+                  }
+                },
+                {
+                  "id": "propertylisting.allowedContactActions(2)",
+                  "type": "options",
+                  "subtype": "checkbox-icon-values",
+                  "data": {
+                    "value": "CHAT",
+                    "icon": "chat2",
+                    "label": "CHAT",
+                    "optionValue": "CHAT"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groupName": "additionalinfo"
+    },
+    {
+      "type": "header",
+      "children": [
+        {
+          "type": "list",
+          "children": [
+            {
+              "id": "openhousetimesremovable",
+              "type": "list",
+              "subtype": "list-removable-single",
+              "children": [
+                {
+                  "label": "OPENHOUSETIMES",
+                  "id": "propertylisting.openHouseTimes(1)",
+                  "type": "list",
+                  "children": [
+                    {
+                      "label": "OPENHOUSEDATE",
+                      "id": "propertylisting.openHouseTimes(1).date",
+                      "type": "date",
+                      "data": {
+                        "format": "MM/DD/YYYY"
+                      },
+                      "validation": [
+                        {
+                          "type": "minDate",
+                          "message": "OPENHOUSEENDDATEMINVALUE",
+                          "value": "02/08/2017"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "custom-group",
+                      "children": [
+                        {
+                          "label": "STARTTIME",
+                          "id": "propertylisting.openHouseTimes(1).startTime",
+                          "type": "text-time",
+                          "data": {
+                            "value": "08:00 AM"
+                          }
+                        },
+                        {
+                          "label": "ENDTIME",
+                          "id": "propertylisting.openHouseTimes(1).endTime",
+                          "type": "text-time",
+                          "data": {
+                            "value": "05:00 PM"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ADDOPENHOUSETIME",
+          "id": "ADDOPENHOUSETIME",
+          "type": "clone",
+          "data": {
+            "key": "2"
+          },
+          "children": [
+            {
+              "id": "openhousetimesremovable",
+              "type": "list",
+              "subtype": "list-removable-single",
+              "children": [
+                {
+                  "label": "OPENHOUSETIMES",
+                  "id": "propertylisting.openHouseTimes(*)",
+                  "type": "list",
+                  "children": [
+                    {
+                      "label": "OPENHOUSEDATE",
+                      "id": "propertylisting.openHouseTimes(*).date",
+                      "type": "date",
+                      "data": {
+                        "format": "MM/DD/YYYY"
+                      },
+                      "validation": [
+                        {
+                          "type": "minDate",
+                          "message": "OPENHOUSEENDDATEMINVALUE",
+                          "value": "02/08/2017"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "custom-group",
+                      "children": [
+                        {
+                          "label": "STARTTIME",
+                          "id": "propertylisting.openHouseTimes(*).startTime",
+                          "type": "text-time",
+                          "data": {
+                            "value": "08:00 AM"
+                          }
+                        },
+                        {
+                          "label": "ENDTIME",
+                          "id": "propertylisting.openHouseTimes(*).endTime",
+                          "type": "text-time",
+                          "data": {
+                            "value": "05:00 PM"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groupName": "openhouseinfo"
+    },
+    {
+      "type": "header",
+      "children": [
+        {
+          "label": "HAVETENANTS",
+          "id": "propertylisting.haveTenants",
+          "type": "list",
+          "subtype": "list-tabs",
+          "data": {
+            "optionReference": "HAVETENANTSREFERENCEVALUES",
+            "value": "false",
+            "tooltip": "HAVETENANTSTOOLTIP"
+          },
+          "tabs": [
+            {
+              "id": "tenants",
+              "type": "list",
+              "children": [
+                {
+                  "type": "list",
+                  "children": [
+                    {
+                      "label": "TENANTSDETAILS",
+                      "id": "propertylisting.tenants(1)",
+                      "type": "list",
+                      "children": [
+                        {
+                          "label": "TENANTNAME",
+                          "id": "propertylisting.tenants(1).name",
+                          "type": "text",
+                          "validation": [
+                            {
+                              "type": "required",
+                              "message": "TENANTNAMEREQUIRED",
+                              "value": "TENANTNAMEREQUIRED"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "LEASETERM",
+                          "labelInfo": "MONTHS",
+                          "id": "propertylisting.tenants(1).leaseTerm",
+                          "type": "text",
+                          "validation": [
+                            {
+                              "type": "required",
+                              "message": "LEASETERMREQUIRED",
+                              "value": "LEASETERMREQUIRED"
+                            },
+                            {
+                              "type": "pattern",
+                              "message": "NUMBERONLY",
+                              "value": "^[1-9]\\d*$"
+                            },
+                            {
+                              "type": "max-value",
+                              "message": "MAXVALUE",
+                              "value": "240"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "LEASETYPE",
+                          "id": "propertylisting.tenants(1).leaseType",
+                          "type": "dropdown",
+                          "data": {
+                            "optionReference": "leasetype"
+                          },
+                          "validation": [
+                            {
+                              "type": "required",
+                              "message": "LEASETYPEREQUIRED",
+                              "value": "LEASETYPEREQUIRED"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "LEASEAMOUNT",
+                          "labelInfo": "USD",
+                          "id": "propertylisting.tenants(1).leaseAmount",
+                          "type": "text",
+                          "validation": [
+                            {
+                              "type": "required",
+                              "message": "LEASEAMOUNTREQUIRED",
+                              "value": "LEASEAMOUNTREQUIRED"
+                            },
+                            {
+                              "type": "pattern",
+                              "message": "NUMBERONLY",
+                              "value": "^[1-9]\\d*$"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "EXPENSESBYLANDLORD",
+                          "labelInfo": "USD",
+                          "id": "propertylisting.tenants(1).expensesByLandlord",
+                          "type": "text",
+                          "validation": [
+                            {
+                              "type": "pattern",
+                              "message": "NUMBERONLY",
+                              "value": "^[0-9]\\d*$"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "EXPENSESBYTENANT",
+                          "labelInfo": "USD",
+                          "id": "propertylisting.tenants(1).expensesByTenant",
+                          "type": "text",
+                          "validation": [
+                            {
+                              "type": "pattern",
+                              "message": "NUMBERONLY",
+                              "value": "^[0-9]\\d*$"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "LEASEENDDATE",
+                          "id": "propertylisting.tenants(1).leaseEndDate",
+                          "type": "date",
+                          "data": {
+                            "format": "MM/DD/YYYY"
+                          }
+                        },
+                        {
+                          "label": "LEASERENEWALOPTIONS",
+                          "id": "LEASERENEWALOPTIONS",
+                          "type": "list",
+                          "data": {
+                            "tooltip": "LEASERENEWALOPTIONSTOOLTIP"
+                          },
+                          "children": [
+                            {
+                              "label": "ENTERLEASERENEWALOPTIONS",
+                              "id": "propertylisting.tenants(1).leaseRenewalOptions(1)",
+                              "type": "text"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "ADDNEW",
+                          "id": "ADDNEW",
+                          "type": "clone",
+                          "data": {
+                            "tooltip": "LEASERENEWALOPTIONSTOOLTIP",
+                            "key": "2"
+                          },
+                          "children": [
+                            {
+                              "id": "leaserenewaloptionsremovable",
+                              "type": "list",
+                              "subtype": "list-removable-single",
+                              "children": [
+                                {
+                                  "label": "ENTERLEASERENEWALOPTIONS",
+                                  "id": "propertylisting.tenants(1).leaseRenewalOptions(*)",
+                                  "type": "text"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "RENTINCREASEATRENEWAL",
+                          "labelInfo": "PERCENTAGE",
+                          "id": "propertylisting.tenants(1).rentIncreaseAtRenewal",
+                          "type": "text",
+                          "validation": [
+                            {
+                              "type": "pattern",
+                              "message": "DECIMALUPTO4DIGIT",
+                              "value": "^(\\d+\\.?\\d{0,4})$"
+                            },
+                            {
+                              "type": "max-value",
+                              "message": "MAXVALUE",
+                              "value": "100"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "LEASEDESCRIPTION",
+                          "id": "propertylisting.tenants(1).leaseDescription",
+                          "type": "text-area",
+                          "maxLength": "1000"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "ADDTENANT",
+                  "id": "ADDTENANT",
+                  "type": "clone",
+                  "data": {
+                    "key": "2"
+                  },
+                  "children": [
+                    {
+                      "id": "tenantsremovable",
+                      "type": "list",
+                      "subtype": "list-removable-single",
+                      "children": [
+                        {
+                          "label": "TENANTSDETAILS",
+                          "id": "propertylisting.tenants(*)",
+                          "type": "list",
+                          "children": [
+                            {
+                              "label": "TENANTNAME",
+                              "id": "propertylisting.tenants(*).name",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "required",
+                                  "message": "TENANTNAMEREQUIRED",
+                                  "value": "TENANTNAMEREQUIRED"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "LEASETERM",
+                              "labelInfo": "MONTHS",
+                              "id": "propertylisting.tenants(*).leaseTerm",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "required",
+                                  "message": "LEASETERMREQUIRED",
+                                  "value": "LEASETERMREQUIRED"
+                                },
+                                {
+                                  "type": "pattern",
+                                  "message": "NUMBERONLY",
+                                  "value": "^[1-9]\\d*$"
+                                },
+                                {
+                                  "type": "max-value",
+                                  "message": "MAXVALUE",
+                                  "value": "240"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "LEASETYPE",
+                              "id": "propertylisting.tenants(*).leaseType",
+                              "type": "dropdown",
+                              "data": {
+                                "optionReference": "leasetype"
+                              },
+                              "validation": [
+                                {
+                                  "type": "required",
+                                  "message": "LEASETYPEREQUIRED",
+                                  "value": "LEASETYPEREQUIRED"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "LEASEAMOUNT",
+                              "labelInfo": "USD",
+                              "id": "propertylisting.tenants(*).leaseAmount",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "required",
+                                  "message": "LEASEAMOUNTREQUIRED",
+                                  "value": "LEASEAMOUNTREQUIRED"
+                                },
+                                {
+                                  "type": "pattern",
+                                  "message": "NUMBERONLY",
+                                  "value": "^[1-9]\\d*$"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "EXPENSESBYLANDLORD",
+                              "labelInfo": "USD",
+                              "id": "propertylisting.tenants(*).expensesByLandlord",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "pattern",
+                                  "message": "NUMBERONLY",
+                                  "value": "^[0-9]\\d*$"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "EXPENSESBYTENANT",
+                              "labelInfo": "USD",
+                              "id": "propertylisting.tenants(*).expensesByTenant",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "pattern",
+                                  "message": "NUMBERONLY",
+                                  "value": "^[0-9]\\d*$"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "LEASEENDDATE",
+                              "id": "propertylisting.tenants(*).leaseEndDate",
+                              "type": "date",
+                              "data": {
+                                "format": "MM/DD/YYYY"
+                              }
+                            },
+                            {
+                              "label": "ADDNEW",
+                              "id": "ADDNEW",
+                              "type": "clone",
+                              "data": {
+                                "tooltip": "LEASERENEWALOPTIONSTOOLTIP",
+                                "key": "1"
+                              },
+                              "children": [
+                                {
+                                  "id": "leaserenewaloptionsremovable",
+                                  "type": "list",
+                                  "subtype": "list-removable-single",
+                                  "children": [
+                                    {
+                                      "label": "ENTERLEASERENEWALOPTIONS",
+                                      "id": "propertylisting.tenants(*).leaseRenewalOptions(*)",
+                                      "type": "text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "RENTINCREASEATRENEWAL",
+                              "labelInfo": "PERCENTAGE",
+                              "id": "propertylisting.tenants(*).rentIncreaseAtRenewal",
+                              "type": "text",
+                              "validation": [
+                                {
+                                  "type": "pattern",
+                                  "message": "DECIMALUPTO4DIGIT",
+                                  "value": "^(\\d+\\.?\\d{0,4})$"
+                                },
+                                {
+                                  "type": "max-value",
+                                  "message": "MAXVALUE",
+                                  "value": "100"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "LEASEDESCRIPTION",
+                              "id": "propertylisting.tenants(*).leaseDescription",
+                              "type": "text-area",
+                              "maxLength": "1000"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "tabValue": "true"
+            }
+          ]
+        }
+      ],
+      "groupName": "tenant"
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "HAVETENANTSREFERENCEVALUES",
+        "option": [
+          {
+            "value": "true",
+            "label": "YES"
+          },
+          {
+            "value": "false",
+            "label": "NO"
+          }
+        ]
+      },
+      {
+        "id": "leasetype",
+        "option": [
+          {
+            "value": "GROSS",
+            "label": "GROSS"
+          },
+          {
+            "value": "DOUBLE",
+            "label": "DOUBLE"
+          },
+          {
+            "value": "TRIPLE",
+            "label": "TRIPLE"
+          },
+          {
+            "value": "OTHER",
+            "label": "OTHER"
+          }
+        ]
+      }
+    ]
+  },
+  "schemaInfos": [
+    {
+      "description": "ADDITIONALINFOGROUPDESCRIPTION",
+      "icon": "Icon_Contact_Info"
+    },
+    {
+      "description": "OPENHOUSEGROUPDESCRIPTION",
+      "icon": "Icon_Residential_Community_Info"
+    },
+    {
+      "description": "TENANTGROUPDESCRIPTION",
+      "icon": "Icon_Property_Info"
+    }
+  ],
+  "status": "success"
+}

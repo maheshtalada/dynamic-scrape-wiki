@@ -1,0 +1,26 @@
+@keyframes blink {
+	from {
+		box-shadow: 0 0 0 2px #9ceae2;
+	}
+	to {
+		box-shadow: 0 0 0 6px #cfebe8;
+	}
+}
+
+.online-indicator{
+	border-radius:50%;
+	color : @color-bright;
+	width: 7px;
+	height: 7px;
+	box-shadow: 0 0 0 2px #cfebe8;
+	display: inline-block;
+	margin-left: 8px;
+	&.online {
+		animation : blink 1.3s infinite;
+		//animation-direction : alternate;
+		background-color: @color-base-primary-green;
+	}
+	&.offline {
+		background-color: @color-base-gray;
+	}
+}

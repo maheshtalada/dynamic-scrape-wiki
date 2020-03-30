@@ -1,0 +1,61 @@
+@keyframes nudge-right {
+	from {
+		right: -2px;
+	}
+	to {
+		right: -5px;
+	}
+}
+@keyframes nudge-left {
+	from {
+		left: -2px;
+	}
+	to {
+		left: -5px;
+	}
+}
+.custom-slick-arrow {
+	font-size: 3rem;
+	position: absolute;
+	top: ~"calc(50% - 25px)";
+	color: @color-base-white;
+	z-index: 1;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	width: 38px;
+	height: 50px;
+	background: rgba(0,0,0,0.6);
+	padding: 5px;
+	outline: none;
+	i {
+		position: relative;
+	}
+	&.next {
+		right: 0;
+		i {
+			right: -2px;
+		}
+		&:hover {
+			i {
+				animation: nudge-right 0.5s;
+				animation-fill-mode: forwards;
+			}
+		}
+	}
+	&.prev {
+		left: 0;
+		i {
+			left: -2px;
+		}
+		&:hover {
+			i {
+				animation: nudge-left 0.5s;
+				animation-fill-mode: forwards;
+			}
+		}
+	}
+	&.disabled {
+		display: none !important;
+	}
+}

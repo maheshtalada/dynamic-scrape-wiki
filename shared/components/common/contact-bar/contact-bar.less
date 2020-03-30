@@ -1,0 +1,102 @@
+.contact-share-options {
+	padding: 20px 10px;
+	border-top: 1px dashed rgba(0,0,0,.2);
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+@keyframes chat-icon-animate {
+	from {
+		box-shadow : 0 0 0 0 @color-fore-primary-green-alt;
+	}
+	to {
+		box-shadow: 0 0 0 10px transparent;
+	}
+}
+.contact-bar {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	&__actions {
+		margin-right: 5px;
+		align-items: center;
+		.bp-xsmall({
+			margin-top: 5px;
+		});
+		.bp-small({
+			margin-top: 0;
+		});
+		&.contact-bar__listing-owner {
+			margin-right: 15px;
+			margin-top: 0;
+			.bp-xsmall({
+				width: 100%;
+			});
+			.bp-small({
+				width: auto;
+			})
+		}
+		> div {
+			margin-right: 5px;
+		}
+		&.only-icons {
+			.input-field button {
+				box-shadow: none;
+				border: none;
+				padding: 0;
+				i {
+					margin: 0;
+					font-size: 2.4rem;
+					font-weight: normal;
+				}
+			}
+			.contact-bar__chat {
+				.input-field button i {
+					color: @grey-600;
+				}
+				.online-indicator {
+					display: none;
+				}
+				&.chat-online {
+					.input-field button i {
+						border-radius: 50%;
+						color: @color-base-primary-green;
+						animation: chat-icon-animate 1.3s infinite;
+					}
+				}
+			}
+		}
+	}
+
+	&__listing-owner {
+		&__status {
+			font-size: 1.4rem;
+		}
+	}
+
+	.input-field button {
+		i {
+			margin-right: 3px;
+			font-weight: 600;
+			color: @color-base-primary-green;
+		}
+		/*box-shadow: 0 0 2px 0 @grey-400;*/
+		border-color: @color-base-secondary-grey-light;
+		padding: 2px 4px;
+		display: flex;
+		align-items: center;
+		color: @color-base-dark;
+		font-size: 1.4rem;
+		&.disabled {
+			i {
+				color: @color-base-gray;
+			}
+		}
+	}
+	&__chat {
+		.input-field button {
+			padding: 2px 8px 2px 4px;
+		}
+	}
+}

@@ -1,0 +1,113 @@
+.google-contacts {
+    margin-left: 15px;
+}
+
+.google-contacts-list {
+    // margin-top: 15px;
+    padding: 20px;
+    &__actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 5px 15px;
+        .bp-xsmall({
+            flex-wrap: wrap;
+        });
+        .bp-small({
+            flex-wrap: nowrap;
+        });
+        &__import-btn {
+            margin-left: 25px;
+            // padding-left: 25px;
+            // border-left: 1px solid @color-base-primary-green;
+        }
+        .mdl-checkbox-group label {
+            font-size: 1.8rem;
+        }
+        .mdl-spinner {
+            margin: 0 15px;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: ~"calc(100vh - 180px)";
+        overflow: auto;
+        .mdl-checkbox-group {
+            border: 1px solid @grey-400;
+            border-radius: 4px;
+            margin: 0 5px 10px;
+            &:hover {
+                border-color: @color-base-primary-green;
+            }
+            label {
+                padding: 10px 10px 10px 25px;
+                height: 100%;
+            }
+            label:before {
+                top: 13px;
+                left: 10px;
+            }
+            input[type="checkbox"]:checked + label:after {
+                top: 16px;
+                left: 12px;
+            }
+            .bp-xsmall({
+                width: 100%;
+            });
+            .bp-small({
+                width: 300px;
+            })
+        }
+        .contact-label {
+            margin-left: 10px;
+            &__email {
+                word-break: break-all;
+            }
+            &__title {
+                margin-bottom: 5px;
+                font-weight: 600;
+            }
+            i {
+                margin: 1px 3px 0 0;
+                font-size: 1.7rem;
+                color: @color-base-primary-green;
+            }
+            &__search-highlight {
+                font-weight: bold;
+                background: @color-shadow-green;
+                border-radius: 3px;
+                color: @color-base-primary-green;
+            }
+        }
+    }
+    &__search-bar {
+        display: flex;
+        border: 1px solid @grey-500;
+        border-radius: 4px;
+        align-items: center;
+        .bp-xsmall({
+            margin-top: 10px;
+        });
+        .bp-small({
+            margin-top: 0;
+        });
+        input {
+            border: none;
+            height: 32px;
+            padding: 0 13px;
+            border-radius: 4px;
+        }
+        i {
+            font-size: 2rem;
+            color: @color-base-primary-green;
+            margin: 0 8px;
+            font-weight: 600;
+        }
+    }
+    &__disclaimer {
+        font-size: 1.2rem;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+}

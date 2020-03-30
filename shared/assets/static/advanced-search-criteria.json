@@ -1,0 +1,1373 @@
+{
+  "search_criteria": {
+    "forinvest": [
+      {
+        "name": "propertytype",
+        "buckets": [
+          {
+            "key": "multi_family",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "condo"
+                  },
+                  {
+                    "key": "garden_home"
+                  },
+                  {
+                    "key": "multi_family_apartment"
+                  },
+                  {
+                    "key": "triplex"
+                  },
+                  {
+                    "key": "quadruplex"
+                  },
+                  {
+                    "key": "duplex_2_units"
+                  },
+                  {
+                    "key": "townhome_1_4_units"
+                  },
+                  {
+                    "key": "other_multifamily"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "retail",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "consumer_services"
+                  },
+                  {
+                    "key": "department_store"
+                  },
+                  {
+                    "key": "financial_sales"
+                  },
+                  {
+                    "key": "gas_station"
+                  },
+                  {
+                    "key": "kiosk"
+                  },
+                  {
+                    "key": "mall"
+                  },
+                  {
+                    "key": "outlet_center"
+                  },
+                  {
+                    "key": "retail_pod"
+                  },
+                  {
+                    "key": "small_box_retail"
+                  },
+                  {
+                    "key": "store"
+                  },
+                  {
+                    "key": "street_retail"
+                  },
+                  {
+                    "key": "strip_center"
+                  },
+                  {
+                    "key": "pharmacy"
+                  },
+                  {
+                    "key": "other_retail"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "office",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "business_center"
+                  },
+                  {
+                    "key": "business_park"
+                  },
+                  {
+                    "key": "executive_office_suites"
+                  },
+                  {
+                    "key": "mixed_use_office_retail"
+                  },
+                  {
+                    "key": "office_building"
+                  },
+                  {
+                    "key": "office_condo"
+                  },
+                  {
+                    "key": "office_show_room"
+                  },
+                  {
+                    "key": "retail_center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "food_dining",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "bar"
+                  },
+                  {
+                    "key": "cafe"
+                  },
+                  {
+                    "key": "fast_food"
+                  },
+                  {
+                    "key": "restaurant"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "industrial",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "cold_storage"
+                  },
+                  {
+                    "key": "distribution_warehouse"
+                  },
+                  {
+                    "key": "industrial_condo"
+                  },
+                  {
+                    "key": "manufacturing"
+                  },
+                  {
+                    "key": "other_industrial"
+                  },
+                  {
+                    "key": "storage_facility"
+                  },
+                  {
+                    "key": "warehouse"
+                  },
+                  {
+                    "key": "workshop"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "healthcare",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "assisted_living"
+                  },
+                  {
+                    "key": "rehab_center"
+                  },
+                  {
+                    "key": "congregate_housing"
+                  },
+                  {
+                    "key": "acute_care_hospital"
+                  },
+                  {
+                    "key": "dentist"
+                  },
+                  {
+                    "key": "emergency_clinic"
+                  },
+                  {
+                    "key": "emergency_clinic_all"
+                  },
+                  {
+                    "key": "general_hospital"
+                  },
+                  {
+                    "key": "orthodondist"
+                  },
+                  {
+                    "key": "plastic_surgery_center"
+                  },
+                  {
+                    "key": "professional_medical_center_outpatient"
+                  },
+                  {
+                    "key": "veterinary_care"
+                  },
+                  {
+                    "key": "skilled_nursing"
+                  },
+                  {
+                    "key": "medical_office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "hotel",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "full_service"
+                  },
+                  {
+                    "key": "limited_service"
+                  },
+                  {
+                    "key": "residential_suites"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "land",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "commercial_land"
+                  },
+                  {
+                    "key": "industrial_land"
+                  },
+                  {
+                    "key": "office_land"
+                  },
+                  {
+                    "key": "parking_land"
+                  },
+                  {
+                    "key": "residential_land"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "agricultural",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "agricultural_land"
+                  },
+                  {
+                    "key": "agriculture_business"
+                  },
+                  {
+                    "key": "farm_ranch"
+                  },
+                  {
+                    "key": "grazing_land"
+                  },
+                  {
+                    "key": "other_land"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "special_purpose",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "other_special_purpose"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "other",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "beauty_care"
+                  },
+                  {
+                    "key": "educational_facility"
+                  },
+                  {
+                    "key": "entertainment"
+                  },
+                  {
+                    "key": "photography_studio"
+                  },
+                  {
+                    "key": "recording_studio"
+                  },
+                  {
+                    "key": "school"
+                  },
+                  {
+                    "key": "spa"
+                  },
+                  {
+                    "key": "sports_facility"
+                  },
+                  {
+                    "key": "religious_facility"
+                  },
+                  {
+                    "key": "theatre"
+                  },
+                  {
+                    "key": "multi_use_building"
+                  },
+                  {
+                    "key": "other"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "price",
+        "minValues": [
+          100000,
+          250000,
+          500000,
+          1000000,
+          2000000
+        ],
+        "maxValues": [
+          250000,
+          500000,
+          1000000,
+          2000000,
+          5000000
+        ]
+      },
+      {
+        "name": "area",
+        "minValues": [
+          0,
+          500,
+          1000,
+          2000,
+          5000
+        ],
+        "maxValues": [
+          500,
+          1000,
+          2000,
+          5000,
+          100000
+        ]
+      },
+      {
+        "name": "caprate",
+        "minValues": [
+          5.0,
+          7.5,
+          10.0,
+          12.5,
+          15.0
+        ],
+        "maxValues": [
+          7.5,
+          10.0,
+          12.5,
+          15.0,
+          17.5
+        ]
+      },
+      {
+        "name": "riskreturncategory",
+        "buckets": [
+          {
+            "key": "core"
+          },
+          {
+            "key": "coreplus"
+          },
+          {
+            "key": "valueadded"
+          },
+          {
+            "key": "developmentopportunity"
+          }
+        ]
+      },
+      {
+        "name": "leasetypes",
+        "buckets": [
+          {
+            "key": "triple_net"
+          },
+          {
+            "key": "double_net"
+          },
+          {
+            "key": "gross"
+          },
+          {
+            "key": "modified_gross"
+          },
+          {
+            "key": "other"
+          }
+        ]
+      }
+    ],
+    "forsale":[
+      [{
+        "name": "propertytype",
+        "buckets": [],
+        "hidden": true
+      },
+      {
+        "name": "subtype",
+        "buckets": [
+          {
+            "key": "residential_land"
+          },
+          {
+            "key": "residential_apartment"
+          },
+          {
+            "key": "single_family_home"
+          },
+          {
+            "key": "townhome"
+          },
+          {
+            "key": "condo"
+          },
+          {
+            "key": "duplex"
+          },
+          {
+            "key": "garden_home"
+          },
+          {
+            "key": "triplex"
+          },
+          {
+            "key": "quadruplex"
+          },
+          {
+            "key": "mobile_home"
+          },
+          {
+            "key": "time_share"
+          },
+          {
+            "key": "cabin"
+          },
+          {
+            "key": "loft_style"
+          },
+          {
+            "key": "twin_home"
+          },
+          {
+            "key": "other_residential"
+          }
+        ]
+      },
+        {
+          "name": "area",
+          "minValues": [
+            1000,
+            2000,
+            3000,
+            4000,
+            5000
+          ],
+          "maxValues": [
+            2000,
+            3000,
+            4000,
+            5000,
+            10000
+          ]
+        },
+      {
+        "name": "riskreturncategory",
+        "hidden": true,
+        "buckets": [
+          {
+            "key": "core"
+          },
+          {
+            "key": "coreplus"
+          },
+          {
+            "key": "valueadded"
+          },
+          {
+            "key": "developmentopportunity"
+          }
+        ]
+      },
+      {
+        "name": "price",
+        "minValues": [
+          100000,
+          250000,
+          500000,
+          1000000,
+          2000000
+        ],
+        "maxValues": [
+          250000,
+          500000,
+          1000000,
+          2000000,
+          5000000
+        ]
+      },
+        {
+          "name": "bedroom"
+        },
+        {
+          "name": "washroom"
+        },
+      {
+        "name": "caprate",
+        "hidden": true,
+        "minValues": [
+          5.0,
+          7.5,
+          10.0,
+          12.5,
+          15.0
+        ],
+        "maxValues": [
+          7.5,
+          10.0,
+          12.5,
+          15.0,
+          17.5
+        ]
+      }]
+    ],
+    "forlease":[
+      [{
+        "name": "subtype",
+        "buckets": [
+          {
+            "key": "residential_land"
+          },
+          {
+            "key": "residential_apartment"
+          },
+          {
+            "key": "single_family_home"
+          },
+          {
+            "key": "townhome"
+          },
+          {
+            "key": "condo"
+          },
+          {
+            "key": "duplex"
+          },
+          {
+            "key": "garden_home"
+          },
+          {
+            "key": "triplex"
+          },
+          {
+            "key": "quadruplex"
+          },
+          {
+            "key": "mobile_home"
+          },
+          {
+            "key": "time_share"
+          },
+          {
+            "key": "cabin"
+          },
+          {
+            "key": "loft_style"
+          },
+          {
+            "key": "twin_home"
+          },
+          {
+            "key": "other_residential"
+          }
+        ]
+      },
+        {
+          "name": "area",
+          "minValues": [
+            0,
+            500,
+            1000,
+            2000,
+            5000
+          ],
+          "maxValues": [
+            500,
+            1000,
+            2000,
+            5000,
+            10000
+          ]
+        },
+      {
+        "name": "price",
+        "minValues": [
+          1000,
+          1500,
+          2500,
+          5000,
+          7500
+        ],
+        "maxValues": [
+          1500,
+          2500,
+          5000,
+          7500,
+          10000
+        ]
+      },
+        {
+          "name": "bedroom"
+        },{
+        "name": "washroom"
+      }],
+      [{
+        "name": "propertytype",
+        "hidden": true,
+        "buckets": [
+          {
+            "key": "multi_family",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "condo"
+                  },
+                  {
+                    "key": "garden_home"
+                  },
+                  {
+                    "key": "multi_family_apartment"
+                  },
+                  {
+                    "key": "triplex"
+                  },
+                  {
+                    "key": "quadruplex"
+                  },
+                  {
+                    "key": "duplex_2_units"
+                  },
+                  {
+                    "key": "townhome_1_4_units"
+                  },
+                  {
+                    "key": "other_multifamily"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "retail",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "consumer_services"
+                  },
+                  {
+                    "key": "department_store"
+                  },
+                  {
+                    "key": "financial_sales"
+                  },
+                  {
+                    "key": "gas_station"
+                  },
+                  {
+                    "key": "kiosk"
+                  },
+                  {
+                    "key": "mall"
+                  },
+                  {
+                    "key": "outlet_center"
+                  },
+                  {
+                    "key": "retail_pod"
+                  },
+                  {
+                    "key": "small_box_retail"
+                  },
+                  {
+                    "key": "store"
+                  },
+                  {
+                    "key": "street_retail"
+                  },
+                  {
+                    "key": "strip_center"
+                  },
+                  {
+                    "key": "pharmacy"
+                  },
+                  {
+                    "key": "other_retail"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "office",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "business_center"
+                  },
+                  {
+                    "key": "business_park"
+                  },
+                  {
+                    "key": "executive_office_suites"
+                  },
+                  {
+                    "key": "mixed_use_office_retail"
+                  },
+                  {
+                    "key": "office_building"
+                  },
+                  {
+                    "key": "office_condo"
+                  },
+                  {
+                    "key": "office_show_room"
+                  },
+                  {
+                    "key": "retail_center"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "food_dining",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "bar"
+                  },
+                  {
+                    "key": "cafe"
+                  },
+                  {
+                    "key": "fast_food"
+                  },
+                  {
+                    "key": "restaurant"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "industrial",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "cold_storage"
+                  },
+                  {
+                    "key": "distribution_warehouse"
+                  },
+                  {
+                    "key": "industrial_condo"
+                  },
+                  {
+                    "key": "manufacturing"
+                  },
+                  {
+                    "key": "other_industrial"
+                  },
+                  {
+                    "key": "storage_facility"
+                  },
+                  {
+                    "key": "warehouse"
+                  },
+                  {
+                    "key": "workshop"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "healthcare",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "assisted_living"
+                  },
+                  {
+                    "key": "rehab_center"
+                  },
+                  {
+                    "key": "congregate_housing"
+                  },
+                  {
+                    "key": "acute_care_hospital"
+                  },
+                  {
+                    "key": "dentist"
+                  },
+                  {
+                    "key": "emergency_clinic"
+                  },
+                  {
+                    "key": "emergency_clinic_all"
+                  },
+                  {
+                    "key": "general_hospital"
+                  },
+                  {
+                    "key": "orthodondist"
+                  },
+                  {
+                    "key": "plastic_surgery_center"
+                  },
+                  {
+                    "key": "professional_medical_center_outpatient"
+                  },
+                  {
+                    "key": "veterinary_care"
+                  },
+                  {
+                    "key": "skilled_nursing"
+                  },
+                  {
+                    "key": "medical_office"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "hotel",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "full_service"
+                  },
+                  {
+                    "key": "limited_service"
+                  },
+                  {
+                    "key": "residential_suites"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "land",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "commercial_land"
+                  },
+                  {
+                    "key": "industrial_land"
+                  },
+                  {
+                    "key": "office_land"
+                  },
+                  {
+                    "key": "parking_land"
+                  },
+                  {
+                    "key": "residential_land"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "agricultural",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "agricultural_land"
+                  },
+                  {
+                    "key": "agriculture_business"
+                  },
+                  {
+                    "key": "farm_ranch"
+                  },
+                  {
+                    "key": "grazing_land"
+                  },
+                  {
+                    "key": "other_land"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "special_purpose",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "other_special_purpose"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": "other",
+            "children": [
+              {
+                "name": "subtype",
+                "buckets": [
+                  {
+                    "key": "beauty_care"
+                  },
+                  {
+                    "key": "educational_facility"
+                  },
+                  {
+                    "key": "entertainment"
+                  },
+                  {
+                    "key": "photography_studio"
+                  },
+                  {
+                    "key": "recording_studio"
+                  },
+                  {
+                    "key": "school"
+                  },
+                  {
+                    "key": "spa"
+                  },
+                  {
+                    "key": "sports_facility"
+                  },
+                  {
+                    "key": "religious_facility"
+                  },
+                  {
+                    "key": "theatre"
+                  },
+                  {
+                    "key": "multi_use_building"
+                  },
+                  {
+                    "key": "other"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "leasetypes",
+        "hidden": true,
+        "buckets": [
+          {
+            "key": "triple_net"
+          },
+          {
+            "key": "double_net"
+          },
+          {
+            "key": "gross"
+          },
+          {
+            "key": "modified_gross"
+          },
+          {
+            "key": "other"
+          }
+        ]
+      }]
+    ],
+    "realtor" : [[
+      {
+        "name": "name"
+      },
+      {
+        "name": "datatype",
+        "options": [
+          {
+            "name": "all",
+            "value": ""
+          },
+          {
+            "name": "brokeragefirm",
+            "value": "brokeragefirm"
+          },
+          {
+            "name": "individual",
+            "value": "individual"
+          }
+        ]
+      },
+      {
+        "name": "specialties",
+        "buckets": [
+          {
+            "key": "commercial_properties"
+          },
+          {
+            "key": "income_specialist"
+          },
+          {
+            "key": "residential_investments"
+          },
+          {
+            "key": "residential_lending"
+          },
+          {
+            "key": "commercial_lending"
+          },
+          {
+            "key": "property_management"
+          },
+          {
+            "key": "farm_and_land"
+          },
+          {
+            "key": "industrial"
+          },
+          {
+            "key": "land_development"
+          },
+          {
+            "key": "appraisal"
+          },
+          {
+            "key": "urban_planning"
+          },
+          {
+            "key": "legal"
+          },
+          {
+            "key": "back_office_specialist"
+          },
+          {
+            "key": "research"
+          },
+          {
+            "key": "other_specialty"
+          }
+        ]
+      }
+    ]],
+    "professional" : [[
+      {
+        "name": "name"
+      },
+      {
+        "name": "datatype",
+        "options": [
+          {
+            "name": "all",
+            "value": ""
+          },
+          {
+            "name": "company",
+            "value": "company"
+          },
+          {
+            "name": "individual",
+            "value": "individual"
+          }
+        ]
+      },
+      {
+        "name": "professions",
+        "buckets": [
+          {
+            "key": "architect"
+          },
+          {
+            "key": "auctioneer"
+          },
+          {
+            "key": "electrician"
+          },
+          {
+            "key": "general_appraiser"
+          },
+          {
+            "key": "commercial_appraiser"
+          },
+          {
+            "key": "general_contractor"
+          },
+          {
+            "key": "insurance_agent"
+          },
+          {
+            "key": "interior_designer"
+          },
+          {
+            "key": "landscape_designer"
+          },
+          {
+            "key": "locksmith"
+          },
+          {
+            "key": "mortgage_broker"
+          },
+          {
+            "key": "mover"
+          },
+          {
+            "key": "painter"
+          },
+          {
+            "key": "plumber"
+          },
+          {
+            "key": "property_inspector"
+          },
+          {
+            "key": "residential_appraiser"
+          },
+          {
+            "key": "roofing_contractor"
+          }
+        ]
+      }]
+    ],
+    "content" : [
+      [
+        {
+          "name": "q"
+        },
+        {
+        "name": "datatype",
+        "options": [
+          {
+            "name": "all",
+            "value": ""
+          },
+          {
+            "name": "question",
+            "value": "question"
+          },
+          {
+            "name": "newsarticle",
+            "value": "newsarticle"
+          }
+        ]
+      },
+      {
+        "name": "category",
+        "buckets": [
+          {
+            "key": "analysis_and_trends"
+          },
+          {
+            "key": "buying"
+          },
+          {
+            "key": "buying_overseas"
+          },
+          {
+            "key": "foreclosure"
+          },
+          {
+            "key": "landlord_and_tenant_forum"
+          },
+          {
+            "key": "legal"
+          },
+          {
+            "key": "loans_and_mortgages"
+          },
+          {
+            "key": "property_management"
+          },
+          {
+            "key": "property_repairs"
+          },
+          {
+            "key": "realtors"
+          },
+          {
+            "key": "selling"
+          },
+          {
+            "key": "tools_and_tips"
+          },
+          {
+            "key": "other_services"
+          }
+        ]
+      }]
+    ],
+    "analyzereturns" : [
+      [{
+        "name": "propertytype",
+        "hidden": true,
+        "buckets": []
+      },
+      {
+        "name": "subtype",
+        "options": [
+          {
+            "name": "residential_land",
+            "value": "residential_land"
+          },
+          {
+            "name": "residential_apartment",
+            "value": "residential_apartment"
+          },
+          {
+            "name": "single_family_home",
+            "value": "single_family_home"
+          },
+          {
+            "name": "townhome_single_unit",
+            "value": "townhome_single_unit"
+          },
+          {
+            "name": "condo_single_unit",
+            "value": "condo_single_unit"
+          },
+          {
+            "name": "duplex_single_unit",
+            "value": "duplex_single_unit"
+          },
+          {
+            "name": "garden_home_single_unit",
+            "value": "garden_home_single_unit"
+          },
+          {
+            "name": "quadruplex",
+            "value": "quadruplex"
+          },
+          {
+            "name": "triplex",
+            "value": "triplex"
+          },
+          {
+            "name": "mobile_home",
+            "value": "mobile_home"
+          },
+          {
+            "name": "time_share",
+            "value": "time_share"
+          },
+          {
+            "name": "cabin",
+            "value": "cabin"
+          },
+          {
+            "name": "loft_style",
+            "value": "loft_style"
+          },
+          {
+            "name": "twin_home",
+            "value": "twin_home"
+          },
+          {
+            "name": "other_residential",
+            "value": "other_residential"
+          }
+        ]
+      },
+      {
+        "name": "bedroom",
+        "options": [
+          {
+            "name": "1",
+            "value": 1
+          },
+          {
+            "name": "2",
+            "value": 2
+          },
+          {
+            "name": "3",
+            "value": 3
+          },
+          {
+            "name": "4",
+            "value": 4
+          }
+        ]
+      }]
+    ]
+  },
+  "status": "success"
+}

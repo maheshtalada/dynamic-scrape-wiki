@@ -1,0 +1,82 @@
+{
+    "steps" : {
+      "start": {
+        "index" : 0,
+        "title": "TENANTAPPLYSTART",
+        "linkPath": "/profile/tenant-application/start",
+        "checkCanNavigate": "Start",
+        "getEndpoint": "tenantstartschema",
+        "saveEndpoint": "tenantstartschemasave",
+        "next": "personal-info"
+      },
+      "personal-info": {
+        "index" : 1,
+        "title": "TENANTPERSONALINFO",
+        "linkPath": "/profile/tenant-application/personal-info",
+        "getEndpoint": "tenantinfoschema",
+        "saveEndpoint": "tenantinfoschemasave",
+        "next": "income",
+        "checkCanNavigate": "Personal"
+      },
+      "income": {
+        "index" : 2,
+        "title": "TENANTINCOME",
+        "linkPath": "/profile/tenant-application/income",
+        "checkCanNavigate": "Income",
+        "getEndpoint": "tenantincomeschema",
+        "saveEndpoint": "tenantincomeschemasave",
+        "next": "residences",
+        "prev": "personal-info"
+      },
+      "residences": {
+        "index" : 3,
+        "title": "TENANTRESIDENCES",
+        "linkPath": "/profile/tenant-application/residences",
+        "checkCanNavigate": "Residences",
+        "getEndpoint": "tenantresidencesschema",
+        "saveEndpoint": "tenantresidencesschemasave",
+        "next": "household",
+        "prev": "income"
+      },
+      "household": {
+        "index" : 4,
+        "title": "TENANTHOUSEHOLD",
+        "linkPath": "/profile/tenant-application/household",
+        "checkCanNavigate": "Household",
+        "getEndpoint": "tenanthouseholdschema",
+        "saveEndpoint": "tenanthouseholdschemasave",
+        "next": "disclosures",
+        "prev": "residences"
+      },
+      "disclosures": {
+        "index" : 5,
+        "title": "TENANTDISCLOSURES",
+        "linkPath": "/profile/tenant-application/disclosures",
+        "checkCanNavigate": "Disclosures",
+        "getEndpoint": "tenantdisclosuresschema",
+        "saveEndpoint": "tenantdisclosuresschemasave",
+        "prev": "household",
+        "next": "documents"
+      },
+      "documents": {
+        "index" : 6,
+        "title": "TENANTDOCUMENTS",
+        "linkPath": "/profile/tenant-application/documents",
+        "checkCanNavigate": "DOCUMENTS",
+        "prev": "disclosures",
+        "next": "confirm"
+      },
+      "confirm": {
+          "index" : 7,
+          "title" : "TENANTCONFIRMSTEP",
+          "header": "REVIEWANDCONFIRM",
+          "linkPath" : "/profile/tenant-application/confirm",
+          "canNavigate" : true,
+          "prev" : "documents",
+          "getEndpoint" : "tenantconfirmdetails",
+          "saveEndpoint" : "tenantconfirmsave"
+      }
+    },
+    "pageTitle" : "",
+    "pageDescription" : ""
+  }

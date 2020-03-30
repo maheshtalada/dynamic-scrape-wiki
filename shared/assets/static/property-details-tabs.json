@@ -1,0 +1,171 @@
+{
+  "tabsConfig" : [
+    {
+      "name" : "overview",
+      "key" : "overview",
+      "label" : "OVERVIEW",
+      "default" : true,
+      "classes" : "",
+      "order" : 1,
+      "iconClass": "pe-7s-overview",
+      "tabHTMLId" : "#overview"
+    },
+    {
+      "name" : "details",
+      "key" : "details",
+      "label" : "DETAILS",
+      "reduxAction": "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "order" : 2,
+      "iconClass": "pe-7s-news-paper",
+      "storeKeyToCheck": "detailSchema",
+      "tabHTMLId" : "#details"
+    },
+    {
+      "name" : "map",
+      "key" : "map",
+      "label" : "INTERACTIVEMAP",
+      "classes" : "",
+      "order" : 4,
+      "iconClass": "pe-7s-intractive-map",
+      "renderComponent": "InteractiveMap",
+      "tabHTMLId" : "#map",
+      "minHeight" : "500px"
+    },
+    {
+      "name" : "streetView",
+      "key" : "streetView",
+      "label" : "STREETVIEW",
+      "classes" : "",
+      "order" : 3,
+      "iconClass": "pe-7s-real-estate-urban-planning",
+      "renderComponent": "StreetViewWrapper",
+      "tabHTMLId" : "#streetView",
+      "minHeight" : "300px"
+    },
+    {
+      "name" : "demographics",
+      "key" : "demographics",
+      "label" : "DEMOGRAPHICS",
+      "transitionTime" : 50,
+      "reduxAction" : "REQUEST_DEMOGRAPHICS_DATA",
+      "classes" : "",
+      "order" : 5,
+      "iconClass": "pe-7s-demographics",
+      "storeKeyToCheck": "demographics_data",
+      "tabHTMLId" : "#demographics",
+      "minHeight" : "500px"
+    },
+    {
+      "name" : "videos",
+      "key" : "videos",
+      "label" : "ADDVIDEOLINKS",
+      "reduxAction" : "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "iconClass" : "pe-7s-photos-gallery",
+      "order" : 12,
+      "storeKeyToCheck": "videoSchema",
+      "tabHTMLId" : "#videos",
+      "minHeight" : "500px"
+    },
+    {
+      "name" : "documents",
+      "key" : "documents",
+      "label" : "ADDITIONALDOCUMENTS",
+      "reduxAction" : "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "iconClass" : "pe-7s-photos-gallery",
+      "order" : 10,
+      "storeKeyToCheck": "documentSchema",
+      "tabHTMLId" : "#documents",
+      "minHeight" : "200px"
+    },
+    {
+      "name" : "floorPlans",
+      "key" : "floorPlans",
+      "label" : "FLOORPLAN",
+      "reduxAction" : "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "iconClass" : "pe-7s-photos-gallery",
+      "order" : 11,
+      "storeKeyToCheck": "floorPlanSchema",
+      "tabHTMLId" : "#floorPlans",
+      "minHeight" : "500px"
+    },
+    {
+      "name" : "externalLinks",
+      "key" : "externalLinks",
+      "label" : "EXTERNALLINKS",
+      "reduxAction" : "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "iconClass" : "pe-7s-photos-gallery",
+      "order" : 13,
+      "storeKeyToCheck": "externalLinkSchema",
+      "tabHTMLId" : "#externalLinks",
+      "minHeight" : "100px"
+    },
+    {
+      "name" : "schools",
+      "key" : "schools",
+      "label" : "WIDGETSCHOOL",
+      "reduxAction" : "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "iconClass" : "pe-7s-nearby-school",
+      "order" : 6,
+      "storeKeyToCheck": "schoolSchema",
+      "tabHTMLId" : "#schools",
+      "minHeight" : "500px"
+    },
+    {
+      "name" : "similarProperties",
+      "key" : "similarProperties",
+      "label" : "SIMILARLISTINGS",
+      "reduxAction" : "REQUEST_SIMILAR_PROPERTY_LISTINGS",
+      "classes" : "",
+      "iconClass" : "pe-7s-nearby-school",
+      "order" : 8,
+      "renderComponent": "ActiveListings",
+      "storeKeyToCheck": "similarListings",
+      "tabHTMLId" : "#similarProperties",
+      "minHeight" : "300px"
+    },
+    {
+      "name" : "compare",
+      "key" : "compare",
+      "label" : "COMPARE",
+      "reduxAction" : "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "iconClass" : "pe-7s-medianpricestats",
+      "order" : 7,
+      "storeKeyToCheck": "medianPriceSchema",
+      "tabHTMLId" : "#compare",
+      "minHeight" : "300px",
+      "subComponent" :  {
+        "name" : "similarProperties",
+        "key" : "similarProperties",
+        "label" : "SIMILARLISTINGS",
+        "reduxAction" : "REQUEST_SIMILAR_PROPERTY_LISTINGS",
+        "classes" : "",
+        "iconClass" : "pe-7s-nearby-school",
+        "order" : 8,
+        "renderComponent": "ActiveListings",
+        "storeKeyToCheck": "similarListings",
+        "tabHTMLId" : "#similarProperties",
+        "minHeight" : "300px"
+      }
+    },
+    {
+      "name" : "listingOwner",
+      "key" : "listingOwner",
+      "label" : "LISTINGAGENTS",
+      "reduxAction" : "REQUEST_PROPERTY_LISTING",
+      "classes" : "",
+      "iconClass" : "",
+      "order" : 14,
+      "renderComponent": "ListingAgent",
+      "storeKeyToCheck": "owner",
+      "tabHTMLId" : "#listingOwner",
+      "minHeight" : "150px"
+    }
+  ]
+}

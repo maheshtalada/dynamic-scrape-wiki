@@ -1,0 +1,77 @@
+.share-via-email {
+	&__recipient-wrap {
+		margin-bottom: 15px;
+		&__pills-wrap {
+			margin-top: 5px;
+			label {
+				font-weight: 600;
+				display: block;
+				margin: 3px 5px 0 0;
+			}
+			.pills {
+				flex: 1;
+			}
+		}
+		.pills-suggestions {
+			flex: 1;
+			padding-right: 10px;
+			border-right: 1px solid @grey-400;
+			&__suggestions {
+				ul {
+					width: 300px;
+					max-height: 200px;
+				}
+			}
+			&__pill-input-field {
+				height: 34px;
+			}
+		}
+	}
+	&__add-new-prompt {
+		margin-left: 10px;
+		position: relative;
+	}
+	&__add-new-contact-form {
+		padding: 10px;
+		.default-box-shadow();
+		background: @color-base-white;
+		animation: slideInDown 0.4s;
+		position: absolute;
+		right: 0;
+		margin-top: 5px;
+		z-index: 1;
+		.field-group {
+			.mdl-input-group {
+				width: 200px;
+				input {
+					background: inherit;
+				}
+			}
+		}
+	}
+	&__disclaimer {
+		font-size: 1.2rem;
+		font-style: italic;
+		color: @grey-700;
+	}
+}
+
+.share-via-email-button {
+	padding: 0;
+	width: 62px;
+	border-color: @color-base-primary-green;
+	color: @color-base-primary-green;
+	font-size: 1.3rem;
+	.icon-wrap {
+		background: @color-base-primary-green;
+		width: 20px;
+		margin-right: 3px;
+	}
+	i {
+		color: @color-base-white;
+		margin-right: 0;
+	}
+	&__label {
+		flex: 1;
+	}
+}

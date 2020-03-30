@@ -1,0 +1,118 @@
+export default  {
+	'GAPI_KEY' : 'AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo',
+	'CUSTOM_MARKER_ICON' : 'static/images/marker/office-building.png',
+	'CUSTOM_MARKER_ICON_LEASE' : 'static/images/marker/office-building-lease.png',
+	'CUSTOM_MARKER_ICON_SALE' : 'static/images/marker/office-building-sale.png',
+	'FORLEASE' : 'for-rent',
+	'FORSALE'	: 'for-sale',
+	'REALTOR_SEARCH_TYPE' : 'realtor',
+	'DEFAULT_SEARCH_TYPE' : 'for-sale',
+	'LOGO_IMAGE'	: 'http://betagroup.be/images/footer-logo1.png',
+	'LOADER_IMAge'	: 'static/images/loader/gears.gif',
+	'PARTIAL_SEARCH_ATTRIBUTE' : 'name',
+	'PARTIAL_SEARCH_ATTRIBUTE_CONTENT' : 'postedby',
+	'PROPERTY_SEARCH_FACETS' : {
+		'PROPERTY_TYPE' : 'propertytype',
+		'SUB_TYPE' : 'subtype',
+		'PRICE' : 'price',
+		'AREA' : 'area',
+		'SALE_TYPE' : 'saletype',
+		'ZIPCODE' : 'zipcode',
+		'CITY' : 'city',
+		'STATE' : 'state',
+		'REGION' : 'region',
+		'LOCALITY' : 'locality',
+		'CAPACITY' : 'capacity',
+		'STATUS' : 'constructionstatus',
+		'RADIUS' : 'radius',
+		'AGE' : 'age',
+		'BED' : 'bed',
+		'SEAT' : 'seat',
+		'BEDROOM': 'bedroom',
+		'RSPF' : 'rspf',
+		'CAPRATE' : 'caprate'
+	},
+	'OTHER_SERVICES_SEARCH_FACETS' : {
+		'PROFESSIONAL' : {
+			'TYPE' : 'datatype',
+			'PROFESSIONS' : 'professions',
+			'AREAS' : 'areas-locality',
+			'YEARS' : 'years'
+		},
+		'REALTOR' : {
+			'TYPE' : 'datatype',
+			'SPECIALTIES' : 'specialties',
+			'AREAS' : 'areas-locality',
+			'YEARS' : 'years'
+		},
+		'CONTENT' : {
+			'TYPE' : 'datatype',
+			'CATEGORIES' : 'categories'
+		}
+	},
+	'DEFAULT_VIEW' : 'map',
+	'LIST_VIEW' : 'list',
+	'GRID_VIEW' : 'grid',
+	'MAP_VIEW' : 'map',
+	'DEFAULT_FILTER' : true,
+	'FILTER_SHOW' : true,
+	'FILTER_HIDE' : false,
+	'MAP_PIN' : 'M0-48c-9.8 0-17.7 7.8-17.7 17.4 0 15.5 17.7 30.6 17.7 30.6s17.7-15.4 17.7-30.6c0-9.6-7.9-17.4-17.7-17.4z',
+	'SQUARE_PIN' : 'M22-48h-44v43h16l6 5 6-5h16z',
+	'SHIELD' : 'M18.8-31.8c.3-3.4 1.3-6.6 3.2-9.5l-7-6.7c-2.2 1.8-4.8 2.8-7.6 3-2.6.2-5.1-.2-7.5-1.4-2.4 1.1-4.9 1.6-7.5 1.4-2.7-.2-5.1-1.1-7.3-2.7l-7.1 6.7c1.7 2.9 2.7 6 2.9 9.2.1 1.5-.3 3.5-1.3 6.1-.5 1.5-.9 2.7-1.2 3.8-.2 1-.4 1.9-.5 2.5 0 2.8.8 5.3 2.5 7.5 1.3 1.6 3.5 3.4 6.5 5.4 3.3 1.6 5.8 2.6 7.6 3.1.5.2 1 .4 1.5.7l1.5.6c1.2.7 2 1.4 2.4 2.1.5-.8 1.3-1.5 2.4-2.1.7-.3 1.3-.5 1.9-.8.5-.2.9-.4 1.1-.5.4-.1.9-.3 1.5-.6.6-.2 1.3-.5 2.2-.8 1.7-.6 3-1.1 3.8-1.6 2.9-2 5.1-3.8 6.4-5.3 1.7-2.2 2.6-4.8 2.5-7.6-.1-1.3-.7-3.3-1.7-6.1-.9-2.8-1.3-4.9-1.2-6.4z',
+	'ROUTE' : 'M24-28.3c-.2-13.3-7.9-18.5-8.3-18.7l-1.2-.8-1.2.8c-2 1.4-4.1 2-6.1 2-3.4 0-5.8-1.9-5.9-1.9l-1.3-1.1-1.3 1.1c-.1.1-2.5 1.9-5.9 1.9-2.1 0-4.1-.7-6.1-2l-1.2-.8-1.2.8c-.8.6-8 5.9-8.2 18.7-.2 1.1 2.9 22.2 23.9 28.3 22.9-6.7 24.1-26.9 24-28.3z',
+	'SQUARE' : 'M-24-48h48v48h-48z',
+	'SQUARE_ROUNDED' : 'M24-8c0 4.4-3.6 8-8 8h-32c-4.4 0-8-3.6-8-8v-32c0-4.4 3.6-8 8-8h32c4.4 0 8 3.6 8 8v32z',
+	'MAP_LOGO_ICON' : 'M60.545,30.524c0-16.088-13.041-29.128-29.128-29.128c-16.087,0-29.128,13.041-29.128,29.128c0,11.37,6.515,21.217,16.015,26.014l13.114,16.066l13.115-16.066C54.03,51.741,60.545,41.894,60.545,30.524z M31.417,55.017c-13.527,0-24.493-10.965-24.493-24.493C6.924,16.997,17.89,6.03,31.417,6.03s24.493,10.967,24.493,24.494C55.909,44.052,44.943,55.017,31.417,55.017z',
+	'EDIT_LISTING_LINK' : '/profile/listing/property-listing/%s',
+	'EDIT_MY_PROPERTY_LINK': '/profile/create-property/details?id=%s',
+	'EDIT_MY_PROPERTY_TRANSACTION_LINK': '/profile/create-property/income-expense?id=%s',
+	'GENERATE_REPORT_LINK': '/property-listings/%s/report',
+	'GENERATE_FLYER_LINK': '/profile/flyer/template/%s',
+	'EDIT_COMPANY_LINK' : '/edit-company/%s',
+	'EDIT_ARTICLE_LINK' : '/blogs/edit/%s',
+	'CREATE_ARTICLE_LINK' : '/blogs/new',
+	'EDIT_PROFILE_LINK': '/profile',
+	'LISTING_ADDITIONAL_INFO_LINK' : '/profile/additional/property-listing/%s',
+	'CHAT_MESSAGE_TYPES' : [
+		'loginJoinRoom',
+		'userJoined',
+		'userLeft',
+		'joinRoom',
+		'recivesocketId',
+		'joinRequested',
+		'userRequested',
+		'userStartedTyping',
+		'userStoppedTyping',
+		'messageAdded',
+		'userRefreshed',
+		'scrapeLog'
+	].reduce((accum, msg) => {
+		accum[ msg ] = msg;
+		return accum;
+	}, {}),
+	'DEFAULT_SEARCH_METRO' : 'dallas',
+	'FACEBOOK_URL': 'https://www.facebook.com/propshubinc/',
+	'TWITTER_URL': 'https://twitter.com/PropsHub',
+	'YOUTUBE_URL': 'https://www.youtube.com/channel/UC8OFlleFFourdBbKl1l0ovQ',
+	'PINTEREST_URL': 'https://in.pinterest.com/propshub/',
+	'INSTAGRAM_URL': 'https://www.instagram.com/propshubinc/',
+	'LINKEDIN_URL': 'https://www.linkedin.com/company/propshub/',
+	'MEDIUM_URL': 'https://medium.com/propshub',
+	'HELP_ME_INVEST_LINK': '/guided-search/investment',
+	'ANALYZE_RETURNS_LINK': '/roi-calculator',
+	'MY_PORTFOLIO_ROUTE' : '/analyze-portfolio',
+	'BLOGS_ROUTE' : '/blogs',
+	'DALLAS_PROPSHUB_INDEX_LINK': '/residential-investment-markets/texas/dallas-fort-worth/market-index/map/1',
+	'PHOENIX_PROPSHUB_INDEX_LINK': '/residential-investment-markets/arizona/phoenix/market-index/map/2',
+	'INDIANAPOLIS_PROPSHUB_INDEX_LINK': '/residential-investment-markets/indiana/indianapolis/market-index/map/3',
+	'ZILLOW_SITE_URL': 'http://www.zillow.com/',
+	'ZESTIMATE_URL': 'https://www.zillow.com/wikipages/What-is-a-Zestimate/',
+	'ZILLOW_TERMS_URL': 'https://www.zillow.com/corp/Terms.htm',
+	'ZILLOW_LOGO_URL': 'https://www.zillow.com/widgets/GetVersionedResource.htm?path=/static/logos/Zillowlogo_200x50.gif',
+	'TENANT_APPLY_START_LINK' : '/profile/tenant-application/start?listingid=%s'
+};
+
+
+
+

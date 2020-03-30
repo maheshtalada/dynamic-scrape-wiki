@@ -1,0 +1,327 @@
+.schema__text, .schema__short__text, .schema__text-area, .schema__text-time, .schema__text-date {
+
+	::-webkit-input-placeholder { color:#6A6A6A; }
+	::-moz-placeholder { color:#6A6A6A; } /* firefox 19+ */
+	:-ms-input-placeholder { color:#6A6A6A; } /* ie */
+	input::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder {
+		color:#6A6A6A;
+		opacity: 1;
+	}
+	input:read-only {
+		background-color: @color-base-light-gray;
+	}
+	input.form-control {
+		background-color: @color-base-white;
+	}
+
+	> .schema__value--edit {
+		&.schema__value--error {
+			::-webkit-input-placeholder { color:@color-base-secondary-red; }
+			::-moz-placeholder { color:@color-base-secondary-red; } /* firefox 19+ */
+			:-ms-input-placeholder { color:@color-base-secondary-red; } /* ie */
+			input:-moz-placeholder { color:@color-base-secondary-red; }
+		}
+	}
+	position: relative;
+
+	> .schema__label--edit {
+		&.schema__label {
+			display: block;
+			z-index: 1;
+			position: absolute;
+			left: 12px;
+			top: 0;
+			color: @color-base-primary-green;
+			font-weight: 600;
+			font-size: 1.3rem;
+			/*.bp-small({
+				left: 21px;
+			})*/
+			&.label-type-prefix {
+				left: 23px;
+			}
+		}
+		&.schema__label--empty {
+			display: none;
+		}
+		&.schema__label--error {
+			color: @color-base-secondary-red;
+		}
+	}
+
+	> .schema__value--edit {
+		input {
+			&:extend(.schema--input);
+			width: 100%;
+		}
+		.type-prefix {
+			position: absolute;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			font-size: 2rem;
+			height: 96%;
+			//background: #eee;
+			padding: 0 4px;
+			left: 1px;
+			top: 1px;
+			border-top-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+			text-shadow: 0px 0px 1px #c5c2c2;
+			color: #a0a0a0;
+
+			+input {
+				padding-left: 22px;
+			}
+		}
+		.type-postfix {
+			position: absolute;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+			font-size: 2rem;
+			height: 96%;
+			//background: #eee;
+			padding: 0 4px;
+			right: 1px;
+			top: 1px;
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			text-shadow: 0px 0px 1px #c5c2c2;
+			color: #a0a0a0;
+
+			+input {
+				padding-right: 27px;
+			}
+		}
+		textarea {
+			&:extend(.schema--textarea);
+		    height: 150px;
+			width: 100%;
+			padding-top: 15px;
+		}
+		&.schema__value--error input,
+		.schema__value--error input:focus,
+		&.schema__value--error textarea,
+		.schema__value--error  textarea:focus {
+			border-color:@color-base-secondary-red;
+		}
+		&:not(.schema__value--empty) input {
+			padding-top: 16px;
+			&.react-date-picker__inputGroup__input {
+				padding-top: 14px !important;
+			}
+		}
+		&:not(.schema__value--empty) textarea {
+			padding-top: 15px;
+		}
+	}
+
+	> .schema__value--no-label {
+		input {
+			&:extend(.schema--input);
+			width: 100%;
+		}
+		&.schema__value--error input,
+		.schema__value--error input:focus {
+			border-color: @color-base-secondary-red;
+		}
+		&:not(.schema__value--empty) input {
+			padding-top: 0px;
+		}
+	}
+
+	> .schema__value:not(.schema__value--error) {
+		input, textarea {
+			&:focus {
+				border-color: @color-base-apple-green;
+				&::-ms-value {
+					background: transparent;
+					color: @color-base-mono-darkest;
+				}
+			}
+		}
+	}
+
+	.schema__error {
+		// position: block;
+		bottom: 5px;
+		left: 10px;
+		display: block;
+	}
+}
+
+.schema__text-icon {
+	i {
+		margin-right: 12px;
+	}
+}
+
+.schema__text__short {
+	> .schema__value--edit {
+		.bp-small({ width: 33.33%; });
+	}
+}
+
+.schema__text-area {
+	margin-bottom: 20px;
+
+	//> .schema__label--edit:not(.schema__label--empty) {
+	//	display: none;
+	//}
+
+	.schema__text-area__char-count {
+		position: absolute;
+		bottom: 0px;
+		right: 2px;
+	}
+
+	.schema__value:not(.schema__value--error) {
+		textarea  {
+			margin-bottom: 20px;
+		}
+	}
+
+}
+
+.schema__text__currency {
+	&__container {
+		padding-left: 12px;
+		width: 100%;
+	}
+	&__currency-symbol {
+		display: inline-block;
+		position: absolute;
+		top:20px;
+		left: 0;
+	}
+	input {
+		padding-left: 10px;
+	}
+	.schema__error {
+		padding-left: 12px;
+	}
+}
+
+.schema__text-date {
+	> .schema__label {
+		margin-bottom: 2px;
+	}
+
+	.react-date-picker {
+		background-color: #fff;
+		&__wrapper {
+			border: none;
+		}
+
+		&__calendar-button {
+			display: flex;
+			align-items: center;
+		}
+
+		&__clear-button {
+			padding: 0;
+		}
+
+		&__inputGroup {
+			padding: 0;
+			&__divider {
+				padding: 1px 4px 0 0;
+			}
+			&__input {
+				border: none !important;
+				background-color: transparent;
+				width: auto !important;
+				padding: 0px 4px 0 0 !important;
+				box-sizing: border-box;
+				min-width: 35px;
+			}
+		}
+
+	}
+
+}
+
+.schema__text__password__container {
+	> .show-hide-control {
+		position: absolute;
+		right: 13px;
+		top: 10px;
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+}
+
+.schema__text__ajax-populate {
+	.pac-container {
+		width: 100%;
+		.pac-item {
+			color: @color-text;
+		}
+	}
+}
+
+.schema__text__input__container {
+	.schema--tooltip__tooltip-icon {
+		position: absolute;
+		right: 10px;
+		top: 8px;
+	}
+
+	.schema--tooltip__tooltip-icon[data-tooltipstate=true]:after{
+		bottom: -45px;
+	}
+
+	.react-date-picker {
+		outline: none;
+		height: 40px;
+		font-size: 1.5rem;
+		display: inline-block;
+		width: 100%;
+		padding: 0 24px 0 12px;
+		border: 1px solid @grey-backgroud;
+		width: 100%;
+	}
+}
+
+/*.schema__text__pill {
+
+	&__container {
+		> button {
+			position: absolute;
+			right: 0;
+			top: 1px;
+			height: 43px;
+			padding: 6px 12px;
+			margin: 0;
+
+		}
+	}
+}*/
+
+.schema__text__suggestion {
+	&__dropdown-icon {
+		font-size: 2.3rem;
+		position: absolute;
+		top: 10px;
+		right: 2px;
+		font-weight: 600;
+		color: @color-schema-dropdown-label;
+	}
+}
+
+.schema__text__auto-suggestion {
+	.pills-suggestions__suggestions {
+		width: 100%;
+		ul {
+			max-width: 100%;
+			max-height: 200px;
+		}
+	}
+}

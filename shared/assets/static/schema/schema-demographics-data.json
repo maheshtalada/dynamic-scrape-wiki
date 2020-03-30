@@ -1,0 +1,714 @@
+{
+  "schemas": [
+    {
+      "label": "demographics",
+      "id": "demographicdata",
+      "type": "card-wrapper",
+      "children": [
+        {
+          "label": "WIDGETPOPULATION",
+          "type": "card",
+          "children": [
+            {
+              "label": "TOTALPOPULATION",
+              "labelInfo": "2015",
+              "id": "totalPopulation",
+              "type": "content",
+              "data": {
+                "value": "19578"
+              }
+            },
+            {
+              "label": "MEDIANAGE",
+              "id": "medianAge",
+              "type": "content",
+              "data": {
+                "value": "48.3"
+              }
+            },
+            {
+              "label": "MALEFEMALERATIO",
+              "id": "maleFemale",
+              "type": "custom-ratio-bar",
+              "data": {
+                "value": [
+                  48,
+                  52
+                ],
+                "backgroundColor": [
+                  "rgb(255, 99, 132)",
+                  "rgb(54, 162, 235)"
+                ]
+              }
+            },
+            {
+              "label": "PIECHART",
+              "id": "populationPieChart",
+              "type": "chart",
+              "data": {
+                "graphType": "pie",
+                "dataset": {
+                  "labels": [
+                    "WHITE",
+                    "BLACK",
+                    "ASIAN",
+                    "AMERICAN",
+                    "HISPANIC",
+                    "OTHER"
+                  ],
+                  "datasets": [
+                    {
+                      "data": [
+                        68.2,
+                        0.08,
+                        27.06,
+                        0.05,
+                        2.65,
+                        1.96
+                      ],
+                      "backgroundColor": [
+                        "rgb(255, 99, 132",
+                        "rgb(54, 162, 235)",
+                        "rgb(75, 192, 192)",
+                        "rgb(255, 255, 153)",
+                        "rgb(255, 0, 127)",
+                        "rgb(224, 224, 224)"
+                      ],
+                      "hoverBackgroundColor": [
+                        "rgb(255, 99, 132",
+                        "rgb(54, 162, 235)",
+                        "rgb(75, 192, 192)",
+                        "rgb(255, 255, 153)",
+                        "rgb(255, 0, 127)",
+                        "rgb(224, 224, 224)"
+                      ],
+                      "dataLabels": {
+                        "align": "center",
+                        "anchor": "end"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "label": "SOURCE",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETPOPULATIONFOOTER"
+              }
+            }
+          ]
+        },
+        {
+          "label": "WIDGETINCOME",
+          "type": "card",
+          "children": [
+            {
+              "label": "EMPLOYEDPERCENTAGE",
+              "id": "employedPercentage",
+              "type": "content",
+              "data": {
+                "value": "96.06"
+              }
+            },
+            {
+              "label": "MEDIANINCOME",
+              "id": "medianIncome",
+              "type": "chart",
+              "data": {
+                "graphType": "bar",
+                "dataset": {
+                  "labels": [
+                    "2011",
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "MEDIANINCOME",
+                      "data": [
+                        93417.0,
+                        96310.0,
+                        100012.0,
+                        101687.0,
+                        103416.0
+                      ],
+                      "backgroundColor": "rgb(75, 192, 192)",
+                      "borderColor": "rgb(75, 192, 192)",
+                      "borderWidth": 1,
+                      "dataLabels": {
+                        "align": "end",
+                        "anchor": "start"
+                      }
+                    }
+                  ],
+                  "options": {
+                    "axisLabels": {
+                      "xAxes": [
+                        "MEDIANINCOMEXAXIS"
+                      ],
+                      "yAxes": [
+                        "MEDIANINCOMEYAXIS"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "label": "SOURCE",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETINCOMEFOOTER"
+              }
+            }
+          ]
+        },
+        {
+          "label": "WIDGETHOUSING",
+          "type": "card",
+          "children": [
+            {
+              "label": "TOTALUNITS",
+              "id": "totalUnit",
+              "type": "content",
+              "data": {
+                "value": "7843"
+              }
+            },
+            {
+              "label": "OCCUPIEDUNITPERCENTAGE",
+              "id": "occupiedUnitPercentage",
+              "type": "custom-ratio-bar",
+              "data": {
+                "value": [
+                  94,
+                  6
+                ],
+                "backgroundColor": [
+                  "rgb(255, 99, 132)",
+                  "rgb(54, 162, 235)"
+                ]
+              }
+            },
+            {
+              "label": "MEDIANPROPERTYTAX",
+              "id": "medianPropertyTax",
+              "type": "chart",
+              "data": {
+                "graphType": "horizontal-bar",
+                "dataset": {
+                  "labels": [
+                    "2011",
+                    "2012",
+                    "2013",
+                    "2014",
+                    "2015"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "MEDIANPROPERTYTAX",
+                      "data": [
+                        10001.0,
+                        10001.0,
+                        10001.0,
+                        10001.0,
+                        10001.0
+                      ],
+                      "backgroundColor": "rgb(75, 192, 192)",
+                      "borderColor": "rgb(75, 192, 192)",
+                      "borderWidth": 1,
+                      "dataLabels": {
+                        "align": "end",
+                        "anchor": "end"
+                      }
+                    }
+                  ],
+                  "options": {
+                    "axisLabels": {
+                      "xAxes": [
+                        "MEDIANPROPERTYTAXXAXIS"
+                      ],
+                      "yAxes": [
+                        "MEDIANPROPERTYTAXYAXIS"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "label": "SOURCE",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETHOUSINGFOOTER"
+              }
+            }
+          ]
+        },
+        {
+          "label": "WIDGETVIOLENTCRIME",
+          "type": "card",
+          "children": [
+            {
+              "label": "VIOLENTCRIMEDATA",
+              "id": "violentCrimeData",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "dataset": {
+                  "labels": [
+                    "2010",
+                    "2011",
+                    "2012",
+                    "2013",
+                    "2014"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "Los Altos Police Dept",
+                      "data": [
+                        27.6,
+                        20.5,
+                        20.2,
+                        76.1,
+                        23.1
+                      ],
+                      "backgroundColor": "rgb(75, 192, 192)",
+                      "borderColor": "rgb(75, 192, 192)",
+                      "dataLabels": {
+                        "align": "start",
+                        "anchor": "start"
+                      }
+                    },
+                    {
+                      "label": "California",
+                      "data": [
+                        439.6,
+                        411.2,
+                        423.5,
+                        402.6,
+                        396.1
+                      ],
+                      "backgroundColor": "rgb(54, 162, 235)",
+                      "borderColor": "rgb(54, 162, 235)"
+                    },
+                    {
+                      "label": "United States",
+                      "data": [
+                        404.5,
+                        387.1,
+                        387.8,
+                        379.1,
+                        375.7
+                      ],
+                      "backgroundColor": "rgb(255, 99, 132)",
+                      "borderColor": "rgb(255, 99, 132)",
+                      "dataLabels": {
+                        "align": "end",
+                        "anchor": "end"
+                      }
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {
+                      "xAxes": [
+                        "VIOLENTCRIMEDATAXAXIS"
+                      ],
+                      "yAxes": [
+                        "VIOLENTCRIMEDATAYAXIS"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "label": "SOURCE",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETVIOLENTCRIMEFOOTER"
+              }
+            }
+          ]
+        },
+        {
+          "label": "WIDGETPROPERTYCRIME",
+          "type": "card",
+          "children": [
+            {
+              "label": "PROPERTYCRIMEDATA",
+              "id": "propertyCrimeData",
+              "type": "chart",
+              "data": {
+                "graphType": "line-without-layer",
+                "dataset": {
+                  "labels": [
+                    "2010",
+                    "2011",
+                    "2012",
+                    "2013",
+                    "2014"
+                  ],
+                  "datasets": [
+                    {
+                      "label": "Los Altos Police Dept",
+                      "data": [
+                        804.1,
+                        917.6,
+                        1006.6,
+                        1184.4,
+                        1064.3
+                      ],
+                      "backgroundColor": "rgb(75, 192, 192)",
+                      "borderColor": "rgb(75, 192, 192)",
+                      "dataLabels": {
+                        "align": "start",
+                        "anchor": "start"
+                      }
+                    },
+                    {
+                      "label": "California",
+                      "data": [
+                        2629.9,
+                        2584.2,
+                        2761.8,
+                        2651.2,
+                        2441.1
+                      ],
+                      "backgroundColor": "rgb(54, 162, 235)",
+                      "borderColor": "rgb(54, 162, 235)"
+                    },
+                    {
+                      "label": "United States",
+                      "data": [
+                        2945.9,
+                        2905.4,
+                        2868.0,
+                        2733.3,
+                        2596.1
+                      ],
+                      "backgroundColor": "rgb(255, 99, 132)",
+                      "borderColor": "rgb(255, 99, 132)",
+                      "dataLabels": {
+                        "align": "end",
+                        "anchor": "end"
+                      }
+                    }
+                  ],
+                  "options": {
+                    "displayValue": false,
+                    "axisLabels": {
+                      "xAxes": [
+                        "PROPERTYCRIMEDATAXAXIS"
+                      ],
+                      "yAxes": [
+                        "PROPERTYCRIMEDATAYAXIS"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "label": "SOURCE",
+              "type": "card-footer",
+              "data": {
+                "value": "WIDGETPROPERTYCRIMEFOOTER"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "WIDGETSCHOOL",
+      "type": "card-large",
+      "children": [
+        {
+          "id": "schools",
+          "type": "data-grid",
+          "data": {
+            "dataset": {
+              "labels": [
+                "SCHOOLNAME",
+                "LOWESTGRADE",
+                "HIGHESTGRADE",
+                "SCHOOLTYPE",
+                "WEBSITE",
+                "ZIPCODE"
+              ],
+              "datasets": [
+                {
+                  "SCHOOLNAME": "Los Altos High",
+                  "LOWESTGRADE": "09",
+                  "HIGHESTGRADE": "12",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "Almond Elementary",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "06",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.almondschool.org",
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "Bullis Charter",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "08",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.bullischarterschool.com",
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "Santa Rita Elementary",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "06",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.santaritaschool.org",
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "Ardis G. Egan Junior High",
+                  "LOWESTGRADE": "07",
+                  "HIGHESTGRADE": "08",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.eganschool.org",
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "Gardner Bullis Elementary",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "06",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.gardnerbullis.org",
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "SCHOOL FOR INDEPENDENT LEARNERS",
+                  "LOWESTGRADE": "8",
+                  "HIGHESTGRADE": "12",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "Covington Elementary",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "06",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.covingtonschool.org",
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "LASD Preschool",
+                  "LOWESTGRADE": null,
+                  "HIGHESTGRADE": null,
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.losaltos.k12.ca.us",
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "HERITAGE ACADEMY",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "6",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "ST NICHOLAS ELEMENTARY SCHOOL",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "8",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94022"
+                },
+                {
+                  "SCHOOLNAME": "VENTANA SCHOOL",
+                  "LOWESTGRADE": "PK",
+                  "HIGHESTGRADE": "4",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "PINEWOOD PRIVATE SCHOOL LOWER CAMP",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "2",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "LOS ALTOS CHRISTIAN SCHOOL",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "8",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "Loyola Elementary",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "06",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.loyolaschool.org",
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "Georgina P. Blach Junior High",
+                  "LOWESTGRADE": "07",
+                  "HIGHESTGRADE": "08",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.blachschool.org",
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "MIRAMONTE SCHOOL",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "8",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "Oak Avenue Elementary",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "06",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": "www.oakschool.org",
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "WALDORF SCHOOL OF THE PENINSULA",
+                  "LOWESTGRADE": "PK",
+                  "HIGHESTGRADE": "12",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "ST SIMON",
+                  "LOWESTGRADE": "PK",
+                  "HIGHESTGRADE": "8",
+                  "SCHOOLTYPE": "Private",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                },
+                {
+                  "SCHOOLNAME": "Montclaire Elementary",
+                  "LOWESTGRADE": "KG",
+                  "HIGHESTGRADE": "05",
+                  "SCHOOLTYPE": "Regular School",
+                  "WEBSITE": null,
+                  "ZIPCODE": "94024"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "label": "SOURCE",
+          "type": "card-footer",
+          "data": {
+            "value": "WIDGETSCHOOLFOOTER"
+          }
+        }
+      ]
+    },
+    {
+      "label": "WIDGETDISASTERDATA",
+      "type": "card-large",
+      "children": [
+        {
+          "id": "schools",
+          "type": "data-grid",
+          "data": {
+            "dataset": {
+              "labels": [
+                "INCIDENTTITLE",
+                "INCIDENTTYPE",
+                "IHPROGRAMDECLARED",
+                "IAPROGRAMDECLARED",
+                "PAPROGRAMDECLARED",
+                "HMPROGRAMDECLARED",
+                "INCIDENTBEGINDATE"
+              ],
+              "datasets": [
+                {
+                  "INCIDENTTITLE": "SEVERE WINTER STORMS, FLOODING, AND MUDSLIDES",
+                  "INCIDENTTYPE": "Flood",
+                  "IHPROGRAMDECLARED": "false",
+                  "IAPROGRAMDECLARED": "false",
+                  "PAPROGRAMDECLARED": "true",
+                  "HMPROGRAMDECLARED": "true",
+                  "INCIDENTBEGINDATE": "02/01/2017"
+                },
+                {
+                  "INCIDENTTITLE": "SEVERE WINTER STORMS, FLOODING, AND MUDSLIDES",
+                  "INCIDENTTYPE": "Severe Storm(s)",
+                  "IHPROGRAMDECLARED": "false",
+                  "IAPROGRAMDECLARED": "false",
+                  "PAPROGRAMDECLARED": "true",
+                  "HMPROGRAMDECLARED": "true",
+                  "INCIDENTBEGINDATE": "01/03/2017"
+                },
+                {
+                  "INCIDENTTITLE": "WILDFIRES",
+                  "INCIDENTTYPE": "Fire",
+                  "IHPROGRAMDECLARED": "false",
+                  "IAPROGRAMDECLARED": "false",
+                  "PAPROGRAMDECLARED": "true",
+                  "HMPROGRAMDECLARED": "false",
+                  "INCIDENTBEGINDATE": "06/21/2008"
+                },
+                {
+                  "INCIDENTTITLE": "SUMMIT FIRE",
+                  "INCIDENTTYPE": "Fire",
+                  "IHPROGRAMDECLARED": "false",
+                  "IAPROGRAMDECLARED": "false",
+                  "PAPROGRAMDECLARED": "true",
+                  "HMPROGRAMDECLARED": "false",
+                  "INCIDENTBEGINDATE": "05/22/2008"
+                },
+                {
+                  "INCIDENTTITLE": "HURRICANE KATRINA EVACUATION",
+                  "INCIDENTTYPE": "Hurricane",
+                  "IHPROGRAMDECLARED": "false",
+                  "IAPROGRAMDECLARED": "false",
+                  "PAPROGRAMDECLARED": "true",
+                  "HMPROGRAMDECLARED": "false",
+                  "INCIDENTBEGINDATE": "08/29/2005"
+                },
+                {
+                  "INCIDENTTITLE": "CROY FIRE",
+                  "INCIDENTTYPE": "Fire",
+                  "IHPROGRAMDECLARED": "false",
+                  "IAPROGRAMDECLARED": "false",
+                  "PAPROGRAMDECLARED": "true",
+                  "HMPROGRAMDECLARED": "false",
+                  "INCIDENTBEGINDATE": "09/23/2002"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "label": "SOURCE",
+          "type": "card-footer",
+          "data": {
+            "value": "WIDGETDISASTERDATAFOOTER"
+          }
+        }
+      ]
+    }
+  ]
+}

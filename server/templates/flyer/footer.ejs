@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>PDF Test</title>
+</head>
+<body>
+<footer>
+    <%if (data.realtor) {%>
+    <div class="footer footer-left inline-block">
+        <%if (data.realtor.photo) {%>
+        <div class="realtor-pic inline-block pull-left">
+            <img src="<%= data.realtor.photo %>" />
+        </div>
+        <%}%>
+        <div class="realtor-info inline-block pull-left">
+            <div class="realtor-name"><%= data.realtor.name%>
+                <%if (data.realtor.siteurl) {%>
+                <a href="<%= data.realtor.siteurl %>"></a>
+                <%}%>
+            </div>
+            <div class="realtor-phone">
+                <%if (data.realtor.phone) {%>
+                <%= data.realtor.phone.replace(/./g,(v,i)=>(i === 2 || i === 5) ? v + '-' : v)%>
+                <%}%>
+            </div>
+            <div class="realtor-email"><%= data.realtor.email%></div>
+        </div>
+    </div>
+    <%}%>
+</footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.error-box {
+	background-color: #dc2a4d;
+	font-size: 1.8rem;
+	padding: 20px 50px;
+	margin-bottom: 20px;
+	position: relative;
+	color: @color-base-white;
+	&.suggestion{
+		background-color: @color-base-secondary-blue;
+		color: @color-base-white;
+	}
+}
+
+.error-message {
+	color: @color-error-border;
+	border: 1px solid @color-error-border;
+	border-radius: 3px;
+	padding: 4px;
+	margin: 0 10px;
+	font-weight: 600;
+	display: inline-flex;
+	&__close-btn {
+		margin-left: 20px;
+		i {
+			font-weight: 600;
+		}
+	}
+}

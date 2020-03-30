@@ -1,0 +1,70 @@
+{
+  "rowHeaders" : [
+    {
+      "name" : "title",
+      "label" : "TITLE",
+      "order" : "1"
+    },
+    {
+      "name" : "summary",
+      "label" : "SUMMARY",
+      "order" : "2"
+    },
+    {
+      "name" : "name",
+      "label" : "PROPERTYNAME",
+      "order" : "3"
+    },
+    {
+      "name" : "description",
+      "label" : "PROPERTYDESCRIPTION",
+      "order" : "4"
+    },
+    {
+      "name" : "type",
+      "label" : "PROPERTYTYPE",
+      "order" : "5"
+    },
+    {
+      "name" : "subType",
+      "label" : "PROPERTYSUBTYPE",
+      "order" : "6"
+    }
+  ],
+  "columnHeaders" : [
+    {
+      "name" : "name",
+      "label" : "NAME",
+      "order" : "1"
+    },
+    {
+      "name" : "price",
+      "label" : "PRICE",
+      "order" : "2"
+    },
+    {
+      "name" : "area",
+      "label" : "AREA",
+      "order" : "3"
+    },
+    {
+      "name" : "actions",
+      "label" : "ACTIONS",
+      "order" : "4"
+    }
+  ],
+  "actions" : [
+    {
+      "name" : "edit",
+      "label" : "EDITLISTING",
+      "icon" : "edit-listing",
+      "callback" : "editListing"
+    },
+    {
+      "name" : "soldout",
+      "label" : "SOLDOUT",
+      "icon" : "sold-out",
+      "callback" : "listingSoldout"
+    }
+  ]
+}

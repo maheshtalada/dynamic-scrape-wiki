@@ -1,0 +1,34 @@
+.pdf-schema__open-house {
+	display: flex;
+	border-bottom: 2px solid @color-base-primary-green;
+
+	.schema__value {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+		align-items: flex-end;
+		line-height: 2rem;
+	}
+	&__icon {
+		height: 65px;
+		width: 65px;
+	}
+
+	&__time {
+		padding-left: 12px;
+		font-size: 1.5rem;
+		font-weight: 600;
+		.schema__content.schema__content__grid.schema__component {
+			width: 50%;
+			display: inline-flex;
+			justify-content: flex-start;
+			top: -17px;
+			position: relative;
+		}
+
+		.schema__content.schema__content__grid.schema__component:first-child {
+			width: 100%;
+			top: -3px;
+		}
+	}
+}

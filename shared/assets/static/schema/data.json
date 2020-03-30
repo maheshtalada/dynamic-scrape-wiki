@@ -1,0 +1,259 @@
+{
+  "schemas" : [
+    {
+      "type": "header",
+      "children": [
+        {
+          "id": "analyzereturn.purchaseType",
+          "type": "list",
+          "subtype": "list-tabs",
+          "data": {
+            "optionReference": "PURCHASETYPEREFERENCEVALUES",
+            "value": "cashPurchase"
+          },
+          "tabs": [
+            {
+              "id": "cashPurchase",
+              "type": "list",
+              "children": [
+                {
+                  "label": "PURCHASEDATE",
+                  "id": "debtservice.PurchaseDate",
+                  "type": "date",
+                  "data": {
+                    "value": ""
+                  }
+                },
+                {
+                  "type": "custom-group",
+                  "children": [
+                    {
+                      "label": "PURCHASEPRICE",
+                      "labelInfo": "USD",
+                      "id": "analyzereturn.salePrice",
+                      "type": "text",
+                      "data": {
+                        "value" : "100000"
+                      }
+                    },
+                    {
+                      "label": "INITIALIMPROVEMENTCOST",
+                      "labelInfo": "USD",
+                      "id": "analyzereturn.initialImprovementCos",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ],
+              "tabValue": "cashPurchase"
+            },
+            {
+              "id": "leveragedPurchase",
+              "type": "list",
+              "children": [
+                {
+                  "label": "PURCHASEDATE",
+                  "id": "debtservice.PurchaseDate",
+                  "type": "date",
+                  "data": {
+                    "value": ""
+                  }
+                },
+                {
+                  "type": "custom-group",
+                  "children": [
+                    {
+                      "label": "PURCHASEPRICE",
+                      "labelInfo": "USD",
+                      "id": "analyzereturn.salePrice",
+                      "type": "text",
+                      "data": {
+                        "value" : "100000",
+                        "changeableFields": [
+                          "debtservice.downpaymentAmount"
+                        ]
+                      }
+                    },
+                    {
+                      "label": "INITIALIMPROVEMENTCOST",
+                      "labelInfo": "USD",
+                      "id": "analyzereturn.initialImprovementCos",
+                      "type": "text"
+                    }
+                  ]
+                },
+                {
+                  "type": "custom-group",
+                  "children": [
+                    {
+                      "label": "DOWNPAYMENTPERCENTAGE",
+                      "labelInfo": "PERCENTAGE",
+                      "id": "debtservice.downpaymentPercentage",
+                      "type": "text-calculator",
+                      "data": {
+                        "formulaType": "downPaymentPercentage",
+                        "changeableFields": [
+                          "debtservice.downpaymentAmount"
+                        ]
+                      },
+                      "cherrypickids": {
+                        "salePrice": "analyzereturn.salePrice",
+                        "downPaymentCost": "debtservice.downpaymentAmount"
+                      }
+                    },
+                    {
+                      "label": "DOWNPAYMENTCOST",
+                      "labelInfo": "USD",
+                      "id": "debtservice.downpaymentAmount",
+                      "type": "text-calculator",
+                      "data": {
+                        "formulaType": "downPaymentCost",
+                        "changeableFields": [
+                          "debtservice.downpaymentPercentage"
+                        ]
+                      },
+                      "cherrypickids": {
+                        "salePrice": "analyzereturn.salePrice",
+                        "downPaymentPercentage": "debtservice.downpaymentPercentage"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "custom-group",
+                  "children": [
+                    {
+                      "label": "LOANDURATION",
+                      "labelInfo": "YEARS",
+                      "id": "analyzereturn.loanDuration",
+                      "type": "text-suggestion",
+                      "data": {
+                        "optionReference": "LOANDURATIONREFERENCEVALUES",
+                        "value": "30"
+                      },
+                      "validation": [
+                        {
+                          "type": "pattern",
+                          "message": "DECIMALUPTO4DIGIT",
+                          "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                        },
+                        {
+                          "type": "max-value",
+                          "message": "MAXVALUE",
+                          "value": "100"
+                        }
+                      ],
+                      "dependentId": "analyzereturn.loanInterestRate"
+                    },
+                    {
+                      "label": "LOANINTERESTRATE",
+                      "labelInfo": "PERCENTAGE",
+                      "id": "analyzereturn.loanInterestRate",
+                      "type": "text-suggestion",
+                      "data": {
+                        "optionReference": "LOANINTERESTRATEREFERENCEVALUES",
+                        "value": "5.75"
+                      },
+                      "validation": [
+                        {
+                          "type": "pattern",
+                          "message": "DECIMALUPTO4DIGIT",
+                          "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$"
+                        },
+                        {
+                          "type": "max-value",
+                          "message": "MAXVALUE",
+                          "value": "100"
+                        }
+                      ],
+                      "dependentId": "analyzereturn.loanDuration"
+                    }
+                  ]
+                }
+              ],
+              "tabValue": "leveragedPurchase"
+            }
+          ]
+        }
+      ],
+      "groupName": "purchasetype"
+    }
+  ],
+  "referenceData": {
+    "children": [
+      {
+        "id": "PURCHASETYPEREFERENCEVALUES",
+        "option": [
+          {
+            "value": "cashPurchase",
+            "label": "CASHPURCHASE"
+          },
+          {
+            "value": "leveragedPurchase",
+            "label": "LEVERAGEDPURCHASE"
+          }
+        ]
+      },
+      {
+        "id": "LOANDURATIONREFERENCEVALUES",
+        "option": [
+          {
+            "value": "10",
+            "label": "10",
+            "dependentValue": "5.25"
+          },
+          {
+            "value": "15",
+            "label": "15",
+            "dependentValue": "5.375"
+          },
+          {
+            "value": "20",
+            "label": "20",
+            "dependentValue": "5.5"
+          },
+          {
+            "value": "25",
+            "label": "25",
+            "dependentValue": "5.625"
+          },
+          {
+            "value": "30",
+            "label": "30",
+            "dependentValue": "5.75"
+          }
+        ]
+      },
+      {
+        "id": "LOANINTERESTRATEREFERENCEVALUES",
+        "option": [
+          {
+            "value": "5.25",
+            "label": "5.25",
+            "dependentValue": "10"
+          },
+          {
+            "value": "5.375",
+            "label": "5.375",
+            "dependentValue": "15"
+          },
+          {
+            "value": "5.5",
+            "label": "5.5",
+            "dependentValue": "20"
+          },
+          {
+            "value": "5.625",
+            "label": "5.625",
+            "dependentValue": "25"
+          },
+          {
+            "value": "5.75",
+            "label": "5.75",
+            "dependentValue": "30"
+          }
+        ]
+      }
+    ]
+  }
+}

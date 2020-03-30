@@ -1,0 +1,271 @@
+2019-09-26T06:43:46.002Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28726, host=Maheshs-MBP-2, category=ui.server
+2019-09-26T06:43:46.007Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28726, host=Maheshs-MBP-2, category=api.redis
+2019-09-26T07:01:06.166Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28967, host=Maheshs-MBP-2, category=ui.server
+2019-09-26T07:01:06.171Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28967, host=Maheshs-MBP-2, category=api.redis
+2019-09-26T07:01:08.737Z - info: Api Request logData= { reqID: '44a9c647-e119-440b-a9cb-017061e3f7b9',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  requestetime: '2019-09-26T07:01:08.735Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:01:09.502Z - info: Api response : Success logData= { reqID: '44a9c647-e119-440b-a9cb-017061e3f7b9',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  responsetime: '2019-09-26T07:01:09.501Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:01:16.749Z - info: Api Request logData= { reqID: 'b1d328de-aab5-4acb-86c5-35df59452f45',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-26T07:01:16.748Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:01:17.483Z - info: Api response : Success logData= { reqID: 'b1d328de-aab5-4acb-86c5-35df59452f45',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-26T07:01:17.483Z' } class=service/BaseService.js, pid=28967, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:02:22.454Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28995, host=Maheshs-MBP-2, category=ui.server
+2019-09-26T07:02:22.459Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28995, host=Maheshs-MBP-2, category=api.redis
+2019-09-26T07:02:23.989Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=28999, host=Maheshs-MBP-2, category=ui.server
+2019-09-26T07:02:23.994Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=28999, host=Maheshs-MBP-2, category=api.redis
+2019-09-26T07:02:26.623Z - info: Api Request logData= { reqID: '52f572b9-08e5-4f08-82e9-6abdf27677ee',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-26T07:02:26.622Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:02:27.529Z - info: Api response : Success logData= { reqID: '52f572b9-08e5-4f08-82e9-6abdf27677ee',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-26T07:02:27.528Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:03:24.486Z - info: Api Request logData= { reqID: '3222ce7b-d104-4630-9d05-a9c197235bce',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  requestetime: '2019-09-26T07:03:24.486Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:03:25.001Z - info: Api response : Success logData= { reqID: '3222ce7b-d104-4630-9d05-a9c197235bce',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  responsetime: '2019-09-26T07:03:25.001Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:31:47.543Z - info: Api Request logData= { reqID: '4f798dc5-8b7e-41f3-b769-9e2dfe5954ec',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-26T07:31:47.543Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:31:49.797Z - info: Api response : Success logData= { reqID: '4f798dc5-8b7e-41f3-b769-9e2dfe5954ec',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-26T07:31:49.796Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:04.100Z - info: Api Request logData= { reqID: '88f83881-83dc-4f5b-8d8a-32887bc16eaf',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-09-26T07:32:04.099Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:04.638Z - info: Api response : Success logData= { reqID: '88f83881-83dc-4f5b-8d8a-32887bc16eaf',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-09-26T07:32:04.638Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:16.552Z - info: Api Request logData= { reqID: '61ab7dac-2d5b-4d60-b843-99bf75eabeb7',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-09-26T07:32:16.552Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:17.142Z - info: Api response : Success logData= { reqID: '61ab7dac-2d5b-4d60-b843-99bf75eabeb7',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-09-26T07:32:17.142Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:20.470Z - info: Api Request logData= { reqID: '484d557b-70d2-485c-a88b-0ae4c4bc5e97',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-26T07:32:20.469Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:21.083Z - info: Api response : Success logData= { reqID: '484d557b-70d2-485c-a88b-0ae4c4bc5e97',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-26T07:32:21.083Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:21.083Z - info: Api Request logData= { reqID: 'c42c0077-a2f5-4bde-b1aa-5dd7e2ff039b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-26T07:32:21.083Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:32:21.648Z - info: Api response : Success logData= { reqID: 'c42c0077-a2f5-4bde-b1aa-5dd7e2ff039b',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-26T07:32:21.648Z' } class=service/BaseService.js, pid=28999, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:28.809Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29203, host=Maheshs-MBP-2, category=ui.server
+2019-09-26T07:33:28.815Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29203, host=Maheshs-MBP-2, category=api.redis
+2019-09-26T07:33:29.080Z - info: Api Request logData= { reqID: '67134899-264b-4959-8a6c-df88e42c7615',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-26T07:33:29.079Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:29.750Z - info: Api response : Success logData= { reqID: '67134899-264b-4959-8a6c-df88e42c7615',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-26T07:33:29.750Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:29.751Z - info: getting user account details logData= { requestData:
+   { endpoint: '/api/v1/users/account',
+     method: 'get',
+     dataPayload:
+      { access_token:
+         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ekcvQ1NuZUs2NXJ6V0ZmVlhsV2E1QTMrdHplVWpmNy9od0VFYVhQNkI4MStUbXJyQU9Fcng2TmtwN1lzVDBHVnBVeEYwNTlDZ0JMQjVFUEF0Z3BzVTJOK2h5UXVFaW9CNlJoby9MZVlTVXZpUUpSZCtvS0ZwTmhVaERpZERDenBBT3k1bVU0S1dJQUNTZEIwa1J6VDJ3L0JUclFnOFlJVHJMekc0Ymd3bnNzPQ.tCjvO1p1gUOT3XZ-H3JYWpFPUc3VWA6RIjtDv4x3uJw' },
+     headersPayload: {} } } class=middleware/authenticationUtils.js, pid=29203, host=Maheshs-MBP-2, category=api.outh
+2019-09-26T07:33:29.751Z - info: Api Request logData= { reqID: 'c405be07-a5ef-471d-ae11-300b9251e65c',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-26T07:33:29.751Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:30.364Z - info: Api response : Success logData= { reqID: 'c405be07-a5ef-471d-ae11-300b9251e65c',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-26T07:33:30.364Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:31.307Z - info: Api Request logData= { reqID: '50ad7362-d3d3-4203-99ca-cc929a0a4be8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-26T07:33:31.307Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:32.197Z - info: Api response : Success logData= { reqID: '50ad7362-d3d3-4203-99ca-cc929a0a4be8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-26T07:33:32.196Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:51.016Z - info: Api Request logData= { reqID: 'f3340ca6-05b9-405c-b88d-5de92ee21871',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  requestetime: '2019-09-26T07:33:51.016Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:51.671Z - info: Api response : Success logData= { reqID: 'f3340ca6-05b9-405c-b88d-5de92ee21871',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  responsetime: '2019-09-26T07:33:51.671Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:59.239Z - info: Api Request logData= { reqID: 'd2addb21-c12a-4932-92b0-a14371a25880',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-26T07:33:59.239Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:33:59.897Z - info: Api response : Success logData= { reqID: 'd2addb21-c12a-4932-92b0-a14371a25880',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-26T07:33:59.897Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:05.387Z - info: Api Request logData= { reqID: 'f577354b-b11b-4392-a269-a96989c381b6',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-09-26T07:34:05.385Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:05.824Z - info: Api response : Success logData= { reqID: 'f577354b-b11b-4392-a269-a96989c381b6',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-09-26T07:34:05.824Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:08.890Z - info: Api Request logData= { reqID: 'bda69ccb-d97d-4621-8011-25ad3152c9c2',
+  endpoint: '/oauth/token',
+  method: 'post',
+  requestetime: '2019-09-26T07:34:08.890Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:09.498Z - info: Api response : Success logData= { reqID: 'bda69ccb-d97d-4621-8011-25ad3152c9c2',
+  endpoint: '/oauth/token',
+  method: 'post',
+  responsetime: '2019-09-26T07:34:09.498Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:09.499Z - info: Api Request logData= { reqID: 'f539f9b1-11ed-414b-b71f-50d1c966095d',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  requestetime: '2019-09-26T07:34:09.499Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:10.301Z - info: Api response : Success logData= { reqID: 'f539f9b1-11ed-414b-b71f-50d1c966095d',
+  endpoint: '/api/v1/users/account',
+  method: 'get',
+  responsetime: '2019-09-26T07:34:10.301Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:51.742Z - info: Api Request logData= { reqID: '7b3f879f-f2ff-4c90-978e-16fabf5ec4fd',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-26T07:34:51.742Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:34:52.496Z - info: Api response : Success logData= { reqID: '7b3f879f-f2ff-4c90-978e-16fabf5ec4fd',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-26T07:34:52.496Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:37:07.417Z - info: Api Request logData= { reqID: '36e13d74-48e2-429e-88dd-cdddac344c6b',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  requestetime: '2019-09-26T07:37:07.417Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:37:07.902Z - info: Api response : Success logData= { reqID: '36e13d74-48e2-429e-88dd-cdddac344c6b',
+  endpoint: '/api/v1/user-profile/lookup',
+  method: 'post',
+  responsetime: '2019-09-26T07:37:07.902Z' } class=service/BaseService.js, pid=29203, host=Maheshs-MBP-2, category=api.server
+2019-09-26T07:39:06.614Z - info: ui.server Listening on port 3002 logData= { environment: 'local-dev' } class=app.js, pid=29292, host=Maheshs-MBP-2, category=ui.server
+2019-09-26T07:39:06.619Z - info: redis enabled logData= { redishost: 'localhost' } class=app.js, pid=29292, host=Maheshs-MBP-2, category=api.redis
+2019-09-26T08:37:36.097Z - info: Api Request logData= { reqID: '2b64af2d-80e8-4cdd-b834-ff5c475e3538',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  requestetime: '2019-09-26T08:37:36.096Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-26T08:37:36.668Z - info: Api response : Success logData= { reqID: '2b64af2d-80e8-4cdd-b834-ff5c475e3538',
+  endpoint: '/api/v1/property-listings/2309904',
+  method: 'get',
+  responsetime: '2019-09-26T08:37:36.668Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:32:19.600Z - info: Api Request logData= { reqID: 'd49081c6-35dc-4427-8c19-e55f75f367f3',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-27T05:32:19.599Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:32:20.362Z - info: Api response : Success logData= { reqID: 'd49081c6-35dc-4427-8c19-e55f75f367f3',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-27T05:32:20.362Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:32:22.755Z - info: Api Request logData= { reqID: '0c6a911a-616a-4da3-8f70-ed0c53859e8f',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  requestetime: '2019-09-27T05:32:22.754Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:32:23.437Z - info: Api response : Success logData= { reqID: '0c6a911a-616a-4da3-8f70-ed0c53859e8f',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  responsetime: '2019-09-27T05:32:23.436Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:50:59.608Z - info: Api Request logData= { reqID: 'de8d3cae-6fe8-495f-be64-d356053ced9f',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  requestetime: '2019-09-27T05:50:59.608Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:51:00.333Z - info: Api response : Success logData= { reqID: 'de8d3cae-6fe8-495f-be64-d356053ced9f',
+  endpoint: '/api/v1/search/popular/property-listing',
+  method: 'get',
+  responsetime: '2019-09-27T05:51:00.333Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:51:07.320Z - info: Api Request logData= { reqID: '9089f165-a406-44d3-b596-a6c97bbd250f',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-27T05:51:07.319Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:51:08.051Z - info: Api response : Success logData= { reqID: '9089f165-a406-44d3-b596-a6c97bbd250f',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-27T05:51:08.051Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:52:54.405Z - info: Api Request logData= { reqID: 'c5c1eb63-e355-477b-ab5d-0ca075d19459',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  requestetime: '2019-09-27T05:52:54.405Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:52:55.226Z - info: Api response : Success logData= { reqID: 'c5c1eb63-e355-477b-ab5d-0ca075d19459',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  responsetime: '2019-09-27T05:52:55.226Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:10.406Z - info: Api Request logData= { reqID: '10f98fbf-d7a7-4063-a342-dd37614ea73e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-27T05:53:10.406Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:11.210Z - info: Api response : Success logData= { reqID: '10f98fbf-d7a7-4063-a342-dd37614ea73e',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-27T05:53:11.210Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:12.591Z - info: Api Request logData= { reqID: 'a25ec042-ed63-4ea5-8855-d56bb2c8e58b',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  requestetime: '2019-09-27T05:53:12.591Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:13.269Z - info: Api response : Success logData= { reqID: 'a25ec042-ed63-4ea5-8855-d56bb2c8e58b',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  responsetime: '2019-09-27T05:53:13.269Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:17.037Z - info: Api Request logData= { reqID: 'cfbd41c7-6ca7-4b4f-b543-4d50581994d8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  requestetime: '2019-09-27T05:53:17.037Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:17.959Z - info: Api response : Success logData= { reqID: 'cfbd41c7-6ca7-4b4f-b543-4d50581994d8',
+  endpoint:
+   '/api/v1/search/property-listing/for-sale/geo-location/dallas-tx-usa',
+  method: 'get',
+  responsetime: '2019-09-27T05:53:17.959Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:19.047Z - info: Api Request logData= { reqID: '90303066-c589-4b20-a663-28b94ea77f8b',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  requestetime: '2019-09-27T05:53:19.047Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server
+2019-09-27T05:53:19.804Z - info: Api response : Success logData= { reqID: '90303066-c589-4b20-a663-28b94ea77f8b',
+  endpoint: '/api/v1/property-listings/2290579',
+  method: 'get',
+  responsetime: '2019-09-27T05:53:19.804Z' } class=service/BaseService.js, pid=29292, host=Maheshs-MBP-2, category=api.server

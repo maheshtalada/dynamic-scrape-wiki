@@ -1,0 +1,53 @@
+{
+  "staticUrl": "http://localhost:8052",
+  "api" : {
+    "prefix": "/api/v1",
+    "host": "service.propshub.com",
+    "port" : "443",
+    "protocol" : "https"
+  },
+  "mapServer" : {
+    "path" : "https://maps-pilot.propshub.com"
+  },
+  "pdfServer" : {
+    "path" : "https://report.propshub.com"
+  },
+  "assetsPath" : "https://assets.propshub.com/static",
+  "metrosServed": ["dallas","phoenix","indianapolis","chicago","jacksonville","las-vegas"],
+  "searchStateCode": "TX[\\s|,]|AZ[\\s|,]|IN[\\s|,]|IL[\\s|,]|FL[\\s|,]|NV[\\s|,]",
+  "imageRootPath" : "https://images.propshub.com",
+  "localeSettings" : {
+    "IN" : {
+      "siteDomain" : "www.propshub.in",
+      "chatNameSpace" : "https://chat.propshub.in"
+    },
+    "US" : {
+      "siteDomain" : "www.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "CA" : {
+      "siteDomain" : "www.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "MX" : {
+      "siteDomain" : "www.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "BR" : {
+      "siteDomain" : "www.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "AR" : {
+      "siteDomain" : "www.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    },
+    "CO" : {
+      "siteDomain" : "www.propshub.com",
+      "chatNameSpace" : "https://chat.propshub.com"
+    }
+  },
+  "origin": "https://www.propshub.com",
+  "cookies" : {
+    "isSecure" : true
+  }
+}

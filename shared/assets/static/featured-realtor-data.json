@@ -1,0 +1,166 @@
+{
+  "featured": {
+    "id":"11442",
+    "creationDate":1511417837009,
+    "photo":{
+      "uri":"propshub/11442/bc20428a682142869404a9a154d0b0a8.png",
+      "thumbnailUri":"propshub/11442/thumbnail/bc20428a682142869404a9a154d0b0a8.png",
+      "primary":false,
+      "removeFromStorage":false
+    },
+    "name":"Kristopher Franks",
+    "roles":[
+      "ROLE_REALTOR"
+    ],
+    "currentUserStatus":"VERIFIED",
+    "allowedContactActions":[
+      "EMAIL",
+      "CHAT",
+      "TELEPHONE"
+    ],
+    "areasServed":[
+      {
+        "googleText":"REMINGTON POINT",
+        "cityName":"Fort Worth",
+        "region":"Tarrant",
+        "locality":"REMINGTON POINT",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":32.84,
+          "lon":-97.38
+        },
+        "primary":true
+      },
+      {
+        "googleText":"SAGINAW/HIGHLAND STATION",
+        "cityName":"Saginaw",
+        "region":"Tarrant",
+        "locality":"SAGINAW/HIGHLAND STATION",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":32.86,
+          "lon":-97.38
+        }
+      },
+      {
+        "googleText":"OAKLAWN",
+        "cityName":"Dallas",
+        "region":"Dallas",
+        "locality":"OAKLAWN",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":32.78,
+          "lon":-96.8
+        }
+      },
+      {
+        "googleText":"EULESS-SOUTH OF 183",
+        "cityName":"Euless",
+        "region":"Tarrant",
+        "locality":"EULESS-SOUTH OF 183",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":32.84,
+          "lon":-97.11
+        }
+      },
+      {
+        "googleText":"SANSOM PARK/SHADY OAKS MANOR",
+        "cityName":"Sansom Park",
+        "region":"Tarrant",
+        "locality":"SANSOM PARK/SHADY OAKS MANOR",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":32.8058531,
+          "lon":-97.40001389999999
+        }
+      },
+      {
+        "googleText":"McKinney Area",
+        "cityName":"McKinney",
+        "region":"Collin",
+        "locality":"McKinney Area",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":33.2182497,
+          "lon":-96.7178904
+        }
+      },
+      {
+        "googleText":"IRVING",
+        "cityName":"Irving",
+        "region":"Dallas",
+        "locality":"IRVING",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":32.8998395,
+          "lon":-96.95451349999999
+        }
+      }
+    ],
+    "license":"REALESTATEBROKER",
+    "licenseJurisdiction":"Texas ",
+    "licenseIssuingAuthority":"TREC",
+    "websites":[
+      {
+        "websiteURLType":"SITEURL",
+        "url":"http://www.krisfranksrealty.com"
+      },
+      {
+        "websiteURLType":null,
+        "url":"www.marathoncommecial.com"
+      }
+    ],
+    "companyID":"11441",
+    "about":"I am your local expert in income producing properties - both residential or commercial.  Please give me a call!",
+    "profileURL":"/real-estate-agents-income-specialist-commercial-properties-residential-investments-property-management-remington-point-fort-worth-tx/kristopher-franks/realtor/11442",
+    "specialties":[
+      "INCOME_SPECIALIST",
+      "COMMERCIAL_PROPERTIES",
+      "RESIDENTIAL_INVESTMENTS",
+      "PROPERTY_MANAGEMENT"
+    ],
+    "canChat":false
+  },
+  "test": {
+    "id":"43039",
+    "creationDate":1526551444960,
+    "name":"test realtor 3",
+    "roles":[
+      "ROLE_REALTOR"
+    ],
+    "currentUserStatus":"VERIFIED",
+    "allowedContactActions":[
+      "EMAIL",
+      "TELEPHONE",
+      "CHAT"
+    ],
+    "areasServed":[
+      {
+        "googleText":"Dallas",
+        "cityName":"Dallas",
+        "region":"Dallas County",
+        "locality":"Dallas",
+        "stateCode":"TX",
+        "country":"US",
+        "geometry":{
+          "lat":32.777,
+          "lon":-96.797
+        },
+        "primary":true
+      }
+    ],
+    "profileURL":"/real-estate-agents-commercial-properties-dallas-tx/test-realtor-3/realtor/43039",
+    "specialties":[
+      "COMMERCIAL_PROPERTIES"
+    ],
+    "canChat":false
+  }
+}

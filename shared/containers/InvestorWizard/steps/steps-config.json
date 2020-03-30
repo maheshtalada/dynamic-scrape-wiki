@@ -1,0 +1,53 @@
+{
+  "steps" : {
+    "investment": {
+      "index" : 0,
+      "title": "Investment",
+      "definition": "Decide initial investment",
+      "question": "How much would you like to invest ?",
+      "tips": [
+        {
+          "title": "How much would you like to invest ?",
+          "description": "<p>We have a wide range of investment properties to suit your budget.</p>"
+        }
+      ]
+    },
+    "type": {
+      "index" : 1,
+      "title": "Down Payment",
+      "definition": "Select down payment option",
+      "question": "Select down payment option",
+      "tips": [
+        {
+          "title": "Select down payment option",
+          "description": "<p>We have ideal properties for all cash purchase or leveraged purchase using your investment as 20% down payment on loan @5.75% interest rate.</p>"
+        }
+      ],
+      "boxoptions" : [
+        {
+          "label" : "100%",
+          "value" : "cash"
+        },
+        {
+          "label" : "20%",
+          "value" : "leveraged"
+        }
+      ],
+      "condition" : 60000
+    },
+    "market": {
+      "index" : 2,
+      "title": "Markets",
+      "definition": "Select markets",
+      "question": "Select markets to invest in:",
+      "tips": [
+        {
+          "title": "Which Market is ideal for investment ?",
+          "description": "<p>We have chosen markets that have the potential to provide the best returns over the long term for you. You can narrow it down further if you have preferences.</p>"
+        }
+      ]
+    }
+  },
+  "pageTitle" : "HELPMEINVEST",
+  "pageDescription" : ""
+}

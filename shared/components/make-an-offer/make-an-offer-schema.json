@@ -1,0 +1,88 @@
+{
+  "type": "header",
+  "children": [
+    {
+      "label": "Offer Price",
+      "id": "offerPrice",
+      "type": "text",
+      "validation": [
+        {
+          "type": "required",
+          "message": " ",
+          "value": " "
+        },
+        {
+          "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$",
+          "message": "AMOUNTINVALID",
+          "type": "pattern"
+        },
+        {
+          "value": "999999999",
+          "message": "MAXVALUE",
+          "type": "max-value"
+        }
+      ]
+    },
+    {
+      "label": "Earnest Money Deposit",
+      "id": "depositAmount",
+      "type": "text",
+      "data": {
+        "tooltip": "EARNESTMONEYDEPOSITTOOLTIP"
+      },
+      "validation": [
+        {
+          "value": "^(([0-9]{0,12}\\.[0-9]{1,4})|([0-9]{0,12})|(\\.[0-9]{1,4}))$",
+          "message": "AMOUNTINVALID",
+          "type": "pattern"
+        },
+        {
+          "value": "999999999",
+          "message": "MAXVALUE",
+          "type": "max-value"
+        }
+      ]
+    },
+    {
+      "label": "Due Diligence Period",
+      "id": "dueDiligencePeriodInDays",
+      "type": "text",
+      "data": {
+        "tooltip": "DUEDILIGENCEPERIODTOOLTIP"
+      },
+      "validation": [
+        {
+          "value": "^[0-9]{0,9}$",
+          "message": "DAYSINVALID",
+          "type": "pattern"
+        },
+        {
+          "value": "999",
+          "message": "MAXVALUE",
+          "type": "max-value"
+        }
+      ]
+    },
+    {
+      "label": "Closing Period",
+      "id": "closingPeriodInDays",
+      "type": "text",
+      "data": {
+        "tooltip": "CLOSINGPERIODTOOLTIP"
+      },
+      "validation": [
+        {
+          "value": "^[0-9]{0,9}$",
+          "message": "DAYSINVALID",
+          "type": "pattern"
+        },
+        {
+          "value": "999",
+          "message": "MAXVALUE",
+          "type": "max-value"
+        }
+      ]
+    }
+  ],
+  "groupName": "offer-intent"
+}

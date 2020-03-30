@@ -1,0 +1,27 @@
+.save-search {
+    .mdl-snackbar__action {
+        i {
+            font-size: 2rem;
+            color: @color-base-white;
+        }
+    }
+    &__save-name {
+        &.show-error {
+            animation: shake 0.2s;
+            animation-timing-function : linear;
+            .name-input {
+                box-shadow: 0 0 5px @color-error-border;
+                //outline: 1px solid @color-error-border;
+            }
+        }
+    }
+
+	&__prompt {
+		font-size: 1.6rem;
+		position: relative;
+		width: 100%;
+		bottom: 0;
+		top: 50px;
+		color:@grey-600;
+	}
+}

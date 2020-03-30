@@ -1,0 +1,110 @@
+
+.schema--theme-read-only-form {
+	.schema__card .schema__value {
+		a {
+			color: @color-base-core-green;
+			font-weight: bold;
+		}
+	}
+	.schema__card > .schema__value > .schema__header {
+		margin: 0;
+		padding: 0;
+		> .schema__label {
+			background-color: @color-base-core-green;
+			color: @color-base-white;
+			padding: 10px;
+			margin-bottom: 0;
+			h1 {
+
+				margin: 0;
+				font-size: 1.6rem;
+			}
+		}
+		> .schema__value {
+			margin: 10px;
+		}
+	}
+	&.schema--theme-pdf {
+		.schema__header {
+			.schema__header__subheader {
+				> .schema__label {
+					width: 30%;
+				}
+			}
+			> .schema__value > .schema__component:not(.schema__header) {
+				> .schema__label {
+					width: 30%;
+				}
+			}
+		}
+	}
+	.schema__header {
+		.schema__header__subheader {
+			padding: 0;
+			> .schema__label {
+				h1 {
+					font-size: 2.0rem;
+					color: @color-base-mono-dark;
+
+				}
+				font-weight: normal;
+				.bp-small({
+					display: inline-block;
+					width: 40%;
+					text-align: right;
+					padding-right: 10px;
+				});
+			}
+		}
+
+		> .schema__value > .schema__component:not(.schema__header) {
+			margin-bottom: 0;
+			> .schema__label {
+				font-size: 1.6rem;
+				.bp-small({
+					display: inline-block;
+					width: 40%;
+					text-align: right;
+				});
+			}
+			> .schema__value {
+				padding-left: 40%;
+			}
+			> .schema__label + .schema__value {
+				padding-left: 0;
+				.bp-small({
+					width: 60%;
+					display: inline-block;
+					text-align: left;
+				});
+			}
+		}
+	}
+	:not(.schema__header) > .schema__label {
+		font-weight: bold;
+		color: @color-base-mono-light;
+	}
+	.schema__content-markdown {
+		.schema__value > div > p:first-child:last-child {
+			margin: 0;
+		}
+		h4 {
+			color: @color-base-core-green;
+			margin: 0;
+			font-weight: normal;
+		}
+		.icon-x, .icon-tick {
+			font-size: 1.2rem;
+		}
+		.icon-x {
+			color: @color-base-secondary-yellow;
+		}
+		.icon-tick {
+			color: @color-base-apple-green-alt;
+		}
+	}
+	.schema__list > .schema__value > .schema__list > .schema__label {
+		color: @color-base-core-green;
+		margin-bottom: 0;
+	}
+}

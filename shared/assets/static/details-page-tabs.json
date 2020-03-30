@@ -1,0 +1,235 @@
+{
+  "propertyTabs" : [
+    {
+      "tab" : "DETAILS",
+      "icon" : "pe-7s-news-paper",
+      "order" : 1
+    },
+    {
+      "tab" : "INTERACTIVEMAP",
+      "icon" : "pe-7s-map-marker",
+      "order" : 2
+    },
+    {
+      "tab" : "PHOTOSGALLERY",
+      "icon" : "pe-7s-photo-gallery",
+      "order" : 3
+    },
+    {
+      "tab" : "DEMOGRAPHICS",
+      "icon" : "pe-7s-users",
+      "order" : 4
+    },
+    {
+      "tab" : "WIDGETSCHOOL",
+      "icon" : "pe-7s-study",
+      "order" : 5,
+      "isConditional" : true,
+      "conditionalAttributes" : ["schools"]
+    },
+    {
+      "tab" : "MEDIANPRICESTATS",
+      "icon" : "pe-7s-graph1",
+      "order" : 6,
+      "isConditional" : true,
+      "conditionalAttributes" : ["medianPriceStatics"]
+    },
+    {
+      "tab" : "ADDVIDEOLINKS",
+      "icon" : "pe-7s-video",
+      "order" : 7,
+      "isConditional" : true,
+      "conditionalAttributes" : ["videos"]
+    },
+    {
+      "tab" : "DOCUMENTS",
+      "icon" : "pe-7s-file",
+      "order" : 8,
+      "isConditional" : true,
+      "conditionalAttributes" : ["documents"]
+    },
+    {
+      "tab" : "EXTERNALLINKS",
+      "icon" : "pe-7s-link",
+      "order" : 9,
+      "isConditional" : true,
+      "conditionalAttributes" : ["externalLinks"]
+    }
+  ],
+  "realtorTabs" : [
+    {
+      "name": "details",
+      "key": "details",
+      "label" : "OVERVIEW",
+      "icon" : "pe-7s-news-paper",
+      "order" : 1,
+      "tabHTMLId" : "#details"
+    },
+    {
+      "name": "about",
+      "key": "about",
+      "tabHTMLId" : "#about",
+      "label" : "ABOUT",
+      "icon" : "pe-7s-info",
+      "order" : 3,
+      "isConditional" : true,
+      "conditionalAttributes" : ["about","realtor"]
+    },
+    {
+      "name": "specialties",
+      "key": "specialties",
+      "tabHTMLId" : "#specialties",
+      "label" : "SPECIALTIES",
+      "icon" : "pe-7s-ribbon",
+      "order" : 2,
+      "isConditional" : true,
+      "conditionalAttributes" : ["specialties","realtor"]
+    },
+    {
+      "name": "activeListings",
+      "key": "activeListings",
+      "label" : "ACTIVELISTINGS",
+      "icon" : "pe-7s-clock",
+      "tabHTMLId" : "#activeListings",
+      "order" : 4,
+      "isConditional" : true,
+      "conditionalAttributes" : ["listings","propertyListings"]
+    },
+    {
+      "name": "recentArticles",
+      "key": "recentArticles",
+      "label" : "RECENTARTICLES",
+      "icon" : "pe-7s-note",
+      "tabHTMLId" : "#recentArticles",
+      "order" : 5,
+      "isConditional" : true,
+      "conditionalAttributes" : ["articles","articles"]
+    }
+  ],
+  "professionalTabs" : [
+    {
+      "name": "details",
+      "key": "details",
+      "label" : "OVERVIEW",
+      "icon" : "pe-7s-news-paper",
+      "order" : 1,
+      "tabHTMLId" : "#details"
+    },
+    {
+      "name": "about",
+      "key": "about",
+      "tabHTMLId" : "#about",
+      "label" : "ABOUT",
+      "icon" : "pe-7s-info",
+      "order" : 3,
+      "isConditional" : true,
+      "conditionalAttributes" : ["about"]
+    },
+    {
+      "name": "specialties",
+      "key": "specialties",
+      "tabHTMLId" : "#specialties",
+      "label" : "EXPERTISE",
+      "icon" : "pe-7s-ribbon",
+      "order" : 2,
+      "isConditional" : true,
+      "conditionalAttributes" : ["specialties"]
+    }
+  ],
+  "brokerageFirmTabs" : [
+    {
+      "name": "details",
+      "key": "details",
+      "tabHTMLId" : "#details",
+      "label" : "DETAILS",
+      "icon" : "pe-7s-news-paper",
+      "order" : 1
+    },
+    {
+      "name": "cashFlowListings",
+      "key": "cashFlowListings",
+      "label" : "CASHFLOWLISTINGS",
+      "icon" : "pe-7s-clock",
+      "tabHTMLId" : "#cashFlowListings",
+      "order" : 2,
+      "isConditional" : true,
+      "conditionalAttributes" : ["cashFlowListings","cashFlowListings"]
+    },
+    {
+      "name": "recentListings",
+      "key": "recentListings",
+      "label" : "ACTIVELISTINGS",
+      "icon" : "pe-7s-clock",
+      "tabHTMLId" : "#recentListings",
+      "order" : 3,
+      "isConditional" : true,
+      "conditionalAttributes" : ["recentListings","recentListings"]
+    },
+    {
+      "name": "realtorsBrokers",
+      "key": "realtorsBrokers",
+      "label" : "REALTORSANDBROKERS",
+      "icon" : "pe-7s-users",
+      "order" : 6,
+      "tabHTMLId" : "#realtorsBrokers",
+      "isConditional" : true,
+      "conditionalAttributes" : ["realtors","realtors"]
+    },
+    {
+      "name": "about",
+      "key": "about",
+      "label" : "ABOUT",
+      "tabHTMLId" : "#about",
+      "icon" : "pe-7s-info",
+      "order" : 5,
+      "isConditional" : true,
+      "conditionalAttributes" : ["about","brokerageFirm"]
+    },
+    {
+      "name" : "specialties",
+      "key": "specialties",
+      "label" : "SPECIALTIES",
+      "tabHTMLId" : "#specialties",
+      "icon" : "pe-7s-ribbon",
+      "order" : 4,
+      "isConditional" : true,
+      "conditionalAttributes" : ["specialties","brokerageFirm"]
+    },
+    {
+      "name" : "areasServed",
+      "key": "areasServed",
+      "label" : "AREASSERVED",
+      "tabHTMLId" : "#areasserved",
+      "icon" : "pe-7s-ribbon",
+      "order" : 7,
+      "isConditional" : true,
+      "conditionalAttributes" : ["areasServed","brokerageFirm"]
+    }
+  ],
+  "companyTabs" : [
+    {
+      "tab" : "DETAILS",
+      "icon" : "pe-7s-news-paper",
+      "order" : 1
+    },
+    {
+      "tab" : "ABOUT",
+      "icon" : "pe-7s-info",
+      "order" : 2
+    },
+    {
+      "tab" : "SPECIALTIES",
+      "icon" : "pe-7s-ribbon",
+      "order" : 3,
+      "isConditional" : true,
+      "conditionalAttributes" : ["specialties"]
+    },
+    {
+      "tab" : "PROFESSIONALS",
+      "icon" : "pe-7s-users",
+      "order" : 4,
+      "isConditional" : true,
+      "conditionalAttributes" : ["professionals"]
+    }
+  ]
+}

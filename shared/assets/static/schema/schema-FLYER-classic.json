@@ -1,0 +1,380 @@
+{
+  "document": {
+    "author": "Propshub Inc",
+    "subject": "RES-Single Family - Fort Worth, TX",
+    "title": "RES-Single Family - Fort Worth, TX"
+  },
+  "pages": [
+    {
+      "type": "root",
+      "children": [
+        {
+          "type": "root",
+          "children": [
+            {
+              "type": "image",
+              "data": {
+                "value": "NTREIS/14163148/1?lm=20190814T161700"
+              },
+              "classNames": [
+                "pdf-schema__image",
+                "pdf-schema__hero-image"
+              ]
+            },
+            {
+              "type": "root",
+              "children": [
+                {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "content-grid",
+                      "data": {
+                        "value": 149995,
+                        "configOptions": {
+                          "handler": "formatCurrency",
+                          "localeCode": "US"
+                        }
+                      },
+                      "classNames": [
+                        "pdf-schema__content__grid",
+                        "pdf-schema__content__grid__price-tag"
+                      ]
+                    },
+                    {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": 3,
+                            "configOptions": {
+                              "postFix": "Bed "
+                            }
+                          }
+                        },
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": 2,
+                            "configOptions": {
+                              "postFix": "Bath"
+                            }
+                          }
+                        },
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": "1090",
+                            "configOptions": {
+                              "handler": "formatNumber",
+                              "postFix": "SQFT"
+                            }
+                          },
+                          "translationRequired": true
+                        },
+                        {
+                          "type": "content-grid",
+                          "data": {
+                            "value": "SINGLE_FAMILY_HOME"
+                          },
+                          "translationRequired": true
+                        }
+                      ],
+                      "classNames": [
+                        "pdf-schema__content__grid",
+                        "pdf-schema__content__grid__bed-bath"
+                      ]
+                    },
+                    {
+                      "type": "content-list",
+                      "data": {
+                        "value": [
+                          "3 bedrooms",
+                          "2 bathrooms",
+                          "Two motion exterior floodlights",
+                          "Low e insulated glass windows with screens",
+                          "Weather stripping on all exterior doors",
+                          "Smooth two square 6ft interior doors",
+                          "325 in baseboard moulding",
+                          "30in flat panel kitchen cabinets",
+                          "Vinyl flooring in entry",
+                          "kitchen",
+                          "master bath",
+                          "secondary baths",
+                          "and utility room (wet areas)",
+                          "Carpet flooring in family room and all bedrooms",
+                          "Dishwasher",
+                          "Oven available"
+                        ]
+                      },
+                      "classNames": [
+                        "pdf-schema__content-list__property-highlights"
+                      ]
+                    }
+                  ],
+                  "classNames": [
+                    "pdf-schema__custom-handout-left-rail"
+                  ]
+                },
+                {
+                  "type": "root",
+                  "children": [
+                    {
+                      "label": "RES-Single Family - Fort Worth, TX",
+                      "type": "header-subheader",
+                      "data": {
+                        "value": "3 bedrooms; 2 bathrooms; two motion exterior floodlights; low E insulated glass windows with screens; weather stripping on all exterior doors; smooth two square 6ft interior doors; 3.25 in baseboard moulding; 30in flat panel kitchen cabinets; vinyl flooring in entry, kitchen, master bath, secondary baths, and utility room (wet areas); carpet flooring in family room and all bedrooms; 50-gallon electric water heater; programmable smart thermostat; keyless smart locks; granite countertops in kitchen; 50-50 stainless steel kitchen sink; black electric range; energy-efficient dishwasher; marble countertops in all baths; brushed nickel lighting fixtures; average HERS score of 62."
+                      }
+                    }
+                  ],
+                  "classNames": [
+                    "pdf-schema__custom-handout-right-rail"
+                  ]
+                }
+              ],
+              "classNames": [
+                "pdf-schema__multi-column"
+              ]
+            }
+          ],
+          "classNames": [
+            "pdf-schema__page__body"
+          ]
+        }
+      ],
+      "order": 1,
+      "classNames": [
+        "pdf-schema__page"
+      ]
+    },
+    {
+      "type": "root",
+      "children": [
+        {
+          "type": "root",
+          "children": [
+            {
+              "type": "list",
+              "children": [
+                {
+                  "type": "card-wrapper",
+                  "children": [
+                    {
+                      "label": "FORSALEDETAILS",
+                      "type": "card",
+                      "children": [
+                        {
+                          "label": "PRICE",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 149995,
+                            "configOptions": {
+                              "handler": "formatCurrency",
+                              "localeCode": "US"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "PROPERTYCOLLAPSIBLE",
+                      "type": "card",
+                      "children": [
+                        {
+                          "label": "PROPERTYNAME",
+                          "type": "content-grid",
+                          "data": {
+                            "value": "2506 S Ayers Avenue"
+                          }
+                        },
+                        {
+                          "label": "PRIMARYIDENTIFIER",
+                          "type": "content-grid",
+                          "data": {
+                            "value": "03055671"
+                          }
+                        },
+                        {
+                          "label": "NUMBEROFPARKINGLOTS",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 0
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "SELECTEDBUILDINGCOLLAPSIBLE",
+                      "type": "card",
+                      "children": [
+                        {
+                          "label": "CONSTRUCTIONSTATUS",
+                          "type": "content-grid",
+                          "data": {
+                            "value": "NEW"
+                          },
+                          "translationRequired": true
+                        },
+                        {
+                          "label": "YEARBUILT",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 2019
+                          }
+                        },
+                        {
+                          "label": "NUMBEROFSTORIES",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 1
+                          }
+                        },
+                        {
+                          "label": "LOTAREA",
+                          "type": "content-grid",
+                          "data": {
+                            "value": "0.11",
+                            "configOptions": {
+                              "handler": "formatNumber",
+                              "postFix": "ACRE"
+                            }
+                          },
+                          "translationRequired": true
+                        }
+                      ]
+                    },
+                    {
+                      "label": "SELECTEDBUILDINGUNITCOLLAPSIBLE",
+                      "type": "card",
+                      "children": [
+                        {
+                          "label": "NUMBEROFROOMS",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 2
+                          }
+                        },
+                        {
+                          "label": "NUMBEROFBEDROOMS",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 3
+                          }
+                        },
+                        {
+                          "label": "NUMBEROFWASHROOMS",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "BUILDINGROOMDETAILS",
+                      "type": "card",
+                      "children": [
+                        {
+                          "label": "BEDROOM",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 3
+                          }
+                        },
+                        {
+                          "label": "FULLBATHROOM",
+                          "type": "content-grid",
+                          "data": {
+                            "value": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "SPECIFICATIONS",
+                      "type": "content-grid-list",
+                      "data": {
+                        "value": [
+                          "Cooling System(s) : Central A/C",
+                          "Exterior Type(s) : Vinyl Siding",
+                          "Heating System(s) : Central Furnace",
+                          "Floor Type(s) : Carpet, Vinyl",
+                          "Roof Type(s) : Composition Shingle",
+                          "Architecture Style : Other",
+                          "Cable Reader"
+                        ],
+                        "configOptions": {
+                          "handler": "flatten"
+                        }
+                      }
+                    },
+                    {
+                      "label": "MLSINFORMATION",
+                      "type": "card",
+                      "children": [
+                        {
+                          "label": "MLSID",
+                          "type": "content-grid",
+                          "data": {
+                            "value": "NTREIS"
+                          }
+                        },
+                        {
+                          "label": "MLSNUMBER",
+                          "type": "content-grid",
+                          "data": {
+                            "value": "14163148"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "LEGAL",
+                      "type": "card",
+                      "children": [
+                        {
+                          "label": "DISCLAIMER",
+                          "type": "content",
+                          "data": {
+                            "value": "Copyright © 2019 North Texas Real Estate Information Systems, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified."
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "classNames": [
+            "pdf-schema__page__body"
+          ]
+        }
+      ],
+      "order": 2,
+      "classNames": [
+        "pdf-schema__page"
+      ]
+    }
+  ],
+  "header": {
+    "listingUrl": "/residential-investments/for-sale/texas/fort-worth/tx-76105/single-family-home/property-listings/2319898",
+    "title": "2506 S Ayers Avenue, Fort Worth, TX-76105"
+  },
+  "footer": {
+    "realtor": {
+      "siteurl": "/real-estate-agents-brokers/texas/residential-investments/jonathan-lewis/realtor/36882",
+      "phone": "8777965074",
+      "name": "Jonathan Lewis",
+      "photo": "propshub/36882/thumbnail/55bacb9e4e024286b110743588962fec.png",
+      "email": "testbroker3@yopmail.com"
+    },
+    "subTitle": "RES-Single Family - Fort Worth, TX",
+    "listingUrl": "/residential-investments/for-sale/texas/fort-worth/tx-76105/single-family-home/property-listings/2319898"
+  },
+  "title": "2506 S Ayers Avenue, Fort Worth, TX-76105",
+  "type": "FLYER",
+  "template": "classic",
+  "status": "success"
+}

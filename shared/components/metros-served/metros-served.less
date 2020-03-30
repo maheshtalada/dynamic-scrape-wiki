@@ -1,0 +1,195 @@
+@keyframes metro-pulsate {
+	from {
+		box-shadow : 0 0 0 0 @color-fore-primary-green-alt;
+	}
+	to {
+		box-shadow: 0 0 0 10px transparent;
+	}
+}
+.metros-served {
+	//margin: 0 0 -25px 0;
+	padding-top: 0;
+	// .bp-xsmall({
+	// 	display: none;
+	// });
+	// .bp-large({
+	// 	display: block;
+	// });
+	// .help-me-invest__title {
+	// 	margin-left: 50px;
+	// }
+	width: 100%;
+	.rsm-marker {
+		cursor: pointer;
+		&:focus {
+			outline: none;
+		}
+	}
+	&__select-wrap {
+		// margin-top: 15px;
+		label {
+			font-size: 1.5rem;
+			margin-bottom: 5px;
+		}	
+		.select-wrapper {
+			width: 100%;
+		}
+		.select-wrapper__select-btn {
+			font-size: 1.6rem;
+			padding: 6px;
+			justify-content: center;
+			color: @color-base-primary-green;
+			border-color: @color-base-primary-green;
+			i {
+				display: none;
+			}
+		}
+		.select-wrapper__select-btn__value {
+			max-width: 100%;
+		}
+	}
+	&__container {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/*background-color: @grey-100;*/
+		.map-img-wrap {
+			height: 100%;
+			width: auto;
+			position: relative;
+			margin-top: 15px;
+			&__image {
+				max-width: 100%;
+				max-height: 450px;
+				opacity: 0.2;
+				.bp-xsmall({
+					display: none;
+				});
+				.bp-small({
+					display: none;
+				});
+
+				.bp-medium({
+					display: flex;
+				});
+			}
+
+			&__map-metro-list {
+				.metro-wrap {
+					cursor : pointer;
+					position: absolute;
+
+					&__dot {
+						width: 10px;
+						height: 10px;
+						border-radius: 50%;
+						background-color: @background-secondary-color;
+						//box-shadow : 0 0 3px 5px #12BCAD;
+						animation: metro-pulsate 1.4s infinite;
+						//animation-direction: alternate;
+					}
+					&__name {
+						font-size: 1.4rem;
+						margin-top: 1px;
+						font-weight: 600;
+						color: @color-base-primary-green;
+						/*text-decoration: underline;*/
+
+						&.top {
+							position: absolute;
+							top:-23px;
+						}
+
+						&.right-top{
+							position: absolute;
+							top:-23px;
+							left:-49px;
+						}
+
+						&.right-bottom{
+							position: absolute;
+							top:-23px;
+							left:-49px;
+						}
+					}
+				}
+			}
+
+			&__metro-list {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				.metro-wrap {
+					&__name {
+						font-size: 1.4rem;
+						margin-top: 1px;
+						font-weight: 600;
+						color: @color-base-primary-green;
+					}
+				}
+
+				a {
+					.bp-small({
+						width: 50%;
+						display: flex;
+					})
+				}
+
+			}
+
+
+
+			.metros-served{
+				&__wrapper {
+					list-style: none;
+				}
+
+				&__item {
+					padding-bottom: 2px;
+					line-height: 2;
+					.bp-xsmall({
+						font-size: 1.5rem;
+					});
+
+					.bp-small({
+						font-size: 1.8rem;
+
+					});
+				}
+			}
+		}
+	}
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 18px;
+	}
+	/*&__item {
+		width: 50%;
+	}*/
+}
+
+.metros-served-carousel {
+	width: 230px;
+	&__area-wrap {
+		border: 1px solid @grey-500;
+		padding: 10px;
+		margin-right: 10px;
+		min-height: 300px;
+		width: 230px
+	}
+	.custom-slick-arrow {
+		background: none;
+		&.next {
+			right: -40px;
+		}
+		&.prev {
+			left: -40px;
+		}
+	}
+}
+
+/* metro map position classes */
+
+

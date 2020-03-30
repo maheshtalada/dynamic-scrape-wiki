@@ -1,0 +1,199 @@
+.subheader-heading {
+	color : @color-base-primary-green;
+	margin-top:0;
+	font-weight: 400;
+}
+
+.schema-forms .schema-container-wrapper:last-child {
+	border-bottom: none;
+}
+
+.registration-page {
+	padding-top: 30px;
+}
+
+.schema-listing-page {
+	.schema > .schema__header {
+		padding-left: 0;
+		padding-top: 0;
+	}
+
+	.linear-navigation__button-wrapper {
+		text-align: left;
+	}
+}
+
+.listing-media-drop-zone {
+	.linear-navigation__button-wrapper {
+		text-align: center;
+	}
+}
+
+div[title="Stop drawing"] {
+	content: url("/static/images/mapIcons/stop_drawing-min.png") !important;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+}
+
+div[title="Draw a circle"] {
+	content: url("/static/images/mapIcons/draw_circle-min.png") !important;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+}
+
+div[title="Draw a rectangle"] {
+	content: url("/static/images/mapIcons/draw_rectangle-min.png") !important;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+}
+
+.modules {
+	height:90px; /* 40px - more place for scrollbar, is hidden under parent box */
+	padding:5px;
+	white-space:nowrap;
+	overflow-x: scroll;
+	overflow-y: hide;
+	-webkit-overflow-scrolling:touch;
+}
+
+.module {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:#ddd;
+}
+.module + .module {
+	margin-left:5px
+
+}
+
+.pn-ProductNav_Wrapper {
+	position: relative;
+	padding: 0 11px;
+	box-sizing: border-box;
+}
+
+.pn-ProductNav {
+	/* Make this scrollable when needed */
+	overflow-x: auto;
+	/* We don't want vertical scrolling */
+	overflow-y: hidden;
+	/* For WebKit implementations, provide inertia scrolling */
+	-webkit-overflow-scrolling: touch;
+	/* We don't want internal inline elements to wrap */
+	white-space: nowrap;
+	/* If JS present, let's hide the default scrollbar */
+	/* positioning context for advancers */
+	position: relative;
+	font-size: 0;
+}
+.js .pn-ProductNav {
+	/* Make an auto-hiding scroller for the 3 people using a IE */
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	/* Remove the default scrollbar for WebKit implementations */
+}
+.js .pn-ProductNav::-webkit-scrollbar {
+	display: none;
+}
+
+.pn-ProductNav_Contents {
+	float: left;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+	transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+	transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+	position: relative;
+}
+
+.pn-ProductNav_Contents-no-transition {
+	-webkit-transition: none;
+	transition: none;
+}
+
+.pn-ProductNav_Link {
+	text-decoration: none;
+	color: #888;
+	font-size: 1.2rem;
+	font-family: -apple-system, sans-serif;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 44px;
+	border: 1px solid transparent;
+	padding: 0 11px;
+}
+.pn-ProductNav_Link + .pn-ProductNav_Link {
+	border-left-color: #eee;
+	font-size: 2rem;
+}
+.pn-ProductNav_Link[aria-selected="true"] {
+	color: #111;
+}
+
+.pn-Advancer {
+	/* Reset the button */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: transparent;
+	padding: 0;
+	border: 0;
+	/* Now style it as needed */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	/* Set the buttons invisible by default */
+	opacity: 0;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+}
+.pn-Advancer:focus {
+	outline: 0;
+}
+.pn-Advancer:hover {
+	cursor: pointer;
+}
+
+.pn-Advancer_Left {
+	left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Left, [data-overflowing="left"] ~ .pn-Advancer_Left {
+	opacity: 1;
+}
+
+.pn-Advancer_Right {
+	right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Right, [data-overflowing="right"] ~ .pn-Advancer_Right {
+	opacity: 1;
+}
+
+.pn-Advancer_Icon {
+	width: 20px;
+	height: 44px;
+	fill: #bbb;
+}
+
+.pn-ProductNav_Indicator {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 4px;
+	width: 100px;
+	background-color: transparent;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+	transition: background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out, background-color .2s ease-in-out;
+	transition: transform .2s ease-in-out, background-color .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+

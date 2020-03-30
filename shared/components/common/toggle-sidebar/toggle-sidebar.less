@@ -1,0 +1,31 @@
+@keyframes slideInAndOut{
+	from {
+		left: -100%;
+	}
+	to {
+		left: 0;
+	}
+}
+.toggle-sidebar {
+	height: ~"calc(100vh - 60px)";
+	animation: slideInAndOut 0.4s;
+	transition: all 0.3s;
+	left: 0;
+	position: fixed;
+	background: @color-base-white;
+	z-index: 5;
+	overflow: auto;
+	.bp-xsmall({
+		top: @mobile-header-fixed-height;
+		width: ~"calc(100vw - 40%);";
+	});
+	.bp-small({
+		top: @desktop-header-fixed-height;
+		width: ~"calc(100vw - 80%);";
+	});
+	&__header {
+		margin: 10px 0;
+		text-align: center;
+		padding: 0 10px;
+	}
+}

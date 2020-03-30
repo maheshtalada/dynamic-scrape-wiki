@@ -1,0 +1,460 @@
+.realtor-details{
+	&__active-listings {
+		padding: 0;
+		overflow: visible;
+		&__listing-link{
+			color: @color-base-white;
+			text-decoration: none;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		.slick-arrow {
+			z-index: 2;
+		}
+		.slick-next {
+			right : 7px;
+		}
+		.slick-prev {
+			left: -4px;
+		}
+		.slick-next,.slick-prev {
+			&:before {
+				font-size: 3rem;
+				color: @color-base-primary-green;
+			}
+			&.slick-disabled {
+				opacity: 0;
+			}
+		}
+		.hpanel {
+			cursor: pointer;
+			padding: 0 5px;
+			&.slick__item {
+				//margin: 0 10px 0 0;
+			}
+			.panel-body {
+				padding: 10px;
+				&:hover {
+					border-color: @color-panel-body-hover-green;
+				}
+			}
+		}
+
+		&__panel-wrap {
+			height: 250px;
+			position: relative;
+			a {
+				text-decoration: none;
+				color: @color-base-white;
+				height: 100%;
+			}
+			.image-cover {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			img {
+				position: absolute;
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+			.analyze-returns-popup {
+				top: unset;
+				bottom: 7px;
+				right: -70px;
+			}
+			.analyze-returns-btn,.tenant-apply-btn-wrap {
+				padding: 0;
+				position: absolute;
+				right: 100px;
+				bottom: 62px;
+				z-index: 1;
+				.btn.btn-default {
+					padding: 0;
+					border: none;
+					background: transparent;
+					color: @color-base-white;
+					&:hover {
+						color: @color-fore-primary-green-alt;
+					}
+					i {
+						font-weight: normal;
+						font-size: 2.7rem;
+						margin-right: 0;
+						color: @color-base-white;
+					}
+				}
+			}
+			.tenant-apply-btn-wrap {
+				bottom: 65px;
+				.btn.btn-default {
+					i {
+						font-weight: 600;
+					}
+				}
+			}
+			.bundle-count-box {
+				margin-right: 0;
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				bottom: 64px;
+				right: 127px;
+				z-index: 1;
+				border: 1px solid @grey-700;
+				img.image-cover__image {
+					display: none;
+				}
+				&__content {
+					background: rgba(0,0,0,0.8);
+				}
+				&::before {
+					display:none;
+				}
+				&__count {
+					font-size: 1.8rem;
+					font-weight: 600;
+				}
+			}
+		}
+		&__tags {
+			// padding: 3px;
+			//z-index: 1;
+			.wishlist-wrapper {
+				z-index: 1;
+				top: 0;
+				left: -4px;
+			}
+		}
+		&__data {
+			z-index: 0;
+			min-height: 125px;
+			color: @color-base-white;
+			background: -ms-linear-gradient(bottom, rgba(0,0,0,0.9), transparent);
+			background: -moz-linear-gradient(bottom, rgba(0,0,0,0.9), transparent);
+			background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.9), transparent);
+			padding: 5px;
+			.price__caprate {
+				margin-bottom: 5px;
+				font-weight: 600;
+				padding: 0 5px;
+				border-radius: 3px;
+				background: -ms-linear-gradient(top, rgba(0,0,0,0.5), transparent);
+				background: -moz-linear-gradient(top, rgba(0,0,0,0.5), transparent);
+				background: -webkit-linear-gradient(top, rgba(0,0,0,0.5), transparent);
+			}
+			&__right {
+				.posted-on {
+					font-size: 1.3rem;
+					i {
+						font-weight: 600;
+						font-size: 1.4rem;
+						margin-right: 5px;
+					}
+				}
+			}
+			&__left {
+				//width: 37%;
+			}
+			.price-info {
+				font-size: 2.4rem;
+				font-weight: 900;
+				margin: 0 15px 6px 0;
+				flex: 1;
+			}
+			.area-info {
+				margin-bottom: 6px;
+				>div {
+					padding: 0 6px;
+					font-weight: 600;
+					position: relative;
+					i {
+						font-size: 1.8rem;
+						margin-right: 3px;
+					}
+					&:not(:last-child) {
+						&:after {
+							content : '';
+							height: 16px;
+							width: 1px;
+							position: absolute;
+							right: 0;
+							background: rgba(255,255,255,0.5);
+							margin: 1px 0;
+						}
+					}
+					&:first-child {
+						padding-left: 0;
+					}
+					&:last-child {
+						padding-right: 0;
+					}
+				}
+				.uom {
+					font-size: 1.1rem;
+				}
+			}
+			.property-address {
+				line-height: 1.2;
+				font-size: 1.2rem;
+				font-weight: 600;
+				i {
+					font-weight: 600;
+					font-size: 1.3rem;
+					margin-right: 3px;
+				}
+				// .property-item-name {
+				// 	white-space: nowrap;
+				// 	overflow: hidden;
+				// 	text-overflow: ellipsis;
+				// 	&:hover {
+				// 		white-space: pre-wrap;
+				// 		// overflow: visible;
+				// 	}
+				// }
+
+			}
+			.investment-category-tag {
+				font-size: 1.2rem;
+				border-radius: 5px;
+				background: @color-base-primary-green;
+				color: @color-base-white;
+				padding: 0 5px;
+				margin-right: 5px;
+			}
+			.info-wrap {
+				width: 70%;
+				min-height: 95px;
+			}
+			.caprate-wrap {
+				margin-left: 5px;
+				.property-caprate {
+					padding: 0;
+					margin-top: 5px;
+					.value {
+						font-size: 1.7rem;
+						padding: 3px;
+						line-height: 1;
+					}
+					.label {
+						padding: 2px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						width: 85px;
+					}
+					// &:hover {
+					// 	.label {
+					// 		white-space: normal;
+					// 	}
+					// }
+				}
+			}
+		}
+	}
+	&__main-info {
+		min-height: 130px;
+		padding-bottom: 0;
+		.bp-xsmall({
+			margin-top: 15px;
+		});
+		.bp-small({
+			margin-top: 0;
+		});
+		&__share-wrap {
+			margin-bottom: 10px;
+		}
+		.areas-served {
+			&__locality-wrap {
+				margin-right: 7px;
+				display: inline-flex;
+				align-items: center;
+				i {
+					color: @color-fore-primary-green-alt;
+					font-weight: bold;
+					margin-right: 3px;
+				}
+				&__locality {
+					text-transform: capitalize;
+				}
+			}
+			.show-more-wrap {
+				margin-top: 10px;
+				button {
+					text-decoration: underline;
+				}
+			}
+		}
+		.title {
+			font-weight: 600;
+			text-transform: capitalize;
+			font-size: 2.0rem;
+			color: @color-base-primary-green;
+			line-height: 1.2;
+		}
+		.profession-info {
+			font-size: 1.6rem;
+			margin-bottom: 10px;
+			font-weight: 600;
+			display: flex;
+			align-items: center;
+			i {
+				color: @color-base-apple-green-alt-accesibility;
+				margin-right: 5px;
+				font-size: 1.8rem;
+				font-weight: 600;
+			}
+		}
+		.item.other-details {
+			font-size: 1.4rem;
+			// padding: 0 0 6px;
+			>div {
+				padding-left: 0;
+			}
+		}
+		.bold {
+			font-weight: 600;
+		}
+	}
+	&__avatar-wrap {
+		display: flex;
+		justify-content: flex-start;
+		max-width: 240px;
+		&__avatar {
+			height: 200px;
+			width: 200px;
+			margin-right: 10px;
+			border: 4px solid @color-base-white;
+			box-shadow: 0 0 2px 2px @grey-200;
+			position: relative;
+
+			> img {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+			}
+		}
+	}
+}
+.realtor-details,.professional-details,.profile-page__layout {
+	.listing-confirmation {
+		height: auto;
+		background-color: @color-base-white;
+		padding: 20px;
+		margin:10px 0;
+
+		&__wrapper-right {
+			.completion-info {
+				display: flex;
+				flex-wrap: wrap;
+				height: 100%;
+				.bp-xsmall({
+					margin-top: 25px;
+				});
+				.bp-small({
+					margin-top: 0;
+				});
+			}
+			.group-fields-wrap {
+				display: inline-block;
+				width: 300px;
+				margin-left: 85px;
+				.field-name {
+					font-weight: bold;
+				}
+			}
+			.radial-bars {
+				margin-top: 0;
+				height: 170px;
+			}
+		}
+		&__wrapper-left {
+			padding: 0 15px;
+			background-color: @color-base-white;
+		}
+	}
+}
+
+.realtor-details,.brokeragefirm-details,.professional-details {
+	.specialties {
+		padding-left: 0;
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			margin-left: 18px;
+			.bp-xsmall({
+				height: auto;
+			});
+			max-height: 100px;
+			li {
+
+				i {
+					font-weight: bold;
+					font-size: 35px;
+					color: @primary-color;
+					display: block;
+					margin-bottom: 6px;
+				}
+			}
+		}
+	}
+	.property-amenities,.specialties {
+		margin-bottom: 15px;
+	}
+	.property-details__about {
+		.item {
+			display: block;
+		}
+	}
+	.realtor-status-slogan {
+		position: relative;
+		&::before,&::after {
+			font-size: 2.3rem;
+			color: @color-base-primary-green;
+			font-style: normal;
+		}
+		&::before {
+			content: '\275B';
+			margin-right: 10px;
+		}
+		&::after {
+			content: '\275C';
+			margin-left: 10px;
+		}
+		font-size: 1.6rem;
+		font-style: italic;
+	}
+	.realtor-details__specialties-card {
+		min-height: 100px;
+	}
+	.contact-share-options {
+		padding: 10px 0;
+		border-top: none;
+		margin-top: 15px;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		float: none;
+	}
+
+	.add-to-my-contacts , .social-share-wrap {
+		margin-left: 10px;
+		i {
+			color: @color-base-primary-green;
+			font-weight: 800;
+		}
+	}
+
+	.mdl-card {
+		min-height: 100px;
+		padding: 10px 0 0 0;
+	}
+
+	.header-title {
+		font-size: 1.8rem;
+	}
+}

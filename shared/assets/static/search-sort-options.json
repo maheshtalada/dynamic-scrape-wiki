@@ -1,0 +1,87 @@
+{
+  "for-sale" : [
+    {
+      "name": "BYRELAVANCE",
+      "value": "relavance-asc",
+      "class": ""
+    },
+    {
+      "name": "NEWEST",
+      "value": "creationtime-desc",
+      "class": ""
+    },
+    {
+      "name": "OLDEST",
+      "value": "creationtime-asc",
+      "class": ""
+    },
+    {
+      "name": "HIGHESTPRICE",
+      "value": "price-desc",
+      "class": ""
+    },
+    {
+      "name": "LOWESTPRICE",
+      "value": "price-asc",
+      "class": ""
+    },
+    {
+      "name": "HIGHESTAREA",
+      "value": "area-desc",
+      "class": ""
+    },
+    {
+      "name": "LOWESTAREA",
+      "value": "area-asc",
+      "class": ""
+    },
+    {
+      "name": "HIGHESTCAPRATE",
+      "value": "caprate-desc",
+      "class": ""
+    },
+    {
+      "name": "HIGHESTCASHONCASH",
+      "value": "cashoncashreturn-desc",
+      "class": ""
+    }
+],
+  "for-rent" : [
+    {
+      "name": "BYRELAVANCE",
+      "value": "relavance-asc",
+      "class": ""
+    },
+    {
+      "name": "NEWEST",
+      "value": "creationtime-desc",
+      "class": ""
+    },
+    {
+      "name": "OLDEST",
+      "value": "creationtime-asc",
+      "class": ""
+    },
+    {
+      "name": "HIGHESTPRICE",
+      "value": "price-desc",
+      "class": ""
+    },
+    {
+      "name": "LOWESTPRICE",
+      "value": "price-asc",
+      "class": ""
+    },
+    {
+      "name": "HIGHESTAREA",
+      "value": "area-desc",
+      "class": ""
+    },
+    {
+      "name": "LOWESTAREA",
+      "value": "area-asc",
+      "class": ""
+    }
+  ]
+}
+

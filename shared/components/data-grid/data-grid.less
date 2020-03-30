@@ -1,0 +1,150 @@
+.layout-container {
+    .react-grid-Toolbar {
+        height: 35px;
+        padding: 3px 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .tools {
+            float: none;
+            margin-top: 0;
+            display: flex;
+        }
+        .btn {
+            padding: 0;
+            border: none;
+            display: flex;
+            align-items: center;
+            &:hover {
+                color: @color-base-primary-green;
+                border: none;
+                border-right: 1px solid @grey-400;
+            }
+            i {
+                margin-right: 3px;
+                font-size: 1.8rem;
+                color: @color-base-primary-green;
+            }
+            margin-right: 10px;
+            padding-right: 10px;
+            border-right: 1px solid @grey-400;
+            border-radius: 0;
+            &:last-child {
+                margin-right: 0;
+                padding-right: 0;
+                border-right: none;
+                &:hover {
+                    border-right: none;
+                }
+            }
+        }
+    }
+    .react-grid-Cell__value {
+        a {
+            color: @grey-600;
+            &:hover {
+                color: @color-base-primary-green;
+            }
+        }
+    }
+    .data-grid-checkbox-editor {
+        width: 98%;
+        height: 98%;
+        background: @color-base-white;
+        .mdl-checkbox-group {
+            input[type="checkbox"] {
+                display: block;
+                position: absolute;
+                z-index: 0;
+                top: 5px;
+            }
+        }
+    }
+    .react-grid-actions {
+        width: 100%;
+        a {
+            text-decoration: none;
+            i {
+                font-size: 1.9rem;
+                font-weight: 600;
+            }
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .rdg-editor-container {
+        .rdt {
+            input.form-control {
+                width: 98%;
+                padding: 0 5px;
+            }
+        }
+    }
+    .react-grid-Row.row-selected .react-grid-Cell {
+        background-color: @color-highlight-green;
+    }
+    .react-grid-checkbox:checked+.react-grid-checkbox-label:before {
+        background: @color-base-primary-green;
+    }
+    .react-grid-HeaderCell {
+        input {
+            width: 100%;
+        }
+    }
+    .react-grid-HeaderRow {
+        .react-grid-HeaderCell {
+            border-bottom: none;
+        }
+        &:nth-child(2) {
+            .react-grid-HeaderCell {
+                padding-top: 0;
+            }
+        }
+    }
+    .react-grid-Viewport {
+        border-top: 1px solid #dddddd;
+    }
+    .grid-filter-input-wrap,.grid-filter-checkbox-wrap {
+        position: relative;
+        display: flex;
+        align-items: center;
+        input {
+            padding-right: 18px;
+            font-weight: normal;
+            font-size: 1.3rem;
+        }
+        i {
+            position: absolute;
+            right: 4px;
+            font-weight: 600;
+        }
+    }
+    .grid-filter-checkbox-wrap {
+        height: 24px;
+        i {
+            top: 5px;
+        }
+        .select-wrapper {
+            flex: 1;
+            &__select-btn {
+                padding: 2px 4px;
+                border-color: @grey-300;
+                border-radius: 0;
+                &__arrow-icon {
+                    display: none;
+                }
+                &__value {
+                    max-width: 80px;
+                }
+            }
+        }
+    }
+}
+
+.data-grid-empty-row {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

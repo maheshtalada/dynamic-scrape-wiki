@@ -1,0 +1,39 @@
+{
+    "steps" : {
+      "details": {
+        "index" : 0,
+        "title": "Property details",
+        "question": "Provide basic information about your property",
+        "link": "/profile/create-property/details?id={id}",
+        "canNavigate": false,
+        "navigationSteps" : [2,3,4],
+        "isExistingPropCheck" : "isDetailsExisting"
+      },
+      "purchase-details": {
+        "index" : 1,
+        "title": "Purchase details",
+        "question": "Provide purchase details",
+        "link": "/profile/create-property/purchase-details?id={id}",
+        "canNavigate": true,
+        "navigationSteps" : [1,3,4]
+      },
+      "income-expense": {
+        "index" : 2,
+        "title": "Income / Expenses",
+        "question": "Add Income & Expense information",
+        "link": "/profile/create-property/income-expense?id={id}",
+        "canNavigate": true,
+        "navigationSteps" : [1,2,4]
+      },
+      "review": {
+        "index" : 3,
+        "title": "Review",
+        "question": "Cash Flow",
+        "link": "/profile/create-property/review?id={id}",
+        "canNavigate": true,
+        "navigationSteps" : [1,2,3]
+      }
+    },
+    "pageTitle" : "",
+    "pageDescription" : ""
+  }

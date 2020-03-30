@@ -1,0 +1,68 @@
+.docs-carousel {
+	margin: 30px 27px 0 27px;
+	.slick-next,.slick-prev{
+		&.slick-disabled {
+			&:before {
+				opacity: 0;
+			}
+		}
+		&:hover {
+			opacity: 0.5;
+		}
+		&:before {
+			opacity: 1;
+			color: @grey-700;
+		}
+	}
+	&__item-wrap {
+		&__item {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			background: @color-base-white;
+			border-radius: 3px;
+			margin-right: 20px;
+			padding: 5px;
+			&__doc-name {
+				width: 100%;
+				overflow: hidden;
+				padding: 0 10px;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				cursor: default;
+				margin-bottom: 5px;
+			}
+			&__icon-wrap {
+				height: 130px;
+				position: relative;
+				background-color: @grey-100;
+				img {
+					position: absolute;
+					margin: auto;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					width: 50%;
+					&.doc-icon {
+						width: 30%;
+					}
+				}
+			}
+			&__actions {
+				display: flex;
+				justify-content: space-between;
+				button:hover {
+					color: @color-base-primary-green;
+				}
+				a {
+					text-decoration: none;
+					color: @color-text;
+					&:hover {
+						color: @color-base-primary-green;
+					}
+				}
+			}
+		}
+	}
+}

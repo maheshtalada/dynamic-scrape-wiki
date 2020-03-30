@@ -1,0 +1,184 @@
+{
+    "schemas": [
+        {
+            "type": "header",
+            "children": [
+                {
+                    "label": "SHOWMYINFO",
+                    "id": "pdf.showMyInfo",
+                    "type": "list",
+                    "subtype": "list-tabs",
+                    "data": {
+                        "optionReference": "SHOWMYINFOREFERENCEVALUES",
+                        "value": "true"
+                    },
+                    "tabs": [
+                        {
+                            "id": "showMyInfoTab",
+                            "type": "list",
+                            "children": [
+                                {
+                                    "label": "SHOWPROFILEPIC",
+                                    "id": "pdf.showProfilePic",
+                                    "type": "list",
+                                    "subtype": "list-tabs",
+                                    "data": {
+                                        "optionReference": "SHOWPROFILEPICREFERENCEVALUES",
+                                        "value": "true"
+                                    }
+                                },
+                                {
+                                    "type": "custom-group",
+                                    "children": [
+                                        {
+                                            "label": "NAME",
+                                            "id": "pdf.name",
+                                            "type": "text",
+                                            "data": {
+                                                "value": "test realtor"
+                                            },
+                                            "validation": [
+                                                {
+                                                    "type": "required",
+                                                    "message": "NAMEREQUIRED",
+                                                    "value": "NAMEREQUIRED"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "EMAILID",
+                                            "id": "pdf.email",
+                                            "type": "text",
+                                            "data": {
+                                                "value": "testrealtor@yopmail.com"
+                                            }
+                                        },
+                                        {
+                                            "label": "MOBILENUMBER",
+                                            "id": "pdf.mobileNumber",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "tabValue": "true"
+                        }
+                    ]
+                },
+                {
+                    "label": "SHOWMYBROKERAGEFIRMINFO",
+                    "id": "pdf.showBrokerageFirmInfo",
+                    "type": "list",
+                    "subtype": "list-tabs",
+                    "data": {
+                        "optionReference": "SHOWBROKERAGEFIRMINFOREFERENCEVALUES",
+                        "value": "false"
+                    },
+                    "tabs": [
+                        {
+                            "id": "showBrokerageFirmInfoTab",
+                            "type": "list",
+                            "children": [
+                                {
+                                    "label": "SHOWLOGO",
+                                    "id": "pdf.showLogo",
+                                    "type": "list",
+                                    "subtype": "list-tabs",
+                                    "data": {
+                                        "optionReference": "SHOWLOGOREFERENCEVALUES",
+                                        "value": "false"
+                                    }
+                                },
+                                {
+                                    "type": "custom-group",
+                                    "children": [
+                                        {
+                                            "label": "NAME",
+                                            "id": "pdf.brokereageFirmName",
+                                            "type": "text",
+                                            "validation": [
+                                                {
+                                                    "type": "required",
+                                                    "message": "NAMEREQUIRED",
+                                                    "value": "NAMEREQUIRED"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "EMAILID",
+                                            "id": "pdf.brokereageFirmEmail",
+                                            "type": "text"
+                                        },
+                                        {
+                                            "label": "MOBILENUMBER",
+                                            "id": "pdf.brokereageFirmMobileNumber",
+                                            "type": "text"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "tabValue": "true"
+                        }
+                    ]
+                }
+            ],
+            "groupName": "pdfinfo"
+        }
+    ],
+    "referenceData": {
+        "children": [
+            {
+                "id": "SHOWMYINFOREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            },
+            {
+                "id": "SHOWPROFILEPICREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            },
+            {
+                "id": "SHOWBROKERAGEFIRMINFOREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            },
+            {
+                "id": "SHOWLOGOREFERENCEVALUES",
+                "option": [
+                    {
+                        "value": "true",
+                        "label": "YES"
+                    },
+                    {
+                        "value": "false",
+                        "label": "NO"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,129 @@
+
+/* load mixins here from style folder
+
+/* load main  */
+@import "pdf-generator";
+
+/* TODO : move these mixins to mixin file*/
+
+/* page Styles */
+	/* Keyword values for scalable size */
+	/*size: auto;
+	size: portrait;
+	size: landscape;
+	*/
+	/* <length> values */
+	/* 1 value: height = width */
+	/*size: 6in;*/
+
+	/* 2 values: width then height */
+	/*size: 4in 6in;*/
+
+	/* Keyword values for absolute size */
+	/*size: A4;
+	size: B5;
+	size: JIS-B4;
+	size: letter;*/
+
+	/* Mixing size and orientation */
+	/*size: A4 portrait;*/
+
+@page {
+	size: portrait;
+	/*size : 400px 550px;*/
+	margin: 80px 30px 100px;
+}
+
+/* print styles */
+@media print {
+	body {
+		margin: 0;
+		color: #000;
+	}
+
+	#header, #footer {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	header {
+		display: none;
+	}
+
+	#app-view {
+		height: auto;
+	}
+
+	.layout-container {
+		padding: 0;
+	}
+
+	.generate-pdf {
+		display: none;
+	}
+
+	.pdf-schema__content-list__property-highlights ul {
+		font-size: 1.8rem;
+	}
+
+	.pdf-generator {
+		margin: 0;
+		padding: 0;
+		height: auto;
+		border: none;
+		width: 800px;
+		position: relative;
+		display: block;
+	}
+
+	/* https://stackoverflow.com/questions/1630819/google-chrome-printing-page-breaks */
+	.schema {
+		display: block;
+		position: relative;
+		page-break-after: always;
+		page-break-inside: avoid;
+	}
+
+	.pdf-handout-contemporary {
+		.pdf-schema {
+			&__image-gallery {
+				max-height: 998px;
+				height: 998px;
+				overflow: hidden;
+				&__image-wrapper {
+					width: 310px;
+					height: 190px;
+				}
+			}
+		}
+	}
+
+	.pdf-postcard-classic {
+		width: 550px;
+	}
+
+	.pdf-handout-classic {
+		.pdf-schema {
+			&__custom-handout-left-rail {
+				width: 32%;
+			}
+
+			&__custom-handout-right-rail {
+				width: 68%;
+			}
+			&__image-gallery__image-wrapper {
+				width: 262px;
+				height: 172px;
+				border: 1px solid #e0e0e0;
+				padding: 7px;
+				margin-bottom: 12px;
+			}
+		}
+
+	}
+
+
+}
+
+
+

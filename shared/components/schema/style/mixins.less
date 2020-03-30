@@ -1,0 +1,59 @@
+.remove-tooltip {
+	&:before {
+		display: block;
+		content: 'Remove';
+		background-color: @color-base-secondary-blue;
+		color:@color-base-white;
+		padding: 16px;
+		font-size: 1rem;
+		position: absolute;
+		left: -35px;
+		top:25px;
+		z-index: 100;
+	}
+}
+.default-outline {
+	outline: 2px dotted @color-base-apple-green-alt;
+}
+.icon-list-no-gutter(@columns:3, @borderColor:@color-base-mono-light) {
+	@nextColumn : @columns+1;
+	label {
+		border-top: 0;
+	}
+	&:first-child {
+		label {
+			border-top: 1px solid @borderColor;
+		}
+	}
+	.bp-small({
+		label {
+			border-right: 0;
+			border-top: 1px solid @borderColor;
+		}
+		&:nth-child(n+@{nextColumn}) {
+			label {
+				border-top: 0;
+			}
+		}
+		&:nth-child(@{columns}n) {
+			label {
+				border-right: 1px solid @borderColor;
+			}
+		}
+		&:last-child {
+			label {
+				border-right: 1px solid @borderColor;
+			}
+		}
+	});
+}
+.clearfix() {
+	&:before,
+	&:after {
+		content: " "; // 1
+		display: table; // 2
+	}
+	&:after {
+		clear: both;
+	}
+}

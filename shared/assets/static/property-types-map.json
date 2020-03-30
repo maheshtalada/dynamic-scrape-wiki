@@ -1,0 +1,88 @@
+{
+  "propertytypes":[
+    {
+      "name" : "healthcare",
+      "code" : "healthcare",
+      "value": "healthcare",
+      "description" : "",
+      "icon-class" : "pe-7s-health-care"
+    },
+    {
+      "name" : "agricultural",
+      "code" : "agricultural",
+      "value": "agricultural",
+      "description" : "",
+      "icon-class" : "pe-7s-agricultural"
+    },
+    {
+      "name" : "industrial",
+      "code" : "industrial",
+      "value": "industrial",
+      "description" : "",
+      "icon-class" : "pe-7s-industrial"
+    },
+    {
+      "name" : "retail",
+      "code" : "retail",
+      "value": "retail",
+      "description" : "",
+      "icon-class" : "pe-7s-retail"
+    },
+    {
+      "name" : "office",
+      "code" : "office",
+      "value": "office",
+      "description" : "",
+      "icon-class" : "pe-7s-office"
+    },
+    {
+      "name" : "residential",
+      "code" : "residential",
+      "value": "residential",
+      "description" : "",
+      "icon-class" : "pe-7s-residential"
+    },
+    {
+      "name" : "land",
+      "code" : "land",
+      "value": "land",
+      "description" : "",
+      "icon-class" : "pe-7s-land"
+    },
+    {
+      "name" : "hotel",
+      "code" : "hotel",
+      "value": "hotel",
+      "description" : "",
+      "icon-class" : "pe-7s-lodging"
+    },
+    {
+      "name" : "food_dining",
+      "code" : "food_dining",
+      "value": "food_dining",
+      "description" : "",
+      "icon-class" : "pe-7s-fooddining"
+    },
+    {
+      "name" : "multi_family",
+      "code" : "multi_family",
+      "value": "multi_family",
+      "description" : "",
+      "icon-class" : "pe-7s-multifamily"
+    },
+    {
+      "name" : "special_purpose",
+      "code" : "special_purpose",
+      "value": "special_purpose",
+      "description" : "",
+      "icon-class" : "pe-7s-specialpurpose"
+    },
+    {
+      "name" : "other",
+      "code" : "other",
+      "value": "other",
+      "description" : "",
+      "icon-class" : "pe-7s-others"
+    }
+  ]
+}

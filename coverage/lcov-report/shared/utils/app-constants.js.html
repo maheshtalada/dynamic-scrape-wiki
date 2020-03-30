@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for shared/utils/app-constants.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">shared/utils</a> app-constants.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/3</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102</td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-yes">20x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">module.exports = {
+	'GAPI_KEY' : 'AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo',
+	'CUSTOM_MARKER_ICON' : 'static/images/marker/office-building.png',
+	'CUSTOM_MARKER_ICON_LEASE' : 'static/images/marker/office-building-lease.png',
+	'CUSTOM_MARKER_ICON_SALE' : 'static/images/marker/office-building-sale.png',
+	'FORLEASE' : 'for-rent',
+	'FORSALE'	: 'for-sale',
+	'REALTOR_SEARCH_TYPE' : 'realtor',
+	'DEFAULT_SEARCH_TYPE' : 'for-sale',
+	'LOGO_IMAGE'	: 'http://betagroup.be/images/footer-logo1.png',
+	'LOADER_IMAge'	: 'static/images/loader/gears.gif',
+	'PARTIAL_SEARCH_ATTRIBUTE' : 'name',
+	'PARTIAL_SEARCH_ATTRIBUTE_CONTENT' : 'postedby',
+	'PROPERTY_SEARCH_FACETS' : {
+		'PROPERTY_TYPE' : 'propertytype',
+		'SUB_TYPE' : 'subtype',
+		'PRICE' : 'price',
+		'AREA' : 'area',
+		'SALE_TYPE' : 'saletype',
+		'ZIPCODE' : 'zipcode',
+		'CITY' : 'city',
+		'STATE' : 'state',
+		'REGION' : 'region',
+		'LOCALITY' : 'locality',
+		'CAPACITY' : 'capacity',
+		'STATUS' : 'constructionstatus',
+		'RADIUS' : 'radius',
+		'AGE' : 'age',
+		'BED' : 'bed',
+		'SEAT' : 'seat',
+		'BEDROOM': 'bedroom',
+		'RSPF' : 'rspf',
+		'CAPRATE' : 'caprate'
+	},
+	'OTHER_SERVICES_SEARCH_FACETS' : {
+		'PROFESSIONAL' : {
+			'TYPE' : 'datatype',
+			'PROFESSIONS' : 'professions',
+			'AREAS' : 'areas-locality',
+			'YEARS' : 'years'
+		},
+		'REALTOR' : {
+			'TYPE' : 'datatype',
+			'SPECIALTIES' : 'specialties',
+			'AREAS' : 'areas-locality',
+			'YEARS' : 'years'
+		},
+		'CONTENT' : {
+			'TYPE' : 'datatype',
+			'CATEGORIES' : 'categories'
+		}
+	},
+	'DEFAULT_VIEW' : 'list',
+	'LIST_VIEW' : 'list',
+	'GRID_VIEW' : 'grid',
+	'MAP_VIEW' : 'map',
+	'DEFAULT_FILTER' : true,
+	'FILTER_SHOW' : true,
+	'FILTER_HIDE' : false,
+	'MAP_PIN' : 'M0-48c-9.8 0-17.7 7.8-17.7 17.4 0 15.5 17.7 30.6 17.7 30.6s17.7-15.4 17.7-30.6c0-9.6-7.9-17.4-17.7-17.4z',
+	'SQUARE_PIN' : 'M22-48h-44v43h16l6 5 6-5h16z',
+	'SHIELD' : 'M18.8-31.8c.3-3.4 1.3-6.6 3.2-9.5l-7-6.7c-2.2 1.8-4.8 2.8-7.6 3-2.6.2-5.1-.2-7.5-1.4-2.4 1.1-4.9 1.6-7.5 1.4-2.7-.2-5.1-1.1-7.3-2.7l-7.1 6.7c1.7 2.9 2.7 6 2.9 9.2.1 1.5-.3 3.5-1.3 6.1-.5 1.5-.9 2.7-1.2 3.8-.2 1-.4 1.9-.5 2.5 0 2.8.8 5.3 2.5 7.5 1.3 1.6 3.5 3.4 6.5 5.4 3.3 1.6 5.8 2.6 7.6 3.1.5.2 1 .4 1.5.7l1.5.6c1.2.7 2 1.4 2.4 2.1.5-.8 1.3-1.5 2.4-2.1.7-.3 1.3-.5 1.9-.8.5-.2.9-.4 1.1-.5.4-.1.9-.3 1.5-.6.6-.2 1.3-.5 2.2-.8 1.7-.6 3-1.1 3.8-1.6 2.9-2 5.1-3.8 6.4-5.3 1.7-2.2 2.6-4.8 2.5-7.6-.1-1.3-.7-3.3-1.7-6.1-.9-2.8-1.3-4.9-1.2-6.4z',
+	'ROUTE' : 'M24-28.3c-.2-13.3-7.9-18.5-8.3-18.7l-1.2-.8-1.2.8c-2 1.4-4.1 2-6.1 2-3.4 0-5.8-1.9-5.9-1.9l-1.3-1.1-1.3 1.1c-.1.1-2.5 1.9-5.9 1.9-2.1 0-4.1-.7-6.1-2l-1.2-.8-1.2.8c-.8.6-8 5.9-8.2 18.7-.2 1.1 2.9 22.2 23.9 28.3 22.9-6.7 24.1-26.9 24-28.3z',
+	'SQUARE' : 'M-24-48h48v48h-48z',
+	'SQUARE_ROUNDED' : 'M24-8c0 4.4-3.6 8-8 8h-32c-4.4 0-8-3.6-8-8v-32c0-4.4 3.6-8 8-8h32c4.4 0 8 3.6 8 8v32z',
+	'MAP_LOGO_ICON' : 'M60.545,30.524c0-16.088-13.041-29.128-29.128-29.128c-16.087,0-29.128,13.041-29.128,29.128c0,11.37,6.515,21.217,16.015,26.014l13.114,16.066l13.115-16.066C54.03,51.741,60.545,41.894,60.545,30.524z M31.417,55.017c-13.527,0-24.493-10.965-24.493-24.493C6.924,16.997,17.89,6.03,31.417,6.03s24.493,10.967,24.493,24.494C55.909,44.052,44.943,55.017,31.417,55.017z',
+	'EDIT_LISTING_LINK' : '/property-listing/%s/listing',
+	'GENERATE_REPORT_LINK': 'https://report.propshub.com/property-listings/%s/report?env=%s',
+	'GENERATE_FLYER_LINK': 'https://report.propshub.com/property-listings/%s/flyer?env=%s',
+	'EDIT_COMPANY_LINK' : '/edit-company/%s',
+	'EDIT_ARTICLE_LINK' : '/edit-article/%s',
+	'EDIT_PROFILE_LINK': '/profile',
+	'LISTING_ADDITIONAL_INFO_LINK' : '/property-listing/%s/additional',
+	'CHAT_MESSAGE_TYPES' : [
+		'loginJoinRoom',
+		'userJoined',
+		'userLeft',
+		'joinRoom',
+		'joinRequested',
+		'userRequested',
+		'userStartedTyping',
+		'userStoppedTyping',
+		'messageAdded',
+		'userRefreshed'
+	].reduce((accum, msg) =&gt; {
+		accum[ msg ] = msg;
+		return accum;
+	}, {}),
+	'DEFAULT_SEARCH_METRO' : 'dallas',
+	'FACEBOOK_URL': 'https://www.facebook.com/propshubinc/',
+	'TWITTER_URL': 'https://twitter.com/PropsHub',
+	'YOUTUBE_URL': 'https://www.youtube.com/channel/UC8OFlleFFourdBbKl1l0ovQ',
+	'PINTEREST_URL': 'https://in.pinterest.com/propshub/',
+	'INSTAGRAM_URL': 'https://www.instagram.com/propshubinc/',
+	'LINKEDIN_URL': 'https://www.linkedin.com/company/propshub/',
+	'MEDIUM_URL': 'https://medium.com/propshub',
+	'HELP_ME_INVEST_LINK': '/guided-search/investment',
+	'DALLAS_PROPSHUB_INDEX_LINK': '/residential-investment-markets/texas/dallas-fort-worth/market-index/map/1',
+	'PHOENIX_PROPSHUB_INDEX_LINK': '/residential-investment-markets/arizona/phoenix/market-index/map/2',
+	'INDIANAPOLIS_PROPSHUB_INDEX_LINK': '/residential-investment-markets/indiana/indianapolis/market-index/map/3'
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Oct 10 2018 15:38:51 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>
