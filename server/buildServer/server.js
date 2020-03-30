@@ -104,7 +104,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/Users/maheshtalada/old-dynamic-scrape-wiki/server";
+/******/ 	__webpack_require__.p = "/Users/maheshtalada/dynamic-scrape-wiki/server";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -267,11 +267,9 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
       switch (_context.prev = _context.next) {
         case 0:
           console.log("server Listening on port ".concat(PORT), "environment", process.env.NODE_ENV);
-          console.log("Application Running", " ", "http://localhost:".concat(PORT));
-          _context.next = 4;
-          return open__WEBPACK_IMPORTED_MODULE_11___default()("http://localhost:".concat(PORT));
+          console.log("Application Running", " ", "http://localhost:".concat(PORT)); //await open(`http://localhost:${PORT}`);
 
-        case 4:
+        case 2:
         case "end":
           return _context.stop();
       }
@@ -4516,7 +4514,7 @@ function () {
   var _ref6 = _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1___default()(
   /*#__PURE__*/
   _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee6(req, res) {
-    var _req$query, source, name, state, sid, id, data, corporationwiki, google;
+    var _req$query, source, name, state, sid, id, data, corporationwiki, google, corpText, googleText;
 
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee6$(_context6) {
       while (1) {
@@ -4539,14 +4537,18 @@ function () {
           case 8:
             data = _context6.sent;
             corporationwiki = data.corporationwiki, google = data.google;
-            console.log(data);
+            console.log(data); //console.log(JSON.stringify(corporationwiki), JSON.stringify(google));
 
             if (corporationwiki) {
-              pool.query("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ",'").concat(JSON.stringify(corporationwiki), "', 'corporationwiki', UNIX_TIMESTAMP(CURRENT_TIME()))"));
+              corpText = pool.escape(JSON.stringify(corporationwiki));
+              console.log("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ", ").concat(corpText, ", 'corporationwiki', UNIX_TIMESTAMP(CURRENT_TIME()))"));
+              pool.query("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ", ").concat(corpText, ", 'corporationwiki', UNIX_TIMESTAMP(CURRENT_TIME()))"));
             }
 
             if (google) {
-              pool.query("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ",'").concat(JSON.stringify(google), "', 'google', UNIX_TIMESTAMP(CURRENT_TIME()))"));
+              googleText = pool.escape(JSON.stringify(google));
+              console.log("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ",").concat(googleText, ", 'google', UNIX_TIMESTAMP(CURRENT_TIME()))"));
+              pool.query("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ",").concat(googleText, ", 'google', UNIX_TIMESTAMP(CURRENT_TIME()))"));
             }
 
             res.send(data);
@@ -5269,7 +5271,7 @@ function _getCompany() {
             }());
             _context14.prev = 5;
             // corporation wiki
-            corporationWikiPageUrl = encodeURI("https://www.corporationwiki.com/search/results?term=".concat(name));
+            corporationWikiPageUrl = "https://www.corporationwiki.com/search/results?term=".concat(encodeURIComponent(name));
             cluster.queue({
               url: corporationWikiPageUrl,
               companyName: name,
@@ -5310,7 +5312,7 @@ function _getCompany() {
                 console.log('error', error);
               }
             }, corporation);
-            googleUrl = "https://www.google.com/search?q=".concat(name, ",").concat(state);
+            googleUrl = "https://www.google.com/search?q=".concat(encodeURIComponent(name), ",").concat(state);
             cluster.queue({
               url: googleUrl,
               companyName: name,
@@ -5430,6 +5432,7 @@ pool.getConnection(function (err, connection) {
 }); // Promisify for Node.js async/await.
 
 pool.query = util.promisify(pool.query);
+pool.escape = pool.escape;
 module.exports = pool;
 
 /***/ }),

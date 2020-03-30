@@ -12,10 +12,9 @@ import CustomSyncTable, {Thead, Tbody, Tr, Th, Td} from "react-row-select-table/
 import { Schema } from 'components/schema';
 import { REQUEST_ADD_COMPANY_PEOPLE } from '../../redux/actions/schema';
 import Loader from 'components/common/page-loader/loader';
-const delay = require('delay');
 import uniqueId from 'utils/uniqueFormId';
 import ErrorBox from 'components/common/error-box/error-box';
-
+const delay = require('delay');
 let ADDPERSON = {
 	"label": "ADD PERSON",
 	"id": "ADDPERSON",
@@ -216,7 +215,7 @@ class Company extends PureComponent {
 			response_grabber : !isEmpty(response_grabber) || Company.updateResponseLog(scrapeLog),
 			isOpenGoogle : Company.updateLogStatus(scrapeLog['google']),
 			isOpenCorpWiki : Company.updateLogStatus(scrapeLog['corporationwiki']),
-			peopleSchema : response_company && response_company.companyPeople && response_company.companyPeople.length > 0 && this.ganerateSchema(response_company.companyPeople, response_company.companyData) || '',
+			peopleSchema : response_company && response_company.companyPeople && response_company.companyPeople.length > 0 && this.genarateSchema(response_company.companyPeople, response_company.companyData) || this.genarateEmptySchema(),
 			corpWikiLastRunReportLog : Company.updateLogData(scrapeLog['corporationwiki']) || response_company && response_company.scrapeLog && response_company.scrapeLog.length && findIndex(response_company.scrapeLog, { 'source' : 'corporationwiki'}) > -1 && JSON.parse(find(response_company.scrapeLog, { 'source' : 'corporationwiki'})['logData']) || '',
 			googleLastRunReportLog : Company.updateLogData(scrapeLog['google']) || response_company && response_company.scrapeLog && response_company.scrapeLog.length && findIndex(response_company.scrapeLog, { 'source' : 'google'}) > -1 && JSON.parse(find(response_company.scrapeLog, { 'source' : 'google'})['logData']) || '',
 			isFetching : add_company_people && add_company_people.isFetching
@@ -500,7 +499,88 @@ class Company extends PureComponent {
 		};
 	}
 
-	ganerateSchema(pplData, companyData) {
+	genarateEmptySchema(){
+		let schemaChildren = [];
+		schemaChildren.push({
+			"label": "EXPERTISE",
+			"id": `personremovable1`,
+			"type": "list",
+			"subtype": "list-removable-single",
+			"classNames": ['schema__list', 'schema__list__removable-single','schema__list__removable-single__custom-btn'],
+			"isButton" : true,
+			"children" : [
+				{
+					"type": "custom-multi-group",
+					"children": [
+						{
+							"label": "name",
+							"id": "details.people(1).name",
+							"type": "text",
+							"classNames" : ['schema__text', 'schema__name']
+						},
+						{
+							"label": "phone",
+							"id": "details.people(1).phone",
+							"type": "text",
+							"classNames" : ['schema__text', 'schema__phone']
+						},
+						{
+							"label": "email",
+							"id": "details.people(1).email",
+							"type": "text",
+							"classNames" : ['schema__text', 'schema__email']
+						},
+						{
+							"label": "roles",
+							"id": "details.people(1).roles",
+							"type": "text",
+							"classNames" : ['schema__text', 'schema__roles']
+						},
+						{
+							"label": "fullAddresses",
+							"id": "details.people(1).address",
+							"type": "text-suggestion",
+							"classNames" : ['schema__text', 'schema__fullAddresses']
+						},
+						{
+							"label": "status",
+							"id": "details.people(1).status",
+							"type": "text",
+							"classNames" : ['schema__text', 'schema__status']
+						}
+					]
+				}
+			]
+		})
+		ADDPERSON.data.key = 2;
+		schemaChildren.push(ADDPERSON);
+		// company schema
+		const companyschema = {
+			"label": "EXPERTISE",
+			"id": `companyremovable`,
+			"type": "list",
+			"subtype": "list-removable-single",
+			"classNames": ['schema__list', 'schema__list__company', 'schema__list__removable-single','schema__list__removable-single__custom-btn'],
+			"isButton" : true,
+			"children" : [
+				{
+					"type": "custom-multi-group",
+					"children" : this.buildCompanySchema()
+				}
+			]
+		};
+
+		schemaChildren.unshift(COMPANY_LABEL, companyschema, PEOPLE_LABEL);
+
+		const peopleSchema = {
+			"type" : "header",
+			"children" : schemaChildren
+		};
+
+		return peopleSchema;
+	}
+
+	genarateSchema(pplData, companyData) {
 		const peopleData =  pplData.map( (item , index ) => this.buildPeopleSchema(item, index+1));
 		const schemaChildren = peopleData.map( (data, key) => {
 			return {
@@ -559,13 +639,17 @@ class Company extends PureComponent {
 		return data;
 	}
 
-	getSuggestionOtions(data, type) {
+	getSuggestionOptions(data, type) {
 		if(!data) {
 			return '';
 		}
 
 		if(typeof data === 'object' && type === 'text-suggestion') {
 			return data.map( option => ({ value : option, label : option}))
+		}
+
+		if(type === 'text-suggestion') {
+			return [{ value : data, label : data}]
 		}
 
 		return data;
@@ -583,13 +667,13 @@ class Company extends PureComponent {
 				"classNames" : ['schema__text', `schema__${key}`],
 				"data" : {
 					"value" : value,
-					"options" : this.getSuggestionOtions(data[key], SCHEMA_MAP_PEOPLE[key]['component'])
+					"options" : this.getSuggestionOptions(data[key], SCHEMA_MAP_PEOPLE[key]['component'])
 				}
 			}
 		})
 	}
 
-	buildCompanySchema(data) {
+	buildCompanySchema(data={}) {
 		return Object.keys(SCHEMA_MAP_COMPANY).map( key => {
 			const value = this.getSchemaValues(data[key], SCHEMA_MAP_COMPANY[key]['component']);
 			this.updateValues[`details.company.${key}`] = value;
@@ -600,7 +684,7 @@ class Company extends PureComponent {
 				"classNames" : ['schema__text', `schema__company__${key}`],
 				"data" : {
 					"value" : value,
-					"options" : this.getSuggestionOtions(data[key], SCHEMA_MAP_COMPANY[key]['component'])
+					"options" : this.getSuggestionOptions(data[key], SCHEMA_MAP_COMPANY[key]['component'])
 				}
 			}
 		})

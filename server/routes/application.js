@@ -160,13 +160,15 @@ application.get('/api/v1/rungrabber/:id', async(req,res) => {
 	try{
 		const data = await getCompany({name, state, io, sid });
 		const { corporationwiki, google } = data;
-		console.log(data);
+		console.log(data)
 		if (corporationwiki) {
-			pool.query(`INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (${id},'${JSON.stringify(corporationwiki)}', 'corporationwiki', UNIX_TIMESTAMP(CURRENT_TIME()))`)
+			const corpText = pool.escape(JSON.stringify(corporationwiki));
+			pool.query(`INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (${id}, ${corpText}, 'corporationwiki', UNIX_TIMESTAMP(CURRENT_TIME()))`)
 		}
 
 		if (google) {
-			pool.query(`INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (${id},'${JSON.stringify(google)}', 'google', UNIX_TIMESTAMP(CURRENT_TIME()))`)
+			const googleText = pool.escape(JSON.stringify(google));
+			pool.query(`INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (${id},${googleText}, 'google', UNIX_TIMESTAMP(CURRENT_TIME()))`)
 		}
 
 		res.send(data);
@@ -408,7 +410,7 @@ async function getCompany( { name, state }) {
 
 	try {
 		// corporation wiki
-		const corporationWikiPageUrl = encodeURI(`https://www.corporationwiki.com/search/results?term=${name}`);
+		const corporationWikiPageUrl = `https://www.corporationwiki.com/search/results?term=${encodeURIComponent(name)}`;
 		cluster.queue({
 			url : corporationWikiPageUrl,
 			companyName : name,
@@ -430,7 +432,7 @@ async function getCompany( { name, state }) {
 			}
 		}, corporation);
 
-		const googleUrl = `https://www.google.com/search?q=${name},${state}`;
+		const googleUrl = `https://www.google.com/search?q=${encodeURIComponent(name)},${state}`;
 		cluster.queue({
 			url : googleUrl,
 			companyName : name,
