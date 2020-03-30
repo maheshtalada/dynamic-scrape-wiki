@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d1384376-0091-4e84-9536-ceb74f35e76e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/webpack-assets.json" afterPath="$PROJECT_DIR$/etc/webpack-assets.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app.js" afterPath="$PROJECT_DIR$/server/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/buildServer/3.server.js" afterPath="$PROJECT_DIR$/server/buildServer/3.server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/buildServer/server.js" afterPath="$PROJECT_DIR$/server/buildServer/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/helpers/dbUtils.js" afterPath="$PROJECT_DIR$/server/helpers/dbUtils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routes/application.js" afterPath="$PROJECT_DIR$/server/routes/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shared/containers/Companies/Company.js" afterPath="$PROJECT_DIR$/shared/containers/Companies/Company.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
-              <caret line="87" column="6" lean-forward="false" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+              <caret line="87" column="58" lean-forward="false" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -73,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Company.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Company.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/containers/Companies/Company.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
@@ -129,8 +126,8 @@
       <find>esca</find>
       <find>genarateSchema</find>
       <find>text-suggestion</find>
-      <find>getSuggestionOtions</find>
       <find>renderCustomData</find>
+      <find>getSuggestionOtions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,10 +136,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/app.js" />
         <option value="$PROJECT_DIR$/server/helpers/dbUtils.js" />
         <option value="$PROJECT_DIR$/server/routes/application.js" />
         <option value="$PROJECT_DIR$/shared/containers/Companies/Company.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
       </list>
     </option>
   </component>
@@ -315,16 +312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="87" column="6" lean-forward="false" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mysql/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -401,6 +388,16 @@
           <caret line="642" column="8" lean-forward="false" selection-start-line="642" selection-start-column="8" selection-end-line="642" selection-end-column="8" />
           <folding>
             <element signature="e#0#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="87" column="58" lean-forward="false" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>

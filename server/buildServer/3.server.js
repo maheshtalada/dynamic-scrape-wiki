@@ -138,9 +138,9 @@ function (_Component) {
 
 
 
+
+
 var delay = __webpack_require__(87);
-
-
 
 var ADDPERSON = {
   "label": "ADD PERSON",
@@ -329,7 +329,7 @@ function (_PureComponent) {
         response_grabber: !lodash_isEmpty__WEBPACK_IMPORTED_MODULE_20___default()(response_grabber) || Company.updateResponseLog(scrapeLog),
         isOpenGoogle: Company.updateLogStatus(scrapeLog['google']),
         isOpenCorpWiki: Company.updateLogStatus(scrapeLog['corporationwiki']),
-        peopleSchema: response_company && response_company.companyPeople && response_company.companyPeople.length > 0 && this.ganerateSchema(response_company.companyPeople, response_company.companyData) || '',
+        peopleSchema: response_company && response_company.companyPeople && response_company.companyPeople.length > 0 && this.genarateSchema(response_company.companyPeople, response_company.companyData) || this.genarateEmptySchema(),
         corpWikiLastRunReportLog: Company.updateLogData(scrapeLog['corporationwiki']) || response_company && response_company.scrapeLog && response_company.scrapeLog.length && lodash_findIndex__WEBPACK_IMPORTED_MODULE_23___default()(response_company.scrapeLog, {
           'source': 'corporationwiki'
         }) > -1 && JSON.parse(lodash_find__WEBPACK_IMPORTED_MODULE_22___default()(response_company.scrapeLog, {
@@ -758,8 +758,76 @@ function (_PureComponent) {
       };
     }
   }, {
-    key: "ganerateSchema",
-    value: function ganerateSchema(pplData, companyData) {
+    key: "genarateEmptySchema",
+    value: function genarateEmptySchema() {
+      var schemaChildren = [];
+      schemaChildren.push({
+        "label": "EXPERTISE",
+        "id": "personremovable1",
+        "type": "list",
+        "subtype": "list-removable-single",
+        "classNames": ['schema__list', 'schema__list__removable-single', 'schema__list__removable-single__custom-btn'],
+        "isButton": true,
+        "children": [{
+          "type": "custom-multi-group",
+          "children": [{
+            "label": "name",
+            "id": "details.people(1).name",
+            "type": "text",
+            "classNames": ['schema__text', 'schema__name']
+          }, {
+            "label": "phone",
+            "id": "details.people(1).phone",
+            "type": "text",
+            "classNames": ['schema__text', 'schema__phone']
+          }, {
+            "label": "email",
+            "id": "details.people(1).email",
+            "type": "text",
+            "classNames": ['schema__text', 'schema__email']
+          }, {
+            "label": "roles",
+            "id": "details.people(1).roles",
+            "type": "text",
+            "classNames": ['schema__text', 'schema__roles']
+          }, {
+            "label": "fullAddresses",
+            "id": "details.people(1).address",
+            "type": "text-suggestion",
+            "classNames": ['schema__text', 'schema__fullAddresses']
+          }, {
+            "label": "status",
+            "id": "details.people(1).status",
+            "type": "text",
+            "classNames": ['schema__text', 'schema__status']
+          }]
+        }]
+      });
+      ADDPERSON.data.key = 2;
+      schemaChildren.push(ADDPERSON); // company schema
+
+      var companyschema = {
+        "label": "EXPERTISE",
+        "id": "companyremovable",
+        "type": "list",
+        "subtype": "list-removable-single",
+        "classNames": ['schema__list', 'schema__list__company', 'schema__list__removable-single', 'schema__list__removable-single__custom-btn'],
+        "isButton": true,
+        "children": [{
+          "type": "custom-multi-group",
+          "children": this.buildCompanySchema()
+        }]
+      };
+      schemaChildren.unshift(COMPANY_LABEL, companyschema, PEOPLE_LABEL);
+      var peopleSchema = {
+        "type": "header",
+        "children": schemaChildren
+      };
+      return peopleSchema;
+    }
+  }, {
+    key: "genarateSchema",
+    value: function genarateSchema(pplData, companyData) {
       var _this10 = this;
 
       var peopleData = pplData.map(function (item, index) {
@@ -815,8 +883,8 @@ function (_PureComponent) {
       return data;
     }
   }, {
-    key: "getSuggestionOtions",
-    value: function getSuggestionOtions(data, type) {
+    key: "getSuggestionOptions",
+    value: function getSuggestionOptions(data, type) {
       if (!data) {
         return '';
       }
@@ -828,6 +896,13 @@ function (_PureComponent) {
             label: option
           };
         });
+      }
+
+      if (type === 'text-suggestion') {
+        return [{
+          value: data,
+          label: data
+        }];
       }
 
       return data;
@@ -848,16 +923,17 @@ function (_PureComponent) {
           "classNames": ['schema__text', "schema__".concat(key)],
           "data": {
             "value": value,
-            "options": _this11.getSuggestionOtions(data[key], SCHEMA_MAP_PEOPLE[key]['component'])
+            "options": _this11.getSuggestionOptions(data[key], SCHEMA_MAP_PEOPLE[key]['component'])
           }
         };
       });
     }
   }, {
     key: "buildCompanySchema",
-    value: function buildCompanySchema(data) {
+    value: function buildCompanySchema() {
       var _this12 = this;
 
+      var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
       return Object.keys(SCHEMA_MAP_COMPANY).map(function (key) {
         var value = _this12.getSchemaValues(data[key], SCHEMA_MAP_COMPANY[key]['component']);
 
@@ -869,7 +945,7 @@ function (_PureComponent) {
           "classNames": ['schema__text', "schema__company__".concat(key)],
           "data": {
             "value": value,
-            "options": _this12.getSuggestionOtions(data[key], SCHEMA_MAP_COMPANY[key]['component'])
+            "options": _this12.getSuggestionOptions(data[key], SCHEMA_MAP_COMPANY[key]['component'])
           }
         };
       });

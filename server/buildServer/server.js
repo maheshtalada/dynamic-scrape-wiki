@@ -267,9 +267,11 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
       switch (_context.prev = _context.next) {
         case 0:
           console.log("server Listening on port ".concat(PORT), "environment", process.env.NODE_ENV);
-          console.log("Application Running", " ", "http://localhost:".concat(PORT)); //await open(`http://localhost:${PORT}`);
+          console.log("Application Running", " ", "http://localhost:".concat(PORT));
+          _context.next = 4;
+          return open__WEBPACK_IMPORTED_MODULE_11___default()("http://localhost:".concat(PORT, "/?type=unprocessed"));
 
-        case 2:
+        case 4:
         case "end":
           return _context.stop();
       }
@@ -1772,7 +1774,7 @@ module.exports = JSON.parse("{\"staticUrl\":\"http://localhost:9052\",\"api\":{\
 /* 56 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"vendors~CompanyDetail~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail~CompanyList~PeopleList.js\"},\"main\":{\"css\":\"http://localhost:9052/static/build/main.css\",\"js\":\"http://localhost:9052/static/build/main.js\"},\"vendor\":{\"js\":\"http://localhost:9052/static/build/vendor.js\"},\"common\":{\"js\":\"http://localhost:9052/static/build/common.js\"},\"CompanyList\":{\"js\":\"http://localhost:9052/static/build/CompanyList.js\"},\"CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/CompanyDetail.js\"},\"CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/CompanyList~PeopleList.js\"},\"vendors~Schema\":{\"css\":\"http://localhost:9052/static/build/vendors~Schema.css\",\"js\":\"http://localhost:9052/static/build/vendors~Schema.js\"},\"vendors~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyList~PeopleList.js\"},\"vendors~CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail.js\"},\"PeopleList\":{\"js\":\"http://localhost:9052/static/build/PeopleList.js\"},\"Schema\":{\"js\":\"http://localhost:9052/static/build/Schema.js\"},\"RangeSlider\":{\"js\":\"http://localhost:9052/static/build/RangeSlider.js\"},\"vendors~RangeSlider\":{\"js\":\"http://localhost:9052/static/build/vendors~RangeSlider.js\"},\"\":{\"svg\":[\"http://localhost:9052/static/build/90ed5b0ab24398668a51f8268d2f0607.svg\",\"http://localhost:9052/static/build/c1f9e49220c95680b81c1acaf22499d8.svg\"],\"eot\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.eot?v=7aa5855f\",\"http://localhost:9052/static/build/map-icons.eot?v=82829841\"],\"ttf\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.ttf?v=67b9d5d7\",\"http://localhost:9052/static/build/map-icons.ttf?v=6867e037\"],\"woff\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.woff?v=03dc1fa0\",\"http://localhost:9052/static/build/map-icons.woff?v=d660ef03\"]}}");
+module.exports = JSON.parse("{\"main\":{\"css\":\"http://localhost:9052/static/build/main.css\",\"js\":\"http://localhost:9052/static/build/main.js\"},\"vendors~Schema\":{\"css\":\"http://localhost:9052/static/build/vendors~Schema.css\",\"js\":\"http://localhost:9052/static/build/vendors~Schema.js\"},\"vendor\":{\"js\":\"http://localhost:9052/static/build/vendor.js\"},\"common\":{\"js\":\"http://localhost:9052/static/build/common.js\"},\"CompanyList\":{\"js\":\"http://localhost:9052/static/build/CompanyList.js\"},\"CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/CompanyDetail.js\"},\"CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/CompanyList~PeopleList.js\"},\"vendors~CompanyDetail~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail~CompanyList~PeopleList.js\"},\"vendors~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyList~PeopleList.js\"},\"vendors~CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail.js\"},\"PeopleList\":{\"js\":\"http://localhost:9052/static/build/PeopleList.js\"},\"Schema\":{\"js\":\"http://localhost:9052/static/build/Schema.js\"},\"RangeSlider\":{\"js\":\"http://localhost:9052/static/build/RangeSlider.js\"},\"vendors~RangeSlider\":{\"js\":\"http://localhost:9052/static/build/vendors~RangeSlider.js\"},\"\":{\"svg\":[\"http://localhost:9052/static/build/90ed5b0ab24398668a51f8268d2f0607.svg\",\"http://localhost:9052/static/build/c1f9e49220c95680b81c1acaf22499d8.svg\"],\"eot\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.eot?v=7aa5855f\",\"http://localhost:9052/static/build/map-icons.eot?v=82829841\"],\"ttf\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.ttf?v=67b9d5d7\",\"http://localhost:9052/static/build/map-icons.ttf?v=6867e037\"],\"woff\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.woff?v=03dc1fa0\",\"http://localhost:9052/static/build/map-icons.woff?v=d660ef03\"],\"json\":\"http://localhost:9052/static/build/20510e2e6fe4dc4e2a37.hot-update.json\"}}");
 
 /***/ }),
 /* 57 */
@@ -4537,17 +4539,15 @@ function () {
           case 8:
             data = _context6.sent;
             corporationwiki = data.corporationwiki, google = data.google;
-            console.log(data); //console.log(JSON.stringify(corporationwiki), JSON.stringify(google));
+            console.log(data);
 
             if (corporationwiki) {
               corpText = pool.escape(JSON.stringify(corporationwiki));
-              console.log("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ", ").concat(corpText, ", 'corporationwiki', UNIX_TIMESTAMP(CURRENT_TIME()))"));
               pool.query("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ", ").concat(corpText, ", 'corporationwiki', UNIX_TIMESTAMP(CURRENT_TIME()))"));
             }
 
             if (google) {
               googleText = pool.escape(JSON.stringify(google));
-              console.log("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ",").concat(googleText, ", 'google', UNIX_TIMESTAMP(CURRENT_TIME()))"));
               pool.query("INSERT into scrapeActivityLog (companyID, logData, source, date_added) values (".concat(id, ",").concat(googleText, ", 'google', UNIX_TIMESTAMP(CURRENT_TIME()))"));
             }
 
