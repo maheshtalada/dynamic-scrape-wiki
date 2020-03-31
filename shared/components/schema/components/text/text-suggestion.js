@@ -24,7 +24,7 @@ export default class TextSuggestionComponent extends CustomFormulaCalculatorText
 		this.state = {
 			hasFocus: false,
 			value : props.data.value,
-			suggestions : props.data.options,
+			//suggestions : props.data.options,
 			showDropDown : false
 		};
 		this._ignoreBlur = false;
@@ -98,9 +98,12 @@ export default class TextSuggestionComponent extends CustomFormulaCalculatorText
 	}
 
 	renderCustomData() {
-		const { l } = this.props;
-		const { suggestions } = this.state;
-		return suggestions.map((option) => (
+		const { l, data } = this.props;
+		//const { suggestions } = this.state;
+		if(!data.options) {
+			return null;
+		}
+		return data.options.map((option) => (
 			<li className="pac-item"
 				onMouseEnter={()=>{this.setIgnoreBlur(true)}}
 				onMouseLeave={()=>{this.setIgnoreBlur(false)}}

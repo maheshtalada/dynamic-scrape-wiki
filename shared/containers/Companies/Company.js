@@ -645,6 +645,7 @@ class Company extends PureComponent {
 		}
 
 		if(typeof data === 'object' && type === 'text-suggestion') {
+			console.log(data, type);
 			return data.map( option => ({ value : option, label : option}))
 		}
 
