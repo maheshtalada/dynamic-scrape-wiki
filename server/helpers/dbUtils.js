@@ -4,8 +4,8 @@ const pool = mysql.createPool({
 	connectionLimit: 10,
 	host: 'localhost',
 	user: 'root',
-	password: '#Propshub123',
-	database: 'grabber'
+	password: '',
+	database: '#Propshub123'
 })
 
 // Ping database to check for common exception errors.

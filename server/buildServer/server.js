@@ -267,7 +267,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
       switch (_context.prev = _context.next) {
         case 0:
           console.log("server Listening on port ".concat(PORT), "environment", process.env.NODE_ENV);
-          console.log("Application Running", " ", "http://localhost:".concat(PORT)); //await open(`http://localhost:${PORT}/?type=unprocessed`);
+          console.log("Application Running on", "", "http://localhost:".concat(PORT)); //await open(`http://localhost:${PORT}/?type=unprocessed`);
 
         case 2:
         case "end":
@@ -1772,7 +1772,7 @@ module.exports = JSON.parse("{\"staticUrl\":\"http://localhost:9052\",\"api\":{\
 /* 56 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"main\":{\"css\":\"http://localhost:9052/static/build/main.css\",\"js\":\"http://localhost:9052/static/build/main.js\"},\"vendors~Schema\":{\"css\":\"http://localhost:9052/static/build/vendors~Schema.css\",\"js\":\"http://localhost:9052/static/build/vendors~Schema.js\"},\"vendor\":{\"js\":\"http://localhost:9052/static/build/vendor.js\"},\"common\":{\"js\":\"http://localhost:9052/static/build/common.js\"},\"CompanyList\":{\"js\":\"http://localhost:9052/static/build/CompanyList.js\"},\"CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/CompanyDetail.js\"},\"CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/CompanyList~PeopleList.js\"},\"vendors~CompanyDetail~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail~CompanyList~PeopleList.js\"},\"vendors~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyList~PeopleList.js\"},\"vendors~CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail.js\"},\"PeopleList\":{\"js\":\"http://localhost:9052/static/build/PeopleList.js\"},\"Schema\":{\"js\":\"http://localhost:9052/static/build/Schema.js\"},\"RangeSlider\":{\"js\":\"http://localhost:9052/static/build/RangeSlider.js\"},\"vendors~RangeSlider\":{\"js\":\"http://localhost:9052/static/build/vendors~RangeSlider.js\"},\"\":{\"svg\":[\"http://localhost:9052/static/build/90ed5b0ab24398668a51f8268d2f0607.svg\",\"http://localhost:9052/static/build/c1f9e49220c95680b81c1acaf22499d8.svg\"],\"eot\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.eot?v=7aa5855f\",\"http://localhost:9052/static/build/map-icons.eot?v=82829841\"],\"ttf\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.ttf?v=67b9d5d7\",\"http://localhost:9052/static/build/map-icons.ttf?v=6867e037\"],\"woff\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.woff?v=03dc1fa0\",\"http://localhost:9052/static/build/map-icons.woff?v=d660ef03\"],\"json\":\"http://localhost:9052/static/build/9434366169df436f2a2f.hot-update.json\"}}");
+module.exports = JSON.parse("{\"main\":{\"css\":\"http://localhost:9052/static/build/main.css\",\"js\":\"http://localhost:9052/static/build/main.js\"},\"vendors~Schema\":{\"css\":\"http://localhost:9052/static/build/vendors~Schema.css\",\"js\":\"http://localhost:9052/static/build/vendors~Schema.js\"},\"vendor\":{\"js\":\"http://localhost:9052/static/build/vendor.js\"},\"common\":{\"js\":\"http://localhost:9052/static/build/common.js\"},\"CompanyList\":{\"js\":\"http://localhost:9052/static/build/CompanyList.js\"},\"CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/CompanyDetail.js\"},\"CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/CompanyList~PeopleList.js\"},\"vendors~CompanyDetail~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail~CompanyList~PeopleList.js\"},\"vendors~CompanyList~PeopleList\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyList~PeopleList.js\"},\"vendors~CompanyDetail\":{\"js\":\"http://localhost:9052/static/build/vendors~CompanyDetail.js\"},\"PeopleList\":{\"js\":\"http://localhost:9052/static/build/PeopleList.js\"},\"Schema\":{\"js\":\"http://localhost:9052/static/build/Schema.js\"},\"RangeSlider\":{\"js\":\"http://localhost:9052/static/build/RangeSlider.js\"},\"vendors~RangeSlider\":{\"js\":\"http://localhost:9052/static/build/vendors~RangeSlider.js\"},\"\":{\"svg\":[\"http://localhost:9052/static/build/90ed5b0ab24398668a51f8268d2f0607.svg\",\"http://localhost:9052/static/build/c1f9e49220c95680b81c1acaf22499d8.svg\"],\"eot\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.eot?v=7aa5855f\",\"http://localhost:9052/static/build/map-icons.eot?v=82829841\"],\"ttf\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.ttf?v=67b9d5d7\",\"http://localhost:9052/static/build/map-icons.ttf?v=6867e037\"],\"woff\":[\"http://localhost:9052/static/build/Pe-icon-7-stroke.woff?v=03dc1fa0\",\"http://localhost:9052/static/build/map-icons.woff?v=d660ef03\"],\"json\":\"http://localhost:9052/static/build/eec0ff2f65fd117bc583.hot-update.json\"}}");
 
 /***/ }),
 /* 57 */
@@ -4659,12 +4659,17 @@ function () {
 
           case 5:
             _context7.next = 7;
-            return page.goto(url, {
-              waitUntil: ['load', 'domcontentloaded']
-            });
+            return page.setDefaultNavigationTimeout(0);
 
           case 7:
             _context7.next = 9;
+            return page.goto(url, {
+              waitUntil: ['load', 'domcontentloaded'],
+              timeout: 0
+            });
+
+          case 9:
+            _context7.next = 11;
             return page.evaluate(function () {
               var googleEle = document.querySelectorAll('#search .rc');
               return Object.values(googleEle).map(function (el) {
@@ -4678,9 +4683,9 @@ function () {
               });
             });
 
-          case 9:
+          case 11:
             dataToSend = _context7.sent;
-            _context7.next = 12;
+            _context7.next = 14;
             return waitForStdProcess({
               msg: "Result Found For ".concat(companyName, ", ").concat(state.toUpperCase()),
               className: "company-name google-log",
@@ -4688,22 +4693,22 @@ function () {
               data: dataToSend
             }, 1);
 
-          case 12:
+          case 14:
             onSuccess(dataToSend);
-            _context7.next = 18;
+            _context7.next = 20;
             break;
 
-          case 15:
-            _context7.prev = 15;
+          case 17:
+            _context7.prev = 17;
             _context7.t0 = _context7["catch"](2);
             onError(_context7.t0);
 
-          case 18:
+          case 20:
           case "end":
             return _context7.stop();
         }
       }
-    }, _callee7, null, [[2, 15]]);
+    }, _callee7, null, [[2, 17]]);
   }));
 
   return function googleCrawl(_x16) {
@@ -4746,93 +4751,98 @@ function () {
 
                     case 2:
                       _context8.next = 4;
-                      return page.goto(url, {
-                        waitUntil: ['load', 'domcontentloaded']
-                      });
+                      return page.setDefaultNavigationTimeout(0);
 
                     case 4:
                       _context8.next = 6;
-                      return page.waitFor("#results-stats");
+                      return page.goto(url, {
+                        waitUntil: ['load', 'domcontentloaded'],
+                        timeout: 0
+                      });
 
                     case 6:
                       _context8.next = 8;
+                      return page.waitFor("#results-stats");
+
+                    case 8:
+                      _context8.next = 10;
                       return page.$eval('#results-stats', function (el) {
                         return el.innerText;
                       });
 
-                    case 8:
+                    case 10:
                       resultsFound = _context8.sent;
 
                       if (!(resultsFound === '0 Results Found')) {
-                        _context8.next = 11;
+                        _context8.next = 13;
                         break;
                       }
 
                       throw 'no companies found';
 
-                    case 11:
-                      _context8.next = 13;
-                      return page.waitFor("#entity_type_facets_container input[type=checkbox]");
-
                     case 13:
                       _context8.next = 15;
-                      return page.click("#entity_type_facets_container input[type=checkbox]");
+                      return page.waitFor("#entity_type_facets_container input[type=checkbox]");
 
                     case 15:
                       _context8.next = 17;
+                      return page.click("#entity_type_facets_container input[type=checkbox]");
+
+                    case 17:
+                      _context8.next = 19;
                       return waitForStdProcess({
                         msg: 'Enable Filters',
                         source: 'corporationwiki'
                       }, 3);
 
-                    case 17:
-                      _context8.next = 19;
-                      return page.select('#states_facets_container select', state);
-
                     case 19:
                       _context8.next = 21;
+                      return page.select('#states_facets_container select', state);
+
+                    case 21:
+                      _context8.next = 23;
                       return waitForStdProcess({
                         msg: '',
                         className: "filters",
                         source: 'corporationwiki'
                       }, 5);
 
-                    case 21:
-                      _context8.next = 23;
+                    case 23:
+                      _context8.next = 25;
                       return page.$$('.list-group-item');
 
-                    case 23:
+                    case 25:
                       itemsData = _context8.sent;
-                      _context8.next = 26;
+                      _context8.next = 28;
                       return waitForStdProcess({
                         msg: "Found ".concat(itemsData.length, " Companies"),
                         className: "company-length",
                         source: 'corporationwiki'
                       }, 1);
 
-                    case 26:
+                    case 28:
                       i = 0;
                       _iteratorNormalCompletion = true;
                       _didIteratorError = false;
                       _iteratorError = undefined;
-                      _context8.prev = 30;
+                      _context8.prev = 32;
                       _iterator = itemsData[Symbol.iterator]();
 
-                    case 32:
+                    case 34:
                       if (_iteratorNormalCompletion = (_step = _iterator.next()).done) {
-                        _context8.next = 46;
+                        _context8.next = 48;
                         break;
                       }
 
                       item = _step.value;
-                      _context8.next = 36;
+                      _context8.next = 38;
                       return item.$eval('.col-xs-12.col-lg-5', function (el) {
                         return el.innerText;
                       });
 
-                    case 36:
+                    case 38:
                       address = _context8.sent;
-                      _context8.next = 39;
+                      _context8.next = 41;
                       return item.$eval('.ellipsis', function (company) {
                         return {
                           name: company.innerText,
@@ -4840,53 +4850,53 @@ function () {
                         };
                       });
 
-                    case 39:
+                    case 41:
                       company = _context8.sent;
                       company['address'] = address.split('\n')[1].trim();
                       jsonData.push(company);
                       i++;
 
-                    case 43:
+                    case 45:
                       _iteratorNormalCompletion = true;
-                      _context8.next = 32;
-                      break;
-
-                    case 46:
-                      _context8.next = 52;
+                      _context8.next = 34;
                       break;
 
                     case 48:
-                      _context8.prev = 48;
-                      _context8.t0 = _context8["catch"](30);
+                      _context8.next = 54;
+                      break;
+
+                    case 50:
+                      _context8.prev = 50;
+                      _context8.t0 = _context8["catch"](32);
                       _didIteratorError = true;
                       _iteratorError = _context8.t0;
 
-                    case 52:
-                      _context8.prev = 52;
-                      _context8.prev = 53;
+                    case 54:
+                      _context8.prev = 54;
+                      _context8.prev = 55;
 
                       if (!_iteratorNormalCompletion && _iterator.return != null) {
                         _iterator.return();
                       }
 
-                    case 55:
-                      _context8.prev = 55;
+                    case 57:
+                      _context8.prev = 57;
 
                       if (!_didIteratorError) {
-                        _context8.next = 58;
+                        _context8.next = 60;
                         break;
                       }
 
                       throw _iteratorError;
 
-                    case 58:
-                      return _context8.finish(55);
-
-                    case 59:
-                      return _context8.finish(52);
-
                     case 60:
-                      _context8.next = 62;
+                      return _context8.finish(57);
+
+                    case 61:
+                      return _context8.finish(54);
+
+                    case 62:
+                      _context8.next = 64;
                       return waitForStdProcess({
                         msg: '',
                         data: jsonData,
@@ -4894,38 +4904,39 @@ function () {
                         source: 'corporationwiki'
                       }, 1);
 
-                    case 62:
+                    case 64:
                       //await page.waitFor(3000);
                       //get full company address from company details page
                       i = 0;
                       _iteratorNormalCompletion2 = true;
                       _didIteratorError2 = false;
                       _iteratorError2 = undefined;
-                      _context8.prev = 66;
+                      _context8.prev = 68;
                       _iterator2 = jsonData[Symbol.iterator]();
 
-                    case 68:
+                    case 70:
                       if (_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done) {
-                        _context8.next = 109;
+                        _context8.next = 111;
                         break;
                       }
 
                       _company = _step2.value;
-                      _context8.next = 72;
+                      _context8.next = 74;
                       return waitForStdProcess({
                         msg: "Fetching People for ".concat(_company.name, ", ").concat(_company.address),
                         className: "company-fetching",
                         source: 'corporationwiki'
                       }, 1);
 
-                    case 72:
-                      _context8.next = 74;
-                      return page.goto(_company.link, {
-                        waitUntil: ['load', 'domcontentloaded']
-                      });
-
                     case 74:
                       _context8.next = 76;
+                      return page.goto(_company.link, {
+                        waitUntil: ['load', 'domcontentloaded'],
+                        timeout: 0
+                      });
+
+                    case 76:
+                      _context8.next = 78;
                       return page.evaluate(function (selector) {
                         var rows = document.querySelectorAll(selector);
                         return Object.values(rows).map(function (row) {
@@ -4942,7 +4953,7 @@ function () {
                         });
                       }, '#people > div.card.min-card-height > div > div > table > tbody > tr');
 
-                    case 76:
+                    case 78:
                       jsonData[i]['people'] = _context8.sent;
                       peopleLinks = jsonData[i]['people'].map(function (person, key) {
                         return {
@@ -4952,59 +4963,59 @@ function () {
                         };
                       });
                       peopleData = peopleData.concat(peopleLinks);
-                      _context8.next = 81;
+                      _context8.next = 83;
                       return page.$$eval('.list-group-item span[itemprop="address"]', function (addresses) {
                         return addresses.map(function (address) {
                           return address.innerText;
                         });
                       });
 
-                    case 81:
+                    case 83:
                       fullAddress = _context8.sent;
                       jsonData[i]['fullAddresses'] = fullAddress;
-                      _context8.prev = 83;
-                      _context8.next = 86;
+                      _context8.prev = 85;
+                      _context8.next = 88;
                       return page.$eval('#header-status .label-success', function (el) {
                         return el && el.innerText;
                       });
 
-                    case 86:
+                    case 88:
                       status = _context8.sent;
                       jsonData[i]['status'] = status;
-                      _context8.next = 92;
+                      _context8.next = 94;
                       break;
-
-                    case 90:
-                      _context8.prev = 90;
-                      _context8.t1 = _context8["catch"](83);
 
                     case 92:
                       _context8.prev = 92;
-                      _context8.next = 95;
+                      _context8.t1 = _context8["catch"](85);
+
+                    case 94:
+                      _context8.prev = 94;
+                      _context8.next = 97;
                       return page.$eval('#phone .phone-number', function (el) {
                         return el && el.innerText;
                       });
 
-                    case 95:
+                    case 97:
                       phone = _context8.sent;
                       jsonData[i]['phone'] = phone;
-                      _context8.next = 101;
+                      _context8.next = 103;
                       break;
 
-                    case 99:
-                      _context8.prev = 99;
-                      _context8.t2 = _context8["catch"](92);
-
                     case 101:
-                      _context8.next = 103;
+                      _context8.prev = 101;
+                      _context8.t2 = _context8["catch"](94);
+
+                    case 103:
+                      _context8.next = 105;
                       return waitForStdProcess({
                         msg: "Full Address - ".concat(jsonData[i]['fullAddresses']),
                         className: "company-address",
                         source: 'corporationwiki'
                       }, 1);
 
-                    case 103:
-                      _context8.next = 105;
+                    case 105:
+                      _context8.next = 107;
                       return waitForStdProcess({
                         msg: "",
                         className: "company-people",
@@ -5012,124 +5023,127 @@ function () {
                         source: 'corporationwiki'
                       }, 3);
 
-                    case 105:
+                    case 107:
                       i++;
 
-                    case 106:
+                    case 108:
                       _iteratorNormalCompletion2 = true;
-                      _context8.next = 68;
-                      break;
-
-                    case 109:
-                      _context8.next = 115;
+                      _context8.next = 70;
                       break;
 
                     case 111:
-                      _context8.prev = 111;
-                      _context8.t3 = _context8["catch"](66);
+                      _context8.next = 117;
+                      break;
+
+                    case 113:
+                      _context8.prev = 113;
+                      _context8.t3 = _context8["catch"](68);
                       _didIteratorError2 = true;
                       _iteratorError2 = _context8.t3;
 
-                    case 115:
-                      _context8.prev = 115;
-                      _context8.prev = 116;
+                    case 117:
+                      _context8.prev = 117;
+                      _context8.prev = 118;
 
                       if (!_iteratorNormalCompletion2 && _iterator2.return != null) {
                         _iterator2.return();
                       }
 
-                    case 118:
-                      _context8.prev = 118;
+                    case 120:
+                      _context8.prev = 120;
 
                       if (!_didIteratorError2) {
-                        _context8.next = 121;
+                        _context8.next = 123;
                         break;
                       }
 
                       throw _iteratorError2;
 
-                    case 121:
-                      return _context8.finish(118);
-
-                    case 122:
-                      return _context8.finish(115);
-
                     case 123:
+                      return _context8.finish(120);
+
+                    case 124:
+                      return _context8.finish(117);
+
+                    case 125:
                       //get person full address
                       i = 0;
-                      _context8.next = 126;
+                      _context8.next = 128;
                       return waitForStdProcess({
                         msg: "Fetch People addresses",
                         className: "company-people-details-title",
                         source: 'corporationwiki'
                       }, 1);
 
-                    case 126:
+                    case 128:
                       _iteratorNormalCompletion3 = true;
                       _didIteratorError3 = false;
                       _iteratorError3 = undefined;
-                      _context8.prev = 129;
+                      _context8.prev = 131;
                       _iterator3 = peopleData[Symbol.iterator]();
 
-                    case 131:
+                    case 133:
                       if (_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done) {
-                        _context8.next = 165;
+                        _context8.next = 167;
                         break;
                       }
 
                       people = _step3.value;
-                      _context8.next = 135;
-                      return page.goto(people.link);
-
-                    case 135:
                       _context8.next = 137;
+                      return page.goto(people.link, {
+                        waitUntil: ['load', 'domcontentloaded'],
+                        timeout: 0
+                      });
+
+                    case 137:
+                      _context8.next = 139;
                       return page.$$eval('.list-group-item span[itemprop="address"]', function (addresses) {
                         return addresses.map(function (address) {
                           return address.innerText;
                         });
                       });
 
-                    case 137:
+                    case 139:
                       _fullAddress = _context8.sent;
                       indexPerson = jsonData[people.id]['people'][people.personIndex];
-                      _context8.prev = 139;
-                      _context8.next = 142;
+                      _context8.prev = 141;
+                      _context8.next = 144;
                       return page.$eval('#header-status .label-success', function (el) {
                         return el && el.innerText;
                       });
 
-                    case 142:
+                    case 144:
                       _status = _context8.sent;
                       indexPerson['status'] = _status;
-                      _context8.next = 148;
+                      _context8.next = 150;
                       break;
-
-                    case 146:
-                      _context8.prev = 146;
-                      _context8.t4 = _context8["catch"](139);
 
                     case 148:
                       _context8.prev = 148;
-                      _context8.next = 151;
+                      _context8.t4 = _context8["catch"](141);
+
+                    case 150:
+                      _context8.prev = 150;
+                      _context8.next = 153;
                       return page.$eval('#phone .phone-number', function (el) {
                         return el && el.innerText;
                       });
 
-                    case 151:
+                    case 153:
                       _phone = _context8.sent;
                       indexPerson['phone'] = _phone;
-                      _context8.next = 157;
+                      _context8.next = 159;
                       break;
 
-                    case 155:
-                      _context8.prev = 155;
-                      _context8.t5 = _context8["catch"](148);
-
                     case 157:
+                      _context8.prev = 157;
+                      _context8.t5 = _context8["catch"](150);
+
+                    case 159:
                       indexPerson['id'] = ++i;
                       indexPerson['fullAddresses'] = _fullAddress;
                       jsonData[people.id]['people'][people.personIndex] = indexPerson;
-                      _context8.next = 162;
+                      _context8.next = 164;
                       return waitForStdProcess({
                         msg: '',
                         className: "company-people-data",
@@ -5137,54 +5151,54 @@ function () {
                         source: 'corporationwiki'
                       }, 3);
 
-                    case 162:
+                    case 164:
                       _iteratorNormalCompletion3 = true;
-                      _context8.next = 131;
-                      break;
-
-                    case 165:
-                      _context8.next = 171;
+                      _context8.next = 133;
                       break;
 
                     case 167:
-                      _context8.prev = 167;
-                      _context8.t6 = _context8["catch"](129);
+                      _context8.next = 173;
+                      break;
+
+                    case 169:
+                      _context8.prev = 169;
+                      _context8.t6 = _context8["catch"](131);
                       _didIteratorError3 = true;
                       _iteratorError3 = _context8.t6;
 
-                    case 171:
-                      _context8.prev = 171;
-                      _context8.prev = 172;
+                    case 173:
+                      _context8.prev = 173;
+                      _context8.prev = 174;
 
                       if (!_iteratorNormalCompletion3 && _iterator3.return != null) {
                         _iterator3.return();
                       }
 
-                    case 174:
-                      _context8.prev = 174;
+                    case 176:
+                      _context8.prev = 176;
 
                       if (!_didIteratorError3) {
-                        _context8.next = 177;
+                        _context8.next = 179;
                         break;
                       }
 
                       throw _iteratorError3;
 
-                    case 177:
-                      return _context8.finish(174);
-
-                    case 178:
-                      return _context8.finish(171);
-
                     case 179:
-                      onSuccess(jsonData);
+                      return _context8.finish(176);
 
                     case 180:
+                      return _context8.finish(173);
+
+                    case 181:
+                      onSuccess(jsonData);
+
+                    case 182:
                     case "end":
                       return _context8.stop();
                   }
                 }
-              }, _callee8, null, [[30, 48, 52, 60], [53,, 55, 59], [66, 111, 115, 123], [83, 90], [92, 99], [116,, 118, 122], [129, 167, 171, 179], [139, 146], [148, 155], [172,, 174, 178]]);
+              }, _callee8, null, [[32, 50, 54, 62], [55,, 57, 61], [68, 113, 117, 125], [85, 92], [94, 101], [118,, 120, 124], [131, 169, 173, 181], [141, 148], [150, 157], [174,, 176, 180]]);
             })(), "t0", 6);
 
           case 6:
@@ -5227,7 +5241,9 @@ function _getCompany() {
             return Cluster.launch({
               concurrency: Cluster.CONCURRENCY_BROWSER,
               maxConcurrency: 2,
-              timeout: 100 * 1000
+              timeout: 500 * 1000,
+              skipDuplicateUrls: true,
+              sameDomainDelay: 200 * 1000
               /*puppeteerOptions : {
               	headless : false
               }*/

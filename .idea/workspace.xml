@@ -4,6 +4,11 @@
     <list default="true" id="d1384376-0091-4e84-9536-ceb74f35e76e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/app.js" afterPath="$PROJECT_DIR$/server/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/buildServer/3.server.js" afterPath="$PROJECT_DIR$/server/buildServer/3.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/buildServer/5.server.js" afterPath="$PROJECT_DIR$/server/buildServer/5.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/buildServer/server.js" afterPath="$PROJECT_DIR$/server/buildServer/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/helpers/dbUtils.js" afterPath="$PROJECT_DIR$/server/helpers/dbUtils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/routes/application.js" afterPath="$PROJECT_DIR$/server/routes/application.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state relative-caret-position="485">
+              <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -39,21 +44,21 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/routes/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
-              <caret line="173" column="23" lean-forward="false" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="1632">
+              <caret line="400" column="36" lean-forward="false" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
+              <folding>
+                <element signature="e#9654#11672#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company-details.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shared/components/company-details/company-details.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-109">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbUtils.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbUtils.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/helpers/dbUtils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="71">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -121,12 +126,14 @@
       <find>ganerateSchema</find>
       <find>ganarateSchema</find>
       <find>companyData</find>
-      <find>esca</find>
       <find>genarateSchema</find>
       <find>text-suggestion</find>
       <find>renderCustomData</find>
       <find>getSuggestionOtions</find>
       <find>suggestions</find>
+      <find>esca</find>
+      <find>puppeteer</find>
+      <find>goto</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,11 +142,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/routes/application.js" />
         <option value="$PROJECT_DIR$/shared/containers/Companies/Company.js" />
         <option value="$PROJECT_DIR$/shared/components/schema/components/text/text-suggestion.js" />
-        <option value="$PROJECT_DIR$/server/helpers/dbUtils.js" />
+        <option value="$PROJECT_DIR$/server/routes/application.js" />
         <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/server/helpers/dbUtils.js" />
       </list>
     </option>
   </component>
@@ -232,7 +239,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="text-su&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/shared/components/schema/components/text/text-suggestion.js&#10;CompanyDetailPage&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/shared/pages/CompanyDetailPage.js&#10;routes&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/shared/core/routes.js&#10;com&#9;null&#9;null&#10;companyde&#9;null&#9;null&#10;application&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/server/routes/application.js" />
+    <property name="SearchEverywhereHistoryKey" value="pack&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/package.json&#10;appli&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/server/routes/application.js&#10;text-su&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/shared/components/schema/components/text/text-suggestion.js&#10;CompanyDetailPage&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/shared/pages/CompanyDetailPage.js&#10;routes&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/shared/core/routes.js&#10;com&#9;null&#9;null&#10;companyde&#9;null&#9;null&#10;application&#9;FILE&#9;file:///Users/maheshtalada/dynamic-scrape-wiki/server/routes/application.js" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -296,6 +303,7 @@
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24806201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -303,7 +311,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45416668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45416668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -322,7 +330,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -340,7 +350,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#9654#11672#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -365,7 +377,7 @@
         <state relative-caret-position="-109">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -384,14 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="173" column="23" lean-forward="false" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -416,21 +420,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/helpers/dbUtils.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="203">
+          <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/puppeteer-cluster/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/puppeteer-cluster/dist/Cluster.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="72" column="14" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="400" column="36" lean-forward="false" selection-start-line="400" selection-start-column="36" selection-end-line="400" selection-end-column="36" />
+          <folding>
+            <element signature="e#9654#11672#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="485">
+          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/helpers/dbUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

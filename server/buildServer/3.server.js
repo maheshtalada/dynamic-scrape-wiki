@@ -890,6 +890,7 @@ function (_PureComponent) {
       }
 
       if (_babel_runtime_helpers_typeof__WEBPACK_IMPORTED_MODULE_0___default()(data) === 'object' && type === 'text-suggestion') {
+        console.log(data, type);
         return data.map(function (option) {
           return {
             value: option,

@@ -84,7 +84,7 @@ frameworkGlobals.port = PORT;
 
 server.listen(PORT, async() => {
 	console.log(`server Listening on port ${PORT}`,  "environment",  process.env.NODE_ENV);
-	console.log(`Application Running`,  " ",  `http://localhost:${PORT}`);
+	console.log(`Application Running on`,  "",  `http://localhost:${PORT}`);
 	await open(`http://localhost:${PORT}/?type=unprocessed`);
 });
 

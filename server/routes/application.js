@@ -206,7 +206,8 @@ const googleCrawl = async ({ page, data }) => {
 				source : 'google'
 			},
 		1);
-		await page.goto(url, {waitUntil: ['load', 'domcontentloaded']});
+		await page.setDefaultNavigationTimeout(0);
+		await page.goto(url, {waitUntil: ['load', 'domcontentloaded'], timeout: 0});
 		//await page.waitFor(3000);
 		// Extract the links and titles of the search result page
 		//page.on('console', msg => console.log(msg.text()));
@@ -253,7 +254,8 @@ const corporation = async ({ page, data }) => {
 				source : 'corporationwiki'
 			},
 			1);
-		await page.goto(url, {waitUntil: ['load', 'domcontentloaded']});
+		await page.setDefaultNavigationTimeout(0);
+		await page.goto(url, {waitUntil: ['load', 'domcontentloaded'], timeout: 0});
 		//await waitForStdProcess(`Loading ${pageUrl}`, 1);
 		//await page.goto(pageUrl, {waitUntil: ['load', 'domcontentloaded', 'networkidle0', 'networkidle2']});
 		await page.waitFor("#results-stats");
@@ -291,6 +293,7 @@ const corporation = async ({ page, data }) => {
 			jsonData.push(company)
 			i++;
 		}
+
 		await waitForStdProcess({ msg : '', data: jsonData, className : "companies", source : 'corporationwiki'}, 1);
 		//await page.waitFor(3000);
 		//get full company address from company details page
@@ -299,7 +302,7 @@ const corporation = async ({ page, data }) => {
 
 			await waitForStdProcess({ msg : `Fetching People for ${company.name}, ${company.address}`, className : "company-fetching", source : 'corporationwiki'}, 1);
 			//await waitForStdProcess(`Loading ${company.link}`, 1);
-			await page.goto(company.link, {waitUntil: ['load', 'domcontentloaded']});
+			await page.goto(company.link, {waitUntil: ['load', 'domcontentloaded'], timeout: 0});
 			//await page.waitFor(10000)
 			// get all people & roles
 			jsonData[i]['people'] = await page.evaluate( selector => {
@@ -351,7 +354,7 @@ const corporation = async ({ page, data }) => {
 		await waitForStdProcess({ msg : `Fetch People addresses`, className : "company-people-details-title", source : 'corporationwiki'}, 1);
 		for (let people of peopleData) {
 			//await waitForStdProcess(`Loading ${people.link}`, 1);
-			await page.goto(people.link);
+			await page.goto(people.link, {waitUntil: ['load', 'domcontentloaded'], timeout: 0});
 
 			let fullAddress = await page.$$eval('.list-group-item span[itemprop="address"]', addresses => {
 				return addresses.map( address => address.innerText)
@@ -379,7 +382,6 @@ const corporation = async ({ page, data }) => {
 			indexPerson['fullAddresses'] = fullAddress;
 			jsonData[people.id]['people'][people.personIndex] = indexPerson;
 			await waitForStdProcess({ msg : '', className : "company-people-data", data :indexPerson,source : 'corporationwiki' },3);
-			//i++;
 		}
 		onSuccess(jsonData);
 	} catch (e) {
@@ -394,7 +396,9 @@ async function getCompany( { name, state }) {
 	const cluster = await Cluster.launch({
 		concurrency: Cluster.CONCURRENCY_BROWSER,
 		maxConcurrency: 2,
-		timeout : 100 * 1000,
+		timeout : 500 * 1000,
+		skipDuplicateUrls: true,
+		sameDomainDelay : 200 * 1000
 		/*puppeteerOptions : {
 			headless : false
 		}*/

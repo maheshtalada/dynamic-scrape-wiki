@@ -2363,7 +2363,7 @@ function (_CustomFormulaCalcula) {
     _this.state = {
       hasFocus: false,
       value: props.data.value,
-      suggestions: props.data.options,
+      //suggestions : props.data.options,
       showDropDown: false
     };
     _this._ignoreBlur = false;
@@ -2459,9 +2459,15 @@ function (_CustomFormulaCalcula) {
     value: function renderCustomData() {
       var _this4 = this;
 
-      var l = this.props.l;
-      var suggestions = this.state.suggestions;
-      return suggestions.map(function (option) {
+      var _this$props = this.props,
+          l = _this$props.l,
+          data = _this$props.data; //const { suggestions } = this.state;
+
+      if (!data.options) {
+        return null;
+      }
+
+      return data.options.map(function (option) {
         return _babel_runtime_helpers_jsx__WEBPACK_IMPORTED_MODULE_0___default()("li", {
           className: "pac-item",
           onMouseEnter: function onMouseEnter() {
