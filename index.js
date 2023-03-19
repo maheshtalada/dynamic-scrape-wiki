@@ -54,7 +54,7 @@ async function getCompany() {
         await page.goto(pageUrl, {waitUntil: ['load', 'domcontentloaded', 'networkidle0', 'networkidle2']});
 		await delay((Number(100) * 1000));
     } catch (e) {
-        console.error(e)
+        //console.error(e)
     } finally {
         //await waitForStdProcess(`${JSON.stringify(data[i],null,'\t')}`,3);
        // console.log(`${JSON.stringify(data,null,'\t')}`);
